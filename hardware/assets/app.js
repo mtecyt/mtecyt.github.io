@@ -300,3 +300,30 @@
     }).catch(function (e) { srcBox.innerHTML = '<p class="empty">' + esc(e.message) + "</p>"; });
   }
 })();
+
+/* GPU-Tycoon-Galerie: Lightbox (Esc schließt, ←/→ blättert, Klick daneben schließt) */
+(function () {
+  var gal = document.getElementById("tycoon-gallery"), lb = document.getElementById("lightbox");
+  if (!gal || !lb || typeof lb.showModal !== "function") return;
+  var shots = Array.prototype.slice.call(gal.querySelectorAll(".shot"));
+  var img = lb.querySelector("img"), cap = lb.querySelector("figcaption"), pos = 0, opener = null;
+  function show(i) {
+    pos = (i + shots.length) % shots.length;
+    var s = shots[pos];
+    img.src = s.getAttribute("data-full");
+    img.alt = s.querySelector("img").alt;
+    cap.textContent = s.getAttribute("data-caption") + " (" + (pos + 1) + "/" + shots.length + ")";
+  }
+  shots.forEach(function (s, i) {
+    s.addEventListener("click", function () { opener = s; show(i); lb.showModal(); });
+  });
+  lb.querySelector(".lb-close").addEventListener("click", function () { lb.close(); });
+  lb.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); show(pos - 1); });
+  lb.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); show(pos + 1); });
+  lb.addEventListener("click", function (e) { if (e.target === lb) lb.close(); });
+  lb.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") show(pos - 1);
+    else if (e.key === "ArrowRight") show(pos + 1);
+  });
+  lb.addEventListener("close", function () { if (opener) opener.focus(); });
+})();
