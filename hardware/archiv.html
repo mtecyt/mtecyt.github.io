@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>News- &amp; Leak-Archiv – M-TEC</title>
+<meta name="description" content="Archiv aller M-TEC News und Leaks zu Hardware, Software und Games, die älter als 7 Tage sind – nach Monat, filterbar und durchsuchbar.">
+<link rel="icon" href="assets/img/gpu-tycoon-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html"><b>M<i>-</i>TEC</b><small>Hardware, Software &amp; Games</small></a>
+<button class="nav-toggle" aria-label="Menü" aria-expanded="false">≡</button>
+<nav class="nav"><a href="index.html">Start</a><a href="archiv.html" class="active" aria-current="page">Archiv</a><a href="hardware-tests.html">Hardware-Tests</a><a href="gebraucht.html">Gebraucht-Hardware</a><a href="gpu-tycoon.html">GPU Tycoon</a><a href="ueber-uns.html">Über uns</a><a href="impressum.html">Impressum</a><a href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener" class="nav-ext">YouTube-Kanal ↗</a></nav>
+</div></header>
+<main>
+<section class="page"><div class="wrap">
+<p class="eyebrow">News &amp; Leaks · Archiv</p>
+<h1>Archiv</h1>
+<p class="lead">Alle Meldungen, die älter als 7 Tage sind – nach Monat sortiert. Aktuelle Meldungen stehen im <a href="index.html">News-Ticker</a>.</p>
+<div class="arch-tools">
+<div class="filter-groups">
+<div class="filters" role="group" aria-label="Art der Meldung"><span class="filter-label" aria-hidden="true">Art</span>
+<button type="button" class="chip" data-group="art" data-filter="alle" aria-pressed="true">Alle</button>
+<button type="button" class="chip" data-group="art" data-filter="News" aria-pressed="false">News</button>
+<button type="button" class="chip" data-group="art" data-filter="Leak" aria-pressed="false">Leaks</button>
+</div>
+<div class="filters" role="group" aria-label="Bereich"><span class="filter-label" aria-hidden="true">Bereich</span>
+<button type="button" class="chip" data-group="bereich" data-filter="alle" aria-pressed="true">Alle</button>
+<button type="button" class="chip" data-group="bereich" data-filter="hardware" aria-pressed="false">Hardware</button>
+<button type="button" class="chip" data-group="bereich" data-filter="software" aria-pressed="false">Software &amp; Games</button>
+</div>
+</div>
+<input class="arch-search" id="archive-search" type="search" placeholder="Archiv durchsuchen (z. B. RTX, DDR6, Windows)" aria-label="Archiv durchsuchen" autocomplete="off">
+<span class="count" id="archive-count" aria-live="polite"></span>
+</div>
+<div id="archive-list"><p class="empty">Lade Archiv …</p></div>
+<p class="arch-rule">Regel: Meldungen wandern 7 Tage nach Veröffentlichung ins Archiv; der Ticker zeigt aber immer mindestens die 4 neuesten. Im Archiv werden die Meldungen ohne Bild gezeigt.</p>
+<div class="ai-note"><div><b>KI-Hinweis:</b> Die Zusammenfassungen werden KI-gestützt (Grok Bot) aus den verlinkten Quellen erstellt und vor der Veröffentlichung von uns geprüft und freigegeben. Leaks sind unbestätigt – bitte immer die Originalquelle lesen.</div></div>
+</div></section>
+<dialog class="detail" id="news-modal" aria-labelledby="modal-title">
+<button class="close" type="button" id="modal-close" aria-label="Schließen">&#215;</button>
+<div class="detail-inner" id="modal-body"></div>
+</dialog>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div>© 2026 M-TEC · <a href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener">YouTube-Kanal @m4-tec</a> · Kontakt: <a href="mailto:mtec.yt@yahoo.com">mtec.yt@yahoo.com</a></div>
+<div><a href="archiv.html">News-Archiv</a> · <a href="quellen.html">Quellenliste</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="https://mtecyt.github.io/gpu-tycoon/privacy/">Datenschutz GPU Tycoon (App)</a></div>
+<div style="flex-basis:100%">Inhalte teilweise KI-gestützt erstellt. Alle Markennamen gehören ihren Inhabern.</div>
+</div></footer>
+<script src="assets/app.js" defer></script>
+<script src="data/news.js"></script>
+<script src="data/archive.js"></script>
+</body>
+</html>
