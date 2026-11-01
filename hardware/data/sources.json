@@ -9,7 +9,7 @@
     },
     "stand": "2026-11-01",
     "x_daten": "Follower/Aktivität per X-API am 01.11.2026 abgefragt (gerundet).",
-    "bereiche": "ticker_bereich: 'hardware' oder 'software' (Software & Games, inkl. Windows, Linux, Spiele). Seit 01.11.2026 enthält die Liste auch Software- und Games-Quellen."
+    "bereiche": "ticker_bereich: 'hardware', 'software' (Windows, Linux, Treiber, Sicherheit) oder 'games' (Spiele, Konsolen, Spiele-Stores). Seit 01.11.2026 enthält die Liste auch Software- und Games-Quellen; Software und Games sind seit 02.11.2026 getrennte Bereiche."
   },
   "quellen": [
     {
@@ -1208,7 +1208,7 @@
       "begruendung": "Fachlich solide in der Nische.",
       "vorsicht": "Community-nah, teils meinungsstark.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "omgubuntu",
@@ -1250,7 +1250,7 @@
       "begruendung": "Primärquelle – zu GTA 6 zählt nur, was Rockstar oder Take-Two bestätigen.",
       "vorsicht": "Newswire hat keinen RSS-Feed (geprüft 01.11.2026: 404) – manuell bzw. über X prüfen. GTA-'Leaks' aus anderen Konten sind fast immer niedrig einzustufen.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "take-two-ir",
@@ -1270,7 +1270,7 @@
       "begruendung": "Primärquelle für Termine und Geschäftszahlen.",
       "vorsicht": "Termine können sich verschieben – immer mit Datum der Mitteilung angeben.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "cdprojektred",
@@ -1293,7 +1293,7 @@
       "begruendung": "Primärquelle.",
       "vorsicht": "Der RSS-Feed hat nur wenige Einträge – X-Konten und IR-Seite zusätzlich prüfen.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "gamesradar",
@@ -1313,7 +1313,7 @@
       "begruendung": "Redaktionell geprüft, Interviews direkt mit Entwicklern.",
       "vorsicht": "Viele Guides/Listen – nur echte News übernehmen.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "eurogamer",
@@ -1333,7 +1333,7 @@
       "begruendung": "Sorgfältig und quellenbasiert.",
       "vorsicht": "Eigene Berichte 'laut Quellen' als Leak behandeln.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "pcgamer",
@@ -1354,7 +1354,7 @@
       "begruendung": "Redaktionell geprüft, PC-Fokus passt zu M-TEC.",
       "vorsicht": "Viele Meinungs- und Listenartikel.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "vgc",
@@ -1374,7 +1374,7 @@
       "begruendung": "Gut vernetzte Redaktion.",
       "vorsicht": "Exklusivmeldungen 'laut Quellen' sind Leaks – entsprechend kennzeichnen.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "polygon",
@@ -1394,7 +1394,7 @@
       "begruendung": "Nennt Quellen und verlinkt Originale.",
       "vorsicht": "Häufig Zweitquelle – Original (Studio, Edge usw.) verlinken.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "insider-gaming",
@@ -1415,7 +1415,7 @@
       "begruendung": "Eigene Quellen in der Branche, oft später bestätigt.",
       "vorsicht": "Termine und Details ändern sich; immer als Leak kennzeichnen. Sein X-Konto war bei der Prüfung gesperrt – nur die Website nutzen.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "billbil-kun",
@@ -1437,7 +1437,7 @@
       "begruendung": "Lange, gut dokumentierte Trefferserie bei Preisen und Listen.",
       "vorsicht": "Nur für Preise/Editionen/Abo-Listen hoch – zu Inhalten von Spielen nicht.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "gamestar",
@@ -1457,7 +1457,7 @@
       "begruendung": "Deutschsprachig, redaktionell geprüft.",
       "vorsicht": "Kein automatischer Abruf möglich (403) – nur manuell.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "heise",
@@ -1523,7 +1523,7 @@
       "begruendung": "Tests gut, News oft nur Weitergabe.",
       "vorsicht": "Gerüchte-Meldungen sind meist Zweitquelle – Ursprung suchen und verlinken.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     },
     {
       "id": "thegameverse",
@@ -1543,7 +1543,7 @@
       "begruendung": "Kein eigener Zugang; nur als Hinweis auf Trends, was gerade diskutiert wird.",
       "vorsicht": "Nie als Quelle verlinken – Ursprung suchen.",
       "geprueft_am": "2026-11-01",
-      "ticker_bereich": "software"
+      "ticker_bereich": "games"
     }
   ]
 }

@@ -73,7 +73,7 @@ h1,h2,h3{font-weight:600;letter-spacing:-.02em;line-height:1.2}
 /* Zwei Filtergruppen (Art, Bereich) */
 .filter-groups{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center}
 .filters{align-items:center;flex-wrap:wrap}
-.filter-label{color:var(--faint);font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:0 8px 0 10px}
+.filter-label{line-height:1;align-self:center;color:var(--faint);font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:0 8px 0 10px}
 .chip{min-height:32px}
 @media (max-width:620px){
   .filter-groups{width:100%}
@@ -297,3 +297,4 @@ dialog.lightbox::backdrop{background:rgba(5,6,8,.88)}
 .detail .full-h{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--faint);margin:0 0 10px;outline:none}
 .detail .detail-full .src{margin-top:18px}
 .site-footer .visit-count{color:var(--faint);font-variant-numeric:tabular-nums}
+@media (max-width:380px){.filter-label{flex-basis:46px;padding-left:6px;letter-spacing:.02em}.filter-groups .chip{padding:7px 3px;font-size:.8rem}}

@@ -110,10 +110,11 @@
     var f = e.bild && e.bild.datei;
     return /^assets\/img\/news\/[\w.-]+\.webp$/.test(f || "") ? f : "";
   }
-  // Bereich: "hardware" (Standard, auch für ältere Einträge ohne Feld) oder "software" (inkl. Games)
-  function area(e) { return e.bereich === "software" ? "software" : "hardware"; }
-  function areaName(e) { return area(e) === "software" ? "Software & Games" : "Hardware"; }
-  function topic(e) { return (e.themen && e.themen[0]) || (area(e) === "software" ? "Software" : "Hardware"); }
+  // Bereich: "hardware" (Standard, auch für ältere Einträge ohne Feld), "software" oder "games"
+  var AREA_NAMES = { hardware: "Hardware", software: "Software", games: "Games" };
+  function area(e) { return AREA_NAMES[e.bereich] ? e.bereich : "hardware"; }
+  function areaName(e) { return AREA_NAMES[area(e)]; }
+  function topic(e) { return (e.themen && e.themen[0]) || areaName(e); }
   function labels(e) {
     var isLeak = e.label === "Leak";
     var rel = e.zuverlaessigkeit || {};
@@ -213,15 +214,21 @@
       if (m) { if (m.classList.contains("detail-media")) m.remove(); else { m.classList.add("noimg"); t.remove(); } }
     }
   }, true);
-  // Zwei Filtergruppen: Art (alle/News/Leak) und Bereich (alle/hardware/software).
+  // Zwei Filtergruppen: Art (alle/News/Leak) und Bereich (alle/hardware/software/games).
   // Chips sind echte <button>s (Tastatur: Tab + Enter/Leertaste), aria-pressed zeigt die Auswahl je Gruppe.
   // Die Auswahl steht nur in der Adresse (?art=…&bereich=…), es wird nichts gespeichert (keine Cookies/kein Storage).
-  var FILTER_VALUES = { art: ["alle", "News", "Leak"], bereich: ["alle", "hardware", "software"] };
+  var FILTER_VALUES = { art: ["alle", "News", "Leak"], bereich: ["alle", "hardware", "software", "games"] };
+  // Alte bzw. alternative Adress-Werte weiterleiten statt zu ignorieren (z. B. ?bereich=Software, ?bereich=spiele).
+  var FILTER_ALIASES = { bereich: { sw: "software", spiele: "games", game: "games", gaming: "games", hw: "hardware" }, art: { news: "News", leak: "Leak", leaks: "Leak" } };
   function readFilterState() {
     var st = { art: "alle", bereich: "alle" };
     try {
       var q = new URLSearchParams(location.search);
-      Object.keys(st).forEach(function (g) { var v = q.get(g); if (v && FILTER_VALUES[g].indexOf(v) !== -1) st[g] = v; });
+      Object.keys(st).forEach(function (g) {
+        var v = q.get(g); if (!v) return;
+        if (FILTER_VALUES[g].indexOf(v) === -1) { var l = v.toLowerCase(); v = FILTER_ALIASES[g][l] || (FILTER_VALUES[g].indexOf(l) !== -1 ? l : null); }
+        if (v) st[g] = v;   // unbekannte Werte -> "alle"
+      });
     } catch (err) {}
     return st;
   }
@@ -245,7 +252,7 @@
   }
   function filterSummary(st) {
     var a = { alle: "", News: "News", Leak: "Leaks" }[st.art];
-    var b = { alle: "", hardware: "Hardware", software: "Software & Games" }[st.bereich];
+    var b = st.bereich === "alle" ? "" : AREA_NAMES[st.bereich];
     return [a, b].filter(Boolean).join(" · ");
   }
   function emptyHtml(st, extra) {
