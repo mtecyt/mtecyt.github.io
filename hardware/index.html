@@ -12,7 +12,7 @@
 <header class="site-header"><div class="wrap">
 <a class="brand" href="index.html"><b>M<i>-</i>TEC</b><small>Hardware &amp; Leaks</small></a>
 <button class="nav-toggle" aria-label="Menü" aria-expanded="false">≡</button>
-<nav class="nav"><a href="index.html" class="active" aria-current="page">Start</a><a href="hardware-tests.html">Hardware-Tests</a><a href="gebraucht.html">Gebraucht-Hardware</a><a href="gpu-tycoon.html">GPU Tycoon</a><a href="ueber-uns.html">Über uns</a><a href="impressum.html">Impressum</a></nav>
+<nav class="nav"><a href="index.html" class="active" aria-current="page">Start</a><a href="hardware-tests.html">Hardware-Tests</a><a href="gebraucht.html">Gebraucht-Hardware</a><a href="gpu-tycoon.html">GPU Tycoon</a><a href="ueber-uns.html">Über uns</a><a href="impressum.html">Impressum</a><a href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener" class="nav-ext">YouTube-Kanal ↗</a></nav>
 </div></header>
 <main>
 
@@ -38,6 +38,16 @@
 <div class="progress" aria-hidden="true"><span id="car-progress"></span></div>
 <div class="dots" id="car-dots" role="group" aria-label="Position wählen"></div>
 </div>
+<section class="latest-video" id="latest-video" aria-labelledby="lv-title" hidden>
+<a class="lv-thumb" id="lv-thumb" href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener"><img id="lv-img" alt="" width="640" height="360" loading="lazy" decoding="async"><span class="lv-play" aria-hidden="true"></span></a>
+<div class="lv-body">
+<p class="eyebrow">Neuestes Video</p>
+<h2 id="lv-title"></h2>
+<p class="lv-meta" id="lv-meta"></p>
+<p class="btn-row"><a class="btn" id="lv-link" href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener">Auf YouTube ansehen ↗</a><a class="btn ghost" href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener">YouTube-Kanal</a></p>
+<p class="lv-note">Die Links öffnen YouTube (Google). Das Vorschaubild liegt auf diesem Server – beim Laden dieser Seite wird nichts von YouTube geladen. <a href="datenschutz.html#youtube">Mehr dazu</a></p>
+</div>
+</section>
 <div class="info-row">
 <div><h3>So lesen Sie den Ticker</h3><ul>
 <li><span class="badge news">News</span>&nbsp; offiziell bestätigt oder selbst getestet</li>
@@ -57,11 +67,12 @@
 </dialog>
 </main>
 <footer class="site-footer"><div class="wrap">
-<div>© 2026 M-TEC · <a href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener">YouTube @m4-tec</a> · Kontakt: <a href="mailto:mtec.yt@yahoo.com">mtec.yt@yahoo.com</a></div>
+<div>© 2026 M-TEC · <a href="https://www.youtube.com/@m4-tec" target="_blank" rel="noopener">YouTube-Kanal @m4-tec</a> · Kontakt: <a href="mailto:mtec.yt@yahoo.com">mtec.yt@yahoo.com</a></div>
 <div><a href="quellen.html">Quellenliste</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="https://mtecyt.github.io/gpu-tycoon/privacy/">Datenschutz GPU Tycoon (App)</a></div>
 <div style="flex-basis:100%">Inhalte teilweise KI-gestützt erstellt. Alle Markennamen gehören ihren Inhabern.</div>
 </div></footer>
 <script src="assets/app.js" defer></script>
 <script src="data/news.js"></script>
+<script src="data/latest-video.js"></script>
 </body>
 </html>

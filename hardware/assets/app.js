@@ -327,3 +327,31 @@
   });
   lb.addEventListener("close", function () { if (opener) opener.focus(); });
 })();
+
+/* Startseite: neuestes YouTube-Video aus data/latest-video.json (erzeugt von scripts/update-latest-video.mjs).
+   Vorschaubild liegt lokal; YouTube wird erst per Klick auf den Link geöffnet. */
+(function () {
+  var box = document.getElementById("latest-video");
+  if (!box) return;
+  var p = (location.protocol === "file:" && window.MTEC_LATEST_VIDEO)
+    ? Promise.resolve(window.MTEC_LATEST_VIDEO)
+    : fetch("data/latest-video.json", { cache: "no-store" })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .catch(function () { return window.MTEC_LATEST_VIDEO || null; });
+  p.then(function (v) {
+    if (!v || !/^[\w-]{11}$/.test(v.video_id || "") || !/^assets\/img\/youtube\/[\w-]+\.(webp|jpg)$/.test(v.thumbnail || "")) return;
+    var link = "https://www.youtube.com/watch?v=" + v.video_id;
+    var day = v.veroeffentlicht;
+    try { day = new Intl.DateTimeFormat("de-AT", { timeZone: "Europe/Vienna", day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(v.veroeffentlicht)); } catch (e) {}
+    var img = document.getElementById("lv-img");
+    img.src = v.thumbnail;
+    img.alt = "Vorschaubild des Videos „" + v.titel + "“";
+    document.getElementById("lv-title").textContent = v.titel;
+    document.getElementById("lv-meta").textContent = "Veröffentlicht am " + day + " · M-TEC auf YouTube";
+    document.getElementById("lv-link").href = link;
+    var th = document.getElementById("lv-thumb");
+    th.href = link;
+    th.setAttribute("aria-label", "„" + v.titel + "“ auf YouTube ansehen (öffnet YouTube)");
+    box.hidden = false;
+  }).catch(function () {});
+})();
