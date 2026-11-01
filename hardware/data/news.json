@@ -1,0 +1,414 @@
+{
+  "_info": {
+    "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
+    "modus": "live",
+    "stand": "2026-11-01T17:57:00+01:00",
+    "zeitzone": "Europe/Vienna"
+  },
+  "eintraege": [
+    {
+      "id": "2026-11-01-rtx2080ti-22gb-pcgh",
+      "datum": "2026-11-01T13:43:00+01:00",
+      "label": "News",
+      "kategorie": "Gebraucht-Hardware",
+      "titel": "Gebrauchte RTX 2080 Ti mit 22 GB: PCGH testet den Speicher-Mod aus China",
+      "zusammenfassung": "PC Games Hardware hat eine modifizierte GeForce RTX 2080 Ti mit verdoppeltem Grafikspeicher getestet, die ein Leser über Alibaba gekauft hatte. Statt 11 GB sitzen auf der Platine elf 2-GB-Chips von Samsung, also 22 GB GDDR6 am unveränderten 352-Bit-Interface mit 616 GB/s. Ein geänderter Strap-Widerstand sorgt dafür, dass die Karte ohne modifiziertes BIOS und mit normalen Treibern läuft. In 1440p mit DLSS Quality fallen die Unterschiede zur 11-GB-Version meist klein aus, die Frametimes sind aber gleichmäßiger. In Microsoft Flight Simulator 2024 und Spider-Man 2 lag die Original-Karte laut Test rund 20 Prozent zurück. In 4K mit DLSS Performance und FSR Frame Generation stotterte die 11-GB-Karte stark, Indiana Jones stürzte sogar ab. Gemessen wurde eine Speicherbelegung von bis zu 13,9 GB in Spider-Man 2. Beim KI-Test mit ComfyUI brauchte die 22-GB-Karte etwa 315 Sekunden statt rund 540 Sekunden – eine RTX 5070 Ti schaffte dasselbe in etwa 85 Sekunden. Für Gebraucht-Käufer heißt das: Der Mod kann sich lohnen, ist aber ein Eingriff ohne Herstellergarantie, und die Qualität solcher Umbauten schwankt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/modded-geforce-rtx-2080-ti-22gb-tested-in-modern-games-doubled-vram-reduces-stuttering"
+      },
+      "weitere_links": [
+        {
+          "name": "PCGH-Test (Original)",
+          "url": "https://www.pcgameshardware.de/Geforce-RTX-2080-Ti-Grafikkarte-267862/Tests/RTX-2080-Ti-22GB-Alibaba-Hardware-Mod-Test-1554585/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Turing",
+        "VRAM",
+        "Mod",
+        "Gebraucht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-11-01-larrabee-fund",
+      "datum": "2026-11-01T11:15:00+01:00",
+      "label": "News",
+      "kategorie": "Hardware-Geschichte",
+      "titel": "Komplettes Intel-Larrabee-Entwicklersystem in Lagerraum entdeckt",
+      "zusammenfassung": "Ein Reddit-Nutzer hat bei der Versteigerung eines Lagerabteils ein vollständiges Entwicklungssystem für Intels nie erschienene Larrabee-GPU gefunden. Im Rechner steckt ein Intel-DX58SO-Mainboard mit einem Engineering-Sample im C0-Stepping, das als 'Intel Visual Adrenaline' bezeichnet wird. Dazu gehörten zwei USB-Sticks mit der Original-Software, die der Finder inzwischen im Internet Archive hochgeladen hat. Das System startet Windows 7 und unterstützt Direct3D. Laut Besitzer lief Crysis in 720p auf mittleren Details mit etwa 17 FPS, mit einem anderen Treiber angeblich mit rund 36 FPS – diese Werte sind nicht unabhängig geprüft. Intel hatte Larrabee als Grafikkarte 2010 eingestellt; die Technik lebte später in den Xeon-Phi-Beschleunigern weiter. Für Hardware-Sammler ist so ein vollständiges System mit Software eine echte Rarität.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/full-intel-larrabee-gpu-development-system-has-been-found-in-storage-unit-reportedly-runs-crysis"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Intel",
+        "Larrabee",
+        "Retro"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-31-nv-uefi-unlocker",
+      "datum": "2026-10-31T16:10:00+01:00",
+      "label": "News",
+      "kategorie": "Tools & Mods",
+      "titel": "Open-Source-Tool schaltet mehr KI-Leistung bei RTX 20, 30 und 40 frei",
+      "zusammenfassung": "Der Entwickler physicsdolphin hat mit 'nv-uefi-unlocker' ein Open-Source-Werkzeug veröffentlicht, das bei GeForce-Karten gedrosselte Recheneinheiten für KI-Workloads freischalten soll. Das Tool startet per USB-Stick vor dem eigentlichen Treiber und funktioniert anschließend auch unter Windows. Die Änderung ist nicht dauerhaft und muss nach jedem Kaltstart erneut angewendet werden. Unterstützt werden RTX 20, 30 und 40, GTX 16 nur experimentell, RTX 50 gar nicht. Voraussetzung ist ein deaktiviertes Secure Boot, Turing-Karten brauchen zusätzlich GSP-Firmware. Genannte Ergebnisse: Eine RTX 2070 legte bei FP32-GEMM um 67 bis 75 Prozent zu, eine RTX 4060 Laptop-GPU stieg bei FP16 von 29,89 auf 49,33 TFLOPS. Ein Nutzer mit RTX 3080 LHR meldete in ComfyUI mit SDXL etwa 29 Prozent mehr Tempo, bei der Textgenerierung mit LLMs bringt das Tool dagegen wenig. Wer das ausprobiert, tut das auf eigenes Risiko – für Spiele-Performance ist kein Vorteil belegt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/modders-create-automated-tool-to-unlock-ai-performance-on-nvidia-geforce-rtx-20-30-and-40-series-gpus"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "KI",
+        "Tool",
+        "Gebraucht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-31-altman-pc-ram",
+      "datum": "2026-10-31T09:31:00+01:00",
+      "label": "News",
+      "kategorie": "Speicher & Markt",
+      "titel": "Sam Altman: PC-RAM sei eine 'ziemlich schlechte' Nutzung knapper DRAM-Kapazität",
+      "zusammenfassung": "OpenAI-Chef Sam Altman hat im Podcast 'Cheeky Pint' mit Stripe-Mitgründer John Collison über die aktuelle Speicherknappheit gesprochen. Er bezeichnete es dort als 'quite terrible', dass DRAM in PCs stecke, die nur etwa fünf Prozent der Zeit genutzt würden. Die fünf Prozent sind seine eigene grobe Schätzung und keine belegte Zahl. Hintergrund ist, dass Speicherhersteller ihre Produktion zunehmend auf Server- und KI-Speicher verlagern, was die Preise für Endkunden-RAM treibt. VideoCardz widerspricht Altman in seinem Kommentar deutlich. Für PC-Bastler ist die Aussage vor allem ein Hinweis darauf, dass die RAM-Preise so schnell nicht wieder fallen dürften.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/openai-ceo-sam-altman-calls-pc-ram-a-quite-terrible-use-of-limited-dram-supply"
+      },
+      "weitere_links": [],
+      "tags": [
+        "DRAM",
+        "OpenAI",
+        "Preise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-30-nova-lake-28c-prognose",
+      "datum": "2026-10-30T14:25:00+01:00",
+      "label": "Leak",
+      "kategorie": "CPU",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Angebliche interne Intel-Folien, über Dritte geteilt; nicht unabhängig verifiziert, Ziele können sich geändert haben."
+      },
+      "titel": "Nova Lake-S mit 28 Kernen: Interne Prognose nennt 16 bis 33 % mehr Gaming-Leistung",
+      "zusammenfassung": "Laut VideoCardz zeigen interne Intel-Projektionen vom August 2026, wie viel schneller Nova Lake-S in Spielen werden soll. Grundlage ist Intels eigener 'Gaming Index', verglichen wird mit dem Core Ultra 9 285K. Eine 28-Kern-Variante mit 285 Watt PL1 soll bis zu 1,16-mal so schnell sein wie der 285K bei 250 Watt. Eine Variante mit zwei Compute-Tiles und 296 Watt soll bis zu 1,33-mal so schnell sein. Wichtig: Nova Lake lief dabei mit DDR5-8000 per XMP, Arrow Lake nur mit DDR5-6400 – ein Teil des Vorsprungs kommt also vom schnelleren Speicher. Weitere Angaben des X-Nutzers Haze, etwa +8 Prozent Single-Thread ohne und +17 Prozent mit großem Last-Level-Cache, sind laut VideoCardz nicht verifiziert. Solche Vorab-Prognosen sind Zielwerte und können sich bis zum Marktstart noch ändern. Offiziell hat Intel bislang nur bestätigt, dass Nova Lake auf dem 18A-P-Prozess basiert und weitere Details zur CES im Januar folgen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/intel-nova-lake-s-28c-with-ddr5-8000-projected-to-deliver-16-to-33-higher-gaming-performance-than-core-ultra-9-285k-with-ddr5-6400"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "CPU"
+      ],
+      "ursprungsquelle": "Haze (@Haze2K1) / angebliche Intel-Folien",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-30-rtx5080-marketplace",
+      "datum": "2026-10-30T13:13:00+01:00",
+      "label": "News",
+      "kategorie": "GPU",
+      "titel": "RTX 5080 verschwindet aus NVIDIAs US-Shop – nach der RTX 5090",
+      "zusammenfassung": "Die GeForce RTX 5080 ist aus dem offiziellen NVIDIA-Marketplace in den USA verschwunden, Reddit-Nutzern fiel das zuerst in der Filterliste auf. Bereits am 16. Oktober war die RTX 5090 entfernt worden, tauchte kurz mit 5.599 US-Dollar wieder auf und verschwand erneut – ihre UVP liegt bei 1.999 Dollar. Die günstigste RTX 5080 kostete am 28. Oktober bei US-Händlern 1.979,99 Dollar, bei Best Buy 1.999,99 Dollar, bei einer UVP von 999 Dollar. NVIDIA hatte zuvor bestritten, dass die RTX 5090 eingestellt sei. Alle Karten der RTX-50-Serie werden derzeit deutlich über UVP verkauft. Dass eine Karte aus dem Shop fliegt, beweist für sich genommen noch kein Produktionsende – es zeigt aber, wie knapp das Angebot ist.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/geforce-rtx-5080-disappears-from-nvidias-official-us-marketplace-following-rtx-5090-removal"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "RTX 5080",
+        "RTX 5090",
+        "Preise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-30-amd-preiserhoehung",
+      "datum": "2026-10-30T09:52:00+01:00",
+      "label": "Leak",
+      "kategorie": "GPU & Markt",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Händlerforum Board Channels; Preisdaten von Hardware Unboxed sind belegt, die geplante AMD-Erhöhung nicht."
+      },
+      "titel": "AMD soll im November erneut Radeon- und GDDR6-Preise anheben",
+      "zusammenfassung": "Nach Informationen aus dem chinesischen Händlerforum Board Channels hat AMD die Abgabepreise für Radeon-GPUs am 1. Oktober angehoben und könnte im November nachlegen. AMD überprüfe seine Preise quartalsweise, heißt es. Auch GDDR6-Speicher wurde im dritten Quartal um etwa 8 bis 10 Prozent teurer. Unabhängig davon hat Hardware Unboxed in zehn Ländern Grafikkartenpreise erfasst: Über drei Monate stiegen sie um rund 35 Prozent, allein im Oktober um 10 Prozent. Die RX 9060 XT 16GB wurde demnach 17 Prozent teurer, RX 9070 und RX 9070 XT jeweils etwa 12 Prozent. AMD hat die geplante Erhöhung nicht bestätigt. Wer eine Grafikkarte braucht, sollte die Preise beobachten – auch der Gebrauchtmarkt dürfte davon beeinflusst werden.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/amd-reportedly-plans-another-radeon-gpu-and-gddr6-price-increase-in-november"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "Radeon",
+        "Preise",
+        "GDDR6"
+      ],
+      "ursprungsquelle": "Board Channels",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-30-intel-q3-nova-lake-18a-p",
+      "datum": "2026-10-30T09:00:00+01:00",
+      "label": "News",
+      "kategorie": "CPU & Fertigung",
+      "titel": "Intel-Quartalszahlen: Nova Lake auf 18A-P liegt vor dem Zeitplan, Details zur CES",
+      "zusammenfassung": "In der Telefonkonferenz zum dritten Quartal 2026 (29. Oktober, US-Zeit) hat Intel bestätigt, dass Nova Lake das erste Client-Produkt auf dem 18A-P-Prozess wird. Die Entwicklung liege vor dem Zeitplan, und Intel erwartet doppelt so viele Design-Wins wie bei Panther Lake. Weitere Details sollen zur CES im Januar folgen. Die Ausbeute bei 18A verbessere sich laut Intel im zweistelligen Prozentbereich, 18A-P sei bis Jahresende auf Kurs. 18A-P soll bei gleicher Leistungsaufnahme etwa 9 Prozent mehr Takt oder bei gleichem Takt rund 18 Prozent weniger Verbrauch bringen. Für 14A wurde im Oktober das PDK 0.9 veröffentlicht, Version 1.0 folgt im ersten Quartal 2027, die Produktion ist für 2028 geplant. Bei den Servern kommen Diamond Rapids 2027 auf 18A-P und Coral Rapids 2028 auf 14A. Den PC-Markt sieht Intel dagegen in einer Korrektur, bis sich die Speicherpreise normalisieren – Intel rechnet mit rund 10 Prozent kleinerem Gesamtmarkt. Laut Tom's Hardware nimmt Intel zudem Panther-Lake-Kapazität vom Netz, um mehr Granite-Rapids-Server-CPUs zu bauen.",
+      "quelle": {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-nova-lake-will-use-advanced-18a-p-node-more-details-at-ces-company-says-its-taking-panther-lake-capacity-offline-to-build-more-granite-rapids-data-center-cpus"
+      },
+      "weitere_links": [
+        {
+          "name": "Transkript (The Motley Fool)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/intel-intc-q3-2026-earnings-call-transcript/"
+        },
+        {
+          "name": "Notizen von harukaze5719 auf X",
+          "url": "https://x.com/harukaze5719/status/2115983435156308476"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "18A-P",
+        "Nova Lake",
+        "Quartalszahlen"
+      ],
+      "datum_hinweis": "Uhrzeit geschätzt (Veröffentlichung am Morgen des 30.10.)",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-30-rtx5080-24gb",
+      "datum": "2026-10-30T08:50:00+01:00",
+      "label": "Leak",
+      "kategorie": "GPU",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Händlerforum Board Channels (China) plus BenchLife; mehrere Quellen, aber keine NVIDIA-Bestätigung."
+      },
+      "titel": "RTX 5080 mit 24 GB soll bis Januar 2027 kommen und die 16-GB-Version ersetzen",
+      "zusammenfassung": "Laut einem Bericht aus dem chinesischen Händlerforum Board Channels (ChannelGate) plant NVIDIA eine GeForce RTX 5080 mit 24 GB Speicher. Sie soll frühestens im Dezember 2026 und spätestens im Januar 2027 in China starten. Die bisherige 16-GB-Version sowie die RTX 5090 D V2 sollen dort auslaufen, die Restbestände an 16-GB-GPUs reichen angeblich noch etwa zwei Monate. BenchLife hatte bereits am 12. Oktober von einem Start im ersten Quartal 2027 berichtet, Boardpartner hätten aber nur mündliche Hinweise erhalten. Die 50 Prozent mehr Speicher dürften über 3-GB-GDDR7-Module am gleichen Interface realisiert werden. Name, Taktraten und Preis sind unbekannt. Auch die X-Accounts hongxing2020 und MEGAsizeGPU hatten Anfang Oktober über ein Ende der 16-GB-Variante bzw. der GB202-Lieferungen für die RTX 5090 spekuliert. NVIDIA hat nichts davon bestätigt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidia-rtx-5080-24gb-reportedly-launching-by-january-2027-replacing-16gb-model"
+      },
+      "weitere_links": [
+        {
+          "name": "harukaze5719 auf X",
+          "url": "https://x.com/harukaze5719/status/2116049396433596798"
+        },
+        {
+          "name": "hongxing2020 auf X (10.10.)",
+          "url": "https://x.com/hongxing2020/status/2108780640368017543"
+        },
+        {
+          "name": "MEGAsizeGPU auf X (10.10.)",
+          "url": "https://x.com/Zed__Wang/status/2108815493599801608"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "RTX 5080",
+        "GDDR7"
+      ],
+      "ursprungsquelle": "Board Channels / BenchLife",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-28-galax-dementi",
+      "datum": "2026-10-28T12:00:00+01:00",
+      "label": "News",
+      "kategorie": "Hersteller",
+      "titel": "Gerücht widerlegt: GALAX zieht sich nicht aus dem Grafikkartengeschäft zurück",
+      "zusammenfassung": "Die spanische Seite El Chapuzas Informático hatte 'exklusiv' berichtet, GALAX steige wegen fehlender NVIDIA-Chips aus dem GPU-Markt aus und Palit schließe die zugehörige Fabrik. GALAX hat das in einer offiziellen Stellungnahme zurückgewiesen: Es seien keine Produktionsstätten geschlossen worden, das Geschäft laufe normal weiter. Auch Palit, das sich mit GALAX Fabriken teilt, bestätigte gegenüber Medien, dass die Produktion weitergeht. Ein ähnliches Gerücht gab es bereits im April im Zusammenhang mit einer Umstrukturierung unter dem Palit-Hauptsitz in Taiwan. Erst am 22. Oktober hatte GALAX noch die RTX 5080 HOF Extreme vorgestellt. Für Käufer von KFA2-Karten – so heißt GALAX in Europa – ändert sich nach jetzigem Stand nichts an Garantie oder Support. Der Fall zeigt, warum wir 'exklusive' Einzelberichte ohne Zweitquelle als unbestätigt kennzeichnen.",
+      "quelle": {
+        "name": "GALAX (offizielle Stellungnahme)",
+        "url": "https://galax.com/en/news/official-statement-regarding-galaxs-business-operations/"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/palit-denies-galax-factory-closure-says-gpu-production-continues"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-gpu-vendor-palit-denies-its-galax-factory-has-closed-due-to-a-shortage-of-chips-company-says-brand-continues-to-operate-as-usual"
+        },
+        {
+          "name": "Ursprüngliches Gerücht (El Chapuzas Informático)",
+          "url": "https://elchapuzasinformatico.com/2026/10/exclusiva-galax-abandona-el-mercado-de-las-gpu-no-hay-suficientes-chips-de-nvidia/"
+        }
+      ],
+      "tags": [
+        "GALAX",
+        "KFA2",
+        "Palit",
+        "Dementi"
+      ],
+      "datum_hinweis": "Uhrzeit geschätzt",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-25-ddr6-camm2",
+      "datum": "2026-10-25T12:00:00+02:00",
+      "label": "News",
+      "kategorie": "Speicher",
+      "titel": "DDR6: 192-Bit-Speicherinterfaces und CAMM2 statt klassischer DIMMs",
+      "zusammenfassung": "3DCenter hat zusammengetragen, was zum kommenden DDR6-Standard bekannt ist, und am 25. Oktober um einen Nachtrag ergänzt. DDR6 soll auf PAM4-Signalisierung setzen und mit 24 Bit breiten Speicherchips arbeiten. Ein Modul besteht demnach aus vier 24-Bit-Kanälen, die Speicherinterfaces der CPUs wachsen in 96-Bit-Schritten – im Desktop typischerweise auf 192 Bit. Als Bauform ist CAMM2 vorgesehen statt der heutigen UDIMM- und SO-DIMM-Riegel. Genannt werden Datenraten von 8.800 bis über 17.600 MT/s. Laut einer SK-Hynix-Roadmap ist mit DDR6 nicht vor 2029 im Server und 2030 bei Endkunden zu rechnen. Die JEDEC-Spezifikation ist noch nicht final, ein alternativer Vorschlag mit 16-Bit-Kanälen wird ebenfalls diskutiert.",
+      "quelle": {
+        "name": "3DCenter.org",
+        "url": "https://www.3dcenter.org/news/ddr6-speicher-fuer-192-bit-speicherinterfaces-camm2-bauform-anstatt-udimm-sodimm"
+      },
+      "weitere_links": [],
+      "tags": [
+        "DDR6",
+        "CAMM2",
+        "JEDEC"
+      ],
+      "datum_hinweis": "Datum des Nachtrags; Uhrzeit geschätzt",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-10-02-core-ultra-4000-lineup",
+      "datum": "2026-10-02T00:15:00+02:00",
+      "label": "Leak",
+      "kategorie": "CPU",
+      "zuverlaessigkeit": {
+        "stufe": "mittel-hoch",
+        "hinweis": "Lineup-Leak, von kopite7kimi (hohe Zuverlässigkeit) kommentiert; von Intel nicht bestätigt."
+      },
+      "titel": "Core Ultra 4000 'Nova Lake-S': Lineup mit Core Ultra 9 4970K BFC an der Spitze",
+      "zusammenfassung": "Anfang Oktober ist eine Liste mit sieben Desktop-Prozessoren der kommenden Core-Ultra-4000-Serie aufgetaucht. An der Spitze steht demnach ein Core Ultra 9 4970K 'BFC' mit 28 Kernen, großem Last-Level-Cache (bLLC) und 125 Watt Basis-Leistungsaufnahme, noch über dem 4950K. Der bLLC gilt als Intels Antwort auf AMDs X3D-Prozessoren mit 3D V-Cache. Der bekannte Leaker kopite7kimi kommentierte den Bericht am 13. Oktober: Der große Cache solle die Gaming-Leistung von Nova Lake retten, denn die regulären Modelle ohne bLLC seien in Spielen ähnlich schnell wie Arrow Lake. Intel selbst hat bisher keine Modellnamen genannt – offiziell ist nur der 18A-P-Prozess und eine Vorstellung zur CES. Modellnamen, Kernzahlen und TDP-Werte können sich bis zum Start noch ändern.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/intel-core-ultra-4000-nova-lake-s-lineup-leaks-core-ultra-9-4970k-bfc-appears-above-4950k"
+      },
+      "weitere_links": [
+        {
+          "name": "kopite7kimi auf X (13.10.)",
+          "url": "https://x.com/kopite7kimi/status/2109836679263711292"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "Core Ultra 4000"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    },
+    {
+      "id": "2026-09-21-kopite-gr20x-2028",
+      "datum": "2026-09-21T05:46:00+02:00",
+      "label": "Leak",
+      "kategorie": "GPU",
+      "zuverlaessigkeit": {
+        "stufe": "hoch",
+        "hinweis": "kopite7kimi hat eine lange Historie bei NVIDIA-Leaks; Zeitangaben sind aber unsicherer als technische Details."
+      },
+      "titel": "kopite7kimi: NVIDIAs GR20x-Generation erst 2028",
+      "zusammenfassung": "Der bekannte NVIDIA-Leaker kopite7kimi schreibt auf X, dass die GR20x-Chips ein Produkt für 2028 seien – NVIDIA habe also erneut verschoben. Gemeint ist nach gängiger Lesart die Gaming-Generation nach Blackwell, die nach NVIDIAs Rechenzentrums-Architektur 'Rubin' benannt sein dürfte. Er kündigte zudem an, bis zu gesicherten Neuigkeiten weniger Updates zu posten, und verwies dabei auf 'Lessons learned' – offenbar eine Reaktion auf geänderte Pläne bei früheren Leaks. Unsere Einordnung: Für 2027 wären damit eher Auffrischungen der RTX-50-Reihe denkbar, etwa mit mehr Speicher wie bei der gemeldeten RTX 5080 24GB. NVIDIA selbst hat zu diesem Zeitplan nichts bestätigt. Auch bei zuverlässigen Leakern gilt: Termine verschieben sich häufiger als technische Eckdaten.",
+      "quelle": {
+        "name": "kopite7kimi auf X",
+        "url": "https://x.com/kopite7kimi/status/2101880826422313319"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "Rubin",
+        "Roadmap"
+      ],
+      "ursprungsquelle": "kopite7kimi",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true
+    }
+  ]
+}
