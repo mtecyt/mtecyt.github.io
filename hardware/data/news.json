@@ -2,10 +2,169 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-01T21:15:01.075Z",
+    "stand": "2026-11-02T06:19:23.953Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-02-rtx5090-pro5500-igorslab",
+      "datum": "2026-11-02T05:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "RTX 5090 gegen RTX PRO 5500: igor'sLAB prüft, ob NVIDIAs Profikarte der Gaming-GPU die Chips wegnimmt",
+      "schlagzeile": "Über 8.000 Euro für eine RTX 5090: Nimmt NVIDIAs Profikarte ihr die Chips weg?",
+      "kurz": "Eine sofort lieferbare RTX 5090 kostete laut igor'sLAB am 1.11.2026 bei einem deutschen Händler 8.059 Euro, die UVP der Founders Edition liegt bei 2.099 Euro. Die Analyse prüft, ob NVIDIA passende GB202-Chips lieber in die kommende Profikarte RTX PRO 5500 steckt, die gleich viele Recheneinheiten hat. Das Ergebnis: wirtschaftlich plausibel, aber öffentlich nicht belegt.",
+      "zusammenfassung": "igor'sLAB hat untersucht, warum die GeForce RTX 5090 zu ihrem ursprünglichen Preis kaum noch zu bekommen ist. In einer Händler-Stichprobe vom 1.11.2026 kostete eine sofort lieferbare INNO3D RTX 5090 iCHILL X3 bei ALTERNATE 8.059 Euro, eine ZOTAC Solid OC White bei Caseking 8.499 Euro. Die deutsche UVP der Founders Edition liegt bei 2.099 Euro, die Founders Edition ist dort aber als nicht verfügbar gelistet. Im Mittelpunkt steht die kommende RTX PRO 5500 Blackwell Workstation Edition: Sie nutzt laut Partnerangaben ebenfalls den großen GB202-Chip mit 170 aktiven Streaming-Multiprozessoren und 21.760 CUDA-Kernen, hat aber 84 GB GDDR7 mit ECC statt 32 GB. Reuters berichtete am 20.10.2026 unter Berufung auf anonyme Quellen von mehr als drei Millionen bestellten PRO-5500-Karten aus China zu rund 11.400 Dollar pro Stück. Damit hätte NVIDIA einen Anreiz, geeignete Chips eher in die teure Profikarte zu stecken als in die Gaming-Karte. igor'sLAB betont aber, dass das öffentlich nicht nachgewiesen ist: Es gibt weder Daten zur Chip-Ausbeute noch zur Verteilung der Chips auf die beiden Produkte. Zudem war die Versorgung mit Gaming-Karten schon vor den gemeldeten PRO-5500-Bestellungen knapp, und reguläre Lieferungen der Profikarte sollen erst im ersten Quartal 2027 beginnen. Als weiteren Engpass nennt die Analyse den GDDR7-Speicher, der laut TrendForce zunehmend für KI- und Serveranwendungen eingeplant wird. Die Rechenbeispiele zu Kosten und Margen im Artikel beruhen ausdrücklich auf frei gewählten Annahmen und sind keine echten NVIDIA-Zahlen. Das Fazit von igor'sLAB: Die Profikarte ist ein ernstzunehmender Konkurrent um Chips und Speicher, eine messbare Verdrängung der RTX 5090 ist aber nicht belegt.",
+      "quelle": {
+        "name": "igor'sLAB",
+        "url": "https://www.igorslab.de/geforce-rtx-5090-wenn-selbst-der-teilaktivierte-chip-fuer-spieler-zu-wertvoll-wird-analyse/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "RTX 5090",
+        "RTX PRO 5500",
+        "GPU-Preise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.739Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-02-rtx5090-pro5500-igorslab.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-01-linux-7-4-rc1",
+      "datum": "2026-11-01T22:51:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Linux 7.4-rc1 veröffentlicht: Größtes Merge-Window der Kernel-Geschichte, viel davon durch KI angestoßen",
+      "schlagzeile": "Linux 7.4: Rekord-Update dank KI-Flut – und Torvalds findet das gut",
+      "kurz": "Linus Torvalds hat die erste Testversion von Linux 7.4 veröffentlicht. Das Merge-Window war mit fast 20.000 Commits das größte der Kernel-Geschichte, ein großer Teil davon wurde durch KI-Werkzeuge angestoßen. Neu sind unter anderem Vorbereitungen für AMDs Zen-6-Prozessoren und HDMI 2.1 als Standard im AMDGPU-Treiber.",
+      "zusammenfassung": "Linus Torvalds hat am Sonntagabend Linux 7.4-rc1 veröffentlicht und damit das Merge-Window planmäßig abgeschlossen. Laut Torvalds war es mit fast 20.000 Commits statt der üblichen rund 15.000 außergewöhnlich groß, laut Phoronix das größte der Kernel-Geschichte. Als Hauptgrund nennt Torvalds die Flut an KI-angestoßenen Änderungen. Er sieht das positiv: Es sei ihm deutlich lieber, wenn diese Arbeit im Merge-Window landet statt als Welle von Korrekturen in der Testphase. Ein weiterer Grund könnte laut Torvalds sein, dass Linux 7.4 als nächste Long-Term-Support-Version erwartet wird. Ein Drittel des Patches besteht nach seinen Worten allein aus AMD-GPU-Registerdefinitionen. Zu den Neuerungen zählen laut Phoronix die Unterstützung für kommende Ryzen-Prozessoren mit Zen 6, HDMI 2.1 als Standard im AMDGPU-Treiber und die Funktion AMD PerfOpt für bessere KI-Leistung auf Radeon-iGPUs. Dazu kommen Intel-IPU8-Unterstützung für kommende Nova-Lake-Laptops, mehr Unterstützung für Snapdragon-X2-Laptops, erste Grundlagen für Apples M4 (noch nicht alltagstauglich) und schnellere Kernel-Builds. Bis zur finalen Version folgen nun mehrere Testversionen. Läuft alles nach Plan, erscheint Linux 7.4 laut Phoronix am 20.12.2026. Normale Nutzer warten am besten, bis ihre Distribution den neuen Kernel ausliefert.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Linux-7.4-rc1"
+      },
+      "weitere_links": [
+        {
+          "name": "LWN.net: Kernel prepatch 7.4-rc1",
+          "url": "https://lwn.net/Articles/1104654/"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "Kernel",
+        "Linux 7.4",
+        "AMD"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.831Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-01-linux-7-4-rc1.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-01-gta6-210gb-download",
+      "datum": "2026-11-01T20:31:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Games",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Stammt vom Daten-Account @PlaystationSize (wertet Store-Daten aus); Insider Gaming gibt an, die Zahl bestätigen zu können. Nicht offiziell von Rockstar oder Take-Two bestätigt; die Größe kann sich bis zum Start und durch einen Day-One-Patch ändern."
+      },
+      "ursprungsquelle": "PlayStation Game Size (@PlaystationSize) auf X, 27.10.2026",
+      "titel": "GTA 6: Download-Größe von 210 GB für die PS5 aufgetaucht",
+      "schlagzeile": "Leak: Braucht GTA 6 satte 210 GB auf der PS5?",
+      "kurz": "Laut dem Daten-Account PlayStation Game Size soll der PS5-Download von GTA 6 rund 210 GB groß sein, Insider Gaming will das bestätigen können. Offiziell hat Rockstar keine Größe genannt, die Zahl ist also unbestätigt. Fest steht: Digitale Vorbesteller dürfen ab dem 12.11.2026 vorladen, das Spiel erscheint am 19.11.2026.",
+      "zusammenfassung": "Der auf Store-Daten spezialisierte X-Account PlayStation Game Size (@PlaystationSize) hat am 27.10.2026 eine Download-Größe von 210 GB für die Standard-Edition von Grand Theft Auto VI auf der PlayStation genannt. Insider Gaming berichtete am 1.11.2026 darüber und schreibt, die Angabe bestätigen zu können. Damit wäre GTA 6 laut Insider Gaming eines der größten Spiele überhaupt. Offiziell bestätigt haben Rockstar Games oder Take-Two die Größe bislang nicht, die Zahl gilt deshalb als unbestätigt. Auch Insider Gaming weist darauf hin, dass sich die Größe bis zum Start noch ändern kann und ein Day-One-Patch zusätzlichen Speicherplatz kosten könnte. Für die Xbox-Version nennt die Quelle keine Zahl. Offiziell bestätigt sind dagegen die Termine: Wer digital vorbestellt, kann laut Rockstar ab dem 12.11.2026 vorladen, das Spiel erscheint am 19.11.2026 für PlayStation 5 und Xbox Series X|S. Auch die Box-Version enthält laut Rockstar nur einen Download-Code und ist ebenfalls ab dem 12.11.2026 erhältlich. Die Standard-Edition kostet laut Rockstar 79,99 US-Dollar, die Ultimate Edition 99,99 US-Dollar. Wer zum Start loslegen will, sollte also rechtzeitig reichlich Platz auf der Konsole einplanen.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/gta-6-install-size-revealed-210-gb/"
+      },
+      "weitere_links": [
+        {
+          "name": "Take-Two/Rockstar: Vorbestellung, Vorladen ab 12.11.2026, Start 19.11.2026 (offiziell)",
+          "url": "https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "PS5",
+        "Speicherplatz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.784Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-01-gta6-210gb-download.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-01-windows11-26h2-alle",
+      "datum": "2026-11-01T18:22:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11 26H2 jetzt für alle geeigneten PCs verfügbar, auch direkt von Windows 10",
+      "schlagzeile": "Windows 11 26H2 ist jetzt für alle da – auch für Windows-10-PCs",
+      "kurz": "Microsoft hat die schrittweise Verteilung von Windows 11 26H2 abgeschlossen: Laut Microsoft ist das Update seit dem 28.10.2026 für alle geeigneten Geräte verfügbar. Laut Neowin wird es nun auch kompatiblen Windows-10-PCs direkt über Windows Update angeboten. Voraussetzung bleibt, dass der PC die Hardware-Anforderungen von Windows 11 erfüllt.",
+      "zusammenfassung": "Microsoft hat Windows 11 26H2 Ende September 2026 allgemein veröffentlicht, aber wie üblich schrittweise verteilt. So sollen größere Probleme nicht sofort viele Geräte auf einmal treffen, was vor allem für Unternehmen wichtig ist. Zunächst erreichte die Verteilung laut Neowin die volle Verfügbarkeit für Geräte mit Windows 11 25H2 und 24H2. Nun schreibt Microsoft, dass Windows 11 26H2 mit Stand 28.10.2026 für alle geeigneten Geräte verfügbar ist. Laut Neowin gilt das auch für kompatible Windows-10-PCs, denen das Update jetzt direkt über Windows Update angeboten wird. Die Redaktion hat das nach eigenen Angaben auf einem eigenen Windows-10-Rechner beobachtet. Wer bereits Windows 11 24H2 oder 25H2 nutzt und das Update noch nicht angeboten bekommt, kann laut Neowin das Enablement-Paket eKB5121794 manuell installieren. Das funktioniert allerdings nicht von Windows 10 oder älteren Windows-11-Versionen aus. Für eine Neuinstallation gibt es aktuelle ISO-Dateien über Microsofts Media Creation Tool. Laut Neowin braucht 26H2 weniger Arbeitsspeicher und fühlt sich flotter an, das ist allerdings eine Einschätzung der Redaktion. Ein Haken bleibt: Nur PCs, die die Hardware-Anforderungen von Windows 11 erfüllen, bekommen das Angebot.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "26H2",
+        "Windows 10",
+        "Windows Update"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.876Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-01-windows11-26h2-alle.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-01-rtx2080ti-22gb-pcgh",
       "datum": "2026-11-01T13:43:00+01:00",
@@ -109,6 +268,47 @@
         "ki_generiert": true
       },
       "bereich": "hardware"
+    },
+    {
+      "id": "2026-10-31-amd-adrenalin-26-10-2",
+      "datum": "2026-10-31T13:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber"
+      ],
+      "kategorie": "Grafiktreiber",
+      "titel": "AMD Adrenalin 26.10.2: Optionaler Radeon-Treiber behebt zehn Fehler, mehrere Probleme bleiben offen",
+      "schlagzeile": "Radeon-Abstürze: AMDs neuer Treiber behebt zehn Fehler – aber nicht alle",
+      "kurz": "AMD hat den optionalen Grafiktreiber Adrenalin 26.10.2 veröffentlicht, der zehn Fehler behebt, darunter Treiber-Timeouts, Abstürze und Systemabschaltungen auf Radeon RX 7000 und RX 9000. Neue Spiele-Unterstützung bringt er nicht. Mehrere bekannte Probleme, etwa in Cyberpunk 2077 und Assassin's Creed Black Flag Resynced, bleiben offen.",
+      "zusammenfassung": "AMD hat am 30.10.2026 den optionalen Grafiktreiber Adrenalin Edition 26.10.2 für Windows veröffentlicht. Laut den offiziellen Release Notes ist es ein reines Fehlerbehebungs-Update mit zehn Korrekturen. Behoben sind unter anderem Abstürze oder Treiber-Timeouts, wenn bei aktivem AMD-Leistungs-Overlay weitere Overlays wie die Xbox Game Bar geöffnet oder geschlossen werden. Auch der Steam-Client stürzte auf Radeon-Karten teils beim Start ab, das soll nun behoben sein. Auf der RX 7600 beseitigt der Treiber Systemabschaltungen in Valor Mortis, auf der übrigen RX-7000-Serie Treiber-Timeouts im selben Spiel. Für die RX-9000-Serie behebt AMD Hänger in Death Stranding 2 mit aktiviertem FSR und Abstürze beim Wechseln zwischen Anwendungen mit FSR Frame Generation. Dazu kommen Korrekturen bei der Videowiedergabe unter Windows 11 mit hardwarebeschleunigter GPU-Planung (HAGS) und ein Fehler im AMD Install Manager. Nicht alles ist gelöst: In Assassin's Creed Black Flag Resynced kann es auf der RX 7000 weiter zu Abstürzen kommen, in War Thunder auf der RX 5000 zu Timeouts. Für War Thunder empfiehlt AMD vorerst den älteren Treiber 26.9.1. In Cyberpunk 2077 kann es auf einigen RX-9000-Karten abstürzen, wenn FSR-Upscaling, Anti-Lag und Frame Generation aktiv sind und auf einem zweiten Bildschirm ein Video läuft; AMD rät dann, die Frame Generation im Spiel abzuschalten. Außerdem kann laut AMD unter Windows 10 nach der Installation Smart Access Memory deaktiviert sein, das sollte man im Zweifel im Treiber prüfen. Wer keines der behobenen Probleme hat, muss den optionalen Treiber nicht sofort installieren.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/AMD-Adrenalin-26-10-2-Update-behebt-Treiberabstuerze-auf-Radeon-Grafikkarten-1558489/"
+      },
+      "weitere_links": [
+        {
+          "name": "AMD: Release Notes Adrenalin Edition 26.10.2 (offiziell)",
+          "url": "https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-10-2.html"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Radeon",
+        "Treiber",
+        "Adrenalin"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.915Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-10-31-amd-adrenalin-26-10-2.webp",
+        "ki_generiert": true
+      }
     },
     {
       "id": "2026-10-31-altman-pc-ram",

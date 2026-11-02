@@ -1,7 +1,16 @@
 /* M-TEC Hardware. Statisch, ohne Abhängigkeiten.
-   Daten: data/news.json (fetch). Ticker als Karussell mit Detail-Modal. Fallback für file://: data/news.js setzt window.MTEC_NEWS. */
+   Daten: data/news.json (fetch). Ticker als Karussell mit Detail-Modal. Fallback für file://: data/news.js setzt window.MTEC_NEWS.
+   Texte der Oberfläche: T("schlüssel") – deutsches Original in assets/i18n.js (UI_DE), Übersetzungen in assets/i18n/<lang>.json. */
+// Sprache/Übersetzungen kommen aus assets/i18n.js (window.MTEC_LANG). Ohne diese Datei läuft alles auf Deutsch.
+var I18N = window.MTEC_LANG || {
+  code: "de", locale: "de-AT", isDe: true, version: "", explicit: function () { return false; },
+  t: function (k, v) { return k; }, tn: function (k, n) { return String(n); }, withLang: function (h) { return h; },
+  vurl: function (u) { return u; }, ready: Promise.resolve(), news: function () { return Promise.resolve(null); }
+};
+I18N.ready.then(function () {
 (function () {
   "use strict";
+  var T = I18N.t, TN = I18N.tn, LOC = I18N.locale;
 
   // Besucherstatistik (GoatCounter, ohne Cookies) – NUR auf der echten Website.
   // Entspricht dem offiziellen Snippet
@@ -25,8 +34,8 @@
           if (!n || n < 1) return;
           var el = document.createElement("span");
           el.className = "visit-count";
-          el.title = "Besuche insgesamt, gezählt mit GoatCounter (ohne Cookies) – siehe Datenschutz";
-          el.textContent = n.toLocaleString("de-DE") + " Besucher";
+          el.title = T("visits_title");
+          el.textContent = TN("visits", n);
           foot.appendChild(document.createTextNode(" · "));
           foot.appendChild(el);
         }).catch(function () {});
@@ -52,17 +61,17 @@
 
   function fmtDate(iso) {
     try {
-      return new Intl.DateTimeFormat("de-AT", {
+      return new Intl.DateTimeFormat(LOC, {
         timeZone: "Europe/Vienna", day: "2-digit", month: "2-digit", year: "numeric",
         hour: "2-digit", minute: "2-digit"
-      }).format(new Date(iso)) + " Uhr (Wien)";
+      }).format(new Date(iso)) + " " + T("time_suffix");
     } catch (e) { return iso; }
   }
 
   function loadJson(path, globalName) {
     // file:// – fetch ist dort gesperrt, direkt den Fallback aus data/*.js nehmen
     if (location.protocol === "file:" && window[globalName]) return Promise.resolve(window[globalName]);
-    return fetch(path, { cache: "no-store" })
+    return fetch(I18N.vurl(path), { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .catch(function () {
         if (window[globalName]) return window[globalName];
@@ -72,7 +81,7 @@
 
   function fmtDay(iso) {
     try {
-      return new Intl.DateTimeFormat("de-AT", { timeZone: "Europe/Vienna", day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(iso));
+      return new Intl.DateTimeFormat(LOC, { timeZone: "Europe/Vienna", day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(iso));
     } catch (e) { return iso; }
   }
   function teaser(text) {
@@ -111,17 +120,44 @@
     return /^assets\/img\/news\/[\w.-]+\.webp$/.test(f || "") ? f : "";
   }
   // Bereich: "hardware" (Standard, auch für ältere Einträge ohne Feld), "software" oder "games"
-  var AREA_NAMES = { hardware: "Hardware", software: "Software", games: "Games" };
+  var AREA_NAMES = { hardware: T("area_hardware"), software: T("area_software"), games: T("area_games") };
   function area(e) { return AREA_NAMES[e.bereich] ? e.bereich : "hardware"; }
   function areaName(e) { return AREA_NAMES[area(e)]; }
   function topic(e) { return (e.themen && e.themen[0]) || areaName(e); }
+  function level(s) { s = s || "unbekannt"; var v = T("level_" + s); return v === "level_" + s ? s : v; }
+  function cat(s) { var v = T("cat_" + s); return v === "cat_" + s ? s : v; }
+
+  // ---- Übersetzte Einträge (data/i18n/<lang>.js). Deutsch ist das Original; fehlt eine Übersetzung oder
+  // wurde der deutsche Text danach geändert (Prüfsumme _src passt nicht), wird das deutsche Original gezeigt. ----
+  function srcHash(e) {   // FNV-1a 32 Bit – gleiche Funktion in scripts/update-news.mjs
+    var rel = e.zuverlaessigkeit || {};
+    var s = JSON.stringify([e.titel || "", e.schlagzeile || "", e.kurz || "", e.zusammenfassung || "", rel.hinweis || "", e.datum_hinweis || "", e.ursprungsquelle || "", (e.weitere_links || []).map(function (l) { return l.name || ""; })]);
+    var h = 0x811c9dc5;
+    for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+    return ("0000000" + h.toString(16)).slice(-8);
+  }
+  function localize(list, tr) {
+    if (I18N.isDe) return list;
+    return list.map(function (e) {
+      var x = tr && tr[e.id], o = {};
+      for (var k in e) o[k] = e[k];
+      if (!x || x._src !== srcHash(e)) { o._fallback = true; return o; }
+      ["titel", "schlagzeile", "kurz", "zusammenfassung", "datum_hinweis", "ursprungsquelle"].forEach(function (k) { if (x[k]) o[k] = x[k]; });
+      if (e.zuverlaessigkeit) { o.zuverlaessigkeit = { stufe: e.zuverlaessigkeit.stufe, hinweis: x.zuverlaessigkeit_hinweis || e.zuverlaessigkeit.hinweis }; }
+      if (e.weitere_links) o.weitere_links = e.weitere_links.map(function (l, i) { return { name: (x.weitere_links && x.weitere_links[i]) || l.name, url: l.url }; });
+      o._de = e; o._translated = true;
+      return o;
+    });
+  }
+  function rating(full, lvl, rest) { var v = T("rating_" + full); return v === "rating_" + full ? level(lvl) + rest : v; }
+  function langAttr(e) { return e._fallback ? ' lang="de"' : ""; }
   function labels(e) {
     var isLeak = e.label === "Leak";
     var rel = e.zuverlaessigkeit || {};
-    var h = '<div class="labels"><span class="badge ' + (isLeak ? "leak" : "news") + '">' + esc(e.label) + "</span>";
-    if (isLeak) h += '<span class="badge plain" title="Unsere Einschätzung der Quelle – unbestätigt">Zuverlässigkeit: ' + esc(rel.stufe || "unbekannt") + "</span>";
-    h += '<span class="badge area" title="Bereich: ' + esc(areaName(e)) + '">' + esc(topic(e)) + "</span>";
-    if (!e.approved) h += '<span class="badge draft" title="Noch nicht freigegeben">Entwurf</span>';
+    var h = '<div class="labels"><span class="badge ' + (isLeak ? "leak" : "news") + '">' + esc(T("label_" + e.label)) + "</span>";
+    if (isLeak) h += '<span class="badge plain" title="' + esc(T("reliability_title")) + '">' + esc(T("reliability", { stufe: level(rel.stufe) })) + "</span>";
+    h += '<span class="badge area" title="' + esc(T("area_title", { name: areaName(e) })) + '">' + esc(topic(e)) + "</span>";
+    if (!e.approved) h += '<span class="badge draft" title="' + esc(T("draft_title")) + '">' + esc(T("draft")) + "</span>";
     return h + "</div>";
   }
   // Bildfläche der Karte: KI-Bild, sonst (oder bei Ladefehler) ein ruhiger Farbverlauf
@@ -129,42 +165,45 @@
     var src = imgPath(e), kind = e.label === "Leak" ? "leak" : "news";
     if (!src) return '<span class="nc-media noimg ' + kind + '" aria-hidden="true"></span>';
     return '<span class="nc-media ' + kind + '"><img class="nc-img" src="' + esc(src) + '" alt="" width="800" height="450" decoding="async"' + (eager ? "" : ' loading="lazy"') + '>' +
-      '<span class="ki-cap">KI-generiertes Bild</span></span>';
+      '<span class="ki-cap">' + esc(T("ai_image")) + '</span></span>';
   }
   // Ticker-Karte: Bild + Labels + knackige Schlagzeile (kein Teaser). Archiv-Karte: Text, Schlagzeile + Kurzfassung.
   function headline(e) { return e.schlagzeile || e.titel; }
   function shortText(e) { return e.kurz || teaser(e.zusammenfassung); }
   function cardInner(e, withImage, eager) {
-    return (withImage ? media(e, eager) : "") + labels(e) + '<h3 class="headline">' + esc(headline(e)) + "</h3>" +
-      (withImage ? "" : '<p class="teaser">' + esc(shortText(e)) + "</p>") +
+    return (withImage ? media(e, eager) : "") + labels(e) + '<h3 class="headline"' + langAttr(e) + ">" + esc(headline(e)) + "</h3>" +
+      (withImage ? "" : '<p class="teaser"' + langAttr(e) + ">" + esc(shortText(e)) + "</p>") +
       '<span class="foot"><span>' + esc(e.quelle && e.quelle.name) + " · " + '<time datetime="' + esc(e.datum) + '">' + esc(fmtDay(e.datum)) + "</time></span>" +
-      '<span class="more">Mehr&nbsp;→</span></span>';
+      '<span class="more">' + esc(T("more")) + '&nbsp;→</span></span>';
   }
   function detailHtml(e, archived) {
     var isLeak = e.label === "Leak";
     var rel = e.zuverlaessigkeit || {};
     var src = imgPath(e);
     var h = "";
-    if (src && !archived) h += '<figure class="detail-media"><img src="' + esc(src) + '" alt="" width="800" height="450" decoding="async"><figcaption>KI-generiertes Bild (Symbolbild, zeigt keine echten Produkte)</figcaption></figure>';
+    if (src && !archived) h += '<figure class="detail-media"><img src="' + esc(src) + '" alt="" width="800" height="450" decoding="async"><figcaption>' + esc(T("ai_image_long")) + '</figcaption></figure>';
     h += labels(e);
-    h += '<h2 id="modal-title">' + esc(e.titel) + "</h2>";
-    h += '<p class="date"><time datetime="' + esc(e.datum) + '">' + esc(fmtDate(e.datum)) + "</time>" + (e.kategorie ? " · " + esc(e.kategorie) : "") + (archived ? " · Archiv" : "") + "</p>";
+    var la = langAttr(e);
+    if (e._translated) h += '<p class="tr-note">' + esc(T("ai_translated")) + ' <a href="' + esc(I18N.withLang((archived ? "archiv.html" : "index.html") + "#" + e.id, "de")) + '" hreflang="de" lang="de">' + esc(T("show_original")) + "</a></p>";
+    if (e._fallback) h += '<p class="tr-note">' + esc(T("not_translated")) + "</p>";
+    h += '<h2 id="modal-title"' + la + ">" + esc(e.titel) + "</h2>";
+    h += '<p class="date"><time datetime="' + esc(e.datum) + '">' + esc(fmtDate(e.datum)) + "</time>" + (e.kategorie ? " · " + esc(cat(e.kategorie)) : "") + (archived ? " · " + esc(T("archive_tag")) : "") + "</p>";
     // Stufe 1: Kurzfassung (2–4 Sätze). Stufe 2 (Weiterlesen): voller Bericht + Quell-Links.
-    h += '<p class="kurz">' + esc(shortText(e)) + "</p>";
-    if (isLeak) h += '<p class="rel-note"><b>Leak – unbestätigt.</b> Zuverlässigkeit: ' + esc(rel.stufe || "unbekannt") + (rel.hinweis ? ". " + esc(rel.hinweis) : "") + "</p>";
-    h += '<button type="button" class="more-btn" data-expand aria-expanded="false" aria-controls="detail-full">Weiterlesen <span aria-hidden="true">↓</span></button>';
+    h += '<p class="kurz"' + la + ">" + esc(shortText(e)) + "</p>";
+    if (isLeak) h += '<p class="rel-note"><b>' + esc(T("leak_unconfirmed")) + "</b> " + esc(T("reliability", { stufe: level(rel.stufe) })) + (rel.hinweis ? '. <span' + la + ">" + esc(rel.hinweis) + "</span>" : "") + "</p>";
+    h += '<button type="button" class="more-btn" data-expand aria-expanded="false" aria-controls="detail-full">' + esc(T("read_more")) + ' <span aria-hidden="true">↓</span></button>';
     h += '<div class="detail-full" id="detail-full" hidden>';
-    h += '<h3 class="full-h">Der ganze Bericht</h3><p class="body">' + esc(e.zusammenfassung) + "</p>";
-    h += '<div class="src">Quelle: <a href="' + esc(safeUrl(e.quelle && e.quelle.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(e.quelle && e.quelle.name) + "</a>";
-    if (e.ursprungsquelle) h += " · Ursprung: " + esc(e.ursprungsquelle);
+    h += '<h3 class="full-h">' + esc(T("full_report")) + '</h3><p class="body"' + la + ">" + esc(e.zusammenfassung) + "</p>";
+    h += '<div class="src">' + esc(T("source")) + ' <a href="' + esc(safeUrl(e.quelle && e.quelle.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(e.quelle && e.quelle.name) + "</a>";
+    if (e.ursprungsquelle) h += " · " + esc(T("origin")) + " <span" + la + ">" + esc(e.ursprungsquelle) + "</span>";
     if (e.weitere_links && e.weitere_links.length) {
-      h += '<div style="margin-top:10px">Weitere Links:</div><ul>' + e.weitere_links.map(function (l) {
+      h += '<div style="margin-top:10px">' + esc(T("more_links")) + '</div><ul' + la + ">" + e.weitere_links.map(function (l) {
         return '<li><a href="' + esc(safeUrl(l.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(l.name) + "</a></li>";
       }).join("") + "</ul>";
     }
-    if (e.datum_hinweis) h += '<p class="small" style="margin:10px 0 0">Hinweis: ' + esc(e.datum_hinweis) + "</p>";
+    if (e.datum_hinweis) h += '<p class="small" style="margin:10px 0 0">' + esc(T("note")) + " <span" + la + ">" + esc(e.datum_hinweis) + "</span></p>";
     h += "</div></div>";
-    if (!e.approved) h += '<p class="small" style="margin:10px 0 0;color:var(--faint)">Entwurf – noch nicht von der Redaktion freigegeben. KI-gestützt zusammengefasst.</p>';
+    if (!e.approved) h += '<p class="small" style="margin:10px 0 0;color:var(--faint)">' + esc(T("draft_note")) + "</p>";
     return h;
   }
   // Detail-Modal (#news-modal) – von Ticker und Archiv gemeinsam genutzt
@@ -199,7 +238,7 @@
         var openNow = b.getAttribute("aria-expanded") !== "true";
         full.hidden = !openNow;
         b.setAttribute("aria-expanded", String(openNow));
-        b.innerHTML = openNow ? 'Weniger anzeigen <span aria-hidden="true">↑</span>' : 'Weiterlesen <span aria-hidden="true">↓</span>';
+        b.innerHTML = esc(openNow ? T("show_less") : T("read_more")) + ' <span aria-hidden="true">' + (openNow ? "↑" : "↓") + "</span>";
         if (openNow) { var hh = full.querySelector(".full-h"); if (hh) { hh.setAttribute("tabindex", "-1"); hh.focus({ preventScroll: true }); } full.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
       });
       document.getElementById("modal-close").addEventListener("click", close);
@@ -251,13 +290,14 @@
     return (st.art === "alle" || e.label === st.art) && (st.bereich === "alle" || area(e) === st.bereich);
   }
   function filterSummary(st) {
-    var a = { alle: "", News: "News", Leak: "Leaks" }[st.art];
+    var a = { alle: "", News: T("filter_News"), Leak: T("filter_Leak") }[st.art];
     var b = st.bereich === "alle" ? "" : AREA_NAMES[st.bereich];
     return [a, b].filter(Boolean).join(" · ");
   }
   function emptyHtml(st, extra) {
-    return '<div class="empty empty-filter"><p>Keine Einträge' + (filterSummary(st) ? " für <b>" + esc(filterSummary(st)) + "</b>" : "") + (extra || "") + ".</p>" +
-      '<button type="button" class="chip reset-filter" data-reset-filter>Filter zurücksetzen</button></div>';
+    var f = filterSummary(st);
+    return '<div class="empty empty-filter"><p>' + (f ? T("no_entries_for", { filter: "<b>" + esc(f) + "</b>" }) : esc(T("no_entries"))) + (extra || "") + ".</p>" +
+      '<button type="button" class="chip reset-filter" data-reset-filter>' + esc(T("reset_filter")) + "</button></div>";
   }
   function bindFilterChips(st, onChange) {
     paintChips(st);
@@ -273,14 +313,14 @@
   // ---------------- News-Ticker (Karussell) ----------------
   var track = document.getElementById("news-list");
   if (track) {
-    loadJson("data/news.json", "MTEC_NEWS").then(renderNews).catch(function (e) {
-      track.innerHTML = '<p class="empty">Ticker konnte nicht geladen werden (' + esc(e.message) + ").</p>";
+    Promise.all([loadJson("data/news.json", "MTEC_NEWS"), I18N.news()]).then(function (r) { renderNews(r[0], r[1]); }).catch(function (e) {
+      track.innerHTML = '<p class="empty">' + esc(T("ticker_error", { err: e.message })) + "</p>";
     });
   }
 
-  function renderNews(data) {
+  function renderNews(data, tr) {
     var mode = (data._info && data._info.modus) || "live";
-    var all = splitActive(visibleEntries(data)).active;
+    var all = localize(splitActive(visibleEntries(data)).active, tr);
     var byId = {};
     all.forEach(function (e) { byId[e.id] = e; });
 
@@ -292,8 +332,8 @@
     if (banner && mode === "vorschau") {
       banner.hidden = false;
       banner.textContent = drafts
-        ? "Vorschau-Modus: " + drafts + " von " + all.length + " Einträgen sind Entwürfe und warten auf Freigabe durch M-TEC. Vor dem Veröffentlichen modus auf \"live\" stellen."
-        : "Vorschau-Modus: alle " + all.length + " Einträge sind von M-TEC freigegeben. Vor dem Veröffentlichen modus auf \"live\" stellen.";
+        ? T("preview_drafts", { d: drafts, n: all.length })
+        : T("preview_all", { n: all.length });
     }
 
     var carousel = document.getElementById("carousel");
@@ -308,8 +348,8 @@
     var filt = readFilterState(), pos = 0;
 
     function slide(e, i, arr) {
-      return '<div class="slide" role="group" aria-roledescription="Folie" aria-label="' + (i + 1) + " von " + arr.length + '">' +
-        '<button type="button" class="news-card has-media" data-id="' + esc(e.id) + '" id="card-' + esc(e.id) + '" aria-haspopup="dialog" title="' + esc(e.titel) + '">' +
+      return '<div class="slide" role="group" aria-roledescription="' + esc(T("slide")) + '" aria-label="' + esc(T("slide_label", { i: i + 1, n: arr.length })) + '">' +
+        '<button type="button" class="news-card has-media"' + langAttr(e) + ' data-id="' + esc(e.id) + '" id="card-' + esc(e.id) + '" aria-haspopup="dialog" title="' + esc(e.titel) + '">' +
         cardInner(e, true, i < 3) + "</button></div>";
     }
 
@@ -339,7 +379,7 @@
       var p = positions();
       if (dotsBox.children.length !== p) {
         var h = "";
-        for (var i = 0; i < p; i++) h += '<button type="button" class="dot" data-i="' + i + '" aria-label="Position ' + (i + 1) + '"></button>';
+        for (var i = 0; i < p; i++) h += '<button type="button" class="dot" data-i="' + i + '" aria-label="' + esc(T("dot_label", { i: i + 1 })) + '"></button>';
         dotsBox.innerHTML = p > 1 ? h : "";
       }
       Array.prototype.forEach.call(dotsBox.children, function (d, i) { d.setAttribute("aria-current", i === pos ? "true" : "false"); });
@@ -414,10 +454,10 @@
 
     function draw() {
       var shown = all.filter(function (e) { return matchesFilter(e, filt); });
-      track.innerHTML = shown.length ? shown.map(slide).join("") : emptyHtml(filt, " in den letzten 7 Tagen – ältere Meldungen findest du im <a href=\"archiv.html\">Archiv</a>");
+      track.innerHTML = shown.length ? shown.map(slide).join("") : emptyHtml(filt, esc(T("empty_ticker_extra")).replace("{archiv}", '<a href="' + esc(I18N.withLang("archiv.html")) + '">' + esc(T("archive_link")) + "</a>"));
       carousel.classList.toggle("is-empty", !shown.length);
       var cnt = document.getElementById("news-count");
-      if (cnt) cnt.textContent = shown.length === all.length ? all.length + " Einträge" : shown.length + " von " + all.length + " Einträgen";
+      if (cnt) cnt.textContent = shown.length === all.length ? TN("count_all", all.length) : T("count_some", { shown: shown.length, n: all.length });
       dotsBox.innerHTML = "";
       track.scrollTo({ left: 0, behavior: "instant" });
       pos = 0; paintDots(); restart();
@@ -434,7 +474,7 @@
       }
       detail.open(hash);
     } else if (/^\d{4}-\d{2}-\d{2}-[\w-]+$/.test(hash)) {
-      location.replace("archiv.html#" + encodeURIComponent(hash));
+      location.replace(I18N.withLang("archiv.html") + "#" + encodeURIComponent(hash));
     }
   }
 
@@ -443,25 +483,28 @@
   if (archBox) {
     Promise.all([
       loadJson("data/archive.json", "MTEC_ARCHIVE").catch(function () { return { eintraege: [] }; }),
-      loadJson("data/news.json", "MTEC_NEWS").catch(function () { return { eintraege: [] }; })
-    ]).then(function (r) { renderArchive(r[0], r[1]); }).catch(function (e) {
-      archBox.innerHTML = '<p class="empty">Archiv konnte nicht geladen werden (' + esc(e.message) + ").</p>";
+      loadJson("data/news.json", "MTEC_NEWS").catch(function () { return { eintraege: [] }; }),
+      I18N.news()
+    ]).then(function (r) { renderArchive(r[0], r[1], r[2]); }).catch(function (e) {
+      archBox.innerHTML = '<p class="empty">' + esc(T("archive_error", { err: e.message })) + "</p>";
     });
   }
 
   function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
-  var MONTH = new Intl.DateTimeFormat("de-AT", { timeZone: "Europe/Vienna", month: "long", year: "numeric" });
+  var MONTH = new Intl.DateTimeFormat(LOC, { timeZone: "Europe/Vienna", month: "long", year: "numeric" });
   var MONTH_KEY = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Vienna", year: "numeric", month: "2-digit" });
 
-  function renderArchive(arch, news) {
+  function renderArchive(arch, news, tr) {
     // Archiv = archive.json + Ticker-Einträge, die nach der 7-Tage-Regel nicht mehr im Ticker stehen
     var seen = {}, list = [];
     visibleEntries(arch).concat(splitActive(visibleEntries(news)).old).forEach(function (e) {
       if (!seen[e.id]) { seen[e.id] = 1; list.push(e); }
     });
     list.sort(byDateDesc);
+    list = localize(list, tr);
     var byId = {};
-    list.forEach(function (e) { byId[e.id] = e; e._q = norm([e.titel, e.schlagzeile, e.kurz, e.zusammenfassung, e.kategorie, e.quelle && e.quelle.name, (e.tags || []).join(" "), (e.themen || []).join(" "), areaName(e)].join(" ")); });
+    // Suche findet übersetzten UND deutschen Text (Fachbegriffe, Namen)
+    list.forEach(function (e) { var d = e._de || {}; byId[e.id] = e; e._q = norm([e.titel, e.schlagzeile, e.kurz, e.zusammenfassung, e.kategorie, cat(e.kategorie), e.quelle && e.quelle.name, (e.tags || []).join(" "), (e.themen || []).join(" "), areaName(e), d.titel, d.schlagzeile, d.kurz, d.zusammenfassung].join(" ")); });
 
     var filt = readFilterState(), query = "";
     var input = document.getElementById("archive-search");
@@ -473,9 +516,9 @@
       var shown = list.filter(function (e) {
         return matchesFilter(e, filt) && words.every(function (w) { return e._q.indexOf(w) !== -1; });
       });
-      if (cnt) cnt.textContent = shown.length === list.length ? list.length + " Einträge im Archiv" : shown.length + " von " + list.length + " Einträgen";
-      if (!list.length) { archBox.innerHTML = '<p class="empty">Das Archiv ist noch leer. Meldungen wandern nach 7 Tagen hierher.</p>'; return; }
-      if (!shown.length) { archBox.innerHTML = emptyHtml(filt, query.trim() ? " zur Suche „" + esc(query.trim()) + "“" : ""); return; }
+      if (cnt) cnt.textContent = shown.length === list.length ? TN("archive_count", list.length) : T("count_some", { shown: shown.length, n: list.length });
+      if (!list.length) { archBox.innerHTML = '<p class="empty">' + esc(T("archive_empty")) + "</p>"; return; }
+      if (!shown.length) { archBox.innerHTML = emptyHtml(filt, query.trim() ? esc(T("empty_search_extra", { q: query.trim() })) : ""); return; }
       var h = "", lastKey = null;
       shown.forEach(function (e) {
         var d = new Date(e.datum), key = MONTH_KEY.format(d);
@@ -484,7 +527,7 @@
           h += '<section class="arch-month" aria-label="' + esc(MONTH.format(d)) + '"><h2>' + esc(MONTH.format(d)) + '</h2><div class="arch-grid">';
           lastKey = key;
         }
-        h += '<button type="button" class="news-card arch-card" data-id="' + esc(e.id) + '" aria-haspopup="dialog">' + cardInner(e, false) + "</button>";
+        h += '<button type="button" class="news-card arch-card"' + langAttr(e) + ' data-id="' + esc(e.id) + '" aria-haspopup="dialog">' + cardInner(e, false) + "</button>";
       });
       archBox.innerHTML = h + "</div></section>";
     }
@@ -515,12 +558,16 @@
         var lvl = String(s.bewertung).split(" ")[0];
         var cls = lvl.indexOf("hoch") === 0 ? "hoch" : lvl.indexOf("mittel") === 0 ? "mittel" : "niedrig";
         if (lvl === "mittel-hoch") cls = "mittel-hoch";
-        return '<div class="card src-card"><div class="labels"><span class="badge plain">' + esc(s.typ) + '</span><span class="rating ' + cls + '">Bewertung: ' + esc(s.bewertung) + '</span><span class="small muted">' + esc(s.status || "") + "</span>" + (s.gewuenscht_von ? '<span class="badge wish">von ' + esc(s.gewuenscht_von) + ' gewünscht</span>' : "") + "</div>" +
+        // Bewertungsstufe übersetzt; Freitexte der Quellen (Typ, Status, Bilanz, Vorsicht) bleiben deutsch (lang="de")
+        var rest = String(s.bewertung).slice(lvl.length);
+        var de = I18N.isDe ? "" : ' lang="de"';
+        return '<div class="card src-card"><div class="labels"><span class="badge plain"' + de + ">" + esc(s.typ) + '</span><span class="rating ' + cls + '">' + esc(T("src_rating", { b: rating(s.bewertung, lvl, rest) })) + '</span><span class="small muted"' + de + ">" + esc(s.status || "") + "</span>" + (s.gewuenscht_von ? '<span class="badge wish">' + esc(T("src_wish", { n: s.gewuenscht_von })) + "</span>" : "") + "</div>" +
           "<h3>" + esc(s.name) + "</h3>" +
-          '<div class="handle">' + (s.url ? '<a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(s.handle || s.url) + "</a>" : esc(s.handle || "")) + " · " + esc(s.plattform) + (s.sprache ? " · Sprache: " + esc(s.sprache) : "") + " · " + esc((s.bereich || []).join(", ")) + "</div>" +
-          "<p>" + esc(s.track_record) + "</p>" +
-          (s.vorsicht && s.vorsicht !== "—" ? '<p class="rel-hint"><b>Vorsicht:</b> ' + esc(s.vorsicht) + "</p>" : "") + "</div>";
+          '<div class="handle">' + (s.url ? '<a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(s.handle || s.url) + "</a>" : esc(s.handle || "")) + " · " + esc(s.plattform) + (s.sprache ? " · " + esc(T("src_language", { s: s.sprache })) : "") + " · " + esc((s.bereich || []).join(", ")) + "</div>" +
+          "<p" + de + ">" + esc(s.track_record) + "</p>" +
+          (s.vorsicht && s.vorsicht !== "—" ? '<p class="rel-hint"><b>' + esc(T("src_caution")) + "</b> <span" + de + ">" + esc(s.vorsicht) + "</span></p>" : "") + "</div>";
       }).join("");
+      if (!I18N.isDe && T("sources_german_only")) srcBox.insertAdjacentHTML("beforebegin", '<p class="tr-note">' + esc(T("sources_german_only")) + "</p>");
     }).catch(function (e) { srcBox.innerHTML = '<p class="empty">' + esc(e.message) + "</p>"; });
   }
 })();
@@ -559,23 +606,24 @@
   if (!box) return;
   var p = (location.protocol === "file:" && window.MTEC_LATEST_VIDEO)
     ? Promise.resolve(window.MTEC_LATEST_VIDEO)
-    : fetch("data/latest-video.json", { cache: "no-store" })
+    : fetch(I18N.vurl("data/latest-video.json"), { cache: "no-store" })
         .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
         .catch(function () { return window.MTEC_LATEST_VIDEO || null; });
   p.then(function (v) {
     if (!v || !/^[\w-]{11}$/.test(v.video_id || "") || !/^assets\/img\/youtube\/[\w-]+\.(webp|jpg)$/.test(v.thumbnail || "")) return;
     var link = "https://www.youtube.com/watch?v=" + v.video_id;
     var day = v.veroeffentlicht;
-    try { day = new Intl.DateTimeFormat("de-AT", { timeZone: "Europe/Vienna", day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(v.veroeffentlicht)); } catch (e) {}
+    try { day = new Intl.DateTimeFormat(I18N.locale, { timeZone: "Europe/Vienna", day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(v.veroeffentlicht)); } catch (e) {}
     var img = document.getElementById("lv-img");
     img.src = v.thumbnail;
-    img.alt = "Vorschaubild des Videos „" + v.titel + "“";
+    img.alt = I18N.t("video_alt", { t: v.titel });
     document.getElementById("lv-title").textContent = v.titel;
-    document.getElementById("lv-meta").textContent = "Veröffentlicht am " + day + " · M-TEC auf YouTube";
+    document.getElementById("lv-meta").textContent = I18N.t("video_meta", { d: day });
     document.getElementById("lv-link").href = link;
     var th = document.getElementById("lv-thumb");
     th.href = link;
-    th.setAttribute("aria-label", "„" + v.titel + "“ auf YouTube ansehen (öffnet YouTube)");
+    th.setAttribute("aria-label", I18N.t("video_aria", { t: v.titel }));
     box.hidden = false;
   }).catch(function () {});
 })();
+});
