@@ -7,9 +7,10 @@
       "niedrig": "gemischte Bilanz – nur mit klarer Warnung",
       "nicht nutzbar": "Konto existiert nicht mehr / Verwechslungsgefahr"
     },
-    "stand": "2026-11-01",
+    "stand": "2026-11-03",
     "x_daten": "Follower/Aktivität per X-API am 01.11.2026 abgefragt (gerundet).",
-    "bereiche": "ticker_bereich: 'hardware', 'software' (Windows, Linux, Treiber, Sicherheit) oder 'games' (Spiele, Konsolen, Spiele-Stores). Seit 01.11.2026 enthält die Liste auch Software- und Games-Quellen; Software und Games sind seit 02.11.2026 getrennte Bereiche."
+    "bereiche": "ticker_bereich: 'hardware', 'software' (Windows, Linux, Treiber, Sicherheit) oder 'games' (Spiele, Konsolen, Spiele-Stores). Seit 01.11.2026 enthält die Liste auch Software- und Games-Quellen; Software und Games sind seit 02.11.2026 getrennte Bereiche.",
+    "manuell": "Quellen mit 'manuell_url' haben keinen vom Server erreichbaren Feed (z. B. 403). collect listet sie in candidates.json unter _info.manuell_pruefen_web; die News-Übersicht wird manuell im Browser geprüft."
   },
   "quellen": [
     {
@@ -680,17 +681,18 @@
       "handle": "@PCGH_Redaktion",
       "url": "https://www.pcgameshardware.de",
       "bereich": [
-        "Tests, News, Mods (DE)"
+        "Tests, News, Mods (DE)",
+        "PC-Spiele"
       ],
       "bewertung": "hoch",
-      "status": "aktiv",
+      "status": "aktiv · RSS geprüft (03.11.2026)",
       "track_record": "Etabliertes deutsches Testlabor; z. B. Test der modifizierten RTX 2080 Ti 22GB (Nov. 2026).",
       "begruendung": "Eigene Tests.",
-      "vorsicht": "Viele Clickbait-artige Gerüchte-News – nach Kategorie filtern.",
+      "vorsicht": "Viele Clickbait-artige Gerüchte-News – nach Kategorie filtern. Der Feed mischt Hardware, Spiele und allgemeine Tech-/Medien-News.",
       "sprache": "de",
       "follower_ca": 23800,
       "feed": "https://www.pcgameshardware.de/feed.cfm",
-      "geprueft_am": "2026-11-01",
+      "geprueft_am": "2026-11-03",
       "ticker_bereich": "hardware"
     },
     {
@@ -1451,12 +1453,100 @@
         "PC-Hardware"
       ],
       "bewertung": "hoch",
-      "status": "aktiv · RSS/Seite vom Server aus geblockt (403, 01.11.2026)",
+      "status": "aktiv · RSS und News-Seite vom Server aus geblockt (403, erneut geprüft 03.11.2026) – manuell prüfen",
       "sprache": "de",
       "track_record": "Größtes deutsches PC-Spielemagazin mit eigener Redaktion und Tests.",
       "begruendung": "Deutschsprachig, redaktionell geprüft.",
-      "vorsicht": "Kein automatischer Abruf möglich (403) – nur manuell.",
-      "geprueft_am": "2026-11-01",
+      "vorsicht": "Kein automatischer Abruf möglich (403 auf RSS und News-Seite, auch am 03.11.2026) – News-Übersicht im Browser manuell prüfen: https://www.gamestar.de/news/. Hardware-Themen deckt GameStar ebenfalls ab.",
+      "geprueft_am": "2026-11-03",
+      "ticker_bereich": "games",
+      "manuell_url": "https://www.gamestar.de/news/",
+      "feed": null
+    },
+    {
+      "id": "gamepro",
+      "name": "GamePro",
+      "typ": "Fachmedium",
+      "plattform": "Web",
+      "handle": "gamepro.de",
+      "url": "https://www.gamepro.de",
+      "bereich": [
+        "Games",
+        "Konsolen"
+      ],
+      "bewertung": "mittel-hoch",
+      "status": "aktiv · RSS und News-Seite vom Server aus geblockt (403, 03.11.2026) – manuell prüfen",
+      "sprache": "de",
+      "track_record": "Deutsches Konsolen- und Spielemagazin mit eigener Redaktion (Schwestermagazin von GameStar).",
+      "begruendung": "Deutschsprachig, redaktionell; Schwerpunkt Konsolen (PlayStation, Xbox, Nintendo).",
+      "vorsicht": "Kein automatischer Abruf möglich (403) – News-Übersicht manuell prüfen: https://www.gamepro.de/news/. Viele Meinungs- und Listenartikel; für Fakten die Primärquelle (Hersteller/Publisher) nennen.",
+      "feed": null,
+      "manuell_url": "https://www.gamepro.de/news/",
+      "geprueft_am": "2026-11-03",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "ign",
+      "name": "IGN",
+      "typ": "Fachmedium",
+      "plattform": "Web",
+      "handle": "ign.com",
+      "url": "https://www.ign.com",
+      "bereich": [
+        "Games",
+        "Konsolen",
+        "Film/TV"
+      ],
+      "bewertung": "mittel-hoch",
+      "status": "aktiv · RSS geprüft (03.11.2026)",
+      "feed": "https://www.ign.com/rss/articles/feed",
+      "sprache": "en",
+      "track_record": "Eine der größten englischsprachigen Spiele-Redaktionen; häufig Exklusiv-Enthüllungen und Interviews in Kooperation mit Publishern.",
+      "begruendung": "Großes Netzwerk, schnelle Meldungen, offizielle Erst-Enthüllungen.",
+      "vorsicht": "Feed enthält auch Film/TV, Deals und Meinungsartikel – nur Spiele/Hardware übernehmen. Exklusiv-Vorstellungen sind teils Marketing-Partnerschaften.",
+      "geprueft_am": "2026-11-03",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "ign_de",
+      "name": "IGN Deutschland",
+      "typ": "Fachmedium",
+      "plattform": "Web",
+      "handle": "de.ign.com",
+      "url": "https://de.ign.com",
+      "bereich": [
+        "Games",
+        "Konsolen"
+      ],
+      "bewertung": "mittel",
+      "status": "aktiv · RSS geprüft (03.11.2026)",
+      "feed": "https://de.ign.com/feed.xml",
+      "sprache": "de",
+      "track_record": "Deutsche Ausgabe von IGN; eigene Artikel plus übersetzte Inhalte von IGN.com.",
+      "begruendung": "Deutschsprachig, schnelle Spiele-News.",
+      "vorsicht": "Viele Inhalte sind Übersetzungen von IGN.com – bei Doppelungen das englische Original bzw. die Primärquelle nennen. Feed enthält auch Bildergalerien und Interviews.",
+      "geprueft_am": "2026-11-03",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "pcgames",
+      "name": "PC Games",
+      "typ": "Fachmedium",
+      "plattform": "Web",
+      "handle": "pcgames.de",
+      "url": "https://www.pcgames.de",
+      "bereich": [
+        "PC-Spiele",
+        "Games"
+      ],
+      "bewertung": "mittel-hoch",
+      "status": "aktiv · RSS geprüft (03.11.2026)",
+      "feed": "https://www.pcgames.de/feed.cfm?menu_alias=home",
+      "sprache": "de",
+      "track_record": "Traditionsreiches deutsches PC-Spielemagazin (seit 1992), Schwestermagazin von PC Games Hardware.",
+      "begruendung": "Deutschsprachig, eigene Redaktion und Tests.",
+      "vorsicht": "Neben News viele Guides, Deals und Film/TV-Artikel – nur passende Meldungen übernehmen. Die alte Adresse /feed.cfm (ohne Parameter) leitet auf einen defekten Feedburner-Feed (HTTP 500).",
+      "geprueft_am": "2026-11-03",
       "ticker_bereich": "games"
     },
     {
@@ -1543,6 +1633,26 @@
       "begruendung": "Kein eigener Zugang; nur als Hinweis auf Trends, was gerade diskutiert wird.",
       "vorsicht": "Nie als Quelle verlinken – Ursprung suchen.",
       "geprueft_am": "2026-11-01",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "pcplayer",
+      "name": "PC Player",
+      "typ": "Fachmedium (eingestellt)",
+      "plattform": "Web (Fan-Archiv)",
+      "handle": "pcplayer.de",
+      "url": "https://www.pcplayer.de",
+      "bereich": [
+        "PC-Spiele (Archiv 1992–2001)"
+      ],
+      "bewertung": "nicht nutzbar",
+      "status": "eingestellt · letzte Ausgabe 6/2001 · kein Feed",
+      "sprache": "de",
+      "track_record": "Das Magazin PC Player erschien von Dezember 1992 bis Juni 2001 (Future Verlag) und wurde dann eingestellt. pcplayer.de ist eine Fan-Archivseite („PC Player forever“) mit Heftarchiv und Testberichten.",
+      "begruendung": "Keine aktuellen News – für den Ticker nicht nutzbar, höchstens für Retro-Themen.",
+      "vorsicht": "Nicht für aktuelle Meldungen verwenden.",
+      "feed": null,
+      "geprueft_am": "2026-11-03",
       "ticker_bereich": "games"
     }
   ]

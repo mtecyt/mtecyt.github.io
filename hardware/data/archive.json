@@ -2,10 +2,54 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-01T21:15:01.075Z",
+    "stand": "2026-11-04T11:08:46.949Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-10-28-galax-dementi",
+      "datum": "2026-10-28T12:00:00+01:00",
+      "label": "News",
+      "kategorie": "Hersteller",
+      "titel": "Gerücht widerlegt: GALAX zieht sich nicht aus dem Grafikkartengeschäft zurück",
+      "schlagzeile": "GALAX vor dem Aus? Der Hersteller sagt klar: Nein",
+      "kurz": "Eine spanische Seite hatte „exklusiv“ berichtet, GALAX steige aus dem Grafikkartengeschäft aus. GALAX und Partner Palit haben das offiziell zurückgewiesen, die Produktion läuft normal weiter. Für Käufer von KFA2-Karten, wie GALAX in Europa heißt, ändert sich nichts.",
+      "zusammenfassung": "Die spanische Seite El Chapuzas Informático hatte 'exklusiv' berichtet, GALAX steige wegen fehlender NVIDIA-Chips aus dem GPU-Markt aus und Palit schließe die zugehörige Fabrik. GALAX hat das in einer offiziellen Stellungnahme zurückgewiesen: Es seien keine Produktionsstätten geschlossen worden, das Geschäft laufe normal weiter. Auch Palit, das sich mit GALAX Fabriken teilt, bestätigte gegenüber Medien, dass die Produktion weitergeht. Ein ähnliches Gerücht gab es bereits im April im Zusammenhang mit einer Umstrukturierung unter dem Palit-Hauptsitz in Taiwan. Erst am 22. Oktober hatte GALAX noch die RTX 5080 HOF Extreme vorgestellt. Für Käufer von KFA2-Karten – so heißt GALAX in Europa – ändert sich nach jetzigem Stand nichts an Garantie oder Support. Der Fall zeigt, warum wir 'exklusive' Einzelberichte ohne Zweitquelle als unbestätigt kennzeichnen.",
+      "quelle": {
+        "name": "GALAX (offizielle Stellungnahme)",
+        "url": "https://galax.com/en/news/official-statement-regarding-galaxs-business-operations/"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/palit-denies-galax-factory-closure-says-gpu-production-continues"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-gpu-vendor-palit-denies-its-galax-factory-has-closed-due-to-a-shortage-of-chips-company-says-brand-continues-to-operate-as-usual"
+        },
+        {
+          "name": "Ursprüngliches Gerücht (El Chapuzas Informático)",
+          "url": "https://elchapuzasinformatico.com/2026/10/exclusiva-galax-abandona-el-mercado-de-las-gpu-no-hay-suficientes-chips-de-nvidia/"
+        }
+      ],
+      "tags": [
+        "GALAX",
+        "KFA2",
+        "Palit",
+        "Dementi"
+      ],
+      "datum_hinweis": "Uhrzeit geschätzt",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-04T11:08:46.948Z"
+    },
     {
       "id": "2026-10-25-ddr6-camm2",
       "datum": "2026-10-25T12:00:00+02:00",
