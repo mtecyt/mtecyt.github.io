@@ -2,10 +2,268 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-05T18:44:18.406Z",
+    "stand": "2026-11-05T19:32:48.468Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-05-xbox-pc-app-60",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Xbox",
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Xbox-PC-App: Microsoft verspricht bis zu 60 Prozent schnelleren Start für Insiders",
+      "schlagzeile": "Xbox-PC-App startet bis zu 60 % schneller – zuerst für Insider",
+      "kurz": "Xbox-Insider können ab dem 05.11.2026 eine überarbeitete Xbox-PC-App testen. Microsoft spricht von einem bis zu 60 Prozent schnelleren Start sowie spürbar flotteren Seiten und Fenstern. Parallel rollt ein aufgefrischtes Web- und Cloud-Gaming-Erlebnis an weitere Spieler aus.",
+      "zusammenfassung": "Jason Beaumont, VP Xbox Experiences, hat am 05.11.2026 auf Xbox Wire eine schnellere und übersichtlichere Xbox-Erfahrung für PC, Web und Cloud angekündigt. Xbox-Insider sollen die aktualisierte Xbox-PC-App ab sofort nutzen können. Laut Microsoft-Tests startet die App bis zu 60 Prozent schneller; Seiten wie Home, Store und Game Pass laden bis zu 50 Prozent schneller, In-App-Fenster öffnen sich bis zu 65 Prozent schneller. Die Werte hängen laut Hinweis von Gerät, Netz, Konfiguration und Nutzung ab. Die Bibliothek bekommt einfachere Navigation, neue Filter und bessere Sortierung. Freunde und Social-Funktionen rücken in die Hauptnavigation. Die Suche deckt Spiele inklusive installierter Titel und Add-ons sowie Personen ab. Optisch gibt es überarbeitete Spielkarten, Home, Einstellungen und Animationen. Das bereits zuvor für Insider gezeigte Web-Erlebnis für Xbox Cloud Gaming soll in den kommenden Wochen automatisch an mehr Spieler gehen; wer früher testen will, kann play.xbox.com aufrufen. Dort gibt es einen Library-Tab für Cloud-Spiele (gekauft und Game Pass), einen Desktop-Modus für größere Bildschirme sowie Dunkel-/Hellmodus und fünf High-Contrast-Themes. Ein ähnlicher Refresh beginnt auch bei Cloud-Apps auf unterstützten TVs und VR-Headsets. Wer noch kein Insider ist, kann über den Xbox Insider Hub für Series X|S, Xbox One oder Windows beitreten. The Verge, Neowin und IGN greifen die Ankündigung auf.",
+      "quelle": {
+        "name": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/"
+      },
+      "weitere_links": [
+        {
+          "name": "The Verge: Redesign der Xbox-PC-App",
+          "url": "https://www.theverge.com/news/1027353/microsoft-new-xbox-pc-app-redesign"
+        },
+        {
+          "name": "IGN: Xbox-PC-App laut Microsoft 60 % schneller",
+          "url": "https://www.ign.com/articles/microsoft-updates-xbox-pc-app-says-its-60-faster"
+        },
+        {
+          "name": "Neowin: Redesign und schnellere Starts",
+          "url": "https://www.neowin.net/news/microsoft-unveils-redesigned-xbox-pc-app-already-60-faster-when-launching/"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Windows",
+        "Game Pass",
+        "Cloud Gaming",
+        "Microsoft"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-05T19:32:48.366Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-nova-lake-h-foto",
+      "datum": "2026-11-05T16:37:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "Intel"
+      ],
+      "kategorie": "CPU",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Foto von Leaker momomo_us (@momomo_us / 188号); Jaykihn antwortete auf Nachfrage mit „Yes“ zur 4+8+4-Konfiguration. VideoCardz konnte den Ursprung des zugeschnittenen Bildes nicht nachverfolgen. Intel hat nichts bestätigt; Taktfrequenzen unbekannt."
+      },
+      "ursprungsquelle": "momomo_us (@momomo_us) auf X",
+      "titel": "Leak: Foto soll unreleasedes Intel-Nova-Lake-H-Package mit Multi-Tile-Design zeigen",
+      "schlagzeile": "Leak: Zeigt dieses Foto schon Intels Nova Lake-H mit 16 Kernen?",
+      "kurz": "Ein von momomo_us geteiltes Foto soll ein noch unveröffentlichtes Intel-Prozessorpackage mit mehreren sichtbaren Silicon-Tiles zeigen. Jaykihn bestätigte auf Nachfrage eine Nova-Lake-H-Konfiguration mit 4+8+4 Kernen. Intel hat nichts bestätigt; der Bildursprung bleibt unklar.",
+      "zusammenfassung": "Der Hardware-Leaker momomo_us (188号) hat am 05.11.2026 auf X ein zugeschnittenes Foto geteilt, das laut VideoCardz ein noch unveröffentlichtes Intel-Prozessorpackage mit mehreren sichtbaren Silicon-Tiles zeigen soll. VideoCardz konnte den industriellen oder Embedded-Mainboard-Ursprung des Bildes nicht nachverfolgen; sichtbar ist nur das Package. Auf die Frage, ob es sich um Nova Lake-H mit 4+8+4-Konfiguration handelt, antwortete der Leaker Jaykihn mit „Yes“. In einem Update nannte momomo_us laut VideoCardz 16 CPU-Kerne, 4 Xe-GPU-Kerne und 18 MB Cache. Diese Kernzahl passt zur kolportierten Core Ultra 9 4970H mit 4+8+4, also 16 CPU-Kernen. In der VideoCardz-Tabelle steht für die gerüchtete 4970H allerdings 12 Xe3P-Grafikkerne – das weicht von momomos Angabe „4 Xe“ ab; welche GPU-Angabe zutrifft, ist offen. Ob das abgebildete Exemplar speziell die 4970H ist, bleibt unklar; Taktraten nennt VideoCardz nicht. Zum Vergleich nutzen mehrere Panther-Lake-H-Modelle ebenfalls 4+8+4. TechPowerUp und Wccftech greifen den Leak auf. Intel hat die Angaben nicht bestätigt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/intel-core-ultra-4000-nova-lake-h-processor-has-been-pictured-featuring-16-core-design"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp: Nova Lake-H SoC aufgetaucht",
+          "url": "https://www.techpowerup.com/354506/intel-core-ultra-4000-series-nova-lake-h-soc-surfaces"
+        },
+        {
+          "name": "Wccftech: Nova Lake-H mit Six-Tile-Setup",
+          "url": "https://wccftech.com/intel-nova-lake-h-smiles-for-the-camera-reveals-a-six-tile-setup/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "Core Ultra 4000",
+        "CPU",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-05T19:32:48.237Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-nova-lake-h-foto.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-fsr-412-xbox",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "FSR",
+        "Xbox",
+        "AMD"
+      ],
+      "kategorie": "GPU",
+      "titel": "AMD FSR Upscaling 4.1.2 steht Xbox-Series-X|S-Entwicklern im Oktober-2026-GDK bereit",
+      "schlagzeile": "FSR 4.1.2 kommt auf die Xbox – erstmals mit KI-Upscaling",
+      "kurz": "Mit dem Microsoft GDK vom Oktober 2026 können Entwickler AMD FSR Upscaling 4.1.2 auf Xbox Series X und S nutzen. Erstmals steht damit ML-basiertes AMD-FSR-Upscaling auf den Konsolen bereit. Bestehende Spiele bekommen es nicht automatisch; Studios müssen integrieren.",
+      "zusammenfassung": "AMD hat auf GPUOpen mitgeteilt, dass FSR Upscaling 4.1.2 über das Microsoft Game Development Kit vom Oktober 2026 für Xbox Series X|S verfügbar ist. Alexander Blake-Davies schreibt, dass damit erstmals ML-basiertes AMD-FSR-Upscaling auf den Xbox-Konsolen ankommt; zuvor gab es dort nur analytisches FSR. Für Series X und Series S gibt es zwei INT8-Modelle: Full und ein neues Lite. Lite ist laut AMD weniger als halb so groß und entlastet die GPU stärker. Beide laufen auf Series X und Series S. Der Upscaler-Speicherbedarf hängt von Render- und Ausgabeauflösung ab, nicht vom Modell – die Wahl ist also ein Performance-, kein Speicher-Trade-off. Die API entspricht dem FSR-SDK unter Windows; Qualitätsmodi sind Native AA, Quality, Balanced, Performance und Ultra Performance. Über FSR SDK 2.4 und einen ASUS-Preview-Treiber gilt die Technik auch für ROG-Xbox-Ally-Handhelds (Ally X und X20 zuerst). Es geht um Entwicklerzugang: Studios müssen integrieren, automatische Updates für bestehende Spiele gibt es nicht, konkrete Titel hat AMD nicht genannt. VideoCardz, PC Gamer und TechPowerUp berichten darüber.",
+      "quelle": {
+        "name": "AMD GPUOpen",
+        "url": "https://gpuopen.com/learn/amd-fsr-upscaling-412-xbox/"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz: FSR 4.1.2 mit ML auf Series X|S",
+          "url": "https://videocardz.com/newz/amd-fsr-4-1-2-brings-machine-learning-upscaling-to-xbox-series-x-and-s-consoles"
+        },
+        {
+          "name": "PC Gamer: FSR 4.1.2 auf Xbox und Handhelds",
+          "url": "https://www.pcgamer.com/hardware/fsr-4-1-2-now-on-xbox-and-xbox-handhelds-just-in-time-for-a-certain-big-gta-6-shaped-game/"
+        },
+        {
+          "name": "TechPowerUp: FSR Upscaling 4.1.2 für Xbox",
+          "url": "https://www.techpowerup.com/354493/amd-brings-fsr-upscaling-4-1-2-to-xbox-consoles"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "FSR",
+        "Xbox",
+        "Series X",
+        "Upscaling"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-05T19:32:48.173Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-geforce-8800-gtx-demo",
+      "datum": "2026-11-05T15:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "GPU",
+        "GeForce"
+      ],
+      "kategorie": "GPU",
+      "titel": "Kostenlose Steam-Demo „GeForce 8800 GTX – 20 Years of a Legend“ feiert 20 Jahre CUDA-GPU",
+      "schlagzeile": "Nvidia lässt dich die 8800 GTX auspacken – braucht aber eine RTX 4070",
+      "kurz": "Seit dem 05.11.2026 gibt es auf Steam die kostenlose Demo „GeForce 8800 GTX – 20 Years of a Legend“. Sie lässt die 2006er-Karte auspacken und in einen zeitgenössischen PC einbauen – gerendert mit Path Tracing und DLSS 4.5. Mindestens gefordert ist eine RTX 4070.",
+      "zusammenfassung": "Zum rund 20-jährigen Jubiläum der GeForce 8800 GTX (Marktstart am 08.11.2006) ist am 05.11.2026 die kostenlose Steam-Demo „GeForce 8800 GTX – 20 Years of a Legend“ erschienen. Erstellt hat sie Unreal-Engine-Künstler Dylan Browne mit Unterstützung von NVIDIA. Die semi-interaktive Demo lässt die Karte auspacken, in einen PC der Epoche einbauen und einen Gaming-Raum von 2006 mit Easter Eggs erkunden. Technisch setzt sie Path Tracing, DLSS 4.5 mit Ray Reconstruction und Dynamic Multi Frame Generation sowie RTX Mega Geometry ein. Die Steam-Systemanforderungen nennen als Minimum eine RTX 4070, 32 GB RAM, 30 GB Speicherplatz und Treiber 621.12 oder neuer; empfohlen wird eine RTX 5080. Die 8800 GTX galt als erste CUDA-fähige GPU. Eine Version für GeForce NOW Ultimate soll laut Berichten von eTeknix und The Verge bald folgen. VideoCardz und Wccftech greifen die Aktion ebenfalls auf.",
+      "quelle": {
+        "name": "Steam",
+        "url": "https://store.steampowered.com/app/4910040/GeForce_8800_GTX_20_Years_of_a_Legend/"
+      },
+      "weitere_links": [
+        {
+          "name": "eTeknix: 20th-Anniversary-Steam-Demo",
+          "url": "https://www.eteknix.com/geforce-8800-gtx-20th-anniversary-steam-demo/"
+        },
+        {
+          "name": "The Verge: 8800-GTX-Unboxing-Demo",
+          "url": "https://www.theverge.com/news/1027400/nvidia-geforce-8800-gtx-unboxing-steam-demo"
+        },
+        {
+          "name": "VideoCardz: Unboxing-Spiel braucht RTX 4070",
+          "url": "https://videocardz.com/newz/nvidia-promotes-a-game-about-unboxing-a-2006-gpu-but-it-requires-rtx-4070"
+        },
+        {
+          "name": "Wccftech: GeForce 8800 GTX wird 20",
+          "url": "https://wccftech.com/nvidia-geforce-8800-gtx-turns-20/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "GeForce",
+        "8800 GTX",
+        "DLSS",
+        "Steam"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-05T19:32:48.308Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-geforce-8800-gtx-demo.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-openssh-musl-bypass",
+      "datum": "2026-11-05T14:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Sicherheit"
+      ],
+      "kategorie": "Software",
+      "titel": "OpenSSH und musl: Lange Passwörter können passwortlose Konten knacken – Fix in 10.6p2",
+      "schlagzeile": "OpenSSH-Lücke: Lange Passwörter knacken gesperrte Logins (musl)",
+      "kurz": "Auf manchen Linux-Systemen mit musl und ohne PAM können Angreifer Konten ohne Passwort-Hash mit einem sehr langen Passwort knacken. OpenSSH 10.6p2 und aktualisierte Alpine-Pakete schließen die Lücke; sshd muss danach neu gestartet werden. Bis dahin hilft PasswordAuthentication no.",
+      "zusammenfassung": "OpenSSH und Alpine Linux warnen vor einer schweren, aber nischenhaften Lücke bei OpenSSH ohne PAM auf musl-basierten Systemen. Betroffen ist laut Alpine und heise vor allem das Alpine-Paket openssh-server (ohne PAM) bzw. openssh-server-pam mit UsePAM no. Erreicht ein Angreifer den SSH-Port und ist PasswordAuthentication aktiv, kann er sich anmelden, ohne ein Passwort zu kennen – wenn mindestens ein Konto im Shadow-Feld „*“ hat (typisch für Key-only) und zugleich mindestens ein lokales Konto einen $5$- oder $6$-Hash besitzt. Der Angriff sendet ein sehr langes Passwort von 257 bis 1024 Byte: musl-crypt() liefert bei Keys über 256 Byte „*“ als Fehlerwert, was dem gespeicherten „*“ entspricht und die Prüfung bestehen lässt. Ein CVE war zum Zeitpunkt der Advisories noch nicht vergeben. Der Fix steckt in OpenSSH 10.6p2; Alpine hat aktualisierte Pakete veröffentlicht. Nach dem Upgrade muss sshd neu gestartet werden. Workaround: PasswordAuthentication no setzen und sshd neu starten. OpenSSH-Entwickler Damien Miller rät, Passwort-Logins sofort zu deaktivieren. Laut heise geht das Projekt davon aus, dass der Bug eher nicht in OpenSSH selbst entsteht, 10.6p2 ihn aber entschärft. Gemeldet hat die Sache Özgün Kültekin von Wakefield; BleepingComputer und Alpine beschreiben die Bedingungen ausführlich.",
+      "quelle": {
+        "name": "Alpine Linux",
+        "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise: OpenSSH und Alpine warnen vor Lücke",
+          "url": "https://www.heise.de/en/news/OpenSSH-and-Alpine-Linux-warn-of-severe-but-niche-bug-11513360.html"
+        },
+        {
+          "name": "BleepingComputer: Flaw bei passwortgesperrten Konten",
+          "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"
+        }
+      ],
+      "tags": [
+        "OpenSSH",
+        "Linux",
+        "Alpine",
+        "musl",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-05T19:32:48.419Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-openssh-musl-bypass.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-04-gta6-vorbestellungen-750-mio",
       "datum": "2026-11-04T23:42:00+01:00",
