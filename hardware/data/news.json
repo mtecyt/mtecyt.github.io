@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-05T11:07:22.684Z",
+    "stand": "2026-11-05T18:44:18.406Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -1348,95 +1348,6 @@
         "ki_generiert": true
       },
       "bereich": "hardware"
-    },
-    {
-      "id": "2026-10-29-windows11-kb5127936",
-      "datum": "2026-10-29T13:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Windows",
-      "titel": "Windows 11: Optionales Update KB5127936 bringt neues Kontextmenü und Neuinstallation über die Cloud",
-      "schlagzeile": "Windows 11: Vorschau-Update bringt neues Kontextmenü und Cloud-Reparatur",
-      "kurz": "Microsoft hat für Windows 11 25H2 und 26H2 das optionale Vorschau-Update KB5127936 mit 41 Änderungen veröffentlicht. Dazu gehören ein schnelleres, anpassbares Kontextmenü im Explorer und eine Neuinstallation über Windows Update ohne USB-Stick. Für alle sollen die Neuerungen ab dem Patchday am 10. November ausrollen.",
-      "zusammenfassung": "Microsoft hat am 28. Oktober das optionale Vorschau-Update KB5127936 für Windows 11 25H2 und 26H2 veröffentlicht; es enthält keine Sicherheitskorrekturen. Laut BleepingComputer steigen die Builds auf 26200.9818 bzw. 26300.9818, insgesamt sind es 41 Änderungen und Fehlerbehebungen. Das Kontextmenü im Datei-Explorer soll schneller öffnen und sich anpassen lassen. Mit „Cloud Rebuild“ lässt sich Windows über Windows Update neu installieren, ohne USB-Stick oder ISO-Datei – auch wenn das System nicht mehr startet. Der Xbox-Modus erhält eine überarbeitete Aufgabenansicht mit Navigationsleiste, etwa für „Zum Desktop“ und die Energieoptionen. Die Einstellungsseite „Datenschutz und Sicherheit“ fasst Kamera, Mikrofon und Standort zusammen, und die Wiederherstellungsumgebung WinRE kann gespeicherte WLAN-Profile nutzen. Der Ruhezustand wird adaptiv: Bei mehr als 80 Prozent Akku greift er seltener, unter 10 Prozent früher. Wegen der Aktualisierung von Secure-Boot-Zertifikaten kann ein zusätzlicher Neustart nötig sein. Installiert wird das Update über Einstellungen > Windows Update oder den Microsoft Update-Katalog. Microsoft verteilt die Funktionen schrittweise, sie erscheinen also nicht auf jedem PC sofort. Laut Thurrott sollen die Neuerungen ab dem Patchday am 10. November für alle ausrollen.",
-      "quelle": {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/"
-      },
-      "weitere_links": [
-        {
-          "name": "Microsoft Support: KB5127936 (Builds 26300.9818 und 26200.9818)",
-          "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update"
-        },
-        {
-          "name": "Thurrott: Week-D-Vorschau-Updates für Windows 11",
-          "url": "https://www.thurrott.com/windows/windows-11/343340/microsoft-ships-the-week-d-preview-updates-for-windows-11"
-        }
-      ],
-      "tags": [
-        "Windows 11",
-        "Update",
-        "KB5127936"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-01T22:22:29.720Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-10-29-windows11-kb5127936.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-10-29-gta6-edge-polizei",
-      "datum": "2026-10-29T12:55:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "GTA 6"
-      ],
-      "kategorie": "Games",
-      "titel": "GTA 6: Rockstar zeigt Polizei mit Hundestaffel, Busse nach Fahrplan und dynamisches Wetter",
-      "schlagzeile": "GTA 6: Polizei mit Spürhunden, Busse und Züge nach Fahrplan",
-      "kurz": "In einer Titelgeschichte des britischen Magazins Edge hat Rockstar neue Details zu GTA 6 verraten. Die Polizei findet Spieler über Kameras, Ortungsgeräte in Autos und Zeugenhinweise, außerdem gibt es eine Hundestaffel. GTA 6 erscheint am 19. November 2026 für PS5 und Xbox Series X|S.",
-      "zusammenfassung": "Laut Polygon hat Rob Nelson, Co-Studiochef von Rockstar North, dem britischen Magazin Edge exklusiv neue Details zu Grand Theft Auto VI gegeben. Die Polizei soll Spieler über die letzte Sichtung, Überwachungskameras, Ortungsgeräte in Autos und Hinweise von Passanten aufspüren. Neu ist eine Hundestaffel: In der gezeigten Demo stellte ein Schäferhund Jason nach einem Motorradunfall. Passanten sollen eigene Charakterzüge haben – manche fliehen, andere greifen an. Busse und Züge fahren auf festen Routen nach Fahrplan; Entwicklungschef Phil Hooker sagte, er lege größten Wert darauf, dass sie immer pünktlich kommen. Das Wetter ist dynamisch, Wolken werden von Wind, Luftfeuchtigkeit, Nebel, Tageszeit und Jahreszeit geformt. Rockstar selbst hat auf X auf die Titelgeschichte in Edge-Ausgabe 430 hingewiesen. Laut Take-Two erscheint GTA 6 am 19. November 2026 für PlayStation 5 und Xbox Series X|S. Die Standard-Edition kostet in den USA 79,99 US-Dollar, die Ultimate Edition 99,99 US-Dollar. Der digitale Vorab-Download und die physische Edition sind ab 12. November geplant.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/grand-theft-auto-gta-6-rockstar-details-police-dogs-public-transportation-weather/"
-      },
-      "weitere_links": [
-        {
-          "name": "Rockstar Games auf X: Hinweis auf die Edge-Titelgeschichte (30.10.2026)",
-          "url": "https://x.com/RockstarGames/status/2116287925566550459"
-        },
-        {
-          "name": "Take-Two: Vorbestellungen, Termin und Preise von GTA VI",
-          "url": "https://take2-games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi"
-        }
-      ],
-      "tags": [
-        "GTA 6",
-        "Rockstar",
-        "PS5",
-        "Xbox"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-01T22:22:29.758Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-10-29-gta6-edge-polizei.webp",
-        "ki_generiert": true
-      }
     }
   ]
 }

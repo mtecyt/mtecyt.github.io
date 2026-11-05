@@ -1654,6 +1654,216 @@
       "feed": null,
       "geprueft_am": "2026-11-03",
       "ticker_bereich": "games"
+    },
+    {
+      "id": "x-xbox",
+      "name": "Xbox",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@XBOX",
+      "url": "https://x.com/XBOX",
+      "bereich": [
+        "Xbox, Game Pass, Microsoft-Spiele"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 26270000,
+      "track_record": "Offizielles Xbox-Konto (Business-verifiziert). Viele Reposts von Studio-Konten; Ankündigungen offiziell, aber werblich.",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 05.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "x-playstation",
+      "name": "PlayStation",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@PlayStation",
+      "url": "https://x.com/PlayStation",
+      "bereich": [
+        "PS5, PS Plus, PlayStation Studios"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 44470000,
+      "track_record": "Offizielles Konto von Sony Interactive Entertainment (Business-verifiziert).",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 05.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "x-playstation-eu",
+      "name": "PlayStation Europe",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@PlayStationEU",
+      "url": "https://x.com/PlayStationEU",
+      "bereich": [
+        "PS5, PS Plus (Europa)"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 990000,
+      "track_record": "Offizielles europäisches SIE-Konto (Business-verifiziert); EU-Preise/Termine.",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 05.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "x-nintendo-europe",
+      "name": "Nintendo of Europe",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@NintendoEurope",
+      "url": "https://x.com/NintendoEurope",
+      "bereich": [
+        "Nintendo Switch / Switch 2 (Europa)"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 697500,
+      "track_record": "Offizielles Konto von Nintendo of Europe (Business-verifiziert).",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 05.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "x-nintendo-america",
+      "name": "Nintendo of America",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@NintendoAmerica",
+      "url": "https://x.com/NintendoAmerica",
+      "bereich": [
+        "Nintendo Switch / Switch 2 (Nordamerika)"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 15740000,
+      "track_record": "Offizielles Konto von Nintendo of America (Business-verifiziert).",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 05.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "games"
+    },
+    {
+      "id": "x-nvidia",
+      "name": "NVIDIA",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@nvidia",
+      "url": "https://x.com/nvidia",
+      "bereich": [
+        "NVIDIA (GeForce, KI, Rechenzentren)"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 2696000,
+      "track_record": "Offizielles NVIDIA-Hauptkonto (Business-verifiziert).",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 31.10.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "hardware"
+    },
+    {
+      "id": "x-amd",
+      "name": "AMD",
+      "typ": "Offizieller Kanal",
+      "plattform": "X",
+      "handle": "@AMD",
+      "url": "https://x.com/AMD",
+      "bereich": [
+        "AMD (Ryzen, Radeon, Quartalszahlen)"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv",
+      "follower_ca": 1292000,
+      "track_record": "Offizielles AMD-Konto (Business-verifiziert); postet u. a. Quartalszahlen mit IR-Link.",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 03.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "hardware"
+    },
+    {
+      "id": "x-jensenhuang",
+      "name": "Jensen Huang (CEO NVIDIA)",
+      "typ": "Offizieller Kanal (CEO)",
+      "plattform": "X",
+      "handle": "@JensenHuang",
+      "url": "https://x.com/JensenHuang",
+      "bereich": [
+        "NVIDIA-Strategie, KI, Keynotes"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv, selten (21 Posts seit 06/2026)",
+      "follower_ca": 1155000,
+      "track_record": "Eigenes Konto, erstellt 06/2026, Bio „Founder and CEO of NVIDIA“, blau verifiziert (kein Business-Siegel). Echtheit über Profil/Follower plausibel; bei Zweifel @nvidia als Gegenprüfung.",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 26.10.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "hardware"
+    },
+    {
+      "id": "x-lisasu",
+      "name": "Lisa Su (CEO AMD)",
+      "typ": "Offizieller Kanal (CEO)",
+      "plattform": "X",
+      "handle": "@LisaSu",
+      "url": "https://x.com/LisaSu",
+      "bereich": [
+        "AMD-Strategie, Produkte"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv, selten",
+      "follower_ca": 330000,
+      "track_record": "Eigenes Konto, Bio „Chair and CEO of @AMD“, blau verifiziert. Viele Posts zu Partnerschaften/Sponsoring.",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 01.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "hardware"
+    },
+    {
+      "id": "x-asha-sharma",
+      "name": "Asha Sharma (CEO Xbox)",
+      "typ": "Offizieller Kanal (CEO)",
+      "plattform": "X",
+      "handle": "@asha_shar",
+      "url": "https://x.com/asha_shar",
+      "bereich": [
+        "Xbox-Strategie"
+      ],
+      "bewertung": "Hinweisquelle (offiziell)",
+      "status": "aktiv, selten (142 Posts)",
+      "follower_ca": 310000,
+      "track_record": "Eigenes Konto, Bio „CEO @XBOX“, blau verifiziert.",
+      "begruendung": "Offizielles Konto, per X-API am 05.11.2026 verifiziert (Profil, Verifizierung, letzter Post 04.11.2026).",
+      "vorsicht": "Hinweisquelle: liefert Themen-Hinweise, ist nie alleiniger Beleg. Leaks und Zahlen nur mit unabhängiger Gegenquelle (Fachmedium oder offizielle Pressemitteilung/IR-Seite) übernehmen.",
+      "hinweisquelle": true,
+      "geprueft_am": "2026-11-05",
+      "sprache": "en",
+      "ticker_bereich": "games"
     }
   ]
 }
