@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-06T08:41:22.021Z",
+    "stand": "2026-11-06T15:45:00+01:00",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -1679,7 +1679,7 @@
     },
     {
       "id": "2026-11-06-rx9070xt-clustered-geometry",
-      "datum": "2026-10-31T09:00:00+01:00",
+      "datum": "2026-11-06T07:00:00+01:00",
       "label": "News",
       "bereich": "hardware",
       "themen": [
