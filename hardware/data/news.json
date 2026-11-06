@@ -2,10 +2,324 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-05T19:32:48.468Z",
+    "stand": "2026-11-06T08:41:22.021Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-06-nvidia-dlss-override-19",
+      "datum": "2026-11-06T08:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "NVIDIA",
+        "DLSS"
+      ],
+      "kategorie": "Software",
+      "titel": "NVIDIA App: DLSS Override für 19 weitere Spiele, darunter Witcher 3 und PUBG",
+      "schlagzeile": "NVIDIA App: DLSS Override für 19 weitere Spiele freigeschaltet",
+      "kurz": "Ein Update der NVIDIA App ergänzt DLSS-Override-Profile für 19 weitere Titel. Darunter sind ältere Spiele wie The Witcher 3 und PUBG sowie kommende bzw. angekündigte Releases. Override erlaubt das Erzwingen neuerer DLSS-Modelle und -Modi, wo der Treiber es unterstützt.",
+      "zusammenfassung": "TechPowerUp meldet das NVIDIA-App-Update 11.0.9.585 mit DLSS-Override-Unterstützung für 19 weitere Spiele sowie Optimal-Settings-Profilen für sechs Titel. Auf der Override-Liste stehen unter anderem Honeycomb: The World Beyond, WARDOGS, PUBG: Battlegrounds, Aniimo, 007 First Light, Active Matter, Enlisted, Dragon's Dogma 2, The Witcher 3: Wild Hunt, AION 2, Halloween: The Game, HOT WHEELS Infinite Rush, Silent Hill: Townfall, Control Resonant, Ace Combat 8: Wings of Theve, Dynasty Warriors 3 Complete Edition Remastered, Star Wars: Galactic Racer, Gears of War: E-Day und Clive Barker's Hellraiser: Revival. Optimal Settings kommen unter anderem für AION 2, Aniimo, Control Resonant, EA Sports FC 27, Gears of War: E-Day und Star Wars: Galactic Racer. Einige Titel waren laut TechPowerUp bereits in früheren Builds gelistet; NVIDIA erklärt die Doppelungen nicht und nennt auch nicht pro Spiel, welche Override-Optionen greifen. DLSS Override liegt unter Grafik-Programmeinstellungen und erlaubt neuere DLSS-Modelle oder Modi wie DLAA, wenn ein Spiel sie selbst nicht anbietet. Das Changelog erwähnt sonst nur allgemeine Stabilitäts- und Sicherheitsfixes.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354528/nvidia-app-update-adds-dlss-override-support-to-19-more-games"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz: 19 DLSS-Override-Profile",
+          "url": "https://videocardz.com/newz/nvidia-adds-19-dlss-override-profiles-including-several-upcoming-pc-games"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS",
+        "NVIDIA App",
+        "Treiber"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.904Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-nvidia-dlss-override-19.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-unity-buyout-gespraeche",
+      "datum": "2026-11-06T08:00:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Unity"
+      ],
+      "kategorie": "Games",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Reuters-Bericht über vorläufige Gespräche, aufgegriffen von PC Gamer, Insider Gaming und IGN. Kein abgeschlossener Deal; Unity prüft Optionen mit einer Bank. Zahlen und Ausgang offen."
+      },
+      "ursprungsquelle": "Reuters",
+      "titel": "Berichte: Silver Lake und saudischer PIF sollen vorläufig über Unity-Übernahme gesprochen haben",
+      "schlagzeile": "Leak: Silver Lake und PIF sollen über Unity-Kauf sprechen",
+      "kurz": "Laut einem Reuters-Bericht haben Silver Lake und der saudische Public Investment Fund nach dem EA-Deal vorläufige Gespräche über eine Übernahme von Unity geführt. In Zweitberichten kursieren Bewertungsgrößen um etwa 25 Milliarden US-Dollar. Ein Abschluss ist nicht sicher; die Aktien reagierten auf die Gerüchte.",
+      "zusammenfassung": "Mehrere Medien berichten unter Berufung auf Reuters, dass Silver Lake und der saudische Public Investment Fund vorläufige Gespräche über eine mögliche Übernahme von Unity geführt haben. Dieselben Akteure waren kürzlich am großen EA-Deal beteiligt; Silver Lake hält Berichten zufolge bereits einen Minderheitsanteil an Unity. Insider Gaming nennt eine Bewertung in der Größenordnung von etwa 25 Milliarden US-Dollar und schreibt, Unity prüfe Optionen mit einer Bank. Es handelt sich ausdrücklich um frühe Gespräche; ein Deal ist nicht garantiert. Allein die Gerüchte hätten den Aktienkurs spürbar anziehen lassen, in einem Bericht ist von nahezu 15 Prozent die Rede. Unity ist vor allem für die gleichnamige Engine bekannt und steckt hinter zahlreichen großen Spielen. Die Lage bleibt unbestätigt, bis Unity oder die Investoren offiziell Stellung nehmen. Zuverlässigkeit: mittel wegen Reuters als Ursprung, aber vorläufigem Charakter.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming: Silver Lake und PIF sollen Unity wollen",
+          "url": "https://insider-gaming.com/saudi-silver-lake-pif-unity-acquisition-buyout/"
+        },
+        {
+          "name": "IGN: Silver Lake und PIF sollen Unity anstreben",
+          "url": "https://www.ign.com/articles/after-buying-ea-silver-lake-and-pif-are-reportedly-now-seeking-to-acquire-gaming-software-provider-unity"
+        }
+      ],
+      "tags": [
+        "Unity",
+        "Silver Lake",
+        "PIF",
+        "Übernahme",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.844Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-unity-buyout-gespraeche.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-amd-pc-markt-2027",
+      "datum": "2026-11-06T07:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "RAM"
+      ],
+      "kategorie": "Markt & Wirtschaft",
+      "titel": "AMD plant 2027 mit zweistelligem Rückgang der PC-Auslieferungen wegen hoher Speicherpreise",
+      "schlagzeile": "AMD: PC-Markt soll 2027 zweistellig schrumpfen – RAM-Preise belasten",
+      "kurz": "Lisa Su sagte im Earnings Call, AMD plane für 2027 mit einem zweistelligen Rückgang der PC-Stückzahlen weltweit. Grund seien höhere Speicher- und Komponentenpreise, die die Nachfrage belasten. Es handelt sich um eine Planungsannahme für den Gesamtmarkt, nicht um bereits gemessene Zahlen.",
+      "zusammenfassung": "Im Earnings Call zum dritten Quartal 2026 erklärte AMD-Chefin Lisa Su, der Konzern plane für 2027 mit einem Rückgang der PC-Markt-Stückzahlen um einen zweistelligen Prozentsatz. Als Ursache nennt sie höhere Speicher- und Komponentenkosten, die Desktop-PCs und Notebooks verteuern und die Nachfrage belasten. AMD will Sell-in an Sell-through angleichen, um Lagerbestände bei Kunden und im Handel gesund zu halten. Trotz der erwarteten Marktschwäche will AMD laut Su über die Ryzen-Roadmap und ein wachsendes Commercial-Geschäft besser abschneiden als der Gesamtmarkt. Parallel erwartet AMD, dass der Data-Center-Bereich 2027 mehr als 80 Prozent des Konzernumsatzes ausmacht. Im Client-Geschäft stieg der Umsatz im dritten Quartal um 7 Prozent auf 2,9 Milliarden US-Dollar; Gaming fiel um 40 Prozent auf 773 Millionen, vor allem wegen schwächerer Semi-Custom-Verkäufe im Konsolenzyklus. PCGH betont, dass es sich um eine Planungsannahme handelt und nicht um eine schon gemessene Marktentwicklung. VideoCardz greift dieselbe Earnings-Call-Aussage auf. RAM-Preise sind in Google Trends DE aktuell kaum gesucht, die Meldung bleibt trotzdem relevant für Hardware-Käufer.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/AMD-PC-Markt-2027-Prognose-RAM-Preise-Lisa-Su-1559144/"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz: AMD erwartet zweistelligen PC-Markt-Rückgang 2027",
+          "url": "https://videocardz.com/newz/amd-prepares-for-even-weaker-pc-market-in-2027-expects-double-digit-decline-in-shipments"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Lisa Su",
+        "PC-Markt",
+        "RAM",
+        "Data Center"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.598Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-amd-pc-markt-2027.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-asrock-rx7900-vbios",
+      "datum": "2026-11-05T20:07:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "AMD"
+      ],
+      "kategorie": "GPU",
+      "titel": "ASRock-VBIOS für RX 7900 XT/XTX: Besitzer melden bricked GPUs nach offiziellem Update",
+      "schlagzeile": "ASRock-VBIOS brickt RX 7900 XT/XTX – Downloads offenbar zurückgezogen",
+      "kurz": "Nach dem offiziellen ASRock-VBIOS von Ende Oktober melden Besitzer von Radeon RX 7900 XT und XTX Phantom Gaming sowie Taichi, dass ihre Karten nicht mehr starten. Das Update sollte AMD-SN-6023 absichern und lief über ASRVBFlash 1.0.5. HTTP-Downloads sind laut Berichten inzwischen 404; einige Karten ließen sich nur mit externem EEPROM-Programmer retten.",
+      "zusammenfassung": "ASRock hatte Ende Oktober neue VBIOS-Dateien für zehn Radeon-RX-7000-Karten veröffentlicht, darunter als Teil der AMD-Sicherheitsmaßnahme AMD-SN-6023. Mehrere Besitzer berichten nun, dass nach dem Flash mit ASRVBFlash 1.0.5 das System mit installierter GPU keinen POST mehr schafft. Betroffen genannt werden RX 7900 XT Phantom Gaming sowie RX 7900 XTX Phantom Gaming und Taichi inklusive White-Edition. Das Problem tritt Berichten zufolge auf unterschiedlichen Mainboards auf, etwa von ASRock und MSI. VideoCardz dokumentiert den Ablauf: das Tool prüft Kompatibilität, Windows startet neu, danach bootet der Rechner mit der Karte nicht mehr. Mindestens zwei Nutzer haben ihre RX 7900 XTX Phantom Gaming mit externen EEPROM-Programmern wiederhergestellt, darunter ein T48 mit Testclip. Die Oktober-Downloads sollen über HTTP inzwischen mit 404 antworten, während FTP-Links teilweise noch funktionieren. Ein Nutzer in Japan erhielt laut Reddit von ASRock Support die Zusage, der Schaden falle unter die Garantie; eine öffentliche Firmenaussage oder ein offizielles Recovery-Verfahren gibt es laut VideoCardz und Guru3D noch nicht. Bis ASRock klarstellt und eine korrigierte Firmware liefert, sollten Besitzer der genannten Modelle die Oktober-Firmware nicht installieren. Quelle ist VideoCardz, ergänzend Guru3D.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/asrock-radeon-rx-7900-xt-xtx-owners-report-bricked-gpus-after-official-vbios-update"
+      },
+      "weitere_links": [
+        {
+          "name": "Guru3D: ASRock RX-7000-VBIOS und Brick-Berichte",
+          "url": "https://www.guru3d.com/story/asrock-radeon-rx-7000-vbios-update-draws-reports-of-bricked-cards/"
+        }
+      ],
+      "tags": [
+        "ASRock",
+        "Radeon",
+        "RX 7900",
+        "VBIOS",
+        "AMD"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.535Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-asrock-rx7900-vbios.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-gog-galaxy-linux-2027",
+      "datum": "2026-11-05T19:28:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Linux",
+        "GOG"
+      ],
+      "kategorie": "Games",
+      "titel": "GOG Galaxy kommt 2027 neu – mit voller Linux-Unterstützung",
+      "schlagzeile": "GOG Galaxy 2027: neuer Client mit voller Linux-Unterstützung",
+      "kurz": "Beim ersten GOG Showcase hat GOG bestätigt, dass 2027 ein neuer Galaxy-Client mit voller Linux-Unterstützung erscheint. Parallel wird der Client für Windows und Mac überarbeitet. Galaxy bleibt optional; Offline-Installer bleiben erhalten.",
+      "zusammenfassung": "GamingOnLinux berichtet vom ersten GOG Showcase: 2027 soll ein komplett neuer GOG-Galaxy-Client für alle Plattformen erscheinen, erstmals mit voller Linux-Unterstützung. GOG hatte gegenüber GamingOnLinux schon im Juli an dem Vorhaben gearbeitet; nun ist der Zeitrahmen öffentlich. Laut GOG-Statement soll der Client auf Windows und Mac einfacher und schneller werden und die Bibliothek übersichtlicher darstellen. Die Kernzusage bleibt: Galaxy ist optional, Spiele lassen sich weiter über Offline-Installer herunterladen und behalten. Interessenten können sich auf der GOG-Anniversary-Seite für die Beta vormerken, sobald sie startet. Zusätzlich arbeitet GOG an GOG Social, einer modernisierten Community-Funktion mit Threads, Medien und spielebezogenen Tags. Weitere Feature-Details zum Linux-Client nennt der Bericht nicht; spekuliert wird hier nicht.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/a-new-gog-galaxy-is-coming-in-2027-with-full-linux-support/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GOG",
+        "Galaxy",
+        "Linux",
+        "Launcher"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.787Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-gog-galaxy-linux-2027.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-medusa-point-gb7",
+      "datum": "2026-11-05T18:34:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "CPU",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Geekbench-7-Eintrag eines Engineering Samples (100-000001713-32_Y) auf Lenovo-Plattform, berichtet von VideoCardz und TechPowerUp via HXL. Taktraten wirken unplausibel (rund 2,0 GHz). Kein finales Produkt, AMD hat nichts bestätigt."
+      },
+      "ursprungsquelle": "Geekbench via HXL",
+      "titel": "AMD Zen-6 Medusa Point taucht in Geekbench 7 auf: 10 Kerne, Single-Core über 9950X3D-Schnitt",
+      "schlagzeile": "Leak: Medusa Point in Geekbench 7 – 10C ES schlägt 9950X3D in SC?",
+      "kurz": "Ein unbestätigtes Geekbench-7-Ergebnis zeigt ein AMD-Medusa-Point-Engineering-Sample mit 10 Kernen und 20 Threads. Der Single-Core-Wert liegt bei 3100 Punkten und damit knapp über dem Schnitt des Ryzen 9 9950X3D. Die gemeldeten Taktraten um 2,0 GHz wirken für ein finales Produkt unplausibel.",
+      "zusammenfassung": "VideoCardz und TechPowerUp berichten über einen Geekbench-7-Eintrag des Engineering Samples 100-000001713-32_Y auf einer Lenovo-Plattform. Genannt werden 10 Kerne und 20 Threads in zwei Clustern mit 4 plus 6 Kernen sowie 16 MB L3-Cache. Der Single-Core-Score liegt bei 3100 Punkten und damit laut VideoCardz etwa 1,6 Prozent über dem Durchschnitt des Ryzen 9 9950X3D mit 3051 Punkten. Multi-Core kommt auf 18313 Punkte. Base- und Maximalfrequenz werden mit rund 2,0 GHz bzw. 1996 MHz angegeben; das wirkt für Serientaktraten unglaubwürdig und gilt als typisches ES- bzw. Fehlablesungs-Artefakt. TechPowerUp beschreibt die Cluster als mögliche Zen-6- und Zen-6c-Mischung und nennt AVX-512-Unterstützung im Listing. Es handelt sich nicht um ein finales Produkt; Spezifikationen, Taktraten und Erscheinungsdatum sind offen. Frühere Geekbench-6-Werte desselben Produkts sind wegen anderer Workloads nicht direkt vergleichbar. Zuverlässigkeit: mittel, weil nur ein öffentliches Benchmark-Listing über Leaker-Kanäle vorliegt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/amd-zen-6-medusa-point-appears-in-first-geekbench-7-leak-beats-ryzen-9-9950x3d-in-single-core-test"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp: Medusa Point 10C/20T in Geekbench",
+          "url": "https://www.techpowerup.com/354504/amd-medusa-point-with-10-core-20-thread-cpu-configuration-surfaces"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "Medusa Point",
+        "Geekbench",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.472Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-medusa-point-gb7.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-switch2-keine-preiserhoehung",
+      "datum": "2026-11-05T18:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Nintendo",
+        "Switch 2"
+      ],
+      "kategorie": "Games",
+      "titel": "Nintendo schließt weitere Switch-2-Preiserhöhung aus – trotz schwächerer Konsolenverkäufe",
+      "schlagzeile": "Nintendo: Keine weitere Preiserhöhung für die Switch 2 geplant",
+      "kurz": "Nintendo-Präsident Shuntaro Furukawa schließt weitere Preiserhöhungen für die Switch 2 aus. Das Unternehmen sieht sich bei Speicherchips ausreichend versorgt. Gleichzeitig berichten Medien von sinkenden Konsolenverkäufen und Gewinnrückgang im jüngsten Quartal.",
+      "zusammenfassung": "Bei der Vorstellung der aktuellen Geschäftszahlen erklärte Nintendo-Präsident Shuntaro Furukawa laut PC Games, Eurogamer, VGC und IGN, dass keine weitere Preiserhöhung für die Switch 2 geplant sei. Nintendo habe sich ausreichend Speicherkapazitäten gesichert und sehe derzeit keinen Grund für eine erneute Anpassung. Zuvor hatte Nintendo die Switch-2-Preise bereits angehoben, unter anderem um 50 US-Dollar bzw. 30 Euro in mehreren Regionen. IGN zitiert Bloomberg mit einem operativen Gewinnrückgang von 16 Prozent auf 73,9 Milliarden Yen im Quartal bis Ende September und nennt 2,67 Millionen verkaufte Switch-2-Einheiten in diesem Zeitraum. VGC spricht von einem etwa 37-prozentigen Rückgang der Switch-2-Verkäufe im gleichen Berichtskontext, während Nintendo betont, die Switch 2 verkaufe sich weiterhin besser als der Vorgänger im Vergleichszeitraum. Bis Ende September seien insgesamt rund 26 Millionen Switch-2-Konsolen verkauft worden. Die Prognosen für das laufende Geschäftsjahr behält Nintendo laut PC Games bei. Speicherknappheit bleibt branchenweit ein Thema; Nintendo positioniert sich hier anders als jüngste PS5- und Xbox-Preiserhöhungen.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Nintendo-Switch-2-Konsolen-280469/News/Preiserhoehung-Geschaeftsbericht-Shuntaro-Furukawa-1559115/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN: Nintendo schließt weitere Switch-2-Preiserhöhungen aus",
+          "url": "https://www.ign.com/articles/nintendo-rules-out-further-switch-2-price-rises-as-console-sales-and-profit-fall"
+        },
+        {
+          "name": "Eurogamer: No plans for more Switch 2 price hikes",
+          "url": "https://www.eurogamer.net/nintendo-switch-2-no-plans-for-more-price-hikes"
+        },
+        {
+          "name": "VGC: Nintendo not considering Switch 2 price hike",
+          "url": "https://www.videogameschronicle.com/news/nintendo-says-it-is-not-considering-a-switch-2-price-hike/"
+        }
+      ],
+      "tags": [
+        "Nintendo",
+        "Switch 2",
+        "Preis",
+        "Furukawa"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.728Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-switch2-keine-preiserhoehung.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
@@ -110,6 +424,55 @@
       }
     },
     {
+      "id": "2026-11-05-gta6-39-screenshots",
+      "datum": "2026-11-05T16:34:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Games",
+      "titel": "Rockstar veröffentlicht rund 39 neue offizielle GTA-6-Screenshots – zwei Wochen bis zum US-Start",
+      "schlagzeile": "GTA 6: Rockstar zeigt 39 neue Screenshots – zwei Wochen bis Launch",
+      "kurz": "Rockstar Games hat rund 39 neue offizielle Screenshots zu Grand Theft Auto VI veröffentlicht. Anlass ist der Countdown: in den USA stehen noch etwa zwei Wochen bis zum Start am 19.11.2026. Die Bilder zeigen unter anderem Szenen aus Vice City bzw. Leonida sowie Jason und Lucia.",
+      "zusammenfassung": "Rockstar Games hat offiziell eine größere Ladung neuer Screenshots zu Grand Theft Auto VI freigegeben. IGN und weitere Medien sprechen von 39 neuen Bildern zum Markieren der letzten zwei Wochen vor dem US-Launch. Der US-Starttermin 19.11.2026 wird in der Berichterstattung als Bezugspunkt genannt. Laut IGN, IGN Deutschland und PC Gamer sind unter den Motiven Vice-City- bzw. Leonida-Szenen, die Protagonisten Jason und Lucia, Crime- und Nightlife-Momente sowie Details wie Tänzer, Kampfhunde und sehr detailreiche Hautporen. Die Screenshots stammen von Rockstar bzw. der offiziellen Website und dem Rockstar-X-Kanal; es handelt sich um bestätigte Marketing-Bilder, nicht um Leaks. Inhalte über das hinaus, was die Quellen beschreiben, werden hier nicht spekuliert. Google Trends DE zeigt GTA 6 mit Wert 60 als höchsten der verglichenen Begriffe der letzten sieben Tage; AT liegt bei 41.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/rockstar-games-releases-39-new-gta-6-screenshots-to-celebrate-two-weeks-from-launch"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN Deutschland: 39 neue GTA-6-Screenshots",
+          "url": "https://de.ign.com/grand-theft-auto-vi/157022/rockstar-games-veroffentlicht-39-neue-screenshots-zu-gta-6-um-die-letzten-zwei-wochen-bis-zum-start"
+        },
+        {
+          "name": "PC Gamer: Launch-Screenshots mit Tänzern, Kampfhunden und Poren",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+        },
+        {
+          "name": "Rockstar Games (offizielle Seite)",
+          "url": "https://www.rockstargames.com/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Screenshots",
+        "Launch"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.663Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-gta6-39-screenshots.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -158,6 +521,49 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
@@ -1272,6 +1678,58 @@
       "bereich": "hardware"
     },
     {
+      "id": "2026-11-06-rx9070xt-clustered-geometry",
+      "datum": "2026-10-31T09:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "DirectX",
+        "GPU",
+        "PC-Gaming"
+      ],
+      "kategorie": "GPU",
+      "titel": "Microsoft Agility SDK: größtes DirectX-Raytracing-Update seit 2018 – Clustered Geometry und PTLAS",
+      "schlagzeile": "DirectX: größtes Raytracing-Update seit 2018 – Clustered Geometry",
+      "kurz": "Microsoft hat mit dem Agility SDK 1.722 Preview das umfangreichste DirectX-Raytracing-Update seit 2018 veröffentlicht. Clustered Geometry und Partitioned TLAS sollen den Aufbau von Raytracing-Strukturen massiv beschleunigen und den Speicherbedarf senken. In unabhängigen Demo-Messungen von PCGH steigt eine RX 9070 XT von 1,7 auf 91 Fps; Spiele müssen die Technik erst einbauen.",
+      "zusammenfassung": "Microsoft bezeichnet die neuen DirectX-Raytracing-Funktionen im Agility SDK 1.722 Preview als umfangreichste Erweiterung seit der Einführung von DXR im Jahr 2018. Kernpunkte sind Clustered Geometry (CLAS), Partitioned Top-Level Acceleration Structures (PTLAS) und indirekte Acceleration-Structure-Builds. Clustered Geometry zerlegt Geometrie in wiederverwendbare Cluster mit bis zu 256 Dreiecken; das soll den Aufbau von Raytracing-Strukturen in detailreichen, dynamischen Szenen stark beschleunigen und präzisere Reflexionen sowie Schatten ohne teure Proxy-Geometrie ermöglichen. PTLAS soll erlauben, nur veränderte Szenenbereiche zu aktualisieren. Laut ComputerBase und Microsoft stieg in einem Beispiel auf einer Radeon RX 9070 die Bildrate von 1,2 auf 79 Fps, der Struktur-Speicherbedarf sank von rund 7519 auf 774 MB; Scratch-Speicher stieg dagegen stark. PC Games Hardware hat die Demo D3D12RaytracingClusteredGeometry zusätzlich unabhängig gemessen: Eine RX 9070 XT ging bei 1600×920 von 1,7 auf 91 Fps (etwa Faktor 54), der BVH-Speicher von 7518 auf 771 MiB; eine RTX 5080 von 1,4 auf 310 Fps. Ohne Clustered Geometry lag die Radeon leicht vorn, mit dem Feature war die RTX 5080 deutlich schneller. Die Preview läuft auf GeForce RTX, Radeon RX 9000 sowie Intel Arc B-Serie und unterstützten Core-Ultra-iGPUs; neue Hardware-Features sind nicht nötig, Treiberunterstützung schon. Bestehende Spiele profitieren nicht automatisch: Studios müssen die APIs einbauen. Advanced Shader Delivery und weitere Agility-SDK-1.620-Funktionen gehören zum gleichen Release-Paket, sind aber kein Teil der Raytracing-Demo-Zahlen.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/directx-12-microsoft-bringt-groesstes-raytracing-update-seit-2018.100099/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft DirectX Blog: Agility SDK 1.620 / 1.722 Preview",
+          "url": "https://devblogs.microsoft.com/directx/agilitysdk-1-620-retail-and-1-722-preview/"
+        },
+        {
+          "name": "Microsoft: Clustered Geometry und PTLAS Preview",
+          "url": "https://devblogs.microsoft.com/directx/clas-ptlas-preview/"
+        },
+        {
+          "name": "PCGH: RX 9070 XT / RTX 5080 in Clustered-Geometry-Demo",
+          "url": "https://www.pcgameshardware.de/Radeon-RX-9070-XT-Grafikkarte-281023/News/DirectX-Raytracing-Clustered-Geometry-RTX-5080-Benchmark-1559145/"
+        }
+      ],
+      "tags": [
+        "Radeon",
+        "RX 9070 XT",
+        "DirectX",
+        "Raytracing",
+        "RTX 5080"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.389Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-rx9070xt-clustered-geometry.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-10-30-linux-kernel-tcp-luecke",
       "datum": "2026-10-30T22:09:00+01:00",
       "label": "News",
@@ -1510,99 +1968,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-10-30-amd-preiserhoehung.webp",
-        "ki_generiert": true
-      },
-      "bereich": "hardware"
-    },
-    {
-      "id": "2026-10-30-intel-q3-nova-lake-18a-p",
-      "datum": "2026-10-30T09:00:00+01:00",
-      "label": "News",
-      "kategorie": "CPU & Fertigung",
-      "titel": "Intel-Quartalszahlen: Nova Lake auf 18A-P liegt vor dem Zeitplan, Details zur CES",
-      "schlagzeile": "Intel drückt aufs Tempo: Nova Lake liegt vor dem Zeitplan",
-      "kurz": "In der Telefonkonferenz zum dritten Quartal hat Intel bestätigt, dass Nova Lake als erstes Client-Produkt auf dem 18A-P-Prozess kommt und die Entwicklung vor dem Zeitplan liegt. Details soll es zur CES im Januar geben. Den PC-Markt sieht Intel wegen der hohen Speicherpreise allerdings in einer Korrektur.",
-      "zusammenfassung": "In der Telefonkonferenz zum dritten Quartal 2026 (29. Oktober, US-Zeit) hat Intel bestätigt, dass Nova Lake das erste Client-Produkt auf dem 18A-P-Prozess wird. Die Entwicklung liege vor dem Zeitplan, und Intel erwartet doppelt so viele Design-Wins wie bei Panther Lake. Weitere Details sollen zur CES im Januar folgen. Die Ausbeute bei 18A verbessere sich laut Intel im zweistelligen Prozentbereich, 18A-P sei bis Jahresende auf Kurs. 18A-P soll bei gleicher Leistungsaufnahme etwa 9 Prozent mehr Takt oder bei gleichem Takt rund 18 Prozent weniger Verbrauch bringen. Für 14A wurde im Oktober das PDK 0.9 veröffentlicht, Version 1.0 folgt im ersten Quartal 2027, die Produktion ist für 2028 geplant. Bei den Servern kommen Diamond Rapids 2027 auf 18A-P und Coral Rapids 2028 auf 14A. Den PC-Markt sieht Intel dagegen in einer Korrektur, bis sich die Speicherpreise normalisieren – Intel rechnet mit rund 10 Prozent kleinerem Gesamtmarkt. Laut Tom's Hardware nimmt Intel zudem Panther-Lake-Kapazität vom Netz, um mehr Granite-Rapids-Server-CPUs zu bauen.",
-      "quelle": {
-        "name": "Tom's Hardware",
-        "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-nova-lake-will-use-advanced-18a-p-node-more-details-at-ces-company-says-its-taking-panther-lake-capacity-offline-to-build-more-granite-rapids-data-center-cpus"
-      },
-      "weitere_links": [
-        {
-          "name": "Transkript (The Motley Fool)",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/intel-intc-q3-2026-earnings-call-transcript/"
-        },
-        {
-          "name": "Notizen von harukaze5719 auf X",
-          "url": "https://x.com/harukaze5719/status/2115983435156308476"
-        }
-      ],
-      "tags": [
-        "Intel",
-        "18A-P",
-        "Nova Lake",
-        "Quartalszahlen"
-      ],
-      "datum_hinweis": "Uhrzeit geschätzt (Veröffentlichung am Morgen des 30.10.)",
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-01T17:57:00+01:00"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-10-30-intel-q3-nova-lake-18a-p.webp",
-        "ki_generiert": true
-      },
-      "bereich": "hardware"
-    },
-    {
-      "id": "2026-10-30-rtx5080-24gb",
-      "datum": "2026-10-30T08:50:00+01:00",
-      "label": "Leak",
-      "kategorie": "GPU",
-      "zuverlaessigkeit": {
-        "stufe": "mittel",
-        "hinweis": "Händlerforum Board Channels (China) plus BenchLife; mehrere Quellen, aber keine NVIDIA-Bestätigung."
-      },
-      "titel": "RTX 5080 mit 24 GB soll bis Januar 2027 kommen und die 16-GB-Version ersetzen",
-      "schlagzeile": "Leak: RTX 5080 mit 24 GB soll schon zum Jahreswechsel kommen",
-      "kurz": "Laut Board Channels plant NVIDIA eine GeForce RTX 5080 mit 24 statt 16 GB, die zwischen Dezember 2026 und Januar 2027 zuerst in China starten soll. Die 16-GB-Version soll dort auslaufen. Name, Takt und Preis sind unbekannt, NVIDIA hat nichts bestätigt.",
-      "zusammenfassung": "Laut einem Bericht aus dem chinesischen Händlerforum Board Channels (ChannelGate) plant NVIDIA eine GeForce RTX 5080 mit 24 GB Speicher. Sie soll frühestens im Dezember 2026 und spätestens im Januar 2027 in China starten. Die bisherige 16-GB-Version sowie die RTX 5090 D V2 sollen dort auslaufen, die Restbestände an 16-GB-GPUs reichen angeblich noch etwa zwei Monate. BenchLife hatte bereits am 12. Oktober von einem Start im ersten Quartal 2027 berichtet, Boardpartner hätten aber nur mündliche Hinweise erhalten. Die 50 Prozent mehr Speicher dürften über 3-GB-GDDR7-Module am gleichen Interface realisiert werden. Name, Taktraten und Preis sind unbekannt. Auch die X-Accounts hongxing2020 und MEGAsizeGPU hatten Anfang Oktober über ein Ende der 16-GB-Variante bzw. der GB202-Lieferungen für die RTX 5090 spekuliert. NVIDIA hat nichts davon bestätigt.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/nvidia-rtx-5080-24gb-reportedly-launching-by-january-2027-replacing-16gb-model"
-      },
-      "weitere_links": [
-        {
-          "name": "harukaze5719 auf X",
-          "url": "https://x.com/harukaze5719/status/2116049396433596798"
-        },
-        {
-          "name": "hongxing2020 auf X (10.10.)",
-          "url": "https://x.com/hongxing2020/status/2108780640368017543"
-        },
-        {
-          "name": "MEGAsizeGPU auf X (10.10.)",
-          "url": "https://x.com/Zed__Wang/status/2108815493599801608"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "RTX 5080",
-        "GDDR7"
-      ],
-      "ursprungsquelle": "Board Channels / BenchLife",
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-01T17:57:00+01:00"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-10-30-rtx5080-24gb.webp",
         "ki_generiert": true
       },
       "bereich": "hardware"

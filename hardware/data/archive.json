@@ -2,10 +2,97 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-05T18:44:18.405Z",
+    "stand": "2026-11-06T08:01:04.490Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-10-30-intel-q3-nova-lake-18a-p",
+      "datum": "2026-10-30T09:00:00+01:00",
+      "label": "News",
+      "kategorie": "CPU & Fertigung",
+      "titel": "Intel-Quartalszahlen: Nova Lake auf 18A-P liegt vor dem Zeitplan, Details zur CES",
+      "schlagzeile": "Intel drückt aufs Tempo: Nova Lake liegt vor dem Zeitplan",
+      "kurz": "In der Telefonkonferenz zum dritten Quartal hat Intel bestätigt, dass Nova Lake als erstes Client-Produkt auf dem 18A-P-Prozess kommt und die Entwicklung vor dem Zeitplan liegt. Details soll es zur CES im Januar geben. Den PC-Markt sieht Intel wegen der hohen Speicherpreise allerdings in einer Korrektur.",
+      "zusammenfassung": "In der Telefonkonferenz zum dritten Quartal 2026 (29. Oktober, US-Zeit) hat Intel bestätigt, dass Nova Lake das erste Client-Produkt auf dem 18A-P-Prozess wird. Die Entwicklung liege vor dem Zeitplan, und Intel erwartet doppelt so viele Design-Wins wie bei Panther Lake. Weitere Details sollen zur CES im Januar folgen. Die Ausbeute bei 18A verbessere sich laut Intel im zweistelligen Prozentbereich, 18A-P sei bis Jahresende auf Kurs. 18A-P soll bei gleicher Leistungsaufnahme etwa 9 Prozent mehr Takt oder bei gleichem Takt rund 18 Prozent weniger Verbrauch bringen. Für 14A wurde im Oktober das PDK 0.9 veröffentlicht, Version 1.0 folgt im ersten Quartal 2027, die Produktion ist für 2028 geplant. Bei den Servern kommen Diamond Rapids 2027 auf 18A-P und Coral Rapids 2028 auf 14A. Den PC-Markt sieht Intel dagegen in einer Korrektur, bis sich die Speicherpreise normalisieren – Intel rechnet mit rund 10 Prozent kleinerem Gesamtmarkt. Laut Tom's Hardware nimmt Intel zudem Panther-Lake-Kapazität vom Netz, um mehr Granite-Rapids-Server-CPUs zu bauen.",
+      "quelle": {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-nova-lake-will-use-advanced-18a-p-node-more-details-at-ces-company-says-its-taking-panther-lake-capacity-offline-to-build-more-granite-rapids-data-center-cpus"
+      },
+      "weitere_links": [
+        {
+          "name": "Transkript (The Motley Fool)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/intel-intc-q3-2026-earnings-call-transcript/"
+        },
+        {
+          "name": "Notizen von harukaze5719 auf X",
+          "url": "https://x.com/harukaze5719/status/2115983435156308476"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "18A-P",
+        "Nova Lake",
+        "Quartalszahlen"
+      ],
+      "datum_hinweis": "Uhrzeit geschätzt (Veröffentlichung am Morgen des 30.10.)",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-06T08:01:04.489Z"
+    },
+    {
+      "id": "2026-10-30-rtx5080-24gb",
+      "datum": "2026-10-30T08:50:00+01:00",
+      "label": "Leak",
+      "kategorie": "GPU",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Händlerforum Board Channels (China) plus BenchLife; mehrere Quellen, aber keine NVIDIA-Bestätigung."
+      },
+      "titel": "RTX 5080 mit 24 GB soll bis Januar 2027 kommen und die 16-GB-Version ersetzen",
+      "schlagzeile": "Leak: RTX 5080 mit 24 GB soll schon zum Jahreswechsel kommen",
+      "kurz": "Laut Board Channels plant NVIDIA eine GeForce RTX 5080 mit 24 statt 16 GB, die zwischen Dezember 2026 und Januar 2027 zuerst in China starten soll. Die 16-GB-Version soll dort auslaufen. Name, Takt und Preis sind unbekannt, NVIDIA hat nichts bestätigt.",
+      "zusammenfassung": "Laut einem Bericht aus dem chinesischen Händlerforum Board Channels (ChannelGate) plant NVIDIA eine GeForce RTX 5080 mit 24 GB Speicher. Sie soll frühestens im Dezember 2026 und spätestens im Januar 2027 in China starten. Die bisherige 16-GB-Version sowie die RTX 5090 D V2 sollen dort auslaufen, die Restbestände an 16-GB-GPUs reichen angeblich noch etwa zwei Monate. BenchLife hatte bereits am 12. Oktober von einem Start im ersten Quartal 2027 berichtet, Boardpartner hätten aber nur mündliche Hinweise erhalten. Die 50 Prozent mehr Speicher dürften über 3-GB-GDDR7-Module am gleichen Interface realisiert werden. Name, Taktraten und Preis sind unbekannt. Auch die X-Accounts hongxing2020 und MEGAsizeGPU hatten Anfang Oktober über ein Ende der 16-GB-Variante bzw. der GB202-Lieferungen für die RTX 5090 spekuliert. NVIDIA hat nichts davon bestätigt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidia-rtx-5080-24gb-reportedly-launching-by-january-2027-replacing-16gb-model"
+      },
+      "weitere_links": [
+        {
+          "name": "harukaze5719 auf X",
+          "url": "https://x.com/harukaze5719/status/2116049396433596798"
+        },
+        {
+          "name": "hongxing2020 auf X (10.10.)",
+          "url": "https://x.com/hongxing2020/status/2108780640368017543"
+        },
+        {
+          "name": "MEGAsizeGPU auf X (10.10.)",
+          "url": "https://x.com/Zed__Wang/status/2108815493599801608"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "RTX 5080",
+        "GDDR7"
+      ],
+      "ursprungsquelle": "Board Channels / BenchLife",
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-06T08:01:04.490Z"
+    },
     {
       "id": "2026-10-29-windows11-kb5127936",
       "datum": "2026-10-29T13:00:00+01:00",
