@@ -2,10 +2,52 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-06T18:19:35.343Z",
+    "stand": "2026-11-07T01:52:19.889Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-10-30-linux-kernel-tcp-luecke",
+      "datum": "2026-10-30T22:09:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux & Sicherheit",
+      "titel": "Linux-Kernel: Schwere Lücke im TCP-Code ermöglicht Root-Angriffe aus der Ferne auf MPTCP-Server",
+      "schlagzeile": "Linux: Kernel-Lücke erlaubt Root-Zugriff aus der Ferne – jetzt updaten",
+      "kurz": "Eine Use-after-free-Lücke im IPv4-TCP-Code des Linux-Kernels (CVE-2026-98432) betrifft Kernel bis zurück zu Version 4.4. Forscher haben einen Root-Zugriff aus der Ferne auf Servern gezeigt, die Multipath-TCP (MPTCP) anbieten. Debian hat bereits Updates, andere Distributionen ziehen nach.",
+      "zusammenfassung": "Laut BleepingComputer steckt im IPv4-TCP-Code des Linux-Kernels eine Use-after-free-Lücke, die durch eine Race Condition entsteht (CVE-2026-98432). Betroffen sind Kernel bis zurück zu Version 4.4. Das CVE-Team des Kernels bewertet die Lücke mit 9,8 von 10, Red Hat dagegen nur mit 5,9, weil die Ausnutzung komplex sei und vor allem Abstürze drohten. Forscher von Anthropic zeigten einen Root-Zugriff aus der Ferne auf Servern mit MPTCP-Listener; den Exploit erstellte laut Bericht ein unveröffentlichtes Claude-Modell in rund 53 Minuten. Normales TCP ist ebenfalls betroffen, dort wurde eine Codeausführung aber nicht gezeigt. Angriffe in freier Wildbahn sind nicht bestätigt. Heikel: Programme, die mit Go ab Version 1.24 gebaut sind, aktivieren MPTCP unter Linux standardmäßig. Das Go-Sicherheitsteam rät trotzdem zum Kernel-Update, statt MPTCP pro Programm abzuschalten, und MPTCP nur abzuschalten reicht laut Bericht ohnehin nicht. Debian hat korrigierte Kernel für Bookworm und Trixie veröffentlicht, bei Ubuntu waren Updates am 30. Oktober in Arbeit. RHEL 8 bis 10 sind betroffen, SUSE, Oracle und Amazon Linux hatten zu diesem Zeitpunkt teilweise Updates. Behoben ist die Lücke unter anderem in den Kernel-Versionen 6.1.190, 6.6.159, 6.12.113, 6.18.56 und 7.3. Wer Linux-Server betreibt, sollte den Kernel zügig aktualisieren und neu starten.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/linux-kernel-exploit-enables-remote-root-attacks-on-mptcp-servers/"
+      },
+      "weitere_links": [
+        {
+          "name": "oss-security: Hinweis des Go-Sicherheitsteams zu MPTCP",
+          "url": "https://www.openwall.com/lists/oss-security/2026/10/30/1"
+        },
+        {
+          "name": "LWN.net: Neue Stable-Kernel",
+          "url": "https://lwn.net/Articles/1104192/"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "Kernel",
+        "Sicherheit",
+        "CVE-2026-98432"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T22:22:29.601Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-07T01:52:19.889Z"
+    },
     {
       "id": "2026-10-30-windows-insider-suche",
       "datum": "2026-10-30T18:05:00+01:00",
