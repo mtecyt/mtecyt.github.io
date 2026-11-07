@@ -2,10 +2,266 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-07T01:52:19.890Z",
+    "stand": "2026-11-07T07:51:10.143Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-07-hwinfo-rx7500-razor-lake",
+      "datum": "2026-11-07T13:02:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "GPU",
+        "Intel"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "HWiNFO-Beta erkennt unangekündigte Radeon RX 7500 und Intel Razor Lake-H/HX/S",
+      "schlagzeile": "Leak: HWiNFO kennt RX 7500 und Razor Lake",
+      "kurz": "Die HWiNFO-Beta 8.55 Build 6115 listet eine AMD Radeon RX 7500, die AMD noch nicht angekündigt hat. Denselben Build verbessert die Erkennung von Intel Razor Lake-H, -HX und -S sowie Nova Lake-E. Specs und Launch der RX 7500 bleiben unbekannt; Namenssupport in Tools ist keine Launch-Garantie.",
+      "zusammenfassung": "TechPowerUp und VideoCardz berichten, dass die HWiNFO-Beta Version 8.55 Build 6115 erstmals „AMD Radeon RX 7500“ erkennt. AMD hat die Karte nicht offiziell vorgestellt; im Changelog steht nur der Name, ohne Spezifikationen oder Termin. TechPowerUp hält Navi 33 / RDNA 3 für den wahrscheinlichsten Chip-Kandidaten, weil die Architektur bereits RX 7400 und RX 7600 speist – ein Modell dazwischen wäre eng bemessen. Der Name RX 7500 bzw. RX 7500 XT tauchte laut Berichten schon in älteren Gerüchten um 2024 auf, ohne konkreten Launch. VideoCardz verweist zusätzlich auf frühere Prototyp-Hinweise zu Navi 33 XE mit 6 GB GDDR6 und Device-ID 749F; ob das finale Produkt so aussieht, ist unbestätigt. Derselbe HWiNFO-Build erweitert die Unterstützung für Intel Nova Lake-E und Razor Lake-H/HX/S. Razor Lake gilt als Nachfolger-Generation nach Nova Lake; retail-Chips sind weit entfernt, da Nova Lake-S erst um Q1 2027 erwartet wird. CPU-Z 3.02 hatte Razor Lake Anfang der Woche bereits ergänzt, HWiNFO hatte Razor Lake-AX schon im August vorläufig. AMD und Intel haben die Einträge nicht bestätigt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354555/unreleased-radeon-rx-7500-and-intel-razor-lake-h-hx-s-appear-in-latest-hwinfo-beta"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz: HWiNFO RX 7500 und Razor Lake",
+          "url": "https://videocardz.com/newz/hwinfo-adds-amd-radeon-rx-7500-support-improves-intel-razor-lake-h-hx-s-detection"
+        },
+        {
+          "name": "HWiNFO-Forum: Beta 8.55-6115",
+          "url": "https://www.hwinfo.com/forum/threads/hwinfo-v8-55-6115-beta-released.11381/"
+        }
+      ],
+      "tags": [
+        "HWiNFO",
+        "Radeon RX 7500",
+        "Razor Lake",
+        "AMD",
+        "Intel",
+        "Leak"
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Nur Namens- bzw. ID-Support in der HWiNFO-Beta 8.55-6115 sowie Berichte von TechPowerUp und VideoCardz. Keine offizielle Ankündigung von AMD oder Intel; Specs und Launch der RX 7500 unbekannt. Tool-Erkennung ist keine Launch-Garantie."
+      },
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.645Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-hwinfo-rx7500-razor-lake.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-07-windows-hello-pin-parallel",
+      "datum": "2026-11-07T08:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Betriebssysteme",
+      "titel": "Windows 11 Insider: PIN parallel zum Windows-Hello-Gesichts- oder Fingerabdruck-Scan",
+      "schlagzeile": "Windows 11: PIN tippen während Windows Hello scannt",
+      "kurz": "In der Windows-11-Insider-Experimental-Build 26340.9882 lässt sich die PIN tippen, während Windows Hello noch Gesicht oder Fingerabdruck prüft. Der Lockscreen zeigt „Look at the camera or enter your PIN“; wer zuerst funktioniert, gewinnt. Der Rollout ist experimentell, ein Retail-Termin fehlt.",
+      "zusammenfassung": "Windows Latest testet Build 26340.9882 vom 6 November 2026 (Basis Windows 11 26H2, Experimental-Kanal): Auf dem Anmeldebildschirm erscheint das PIN-Feld parallel zur Windows-Hello-Prüfung. Statt auf Fehlschlag der Gesichtserkennung zu warten oder umständlich Anmeldeoptionen zu wählen, gilt laut Microsoft-Release-Notes „whichever method works first“. Nach einem Neustart bleibt PIN-First aus Sicherheitsgründen bestehen. Schlägt Face fehl, gibt es einen direkten „Retry face sign-in“-Hinweis. Bei Geräten mit IR-Kamera und Fingerabdrucksensor kann der Prompt Gesicht und Fingerabdruck nennen, mit PIN darunter. Neu sind Event-Log-IDs 4628 und 4629 unter Security für eingerichtete bzw. fehlgeschlagene Hello-Methoden; zusätzliche Operational-Events helfen der IT. Die Funktion erschien laut Test ohne ViVeTool. Experimental-Builds können Bugs enthalten; wann das Verhalten den stabilen Kanal erreicht, sagte Microsoft nicht.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/07/microsoft-is-fixing-one-of-windows-11s-most-frustrating-sign-in-problems-with-a-new-windows-hello-update/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Windows Hello",
+        "PIN",
+        "Insider"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.706Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-windows-hello-pin-parallel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-openai-gpt6-cyber-bugs",
+      "datum": "2026-11-06T21:24:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "KI"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "OpenAI stellt GPT-6 Cyber vor: laut eigener Angabe 81 Firefox- und 948 Linux-LPE-Funde",
+      "schlagzeile": "OpenAI GPT-6 Cyber findet 81 Firefox- und 948 Linux-Bugs",
+      "kurz": "OpenAI hat GPT-6 Cyber vorgestellt, ein nicht öffentliches Security-Modell. Laut Unternehmensangaben fand es 81 zuvor unbekannte high-severity Firefox-Lücken und entwickelte Exploits für 948 Linux-Local-Privilege-Escalation-Fälle. Die Zahlen stammen von OpenAI und sind keine unabhängige Vollaudit-Bestätigung.",
+      "zusammenfassung": "BleepingComputer, Phoronix und Golem berichten über OpenAIs Ankündigung von GPT-6 Cyber. Das Modell ist nicht öffentlich und derzeit auf freigeschaltete Kunden im Daybreak-Red-Programm beschränkt. OpenAI gibt an, 81 zuvor unbekannte high-severity Schwachstellen in Firefox entdeckt und Patches mitentwickelt zu haben; viele seien bei Mozilla bereits ausgerollt. Zur Linux-Kernel-Forschung nennt OpenAI 2308 potenzielle Funde, 1724 reproduzierte Schwachstellen und 948 Local-Privilege-Escalation-Exploits von unprivileged zu root. Im ExploitGym-Benchmark nennt das Unternehmen 48,5 Prozent Erfolgsrate gegenüber 32,1 Prozent beim Vorgänger GPT-5.6 Cyber. Im Preparedness Framework stuft OpenAI die Cyber-Fähigkeit als „Critical“ ein. Unabhängige Audit-Tiefe zu Umfang und Schwere der Funde ist begrenzt – die Zahlen sind Firmenangaben, kein Beleg dafür, dass „Linux generell unsicher“ wäre. OpenAI warnt vor einem begrenzten Zeitfenster, in dem Verteidiger Frontier-Modelle zum Härten nutzen sollten, bevor ähnliche Fähigkeiten breiter verfügbar sind.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix: OpenAI 948 Linux LPE Bugs",
+          "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs"
+        },
+        {
+          "name": "Golem: OpenAI will fast 1000 Root-Lücken gefunden haben",
+          "url": "https://www.golem.de/news/mit-ki-agenten-openai-will-in-linux-system-fast-1-000-root-luecken-gefunden-haben-2611-214884.html"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "GPT-6 Cyber",
+        "Firefox",
+        "Linux",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.777Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-openai-gpt6-cyber-bugs.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-zen6-tee-riscv",
+      "datum": "2026-11-06T20:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD Zen 6: Firmware-Hinweis auf RISC-V-basiertes TEE statt ARM-PSP",
+      "schlagzeile": "Zen 6: AMD wechselt TEE von ARM auf RISC-V",
+      "kurz": "Ein linux-firmware-Commit für AMD PMF Trusted Application auf Zen-6-Client (Family 1Ah M80h) erwähnt ein RISC-V-basiertes TEE. Bisher lief der Secure Processor typischerweise auf ARM Cortex-A5 mit TrustZone. Ob RISC-V wirklich neu ab Zen 6 ist oder nur erstmals dokumentiert, bleibt offen.",
+      "zusammenfassung": "Phoronix berichtet über einen linux-firmware-Commit, der PMF-TA-Firmware v4 für die Plattform 1AH_M80H ergänzt – das entspricht kommenden AMD-Ryzen-Zen-6-Client-CPUs. Im Commit-Text heißt es, die Trusted Application laufe nun auf einem RISC-V-basierten TEE, nutze ein größeres Shared-Memory-Layout und erweiterte Policy-Bedingungen inklusive bis zu 20 Custom-BIOS-Inputs. Das Platform Management Framework steuert unter anderem Power-, Thermal- und Systemverhalten. Traditionell basierte der AMD Platform Security Processor bzw. Secure Processor auf ARM Cortex-A5 mit TrustZone. Phoronix findet keine älteren öffentlichen Hinweise auf RISC-V-TEE in Ryzen/EPYC und lässt offen, ob das Feature neu für Zen 6 ist oder bei älteren SoCs nur nie erwähnt wurde. Ein finales Marketing-Label der Ryzen-Generation nennt der Commit nicht. Für Linux-Enablement und Security-Nerds ist der Architekturwechsel dennoch ein seltenes Zen-6-Detail vor dem Produktlaunch.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "RISC-V",
+        "TEE",
+        "Firmware"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.838Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-zen6-tee-riscv.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-epic-linux-launcher-distros",
+      "datum": "2026-11-06T20:22:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Linux",
+        "PC"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Epic Games Launcher Preview: breite Linux-Distro-Unterstützung und AppImage-Rückkehr geplant",
+      "schlagzeile": "Epic: neuer Launcher soll viele Linux-Distros unterstützen",
+      "kurz": "Epic bestätigt gegenüber GamingOnLinux, dass der neue Launcher in der Preview möglichst viele Linux-Distributionen unterstützen soll – explizit unter anderem Fedora, SteamOS, Cachy und Omarchy. Packaging wechselt noch; AppImage soll noch in diesem Monat zurückkommen. Preview heißt nicht fertige Distro-Matrix.",
+      "zusammenfassung": "GamingOnLinux hat Jake Jones (Communications Director, Epic Games) zum Linux-Support des neuen Epic Games Launchers befragt. Laut Statement plant Epic, „so viele Linux-Distributionen wie möglich“ zu unterstützen, darunter Fedora, SteamOS, Cachy, Omarchy und weitere. Die Preview startete mit AppImage, wechselte später auf ein .deb für Debian/Ubuntu; die FAQ nannte Fedora als baldig. Epic testet und bewertet Packaging-Formate und will AppImage noch in diesem Monat wiederherstellen. Bis die Matrix feststeht, können Formate kommen und gehen. Flatpak/Flathub bleibt in der Meldung offen. Der Launcher-Status ist Preview, kein finaler Store-Rollout für jede Distro. Fortnite oder Easy Anti-Cheat v2 sind ein separates Thema und werden hier nicht als „Fortnite kommt auf Linux“ verkauft. Zusammen mit dem bereits bekannten GOG-Galaxy-Linux-Zeitfenster 2027 bleibt der Wettbewerb der Store-Clients auf Linux spannend.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/epic-games-comments-on-planned-linux-distribution-support/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Epic Games",
+        "Linux",
+        "Launcher",
+        "SteamOS"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.906Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-epic-linux-launcher-distros.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-mindfactory-cyberangriff",
+      "datum": "2026-11-06T18:22:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Mindfactory meldet Cyberangriff: Kundenpasswörter zurückgesetzt, Behörde informiert",
+      "schlagzeile": "Mindfactory: Hackerangriff – Passwörter zurückgesetzt",
+      "kurz": "Der Hardware-Shop Mindfactory hat am 6 November 2026 einen Cyberangriff gemeldet und Kunden sowie die Datenschutzbehörde informiert. Möglicherweise betroffen: Adresse, E-Mail, Telefon und verschlüsselte Passwörter; Bankdaten liegen laut Shop nicht im Shopsystem. Alle Shop-Passwörter wurden zurückgesetzt; Phishing-Vorsicht ist geboten.",
+      "zusammenfassung": "heise online und Golem berichten, dass Mindfactory Opfer eines Cyberangriffs geworden ist und Kunden per Mitteilung informiert. Das Unternehmen hat Strafanzeige erstattet und die zuständige Datenschutzbehörde eingeschaltet. Nach aktuellem Stand kann Mindfactory nicht ausschließen, dass Angreifer auf Anschrift, E-Mail, Telefon sowie verschlüsselt gespeicherte Passwörter zugriffen. Klartext-Passwörter und Bank- bzw. Kreditkartendaten seien laut Unternehmen nicht betroffen, weil Zahlungsdaten bei Dienstleistern liegen. Alle Kundenpasswörter für den Shop wurden vorsorglich zurückgesetzt; beim nächsten Login ist ein neues Passwort nötig, künftig mit modernem Hash-Verfahren. Geschäftsführer Marcel Kirchner spricht von forensischer Untersuchung, keiner Erpressung und einer geschlossenen Lücke. Kunden sollen bei unerwarteten Mails, SMS oder Anrufen vorsichtig sein, weil Kontaktdaten für Betrug missbraucht werden könnten. Transparenzhinweis: Mindfactory gehört seit Mitte 2025 zur heise group; heise online ist Teil derselben Unternehmensgruppe. Umfang und genauer Angriffszeitpunkt waren zum Meldungszeitpunkt noch in Klärung.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Mindfactory-informiert-Kunden-ueber-Cyberangriff-11515963.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem: Hacker attackieren Mindfactory",
+          "url": "https://www.golem.de/news/onlinehaendler-hacker-attackieren-mindfactory-2611-214956.html"
+        },
+        {
+          "name": "GameStar: Cyberangriff bei Mindfactory",
+          "url": "https://www.gamestar.de/artikel/cyberangriff-bei-mindfactory-grosser-deutscher-haendler-meldet-vorfall-mit-hoechster-prioritaet,3462625.html"
+        }
+      ],
+      "tags": [
+        "Mindfactory",
+        "Cyberangriff",
+        "Sicherheit",
+        "Datenschutz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.963Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-mindfactory-cyberangriff.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-06-nier-366gb-update",
       "datum": "2026-11-06T18:09:00+01:00",
@@ -114,6 +370,48 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-06-ratchet-ranger-rumble.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-06-poe2-1-0-exilecon",
+      "datum": "2026-11-06T17:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PC",
+        "ARPG"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Path of Exile 2 Vollrelease am 11 Dezember 2026: Shadow, Duelist und League Conquerors of Wraeclast",
+      "schlagzeile": "Path of Exile 2 1.0: Shadow, Duelist, Start 11.12.",
+      "kurz": "Grinding Gear Games hat auf der ExileCon den Vollrelease von Path of Exile 2 für den 11 Dezember 2026 angekündigt. Neu dabei sind die Klassen Shadow und Duelist sowie die fertigen Campaign-Acts fünf und sechs. Dazu kommt die League „Conquerors of Wraeclast“ mit Base- und Army-Building.",
+      "zusammenfassung": "PC Gamer fasst die ExileCon-Keynote zu Path of Exile 2 Version 1.0 zusammen: Der Vollrelease nach rund zwei Jahren Early Access ist für den 11 Dezember 2026 datiert. Zwei neue Klassen starten mit: der Dolch- und Fallen-fokussierte Shadow mit Stealth sowie der schwertlastige Duelist. Shadow kann laut Studio als Assassin ascendieren oder die neue Ascendancy Infiltrator wählen; eine dritte Ascendancy ist später vorgesehen. Stealth verhindert, dass Monster den Charakter aus der Distanz sehen, setzt sich bei Kill zurück und interagiert mit Fallen, die aus dem Versteck erst beim Enthüllen auslösen. Die Campaign erhält Acts fünf und sechs inklusive Rückkehr nach Oriath und Einführung in die League-Mechanik. „Conquerors of Wraeclast“ bringt Base-Building, Armeen, Commanders und später fraktionsgebundene Atlas-Schlachten. Das Endgame strafft den Atlas-Skilltree stark, überarbeitet Gems und Passive Tree inklusive Jewel-Slots und ergänzt viele neue Bases sowie Uniques. Exakte Launch-Uhrzeit und weitere Ascendancy-Details können nach der laufenden ExileCon noch nachziehen.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/rpg/heres-whats-in-path-of-exile-2s-huge-1-0-release-coming-in-december/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer: Shadow-Klasse für PoE2 1.0",
+          "url": "https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/"
+        }
+      ],
+      "tags": [
+        "Path of Exile 2",
+        "ExileCon",
+        "ARPG",
+        "Grinding Gear Games"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.022Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-06-poe2-1-0-exilecon.webp",
         "ki_generiert": true
       }
     },
@@ -853,6 +1151,54 @@
       }
     },
     {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-nova-lake-h-foto",
       "datum": "2026-11-05T16:37:00+01:00",
       "label": "Leak",
@@ -954,49 +1300,6 @@
       }
     },
     {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -1045,6 +1348,49 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
