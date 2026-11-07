@@ -2,10 +2,107 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-07T01:52:19.889Z",
+    "stand": "2026-11-07T18:12:56.606Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-10-31-nv-uefi-unlocker",
+      "datum": "2026-10-31T16:10:00+01:00",
+      "label": "News",
+      "kategorie": "Tools & Mods",
+      "titel": "Open-Source-Tool schaltet mehr KI-Leistung bei RTX 20, 30 und 40 frei",
+      "schlagzeile": "Gratis-Tool holt bis zu 75 % mehr KI-Leistung aus RTX-Karten – mit Haken",
+      "kurz": "Das Open-Source-Werkzeug „nv-uefi-unlocker“ schaltet bei RTX 20, 30 und 40 gedrosselte Recheneinheiten für KI-Aufgaben frei. In den genannten Tests stieg die Leistung je nach Karte und Aufgabe um rund 29 bis 75 Prozent. Für Spiele ist kein Vorteil belegt, Secure Boot muss aus, und die Nutzung erfolgt auf eigenes Risiko.",
+      "zusammenfassung": "Der Entwickler physicsdolphin hat mit 'nv-uefi-unlocker' ein Open-Source-Werkzeug veröffentlicht, das bei GeForce-Karten gedrosselte Recheneinheiten für KI-Workloads freischalten soll. Das Tool startet per USB-Stick vor dem eigentlichen Treiber und funktioniert anschließend auch unter Windows. Die Änderung ist nicht dauerhaft und muss nach jedem Kaltstart erneut angewendet werden. Unterstützt werden RTX 20, 30 und 40, GTX 16 nur experimentell, RTX 50 gar nicht. Voraussetzung ist ein deaktiviertes Secure Boot, Turing-Karten brauchen zusätzlich GSP-Firmware. Genannte Ergebnisse: Eine RTX 2070 legte bei FP32-GEMM um 67 bis 75 Prozent zu, eine RTX 4060 Laptop-GPU stieg bei FP16 von 29,89 auf 49,33 TFLOPS. Ein Nutzer mit RTX 3080 LHR meldete in ComfyUI mit SDXL etwa 29 Prozent mehr Tempo, bei der Textgenerierung mit LLMs bringt das Tool dagegen wenig. Wer das ausprobiert, tut das auf eigenes Risiko – für Spiele-Performance ist kein Vorteil belegt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/modders-create-automated-tool-to-unlock-ai-performance-on-nvidia-geforce-rtx-20-30-and-40-series-gpus"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "KI",
+        "Tool",
+        "Gebraucht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-07T18:12:56.605Z"
+    },
+    {
+      "id": "2026-10-31-amd-adrenalin-26-10-2",
+      "datum": "2026-10-31T13:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber"
+      ],
+      "kategorie": "Grafiktreiber",
+      "titel": "AMD Adrenalin 26.10.2: Optionaler Radeon-Treiber behebt zehn Fehler, mehrere Probleme bleiben offen",
+      "schlagzeile": "Radeon-Abstürze: AMDs neuer Treiber behebt zehn Fehler – aber nicht alle",
+      "kurz": "AMD hat den optionalen Grafiktreiber Adrenalin 26.10.2 veröffentlicht, der zehn Fehler behebt, darunter Treiber-Timeouts, Abstürze und Systemabschaltungen auf Radeon RX 7000 und RX 9000. Neue Spiele-Unterstützung bringt er nicht. Mehrere bekannte Probleme, etwa in Cyberpunk 2077 und Assassin's Creed Black Flag Resynced, bleiben offen.",
+      "zusammenfassung": "AMD hat am 30.10.2026 den optionalen Grafiktreiber Adrenalin Edition 26.10.2 für Windows veröffentlicht. Laut den offiziellen Release Notes ist es ein reines Fehlerbehebungs-Update mit zehn Korrekturen. Behoben sind unter anderem Abstürze oder Treiber-Timeouts, wenn bei aktivem AMD-Leistungs-Overlay weitere Overlays wie die Xbox Game Bar geöffnet oder geschlossen werden. Auch der Steam-Client stürzte auf Radeon-Karten teils beim Start ab, das soll nun behoben sein. Auf der RX 7600 beseitigt der Treiber Systemabschaltungen in Valor Mortis, auf der übrigen RX-7000-Serie Treiber-Timeouts im selben Spiel. Für die RX-9000-Serie behebt AMD Hänger in Death Stranding 2 mit aktiviertem FSR und Abstürze beim Wechseln zwischen Anwendungen mit FSR Frame Generation. Dazu kommen Korrekturen bei der Videowiedergabe unter Windows 11 mit hardwarebeschleunigter GPU-Planung (HAGS) und ein Fehler im AMD Install Manager. Nicht alles ist gelöst: In Assassin's Creed Black Flag Resynced kann es auf der RX 7000 weiter zu Abstürzen kommen, in War Thunder auf der RX 5000 zu Timeouts. Für War Thunder empfiehlt AMD vorerst den älteren Treiber 26.9.1. In Cyberpunk 2077 kann es auf einigen RX-9000-Karten abstürzen, wenn FSR-Upscaling, Anti-Lag und Frame Generation aktiv sind und auf einem zweiten Bildschirm ein Video läuft; AMD rät dann, die Frame Generation im Spiel abzuschalten. Außerdem kann laut AMD unter Windows 10 nach der Installation Smart Access Memory deaktiviert sein, das sollte man im Zweifel im Treiber prüfen. Wer keines der behobenen Probleme hat, muss den optionalen Treiber nicht sofort installieren.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/AMD-Adrenalin-26-10-2-Update-behebt-Treiberabstuerze-auf-Radeon-Grafikkarten-1558489/"
+      },
+      "weitere_links": [
+        {
+          "name": "AMD: Release Notes Adrenalin Edition 26.10.2 (offiziell)",
+          "url": "https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-10-2.html"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Radeon",
+        "Treiber",
+        "Adrenalin"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.915Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-07T18:12:56.606Z"
+    },
+    {
+      "id": "2026-10-31-altman-pc-ram",
+      "datum": "2026-10-31T09:31:00+01:00",
+      "label": "News",
+      "kategorie": "Speicher & Markt",
+      "titel": "Sam Altman: PC-RAM sei eine 'ziemlich schlechte' Nutzung knapper DRAM-Kapazität",
+      "schlagzeile": "Sam Altman: Der RAM in deinem PC ist „ziemlich schlecht“ genutzt",
+      "kurz": "Im Podcast „Cheeky Pint“ nannte OpenAI-Chef Sam Altman es „quite terrible“, dass DRAM in PCs steckt, die nach seiner groben Schätzung nur etwa fünf Prozent der Zeit laufen. Hintergrund ist die Speicherknappheit, weil Hersteller immer mehr Server- und KI-Speicher produzieren. Für PC-Bastler heißt das: RAM dürfte so schnell nicht billiger werden.",
+      "zusammenfassung": "OpenAI-Chef Sam Altman hat im Podcast 'Cheeky Pint' mit Stripe-Mitgründer John Collison über die aktuelle Speicherknappheit gesprochen. Er bezeichnete es dort als 'quite terrible', dass DRAM in PCs stecke, die nur etwa fünf Prozent der Zeit genutzt würden. Die fünf Prozent sind seine eigene grobe Schätzung und keine belegte Zahl. Hintergrund ist, dass Speicherhersteller ihre Produktion zunehmend auf Server- und KI-Speicher verlagern, was die Preise für Endkunden-RAM treibt. VideoCardz widerspricht Altman in seinem Kommentar deutlich. Für PC-Bastler ist die Aussage vor allem ein Hinweis darauf, dass die RAM-Preise so schnell nicht wieder fallen dürften.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/openai-ceo-sam-altman-calls-pc-ram-a-quite-terrible-use-of-limited-dram-supply"
+      },
+      "weitere_links": [],
+      "tags": [
+        "DRAM",
+        "OpenAI",
+        "Preise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-07T18:12:56.606Z"
+    },
     {
       "id": "2026-10-30-linux-kernel-tcp-luecke",
       "datum": "2026-10-30T22:09:00+01:00",
