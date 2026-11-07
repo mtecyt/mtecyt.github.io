@@ -2,10 +2,135 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-07T18:12:56.607Z",
+    "stand": "2026-11-07T20:50:55.858Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.350Z"
+      },
+      "id": "2026-11-07-anno117-fsr3-rtx30",
+      "datum": "2026-11-07T18:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Anno 117",
+        "GPU"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Anno 117 Update 3.0: FSR 3 Frame Generation auf GeForce RTX 30 jetzt standardmäßig aktiv",
+      "schlagzeile": "Anno 117 schaltet auf RTX-30-Karten jetzt AMDs Frame Generation ein",
+      "kurz": "Mit Update 3.0 aktiviert Anno 117: Pax Romana bei GeForce-RTX-30-Karten in der automatischen Grafikeinstellung standardmäßig AMDs FSR 3 Frame Generation. Grund: NVIDIAs eigene DLSS Frame Generation läuft erst ab RTX 40. Mehr angezeigte Fps heißen aber nicht weniger Eingabeverzögerung.",
+      "zusammenfassung": "Ubisoft Mainz hat am 5. November 2026 Update 3.0 für Anno 117: Pax Romana zusammen mit der Erweiterung „Dawn of the Delta“ veröffentlicht. Laut den offiziellen Patchnotes schaltet die automatische Grafikerkennung bei GeForce-Karten der RTX-30-Serie jetzt standardmäßig AMDs FSR 3 Frame Generation ein. PCGH hat das am 7. November aufgegriffen und erklärt den Hintergrund: NVIDIAs DLSS Frame Generation ist offiziell den Serien RTX 40 und RTX 50 vorbehalten, FSR 3 läuft dagegen herstellerübergreifend und braucht keine KI-Einheiten. Auf Systemen, denen das Spiel das Profil „Niedrig“ zuweist, wird Frame Generation dagegen nicht mehr automatisch aktiviert, um Schwankungen auf Rechnern nahe den Mindestanforderungen zu vermeiden. Konkrete Messwerte zum Fps-Plus nennt Ubisoft nicht. Frame Generation fügt Zwischenbilder ein: Die angezeigte Bildrate steigt, die Eingabeverzögerung sinkt dadurch aber nicht. Weitere Änderungen betreffen Ruckler beim Schwenken über große Städte, Leistungseinbrüche beim Hervorheben von Straßen und das Archiv im Questbuch. Laut Patchnotes behebt das Update außerdem zahlreiche Abstürze und Fehler. Wer die automatische Einstellung nicht nutzt oder Frame Generation nicht will, kann sie in den Grafikoptionen selbst steuern.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Anno-117-Pax-Romana-Spiel-74719/News/Ubisoft-setzt-automatisch-auf-AMD-FSR-3-auf-Geforce-RTX-3000-1559251/"
+      },
+      "weitere_links": [
+        {
+          "name": "Anno Union: Patchnotes Update 3.0",
+          "url": "https://www.anno-union.com/updates/anno-117-pax-romana-patch-3-0/"
+        }
+      ],
+      "tags": [
+        "Anno 117",
+        "FSR 3",
+        "Frame Generation",
+        "GeForce RTX 30",
+        "Ubisoft"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-anno117-fsr3-rtx30.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.435Z"
+      },
+      "id": "2026-11-07-assassins-creed-mars-rom",
+      "datum": "2026-11-07T16:37:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Assassin's Creed"
+      ],
+      "kategorie": "Games",
+      "titel": "Bericht: Ubisoft arbeitet an Assassin's Creed „Mars“ im antiken Rom und Mobile-Ableger „Pocket“",
+      "schlagzeile": "Leak: Geht Assassin's Creed zurück nach Rom?",
+      "kurz": "Laut dem Content Creator J0nathan entwickelt Ubisoft ein Assassin's Creed mit dem Codenamen „Mars“, das im antiken Rom spielen soll, dazu einen Mobile-Titel „Pocket“ in Jerusalem. Insider Gaming kennt die Codenamen, konnte die Angaben aber nicht ausreichend prüfen. Ein Release wäre laut Bericht erst um 2029/2030 denkbar.",
+      "zusammenfassung": "Insider Gaming berichtet am 7. November 2026 über Angaben des YouTubers J0nathan, der in der Vergangenheit öfter richtige Informationen zu Assassin's Creed hatte. Demnach arbeitet Ubisoft an einem Assassin's Creed mit dem Codenamen „Mars“, das im antiken Rom spielen soll. Zwei Quellen mit Zugang zu Ubisofts internen Systemen sollen das bestätigt haben; ein Bezug zur geplanten Assassin's-Creed-Serie gilt als möglich. Ein zweites Projekt mit dem Codenamen „Pocket“ soll ein Mobile-Spiel sein, das in Jerusalem spielt. Insider Gaming hat nach eigenen Angaben von den Codenamen ebenfalls gehört, konnte die Details aber nicht nach seinen Standards verifizieren. Die Reihe ist zuletzt in unruhigem Fahrwasser, unter anderem nach dem Abgang von Marc-Alexis Côté. Laut früheren Insider-Gaming-Quellen wurde das nächste große Spiel, Assassin's Creed Hexe, intern um ein weiteres Jahr verschoben, wohl auf 2028. Ein Rom-Spiel wäre dem Bericht zufolge daher nicht vor 2029/2030 zu erwarten. Ubisoft hat sich nicht geäußert. Alles ist unbestätigt; frühe Projekte können sich ändern oder eingestellt werden.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/assassins-creed-rome-game/"
+      },
+      "weitere_links": [
+        {
+          "name": "TheGamer: Codename Mars",
+          "url": "https://www.thegamer.com/assassins-creed-codename-mars-pocket-leak-reliable-insider-ancient-rome/"
+        }
+      ],
+      "tags": [
+        "Assassin's Creed",
+        "Ubisoft",
+        "Rom",
+        "Leak"
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Ursprung ist der YouTuber J0nathan mit gemischter, aber oft zutreffender Bilanz bei Assassin's Creed. Insider Gaming kennt die Codenamen, konnte die Details aber nicht verifizieren. Keine Stellungnahme von Ubisoft."
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-assassins-creed-mars-rom.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.514Z"
+      },
+      "id": "2026-11-07-microsoft-gpu-patent-ki",
+      "datum": "2026-11-07T15:09:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "KI",
+        "GPU"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft-Patentanmeldung: Ungenutzte GPU-Leistung privater Geräte für KI-Training gegen Gutschriften",
+      "schlagzeile": "Geld für deine GPU im Leerlauf? Microsoft-Patent beschreibt KI-Training",
+      "kurz": "Eine am 5. November veröffentlichte Microsoft-Patentanmeldung beschreibt ein System, das KI-Training in kleine Teilaufgaben zerlegt und auf ungenutzte GPUs von Endgeräten verteilt. Nutzer müssten zustimmen und könnten Gutschriften erhalten. Ein Produkt hat Microsoft nicht angekündigt.",
+      "zusammenfassung": "Insider Gaming berichtet über eine Microsoft-Patentanmeldung mit dem Titel „Opportunistic Micro-training on Edge Devices Using Spare GPU Utilization“ (US-20260349820-A1), veröffentlicht am 5. November 2026. Beschrieben wird ein System, das große KI-Trainingsaufgaben in unabhängig trainierbare Mini-Aufgaben zerlegt und an Geräte verteilt, deren GPU gerade wenig zu tun hat. Ob ein Gerät frei ist, soll anhand von GPU- und CPU-Last, Speicher, Temperatur und Stromverbrauch erkannt werden. Laut Text soll das System die Nutzung nicht stören, also Programme nicht verlangsamen, Akkus nicht leeren und Geräte nicht überhitzen. Teilnehmen sollen nur Nutzer, die zustimmen. Die geleistete Rechenarbeit soll erfasst und als Gutschrift auf dem Konto verbucht werden, einlösbar etwa für Software, Modellzugang oder Geld. Microsoft wäre dabei Vermittler zwischen Dritten, die Rechenleistung brauchen, und den Geräte-Besitzern. Offen bleiben Fragen zu Datenschutz, Berechtigungen und zum zusätzlichen Verschleiß der Grafikkarte. Wichtig: Eine Patentanmeldung ist kein Produktversprechen, viele Patente werden nie umgesetzt. Microsoft hat keinen solchen Dienst angekündigt.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/microsoft-ai-use-your-gpu/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Microsoft",
+        "Patent",
+        "KI",
+        "GPU"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-microsoft-gpu-patent-ki.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-07-hwinfo-rx7500-razor-lake",
       "datum": "2026-11-07T13:02:00+01:00",
@@ -56,6 +181,184 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-07-hwinfo-rx7500-razor-lake.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.585Z"
+      },
+      "id": "2026-11-07-vulkan-1-4-368",
+      "datum": "2026-11-07T11:53:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Vulkan",
+        "Grafik-API"
+      ],
+      "kategorie": "Grafiktreiber",
+      "titel": "Vulkan 1.4.368 mit neuen Erweiterungen von Valve und NVIDIA",
+      "schlagzeile": "Vulkan 1.4.368: Valve und NVIDIA bringen neue Erweiterungen",
+      "kurz": "Die Khronos Group hat Vulkan 1.4.368 veröffentlicht. Das Wochen-Update bringt zwei neue Erweiterungen: eine von Valves Mesa-Entwickler Mike Blumenkrantz für Vertex-Daten und eine NVIDIA-Erweiterung für interne Treiber-Handles. Für Spieler ändert sich sofort nichts, es ist ein Baustein für Treiber und Engines.",
+      "zusammenfassung": "Vulkan 1.4.368 ist das neueste wöchentliche Update der Spezifikation der plattformübergreifenden Grafik- und Compute-Schnittstelle, wie Phoronix am 7. November 2026 berichtet. Inhaltlich ist es ein kleines Update: Sechs intern gemeldete Probleme der Spezifikation wurden behoben. Neu sind zwei Erweiterungen. VK_EXT_vertex_address_binding_unrestricted stammt von Mike Blumenkrantz aus Valves Linux-Grafikteam und bekanntem Mesa-Entwickler. Sie hilft, wenn Vertex-Daten für einen Draw-Aufruf in einen eigenen Puffer ausgelagert werden, um Speicher zu sparen, und schaltet dafür eine Adressprüfung ab. Die zweite, VK_NV_internal_handle, ist eine NVIDIA-eigene Erweiterung: Programme und Engines können damit interne Treiber-Handles für bestimmte Vulkan-Objekte abfragen und an andere NVIDIA-Schnittstellen weitergeben. Beide Erweiterungen müssen erst in Treibern und Software ankommen, bevor sie in Spielen etwas bewirken. Vulkan ist unter anderem die Basis von Proton auf Linux und Steam Deck, wo Valves Beiträge besonders wichtig sind. Alle Details stehen im Vulkan-Docs-Repository der Khronos Group auf GitHub.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Vulkan-1.4.368"
+      },
+      "weitere_links": [
+        {
+          "name": "Khronos Vulkan-Docs auf GitHub",
+          "url": "https://github.com/KhronosGroup/Vulkan-Docs"
+        }
+      ],
+      "tags": [
+        "Vulkan",
+        "Khronos",
+        "Valve",
+        "NVIDIA",
+        "Grafik-API"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-vulkan-1-4-368.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.660Z"
+      },
+      "id": "2026-11-07-razor-lake-lga1954-2028",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Bericht: Intel Razor Lake-S soll 2028 auf dem Nova-Lake-Sockel LGA 1954 erscheinen",
+      "schlagzeile": "Leak: Razor Lake soll 2028 auf den Nova-Lake-Sockel passen",
+      "kurz": "Laut dem Insider Jaykihn ist Intels Razor Lake-S derzeit für 2028 geplant und soll denselben Sockel LGA 1954 nutzen wie Nova Lake-S. Wer 2027 auf Nova Lake umsteigt, könnte damit eine weitere CPU-Generation ohne neues Mainboard nachrüsten. Intel hat nichts davon bestätigt.",
+      "zusammenfassung": "Wccftech und HotHardware fassen am 7. November 2026 Angaben des Intel-Insiders Jaykihn zusammen: Razor Lake-S sei „derzeit als 2028-Produkt eingeplant“, offiziell gesagt habe Intel dazu nichts. Nova Lake-S, die nächste Desktop-Generation, wird für Anfang 2027 erwartet und bringt den neuen Sockel LGA 1954 mit. Razor Lake-S soll laut den Berichten auf demselben Sockel laufen, Intel hätte damit erstmals seit Längerem zwei Desktop-Generationen auf einer Plattform. Bereits im Juni hatte Jaykihn geschrieben, LGA 1954 werde auf Boards mit 64 MB BIOS-Flash sogar Prozessoren über Razor Lake hinaus unterstützen, darunter alle Z-Boards. Als P-Kern-Architektur von Razor Lake nennen die Berichte Griffin Cove, einen Nachfolger von Nova Lakes Coyote Cove; SMT soll es bei den Desktop-Chips nicht geben. Zudem sollen einige ursprünglich für Nova Lake geplante Varianten, etwa Nova Lake-AX, in die Razor-Lake-Familie gewandert sein. Ein Quartal für 2028 ist nicht bekannt, Wccftech spekuliert über Computex 2028 oder die zweite Jahreshälfte. Intel-Manager Robert Hallock hatte im März angedeutet, man höre auf die Kritik an häufigen Sockelwechseln, eine konkrete Zusage gibt es aber nicht. Erste Vorbereitungen sind sichtbar: CPU-Z 3.02 und eine HWiNFO-Beta kennen Razor Lake bereits. Alle Angaben zu Termin und Sockel sind unbestätigt und können sich ändern; Kaufentscheidungen sollte man darauf nicht stützen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/intel-razor-lake-s-desktop-cpus-arrive-in-2028-on-lga-1954-socket/"
+      },
+      "weitere_links": [
+        {
+          "name": "HotHardware: Razor Lake-S auf LGA 1954",
+          "url": "https://hothardware.com/news/intel-razor-lake-s-desktop-cpus-tap-lga-1954-socket"
+        },
+        {
+          "name": "VideoCardz: LGA 1954 über Razor Lake hinaus (Juni)",
+          "url": "https://videocardz.com/newz/intel-lga-1954-boards-with-64mb-to-support-cpus-beyond-razor-lake-2l-ilm-leak-confirmed"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Razor Lake",
+        "Nova Lake",
+        "LGA 1954",
+        "Leak"
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Angaben des Insiders Jaykihn (X), der bei Intel-Roadmaps oft richtig lag; aufgegriffen von Wccftech und HotHardware. Keine Bestätigung von Intel, Termin und Sockel können sich ändern."
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.797Z"
+      },
+      "id": "2026-11-07-custom-engine-wald-rtx3080",
+      "datum": "2026-11-07T09:45:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Engine",
+        "GPU"
+      ],
+      "kategorie": "Tools & Mods",
+      "titel": "Eigene Engine: Entwickler rendert dichten Wald mit rund 130 Fps auf einer RTX 3080 – ohne Hardware-Raytracing",
+      "schlagzeile": "130 Fps auf der RTX 3080: Hobby-Engine rendert Wald ohne Raytracing",
+      "kurz": "Der Entwickler und Modder Toni Macaroni zeigt eine selbst geschriebene Engine, die einen dichten Wald in 1440p mit durchschnittlich rund 130 Fps auf einer RTX 3080 darstellen soll. Sie setzt auf Nanite-ähnliche Geometrie, Voxel und Voxel-Beleuchtung statt Hardware-Raytracing. Die Werte stammen vom Entwickler selbst und sind eine reine Technik-Demo.",
+      "zusammenfassung": "PCGH und Wccftech berichten über eine Technik-Demo des Entwicklers und Modders Toni Macaroni, deren YouTube-Video laut PCGH über 500.000 Aufrufe hat. Er arbeitet nach eigenen Angaben seit rund acht Monaten an der Engine, nachdem er lange die Open-Source-Engine Godot genutzt hatte. Die Szene zeigt eine Hügellandschaft mit dichtem Wald, rund eine Million Instanzen und vier Millionen Dreiecke. Auf einer GeForce RTX 3080 in 1440p sollen im Schnitt etwa 130 Fps erreicht werden, in Luftaufnahmen bis zu 200 und im dichten Unterholz rund 80 Fps. Technisch nutzt die Engine Clustered Levels of Detail mit Nanite-ähnlicher virtueller Geometrie, Voxel-Darstellungen für entfernte Vegetation und vereinfachte Proxys für sehr weit entfernte Objekte. Die Beleuchtung kombiniert Screen-Space-Techniken mit voxelbasierter Global Illumination und kommt ohne hardwarebeschleunigtes Raytracing aus, ähnlich dem Ansatz in Kingdom Come: Deliverance II. Die Engine ist bewusst spezialisiert: Sie soll vor allem viele Objekte mit hoher Polygonzahl gut darstellen, ein Wettersystem ist erst teilweise fertig. Die Fps-Werte sind Angaben des Entwicklers, die genauen Einstellungen und ein mögliches Upscaling sind nicht bekannt. Eine Demo ohne Spielfiguren, Physik und KI ist nicht mit einem fertigen Spiel vergleichbar, und eine öffentliche Version gibt es bisher nicht.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Spiele-Entwicklung-Thema-35261/News/Custom-Engine-Wald-RTX-3080-130-Fps-1559175/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech: Custom Forest Engine",
+          "url": "https://wccftech.com/custom-forest-engine-delivers-stunning-visuals-at-130-fps-on-an-rtx-3080-at-1440p-without-hardware-ray-tracing/"
+        }
+      ],
+      "tags": [
+        "Engine",
+        "RTX 3080",
+        "Voxel GI",
+        "Tech-Demo"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-custom-engine-wald-rtx3080.webp",
         "ki_generiert": true
       }
     },
@@ -1100,6 +1403,54 @@
       }
     },
     {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -1147,54 +1498,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -1300,6 +1603,49 @@
       }
     },
     {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -1348,49 +1694,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
