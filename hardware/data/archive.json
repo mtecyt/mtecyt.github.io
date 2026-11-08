@@ -2,10 +2,53 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-08T18:07:06.250Z",
+    "stand": "2026-11-08T19:51:18.696Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-01-gta6-210gb-download",
+      "datum": "2026-11-01T20:31:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Games",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Stammt vom Daten-Account @PlaystationSize (wertet Store-Daten aus); Insider Gaming gibt an, die Zahl bestätigen zu können. Nicht offiziell von Rockstar oder Take-Two bestätigt; die Größe kann sich bis zum Start und durch einen Day-One-Patch ändern."
+      },
+      "ursprungsquelle": "PlayStation Game Size (@PlaystationSize) auf X, 27.10.2026",
+      "titel": "GTA 6: Download-Größe von 210 GB für die PS5 aufgetaucht",
+      "schlagzeile": "Leak: Braucht GTA 6 satte 210 GB auf der PS5?",
+      "kurz": "Laut dem Daten-Account PlayStation Game Size soll der PS5-Download von GTA 6 rund 210 GB groß sein, Insider Gaming will das bestätigen können. Offiziell hat Rockstar keine Größe genannt, die Zahl ist also unbestätigt. Fest steht: Digitale Vorbesteller dürfen ab dem 12.11.2026 vorladen, das Spiel erscheint am 19.11.2026.",
+      "zusammenfassung": "Der auf Store-Daten spezialisierte X-Account PlayStation Game Size (@PlaystationSize) hat am 27.10.2026 eine Download-Größe von 210 GB für die Standard-Edition von Grand Theft Auto VI auf der PlayStation genannt. Insider Gaming berichtete am 1.11.2026 darüber und schreibt, die Angabe bestätigen zu können. Damit wäre GTA 6 laut Insider Gaming eines der größten Spiele überhaupt. Offiziell bestätigt haben Rockstar Games oder Take-Two die Größe bislang nicht, die Zahl gilt deshalb als unbestätigt. Auch Insider Gaming weist darauf hin, dass sich die Größe bis zum Start noch ändern kann und ein Day-One-Patch zusätzlichen Speicherplatz kosten könnte. Für die Xbox-Version nennt die Quelle keine Zahl. Offiziell bestätigt sind dagegen die Termine: Wer digital vorbestellt, kann laut Rockstar ab dem 12.11.2026 vorladen, das Spiel erscheint am 19.11.2026 für PlayStation 5 und Xbox Series X|S. Auch die Box-Version enthält laut Rockstar nur einen Download-Code und ist ebenfalls ab dem 12.11.2026 erhältlich. Die Standard-Edition kostet laut Rockstar 79,99 US-Dollar, die Ultimate Edition 99,99 US-Dollar. Wer zum Start loslegen will, sollte also rechtzeitig reichlich Platz auf der Konsole einplanen.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/gta-6-install-size-revealed-210-gb/"
+      },
+      "weitere_links": [
+        {
+          "name": "Take-Two/Rockstar: Vorbestellung, Vorladen ab 12.11.2026, Start 19.11.2026 (offiziell)",
+          "url": "https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "PS5",
+        "Speicherplatz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.784Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-08T19:51:18.696Z"
+    },
     {
       "id": "2026-11-01-windows11-26h2-alle",
       "datum": "2026-11-01T18:22:00+01:00",
