@@ -2,10 +2,108 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-07T18:12:56.606Z",
+    "stand": "2026-11-08T18:07:06.250Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-01-windows11-26h2-alle",
+      "datum": "2026-11-01T18:22:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11 26H2 jetzt für alle geeigneten PCs verfügbar, auch direkt von Windows 10",
+      "schlagzeile": "Windows 11 26H2 ist jetzt für alle da – auch für Windows-10-PCs",
+      "kurz": "Microsoft hat die schrittweise Verteilung von Windows 11 26H2 abgeschlossen: Laut Microsoft ist das Update seit dem 28.10.2026 für alle geeigneten Geräte verfügbar. Laut Neowin wird es nun auch kompatiblen Windows-10-PCs direkt über Windows Update angeboten. Voraussetzung bleibt, dass der PC die Hardware-Anforderungen von Windows 11 erfüllt.",
+      "zusammenfassung": "Microsoft hat Windows 11 26H2 Ende September 2026 allgemein veröffentlicht, aber wie üblich schrittweise verteilt. So sollen größere Probleme nicht sofort viele Geräte auf einmal treffen, was vor allem für Unternehmen wichtig ist. Zunächst erreichte die Verteilung laut Neowin die volle Verfügbarkeit für Geräte mit Windows 11 25H2 und 24H2. Nun schreibt Microsoft, dass Windows 11 26H2 mit Stand 28.10.2026 für alle geeigneten Geräte verfügbar ist. Laut Neowin gilt das auch für kompatible Windows-10-PCs, denen das Update jetzt direkt über Windows Update angeboten wird. Die Redaktion hat das nach eigenen Angaben auf einem eigenen Windows-10-Rechner beobachtet. Wer bereits Windows 11 24H2 oder 25H2 nutzt und das Update noch nicht angeboten bekommt, kann laut Neowin das Enablement-Paket eKB5121794 manuell installieren. Das funktioniert allerdings nicht von Windows 10 oder älteren Windows-11-Versionen aus. Für eine Neuinstallation gibt es aktuelle ISO-Dateien über Microsofts Media Creation Tool. Laut Neowin braucht 26H2 weniger Arbeitsspeicher und fühlt sich flotter an, das ist allerdings eine Einschätzung der Redaktion. Ein Haken bleibt: Nur PCs, die die Hardware-Anforderungen von Windows 11 erfüllen, bekommen das Angebot.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-confirms-supported-windows-10-pcs-can-now-directly-update-to-windows-11-26h2/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "26H2",
+        "Windows 10",
+        "Windows Update"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.876Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-08T18:07:06.246Z"
+    },
+    {
+      "id": "2026-11-01-rtx2080ti-22gb-pcgh",
+      "datum": "2026-11-01T13:43:00+01:00",
+      "label": "News",
+      "kategorie": "Gebraucht-Hardware",
+      "titel": "Gebrauchte RTX 2080 Ti mit 22 GB: PCGH testet den Speicher-Mod aus China",
+      "schlagzeile": "22 GB auf einer alten RTX 2080 Ti: Wie gut ist der China-Mod wirklich?",
+      "kurz": "PC Games Hardware hat eine RTX 2080 Ti getestet, deren Grafikspeicher in China von 11 auf 22 GB verdoppelt wurde. In 1440p ist der Unterschied meist klein, in 4K und bei KI-Aufgaben hängt die Mod-Karte das Original aber deutlich ab. Garantie gibt es für so einen Umbau keine.",
+      "zusammenfassung": "PC Games Hardware hat eine modifizierte GeForce RTX 2080 Ti mit verdoppeltem Grafikspeicher getestet, die ein Leser über Alibaba gekauft hatte. Statt 11 GB sitzen auf der Platine elf 2-GB-Chips von Samsung, also 22 GB GDDR6 am unveränderten 352-Bit-Interface mit 616 GB/s. Ein geänderter Strap-Widerstand sorgt dafür, dass die Karte ohne modifiziertes BIOS und mit normalen Treibern läuft. In 1440p mit DLSS Quality fallen die Unterschiede zur 11-GB-Version meist klein aus, die Frametimes sind aber gleichmäßiger. In Microsoft Flight Simulator 2024 und Spider-Man 2 lag die Original-Karte laut Test rund 20 Prozent zurück. In 4K mit DLSS Performance und FSR Frame Generation stotterte die 11-GB-Karte stark, Indiana Jones stürzte sogar ab. Gemessen wurde eine Speicherbelegung von bis zu 13,9 GB in Spider-Man 2. Beim KI-Test mit ComfyUI brauchte die 22-GB-Karte etwa 315 Sekunden statt rund 540 Sekunden – eine RTX 5070 Ti schaffte dasselbe in etwa 85 Sekunden. Für Gebraucht-Käufer heißt das: Der Mod kann sich lohnen, ist aber ein Eingriff ohne Herstellergarantie, und die Qualität solcher Umbauten schwankt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/modded-geforce-rtx-2080-ti-22gb-tested-in-modern-games-doubled-vram-reduces-stuttering"
+      },
+      "weitere_links": [
+        {
+          "name": "PCGH-Test (Original)",
+          "url": "https://www.pcgameshardware.de/Geforce-RTX-2080-Ti-Grafikkarte-267862/Tests/RTX-2080-Ti-22GB-Alibaba-Hardware-Mod-Test-1554585/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Turing",
+        "VRAM",
+        "Mod",
+        "Gebraucht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-08T18:07:06.249Z"
+    },
+    {
+      "id": "2026-11-01-larrabee-fund",
+      "datum": "2026-11-01T11:15:00+01:00",
+      "label": "News",
+      "kategorie": "Hardware-Geschichte",
+      "titel": "Komplettes Intel-Larrabee-Entwicklersystem in Lagerraum entdeckt",
+      "schlagzeile": "Fund im Lagerraum: Nie erschienene Intel-GPU samt Entwickler-PC entdeckt",
+      "kurz": "Ein Reddit-Nutzer hat in einem ersteigerten Lagerabteil ein komplettes Entwicklersystem für Intels Larrabee-GPU entdeckt, die nie auf den Markt kam. Der Rechner startet Windows 7 und soll sogar Crysis darstellen, die FPS-Angaben sind allerdings nicht unabhängig geprüft. Die Original-Software liegt inzwischen im Internet Archive.",
+      "zusammenfassung": "Ein Reddit-Nutzer hat bei der Versteigerung eines Lagerabteils ein vollständiges Entwicklungssystem für Intels nie erschienene Larrabee-GPU gefunden. Im Rechner steckt ein Intel-DX58SO-Mainboard mit einem Engineering-Sample im C0-Stepping, das als 'Intel Visual Adrenaline' bezeichnet wird. Dazu gehörten zwei USB-Sticks mit der Original-Software, die der Finder inzwischen im Internet Archive hochgeladen hat. Das System startet Windows 7 und unterstützt Direct3D. Laut Besitzer lief Crysis in 720p auf mittleren Details mit etwa 17 FPS, mit einem anderen Treiber angeblich mit rund 36 FPS – diese Werte sind nicht unabhängig geprüft. Intel hatte Larrabee als Grafikkarte 2010 eingestellt; die Technik lebte später in den Xeon-Phi-Beschleunigern weiter. Für Hardware-Sammler ist so ein vollständiges System mit Software eine echte Rarität.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/full-intel-larrabee-gpu-development-system-has-been-found-in-storage-unit-reportedly-runs-crysis"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Intel",
+        "Larrabee",
+        "Retro"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-01T17:57:00+01:00"
+      },
+      "ki_unterstuetzt": true,
+      "bereich": "hardware",
+      "archiviert_am": "2026-11-08T18:07:06.250Z"
+    },
     {
       "id": "2026-10-31-nv-uefi-unlocker",
       "datum": "2026-10-31T16:10:00+01:00",
