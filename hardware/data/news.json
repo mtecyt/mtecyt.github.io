@@ -2,10 +2,98 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-07T20:50:55.858Z",
+    "stand": "2026-11-08T09:19:32.003Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-08T09:19:31.848Z"
+      },
+      "id": "2026-11-07-warzone-switch2",
+      "datum": "2026-11-07T20:48:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Switch 2",
+        "Warzone"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Call of Duty: Warzone ist jetzt kostenlos auf der Nintendo Switch 2",
+      "schlagzeile": "Warzone ist jetzt kostenlos auf der Nintendo Switch 2",
+      "kurz": "Call of Duty: Warzone ist auf der Nintendo Switch 2 erschienen und im Nintendo eShop kostenlos erhältlich. Einen Kauf von Modern Warfare 4 braucht man dafür nicht, ein Activision-Konto schon. Der Start fiel mit Season 1 zusammen; gleichzeitig endete der Support für PlayStation 4 und Xbox One.",
+      "zusammenfassung": "Laut Insider Gaming ist Call of Duty: Warzone auf der Nintendo Switch 2 verfügbar und im eShop als eigenständiges Free-to-Play-Spiel zu haben. Wer Modern Warfare 4 nicht besitzt, kann das Battle Royale trotzdem spielen. Ein Activision-Konto ist Voraussetzung. Der Start erfolgte zusammen mit Season 1; Activision schreibt dazu, man könne in Hajin, Zodiac und die übrigen Karten und Playlists einsteigen, während das kostenlose Spiel erstmals auf Nintendos Handheld ankomme. Nintendo Life hat das Angebot am 7.11.2026 nachgetragen und auf dem eigenen Gerät eine Dateigröße von 122 GB gemessen; eine offizielle Downloadgröße von Activision liegt uns nicht vor. Insider Gaming ordnet den Schritt als Rückkehr der Reihe auf Nintendo-Hardware ein: Modern Warfare 4 war demnach das erste Call-of-Duty-Spiel auf einer Nintendo-Konsole seit Ghosts auf der Wii U. Mit Season 1 hat Activision den Support für PlayStation 4 und Xbox One beendet; der Fortschritt soll sich über dasselbe verknüpfte Activision-Konto auf unterstützte Plattformen mitnehmen lassen. Auflösung, Bildrate und Crossplay-Details für die Switch-2-Fassung hat Activision in der uns vorliegenden Berichterstattung nicht beziffert. Der Start selbst lag am 6.11.2026, die von uns genutzte Meldung von Insider Gaming erschien am 7.11.2026.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/call-of-duty-warzone-switch-2-release/"
+      },
+      "weitere_links": [
+        {
+          "name": "Nintendo Life (122 GB Messung)",
+          "url": "https://www.nintendolife.com/news/2026/11/icymi-call-of-duty-warzone-is-now-available-for-switch-2"
+        }
+      ],
+      "tags": [
+        "Warzone",
+        "Switch 2",
+        "Call of Duty",
+        "Activision",
+        "Modern Warfare 4"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-warzone-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-08T09:19:31.917Z"
+      },
+      "id": "2026-11-07-pulse-elevate-verschoben",
+      "datum": "2026-11-07T20:36:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Sony verschiebt Pulse-Elevate-Lautsprecher unbegrenzt wegen Produktionsproblem",
+      "schlagzeile": "Sony verschiebt Pulse Elevate unbegrenzt – kurz vor dem Start",
+      "kurz": "Sony hat den Verkaufsstart der kabellosen Pulse-Elevate-Lautsprecher unbegrenzt verschoben. Der 12. November als Termin entfällt, weil die Qualitätsprüfung ein Produktionsproblem gefunden hat. Einen neuen Termin nennt Sony nicht; was mit bereits aufgegebenen Vorbestellungen passiert, ist offen.",
+      "zusammenfassung": "Sony hat am 6.11.2026 im PlayStation-Blog den Start der Pulse-Elevate-Lautsprecher unbegrenzt verschoben. Eurogamer und IGN haben die Mitteilung am 7.11.2026 aufgegriffen. Im Blog schreibt Sony, man habe bei der laufenden Qualitätsprüfung ein Produktionsproblem gefunden und sich deshalb entschieden, den Start zu verschieben; die zusätzliche Zeit solle sicherstellen, dass das Produkt die vorgesehene Erfahrung liefert. Einen neuen Termin und eine genaue Beschreibung des Problems nennt Sony nicht. Die Lautsprecher sollten am 12. November weltweit in den Handel kommen, also nur wenige Tage nach der Mitteilung. Die unverbindliche Preisempfehlung liegt laut der aktualisierten Blog-Seite bei 219,99 US-Dollar, 219,99 Euro und 199,99 Pfund. Pulse Elevate ist Sonys erstes kabelloses Lautsprecherpaar für Desktop-Spiele und sitzt neben dem Pulse-Elite-Headset und den Pulse-Explore-Ohrhörern. Sie verbinden sich über PlayStation Link mit der PS5, mit PCs, Macs und dem PlayStation Portal und können gleichzeitig per Bluetooth mit einem Smartphone gekoppelt werden. Im rechten Lautsprecher steckt ein Mikrofon mit von Sony so genannter KI-unterstützter Geräuschunterdrückung. Die Variante Midnight Black sollte überall erhältlich sein, die weiße Fassung nur in ausgewählten Ländern, darunter Deutschland, Österreich und Großbritannien. Vorbestellungen liefen seit September. Eurogamer schreibt, es sei unklar, was nun mit diesen Bestellungen geschieht.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue"
+      },
+      "weitere_links": [
+        {
+          "name": "PlayStation Blog (offizielle Mitteilung)",
+          "url": "https://blog.playstation.com/2025/09/24/introducing-pulse-elevate-sony-interactive-entertainments-first-wireless-speakers-for-desktop-gaming/"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/sony-announces-indefinite-delay-for-playstations-pulse-elevate-wireless-speakers-days-before-launch"
+        }
+      ],
+      "tags": [
+        "PlayStation",
+        "Pulse Elevate",
+        "Sony",
+        "PS5"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-pulse-elevate-verschoben.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -233,48 +321,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -317,6 +363,48 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -395,6 +483,57 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-07-windows-hello-pin-parallel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-08T09:19:31.755Z"
+      },
+      "id": "2026-11-07-tsmc-3d-dram-nvidia",
+      "datum": "2026-11-07T06:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Speicher"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "TSMC prüft Einstieg in 3D-DRAM – Anstoß soll von NVIDIA gekommen sein",
+      "schlagzeile": "TSMC prüft 3D-DRAM: NVIDIA soll den Speichereinstieg angestoßen haben",
+      "kurz": "Laut einem Bericht von The Information vom 6.11.2026 prüft der Auftragsfertiger TSMC den Einstieg in die Produktion von 3D-DRAM. Der Anstoß soll von NVIDIA gekommen sein, TSMCs größtem Kunden. Konkrete Fabriken, Investitionen oder ein Starttermin nennt der Bericht nicht. TSMC wollte Marktgerüchte gegenüber The Information nicht kommentieren und verwies auf seine Rolle als Logik-Foundry; NVIDIA antwortete demnach nicht.",
+      "zusammenfassung": "The Information hat am 6.11.2026 unter Berufung auf zwei mit den Gesprächen vertraute Personen berichtet, TSMC prüfe einen Einstieg in die Fertigung von 3D-DRAM. Auslöser soll eine Anfrage von NVIDIA gewesen sein. igor'sLAB hat den Bericht am 7.11.2026 aufgegriffen und eingeordnet. Demnach hat TSMC damit begonnen, mögliche Produktionskonzepte für vertikal aufgebauten DRAM auszuarbeiten; als Optionen nennt der Bericht den Bau neuer Fertigungsanlagen oder die Übernahme eines vorhandenen Werks mit anschließender Umrüstung. Ein Produktionsbeginn, Investitionssummen oder geplante Kapazitäten wurden nicht genannt. Verantwortlich für die Initiative soll Hsu Kuo-chin sein, ein TSMC-Vizepräsident aus dem Bereich Advanced Packaging, der zuvor bei Micron in Taiwan tätig war. TSMC erklärte gegenüber The Information, grundsätzlich keine Marktgerüchte zu kommentieren, und verwies auf seine Ausrichtung als Auftragsfertiger für Logikchips. NVIDIA reagierte laut dem Bericht nicht auf eine Anfrage, und Reuters konnte die Angaben nicht unabhängig bestätigen. Technisch ist 3D-DRAM etwas anderes als das bereits etablierte High Bandwidth Memory: Bei HBM werden mehrere separat gefertigte DRAM-Chips gestapelt, bei 3D-DRAM sollen die Speicherzellenschichten selbst vertikal integriert werden, um die Dichte zu erhöhen. Ein erfolgreicher Einstieg würde TSMC in einen Markt bringen, den bislang vor allem Samsung, SK hynix und Micron beherrschen. Gleichzeitig ist aus dem Bericht kein kurzfristiger Start der Massenproduktion abzuleiten, weil Wärme, Prozessintegration und ausreichende Ausbeuten als offene Hürden gelten und eine Entwicklung Jahre dauern könnte. Vor dem Hintergrund knapper und teurer Speicher für PCs und Rechenzentren wäre ein zusätzlicher Hersteller folgenschwer, bislang stehen aber nur ein Medienbericht und mögliche Entwicklungsüberlegungen im Raum.",
+      "quelle": {
+        "name": "igor'sLAB",
+        "url": "https://www.igorslab.de/tsmc-prueft-einstieg-in-3d-dram-nvidia-soll-entwicklung-neuartiger-speicherchips-angestossen-haben/"
+      },
+      "weitere_links": [
+        {
+          "name": "The Verge (über The Information)",
+          "url": "https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-into-the-ram-business-at-the-request-of-nvidia"
+        },
+        {
+          "name": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/11/07/tsmc-weighs-3d-dram-push-at-nvidias-request"
+        },
+        {
+          "name": "Wccftech (Update)",
+          "url": "https://wccftech.com/nvidia-custom-hbm-samsung-tsmc-3nm-base-die/"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "NVIDIA",
+        "3D-DRAM",
+        "Speicher",
+        "HBM"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-tsmc-3d-dram-nvidia.webp",
         "ki_generiert": true
       }
     },
@@ -1403,54 +1542,6 @@
       }
     },
     {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -1498,6 +1589,54 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -1603,49 +1742,6 @@
       }
     },
     {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -1694,6 +1790,49 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
