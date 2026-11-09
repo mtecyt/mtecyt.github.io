@@ -2,10 +2,169 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-09T07:49:02.897Z",
+    "stand": "2026-11-09T10:27:13.475Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.341Z"
+      },
+      "id": "2026-11-09-sonicwall-sslvpn-angriffe",
+      "datum": "2026-11-09T08:12:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheitslücke",
+      "titel": "SonicWall: Lücke im SSLVPN wird angegriffen, Firmware-Updates stopfen sieben Schwachstellen",
+      "schlagzeile": "SonicWall-Firewalls: VPN-Lücke wird angegriffen – sofort updaten",
+      "kurz": "Angreifer nutzen offenbar eine Lücke im SSLVPN von SonicWall-Firewalls aus, mit der sich die SAML-Anmeldung und damit die Mehr-Faktor-Authentifizierung umgehen lässt. SonicWall und die US-Behörde CISA raten zum schnellen Update. Betroffen ist das SSLVPN nur, wenn SAML für die VPN-Anmeldung aktiv ist. Die neue Firmware schließt insgesamt sieben Lücken.",
+      "zusammenfassung": "SonicWall hat am Freitag eine Sicherheitsmitteilung zu sieben Schwachstellen in SonicOS veröffentlicht, wie heise online berichtet. Bei einer davon geht der Hersteller davon aus, dass sie möglicherweise bereits für Angriffe genutzt wurde; auch die US-Sicherheitsbehörde CISA warnt. Es handelt sich um CVE-2026-19868 (CVSS 7.1, hoch): Wer gültige Zugangsdaten für eine andere Anmeldemethode hat, kann damit die SAML-Anmeldung umgehen, die etwa für Single Sign-on genutzt wird. Damit lässt sich offenbar auch die per SAML erzwungene Mehr-Faktor-Authentifizierung aushebeln. Anfällig ist das SSLVPN laut SonicWall nur, wenn SAML für SSLVPN-Logins aktiviert ist. Abhilfe schaffen SonicOS 7.3.4-7013 für Gen7-Firewalls und 8.2.3-8015 für Gen8-Geräte sowie jeweils neuere Versionen. Die Updates schließen sechs weitere Lücken, darunter zwei mit CVSS 8.8 zu Cross-Domain-Richtlinien und Sitzungsprüfung sowie einen Heap-Pufferüberlauf im SSL-VPN, der sich ohne Anmeldung auslösen lässt (CVSS 7.5). Dazu kommen zwei Pufferüberläufe in TACACS+ und schwaches Passwort-Hashing auf virtuellen Appliances, alle mit mittlerem Risiko. heise erinnert daran, dass SonicWall bereits Anfang Oktober eine kritische Lücke mit Höchstwertung in SMA1000-Appliances gemeldet hatte. Betroffen sind vor allem Firmen und Admins; wer zu Hause oder im Büro eine SonicWall-Firewall betreut, sollte die Firmware jetzt aktualisieren.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Angriffswarnung-Luecke-in-SonicWall-SSLVPN-wird-attackiert-11516825.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "SonicWall",
+        "SSLVPN",
+        "Sicherheitslücke",
+        "CISA",
+        "Firewall",
+        "MFA"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-sonicwall-sslvpn-angriffe.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.407Z"
+      },
+      "id": "2026-11-08-windows11-app-updates",
+      "datum": "2026-11-08T23:49:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11 testet zentrale Seite für Updates von Drittanbieter-Apps",
+      "schlagzeile": "Schluss mit Update-Pop-ups? Windows 11 testet zentrale App-Updates",
+      "kurz": "In einer Vorschauversion von Windows 11 26H2 ist eine neue Seite „App-Updates“ in den Einstellungen aufgetaucht. Sie soll Updates von Drittanbieter-Programmen wie Browsern oder Mediaplayern an einem Ort sammeln, statt dass jede App eigene Hinweise zeigt. Funktionieren wird das nur, wenn Entwickler ihre Apps registrieren. Im Test von Windows Latest war noch kein einziger Anbieter angemeldet.",
+      "zusammenfassung": "Windows Latest hat in einer Vorschauversion von Windows 11 26H2 unter Einstellungen > Apps eine Seite namens „App-Updates“ entdeckt. Die Seite war schon im Dezember 2025 kurz zu sehen und ist nun wieder aufgetaucht, was laut Windows Latest auf einen baldigen Start hindeutet. Ziel ist, Updates von Programmen außerhalb des Microsoft Store an einem Ort zu bündeln, statt dass jede App wie früher der berüchtigte Java-Updater ihre eigenen Pop-ups zeigt. Grundlage ist die „Windows Update Orchestration Platform“, die Microsoft 2025 vorgestellt hat. Entwickler können ihre Apps dort als Anbieter registrieren und behalten dabei ihre eigenen Update-Server und Installer; Windows übernimmt nur die Koordination. Unterstützt werden sollen MSIX- und APPX-Pakete sowie klassische Win32-Programme. Für die Registrierung müssen Entwickler ein Skript oder Programm liefern, das nach Updates sucht; Windows führt diese Prüfung standardmäßig alle 22 Stunden aus. Die Installation soll Windows ähnlich wie Systemupdates planen und dabei Nutzung, Akku und Netzwerk berücksichtigen, damit man nicht mitten in der Arbeit unterbrochen wird. Auf dem Testrechner von Windows Latest meldete die Seite allerdings, dass kein App-Anbieter registriert sei, nicht einmal Microsoft selbst für Teams oder Outlook, und der Knopf zur Update-Suche war ausgegraut. Es handelt sich also um eine Funktion im Test, die man noch nicht nutzen kann. Ob sie wirklich etwas bringt, hängt davon ab, wie viele Entwickler mitmachen; zwingen will Microsoft niemanden. Einen Starttermin hat Microsoft nicht genannt.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/09/for-20-years-windows-apps-like-java-have-nagged-you-with-their-own-update-pop-ups-and-windows-11-now-wants-to-end-it/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "26H2",
+        "App-Updates",
+        "Insider",
+        "Windows Update"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-08-windows11-app-updates.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.030Z"
+      },
+      "id": "2026-11-08-nvidia-board-untersuchung-huang",
+      "datum": "2026-11-08T21:48:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "NVIDIA-Verwaltungsrat startet unabhängige Untersuchung zu CEO Jensen Huang",
+      "schlagzeile": "NVIDIA-Board startet Untersuchung – Huang gesteht Affäre",
+      "kurz": "Der Verwaltungsrat von NVIDIA hat eine unabhängige Untersuchung eingeleitet, nachdem Medien berichtet hatten, CEO Jensen Huang sei Ziel eines ausländischen Geheimdienstes gewesen. Huang räumte in einer von NVIDIA veröffentlichten Nachricht an die Belegschaft ein, seiner Frau untreu gewesen zu sein. Laut Verwaltungsrat gibt es bisher keinen Grund zur Annahme, dass nationale Sicherheit oder Firmengeheimnisse kompromittiert wurden. Huang bleibt CEO.",
+      "zusammenfassung": "NVIDIA hat am Abend des 8.11.2026 zwei Erklärungen veröffentlicht. In der ersten kündigt der Verwaltungsrat eine unabhängige Untersuchung an: Ein Komitee unabhängiger Direktoren soll mit Unterstützung externer Anwälte prüfen, ob Gründer und CEO Jensen Huang Ziel einer Aktivität eines ausländischen Geheimdienstes war. Der Verwaltungsrat schreibt, er habe keinen Grund zur Annahme, dass die nationale Sicherheit oder NVIDIA-Geheimnisse kompromittiert wurden, wolle aber alle verfügbaren Informationen prüfen. Huang unterstütze die Prüfung und werde kooperieren; der Verwaltungsrat spricht ihm und dem Führungsteam sein Vertrauen aus. In der zweiten Erklärung, einer Nachricht an die Belegschaft, die zuerst Axios veröffentlicht hatte, entschuldigt sich Huang bei Familie und Mitarbeitern und räumt ein, seiner Frau untreu gewesen zu sein. Hintergrund sind Berichte der Financial Times und der New York Times aus den Tagen zuvor. Demnach soll ein auf US-Geheimdienstinformationen gestütztes Memo Huang eine Beziehung zu einer Frau namens Alice Huang zuschreiben, einer früheren Führungskraft des NVIDIA-Kunden Megaspeed; US-Dienste hielten sie laut diesen Berichten für eine Informantin des chinesischen Ministeriums für Staatssicherheit. Die beiden sind trotz gleichen Nachnamens laut den Berichten nicht verwandt. Weder das Memo noch seine Grundlagen sind öffentlich, und weder Huang noch der Verwaltungsrat gehen inhaltlich auf die Spionagevorwürfe ein; Huangs Nachricht nennt Alice Huang laut Axios nicht. Die Erklärung des Verwaltungsrats bestätigt die Vorwürfe also nicht. Laut NYT soll das Ziel gewesen sein, mehr über US-KI-Chips zu erfahren. NVIDIA-Sprecher John Rizzo sagte laut ComputerBase, die Vorgänge würden die Arbeit des Unternehmens nicht bremsen. Wann Ergebnisse der Untersuchung vorliegen, ist offen; der Verwaltungsrat will bei Bedarf weiter informieren.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/nvidia-ceo-jensen-huang-raeumt-untreue-ein-verwaltungsrat-startet-untersuchung.100232/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Jensen-Huang-gesteht-Affaere-ein-Nvidia-beginnt-Untersuchung-11516757.html"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/nvidia-launches-investigation-into-ceo-jensen-huang-following-affair-with-alleged-chinese-spy"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "Verwaltungsrat",
+        "Untersuchung",
+        "China"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-08-nvidia-board-untersuchung-huang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.272Z"
+      },
+      "id": "2026-11-08-layden-ps5-300",
+      "datum": "2026-11-08T21:11:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PS6",
+        "PS5"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Ex-PlayStation-Chef Shawn Layden: Sony braucht eine PS5 für 300 statt einer PS6 für 1.200 Dollar",
+      "schlagzeile": "Ex-PlayStation-Chef: Keine PS6 für 1.200 $ – lieber PS5 für 300 $",
+      "kurz": "Der frühere PlayStation-Chef Shawn Layden rät Sony, statt einer teuren PS6 lieber eine deutlich günstigere PS5 zu bauen. „Die Innovation muss nicht von einer PS6 für 1.200 Dollar kommen, sondern von einer PS5 für 300 Dollar“, sagte er im Podcast The Trophy Room. Die PS5 sei die erste Plattform, die mit der Zeit teurer geworden ist. Offizielle PS6-Pläne kommentiert das nicht.",
+      "zusammenfassung": "Shawn Layden, früher Präsident und CEO von Sony Interactive Entertainment America, hat sich im Podcast The Trophy Room zur nächsten PlayStation geäußert, wie IGN berichtet. Seiner Ansicht nach bringt eine PS6, die vor allem auf mehr Raytracing und mehr Teraflops setzt, nicht genug echte Neuerung. „Ich glaube, wir haben genug Leistung in der Maschine“, sagte Layden. Die eigentliche Innovation wäre aus seiner Sicht nicht eine PS6 für 1.200 Dollar, sondern eine weitere PS5 für 300 Dollar. Er verwies darauf, dass die PS2 am Ende ihres Lebens für 99 Dollar zu haben war, während die PS5 die erste Plattform sei, die er mit steigenden Preisen erlebt habe. Sony solle die Konsole kleiner und günstiger machen; Chip und Betriebssystem seien gut genug für die Spiele, die man spielen wolle. IGN ordnet ein: Zum Start vor sechs Jahren kostete die PS5 in den USA 499 Dollar, die Digital Edition 399 Dollar. Direkt bei PlayStation kosten heute die Standardversion 649, die Digital Edition 599 und die PS5 Pro 899 Dollar. Sony begründet die Erhöhungen mit dem schwierigen wirtschaftlichen Umfeld. Zur PS6 gibt es wenig Offizielles: Sony sagte im Mai, man entscheide noch über den Zeitpunkt, und ein Bericht vom Februar sprach von einer möglichen Verschiebung auf 2028 oder 2029. Layden ist seit Jahren nicht mehr bei Sony; seine Aussagen sind eine persönliche Meinung und keine Information über Sonys Pläne. Ein konkreter PS6-Preis ist nicht bekannt, die 1.200 Dollar sind Laydens zugespitztes Beispiel.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/former-playstation-boss-says-sony-doesnt-need-a-ps6-for-1200-it-needs-a-ps5-for-300"
+      },
+      "weitere_links": [],
+      "tags": [
+        "PlayStation",
+        "PS5",
+        "PS6",
+        "Shawn Layden",
+        "Konsolenpreise"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-08-layden-ps5-300.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -86,6 +245,89 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-08-gpu-preise-plus40.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.198Z"
+      },
+      "id": "2026-11-08-12v2x6-kabel-rtx-pro-6000",
+      "datum": "2026-11-08T12:47:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Netzteil"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Beschädigte 12V-2×6-Kabel an zwei RTX PRO 6000 trotz Premium-Netzteil entdeckt",
+      "schlagzeile": "32.000-Dollar-PC: 12V-2×6-Kabel zerbröseln an zwei RTX PRO 6000",
+      "kurz": "Ein Reddit-Nutzer mit zwei NVIDIA RTX PRO 6000 Blackwell hat an beiden 12V-2×6-Stromkabeln beschädigte Ummantelungen entdeckt, obwohl die Karten auf 500 Watt begrenzt waren. Die Schäden zeigten sich an GPU- und Netzteilseite, geschmolzen ist aber nichts. Das Netzteil ist ein Seasonic PRIME TX-1600 Noctua Edition. Die Ursache ist nicht gemessen; es handelt sich um einen Einzelfall.",
+      "zusammenfassung": "VideoCardz berichtet über einen Reddit-Beitrag des Nutzers Doomslayer606, der in seiner Workstation zwei NVIDIA RTX PRO 6000 Blackwell in der 600-Watt-Workstation-Edition mit je 96 GB GDDR7 betreibt. Die Karten zusammen kosten laut VideoCardz über 32.000 Dollar. Versorgt werden sie von einem Seasonic PRIME TX-1600 Noctua Edition mit zwei nativen 16-Pin-Kabeln. Obwohl der Besitzer beide Karten auf 500 Watt begrenzt hatte, bemerkte er an beiden Kabeln, dass die Ummantelung zweier einzelner Adern steif, rissig und leicht abzuziehen war. Die Schäden traten sowohl an den Steckern der Grafikkarten als auch an der Netzteilseite auf, wo sie sogar stärker ausfielen, obwohl diese Stecker kaum bewegt wurden. Die eigentliche Isolierung der Adern blieb intakt, und weder an den Karten noch am Netzteil gab es sichtbare Schmelz- oder Verfärbungsspuren. Zuvor war dem Nutzer aufgefallen, dass gelegentlich eine GPU oder eine NVMe-SSD vom PCIe-Bus verschwand, weshalb er die Kabel mehrfach neu gesteckt hatte. Er vermutet örtliche Überhitzung durch ungleich verteilte Ströme, gemessen wurden Temperatur oder Strom aber nicht. Als Konsequenz hat er Ersatzkabel mit Temperaturschutz gekauft und überlegt, die Karten auf 450 Watt zu begrenzen; bei 300 Watt habe er in seinen Anwendungen 40 bis 50 Prozent Leistung verloren. Seasonic oder NVIDIA haben sich laut Bericht nicht geäußert. Es ist ein Einzelfall ohne Herstellerbestätigung, passt aber in die lange Reihe von Problemen rund um den 16-Pin-Stecker. VideoCardz rät, Stromstecker regelmäßig zu kontrollieren, ohne sie ständig ab- und anzustecken.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/user-spots-damaged-seasonic-noctua-power-cables-before-losing-two-16000-rtx-pro-6000-gpus"
+      },
+      "weitere_links": [],
+      "tags": [
+        "12V-2x6",
+        "16-Pin",
+        "RTX PRO 6000",
+        "Seasonic",
+        "Netzteil",
+        "Kabel"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-08-12v2x6-kabel-rtx-pro-6000.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.114Z"
+      },
+      "id": "2026-11-08-rtings-woled-edge-rot",
+      "datum": "2026-11-08T11:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "OLED",
+        "Monitor"
+      ],
+      "kategorie": "Displays",
+      "titel": "RTINGS-Langzeittest: 14 von 16 älteren WOLED-Fernsehern zeigen Pixelausfälle am Rand",
+      "schlagzeile": "„Edge Rot“: 14 von 16 WOLED-TVs mit toten Pixeln am Rand",
+      "kurz": "Im 18.000-Stunden-Langzeittest von RTINGS haben 14 von 16 Fernsehern mit WOLED-Panels von LG Display tote Pixel entlang der Bildränder entwickelt. RTINGS nennt das „Edge Rot“; mit Einbrennen hat es nichts zu tun. Die drei getesteten QD-OLED-TVs blieben verschont. Betroffen sind vor allem Modelle von 2020 bis 2022, neuere Panels ab 2024 sind nicht getestet.",
+      "zusammenfassung": "Die Testseite RTINGS hat Ergebnisse aus ihrem beschleunigten Langzeittest veröffentlicht, in dem Fernseher rund 18.000 Stunden liefen. Von 16 Geräten mit WOLED-Panels von LG Display entwickelten 14 tote Pixel, kleine Pixelgruppen oder sichtbare Schäden entlang der Bildschirmränder, das sind 87,5 Prozent. RTINGS nennt das Phänomen „Edge Rot“. Anders als Einbrennen hängt es laut RTINGS nicht davon ab, ob statische Inhalte gezeigt werden, und lässt sich auch nicht durch abwechslungsreiches Material vermeiden. Bei den älteren WBC-Panels waren 9 von 10 Geräten betroffen, fünf davon stark; bei den neueren WBE-Panels 5 von 6, darunter Modelle von LG und Sony. Das 2023er-Modell LG G3 zeigte keine Randschäden. Die drei getesteten QD-OLED-Fernseher mit Panels von Samsung Display blieben ohne Edge Rot; RTINGS betont aber, dass drei Geräte zu wenige sind, um QD-OLED für immun zu erklären. Auch drei geprüfte OLED-Monitore, darunter ein WOLED-Modell, zeigten keine Randschäden. Zwei RTINGS-Mitarbeiter fanden das Problem zudem an ihren privat genutzten Geräten aus 2020 und 2021. Die genaue Ursache ist nicht geklärt; diskutiert werden Verunreinigungen in der Fertigung und Schwächen der Schutzschicht, die Feuchtigkeit vom Panel fernhalten soll. LG Electronics und LG Display bestätigten gegenüber RTINGS, dass das Phänomen bei einer kleinen Zahl von Produkten unter längerer Hitze, Feuchtigkeit oder anderen harten Bedingungen auftreten könne, unter normalen Bedingungen aber nicht zu erwarten sei. Die 87,5 Prozent sind ein Ergebnis aus einem kleinen Testfeld unter Dauerlast und keine Ausfallquote aller verkauften Geräte. Ob Panels ab 2024 betroffen sind, hat RTINGS noch nicht ermittelt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/rtings-discovers-edge-rot-affecting-87-5-of-tested-woled-tvs"
+      },
+      "weitere_links": [
+        {
+          "name": "Hardware Busters",
+          "url": "https://hwbusters.com/news/rtings-finds-edge-rot-on-14-of-16-woled-tvs-after-18000-hours-while-qd-oled-sets-stay-clean/"
+        }
+      ],
+      "tags": [
+        "OLED",
+        "WOLED",
+        "QD-OLED",
+        "RTINGS",
+        "LG Display",
+        "Edge Rot"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-08-rtings-woled-edge-rot.webp",
         "ki_generiert": true
       }
     },
@@ -404,48 +646,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -488,6 +688,48 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -1625,54 +1867,6 @@
       }
     },
     {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -1720,6 +1914,54 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -1825,49 +2067,6 @@
       }
     },
     {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -1916,6 +2115,49 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
