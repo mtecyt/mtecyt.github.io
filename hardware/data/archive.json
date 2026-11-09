@@ -2,10 +2,118 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-09T07:49:02.897Z",
+    "stand": "2026-11-09T18:18:56.053Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-02-rtx5080-preis-heise",
+      "datum": "2026-11-02T18:52:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "GPU & Markt",
+      "titel": "RTX 5080 kaum noch unter 2.000 Euro, Bericht: 24-GB-Version könnte sich verzögern",
+      "schlagzeile": "RTX 5080 knackt die 2.000 Euro: Über 30 % teurer in nur zwei Wochen",
+      "kurz": "Die GeForce RTX 5080 ist laut heise online derzeit kaum noch unter 2.000 Euro zu bekommen, ihr Preis ist in zwei Wochen um mehr als 30 Prozent gestiegen. Als Grund nennt heise die Gerüchte um ein Aus der RTX 5090, die inzwischen bei rund 8.000 Euro liegt. Die erwartete 24-GB-Version der RTX 5080 könnte sich laut einem unbestätigten Bericht von BenchLife verzögern.",
+      "zusammenfassung": "Nach der RTX 5090 wird laut heise online auch die RTX 5080 deutlich teurer: Die zweitschnellste Gaming-Grafikkarte von NVIDIA ist derzeit kaum noch unter 2.000 Euro erhältlich. Das sind mehr als 30 Prozent mehr als noch vor zwei Wochen. Mitte Oktober kamen Gerüchte auf, NVIDIA könnte die RTX 5090 vom Markt nehmen, was laut heise die Nachfrage nach der 5080 angeheizt hat. Die RTX 5090 selbst kostet inzwischen rund 8.000 Euro, die letzte UVP von NVIDIA lag bei 2.099 Euro. NVIDIA hat das Aus der 5090 dementiert, allerdings nur mit der Formulierung, die Karte werde „weiterhin ausgeliefert“. Ob sie weiter hergestellt wird, geht daraus laut heise nicht hervor. Im Oktober hieß es außerdem, eine RTX 5080 mit 24 statt 16 GB GDDR7 solle im Januar 2027 vorgestellt werden. Laut der taiwanischen Seite BenchLife haben die Kartenhersteller die nötigen Designunterlagen von NVIDIA aber noch nicht erhalten, obwohl sie für Oktober geplant gewesen sein sollen. Das ist ein unbestätigter Bericht, NVIDIA hat sich dazu nicht geäußert. Zudem soll der Bestand an GB203-Chips in China bereits verkauft sein und nur noch ein bis zwei Monate reichen. Als Ursache der Knappheit nennt heise den KI-Boom: Dieselben Chips und der knappe GDDR7-Speicher stecken auch in teuren Workstation-Karten mit höherer Marge. Wer eine High-End-Karte sucht, muss sich also vorerst auf weiter hohe Preise einstellen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Auch-Preis-fuer-RTX-5080-steigt-stark-Nachfolger-verzoegert-11508541.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech: RTX 5080 24 GB may miss January 2027 launch",
+          "url": "https://wccftech.com/nvidia-geforce-rtx-5080-24-gb-may-miss-january-2027-launch-as-board-partners-still-await-design-kits/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "RTX 5080",
+        "RTX 5090",
+        "GPU-Preise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-03T06:30:37.169Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-09T18:18:56.052Z"
+    },
+    {
+      "id": "2026-11-02-windows11-smart-app-control-fix",
+      "datum": "2026-11-02T14:57:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft behebt Fehler: Smart App Control ließ sich nach dem Oktober-Update nicht mehr einschalten",
+      "schlagzeile": "Windows 11: Schutzfunktion nach Oktober-Update ausgegraut – jetzt gibt's den Fix",
+      "kurz": "Nach dem Oktober-Sicherheitsupdate KB5127648 ließ sich die Windows-11-Schutzfunktion Smart App Control auf manchen PCs nicht mehr einschalten. Microsoft hat den Fehler mit den Updates ab dem 28. Oktober 2026 behoben, darunter das optionale Vorschau-Update KB5127936. Wo Smart App Control schon aktiv war, blieb der Schutz die ganze Zeit bestehen.",
+      "zusammenfassung": "Microsoft hat laut BleepingComputer einen bekannten Fehler in Windows 11 behoben, der nach dem Sicherheitsupdate KB5127648 vom Oktober 2026 auftrat. Auf betroffenen Geräten mit Windows 11 24H2 und neuer war die Option für Smart App Control in der Windows-Sicherheit ausgegraut und ließ sich nicht einschalten. Smart App Control blockiert zusammen mit SmartScreen und Microsoft Defender potenziell schädliche Apps. Betroffen waren nur PCs, auf denen die Funktion zuvor ausgeschaltet war. Wo sie bereits aktiv war, blieben die Geräte laut Microsoft geschützt. Der Fehler ist mit den Windows-Updates vom 28. Oktober 2026 und später behoben, darunter das optionale Vorschau-Update KB5127936. Microsoft empfiehlt, das jeweils neueste Update zu installieren. Für Firmen-PCs, die nicht auf den nächsten Patchday warten wollen, nennt Microsoft eine Übergangslösung über zwei Registry-Einträge oder spezielle Gruppenrichtlinien, jeweils mit Neustart. Laut BleepingComputer behebt KB5127936 außerdem Probleme mit Remote Desktop bei aktiviertem „Administratorschutz“ und VPN-Fehler nach den Updates vom September 2026. Privatnutzer müssen nichts tun, außer das Update zu installieren.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Smart App Control",
+        "KB5127648",
+        "KB5127936"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-03T06:30:37.288Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-09T18:18:56.053Z"
+    },
+    {
+      "id": "2026-11-02-raspberry-pi5-16gb-preis",
+      "datum": "2026-11-02T13:55:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Raspberry Pi"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "Raspberry Pi 5 mit 16 GB RAM wird zum vierten Mal teurer: 385 statt 305 US-Dollar",
+      "schlagzeile": "Raspberry Pi 5 mit 16 GB kostet jetzt 385 Dollar – dreimal so viel wie zum Start",
+      "kurz": "Raspberry Pi hebt den Listenpreis des Raspberry Pi 5 mit 16 GB RAM von 305 auf 385 US-Dollar an. Es ist die vierte Erhöhung seit Dezember 2025, zum Start lag der Preis bei 120 US-Dollar. Grund sind die steigenden RAM-Preise, der Raspberry Pi 500+ wird diesmal aber nicht teurer.",
+      "zusammenfassung": "Der Raspberry Pi 5 mit 16 GB LPDDR4-RAM wird laut heise online erneut teurer. Der Listenpreis steigt um 80 auf 385 US-Dollar. Es ist bereits die vierte Erhöhung nach Dezember 2025, Februar 2026 und April 2026. Zum Start kostete diese Version laut heise 120 US-Dollar beziehungsweise rund 135 Euro. Als Grund nennt der Hersteller die ständig steigenden RAM-Preise. Raspberry-Pi-Chef Eben Upton erklärt, dass es für den 16-GB-Speicherbaustein keinen alternativen Zulieferer gibt. Derselbe Baustein steckt auch im Compute Module 5 und im Raspberry Pi 500+. Die 16-GB-Version des Compute Module 5 wird um 40 US-Dollar teurer, der Raspberry Pi 500+ dagegen diesmal nicht. Laut heise werden auch einige andere Raspberry-Pi-Modelle noch teurer. Wegen der Engpässe hat der Hersteller für mehrere Produkte zusätzliche Bestückungsoptionen eingeführt, um auch Speicherchips anderer Hersteller verwenden zu können. Golem.de berichtet, dass ein Pi 5 inzwischen fast 350 Euro kostet. Wie stark die Preise im Handel steigen, hängt vom Händler ab.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Der-teuerste-Raspi-wird-noch-teurer-16-Gigabyte-Version-kostet-385-US-Dollar-11507912.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem.de: Pi 5 und Compute Module – Raspberry Pi kostet mittlerweile fast 350 Euro",
+          "url": "https://www.golem.de/news/pi-5-und-compute-module-raspberry-pi-kostet-mittlerweile-fast-350-euro-2611-214770.html"
+        }
+      ],
+      "tags": [
+        "Raspberry Pi",
+        "RAM-Preise",
+        "Einplatinencomputer"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-03T06:30:37.229Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-09T18:18:56.053Z"
+    },
     {
       "id": "2026-11-02-rtx5090-pro5500-igorslab",
       "datum": "2026-11-02T05:30:00+01:00",
