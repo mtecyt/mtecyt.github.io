@@ -2,10 +2,405 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-09T18:18:56.053Z",
+    "stand": "2026-11-09T18:36:44.540Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.162Z"
+      },
+      "id": "2026-11-09-dark-heresy-release",
+      "datum": "2026-11-09T17:50:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Warhammer 40k",
+        "RPG"
+      ],
+      "kategorie": "Release-Termin",
+      "titel": "Warhammer 40,000: Dark Heresy von Owlcat erscheint am 28. Januar 2027 für PC, PS5 und Xbox Series",
+      "schlagzeile": "Warhammer 40k: Dark Heresy hat einen Termin – Start am 28. Januar 2027",
+      "kurz": "Owlcat Games hat den Release-Termin für Warhammer 40,000: Dark Heresy genannt. Das Taktik-Rollenspiel erscheint am 28.01.2027 für PC, PS5 und Xbox Series X/S, eine Switch-2-Version folgt später. Man spielt einen Inquisitor, der Ketzer jagt.",
+      "zusammenfassung": "Owlcat Games hat per Pressemitteilung und Trailer den Release-Termin seines Taktik-Rollenspiels Warhammer 40,000: Dark Heresy bekanntgegeben, berichten Eurogamer und GameStar. Das Spiel erscheint am 28. Januar 2027 für PC, PlayStation 5 und Xbox Series X/S. Für die Switch 2 soll ein Termin „zu einem späteren Zeitpunkt“ folgen. Dark Heresy baut auf Warhammer 40,000: Rogue Trader auf, das Owlcat vor einigen Jahren veröffentlicht hat. Diesmal spielt man einen Inquisitor, der im 41. Jahrtausend Ketzer und dunkle Einflüsse aufspürt. Laut Eurogamer hat Owlcat viele der zugrunde liegenden Systeme überarbeitet. Bereits seit einiger Zeit läuft eine Beta mit dem kompletten ersten Akt, die Käufer der Founders Edition spielen können. Diese Beta wird am 7. Januar abgeschaltet, während Owlcat das Spiel für den Start vorbereitet. Eurogamer erinnert daran, dass Rogue Trader zwar für Setting und Kämpfe gelobt wurde, zum Start aber mit Bugs und schwacher Performance zu kämpfen hatte. Wie gut Dark Heresy zum Release läuft, muss sich also erst zeigen. Parallel arbeitet Owlcat an einem Rollenspiel zur Science-Fiction-Reihe The Expanse.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/warhammer-40k-dark-heresy-owlcat-crpg"
+      },
+      "weitere_links": [
+        {
+          "name": "GameStar",
+          "url": "https://www.gamestar.de/news/"
+        }
+      ],
+      "tags": [
+        "Warhammer 40k",
+        "Dark Heresy",
+        "Owlcat",
+        "Rollenspiel",
+        "Release"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-dark-heresy-release.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:43.937Z"
+      },
+      "id": "2026-11-09-ps-portal-speicher-japan",
+      "datum": "2026-11-09T17:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "PlayStation",
+        "Konsole"
+      ],
+      "kategorie": "Konsole",
+      "titel": "Sony bringt in Japan ein neues PlayStation-Portal-Modell mit internem Speicher für künftige Funktionen",
+      "schlagzeile": "Neues PS Portal mit eigenem Speicher – Sony deutet mehr Funktionen an",
+      "kurz": "Sony bringt in Japan am 10.12.2026 ein neues Modell des PlayStation Portal mit internem Speicher. Laut Sony Japan ist der Speicher für künftige Funktionen gedacht, Details folgen später. Der Preis bleibt bei 39.980 Yen, Vorbestellungen starten am 13.11.2026, und ob das Modell auch nach Europa kommt, ist offen.",
+      "zusammenfassung": "Sony veröffentlicht in Japan ein überarbeitetes Modell des PlayStation Portal, berichtet IGN unter Berufung auf den offiziellen Blog von Sony Japan. Der wichtigste Unterschied zum bisherigen Gerät ist ein interner Speicher. Sony schreibt, man habe den Speicher mit Blick auf künftige Funktionen eingebaut und werde Details nennen, sobald diese feststehen. Welche Funktionen das sein sollen, sagt Sony noch nicht. Gleichzeitig ändert Sony in Japan den offiziellen Namen von „PlayStation Portal Remote Player“ zu „PlayStation Portal Player“. Sony betont im Blog außerdem, dass auch Spieler ohne PS5 mit dem Portal PS5-Spiele spielen können; das bezieht sich auf das Cloud-Streaming für PS-Plus-Premium-Mitglieder, das Sony im vergangenen Jahr eingeführt hat. IGN wertet Speicher und Namenswechsel als möglichen Schritt weg vom reinen Remote-Play-Zubehör hin zu einem eigenständigeren Handheld; das ist eine Einschätzung, keine Ankündigung von Sony. Das neue Modell erscheint in Japan am 10. Dezember, Vorbestellungen beginnen am 13. November, der Preis bleibt mit 39.980 Yen gleich. Es ist nur auf Japanisch eingestellt und braucht ein japanisches PSN-Konto. Ob und wann es in andere Regionen kommt, ist nicht bekannt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/sony-launches-new-ps-portal-model-in-japan-with-internal-storage-for-future-functionality-changes-official-name"
+      },
+      "weitere_links": [],
+      "tags": [
+        "PlayStation Portal",
+        "Sony",
+        "Handheld",
+        "PS5",
+        "Japan"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-ps-portal-speicher-japan.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.319Z"
+      },
+      "id": "2026-11-09-sshole-angriffe",
+      "datum": "2026-11-09T17:04:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheitslücke",
+      "titel": "OpenSSH-Lücke „SSHole“ (CVE-2026-123158) wird aktiv angegriffen, Angreifer erlangen Root auf Alpine-Systemen",
+      "schlagzeile": "OpenSSH-Lücke „SSHole“ wird jetzt aktiv angegriffen – Alpine-Server updaten",
+      "kurz": "Die OpenSSH-Lücke auf musl-Systemen wie Alpine Linux, über die wir am 05.11.2026 berichtet haben, wird inzwischen aktiv ausgenutzt. Mehrere Sicherheitsfirmen melden Angriffe, in einem Honeypot erlangten Angreifer Root-Zugriff. Die Lücke heißt jetzt „SSHole“ (CVE-2026-123158); Abhilfe schafft OpenSSH 10.6p2 mit anschließendem Neustart von sshd.",
+      "zusammenfassung": "Die OpenSSH-Lücke, über die wir am 5. November berichtet haben, wird inzwischen aktiv angegriffen, berichten BleepingComputer, SecurityWeek und The Hacker News. Sie trägt jetzt den Spitznamen „SSHole“ und die Kennung CVE-2026-123158 (CVSS 8.1). Betroffen ist OpenSSH vor Version 10.6p2 auf Linux-Systemen mit der musl-C-Bibliothek ohne PAM, etwa die Standard-Konfiguration von Alpine Linux; der Entdecker nennt auch OpenWrt, Buildroot, Yocto und viele Docker-Images als prüfenswert. Mit einem sehr langen Passwort von 257 bis 1.024 Byte können sich Angreifer bei Konten anmelden, die eigentlich gar kein Passwort akzeptieren sollen. Laut BleepingComputer begannen Angriffsversuche am 5. November, als wenige Stunden nach dem Fix ein Proof-of-Concept auftauchte. Die Firma Previdian bestätigt erfolgreichen Root-Zugriff auf einem eigenen Honeypot mit echtem Alpine Linux und zählte bis 8. November 20 Versuche von 13 IP-Adressen aus neun Ländern. GreyNoise registrierte die erste erfolgreiche Ausnutzung in freier Wildbahn am 7. November und beobachtete 16 erfolgreiche Angriffsketten: Die Angreifer erkundeten System und Container, fragten Cloud-Metadaten ab, versuchten Passwort-Hashes und Root-SSH-Schlüssel zu lesen und eigene Schlüssel für dauerhaften Zugang einzutragen. Abhilfe schafft OpenSSH 10.6p2 oder das gepatchte Paket der Distribution; Alpine hat Pakete für alle Zweige ab 3.16 veröffentlicht. Wichtig: Nach dem Update muss sshd neu gestartet werden, sonst läuft die alte Version weiter; laut watchTowr nutzen bisher vor allem Botnetze und Krypto-Miner die Lücke. Als Sofortmaßnahme hilft PasswordAuthentication no. Admins sollten zudem Logs auf unerwartete „Accepted password for“-Einträge bei Konten ohne Passwort und auf fremde SSH-Schlüssel prüfen.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
+      },
+      "weitere_links": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/"
+        }
+      ],
+      "tags": [
+        "OpenSSH",
+        "SSHole",
+        "CVE-2026-123158",
+        "Alpine Linux",
+        "musl",
+        "Sicherheitslücke"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-sshole-angriffe.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.090Z"
+      },
+      "id": "2026-11-09-gta6-festival-miami",
+      "datum": "2026-11-09T15:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Event",
+      "titel": "Rockstar kündigt „Grand Theft Auto VI: The Festival“ am 21. November in Miami mit Travis Scott, Cardi B und Justice an",
+      "schlagzeile": "GTA 6 bekommt ein eigenes Musikfestival – mit Travis Scott und Cardi B",
+      "kurz": "Rockstar feiert den Start von GTA 6 mit einem Musikfestival in Miami. „Grand Theft Auto VI: The Festival“ findet am 21.11.2026 im Mana Wynwood statt, unter anderem mit Travis Scott, Cardi B, Kodak Black und Justice. Tickets werden per Lotterie vergeben, das Spiel selbst erscheint am 19.11.2026.",
+      "zusammenfassung": "Rockstar Games hat auf X ein Musikfestival zum Launch von GTA 6 angekündigt, berichten VGC und Eurogamer. „Grand Theft Auto VI: The Festival“ findet am 21. November im Mana Wynwood in Miami statt, zwei Tage nach dem Release des Spiels am 19. November. Laut Rockstar treten Künstler aus dem Spiel und vom offiziellen Soundtrack auf. Bestätigt sind laut VGC unter anderem Travis Scott, Don Toliver, Kodak Black, Sofaygo, Cardi B, Ca7riel und Paco Amoroso, Justice, Metro Boomin, Rauw & Friends, Suero und Tainy, dazu mehrere DJ-Doppel-Sets. Tickets laufen über den Anbieter DICE und werden per Lotterie verlost. Laut Rockstar muss man sich bis Dienstag, 10. November, 16 Uhr Ostküstenzeit (22 Uhr in Österreich) für die Vorverkaufs-Lotterie anmelden; die Chance auf Tickets gibt es dann am Mittwoch um 12 Uhr Ostküstenzeit (18 Uhr bei uns). Zum Spiel erscheinen zwei Soundtracks auf CD, Vinyl und bei Streamingdiensten: „GTA 6: The Album“ mit 34 neuen Songs am 19. November, unter anderem mit Travis Scott und Keith Richards, und am 11. Dezember „Grand Theft Auto VI: Original Score“ mit 30 Stücken des französischen Elektro-Duos Justice.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/rockstar-announces-grand-theft-auto-6-music-festival-taking-place-in-miami/"
+      },
+      "weitere_links": [
+        {
+          "name": "Rockstar Games auf X",
+          "url": "https://x.com/RockstarGames/status/2119792290600239401"
+        },
+        {
+          "name": "Rockstar Games auf X (Ticket-Lotterie)",
+          "url": "https://x.com/RockstarGames/status/2119792500617494877"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/rockstar-gta-6-miami-music-festival"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Festival",
+        "Miami",
+        "Soundtrack",
+        "Travis Scott"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-gta6-festival-miami.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.465Z"
+      },
+      "id": "2026-11-09-amd-ssd-fix-26-11-1",
+      "datum": "2026-11-09T14:20:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber",
+        "AMD"
+      ],
+      "kategorie": "Treiber",
+      "titel": "AMD bestätigt SSD-Dauerschreiben durch Radeon-Treiber, Fix soll mit Adrenalin 26.11.1 kommen",
+      "schlagzeile": "Radeon-Treiber frisst SSD-Lebensdauer: Fix soll mit 26.11.1 kommen",
+      "kurz": "Nachtrag zu unserer Meldung vom 08.11.2026: Laut TechPowerUp und PC Gamer soll der Fehler, bei dem ein Radeon-Treiberdienst ständig auf die SSD schreibt, mit Adrenalin 26.11.1 behoben werden. Betroffen sind laut TechPowerUp die Versionen 26.10.1 und 26.10.2, ein Termin für den neuen Treiber steht noch nicht fest. Nutzer berichten von etwa 1 Prozent SSD-Gesundheit weniger pro Monat.",
+      "zusammenfassung": "Zum Radeon-Treiberfehler mit ständigen SSD-Schreibzugriffen, über den wir am 8. November berichtet haben, gibt es eine Lösung in Sicht. Laut TechPowerUp hat AMD bestätigt, dass die Treiber Adrenalin 26.10.1 und 26.10.2 betroffen sind und der Fix mit Version 26.11.1 kommen soll. PC Gamer zitiert den AMD-Vertreter AMD_Vik auf Reddit, wonach das Problem in 26.11.1 „behoben sein sollte“; ein genaues Datum gibt es nicht, der Treiber wird laut PC Gamer im Laufe des Monats erwartet. Verursacher ist der Dienst atieclxx.exe aus AMDs External Events Utility, der etwa Monitore erkennt und Hotkeys der Radeon-Software verarbeitet und offenbar in einer Endlosschleife Daten schreibt. Gemeldet werden 0,3 bis 1,5 MB/s, ein Reddit-Nutzer nennt dauerhaft 5 MB/s. Ein Nutzer auf X maß 19,5 GB Schreibzugriffe in 12 Stunden und meint, der Fehler bestehe schon seit Adrenalin 26.7.1 aus dem Juni. Auf Reddit berichten Nutzer, dass ihre SSD-Gesundheit dadurch um etwa 1 Prozent pro Monat sinke; das sind Erfahrungsberichte, keine Messung von AMD. Nicht jedes System ist betroffen, PC Gamer konnte den Fehler selbst nicht nachstellen. Als Übergangslösung nennt TechPowerUp das Abschalten der AMD External Events Utility, was aber Anzeigeprobleme verursachen kann, oder das Deaktivieren von Resizable BAR, was Leistung kosten kann. TechPowerUp rät eher, auf den offiziellen Treiber zu warten.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354605/amd-confirms-excessive-ssd-writes-in-radeon-drivers-fix-coming-with-adrenalin-26-11-1"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/amd-users-are-reporting-a-misfiring-utility-is-eating-ssd-health-by-1-percent-a-month-amd-says-a-fix-is-on-the-way-for-its-gpu-drivers/"
+        },
+        {
+          "name": "ComputerBase",
+          "url": "https://www.computerbase.de/news/grafikkarten/schnelle-ssd-alterung-radeon-treiber-schreibt-fortwaehrend-daten-auf-die-ssd.100237/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Radeon",
+        "Adrenalin",
+        "Treiber",
+        "SSD",
+        "atieclxx.exe"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-amd-ssd-fix-26-11-1.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.019Z"
+      },
+      "id": "2026-11-09-amdlss5-2-radeon",
+      "datum": "2026-11-09T13:32:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Mod"
+      ],
+      "kategorie": "Grafik-Mod",
+      "titel": "Mod AMDLSS5 2.0 bringt DLSS-5-artiges Neural Rendering mit eigener Engine auf Radeon-Karten",
+      "schlagzeile": "Mod bringt DLSS-5-Neural-Rendering auf Radeon – jetzt deutlich schneller",
+      "kurz": "Die inoffizielle Mod AMDLSS5 ist in Version 2.0 erschienen und soll DLSS-5-artiges Neural Rendering auf Radeon-Karten bringen. Laut Entwickler läuft sie jetzt auf einer eigenen Engine und deutlich schneller als andere Mods. Die Messwerte stammen nur vom Entwickler. Die Mod hat nichts mit AMD oder NVIDIA zu tun.",
+      "zusammenfassung": "Wccftech berichtet über Version 2.0 der Community-Mod AMDLSS5 vom Entwickler Wehaveall. Sie soll DLSS-5-artiges Neural Rendering, also KI-Verbesserungen bei Licht und Materialien, auf AMD-Radeon-Karten bringen, indem sie sich in vorhandene DirectX-12-Upscaling-Pfade einklinkt. Neu ist eine eigene Engine, die die bisherige Abhängigkeit von einer anderen Mod ersetzt und weniger Overhead haben soll. In einem Reddit-Beitrag nennt der Entwickler PresentMon-Werte aus Resident Evil Requiem in 4K mit FSR auf einer RX 9070 XT: 101,2 Fps im Schnitt und 78,5 Fps bei den 1-%-Lows, gegenüber 91,3 und 66,0 mit Version 1.6.1 und 61,6 und 55,5 mit anderen Mods. Daraus ergeben sich die beworbenen 64 Prozent mehr Fps, allerdings nur im Vergleich zu anderen Mods, nicht zum Spiel ohne Mod oder zu NVIDIAs echtem DLSS 5. Es handelt sich um Angaben des Entwicklers aus einer einzigen Szene mit einer Karte, unabhängige Tests gibt es noch nicht. Neu unterstützt werden PRAGMATA, Nioh 3 und GTA V Enhanced, Letzteres nur im Offline-Story-Modus mit deaktiviertem BattlEye. Hauptziel sind RX 9070 und RX 9070 XT; die RX-9060-Serie soll theoretisch funktionieren, RX-7000-Karten haben eine experimentelle Alpha-Unterstützung, beides hat der Entwickler laut Wccftech nicht auf echter Hardware geprüft. Dazu kommen 39 Farbvorlagen, lokales Tone Mapping, verbesserte Umgebungsverdeckung und indirektes Licht sowie überarbeitete 2x-Frame-Generation in ausgewählten Spielen. Die Mod ist kostenlos auf GitHub, der Quellcode der neuen Engine ist aber noch nicht veröffentlicht.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amdlss5-2-0-brings-faster-dlss-5-neural-rendering-to-radeon-gpus-claims-64-higher-fps/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMDLSS5",
+        "DLSS 5",
+        "Neural Rendering",
+        "Radeon",
+        "RX 9070 XT",
+        "Mod"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-amdlss5-2-radeon.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:43.846Z"
+      },
+      "id": "2026-11-09-amazon-us-amd-vor-nvidia",
+      "datum": "2026-11-09T12:56:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "Markt",
+      "titel": "Amazon US im Oktober: AMD verkauft mehr Grafikkarten als NVIDIA, RX 9070 XT ist Bestseller",
+      "schlagzeile": "Amazon US: AMD verkauft im Oktober mehr Grafikkarten als NVIDIA",
+      "kurz": "Laut Verkaufszahlen von Amazon US für Oktober 2026 hat AMD knapp mehr Grafikkarten verkauft als NVIDIA: rund 9.200 gegen 8.900 Stück. Meistverkaufte Karte war die Radeon RX 9070 XT mit etwa 3.300 Einheiten. NVIDIA machte wegen höherer Durchschnittspreise weiter mehr Umsatz. Die Zahlen stammen von einem Datensammler, nicht von den Herstellern.",
+      "zusammenfassung": "Wccftech berichtet über Amazon-US-Verkaufszahlen für Oktober 2026, die der Datensammler TechEpiphany zusammengetragen hat. Demnach hat AMD dort im Oktober knapp die meisten Grafikkarten verkauft: rund 9.200 Stück gegenüber etwa 8.900 bei NVIDIA. Das ist laut Wccftech bemerkenswert, weil Amazon US sonst meist von NVIDIA dominiert wird, während AMD etwa in Deutschland häufiger vorne liegt. Beim Umsatz bleibt NVIDIA vorne, denn der durchschnittliche Verkaufspreis lag bei NVIDIA bei 1.313 Dollar und bei AMD bei 915 Dollar. Bestseller war die Radeon RX 9070 XT mit etwa 3.300 Einheiten; die RTX 5070 Ti kam nur auf rund ein Drittel davon. Auf Platz zwei landete die RTX 5060 Ti (8 und 16 GB zusammen) mit etwa 2.250 Stück, dahinter die RX 9060 XT mit rund 2.150. Die RTX 5070 blieb unter 2.000 Einheiten, die RTX 5090 kam wegen schlechter Verfügbarkeit nur auf etwa 150. Selbst die alte Arc A380 verkaufte sich mit rund 500 Stück häufiger. Intel kam laut den Daten auf etwa 6,22 Prozent Anteil, getragen von Arc B570, B580 und Arc-Pro-Karten. Wccftech sieht die stark gestiegenen Preise als Hauptgrund dafür, dass Käufer zu günstigeren Karten greifen. Wichtig: Die Zahlen bilden nur einen Shop in den USA ab und stammen nicht von AMD, NVIDIA oder Amazon selbst; sie sind daher nur ein Stimmungsbild und keine Marktanteile für den Gesamtmarkt.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amd-leads-nvidia-in-gpu-sales-capturing-47-share-according-to-amazon-us-october-data/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "NVIDIA",
+        "Intel",
+        "RX 9070 XT",
+        "Amazon",
+        "GPU-Verkäufe"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-amazon-us-amd-vor-nvidia.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.244Z"
+      },
+      "id": "2026-11-09-bit-reactor-entlassungen",
+      "datum": "2026-11-09T12:41:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Star Wars",
+        "Studio"
+      ],
+      "kategorie": "Branche",
+      "titel": "Star Wars Zero Company: Entwicklerstudio Bit Reactor entlässt Mitarbeiter trotz guter Kritiken und einer Million Verkäufen",
+      "schlagzeile": "Star Wars Zero Company: Studio entlässt Leute – trotz Hit und 84 Metascore",
+      "kurz": "Bit Reactor, das Studio hinter Star Wars Zero Company, hat Mitarbeiter entlassen. Das berichtet VGC nach LinkedIn-Posts betroffener Entwickler. Dabei war das Spiel gut bewertet und hat laut EA eine Million Exemplare verkauft. Wie viele Stellen betroffen sind, ist offen.",
+      "zusammenfassung": "Bit Reactor, das Entwicklerstudio von Star Wars Zero Company, hat Mitarbeiter entlassen, berichtet VGC unter Berufung auf die Seite Bespin Bulletin. Mehrere Entwickler, darunter ein Senior Environment Artist, ein UI-Engineer, ein Producer und ein Senior QA Analyst, haben in den vergangenen Tagen auf LinkedIn geschrieben, dass sie betroffen sind. Wie viele Stellen insgesamt wegfallen, ist nicht bekannt. Laut Berichten hatte das Studio vor dem Release im August rund 80 Prozent seiner Belegschaft unbezahlt freigestellt, weil das Geld knapp wurde. Im Oktober sagte Studiochef Greg Foertsch, dass ein Teil der freigestellten Leute zurückkehrt; Berichten zufolge kam das Studio damit wieder auf mehr als die Hälfte der früheren Größe. Unklar ist, ob nun auch Rückkehrer betroffen sind oder nur Leute, die nach der Freistellung nicht zurückgeholt wurden. Mindestens ein Betroffener schreibt, er sei nach drei Monaten Freistellung entlassen worden. Bitter ist das, weil Star Wars Zero Company Ende August mit sehr guten Kritiken erschien und auf Metacritic bei 84 Punkten steht. Am 9. Oktober meldete der offizielle EA-Star-Wars-Account eine Million verkaufte Einheiten. Eine offizielle Stellungnahme von Bit Reactor zu den Entlassungen nennt VGC nicht.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/star-wars-zero-company-studio-bit-reactor-is-laying-off-staff-a-month-after-it-started-bringing-back-furloughed-devs/"
+      },
+      "weitere_links": [
+        {
+          "name": "GameStar",
+          "url": "https://www.gamestar.de/news/"
+        }
+      ],
+      "tags": [
+        "Star Wars Zero Company",
+        "Bit Reactor",
+        "Entlassungen",
+        "EA"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-bit-reactor-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T18:36:44.396Z"
+      },
+      "id": "2026-11-09-notepadpp-7zip-luecken",
+      "datum": "2026-11-09T11:18:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheitslücke",
+      "titel": "Notepad++ 8.9.9 schließt sechs Sicherheitslücken, 7-Zip 26.06 behebt nicht näher genannte Schwachstellen",
+      "schlagzeile": "Notepad++ und 7-Zip: Updates stopfen Sicherheitslücken – selbst updaten",
+      "kurz": "Notepad++ 8.9.9 schließt sechs Sicherheitslücken, die schwerste als hoch eingestuft. Auch 7-Zip 26.06 behebt laut Entwickler Schwachstellen, nennt aber keine Details. 7-Zip hat keine Update-Funktion, man muss selbst aktualisieren. Unter Windows geht das bequem mit winget.",
+      "zusammenfassung": "Zwei weit verbreitete Windows-Werkzeuge haben Sicherheitsupdates bekommen, berichtet heise online. Notepad++ 8.9.9 von Entwickler Don Ho schließt sechs Sicherheitslücken. Am schwersten wiegt ein Heap-Pufferüberlauf im SAML-Decoder des Plugins mimeTools: Präparierte SAML-Nachrichten könnten beim Dekodieren Speicher überschreiben und möglicherweise Schadcode ausführen. Das Advisory stuft das Risiko als hoch ein, nennt aber keinen CVSS-Wert. Die übrigen fünf Lücken gelten als mittel, einige davon eignen sich laut heise wohl zur Ausweitung von Rechten im System, etwa über das UAC-Speichern geschützter Dateien oder Fenster-Nachrichten. CVE-Nummern gibt es noch nicht. Daneben beschleunigt die Version die Suche in Dateien und aktualisiert die Editor-Komponente Scintilla auf 5.6.9. Notepad++ hat eine eigene Update-Prüfung; alternativ hilft winget update Notepad++.Notepad++. Das Archivprogramm 7-Zip ist am Wochenende in Version 26.06 erschienen. Entwickler Igor Pavlov schreibt nur, dass einige Fehler und Schwachstellen behoben wurden, ohne zu sagen, welche oder wie schwer. Zusätzlich hat er die Unterstützung für Dateien verbessert, die mit dem Linux-Werkzeug split aufgeteilt wurden. Weil 7-Zip keine Update-Prüfung hat, müssen Nutzer die neue Version selbst herunterladen oder unter Windows winget upgrade 7zip.7zip verwenden. heise empfiehlt, mit winget upgrade --all gleich alle verfügbaren Updates einzuspielen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Notepad-Update-schliesst-Rechteausweitungsluecke-und-mehr-11517053.html"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online (7-Zip)",
+          "url": "https://www.heise.de/news/7-Zip-Update-schliesst-nicht-genannte-Sicherheitsluecken-11516845.html"
+        }
+      ],
+      "tags": [
+        "Notepad++",
+        "7-Zip",
+        "Sicherheitslücke",
+        "Windows",
+        "winget",
+        "Update"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-09-notepadpp-7zip-luecken.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -646,6 +1041,48 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -688,48 +1125,6 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -1867,6 +2262,54 @@
       }
     },
     {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -1914,54 +2357,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -2067,6 +2462,49 @@
       }
     },
     {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -2115,49 +2553,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
