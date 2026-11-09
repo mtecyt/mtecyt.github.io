@@ -2,10 +2,81 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-08T19:51:18.696Z",
+    "stand": "2026-11-09T07:49:02.897Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-02-rtx5090-pro5500-igorslab",
+      "datum": "2026-11-02T05:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "RTX 5090 gegen RTX PRO 5500: igor'sLAB prüft, ob NVIDIAs Profikarte der Gaming-GPU die Chips wegnimmt",
+      "schlagzeile": "Über 8.000 Euro für eine RTX 5090: Nimmt NVIDIAs Profikarte ihr die Chips weg?",
+      "kurz": "Eine sofort lieferbare RTX 5090 kostete laut igor'sLAB am 1.11.2026 bei einem deutschen Händler 8.059 Euro, die UVP der Founders Edition liegt bei 2.099 Euro. Die Analyse prüft, ob NVIDIA passende GB202-Chips lieber in die kommende Profikarte RTX PRO 5500 steckt, die gleich viele Recheneinheiten hat. Das Ergebnis: wirtschaftlich plausibel, aber öffentlich nicht belegt.",
+      "zusammenfassung": "igor'sLAB hat untersucht, warum die GeForce RTX 5090 zu ihrem ursprünglichen Preis kaum noch zu bekommen ist. In einer Händler-Stichprobe vom 1.11.2026 kostete eine sofort lieferbare INNO3D RTX 5090 iCHILL X3 bei ALTERNATE 8.059 Euro, eine ZOTAC Solid OC White bei Caseking 8.499 Euro. Die deutsche UVP der Founders Edition liegt bei 2.099 Euro, die Founders Edition ist dort aber als nicht verfügbar gelistet. Im Mittelpunkt steht die kommende RTX PRO 5500 Blackwell Workstation Edition: Sie nutzt laut Partnerangaben ebenfalls den großen GB202-Chip mit 170 aktiven Streaming-Multiprozessoren und 21.760 CUDA-Kernen, hat aber 84 GB GDDR7 mit ECC statt 32 GB. Reuters berichtete am 20.10.2026 unter Berufung auf anonyme Quellen von mehr als drei Millionen bestellten PRO-5500-Karten aus China zu rund 11.400 Dollar pro Stück. Damit hätte NVIDIA einen Anreiz, geeignete Chips eher in die teure Profikarte zu stecken als in die Gaming-Karte. igor'sLAB betont aber, dass das öffentlich nicht nachgewiesen ist: Es gibt weder Daten zur Chip-Ausbeute noch zur Verteilung der Chips auf die beiden Produkte. Zudem war die Versorgung mit Gaming-Karten schon vor den gemeldeten PRO-5500-Bestellungen knapp, und reguläre Lieferungen der Profikarte sollen erst im ersten Quartal 2027 beginnen. Als weiteren Engpass nennt die Analyse den GDDR7-Speicher, der laut TrendForce zunehmend für KI- und Serveranwendungen eingeplant wird. Die Rechenbeispiele zu Kosten und Margen im Artikel beruhen ausdrücklich auf frei gewählten Annahmen und sind keine echten NVIDIA-Zahlen. Das Fazit von igor'sLAB: Die Profikarte ist ein ernstzunehmender Konkurrent um Chips und Speicher, eine messbare Verdrängung der RTX 5090 ist aber nicht belegt.",
+      "quelle": {
+        "name": "igor'sLAB",
+        "url": "https://www.igorslab.de/geforce-rtx-5090-wenn-selbst-der-teilaktivierte-chip-fuer-spieler-zu-wertvoll-wird-analyse/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "RTX 5090",
+        "RTX PRO 5500",
+        "GPU-Preise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.739Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-09T07:49:02.896Z"
+    },
+    {
+      "id": "2026-11-01-linux-7-4-rc1",
+      "datum": "2026-11-01T22:51:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Linux 7.4-rc1 veröffentlicht: Größtes Merge-Window der Kernel-Geschichte, viel davon durch KI angestoßen",
+      "schlagzeile": "Linux 7.4: Rekord-Update dank KI-Flut – und Torvalds findet das gut",
+      "kurz": "Linus Torvalds hat die erste Testversion von Linux 7.4 veröffentlicht. Das Merge-Window war mit fast 20.000 Commits das größte der Kernel-Geschichte, ein großer Teil davon wurde durch KI-Werkzeuge angestoßen. Neu sind unter anderem Vorbereitungen für AMDs Zen-6-Prozessoren und HDMI 2.1 als Standard im AMDGPU-Treiber.",
+      "zusammenfassung": "Linus Torvalds hat am Sonntagabend Linux 7.4-rc1 veröffentlicht und damit das Merge-Window planmäßig abgeschlossen. Laut Torvalds war es mit fast 20.000 Commits statt der üblichen rund 15.000 außergewöhnlich groß, laut Phoronix das größte der Kernel-Geschichte. Als Hauptgrund nennt Torvalds die Flut an KI-angestoßenen Änderungen. Er sieht das positiv: Es sei ihm deutlich lieber, wenn diese Arbeit im Merge-Window landet statt als Welle von Korrekturen in der Testphase. Ein weiterer Grund könnte laut Torvalds sein, dass Linux 7.4 als nächste Long-Term-Support-Version erwartet wird. Ein Drittel des Patches besteht nach seinen Worten allein aus AMD-GPU-Registerdefinitionen. Zu den Neuerungen zählen laut Phoronix die Unterstützung für kommende Ryzen-Prozessoren mit Zen 6, HDMI 2.1 als Standard im AMDGPU-Treiber und die Funktion AMD PerfOpt für bessere KI-Leistung auf Radeon-iGPUs. Dazu kommen Intel-IPU8-Unterstützung für kommende Nova-Lake-Laptops, mehr Unterstützung für Snapdragon-X2-Laptops, erste Grundlagen für Apples M4 (noch nicht alltagstauglich) und schnellere Kernel-Builds. Bis zur finalen Version folgen nun mehrere Testversionen. Läuft alles nach Plan, erscheint Linux 7.4 laut Phoronix am 20.12.2026. Normale Nutzer warten am besten, bis ihre Distribution den neuen Kernel ausliefert.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Linux-7.4-rc1"
+      },
+      "weitere_links": [
+        {
+          "name": "LWN.net: Kernel prepatch 7.4-rc1",
+          "url": "https://lwn.net/Articles/1104654/"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "Kernel",
+        "Linux 7.4",
+        "AMD"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-02T06:19:23.831Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-09T07:49:02.897Z"
+    },
     {
       "id": "2026-11-01-gta6-210gb-download",
       "datum": "2026-11-01T20:31:00+01:00",
