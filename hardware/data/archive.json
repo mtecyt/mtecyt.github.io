@@ -2,10 +2,48 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-09T18:18:56.053Z",
+    "stand": "2026-11-10T07:46:04.913Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-02-zelda-oot-remake-puppenlook",
+      "datum": "2026-11-02T23:51:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Zelda"
+      ],
+      "kategorie": "Games",
+      "titel": "Zelda: Ocarina of Time für Switch 2: Nintendo erklärt den umstrittenen Puppen-Look des Remakes",
+      "schlagzeile": "Zelda-Remake sieht aus wie ein Puppenspiel – Nintendo erklärt, warum",
+      "kurz": "Das Remake von The Legend of Zelda: Ocarina of Time erscheint am 5. November für Nintendo Switch 2. Der Grafikstil mit puppenhaften Figuren spaltet die Fans. In einem Interview erklären die Entwickler, dass sie bewusst ein „Puppenspiel-Gefühl“ wollten statt reinen Fotorealismus.",
+      "zusammenfassung": "Nintendo hat sich laut Polygon zum umstrittenen Grafikstil des Remakes von The Legend of Zelda: Ocarina of Time geäußert. Link, Zelda und andere Figuren wirken darin eher wie Puppen als wie fotorealistische Menschen, was unter langjährigen Fans für Diskussionen sorgt. Art Director Aya Shida sagt in einem Entwicklerinterview, das Ziel sei nicht gewesen, einfach alles realistisch aussehen zu lassen. Hyrule sollte als dichte Welt wirken, die wirklich existieren könnte, während die bunten, schrulligen Figuren wie im Original einen Kontrast dazu bilden. Leitbegriffe für das Team waren laut Shida ein „Puppenspiel-Gefühl“ und die „analoge Anmutung von Filmen mit praktischen Effekten“. Serienproduzent Eiji Aonuma erklärt, das Team empfinde beim Blick auf das Nintendo-64-Original Nostalgie, und dieser Ausdruck habe zu dem analogen Puppen-Look geführt. Das Remake erscheint laut Video Games Chronicle am Donnerstag, 5. November 2026, für Nintendo Switch 2. Entwickelt wird es von Nintendos eigener Abteilung Nintendo EPD, die auch Breath of the Wild und Tears of the Kingdom gemacht hat. Ob der Stil am Ende überzeugt, zeigt sich erst mit den Tests nach dem Start.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-art-style-link-zelda-puppets/"
+      },
+      "weitere_links": [
+        {
+          "name": "Video Games Chronicle: Zelda: Ocarina of Time UK midnight launch",
+          "url": "https://www.videogameschronicle.com/news/nintendo-announces-zelda-ocarina-of-time-uk-midnight-launch-with-free-n64-boxes-up-for-grabs/"
+        }
+      ],
+      "tags": [
+        "Zelda",
+        "Ocarina of Time",
+        "Nintendo Switch 2",
+        "Remake"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-03T06:30:37.346Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-10T07:46:04.912Z"
+    },
     {
       "id": "2026-11-02-rtx5080-preis-heise",
       "datum": "2026-11-02T18:52:00+01:00",
