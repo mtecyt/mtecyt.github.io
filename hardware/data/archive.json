@@ -2,10 +2,53 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-10T07:46:04.913Z",
+    "stand": "2026-11-10T11:16:32.913Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-03-fedora-45",
+      "datum": "2026-11-03T09:42:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Fedora Linux 45 ist erschienen – mit GNOME 51, KDE Plasma 6.8 und Linux-Kernel 7.2",
+      "schlagzeile": "Fedora 45 ist da: Neuer Desktop, neuer Installer und Builds zum Nachprüfen",
+      "kurz": "Das Fedora-Projekt hat Fedora Linux 45 veröffentlicht. Die Workstation-Edition setzt auf GNOME 51, die KDE-Edition auf Plasma 6.8, darunter arbeitet der Linux-Kernel 7.2. Neu sind unter anderem Stratis im Installer und reproduzierbare Paket-Builds.",
+      "zusammenfassung": "Am 03.11.2026 ist Fedora Linux 45 erschienen, rund sechs Monate nach Fedora 44 und laut Phoronix nach zwei Verschiebungen. Die Workstation-Edition bringt GNOME 51 mit, die KDE-Plasma-Desktop-Edition die Version Plasma 6.8. Als Kernel kommt Linux 7.2 zum Einsatz. Eine der größten Neuerungen ist laut dem offiziellen Fedora Magazine die Unterstützung für das Speichersystem Stratis direkt im Anaconda-Installer. Die virtuelle Textkonsole übernimmt standardmäßig KMSCON, außerdem setzt Fedora laut 9to5Linux auf vollständig reproduzierbare Paket-Builds. Die Signaturprüfung für RPM-Pakete ist standardmäßig aktiv und ptrace ist standardmäßig eingeschränkt, was die Sicherheit erhöhen soll. Die Atomic-Varianten wie Silverblue und Kinoite installieren jetzt über den neuen WebUI-Installer. Für Entwickler sind unter anderem GCC 16.2, LLVM 23, Python 3.15, Go 1.27 und Podman 6 dabei. Die alten VPN-Plugins NetworkManager-vpnc und NetworkManager-fortisslvpn fallen weg, wer sie nutzt, sollte seine Verbindungen vor dem Upgrade umstellen. Bestehende Fedora-44-Installationen lassen sich per DNF system-upgrade aktualisieren.",
+      "quelle": {
+        "name": "9to5Linux",
+        "url": "https://9to5linux.com/fedora-linux-45-is-now-available-for-download-with-gnome-51-and-kde-plasma-6-8"
+      },
+      "weitere_links": [
+        {
+          "name": "Fedora Magazine (offiziell): Announcing Fedora Linux 45",
+          "url": "https://fedoramagazine.org/announcing-fedora-linux-45/"
+        },
+        {
+          "name": "Phoronix: Fedora 45 Released",
+          "url": "https://www.phoronix.com/news/Fedora-45-Released"
+        }
+      ],
+      "tags": [
+        "Fedora 45",
+        "Linux",
+        "GNOME 51",
+        "KDE Plasma 6.8",
+        "Linux 7.2"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-04T11:08:43.278Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-10T11:16:32.912Z"
+    },
     {
       "id": "2026-11-02-zelda-oot-remake-puppenlook",
       "datum": "2026-11-02T23:51:00+01:00",

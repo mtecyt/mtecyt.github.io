@@ -2,10 +2,401 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-10T07:46:04.913Z",
+    "stand": "2026-11-10T11:16:32.913Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:26.034Z"
+      },
+      "id": "2026-11-10-chrome-zero-day",
+      "datum": "2026-11-10T08:25:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheitslücke",
+      "titel": "Chrome 157 schließt neun Lücken, darunter die aktiv ausgenutzte CVE-2026-125350",
+      "schlagzeile": "Chrome-Lücke wird schon angegriffen – jetzt auf Version 157 updaten",
+      "kurz": "Google hat ein Chrome-Update mit neun Sicherheits-Fixes veröffentlicht. Eine Lücke im XML-Teil des Browsers wird bereits aktiv ausgenutzt. Sichere Versionen sind 157.0.8103.50/.51 für Windows und Mac und 157.0.8103.50 für Linux.",
+      "zusammenfassung": "Google hat für Chrome ein Sicherheitsupdate veröffentlicht, das neun Lücken schließt, berichtet Golem. Mindestens eine davon wird laut Google bereits aktiv ausgenutzt: CVE-2026-125350. Dabei handelt es sich um einen Use-after-free-Fehler in der Komponente, die XML-Daten verarbeitet; der Schweregrad gilt als hoch, einen CVSS-Wert nennt Google noch nicht. Wie und gegen wen die Lücke ausgenutzt wird, sagt Google nicht. Auch ob Nutzer dafür etwas anklicken müssen, ist unklar. Sechs der übrigen acht Lücken gelten als hoch, zwei als mittel; betroffen sind unter anderem die JavaScript-Engine V8, WebGL sowie Schnittstellen zur GPU und zum Dateisystem. Technische Details hält Google wie üblich zurück, bis die meisten Nutzer aktualisiert haben. Sichere Versionen sind 157.0.8103.50/.51 für Windows und macOS und 157.0.8103.50 für Linux. Andere Chromium-Browser wie Edge, Vivaldi oder Brave dürften ebenfalls betroffen sein und in den nächsten Tagen Updates bekommen. Tipp: Unter Hilfe › Über Google Chrome startet die Update-Prüfung, danach den Browser neu starten.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/dringend-patchen-attackierte-chrome-luecke-gefaehrdet-unzaehlige-nutzer-2611-215019.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Chrome",
+        "Google",
+        "Zero-Day",
+        "CVE-2026-125350",
+        "Sicherheitslücke"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-chrome-zero-day.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:25.811Z"
+      },
+      "id": "2026-11-10-switch-eshop-geschenke",
+      "datum": "2026-11-10T03:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Nintendo"
+      ],
+      "kategorie": "Konsolen-Update",
+      "titel": "Switch-Systemupdate 23.5.0 bereitet Geschenkfunktion im Nintendo eShop für Familiengruppen vor",
+      "schlagzeile": "Switch und Switch 2: Spiele verschenken klappt bald – aber nur in der Familie",
+      "kurz": "Mit Systemupdate 23.5.0 bereitet Nintendo das Verschenken von eShop-Spielen vor. Aktiv wird die Funktion mit einem eShop-Update Mitte November. Geschenke gehen nur an Mitglieder der eigenen Familiengruppe.",
+      "zusammenfassung": "Nintendo hat für Switch 2 und die erste Switch das Systemupdate 23.5.0 veröffentlicht. Es bereitet eine neue Funktion vor: Digitale Spiele, DLC und Upgrade-Pakete aus dem eShop lassen sich bald an andere verschenken. Die Einschränkung: Empfänger müssen Mitglied der eigenen Familiengruppe im Nintendo Account sein, die bis zu acht Mitglieder hat. Laut Nintendo können betreute Kinderkonten keine Geschenke senden, einige Produkte sind ausgenommen und die Zahl der Geschenkkäufe pro Zeitraum ist begrenzt; genaue Grenzen nennt Nintendo nicht. Beim Kauf setzt man auf der Produktseite den Haken „Als Geschenk kaufen“, wählt Empfänger und dessen Konsole und bezahlt wie gewohnt. Das Geschenk landet sofort im HOME-Menü des Empfängers. Freigeschaltet wird die Funktion erst mit einem eShop-Update: Die Patch Notes nennen den 17. November, Nintendo of America schreibt vom 16. November, vermutlich wegen der Zeitzone. Auf der Switch 2 lassen sich mit 23.5.0 außerdem Bedienungshilfen schon bei der Ersteinrichtung einstellen. Wer Spiele an Freunde außerhalb der Familiengruppe verschenken will, muss weiterhin zu eShop-Guthabenkarten greifen.",
+      "quelle": {
+        "name": "Nintendo",
+        "url": "https://www.nintendo.com/us/whatsnew/coming-soon-gift-digital-games-to-family-group-members/"
+      },
+      "weitere_links": [
+        {
+          "name": "VGChartz (Patch Notes)",
+          "url": "https://www.vgchartz.com/article/469606/switch-2-and-switch-update-to-add-eshop-gifting-for-family-group-members/"
+        },
+        {
+          "name": "Nintendo of America auf X (Hinweis)",
+          "url": "https://x.com/NintendoAmerica/status/2119973318572847152"
+        }
+      ],
+      "tags": [
+        "Nintendo",
+        "Switch 2",
+        "Switch",
+        "eShop",
+        "Systemupdate"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-switch-eshop-geschenke.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:26.118Z"
+      },
+      "id": "2026-11-10-mesa-26-3",
+      "datum": "2026-11-10T01:19:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Treiber"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Mesa 26.3 erschienen: AMD Anti-Lag für RADV, Nova-Lake-Grafik standardmäßig aktiv, Vulkan Video für NVK",
+      "schlagzeile": "Linux-Grafiktreiber Mesa 26.3: Anti-Lag für Radeon und mehr Vulkan",
+      "kurz": "Die freie Grafiktreiber-Sammlung Mesa 26.3 ist da. Radeon-Nutzer bekommen über RADV die Vulkan-Erweiterung für AMD Anti-Lag, Intel-Nova-Lake-Grafik ist nicht mehr experimentell. Dazu kommen Vulkan Video für den NVIDIA-Treiber NVK und viele Vulkan-Verbesserungen.",
+      "zusammenfassung": "Mesa 26.3 ist erschienen, das vierte große Release des Jahres der freien OpenGL- und Vulkan-Treiber für Linux, berichten Phoronix und 9to5Linux. Für Gamer mit Radeon-Karte ist die wichtigste Neuerung VK_AMD_anti_lag im Vulkan-Treiber RADV, die Vulkan-Schnittstelle für AMDs Anti-Lag zur Senkung der Eingabelatenz. RADV bringt außerdem Verbesserungen für frühe GCN-GPUs und Unterstützung für GFX1171. Bei Intel ist die Grafik von Nova Lake jetzt standardmäßig aktiv und nicht mehr experimentell, der neue Shader-Compiler Jay ist eingeschaltet. Intel aktiviert zudem Pufferkomprimierung, die laut Phoronix die Spieleleistung mit DXVK verbessern soll, also bei Windows-Spielen über Proton. Der freie NVIDIA-Treiber NVK bekommt Vulkan Video für Videobeschleunigung. Dazu kommen viele neue Vulkan-Erweiterungen für Arm-Mali-, PowerVR- und weitere Treiber. Mesa 26.3 steht auf FreeDesktop.org bereit; in den meisten Distributionen kommt es mit den nächsten Paket-Updates. Wie viel Anti-Lag in einzelnen Spielen bringt, hängt davon ab, ob das Spiel bzw. die Übersetzungsschicht es nutzt; Messwerte liegen noch nicht vor.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Mesa-26.3-Released"
+      },
+      "weitere_links": [
+        {
+          "name": "9to5Linux",
+          "url": "https://9to5linux.com/mesa-26-3-open-source-graphics-stack-officially-released-heres-whats-new"
+        }
+      ],
+      "tags": [
+        "Mesa",
+        "Linux",
+        "RADV",
+        "Vulkan",
+        "AMD",
+        "Intel",
+        "NVK"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-mesa-26-3.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:25.722Z"
+      },
+      "id": "2026-11-10-take-two-ki-decompiling",
+      "datum": "2026-11-10T00:18:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Branche",
+      "titel": "Take-Two verstärkt technische und rechtliche Abwehr gegen KI-gestütztes Reverse Engineering von GTA 6",
+      "schlagzeile": "Inoffizieller GTA-6-PC-Port per KI? Take-Two rüstet technisch und juristisch auf",
+      "kurz": "Take-Two-Chef Strauss Zelnick nimmt KI-gestütztes Decompiling ernst und will technische Schutzmaßnahmen und rechtliche Schritte verstärken. Hintergrund ist die Sorge, GTA 6 könnte inoffiziell auf dem PC auftauchen. Zu einer offiziellen PC-Version oder einer Disc sagt Take-Two nichts, das komme von Rockstar.",
+      "zusammenfassung": "Vor dem Start von GTA 6 am 19. November wächst die Sorge, KI-Werkzeuge könnten Konsolenspiele schneller dekompilieren und als inoffizielle PC-Ports verbreiten. IGN hat Take-Two-CEO Strauss Zelnick dazu im Interview und in der Investoren-Fragerunde befragt. Zelnick sagt, die Branche sei wegen Dateigrößen, Komplexität und Server-Anbindung lange weitgehend von Piraterie verschont geblieben, das werde aber schwieriger. Take-Two konzentriere sich deshalb darauf, die technischen Abwehrmaßnahmen und die rechtlichen Aktivitäten zu verstärken. Er erwartet, dass Piraterie das Geschäft „mehr oder weniger“ treffen werde, hält das aber für beherrschbar und sieht es nicht als finanzielle Bedrohung. Laut IGN hängt ein Teil der Sorge an der PS5-Sicherheit: Die Homebrew-Szene arbeitet an Jailbreaks für neuere Firmware, und GTA 6 soll eine aktuelle Firmware voraussetzen. Wann GTA 6 offiziell auf den PC kommt, ließ Zelnick offen. Laut Insider Gaming (mit Bezug auf Variety) verwies er darauf, dass solche Informationen immer vom Label kommen, also von Rockstar; das gilt auch für eine mögliche Disc-Version. Zum Start erscheint GTA 6 nur für PS5 und Xbox Series X|S. Ein früherer Rockstar-North-Techniker spekulierte zuletzt, Rockstar könnte einen PC-Port deshalb vorziehen, das ist aber nicht bestätigt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/take-two-enhancing-technical-defenses-and-legal-activities-to-combat-gta-6-ai-reverse-engineering-threat"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/gta-6-disc-and-pc-version-update-come-rockstar-take-two/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Take-Two",
+        "KI",
+        "Piraterie",
+        "PC-Version",
+        "PS5"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-take-two-ki-decompiling.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:26.202Z"
+      },
+      "id": "2026-11-10-sega-newsletter-leak",
+      "datum": "2026-11-09T23:09:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Datenleck",
+      "titel": "SEGA: Angriff auf Newsletter-Dienstleister ARARA legt rund 2,2 Millionen E-Mail-Adressen offen",
+      "schlagzeile": "SEGA-Datenleck: 2,2 Millionen E-Mail-Adressen bei Dienstleister erbeutet",
+      "kurz": "Bei einem Angriff auf den japanischen Newsletter-Dienstleister ARARA sind rund 2,2 Millionen E-Mail-Adressen von SEGA-Kunden abgeflossen. Namen, Passwörter und Zahlungsdaten sind laut SEGA nicht betroffen, ebenso wenig SEGA-Accounts. Kunden sollten sich vor gefälschten SEGA-Mails hüten.",
+      "zusammenfassung": "SEGA hat am 9. November ein Datenleck bei seinem Newsletter-Dienstleister ARARA bestätigt. Betroffen sind 2.196.044 E-Mail-Adressen; bei 92.273 davon flossen zusätzlich Angaben zum Versand ab, was genau, wird noch untersucht. Laut SEGA geht es um elf Newsletter von SEGA und SEGA Fave, die zwischen Juli und Oktober 2026 verschickt wurden, etwa zu Arcade-Spielen wie CHUNITHM und maimai, zur Tokyo Game Show und zu Lotterie-Aktionen. Namen, Geburtsdaten, Adressen, Telefonnummern, Kreditkartendaten und Passwörter sind laut SEGA nicht betroffen. Auch E-Mail-Adressen aus dem SEGA Account laufen über ein anderes System und sind nicht Teil des Lecks. Ein Missbrauch der Daten ist bisher nicht bestätigt. ARARA selbst hatte Anfang November den Einbruch gemeldet; laut BleepingComputer und Infosecurity Magazine sind dort insgesamt rund 77 Millionen E-Mail-Adressen von etwa 380 Firmenkunden betroffen, offenbar über eine Schwachstelle in Webservern. SEGA hat den Versand über ARARA ausgesetzt und will Betroffene einzeln informieren. Wer SEGA-Newsletter bezogen hat, sollte bei Mails mit SEGA-Bezug besonders auf Phishing achten.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
+      },
+      "weitere_links": [
+        {
+          "name": "SEGA (Mitteilung, Japanisch)",
+          "url": "https://www.sega.co.jp/release/261109_1.html"
+        },
+        {
+          "name": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/email-sega-customers-vendor-breach/"
+        }
+      ],
+      "tags": [
+        "SEGA",
+        "ARARA",
+        "Datenleck",
+        "Phishing"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-sega-newsletter-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:25.617Z"
+      },
+      "id": "2026-11-10-take-two-gta6-vorbestellungen",
+      "datum": "2026-11-09T22:42:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Geschäftszahlen",
+      "titel": "Take-Two: GTA-6-Vorbestellungen weit über Erwartung, bis zu 3,5 Mrd. Dollar im Launch-Quartal erwartet",
+      "schlagzeile": "GTA 6: Vorbestellungen „weit über den Erwartungen“ – Take-Two rechnet mit Rekord",
+      "kurz": "Zehn Tage vor dem Start von GTA 6 meldet Take-Two Vorbestellungen auf „beispiellosem“ Niveau. Für das laufende Quartal erwartet der Konzern 3,35 bis 3,5 Milliarden Dollar Net Bookings. Konkrete Vorbestellzahlen nennt Take-Two weiterhin nicht.",
+      "zusammenfassung": "Take-Two hat am 9. November seine Zahlen für das zweite Quartal des Geschäftsjahres 2027 vorgelegt, und GTA 6 stand im Mittelpunkt. Laut CEO Strauss Zelnick liegen die Vorbestellungen „weit über den Erwartungen“ und erreichen weiterhin „beispiellose“ Werte, berichten Insider Gaming, Eurogamer und PC Gamer. Für das laufende dritte Quartal, in das der Start am 19. November fällt, erwartet Take-Two Net Bookings von 3,35 bis 3,5 Milliarden Dollar. Laut PC Gamer liegt das sogar leicht unter der Analystenschätzung von 3,51 Milliarden Dollar (LSEG, via Reuters). Für das gesamte Geschäftsjahr 2027 rechnet der Konzern mit 8 bis 8,2 Milliarden Dollar. Konkrete Vorbestellzahlen nennt Take-Two weiterhin nicht, weil die Rohzahlen ohne Vergleichswerte irreführend sein könnten. Das abgelaufene Quartal lief schwächer: Die Net Bookings lagen mit 1,6 Milliarden Dollar unter den Erwartungen und 18 Prozent unter dem Vorjahr. Ein Grund ist NBA 2K27, das zwar gut startete, aber unter der Prognose blieb; Zelnick sieht die Vorfreude auf GTA 6 als Mitursache. Nebenbei nannte Take-Two neue Verkaufszahlen: GTA 5 steht bei rund 235 Millionen Exemplaren, Red Dead Redemption 2 nähert sich 90 Millionen. Die Serie GTA kommt insgesamt auf fast 480 Millionen verkaufte Einheiten.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/gta-6-presales-far-in-excess-take-two-expectations/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/take-two-expects-to-make-as-much-as-usd3-5-billion-during-the-gta-6-launch-period/"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/gta-6-preorders-tracking-take-two-earnings-call"
+        },
+        {
+          "name": "Insider Gaming (GTA 5)",
+          "url": "https://insider-gaming.com/gta-5-sales-reach-235-million-copies-since-launch/"
+        },
+        {
+          "name": "Insider Gaming (RDR2)",
+          "url": "https://insider-gaming.com/red-dead-redemption-2-90m-sold/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Take-Two",
+        "Rockstar",
+        "Quartalszahlen",
+        "NBA 2K27"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-take-two-gta6-vorbestellungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:25.907Z"
+      },
+      "id": "2026-11-10-skydance-games-entlassungen",
+      "datum": "2026-11-09T22:36:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Branche"
+      ],
+      "kategorie": "Branche",
+      "titel": "Skydance Games entlässt Mitarbeiter und fährt Projekte zurück – einen Monat nach der Fusion von Paramount und Warner Bros.",
+      "schlagzeile": "Nach Mega-Fusion: Skydance Games entlässt Entwickler und stutzt Projekte",
+      "kurz": "Skydance Games hat Stellen gestrichen und „einige Projekte zurückgefahren“. Das kommt einen Monat nach der Fusion von Paramount und Warner Bros. Discovery. Wie viele Leute betroffen sind, sagt das Unternehmen nicht.",
+      "zusammenfassung": "Skydance Games hat Entlassungen bestätigt, berichten IGN und PC Gamer mit Bezug auf ein Statement gegenüber Variety. Man habe entschieden, einige Projekte zurückzufahren, deshalb seien Stellen betroffen; das sei kein Urteil über Talent oder Einsatz der Betroffenen. Zuerst hatten Mitarbeiter des erst im Juni gegründeten Paramount Games Studio gemeldet, dass sie gehen mussten. Zu Paramount Games gehören unter anderem Skydance Interactive und Skydance New Media. Angekündigt waren dort zuletzt Spiele wie Teenage Mutant Ninja Turtles: The Last Ronin sowie Umsetzungen von Yellowstone, Tulsa King und Lioness. Welche Projekte gekürzt werden, ist nicht bekannt. Wie viele Stellen wegfallen, nennt Skydance nicht; laut Insider Gaming sind es mindestens 30 Entwickler, vermutlich mehr. Die Kürzungen kommen rund einen Monat, nachdem die Fusion von Paramount und Warner Bros. Discovery unter dem Skydance-Dach genehmigt wurde. Was das für die Spielesparte von Warner Bros. Games bedeutet, ist noch offen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/skydance-games-confirms-layoffs-following-warner-bros-paramount-merger"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/gaming-industry/a-month-after-paramount-acquired-warner-bros-discovery-its-merged-game-division-is-laying-people-off/"
+        }
+      ],
+      "tags": [
+        "Skydance Games",
+        "Paramount",
+        "Warner Bros.",
+        "Entlassungen"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-skydance-games-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:25.440Z"
+      },
+      "id": "2026-11-10-rdna5-gfx13-linux",
+      "datum": "2026-11-09T20:11:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Linux"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "AMD veröffentlicht Linux-Treiberpatches für GFX13, die Grafik-IP der nächsten Generation (vermutlich RDNA 5)",
+      "schlagzeile": "RDNA 5 kommt näher: AMD schickt erste Linux-Treiber für GFX13",
+      "kurz": "AMD hat über 12.600 Zeilen Linux-Kerneltreiber für GFX13 veröffentlicht, die nächste Radeon-Grafikgeneration. Sehr wahrscheinlich steckt RDNA 5 dahinter. Neue Details zu Leistung oder Funktionen verraten die Patches bisher nicht.",
+      "zusammenfassung": "AMD-Entwickler Alex Deucher hat eine Patch-Reihe veröffentlicht, die den Linux-Kerneltreiber AMDGPU für GFX13 vorbereitet, berichten Phoronix und VideoCardz. GFX13 ist AMDs nächste Grafik-IP und steht sehr wahrscheinlich für RDNA 5, offiziell bestätigt hat AMD den Namen dafür nicht. Die acht Patches umfassen mehr als 12.600 Codezeilen, ohne die üblichen großen Header-Dateien. Sie enthalten auch Unterstützung für die konkreten Varianten GFX 13.0.1 und GFX 13.0.4. Laut Phoronix verraten die Patches bisher wenig über Fähigkeiten oder neue Funktionen von RDNA 5. Für den Compiler LLVM gab es schon seit Jahresbeginn GFX13-Patches, jetzt folgt der Kerneltreiber. Phoronix erwartet die Unterstützung im Linux-Kernel 7.5. Andere Bausteine, die wohl in RDNA-5-GPUs stecken, etwa Display Core Next 6, sind bereits im Kernel. Frühe Linux-Treiber erscheinen bei AMD oft Monate vor dem Marktstart; einen Termin für RDNA-5-Grafikkarten nennt AMD nicht.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/AMDGPU-Patches-GFX13"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/amd-rdna-5-gfx13-graphics-support-arrives-in-linux-driver-patches"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "RDNA 5",
+        "GFX13",
+        "Linux",
+        "Radeon"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-rdna5-gfx13-linux.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T11:16:25.538Z"
+      },
+      "id": "2026-11-10-nvidia-megaspeed-nyt",
+      "datum": "2026-11-09T19:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "NYT-Bericht: NVIDIA soll bei US-Ermittlungen gegen mutmaßlichen KI-Chip-Schmuggler Megaspeed interveniert haben",
+      "schlagzeile": "Bericht: NVIDIA soll Ermittlungen zu Chip-Schmuggel ausgebremst haben",
+      "kurz": "Laut New York Times wandte sich NVIDIAs Chefjustiziar 2025 direkt an das US-Handelsministerium, das gegen die Firma Megaspeed wegen mutmaßlichen Chip-Schmuggels nach China ermittelte. Die Ermittlungen gerieten ins Stocken und gingen an das Justizministerium. Es handelt sich um einen Bericht, eine Stellungnahme von NVIDIA liegt uns nicht vor.",
+      "zusammenfassung": "Nach dem Bericht über die Untersuchung des NVIDIA-Boards rund um CEO Jensen Huang kommt neuer Druck: Die New York Times berichtet laut Wccftech über die Rolle von NVIDIA bei Ermittlungen gegen die Firma Megaspeed. Das Rechenzentrumsunternehmen aus Singapur stand im Verdacht, als Tarnfirma eingeschmuggelte NVIDIA-KI-Beschleuniger an US-Exportkontrollen vorbei nach China gebracht zu haben. Geleitet wird Megaspeed von Alice Huang, die laut US-Geheimdiensten für Peking arbeitete; es ist dieselbe Frau, mit der Jensen Huang eine Affäre eingeräumt hat. Laut Bericht wandte sich NVIDIAs Chefjustiziar Tim Teter 2025 direkt an das Bureau of Industry and Security des Handelsministeriums. Er habe sich darauf berufen, dass der Trump-Kandidat Jeff Kessler ihm diesen direkten Kontakt erlaubt habe. Mehrere Beamte sollen das als schweren Verstoß gegen übliche Abläufe gesehen haben. Die Ermittlungen gerieten danach ins Stocken und wurden an das Justizministerium abgegeben. Dass Firmenanwälte mit Behörden sprechen, ist an sich üblich; strittig ist laut Bericht die Art des Kontakts. Laut Wccftech steht Huang am 18. November eine nicht öffentliche Anhörung im US-Kongress bevor. Die Vorwürfe stammen aus Medienberichten, eine Stellungnahme von NVIDIA dazu lag uns nicht vor.",
+      "quelle": {
+        "name": "Wccftech (mit Bezug auf The New York Times)",
+        "url": "https://wccftech.com/nvidia-intervened-federal-investigation-megaspeed-ai-chip-smuggling-probe/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NVIDIA",
+        "Megaspeed",
+        "Exportkontrollen",
+        "China",
+        "Jensen Huang"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-nvidia-megaspeed-nyt.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -1041,48 +1432,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -1125,6 +1474,48 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -2262,54 +2653,6 @@
       }
     },
     {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -2357,6 +2700,54 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -2462,49 +2853,6 @@
       }
     },
     {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -2553,6 +2901,49 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
@@ -3123,52 +3514,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-03-gta6-preload-212gb.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-03-fedora-45",
-      "datum": "2026-11-03T09:42:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Linux"
-      ],
-      "kategorie": "Linux",
-      "titel": "Fedora Linux 45 ist erschienen – mit GNOME 51, KDE Plasma 6.8 und Linux-Kernel 7.2",
-      "schlagzeile": "Fedora 45 ist da: Neuer Desktop, neuer Installer und Builds zum Nachprüfen",
-      "kurz": "Das Fedora-Projekt hat Fedora Linux 45 veröffentlicht. Die Workstation-Edition setzt auf GNOME 51, die KDE-Edition auf Plasma 6.8, darunter arbeitet der Linux-Kernel 7.2. Neu sind unter anderem Stratis im Installer und reproduzierbare Paket-Builds.",
-      "zusammenfassung": "Am 03.11.2026 ist Fedora Linux 45 erschienen, rund sechs Monate nach Fedora 44 und laut Phoronix nach zwei Verschiebungen. Die Workstation-Edition bringt GNOME 51 mit, die KDE-Plasma-Desktop-Edition die Version Plasma 6.8. Als Kernel kommt Linux 7.2 zum Einsatz. Eine der größten Neuerungen ist laut dem offiziellen Fedora Magazine die Unterstützung für das Speichersystem Stratis direkt im Anaconda-Installer. Die virtuelle Textkonsole übernimmt standardmäßig KMSCON, außerdem setzt Fedora laut 9to5Linux auf vollständig reproduzierbare Paket-Builds. Die Signaturprüfung für RPM-Pakete ist standardmäßig aktiv und ptrace ist standardmäßig eingeschränkt, was die Sicherheit erhöhen soll. Die Atomic-Varianten wie Silverblue und Kinoite installieren jetzt über den neuen WebUI-Installer. Für Entwickler sind unter anderem GCC 16.2, LLVM 23, Python 3.15, Go 1.27 und Podman 6 dabei. Die alten VPN-Plugins NetworkManager-vpnc und NetworkManager-fortisslvpn fallen weg, wer sie nutzt, sollte seine Verbindungen vor dem Upgrade umstellen. Bestehende Fedora-44-Installationen lassen sich per DNF system-upgrade aktualisieren.",
-      "quelle": {
-        "name": "9to5Linux",
-        "url": "https://9to5linux.com/fedora-linux-45-is-now-available-for-download-with-gnome-51-and-kde-plasma-6-8"
-      },
-      "weitere_links": [
-        {
-          "name": "Fedora Magazine (offiziell): Announcing Fedora Linux 45",
-          "url": "https://fedoramagazine.org/announcing-fedora-linux-45/"
-        },
-        {
-          "name": "Phoronix: Fedora 45 Released",
-          "url": "https://www.phoronix.com/news/Fedora-45-Released"
-        }
-      ],
-      "tags": [
-        "Fedora 45",
-        "Linux",
-        "GNOME 51",
-        "KDE Plasma 6.8",
-        "Linux 7.2"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-04T11:08:43.278Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-03-fedora-45.webp",
         "ki_generiert": true
       }
     }
