@@ -2,10 +2,592 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-10T18:18:09.706Z",
+    "stand": "2026-11-10T18:28:33.022Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.935Z"
+      },
+      "id": "2026-11-10-gpu-taskman-vram",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Tools"
+      ],
+      "kategorie": "Software",
+      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
+      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
+      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
+      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GPU Taskman",
+        "VRAM",
+        "Open Source",
+        "Tool"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.855Z"
+      },
+      "id": "2026-11-10-auto-sr-xbox-ally-ryzen",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "DirectX",
+        "Windows",
+        "PC-Gaming"
+      ],
+      "kategorie": "Windows / Gaming",
+      "titel": "Microsoft Auto SR verlässt die Vorschau auf ROG Xbox Ally X und X20 und kommt auf Copilot+ PCs mit AMD Ryzen, neuer Modus bis 120 fps",
+      "schlagzeile": "Windows-Upscaling Auto SR: jetzt mobil, mit HDR und bis zu 120 fps",
+      "kurz": "Microsofts KI-Upscaling Auto SR ist auf den Handhelds ROG Xbox Ally X und X20 offiziell gestartet. Neu sind ein Leistungsmodus mit bis zu 120 fps, der Handheld-Betrieb ohne Dock und die Kombination mit Auto HDR. Auto SR läuft jetzt auch auf ausgewählten Copilot+ PCs mit AMD Ryzen.",
+      "zusammenfassung": "Microsoft hat im DirectX-Blog den offiziellen Start von Automatic Super Resolution (Auto SR) auf den Handhelds ROG Xbox Ally X und ROG Xbox Ally X20 angekündigt. Auto SR lässt Spiele intern mit niedrigerer Auflösung laufen und skaliert sie per KI auf der NPU hoch, ohne dass das Spiel das unterstützen muss. Bisher war die Funktion nur als Vorschau und nur im Dock-Betrieb nutzbar. Jetzt funktioniert sie auch auf dem eingebauten Bildschirm und im Akkubetrieb. Spiele mit 1080p werden ebenfalls unterstützt, am Monitor kann Auto SR dann bis 1440p hochskalieren. Ein neuer Leistungsmodus hebt die Grenze von bisher etwa 60 bis 75 auf bis zu 120 fps; in Microsofts Beispiel mit Rocket League stieg der Schnitt von 70 auf 115 fps. Außerdem lassen sich Auto SR und Auto HDR erstmals gleichzeitig nutzen. Handheld-Betrieb, 1080p und die neuen AMD-Ryzen-Copilot+-PCs sind ab sofort verfügbar. Leistungsmodus und Auto-HDR-Unterstützung kommen schrittweise mit Windows-Updates. Nötig sind aktuelle Windows-11-Updates, eine aktuelle Game Bar und das Auto-Super-Resolution-Paket aus dem Microsoft Store.",
+      "quelle": {
+        "name": "Microsoft DirectX Developer Blog",
+        "url": "https://devblogs.microsoft.com/directx/autosr-performance-mode/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Auto SR",
+        "DirectX",
+        "Upscaling",
+        "ROG Xbox Ally",
+        "Copilot+"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-auto-sr-xbox-ally-ryzen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.503Z"
+      },
+      "id": "2026-11-10-ps-plus-pc-app-ende",
+      "datum": "2026-11-10T18:05:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Spiele-Dienste",
+      "titel": "Sony stellt die PlayStation-Plus-App für PC am 10. Dezember ein, Death Stranding 2 kommt in den Extra-Katalog",
+      "schlagzeile": "Aus für PS-Plus-Streaming am PC – nur 0,4 % haben es genutzt",
+      "kurz": "Sony stellt die PlayStation-Plus-App für Windows zum 10.12.2026 ein und beendet damit das Streamen von PS-Plus-Spielen auf den PC. Laut Sony nutzten weniger als 0,4 Prozent der Premium-Mitglieder die App. Im selben Beitrag kündigt Sony die neuen Extra- und Premium-Spiele an, angeführt von Death Stranding 2.",
+      "zusammenfassung": "Ganz am Ende seines Beitrags zu den neuen PS-Plus-Spielen im November hat Sony das Aus der PC-App angekündigt. Ab dem 10. Dezember ist die PlayStation-Plus-App für PC nicht mehr verfügbar, und damit auch das Cloud-Streaming von PS-Plus-Premium-Spielen auf Windows-Rechner. Als Grund nennt Sony die geringe Nutzung: Weniger als 0,4 Prozent der berechtigten Premium-Mitglieder hätten die App verwendet. Mitgliedschaften und Vorteile auf PS5 und PS4 seien davon nicht betroffen, betroffene Nutzer will Sony direkt informieren. Damit fällt ein Weg weg, PlayStation-Spiele ohne Konsole am PC zu spielen. Neu im Extra- und Premium-Katalog sind im November unter anderem Death Stranding 2: On the Beach, Atomfall und Dragon Quest III HD-2D Remake. Hell Let Loose folgt am 11. November, Like a Dragon: Pirate Yakuza in Hawaii, Trepang2, MotoGP 26 und Cricket 26 am 24. November. Nur für Premium kommen Soul Reaver 2 und Freedom Wars Remastered dazu.",
+      "quelle": {
+        "name": "Video Games Chronicle",
+        "url": "https://www.videogameschronicle.com/news/playstation-announces-end-of-pc-streaming-in-december/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+        },
+        {
+          "name": "PlayStation auf X",
+          "url": "https://x.com/PlayStation/status/2120192361494126725"
+        }
+      ],
+      "tags": [
+        "PlayStation Plus",
+        "PC",
+        "Cloud-Streaming",
+        "Death Stranding 2"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-ps-plus-pc-app-ende.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.989Z"
+      },
+      "id": "2026-11-10-amd-mext-flash-statt-ram",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "AMD"
+      ],
+      "kategorie": "Speicher",
+      "titel": "AMD MEXT: Software lagert selten genutzten Arbeitsspeicher auf Flash aus, um teuren DRAM zu sparen",
+      "schlagzeile": "RAM-Krise: AMD will mit Flash-Speicher bis zu 75 % DRAM einsparen",
+      "kurz": "AMD hat MEXT vorgestellt, eine Software, die selten genutzte Speicherseiten von DRAM auf Flash-SSDs auslagert. So sollen Server mit deutlich weniger teurem Arbeitsspeicher fast gleich schnell laufen. Das Angebot gilt vorerst nur für Epyc-Server. Alle Leistungswerte stammen von AMD.",
+      "zusammenfassung": "AMD reagiert mit MEXT auf die anhaltende Speicherknappheit. Laut AMD macht DRAM je nach Konfiguration 75 bis 90 Prozent der Kosten eines Servers aus, während ein großer Teil des Speichers ungenutzt oder überdimensioniert ist. MEXT erkennt „kalte“ Speicherseiten und verschiebt sie auf Flash-Speicher, also NVMe-SSDs. KI-Modelle sollen vorhersagen, welche Daten bald wieder gebraucht werden, und diese rechtzeitig in den DRAM zurückholen. Die Software besteht laut Wccftech aus einem Linux-Treiber, einer KI-Engine, die auf einem einzelnen Epyc-Kern läuft, und einem Monitoring-Werkzeug. Nach AMDs Angaben lässt sich der DRAM-Bedarf so um 20 bis 75 Prozent senken, bei ähnlicher Leistung. Im Chipdesign-Beispiel soll ein Server mit halbem DRAM noch 95 Prozent der Leistung erreichen. Diese Werte sind Herstellerangaben, unabhängige Tests fehlen noch. Laut Phoronix ist der Linux-Treiber nicht quelloffen. MEXT ist vorerst nur für Epyc-Server mit NVMe-Laufwerken gedacht, später soll es eine Lizenz geben. AMD deutete an, dass so etwas auch für normale PCs interessant werden könnte, konkrete Pläne dafür gibt es aber nicht.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amd-mext-memory-solution-flash-repaces-dram-same-performance/"
+      },
+      "weitere_links": [
+        {
+          "name": "ComputerBase",
+          "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+        },
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/AMD-MEXT"
+        }
+      ],
+      "tags": [
+        "MEXT",
+        "DRAM",
+        "RAM-Krise",
+        "Epyc",
+        "Flash"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.904Z"
+      },
+      "id": "2026-11-10-amd-zen6-ipc-epyc",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "AMD"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
+      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
+      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
+      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
+        },
+        {
+          "name": "AMD auf X",
+          "url": "https://x.com/AMD/status/2120200385520369828"
+        }
+      ],
+      "tags": [
+        "Zen 6",
+        "Epyc 9006",
+        "Venice",
+        "IPC",
+        "AMD"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.415Z"
+      },
+      "id": "2026-11-10-gta6-vorbestell-rekord-xbox-cloud",
+      "datum": "2026-11-10T16:45:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6 ist laut Sony und Microsoft das meistvorbestellte Spiel ihrer Stores, Xbox One bekommt es per Cloud, Xbox schließt 10-Jahres-Partnerschaft mit Take-Two",
+      "schlagzeile": "GTA 6 bricht Vorbestell-Rekorde – und kommt per Cloud sogar auf die Xbox One",
+      "kurz": "Sony und Microsoft melden, dass GTA 6 das meistvorbestellte Spiel in der Geschichte des PlayStation Store und des Microsoft Store ist. Über Xbox Cloud Gaming läuft es zum Start auch auf der alten Xbox One. Xbox-Chefin Asha Sharma spricht von einer neuen 10-Jahres-Partnerschaft mit Take-Two. Konkrete Verkaufszahlen nennt niemand.",
+      "zusammenfassung": "Im PlayStation.Blog schreibt Sony, GTA 6 sei das meistvorbestellte Spiel in der Geschichte des PlayStation Store. Microsoft meldet im Xbox Wire dasselbe für den Microsoft Store. Zahlen nennen beide nicht; von Take-Two hieß es zuletzt nur, die Vorbestellungen lägen weit über den Erwartungen. Sony und Microsoft raten wegen des erwarteten Ansturms, das Spiel möglichst früh vorzuladen. Auf PlayStation startet GTA 6 am 19. November jeweils um Mitternacht Ortszeit, beginnend in Neuseeland. Xbox Cloud Gaming bietet das Spiel ab 19. November um 1 Uhr US-Ostküstenzeit, also 7 Uhr in Österreich, auf Xbox One und Xbox Series X|S an, mit den Grafikeinstellungen der Series S. Streaming auf PC oder Smartphone ist nicht vorgesehen. Xbox-Chefin Asha Sharma nannte das auf X den „ersten Schritt“ einer neuen 10-jährigen strategischen Partnerschaft mit Take-Two, Details dazu gab es nicht. Laut Xbox Wire sollen in den kommenden Monaten weitere Rockstar-Spiele wie GTA V und Red Dead Redemption 2 in Xbox Cloud Gaming kommen. Ab 11. November kann man in unterstützten Ländern außerdem Cloud-Spielzeit ohne Game-Pass-Abo kaufen.",
+      "quelle": {
+        "name": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+      },
+      "weitere_links": [
+        {
+          "name": "PlayStation.Blog",
+          "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2120181266318590366"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/sony-confirms-gta-6-is-now-the-most-preordered-game-in-playstation-store-history-issues-official-preload-warning"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Xbox Cloud Gaming",
+        "Xbox One",
+        "PlayStation Store",
+        "Take-Two"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gta6-vorbestell-rekord-xbox-cloud.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.673Z"
+      },
+      "id": "2026-11-10-eu-dfa-lootboxen-entwurf",
+      "datum": "2026-11-10T15:46:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "EU",
+        "Lootboxen"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "Geleakter Entwurf des EU Digital Fairness Act: Lootboxen für Minderjährige standardmäßig aus, Pay-to-Win für Kinder verboten",
+      "schlagzeile": "Leak: Will die EU Lootboxen für Kinder standardmäßig abschalten?",
+      "kurz": "Ein mutmaßlicher Entwurf des EU-Gesetzes Digital Fairness Act ist vorab aufgetaucht. Er sieht vor, dass Lootboxen für Minderjährige standardmäßig ausgeschaltet sind und alle Spieler sie abschalten können. Die offizielle Vorstellung ist für den 11. November geplant, Gesetz ist das noch lange nicht.",
+      "zusammenfassung": "Die französische Fachpublikation Contexte hat einen mutmaßlichen Entwurf des Digital Fairness Act veröffentlicht, Eurogamer berichtet darüber. Die EU-Kommission will den Vorschlag laut Eurogamer am 11. November offiziell vorstellen. Der Entwurf zielt auf unfaire Praktiken im Digitalen, darunter Monetarisierung in Spielen. Lootboxen, also Belohnungen mit Zufallsinhalt, sollen alle Spieler abschalten können; für Minderjährige sollen sie standardmäßig aus sein. Für Kinder sollen Pay-to-Progress- und Pay-to-Win-Mechaniken nicht angeboten werden, wenn ein Produkt sich an sie richtet oder der Anbieter weiß, dass Minderjährige es nutzen. Bei virtuellen Währungen soll der echte Preis von Käufen transparent werden, dazu Gewinnwahrscheinlichkeiten bei Lootboxen. Außerdem sieht der Text eine Pflicht zur Altersfreigabe für Spiele vor. Neben Spielen geht es um Influencer-Werbung, versteckte Preise und schwer kündbare Abos. Wichtig: Es handelt sich um einen geleakten Entwurf, der sich bis zur Vorstellung noch ändern kann. Danach folgen Verhandlungen; laut Eurogamer könnte das Gesetz Ende 2027 beschlossen und bis 2030 breit angewendet werden.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation"
+      },
+      "weitere_links": [],
+      "zuverlaessigkeit": {
+        "stufe": "mittel-hoch",
+        "begruendung": "Dokument von der französischen Fachpublikation Contexte veröffentlicht und von Eurogamer (hoch) berichtet; Echtheit nicht offiziell bestätigt, offizielle Vorstellung am 11.11. angekündigt."
+      },
+      "ursprungsquelle": "Contexte (via Video Games Industry Memo)",
+      "tags": [
+        "Digital Fairness Act",
+        "EU",
+        "Lootboxen",
+        "Pay-to-Win",
+        "Jugendschutz"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-eu-dfa-lootboxen-entwurf.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.157Z"
+      },
+      "id": "2026-11-10-asrock-vbios-tool-1-0-6",
+      "datum": "2026-11-10T15:24:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Radeon"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "ASRock veröffentlicht VBIOS-Flash-Tool 1.0.6 für RX 7900 XT/XTX, nachdem Version 1.0.5 Karten unbrauchbar gemacht hatte",
+      "schlagzeile": "Nach gebrickten RX 7900 XTX: ASRock bringt neues BIOS-Tool – ohne Erklärung",
+      "kurz": "ASRock hat das Flash-Werkzeug ASRVBFlash 1.0.6 für Radeon RX 7900 XT und XTX veröffentlicht. Die Vorversion 1.0.5 hatte laut Nutzerberichten Karten nach dem Update lahmgelegt. Was sich geändert hat und was die Ursache war, sagt ASRock nicht.",
+      "zusammenfassung": "Anfang November häuften sich Berichte, dass Radeon RX 7900 XT und XTX von ASRock nach einem offiziellen VBIOS-Update nicht mehr starteten. Betroffen war das Flash-Werkzeug ASRVBFlash 1.0.5: Nach dem Neustart bootete das System nicht mehr. ASRock zog die Version danach offenbar von den Download-Seiten zurück. Jetzt ist still und leise Version 1.0.6 erschienen, die laut TechPowerUp das Bricking verhindern und das Firmware-Update für mehr Sicherheit korrekt aufspielen soll. Ein Änderungsprotokoll oder eine Erklärung der Ursache gibt es nicht, kritisiert auch PCGH. Unklar bleibt, wie ASRock mit bereits defekten Karten umgeht. Ein Kunde in Japan bekam laut TechPowerUp die Auskunft, dass ein durch das offizielle Update zerstörtes Modell unter die Garantie fällt. Einem Kunden in Europa wurde dagegen gesagt, dass das Abnehmen des Kühlers zum Neu-Flashen des BIOS-Chips die Garantie kostet. Betroffene sollten daher den RMA-Weg gehen statt selbst zu basteln. Wer noch nicht aktualisiert hat, kann auch erst Erfahrungen anderer Nutzer mit 1.0.6 abwarten.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354643/asrock-updates-vbios-flashing-utility-following-radeon-rx-7900-xt-xtx-bricking-reports"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Radeon-RX-7900-XTX-Grafikkarte-279267/News/Asrock-neues-vBios-Update-Ausfaelle-1559494/"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/asrock-rolls-out-new-rx-7900-xtx-vbios-after-previous-update-bricked-gpus/"
+        }
+      ],
+      "tags": [
+        "ASRock",
+        "RX 7900 XTX",
+        "RX 7900 XT",
+        "VBIOS",
+        "Firmware"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-asrock-vbios-tool-1-0-6.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.329Z"
+      },
+      "id": "2026-11-10-gta6-30fps-ps5-pro",
+      "datum": "2026-11-10T15:14:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Rockstar bestätigt: GTA 6 zielt auf allen Konsolen auf 30 fps, PS5 Pro bekommt PSSR und exklusive Raytracing-Schatten",
+      "schlagzeile": "GTA 6 läuft mit 30 fps – auch auf der PS5 Pro, aber mit Raytracing-Schatten",
+      "kurz": "Rockstar hat bestätigt, dass GTA 6 auf allen Konsolen 30 Bilder pro Sekunde anpeilt, auch auf der PS5 Pro. Die Pro bekommt dafür schärfere Bilder per PSSR und exklusive Raytracing-Schatten. Der Preload läuft seit heute, Start ist am 19. November.",
+      "zusammenfassung": "Zum Start des Preloads hat Rockstar Games erstmals offiziell die Technik von GTA 6 auf Konsolen erklärt. Das Spiel sei von Grund auf für die aktuelle Konsolengeneration entwickelt und ziele auf 30 Bilder pro Sekunde, während es beide Plattformen „an ihre absoluten Grenzen“ bringe. Das gilt laut Rockstar für PS5, PS5 Pro, Xbox Series X und Series S. Einen 60-fps-Modus erwähnt Rockstar nicht. Die PS5 Pro bekommt ein schärferes Bild über Sonys KI-Upscaling PSSR und Raytracing-Schatten, die es nur dort gibt. Auf der PS5 nutzt GTA 6 die Haptik, die adaptiven Trigger und den Lautsprecher des DualSense, dazu Tempest-3D-Audio; Rockstar und Sony sagen, das Spiel spiele sich am besten auf PS5. Remote Play wird auf PlayStation und Xbox unterstützt. Über Xbox Cloud Gaming lässt sich das Spiel auf Xbox-Konsolen streamen, mit den Grafikeinstellungen der Series S, aber nicht auf PC. Eine PC-Version hat Rockstar weiter nicht angekündigt. Der Download braucht je nach Konsole bis zu 212 GB. Zusätzlich gibt es einen neuen Preload-Trailer mit knapp 30 Sekunden neuen Szenen.",
+      "quelle": {
+        "name": "Video Games Chronicle",
+        "url": "https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/"
+      },
+      "weitere_links": [
+        {
+          "name": "PlayStation.Blog",
+          "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/gta-6-xbox-cloud-streaming-pc-xbox-one"
+        },
+        {
+          "name": "Rockstar Games auf X",
+          "url": "https://x.com/RockstarGames/status/2120154484244381738"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "PS5 Pro",
+        "PSSR",
+        "30 fps"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gta6-30fps-ps5-pro.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.586Z"
+      },
+      "id": "2026-11-10-steam-deck-framerate-daten",
+      "datum": "2026-11-10T14:53:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam",
+        "Steam Deck"
+      ],
+      "kategorie": "Spiele-Stores",
+      "titel": "Steam zeigt auf Shop-Seiten jetzt durchschnittliche Framerates von Spielern auf dem Steam Deck",
+      "schlagzeile": "Steam zeigt jetzt echte Fps-Werte – wie gut läuft ein Spiel auf dem Deck?",
+      "kurz": "Valve zeigt in Steam jetzt bei vielen Spielen die durchschnittliche Framerate auf dem Steam Deck an. Die Werte stammen von Spielern, die der Datenübermittlung zugestimmt haben. Später sollen weitere Geräte dazukommen.",
+      "zusammenfassung": "Valve hat Steam um eine neue Leistungsanzeige erweitert. Im Bereich zur Steam-Deck-Kompatibilität einer Shop-Seite steht nach einem Klick auf „Mehr erfahren“ jetzt die durchschnittliche Framerate auf dem Steam Deck. Ein Histogramm zeigt zusätzlich, wie oft welche Framerate gemessen wurde, damit sieht man auch Schwankungen. Die Daten kommen von Spielern, die der Übermittlung von Framerate-Daten zugestimmt haben. Angezeigt wird der Wert bei Spielen, die Valve auf Deck-Kompatibilität geprüft hat, also mit den Einstufungen Verifiziert, Spielbar oder Nicht unterstützt. Valve begründet das damit, dass die bisherige Einstufung auf festen Testkriterien beruht und nicht jedem Anspruch an flüssiges Spielen entspricht. Ein „Nicht unterstütztes“ Spiel kann für manche trotzdem gut spielbar sein, ein verifiziertes Spiel dagegen niedrige Fps haben. Laut Valve soll die Funktion künftig auf weitere Geräte ausgeweitet werden. Ob dazu auch normale Desktop-PCs mit ihren vielen Hardware-Kombinationen gehören, ist offen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/steam-deck-framerate-average-data-store-widget"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-now-lets-you-see-exactly-what-frame-rate-you-should-get-in-games-using-a-steam-deck/"
+        },
+        {
+          "name": "GamingOnLinux",
+          "url": "https://www.gamingonlinux.com/2026/11/valve-now-provide-steam-deck-framerate-data-to-the-public-for-each-game/"
+        }
+      ],
+      "tags": [
+        "Steam",
+        "Steam Deck",
+        "Valve",
+        "Framerate"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-steam-deck-framerate-daten.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.078Z"
+      },
+      "id": "2026-11-10-msi-rtx50-preise-china",
+      "datum": "2026-11-10T14:19:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Preise"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Bericht aus China: MSI soll Händlerpreise für RTX-50-Karten im November stark anheben, RTX 5080 um bis zu 8.000 Yuan",
+      "schlagzeile": "Leak: MSI soll RTX 5080 in China um bis zu 8.000 Yuan verteuern",
+      "kurz": "Laut dem chinesischen Branchenkanal ChannelGate hebt MSI im November die Händlerpreise aller RTX-50-Karten an. Bei der RTX 5080 soll das Plus 1.300 bis 8.000 Yuan betragen, umgerechnet rund 190 bis 1.200 US-Dollar. Es geht um Distributorpreise in China, nicht um offizielle Endkundenpreise. MSI hat das nicht bestätigt.",
+      "zusammenfassung": "Der chinesische Branchenkanal ChannelGate (Board Channels) berichtet über neue Preislisten von MSI für den November. Demnach steigen die Distributorpreise aller RTX-50-Modelle in China gegenüber Oktober. Für die RTX-5080-Serie werden 1.300 bis 8.000 Yuan mehr genannt, für die RTX 5070 Ti 800 bis 4.000 Yuan und für die RTX 5070 500 bis 1.000 Yuan. Die RTX 5060 Ti soll je nach Speicher 200 bis 400 Yuan zulegen, die RTX 5060 200 bis 500 Yuan und selbst die RTX 3050 100 Yuan. Wccftech rechnet den Höchstwert bei der RTX 5080 auf rund 1.200 US-Dollar um. Wichtig: Der Höchstwert gilt nur für einzelne Modelle, und es handelt sich um Preise für Händler in China, nicht um eine weltweite neue UVP. Ob und wie stark sich das in Europa auswirkt, ist offen. Die Meldung reiht sich in frühere ChannelGate-Berichte über Preiserhöhungen anderer Boardpartner ein. Grund sollen vor allem die stark gestiegenen Speicherpreise sein. MSI selbst hat sich nicht geäußert, daher bleibt es ein unbestätigter Bericht.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/msi-planned-rtx-5080-price-hike-of-up-to-1200/"
+      },
+      "weitere_links": [
+        {
+          "name": "IT之家 (ChannelGate)",
+          "url": "https://www.ithome.com/1/024/745.htm"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/computing/gpu/nvidia-rtx-5080-to-cost-usd3-000-and-the-rtx-5070-ti-at-usd2-000-rumored-gpu-price-hikes-could-be-the-finishing-blow-for-high-end-pc-gaming-in-the-ram-crisis"
+        }
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "ChannelGate (Board Channels) ist eine bekannte, aber nicht immer treffsichere Lieferketten-Quelle; von IT之家 und Wccftech übernommen, von MSI unbestätigt."
+      },
+      "ursprungsquelle": "ChannelGate / Board Channels (WeChat), via harukaze5719",
+      "tags": [
+        "MSI",
+        "RTX 5080",
+        "RTX 5070 Ti",
+        "Preise",
+        "China"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-msi-rtx50-preise-china.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.759Z"
+      },
+      "id": "2026-11-10-arc-raiders-17-mio",
+      "datum": "2026-11-10T13:28:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Arc Raiders"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "Nexon: Arc Raiders hat nach einem Jahr über 17 Millionen Mal verkauft, Umsatz soll im vierten Quartal sinken",
+      "schlagzeile": "Arc Raiders knackt 17 Millionen – doch der Verkauf wird langsamer",
+      "kurz": "Der Extraction-Shooter Arc Raiders hat laut Publisher Nexon zum ersten Geburtstag mehr als 17 Millionen Exemplare verkauft. Im dritten Quartal kam aber nur noch eine Million dazu. Nexon erwartet für das vierte Quartal weniger Umsatz als zum Start vor einem Jahr.",
+      "zusammenfassung": "Nexon hat in seinem Quartalsbericht neue Zahlen zu Arc Raiders von Embark Studios genannt. Der Extraction-Shooter ist Ende Oktober 2025 erschienen und hat inzwischen mehr als 17 Millionen Exemplare verkauft. Im dritten Quartal 2026 kam laut Nexon aber nur noch rund eine Million dazu, der Verkauf hat sich also deutlich verlangsamt. Für das vierte Quartal erwartet Nexon weniger Umsatz mit dem Spiel als im Vorjahresquartal, als der erfolgreiche Start in die Bilanz fiel. Im Vergleich zum Vorquartal soll der Umsatz etwa gleich bleiben. Der Umsatz lag laut Nexon im Rahmen der Prognose, das Update Frozen Trail habe frühere Spieler zurückgeholt und neue gewonnen. Arc Raiders bleibt einer der wichtigsten Titel von Nexon und war der Hauptgrund für das Umsatzplus in den ersten neun Monaten des Jahres. Offen ist, ob ein eigener PvE-Modus dauerhaft kommt; in China gibt es ihn bereits.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/arc-raiders-17-million-sales-nexon-decline"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Arc Raiders",
+        "Nexon",
+        "Embark Studios",
+        "Verkaufszahlen"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-arc-raiders-17-mio.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.235Z"
+      },
+      "id": "2026-11-10-nvidia-fbi-sammelklagen",
+      "datum": "2026-11-10T09:48:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Spionageverdacht im Umfeld von NVIDIA-Chef Huang: Laut Trump prüft das FBI den Fall, Anwaltskanzleien werben für Anlegerklagen",
+      "schlagzeile": "Spionage-Affäre um NVIDIA: FBI prüft den Fall, Anleger-Klagen drohen",
+      "kurz": "Im Fall der mutmaßlichen chinesischen Spionin im Umfeld von NVIDIA-Chef Jensen Huang prüft laut US-Präsident Trump nun das FBI. Ob sich Ermittlungen auch gegen Huang richten, ist unklar. Mehrere US-Kanzleien suchen Anleger für mögliche Sammelklagen gegen NVIDIA.",
+      "zusammenfassung": "Die Affäre um NVIDIA-Chef Jensen Huang und die mutmaßliche chinesische Spionin Alice Huang zieht weitere Kreise. Laut Spiegel und Reuters sagte US-Präsident Donald Trump, dass das FBI sich den Fall ansehe. Unklar ist, ob die Prüfung auch Jensen Huang selbst betrifft; die beiden sind trotz gleichen Nachnamens nicht verwandt. Trump nahm Huang in Schutz und sagte sinngemäß, er glaube ihm, dass er nichts von einer Spionagetätigkeit gewusst habe. Huang hatte die Beziehung zuvor eingeräumt und sich öffentlich entschuldigt, NVIDIAs Board hat eine Untersuchung mit externen Fachleuten gestartet. Laut PC Gamer werben mehrere US-Anwaltskanzleien, darunter Rosen Law Firm, um Anleger für mögliche Klagen wegen irreführender Aussagen. In San José wurde laut Guardian bereits eine Klage eingereicht, die NVIDIA und Huang vorwirft, ein mögliches Sicherheitsrisiko verschwiegen zu haben. Der Arbeitgeber von Alice Huang, Megaspeed, steht im Verdacht, NVIDIA-Chips unerlaubt nach China gebracht zu haben; NVIDIA und Megaspeed hatten das früher zurückgewiesen. Am 18. November soll Huang laut PC Gamer hinter verschlossenen Türen vor Kongressausschüssen aussagen. Alle Vorwürfe sind bisher nicht gerichtlich geklärt.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/jensen-huang-fbi-ermittelt-zum-spionageverdacht-bei-nvidia-2611-215024.html"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/law-firms-lining-up-for-a-chance-to-bop-nvidias-nose-on-behalf-of-its-own-shareholders-president-trump-says-fbi-are-sniffing-around-the-case/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "FBI",
+        "Megaspeed",
+        "Klage"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-nvidia-fbi-sammelklagen.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -1432,6 +2014,48 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -1474,48 +2098,6 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -2653,6 +3235,54 @@
       }
     },
     {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -2700,54 +3330,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -2853,6 +3435,49 @@
       }
     },
     {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -2901,49 +3526,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
