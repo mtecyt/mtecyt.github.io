@@ -2,10 +2,58 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-10T18:18:09.705Z",
+    "stand": "2026-11-11T07:51:26.394Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-03-arc-b580-eol",
+      "datum": "2026-11-03T20:12:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Grafikkarten"
+      ],
+      "kategorie": "GPU",
+      "zuverlaessigkeit": {
+        "stufe": "niedrig-mittel",
+        "hinweis": "Unbestätigt: Einzige Quelle ist ein Beitrag des Leakers Haze2K1 auf X, der selbst nur von „might“ (könnte) spricht. TechPowerUp und Wccftech geben den Beitrag wieder, eine unabhängige zweite Quelle gibt es nicht. Intel hat sich nicht geäußert."
+      },
+      "ursprungsquelle": "Haze2K1 auf X",
+      "titel": "Leak: Intel könnte die Arc B580 einstellen und auf teurere Arc-Pro-Karten setzen",
+      "schlagzeile": "Leak: Steht Intels Spar-Grafikkarte Arc B580 vor dem Aus?",
+      "kurz": "Laut dem Leaker Haze2K1 könnte Intel die Grafikkarte Arc B580 auslaufen lassen. Grund sollen die besser verdienenden Arc-Pro-Karten mit demselben Grafikchip sein. Das ist ein unbestätigtes Gerücht, Intel hat sich nicht dazu geäußert.",
+      "zusammenfassung": "Der Leaker Haze2K1 hat am 02.11.2026 auf X geschrieben, dass die Intel Arc B580 möglicherweise eingestellt wird. Intel wolle sich demnach stärker auf Profi- und Workstation-Karten wie die Arc Pro B50 konzentrieren, die sich für KI-Anwendungen gut verkaufen sollen. TechPowerUp und Wccftech haben den Beitrag aufgegriffen. Die Arc B580 kam im Dezember 2024 für 249 US-Dollar als günstige Gaming-Karte mit 12 GB Grafikspeicher auf den Markt. Die Arc Pro B60 nutzt laut TechPowerUp denselben Grafikchip, hat aber 24 GB Speicher und kostet rund 500 US-Dollar, was mehr Gewinn pro Chip bringen dürfte. Laut TechPowerUp ist die B580 bei vielen Händlern bereits ausverkauft oder nur über dem ursprünglichen Preis zu haben. Haze2K1 formuliert selbst vorsichtig und spricht nur davon, dass die Karte auslaufen könnte. Ob die kleinere Arc B570 ebenfalls betroffen wäre, geht aus dem Gerücht nicht hervor. Intel hat das Gerücht nicht kommentiert, es ist also unbestätigt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354440/intel-might-discontinue-the-arc-b580-to-prioritize-higher-margin-arc-pro-cards"
+      },
+      "weitere_links": [
+        {
+          "name": "Haze2K1 auf X (Ursprungsbeitrag)",
+          "url": "https://x.com/Haze2K1/status/2117241776688037938"
+        },
+        {
+          "name": "Wccftech: Intel might discontinue Arc B580",
+          "url": "https://wccftech.com/intel-might-discontinue-arc-b580-to-focus-on-higher-margin-ai-centric-products-such-as-arc-pro-b50/"
+        }
+      ],
+      "tags": [
+        "Intel Arc B580",
+        "Intel",
+        "Arc Pro",
+        "Grafikkarten",
+        "Gerücht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-04T11:08:43.383Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-11T07:51:26.376Z"
+    },
     {
       "id": "2026-11-03-windows11-8gb-ram",
       "datum": "2026-11-03T18:00:00+01:00",
