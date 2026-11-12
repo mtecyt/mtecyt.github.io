@@ -2,10 +2,84 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-12T18:18:52.940Z",
+    "stand": "2026-11-12T19:17:36.304Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-05-asrock-rx7900-vbios",
+      "datum": "2026-11-05T20:07:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "AMD"
+      ],
+      "kategorie": "GPU",
+      "titel": "ASRock-VBIOS für RX 7900 XT/XTX: Besitzer melden bricked GPUs nach offiziellem Update",
+      "schlagzeile": "ASRock-VBIOS brickt RX 7900 XT/XTX – Downloads offenbar zurückgezogen",
+      "kurz": "Nach dem offiziellen ASRock-VBIOS von Ende Oktober melden Besitzer von Radeon RX 7900 XT und XTX Phantom Gaming sowie Taichi, dass ihre Karten nicht mehr starten. Das Update sollte AMD-SN-6023 absichern und lief über ASRVBFlash 1.0.5. HTTP-Downloads sind laut Berichten inzwischen 404; einige Karten ließen sich nur mit externem EEPROM-Programmer retten.",
+      "zusammenfassung": "ASRock hatte Ende Oktober neue VBIOS-Dateien für zehn Radeon-RX-7000-Karten veröffentlicht, darunter als Teil der AMD-Sicherheitsmaßnahme AMD-SN-6023. Mehrere Besitzer berichten nun, dass nach dem Flash mit ASRVBFlash 1.0.5 das System mit installierter GPU keinen POST mehr schafft. Betroffen genannt werden RX 7900 XT Phantom Gaming sowie RX 7900 XTX Phantom Gaming und Taichi inklusive White-Edition. Das Problem tritt Berichten zufolge auf unterschiedlichen Mainboards auf, etwa von ASRock und MSI. VideoCardz dokumentiert den Ablauf: das Tool prüft Kompatibilität, Windows startet neu, danach bootet der Rechner mit der Karte nicht mehr. Mindestens zwei Nutzer haben ihre RX 7900 XTX Phantom Gaming mit externen EEPROM-Programmern wiederhergestellt, darunter ein T48 mit Testclip. Die Oktober-Downloads sollen über HTTP inzwischen mit 404 antworten, während FTP-Links teilweise noch funktionieren. Ein Nutzer in Japan erhielt laut Reddit von ASRock Support die Zusage, der Schaden falle unter die Garantie; eine öffentliche Firmenaussage oder ein offizielles Recovery-Verfahren gibt es laut VideoCardz und Guru3D noch nicht. Bis ASRock klarstellt und eine korrigierte Firmware liefert, sollten Besitzer der genannten Modelle die Oktober-Firmware nicht installieren. Quelle ist VideoCardz, ergänzend Guru3D.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/asrock-radeon-rx-7900-xt-xtx-owners-report-bricked-gpus-after-official-vbios-update"
+      },
+      "weitere_links": [
+        {
+          "name": "Guru3D: ASRock RX-7000-VBIOS und Brick-Berichte",
+          "url": "https://www.guru3d.com/story/asrock-radeon-rx-7000-vbios-update-draws-reports-of-bricked-cards/"
+        }
+      ],
+      "tags": [
+        "ASRock",
+        "Radeon",
+        "RX 7900",
+        "VBIOS",
+        "AMD"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.535Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-12T19:17:36.303Z"
+    },
+    {
+      "id": "2026-11-05-gog-galaxy-linux-2027",
+      "datum": "2026-11-05T19:28:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Linux",
+        "GOG"
+      ],
+      "kategorie": "Games",
+      "titel": "GOG Galaxy kommt 2027 neu – mit voller Linux-Unterstützung",
+      "schlagzeile": "GOG Galaxy 2027: neuer Client mit voller Linux-Unterstützung",
+      "kurz": "Beim ersten GOG Showcase hat GOG bestätigt, dass 2027 ein neuer Galaxy-Client mit voller Linux-Unterstützung erscheint. Parallel wird der Client für Windows und Mac überarbeitet. Galaxy bleibt optional; Offline-Installer bleiben erhalten.",
+      "zusammenfassung": "GamingOnLinux berichtet vom ersten GOG Showcase: 2027 soll ein komplett neuer GOG-Galaxy-Client für alle Plattformen erscheinen, erstmals mit voller Linux-Unterstützung. GOG hatte gegenüber GamingOnLinux schon im Juli an dem Vorhaben gearbeitet; nun ist der Zeitrahmen öffentlich. Laut GOG-Statement soll der Client auf Windows und Mac einfacher und schneller werden und die Bibliothek übersichtlicher darstellen. Die Kernzusage bleibt: Galaxy ist optional, Spiele lassen sich weiter über Offline-Installer herunterladen und behalten. Interessenten können sich auf der GOG-Anniversary-Seite für die Beta vormerken, sobald sie startet. Zusätzlich arbeitet GOG an GOG Social, einer modernisierten Community-Funktion mit Threads, Medien und spielebezogenen Tags. Weitere Feature-Details zum Linux-Client nennt der Bericht nicht; spekuliert wird hier nicht.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/a-new-gog-galaxy-is-coming-in-2027-with-full-linux-support/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GOG",
+        "Galaxy",
+        "Linux",
+        "Launcher"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.787Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-12T19:17:36.304Z"
+    },
     {
       "id": "2026-11-05-medusa-point-gb7",
       "datum": "2026-11-05T18:34:00+01:00",

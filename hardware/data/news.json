@@ -2,10 +2,697 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-12T18:18:52.940Z",
+    "stand": "2026-11-12T19:17:36.305Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-12-amd-26-11-1-ssd-fix",
+      "datum": "2026-11-12T18:42:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber",
+        "AMD"
+      ],
+      "kategorie": "Treiber",
+      "titel": "AMD Adrenalin 26.11.1 behebt das dauerhafte Schreiben auf SSDs",
+      "schlagzeile": "Radeon-Treiber 26.11.1: AMD stoppt endlich das SSD-Dauerschreiben",
+      "kurz": "AMD hat den optionalen Treiber Adrenalin 26.11.1 veröffentlicht. Er behebt offiziell den Fehler, durch den der Treiber im Hintergrund ständig Daten auf die SSD schrieb. Die Liste der bekannten Probleme ist allerdings länger geworden.",
+      "zusammenfassung": "Radeon-Nutzer hatten entdeckt, dass der Adrenalin-Treiber im Hintergrund dauerhaft Daten auf das Laufwerk schreibt, selbst im Leerlauf. Heise warnte, dass das die Lebensdauer von SSDs gefährden kann, zuletzt half nur ein Gratis-Tool aus der Community. Jetzt hat AMD laut Wccftech und Neowin den optionalen Treiber 26.11.1 veröffentlicht, der das Problem offiziell beheben soll. Betroffen waren laut den Versionshinweisen Besitzer von Radeon RX 7000 und RX 9000, auch beim Verschieben oder Vergrößern von Fenstern trat der Fehler auf. Die Liste der bekannten Probleme umfasst neun neue Einträge, vor allem Abstürze und Treiber-Timeouts in einzelnen Spielen wie Cyberpunk 2077 und War Thunder. Auf RX-9000-Karten nennt AMD zudem Bildfehler in Phantom Blade Zero. Wer vom SSD-Problem betroffen ist, sollte das Update installieren und kann das Community-Tool danach entfernen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amd-pushes-excessive-ssd-writes-fix-via-latest-adrenalin-edition-26-11-1-optional-driver/"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/amd-outs-must-install-26111-emergency-driver-to-fix-drive-bug-that-kept-writing-non-stop/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/SSD-Lebensdauer-gefaehrdet-AMD-Treiber-verursacht-hohe-Schreiblast-11522544.html"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Adrenalin",
+        "Treiber",
+        "SSD",
+        "Radeon"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.674Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-amd-26-11-1-ssd-fix.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-gdc-umfrage-entlassungen",
+      "datum": "2026-11-12T18:04:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Branche"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GDC-Umfrage: Jede dritte befragte Person in der Spielebranche wurde in zwei Jahren entlassen",
+      "schlagzeile": "GDC-Umfrage: Jeder dritte Befragte aus der Spielebranche wurde entlassen",
+      "kurz": "In der neuen GDC-Umfrage unter über 2.600 Branchenleuten gaben 34 Prozent an, in den letzten zwei Jahren entlassen worden zu sein. Mehr als die Hälfte davon ist noch ohne Job. Die Stimmung in der Branche ist laut Umfrage schlecht.",
+      "zusammenfassung": "Die 15. Ausgabe der Umfrage „State of the Game Industry“ der GDC hat über 2.600 Branchenleute weltweit befragt, berichtet VGC. 34 Prozent gaben an, in den letzten zwei Jahren entlassen worden zu sein, in den USA sogar 39 Prozent. In der Umfrage vom Januar lag der Wert noch bei 28 Prozent. Von den Entlassenen sind 54 Prozent weiterhin arbeitslos, 27 Prozent haben mindestens 100 Bewerbungen geschrieben. 17 Prozent wurden in zwei Jahren sogar zweimal entlassen. Nur 45 Prozent der Beschäftigten halten ihren Job für die nächsten zwölf Monate zumindest etwas für sicher. 81 Prozent machen sich Sorgen um ihre Zukunft in der Branche.",
+      "quelle": {
+        "name": "Video Games Chronicle",
+        "url": "https://www.videogameschronicle.com/news/one-in-three-games-industry-professionals-surveyed-by-gdc-were-laid-off-in-the-past-two-years-more-than-in-its-last-report/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GDC",
+        "Entlassungen",
+        "Spielebranche",
+        "Umfrage"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.482Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-gdc-umfrage-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-steam-pruefstau-ki",
+      "datum": "2026-11-12T17:06:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam",
+        "KI"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Steam-Prüfstau durch KI-Spieleflut: Weitere Indie-Spiele müssen verschoben werden",
+      "schlagzeile": "KI-Spieleflut auf Steam: Indie-Games hängen in Valves Prüfschlange",
+      "kurz": "Valves Prüfung neuer Spiele auf Steam dauert derzeit bis zu zwölf Tage, laut Entwicklern wegen einer Flut minderwertiger KI-Spiele. Mehrere Indie-Titel mussten ihren Release verschieben. Valve hat die Einreichregeln verschärft, Kritiker halten das für zu wenig.",
+      "zusammenfassung": "Seit Anfang November klagen Entwickler über lange Wartezeiten bei Valves Freigabe neuer Spiele und Builds auf Steam. Valve erklärte laut Eurogamer, dass Prüfungen wegen der Menge an erneut zu prüfenden Einreichungen bis zu zwölf Tage dauern können. Als Ursache gilt eine Flut von Billigspielen, die mit generativer KI erstellt wurden. Das Tower-Defense-Spiel Australia Did It von Rami Ismail und Aesthetician Labs sollte am 10. November erscheinen und wartet weiterhin auf die Freigabe. Auch Amazing Slot Survivor musste seinen Termin am 13. November zurückziehen, weitere Indie-Spiele sind betroffen. Valve hat strengere Einreichregeln eingeführt, um komplett KI-generierte Spiele früher auszusortieren. Ismail meint, Valve könne beim Thema KI nicht neutral bleiben, ohne echten Entwicklern zu schaden.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Steam",
+        "Valve",
+        "KI",
+        "Indie"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.379Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-steam-pruefstau-ki.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-windows-signdrop-zero-day",
+      "datum": "2026-11-12T17:04:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "SignDrop: Neue Windows-Zero-Day-Lücke verschafft SYSTEM-Rechte, noch kein Patch",
+      "schlagzeile": "Windows-Zero-Day SignDrop: SYSTEM-Rechte und noch kein Patch",
+      "kurz": "Ein Sicherheitsforscher hat mit SignDrop eine neue, ungepatchte Windows-Lücke samt Exploit veröffentlicht. Sie soll Angreifern SYSTEM-Rechte verschaffen und den Selbstschutz von Virenscannern aushebeln. Laut dem Forscher sind rund 80 Prozent der Windows-Installationen betroffen.",
+      "zusammenfassung": "Der Forscher Abdelhamid Naceri, bekannt als Nightmare Eclipse, hat laut BleepingComputer einen neuen Zero-Day-Exploit für Windows veröffentlicht. SignDrop nutzt ausgerechnet eine Schutzmaßnahme aus, die Microsoft im Oktober 2025 für den Common Log File System-Treiber (CLFS) eingeführt hat. Über einen Umweg können privilegierte Prozesse wie Windows Defender dazu gebracht werden, Dateien mit SYSTEM-Rechten anzulegen. Laut Naceri lässt sich so auch der Manipulationsschutz von Antiviren- und EDR-Software umgehen. Getestet hat er Windows 11 26H2 und Windows Server 2025, er schätzt, dass rund 80 Prozent der Installationen verwundbar sind. Anfällig sind Systeme, bei denen der Registry-Wert für den CLFS-Authentifizierungsmodus auf 0 oder 1 steht. Einen Workaround gibt es laut Naceri nicht, Nutzer müssen auf einen Patch von Microsoft warten. Eine Stellungnahme von Microsoft nennt der Bericht nicht.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Zero-Day",
+        "Sicherheitslücke",
+        "CLFS"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:23.019Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-windows-signdrop-zero-day.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-gta6-karte-leak",
+      "datum": "2026-11-12T16:40:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6: Gedruckte Karte aus der Collector's Edition soll über ein Merch-Event geleakt sein",
+      "schlagzeile": "Leak: Ist die GTA-6-Karte schon eine Woche vor Release im Netz?",
+      "kurz": "Im Netz kursieren Fotos einer gedruckten, stilisierten Karte von Leonida, die aus der GTA-6-Collector's-Edition stammen soll. Die Bilder sollen von einer Merch-Aktion bei Selfridges in Großbritannien stammen. Rockstar hat sich nicht geäußert, und die Karte ist wohl keine exakte Kopie der Spielwelt.",
+      "zusammenfassung": "Eine Woche vor dem Release von GTA 6 am 19. November tauchen laut VGC und Insider Gaming Fotos einer Karte auf. Sie sollen die gedruckte Karte aus der Collector's Edition zeigen und von einer GTA-6-Aktion der Kaufhauskette Selfridges stammen. Das deutlichste Bild kam laut VGC von einem inzwischen gelöschten Instagram-Konto, ein weiteres Foto zeigt die Karte gefaltet in einer Vitrine in Manchester. Laut Insider Gaming soll ein Selfridges-Mitarbeiter die Quelle sein, das ist aber nicht belegt. Die Karte zeigt Leonida stilisiert mit Bezirken und Clipart-artigen Motiven, wie Monstertrucks, ein UFO und Flugzeuge. Insider Gaming geht davon aus, dass sie die Spielwelt nicht exakt wiedergibt. Rockstar hat die Bilder nicht bestätigt. Wer sich nicht spoilern lassen will, sollte in sozialen Netzwerken vorsichtig sein.",
+      "quelle": {
+        "name": "Video Games Chronicle",
+        "url": "https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/gta-6-full-map-leak-online-from-collectors-box/"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-map-leonidas-leak-merch-drop/"
+        }
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Fotos eines physischen Merch-Artikels, von VGC, Insider Gaming und Polygon aufgegriffen; Herkunft und Echtheit nicht bestätigt, Rockstar/Take-Two schweigen. Nach Ticker-Regel gilt bei GTA 6 nur Rockstar/Take-Two als bestätigt."
+      },
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Karte",
+        "Leonida",
+        "Collector's Edition"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.022Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-gta6-karte-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-xbox-25-sharma-memo",
+      "datum": "2026-11-12T16:15:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox",
+        "KI"
+      ],
+      "kategorie": "Spiele",
+      "titel": "25 Jahre Xbox: Asha Sharma deutet in Memo KI-Entwicklung an, dazu Halo-Firefight und Xbox Playback",
+      "schlagzeile": "25 Jahre Xbox: Chefin will mit kleinen Teams riesige Welten bauen",
+      "kurz": "Zum 25. Geburtstag der Xbox hat Chefin Asha Sharma ein Memo veröffentlicht, das stark nach generativer KI klingt. Kleine Teams sollen künftig Welten bauen, für die heute Hunderte Entwickler nötig sind. Dazu kündigte Xbox einen Firefight-Modus für Halo: Campaign Evolved und den Jahresrückblick Xbox Playback an.",
+      "zusammenfassung": "Xbox-Chefin Asha Sharma hat zum 25-jährigen Jubiläum ein Memo mit dem Titel „25 Years of Xbox“ veröffentlicht. Am Ende schreibt sie, zu viele Ideen würden nie zu Spielen, und das müsse sich ändern. Bald werde ein einzelner Mensch Fähigkeiten haben, für die früher ganze Nationen nötig waren, und kleine Teams könnten Welten bauen, die heute Hunderte Entwickler erfordern. Das Wort generative KI fällt laut Eurogamer nicht, die Formulierungen deuten aber stark darauf hin. Sharma kommt aus dem KI-Bereich von Microsoft, hatte zum Start als Xbox-Chefin aber gesagt, sie habe „keine Toleranz für schlechte KI“. Zum Jubiläum kündigte sie außerdem auf X einen Firefight-Modus für Halo: Campaign Evolved an, der als kostenloses Update im Winter kommt; laut Insider Gaming ist es ein PvE-Modus für vier Spieler. Zusätzlich rollt Xbox Playback aus, ein Rückblick auf die eigenen Spiele und Erfolge auf Xbox. Konkrete KI-Projekte hat Xbox in dem Memo nicht genannt.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/microsoft-xbox-gen-ai-asha-sharma-memo"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/as-xbox-turns-25-ceo-asha-sharma-says-a-single-person-will-soon-be-able-to-wield-capabilities-that-once-required-entire-nations"
+        },
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/xbox-ceo-asha-sharmas-full-memo-on-25-years-of-xbox/"
+        },
+        {
+          "name": "Asha Sharma auf X (Halo Firefight)",
+          "url": "https://x.com/asha_shar/status/2120925412788498530"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Asha Sharma",
+        "KI",
+        "Halo",
+        "Xbox Playback"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.190Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-xbox-25-sharma-memo.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-gta6-suedkorea-freigabe",
+      "datum": "2026-11-12T15:26:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6 hätte in Südkorea wegen Nacktszenen beinahe keine Altersfreigabe bekommen",
+      "schlagzeile": "GTA 6 fast verboten? Südkorea stritt wochenlang über Nacktszenen",
+      "kurz": "Die südkoreanische Prüfstelle GCRB konnte sich bei GTA 6 lange nicht auf eine Einstufung einigen. Knackpunkt war Nacktheit ohne sexuellen Kontext. Am Ende gab es mit acht zu eins Stimmen die Freigabe „nur für Erwachsene“.",
+      "zusammenfassung": "Rockstar hat laut IGN Deutschland am 1. September eine Altersfreigabe in Südkorea beantragt. Die erste Abstimmung der Prüfstelle GCRB am 10. September endete unentschieden, drei Mitglieder wollten die Einstufung verweigern, drei waren für „nur für Erwachsene“. Laut den Sitzungsprotokollen, die InvenGlobal erhalten hat, störten sich einige Mitglieder an Nacktszenen ohne sexuellen Zusammenhang. Die Entscheidung wurde vertagt, bis eine spielbare Version vorlag, mehrere Termine wurden verschoben. Am 18. Oktober beschloss der Ausschuss dann mit acht zu einer Stimme die Einstufung „nur für Erwachsene“. Eine Verweigerung hätte den Verkauf in Südkorea komplett verhindert. GTA 6 erscheint am 19. November für PS5 und Xbox Series X und S.",
+      "quelle": {
+        "name": "IGN Deutschland",
+        "url": "https://de.ign.com/grand-theft-auto-vi/157197/gta-6-ware-in-sudkorea-wegen-nackter-genitalien-beinahe-keine-altersfreigabe-erteilt-worden"
+      },
+      "weitere_links": [
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-south-korea-rating-male-nudity/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Altersfreigabe",
+        "Südkorea",
+        "Rockstar"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.107Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-gta6-suedkorea-freigabe.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-nvidia-linux-nvroot-forgeptr",
+      "datum": "2026-11-12T15:17:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Sicherheit",
+        "Treiber"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "NvRoot und ForgePtr: Zwei Sicherheitslücken im Nvidia-Linux-Treiber veröffentlicht, 25 weitere angekündigt",
+      "schlagzeile": "Nvidia-Linux-Treiber: Lücke macht Container-Prozesse zu Root",
+      "kurz": "Die Sicherheitsfirma Stealthium hat zwei Lücken in Nvidias offenen Linux-Kernelmodulen veröffentlicht. Über ForgePtr kann ein Prozess in einem GPU-Container Root auf dem Host werden. Patches gibt es bereits, weitere 25 Meldungen sollen folgen.",
+      "zusammenfassung": "Laut Phoronix sind die ersten zwei von insgesamt 27 angekündigten Sicherheitslücken in Nvidias Treiber-Stack öffentlich. ForgePtr (CVE-2026-47501) erlaubt einem nicht privilegierten Prozess in einem GPU-Container, Root-Rechte auf dem Host zu erlangen. Mit NvRoot (CVE-2026-47591) kann die GPU Dateien überschreiben, die das Betriebssystem als schreibgeschützt markiert hat. Beide Lücken stecken seit rund vier Jahren in Nvidias offenen Kernelmodulen und sind als hoch (CVSS 7,8) eingestuft. Besonders betroffen sind Cloud-Anbieter, die GPUs an mehrere Kunden vermieten. NvRoot ist mit den Treibern 610.57.04, 595.91.07 und 580.178.04 behoben, ForgePtr mit 615.71.09. Stealthium hat laut Phoronix 25 weitere Meldungen zum KI-Software-Stack von Nvidia angekündigt. Wer Nvidia-GPUs unter Linux nutzt, vor allem in Containern, sollte den Treiber aktualisieren.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/NVIDIA-NvRoot-ForgePtr"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Nvidia",
+        "Linux",
+        "Sicherheitslücke",
+        "Treiber",
+        "Cloud"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.892Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-nvidia-linux-nvroot-forgeptr.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-huang-ruecktritt-kress",
+      "datum": "2026-11-12T15:04:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Jensen Huang tritt nach 33 Jahren als Nvidia-CEO zurück, CFO Colette Kress übernimmt vorübergehend",
+      "schlagzeile": "Ende einer Ära: Jensen Huang tritt bei Nvidia zurück",
+      "kurz": "Nvidia hat den Rücktritt von Mitgründer und CEO Jensen Huang bekanntgegeben, er legt alle Ämter mit sofortiger Wirkung nieder. Finanzchefin Colette Kress führt das Unternehmen vorerst als Interims-CEO. Den Vorsitz im Verwaltungsrat übernimmt Harvey C. Jones.",
+      "zusammenfassung": "Nach Tagen der Krise ist es offiziell: Jensen Huang tritt nach 33 Jahren an der Spitze von Nvidia zurück. Laut ComputerBase legt er seine Ämter als Präsident, CEO und Mitglied des Verwaltungsrats nieder, laut PC Gamer mit sofortiger Wirkung. Huang wurde nicht entlassen, er hat laut TechPowerUp ein Rücktrittsschreiben unterzeichnet. Auslöser waren Berichte über zwei außereheliche Beziehungen, darunter eine zu einer Managerin, die ihm direkt unterstellt war. Zuvor hatte der Verwaltungsrat in einer außerplanmäßigen Sitzung beraten, laut Bloomberg wurde bereits eine externe Firma für die Nachfolgesuche eingeschaltet. Finanzchefin Colette Kress leitet die Geschäfte vorübergehend als CEO und bleibt parallel CFO. Den Vorsitz im Verwaltungsrat übernimmt Harvey C. Jones. Kress kündigte an, auf dem Fundament aufzubauen, das Huang in 33 Jahren geschaffen habe. Ob Huang künftig noch eine Rolle im Unternehmen spielt, geht aus der Mitteilung nicht hervor. Wer dauerhaft CEO wird, ist offen; dazu gibt es bisher nur Spekulationen. Auswirkungen auf GeForce-Produkte, Preise oder Treiber sind derzeit nicht bekannt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/mr-nvidia-muss-gehen-jensen-huang-tritt-nach-33-jahren-als-ceo-zurueck.100305/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-Jensen-Huang-Ruecktritt-CEO-Colette-Kress-Nachfolgerin-1559816/"
+        },
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354732/nvidia-co-founder-and-ceo-jensen-huang-officially-resigns"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Nach-Bekanntwerden-einer-zweiten-Affaere-Nvidia-CEO-Jensen-Huang-abgetreten-11522193.html"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "Unternehmen"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:21.539Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-huang-ruecktritt-kress.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-paradox-wester-ruecktritt",
+      "datum": "2026-11-12T14:22:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Paradox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Paradox-Chef Frederik Wester tritt ab, Mattias Lilja übernimmt im Januar",
+      "schlagzeile": "Nach Bloodlines-2-Flop: Paradox bekommt einen neuen Chef",
+      "kurz": "Paradox-Interactive-CEO Frederik Wester gibt seinen Posten ab und wechselt in den Verwaltungsrat. Sein Stellvertreter Mattias Lilja übernimmt am 4. Januar 2027. Hinter dem Publisher liegen mehrere schwierige Jahre.",
+      "zusammenfassung": "Frederik Wester tritt laut Eurogamer als CEO von Paradox Interactive zurück und soll sich künftig als Mitglied des Verwaltungsrats um die langfristige Entwicklung kümmern. Nachfolger wird der bisherige Vize-CEO Mattias Lilja ab dem 4. Januar 2027, bis dahin bleibt Wester im Amt. Wester führte Paradox von 2009 bis 2018 und erneut seit 2021. In seine zweite Amtszeit fielen die schwierige Entwicklung von Vampire: The Masquerade Bloodlines 2, dessen kommerzieller Misserfolg den operativen Gewinn stark einbrechen ließ. Dazu kamen die Einstellung von Life by You, die Verschiebung von Prison Architect 2 und der holprige Start von Cities: Skylines 2, dessen Konsolenversion noch immer fehlt. Lilja will stärker ins Kerngeschäft investieren und enger mit Spielern und Moddern arbeiten. Als nächste Spiele stehen Lego Skylines und das Strategiespiel Afterworld an.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Paradox",
+        "Cities Skylines",
+        "Stellaris",
+        "Unternehmen"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.284Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-paradox-wester-ruecktritt.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-siren-halo-gddr7",
+      "datum": "2026-11-12T14:04:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "APU",
+        "AMD"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Gerücht: AMDs Siren Halo soll GDDR7-Grafikspeicher statt nur LPDDR5X nutzen",
+      "schlagzeile": "Leak: Bekommt AMDs Mega-APU Siren Halo echten GDDR7-Speicher?",
+      "kurz": "Laut einem Leaker soll AMDs kommende Halo-APU Siren Halo mit GDDR7-Speicher arbeiten. Bisherige Halo-Chips nutzen gemeinsamen LPDDR5X-Speicher für CPU und GPU. Bestätigt ist nichts.",
+      "zusammenfassung": "Der Hardware-Leaker Gotou_kai3 behauptet, dass AMDs Siren Halo GDDR7-Speicher bekommen soll, berichten Wccftech und PCGH. Siren Halo soll wie Medusa Halo auf Zen 6 und RDNA 5 setzen, aber als eigentlicher Nachfolger gelten und nicht als einfacher Refresh. Aktuelle Halo-Chips wie Strix Halo nutzen LPDDR5X als gemeinsamen Speicher für CPU und GPU. GDDR7 würde deutlich mehr Speicherbandbreite bringen, was vor allem der Grafikeinheit in Spielen helfen könnte. Unklar ist laut Wccftech, ob CPU und GPU beide Speicherpools nutzen können oder ob GDDR7 nur der Grafik vorbehalten wäre. Für KI-Anwendungen wäre eine reine GDDR7-Grafiklösung womöglich weniger flexibel als der große gemeinsame Speicher der heutigen Ryzen-AI-Max-Chips. AMD hat Siren Halo nicht angekündigt, Termine und Spezifikationen sind unbekannt.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/AMD-Siren-Halo-mit-GDDR7-Grafikspeicher-1559803/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/amds-siren-halo-will-reportedly-support-gddr7-memory/"
+        }
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "niedrig bis mittel",
+        "begruendung": "Einzelner Leaker (Gotou_kai3) ohne Belege; über PCGH und Wccftech verbreitet; von AMD nicht bestätigt."
+      },
+      "tags": [
+        "AMD",
+        "Siren Halo",
+        "APU",
+        "GDDR7",
+        "RDNA 5",
+        "Zen 6"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:21.758Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-siren-halo-gddr7.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-apache-http2-luecke",
+      "datum": "2026-11-12T13:43:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Kritische Lücke im HTTP/2-Modul von Apache: Update auf 2.4.71 empfohlen",
+      "schlagzeile": "Kritische Apache-Lücke: Webserver mit HTTP/2 sofort updaten",
+      "kurz": "Im Webserver Apache steckt eine kritische Lücke im Modul mod_http2, die Codeausführung aus der Ferne ermöglichen könnte. Betroffen sind nur Server mit aktiviertem HTTP/2. Version 2.4.71 behebt den Fehler.",
+      "zusammenfassung": "Laut heise steckt die Lücke CVE-2026-119618 in der Funktion assign_headers() des Moduls mod_http2. Eine Speichermanipulation könnte dort zur Ausführung von Schadcode aus der Ferne führen. Red Hat bewertet die Lücke laut Golem mit 9,8 von 10 Punkten. Gefunden haben sie ein OSS-Scanner von Anthropic und zwei Forscher von Google Cloud Vulnerability Research. Da mod_http2 standardmäßig nicht aktiv ist, sind nur Server betroffen, die HTTP/2 nutzen. Experten wie Kevin Beaumont halten einen Exploit wegen Schutzmechanismen wie ASLR für schwierig. Trotzdem sollten Admins auf Apache 2.4.71 aktualisieren, die zwei weitere Lücken schließt. Wer nicht sofort updaten kann, sollte HTTP/2 vorerst abschalten.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Kritische-Sicherheitsluecke-in-Apache2-ermoeglicht-Codeeinschleusung-11523150.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/red-hat-kritische-sicherheitsluecke-in-apache-http-server-entdeckt-2611-215134.html"
+        }
+      ],
+      "tags": [
+        "Apache",
+        "Linux",
+        "Webserver",
+        "Sicherheitslücke"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:23.124Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-apache-http2-luecke.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-rtx5090-96gb-mod",
+      "datum": "2026-11-12T11:17:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Umgebaute RTX 5090 mit 96 GB Speicher taucht auf chinesischem Gebrauchtmarkt auf",
+      "schlagzeile": "RTX 5090 mit 96 GB: China-Mod für rund 900.000 Dollar aufgetaucht",
+      "kurz": "Auf der chinesischen Plattform Xianyu wird eine modifizierte GeForce RTX 5090 mit 96 GB Videospeicher angeboten. Der Platzhalterpreis liegt bei umgerechnet rund 900.000 US-Dollar, verhandelt wird privat. Ob die Karte wirklich funktioniert, ist nicht belegt.",
+      "zusammenfassung": "Chinesische Modder bauen Desktop-GPUs auf eigene Platinen um und vervielfachen so den Speicher für KI-Anwendungen. Jetzt ist laut Wccftech und PCGH ein Angebot für eine RTX 5090 mit 96 GB aufgetaucht, so viel Speicher wie bei der RTX Pro 6000. Entdeckt hat es der Reparaturspezialist VIK-on auf Alibabas Gebrauchtmarkt Xianyu, zuerst berichtete VideoCardz. Der GB202-Chip sitzt auf einer eigenen Platine mit Samsung-Speicherchips auf beiden Seiten. Der Verkäufer bietet neben der Karte auch Platinenpläne und ein gepatchtes BIOS an, richtet sich aber nur an Geschäftskunden mit Vertraulichkeitsvereinbarung. Der angegebene Preis von 6.488.888 Yuan, rund 900.000 US-Dollar, ist ein Platzhalter, der tatsächliche Preis wird privat ausgehandelt. Benchmarks gibt es keine, die Funktion der Karte ist daher unbestätigt.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Geforce-RTX-5090-Grafikkarte-281029/News/96-GiByte-Speicher-Modifikation-1559779/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/modded-rtx-5090-96gb-vram-china-listing/"
+        }
+      ],
+      "tags": [
+        "RTX 5090",
+        "Mod",
+        "VRAM",
+        "China",
+        "KI"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:21.848Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-rtx5090-96gb-mod.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-swtor-directx12-test",
+      "datum": "2026-11-12T11:15:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "DirectX",
+        "MMORPG"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Star Wars: The Old Republic startet öffentlichen DirectX-12-Test, Grafik zunächst bewusst reduziert",
+      "schlagzeile": "SWTOR bekommt DirectX 12 – und sieht erst mal schlechter aus",
+      "kurz": "Fast 15 Jahre nach dem Release testet Star Wars: The Old Republic einen DirectX-12-Client. Der öffentliche Test startet noch diese Woche direkt im normalen Launcher. Viele Grafikeffekte fehlen anfangs absichtlich.",
+      "zusammenfassung": "Entwickler Broadsword modernisiert laut PC Games die Technik des MMORPGs Star Wars: The Old Republic. Noch diese Woche startet ein öffentlicher Test des neuen DirectX-12-Clients, ohne Anmeldung oder Zugangscode. Im normalen Launcher lässt sich über einen kleinen Pfeil zwischen alter und neuer Version wählen, beide nutzen dieselben Live-Server und Charaktere. Viele Umgebungsdetails und Effekte fehlen im neuen Client noch oder sind vereinfacht, auch die Grafikoptionen sind eingeschränkt. Das ist Absicht: Zunächst geht es um Stabilität, Leistung und Kompatibilität mit möglichst vielen PCs. Spieler sollen Ruckler, Bildfehler und Abstürze samt Hardware melden. Für Mac-Spieler gibt es den Test vorerst nicht. Laut Broadsword läuft das Projekt bis weit ins Jahr 2027, danach soll die Grafik schrittweise mindestens das alte Niveau erreichen.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/SWTOR-Star-Wars-The-Old-Republic-Spiel-17102/News/DirectX-12-doch-die-Grafik-wird-schlechter-1559693/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "SWTOR",
+        "DirectX 12",
+        "MMORPG",
+        "Broadsword"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:22.580Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-swtor-directx12-test.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-apex-neural-rendering",
+      "datum": "2026-11-12T11:11:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Upscaling"
+      ],
+      "kategorie": "Grafik",
+      "titel": "Apex Neural Rendering: Start-up verspricht herstellerunabhängige Alternative zu DLSS, FSR und XeSS",
+      "schlagzeile": "Besser als DLSS? Apex bringt Frame Generation für alle drei GPU-Lager",
+      "kurz": "Das Unternehmen Apex Compute hat Apex Neural Rendering (ANR) vorgestellt, mit Super Resolution, Ray Reconstruction und Frame Generation für GeForce, Radeon und Arc. Die Frame Generation gibt es ab sofort als kostenlose Beta auf GitHub. Die Versprechen sind groß, ComputerBase hält sie aber für kaum nachvollziehbar.",
+      "zusammenfassung": "Apex Compute, bisher auf Edge-KI-Beschleuniger spezialisiert, will mit Apex Neural Rendering (ANR) gegen DLSS, FSR und XeSS antreten. ANR soll Super Resolution, Ray Reconstruction und Frame Generation herstellerunabhängig auf Nvidia, AMD und Intel bieten. Laut Hersteller soll es bis zu 2,4-mal schneller sein und eine bessere Bildqualität als DLSS liefern. Bereits verfügbar ist nur die Frame Generation als kostenlose Beta auf GitHub, eingebunden wird sie über OptiScaler, mit den Stufen 2×, 3× und 4×. Super Resolution und Ray Reconstruction sind laut Apex noch in Entwicklung. Die Frame Generation läuft laut ComputerBase ab GeForce GTX 16 und RTX 2000, ab Radeon RX 5000 inklusive Steam Deck und auf Intel Arc A, unter Windows 10, Windows 11 und Linux mit Proton. ComputerBase kritisiert Unstimmigkeiten in den Herstellerangaben, etwa angebliche Messwerte von FSR mit mehr als einem KI-Zwischenbild, und unklare Faktoren in den Vergleichsvideos. Unabhängige Tests gibt es noch nicht, die Leistungs- und Qualitätsversprechen sind daher unbestätigt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/apex-neural-rendering-anr-soll-dlss-fsr-und-xess-in-allen-disziplinen-schlagen.100301/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354727/apex-neural-rendering-beats-nvidia-dlss-in-both-image-quality-and-performance"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/apex-neural-rendering-challenges-nvidia-dlss-with-up-to-2-4x-faster-frame-generation-62-lower-vram-usage-and-broad-gpu-support/"
+        },
+        {
+          "name": "GamingOnLinux",
+          "url": "https://www.gamingonlinux.com/2026/11/apex-compute-revealed-apex-neural-rendering-anr-their-cross-platform-answer-to-nvidia-dlss/"
+        }
+      ],
+      "tags": [
+        "Upscaling",
+        "Frame Generation",
+        "DLSS",
+        "FSR",
+        "XeSS"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:21.653Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-apex-neural-rendering.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-12-samsung-hbm-onyang",
+      "datum": "2026-11-12T10:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "Speicher"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Speicherknappheit: Samsung baut neue HBM-Packaging-Linie und will sie ein Jahr früher fertigstellen",
+      "schlagzeile": "RAM-Krise: Samsung zieht neue HBM-Fabrik um ein Jahr vor",
+      "kurz": "Samsung hat in Onyang mit dem Bau einer neuen Linie für HBM-Packaging begonnen. Sie soll im Juni 2028 starten, ein Jahr früher als geplant. Grund ist die anhaltende Speicherknappheit.",
+      "zusammenfassung": "Samsung hat laut ComputerBase auf seinem Onyang-Campus in Asan den Spatenstich für eine neue Produktionslinie gesetzt, die HBM-Speicher verpacken soll. Der Betrieb soll im Juni 2028 starten und damit ein Jahr früher als ursprünglich geplant. In Onyang investiert Samsung 46 Billionen Won, rund 31 Milliarden Euro, davon den Großteil in die Ausrüstung. Geplant sind etwa 31.000 Quadratmeter Reinraum auf drei Etagen und rund 700 neue Arbeitsplätze. Samsung hatte im Oktober erklärt, die HBM-Liefermengen für 2027 schon ausverhandelt zu haben und den Bedarf bei weitem nicht decken zu können. HBM steckt vor allem in KI-Beschleunigern, die Knappheit belastet aber den gesamten Speichermarkt und damit auch RAM-Preise für PC-Nutzer. Kurzfristig ändert die neue Linie an den Preisen nichts.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/arbeitsspeicher/speicherknappheit-samsung-will-neue-hbm-fabrik-ein-jahr-frueher-fertigstellen.100299/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Samsung",
+        "HBM",
+        "RAM-Preise",
+        "Speicherknappheit"
+      ],
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T19:17:21.935Z"
+      },
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-samsung-hbm-onyang.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -1437,43 +2124,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:32.935Z"
-      },
-      "id": "2026-11-10-gpu-taskman-vram",
-      "datum": "2026-11-10T19:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "GPU",
-        "Tools"
-      ],
-      "kategorie": "Software",
-      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
-      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
-      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
-      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GPU Taskman",
-        "VRAM",
-        "Open Source",
-        "Tool"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:32.855Z"
       },
       "id": "2026-11-10-auto-sr-xbox-ally-ryzen",
@@ -1504,6 +2154,43 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-auto-sr-xbox-ally-ryzen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.935Z"
+      },
+      "id": "2026-11-10-gpu-taskman-vram",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Tools"
+      ],
+      "kategorie": "Software",
+      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
+      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
+      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
+      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GPU Taskman",
+        "VRAM",
+        "Open Source",
+        "Tool"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
         "ki_generiert": true
       }
     },
@@ -1558,53 +2245,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:31.989Z"
-      },
-      "id": "2026-11-10-amd-mext-flash-statt-ram",
-      "datum": "2026-11-10T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "AMD"
-      ],
-      "kategorie": "Speicher",
-      "titel": "AMD MEXT: Software lagert selten genutzten Arbeitsspeicher auf Flash aus, um teuren DRAM zu sparen",
-      "schlagzeile": "RAM-Krise: AMD will mit Flash-Speicher bis zu 75 % DRAM einsparen",
-      "kurz": "AMD hat MEXT vorgestellt, eine Software, die selten genutzte Speicherseiten von DRAM auf Flash-SSDs auslagert. So sollen Server mit deutlich weniger teurem Arbeitsspeicher fast gleich schnell laufen. Das Angebot gilt vorerst nur für Epyc-Server. Alle Leistungswerte stammen von AMD.",
-      "zusammenfassung": "AMD reagiert mit MEXT auf die anhaltende Speicherknappheit. Laut AMD macht DRAM je nach Konfiguration 75 bis 90 Prozent der Kosten eines Servers aus, während ein großer Teil des Speichers ungenutzt oder überdimensioniert ist. MEXT erkennt „kalte“ Speicherseiten und verschiebt sie auf Flash-Speicher, also NVMe-SSDs. KI-Modelle sollen vorhersagen, welche Daten bald wieder gebraucht werden, und diese rechtzeitig in den DRAM zurückholen. Die Software besteht laut Wccftech aus einem Linux-Treiber, einer KI-Engine, die auf einem einzelnen Epyc-Kern läuft, und einem Monitoring-Werkzeug. Nach AMDs Angaben lässt sich der DRAM-Bedarf so um 20 bis 75 Prozent senken, bei ähnlicher Leistung. Im Chipdesign-Beispiel soll ein Server mit halbem DRAM noch 95 Prozent der Leistung erreichen. Diese Werte sind Herstellerangaben, unabhängige Tests fehlen noch. Laut Phoronix ist der Linux-Treiber nicht quelloffen. MEXT ist vorerst nur für Epyc-Server mit NVMe-Laufwerken gedacht, später soll es eine Lizenz geben. AMD deutete an, dass so etwas auch für normale PCs interessant werden könnte, konkrete Pläne dafür gibt es aber nicht.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/amd-mext-memory-solution-flash-repaces-dram-same-performance/"
-      },
-      "weitere_links": [
-        {
-          "name": "ComputerBase",
-          "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
-        },
-        {
-          "name": "Phoronix",
-          "url": "https://www.phoronix.com/news/AMD-MEXT"
-        }
-      ],
-      "tags": [
-        "MEXT",
-        "DRAM",
-        "RAM-Krise",
-        "Epyc",
-        "Flash"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:31.904Z"
       },
       "id": "2026-11-10-amd-zen6-ipc-epyc",
@@ -1643,6 +2283,53 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.989Z"
+      },
+      "id": "2026-11-10-amd-mext-flash-statt-ram",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "AMD"
+      ],
+      "kategorie": "Speicher",
+      "titel": "AMD MEXT: Software lagert selten genutzten Arbeitsspeicher auf Flash aus, um teuren DRAM zu sparen",
+      "schlagzeile": "RAM-Krise: AMD will mit Flash-Speicher bis zu 75 % DRAM einsparen",
+      "kurz": "AMD hat MEXT vorgestellt, eine Software, die selten genutzte Speicherseiten von DRAM auf Flash-SSDs auslagert. So sollen Server mit deutlich weniger teurem Arbeitsspeicher fast gleich schnell laufen. Das Angebot gilt vorerst nur für Epyc-Server. Alle Leistungswerte stammen von AMD.",
+      "zusammenfassung": "AMD reagiert mit MEXT auf die anhaltende Speicherknappheit. Laut AMD macht DRAM je nach Konfiguration 75 bis 90 Prozent der Kosten eines Servers aus, während ein großer Teil des Speichers ungenutzt oder überdimensioniert ist. MEXT erkennt „kalte“ Speicherseiten und verschiebt sie auf Flash-Speicher, also NVMe-SSDs. KI-Modelle sollen vorhersagen, welche Daten bald wieder gebraucht werden, und diese rechtzeitig in den DRAM zurückholen. Die Software besteht laut Wccftech aus einem Linux-Treiber, einer KI-Engine, die auf einem einzelnen Epyc-Kern läuft, und einem Monitoring-Werkzeug. Nach AMDs Angaben lässt sich der DRAM-Bedarf so um 20 bis 75 Prozent senken, bei ähnlicher Leistung. Im Chipdesign-Beispiel soll ein Server mit halbem DRAM noch 95 Prozent der Leistung erreichen. Diese Werte sind Herstellerangaben, unabhängige Tests fehlen noch. Laut Phoronix ist der Linux-Treiber nicht quelloffen. MEXT ist vorerst nur für Epyc-Server mit NVMe-Laufwerken gedacht, später soll es eine Lizenz geben. AMD deutete an, dass so etwas auch für normale PCs interessant werden könnte, konkrete Pläne dafür gibt es aber nicht.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amd-mext-memory-solution-flash-repaces-dram-same-performance/"
+      },
+      "weitere_links": [
+        {
+          "name": "ComputerBase",
+          "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+        },
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/AMD-MEXT"
+        }
+      ],
+      "tags": [
+        "MEXT",
+        "DRAM",
+        "RAM-Krise",
+        "Epyc",
+        "Flash"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
         "ki_generiert": true
       }
     },
@@ -3439,48 +4126,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -3523,6 +4168,48 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -4478,86 +5165,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-06-rx9070xt-clustered-geometry.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-asrock-rx7900-vbios",
-      "datum": "2026-11-05T20:07:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "GPU",
-        "AMD"
-      ],
-      "kategorie": "GPU",
-      "titel": "ASRock-VBIOS für RX 7900 XT/XTX: Besitzer melden bricked GPUs nach offiziellem Update",
-      "schlagzeile": "ASRock-VBIOS brickt RX 7900 XT/XTX – Downloads offenbar zurückgezogen",
-      "kurz": "Nach dem offiziellen ASRock-VBIOS von Ende Oktober melden Besitzer von Radeon RX 7900 XT und XTX Phantom Gaming sowie Taichi, dass ihre Karten nicht mehr starten. Das Update sollte AMD-SN-6023 absichern und lief über ASRVBFlash 1.0.5. HTTP-Downloads sind laut Berichten inzwischen 404; einige Karten ließen sich nur mit externem EEPROM-Programmer retten.",
-      "zusammenfassung": "ASRock hatte Ende Oktober neue VBIOS-Dateien für zehn Radeon-RX-7000-Karten veröffentlicht, darunter als Teil der AMD-Sicherheitsmaßnahme AMD-SN-6023. Mehrere Besitzer berichten nun, dass nach dem Flash mit ASRVBFlash 1.0.5 das System mit installierter GPU keinen POST mehr schafft. Betroffen genannt werden RX 7900 XT Phantom Gaming sowie RX 7900 XTX Phantom Gaming und Taichi inklusive White-Edition. Das Problem tritt Berichten zufolge auf unterschiedlichen Mainboards auf, etwa von ASRock und MSI. VideoCardz dokumentiert den Ablauf: das Tool prüft Kompatibilität, Windows startet neu, danach bootet der Rechner mit der Karte nicht mehr. Mindestens zwei Nutzer haben ihre RX 7900 XTX Phantom Gaming mit externen EEPROM-Programmern wiederhergestellt, darunter ein T48 mit Testclip. Die Oktober-Downloads sollen über HTTP inzwischen mit 404 antworten, während FTP-Links teilweise noch funktionieren. Ein Nutzer in Japan erhielt laut Reddit von ASRock Support die Zusage, der Schaden falle unter die Garantie; eine öffentliche Firmenaussage oder ein offizielles Recovery-Verfahren gibt es laut VideoCardz und Guru3D noch nicht. Bis ASRock klarstellt und eine korrigierte Firmware liefert, sollten Besitzer der genannten Modelle die Oktober-Firmware nicht installieren. Quelle ist VideoCardz, ergänzend Guru3D.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/asrock-radeon-rx-7900-xt-xtx-owners-report-bricked-gpus-after-official-vbios-update"
-      },
-      "weitere_links": [
-        {
-          "name": "Guru3D: ASRock RX-7000-VBIOS und Brick-Berichte",
-          "url": "https://www.guru3d.com/story/asrock-radeon-rx-7000-vbios-update-draws-reports-of-bricked-cards/"
-        }
-      ],
-      "tags": [
-        "ASRock",
-        "Radeon",
-        "RX 7900",
-        "VBIOS",
-        "AMD"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.535Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-asrock-rx7900-vbios.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-gog-galaxy-linux-2027",
-      "datum": "2026-11-05T19:28:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "Linux",
-        "GOG"
-      ],
-      "kategorie": "Games",
-      "titel": "GOG Galaxy kommt 2027 neu – mit voller Linux-Unterstützung",
-      "schlagzeile": "GOG Galaxy 2027: neuer Client mit voller Linux-Unterstützung",
-      "kurz": "Beim ersten GOG Showcase hat GOG bestätigt, dass 2027 ein neuer Galaxy-Client mit voller Linux-Unterstützung erscheint. Parallel wird der Client für Windows und Mac überarbeitet. Galaxy bleibt optional; Offline-Installer bleiben erhalten.",
-      "zusammenfassung": "GamingOnLinux berichtet vom ersten GOG Showcase: 2027 soll ein komplett neuer GOG-Galaxy-Client für alle Plattformen erscheinen, erstmals mit voller Linux-Unterstützung. GOG hatte gegenüber GamingOnLinux schon im Juli an dem Vorhaben gearbeitet; nun ist der Zeitrahmen öffentlich. Laut GOG-Statement soll der Client auf Windows und Mac einfacher und schneller werden und die Bibliothek übersichtlicher darstellen. Die Kernzusage bleibt: Galaxy ist optional, Spiele lassen sich weiter über Offline-Installer herunterladen und behalten. Interessenten können sich auf der GOG-Anniversary-Seite für die Beta vormerken, sobald sie startet. Zusätzlich arbeitet GOG an GOG Social, einer modernisierten Community-Funktion mit Threads, Medien und spielebezogenen Tags. Weitere Feature-Details zum Linux-Client nennt der Bericht nicht; spekuliert wird hier nicht.",
-      "quelle": {
-        "name": "GamingOnLinux",
-        "url": "https://www.gamingonlinux.com/2026/11/a-new-gog-galaxy-is-coming-in-2027-with-full-linux-support/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GOG",
-        "Galaxy",
-        "Linux",
-        "Launcher"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.787Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-gog-galaxy-linux-2027.webp",
         "ki_generiert": true
       }
     }
