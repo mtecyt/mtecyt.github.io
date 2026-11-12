@@ -2,10 +2,1071 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-12T07:50:30.018Z",
+    "stand": "2026-11-12T10:57:08.343Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:02.862Z"
+      },
+      "id": "2026-11-12-outlook-mails-blockiert",
+      "datum": "2026-11-12T05:53:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Outlook",
+        "Microsoft"
+      ],
+      "kategorie": "Software",
+      "titel": "Outlook.com: Fehlerhafte Spam-Regel hat tagelang echte E-Mails abgewiesen – die Mails sind verloren",
+      "schlagzeile": "Outlook hat tagelang Mails abgewiesen – und die kommen nicht zurück",
+      "kurz": "Eine fehlerhafte Spam-Regel von Microsoft hat tagelang legitime E-Mails an Outlook.com-, Hotmail- und Live-Adressen abgewiesen. Microsoft hat das Update zurückgenommen, Absender und Empfänger müssen nichts ändern. Abgewiesene Mails sind aber nicht wiederherstellbar, man muss Absender um erneutes Senden bitten.",
+      "zusammenfassung": "Wer zuletzt auffällig wenige E-Mails im Outlook.com-Postfach hatte, war womöglich betroffen. Laut Windows Latest wurden mindestens ab dem 5. November legitime Mails an Outlook.com-, Hotmail-, Live- und MSN-Adressen abgewiesen. Absender erhielten Fehlermeldungen, ihren Mails fehlten SPF-, DKIM- oder DMARC-Einträge, obwohl das teils nicht stimmte. Microsoft bestätigte gegenüber Windows Latest, dass ein Update der Spam-Regeln die Ursache war. Das Unternehmen hat es zurückgenommen, der Mailfluss läuft laut Windows Latest seit dem 9. November wieder. Weder Absender noch Empfänger müssen Einstellungen ändern. Das Problem: Die abgewiesenen Mails landeten nicht im Spam-Ordner, sondern kamen nie an. Microsoft kann sie deshalb nicht wiederherstellen. Wer wichtige Mails erwartet hat, sollte Absender bitten, sie erneut zu schicken. Admins finden den Vorfall im Microsoft-365-Admin-Center unter der Kennung EX1545193. Wie viele Nutzer betroffen waren, nennt Microsoft nicht.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/12/you-may-have-missed-emails-on-outlook-for-days-as-microsoft-confirms-its-spam-rule-wrongly-blocked-them-and-blamed-senders-settings/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Outlook",
+        "Microsoft",
+        "E-Mail",
+        "Spam"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-outlook-mails-blockiert.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:02.974Z"
+      },
+      "id": "2026-11-12-powershell-signatur-kb5132061",
+      "datum": "2026-11-12T05:08:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "November-Update KB5132061: Strengere Prüfung lässt manche signierte PowerShell-Skripte scheitern",
+      "schlagzeile": "Windows-Update bremst signierte PowerShell-Skripte aus – so geht der Fix",
+      "kurz": "Mit dem November-Sicherheitsupdate prüft Windows die Textkodierung signierter PowerShell-Skripte strenger. Skripte mit fehlerhaftem UTF-8 gelten danach womöglich als nicht signiert und laufen in verwalteten Umgebungen nicht mehr wie gewohnt. Microsoft empfiehlt, sie als UTF-8 mit BOM zu speichern und neu zu signieren.",
+      "zusammenfassung": "Microsoft hat mit dem Update KB5132061 vom 10. November die Prüfung von PowerShell-Signaturen verschärft. Bisher konnte Windows Skripte mit ungültigem UTF-8 noch verarbeiten, indem es fehlerhafte Zeichen ersetzte. Das passiert jetzt nicht mehr, betroffene Dateien werden abgelehnt. Laut Microsoft meldet Get-AuthenticodeSignature dann „NotSigned“ für ein eigentlich signiertes Skript. Set-AuthenticodeSignature kann mit einem Fehler abbrechen. Auf Geräten mit App Control for Business können betroffene Skripte nur noch im eingeschränkten Sprachmodus laufen. Betroffen sind vor allem Skripte mit fehlerhaftem UTF-8, UTF-8 ohne BOM auf Systemen mit anderer Codepage und Dateien in Kodierungen wie Shift-JIS. Microsoft empfiehlt, die Skripte zu prüfen, als gültiges UTF-8 mit BOM zu speichern und neu zu signieren. Ein Beispielskript namens Repair-SignedPowerShellUtf8.ps1 sucht betroffene Dateien und überschreibt keine Originale. Laut Neowin gilt die Änderung neben Windows 11 auch für Windows 10 Enterprise LTSC 2021 und Windows Server 2025. Private Nutzer ohne signierte Skripte merken davon in der Regel nichts.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/latest-windows-11-update-kb5132061-could-break-your-powershell-scripts/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft Support (KB5132061)",
+          "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update"
+        },
+        {
+          "name": "Microsoft Support (Anleitung zur Kodierung)",
+          "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/11/powershell-sip-canonical-repair"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "PowerShell",
+        "KB5132061",
+        "Sicherheit"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-powershell-signatur-kb5132061.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.109Z"
+      },
+      "id": "2026-11-12-tomb-raider-catalyst-switch2",
+      "datum": "2026-11-12T04:01:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Tomb Raider",
+        "Switch 2"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Amazon nennt Tomb Raider: Catalyst auch für Nintendo Switch 2",
+      "schlagzeile": "Tomb Raider: Catalyst kommt wohl auch für die Switch 2",
+      "kurz": "Ein Beitrag auf Amazons offizieller News-Seite nennt die Switch 2 als Plattform für beide kommenden Tomb-Raider-Spiele. Für Legacy of Atlantis war das bekannt, für Catalyst bisher nicht. Amazon ist Publisher von Catalyst, eine Bestätigung von Crystal Dynamics oder Nintendo fehlt noch.",
+      "zusammenfassung": "Laut Insider Gaming steht in einem am 9. November aktualisierten Beitrag von Amazon News, dass beide neuen Tomb-Raider-Spiele für PS5, Xbox Series X/S, Nintendo Switch 2 und Steam erscheinen. Für Tomb Raider: Legacy of Atlantis (2027) war die Switch-2-Version schon offiziell, das Spiel ist im eShop vorbestellbar. Neu ist die Angabe für Tomb Raider: Catalyst. Das Spiel wurde in diesem Jahr auf 2028 verschoben. Catalyst wird von Amazon Game Studios veröffentlicht, daher hat die Angabe Gewicht. Insider Gaming hält einen Fehler im Artikel aber für möglich, auch wenn er seit zwei Tagen unverändert online ist. Crystal Dynamics und Nintendo haben die Switch-2-Fassung noch nicht bestätigt. Technische Details oder einen Termin für die Switch-2-Version gibt es nicht.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/tomb-raider-catalyst-switch-2/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Tomb Raider",
+        "Catalyst",
+        "Switch 2",
+        "Amazon"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-tomb-raider-catalyst-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.236Z"
+      },
+      "id": "2026-11-12-steam-erfolge-linux-64bit",
+      "datum": "2026-11-12T02:16:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam",
+        "Linux"
+      ],
+      "kategorie": "Spiele-Stores",
+      "titel": "Steam-Client-Update: Achievement Sets für alle und der Linux-Client läuft endlich als 64-Bit-Programm",
+      "schlagzeile": "Steam-Update: Neue Erfolge-Sets und 64 Bit für Linux",
+      "kurz": "Valve hat ein neues Steam-Update für alle Nutzer veröffentlicht. Spiele können Erfolge jetzt in Sets für Grundspiel und DLC gruppieren, ohne dass eine 100-Prozent-Wertung verloren geht. Unter Linux ist der Steam-Client nun ein 64-Bit-Programm und läuft in einem Steam-Runtime-Container.",
+      "zusammenfassung": "Valve hat am 11. November ein Steam-Client-Update für den stabilen Kanal veröffentlicht. Wichtigste Neuerung für alle sind die Steam Achievement Sets. Entwickler können Erfolge damit nach Grundspiel und DLC gruppieren. Neue Erfolge oder DLC-Erfolge machen eine bereits vollständige Erfolgs-Sammlung so nicht mehr unvollständig. Saisonale oder nicht mehr erreichbare Erfolge lassen sich archivieren. Dazu kommt eine überarbeitete Erfolgs-Seite. Unter Linux ist der Steam-Client nun eine 64-Bit-Anwendung und läuft in einem Steam-Runtime-Container. Das soll laut Valve für gleiches Verhalten auf verschiedenen Distributionen sorgen, es ist dieselbe Technik, die auch Spiele nutzen. Laut TechPowerUp war Steam unter Linux bisher noch ein 32-Bit-Programm. Zusätzlich behebt das Update unter anderem einen Absturz beim Aufwachen aus dem Standby. Ob Entwickler die neuen Erfolgs-Sets auch nutzen, liegt bei ihnen.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/353772/linux-finally-gets-64-bit-steam-client-and-new-game-achievements-management"
+      },
+      "weitere_links": [
+        {
+          "name": "Steam (Ankündigung Achievement Sets)",
+          "url": "https://store.steampowered.com/news/posts/4149575031735702629"
+        },
+        {
+          "name": "9to5Linux",
+          "url": "https://9to5linux.com/new-steam-client-update-introduces-linux-64-bit-support-steam-achievement-sets"
+        }
+      ],
+      "tags": [
+        "Steam",
+        "Valve",
+        "Linux",
+        "Achievements"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-steam-erfolge-linux-64bit.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.349Z"
+      },
+      "id": "2026-11-12-witcher3-ki-stimme-geralt",
+      "datum": "2026-11-12T01:02:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Witcher"
+      ],
+      "kategorie": "Spiele",
+      "titel": "The Witcher 3: CD Projekt passt die polnische Stimme von Geralt im neuen Add-on per KI an – mit Zustimmung des Sprechers",
+      "schlagzeile": "Nach Schlaganfall: KI lässt Geralts polnische Stimme wieder jung klingen",
+      "kurz": "Im kommenden Witcher-3-Add-on Songs of the Past wird die polnische Stimme von Geralt per KI nachbearbeitet. Sprecher Jacek Rozenek nimmt alle Zeilen selbst auf, seine Stimme hat sich nach einem Schlaganfall 2019 aber hörbar verändert. Das KI-Unternehmen Respeecher gleicht sie mit seiner Zustimmung an den Klang von früher an.",
+      "zusammenfassung": "CD Projekt Red hat bestätigt, für die polnische Fassung der neuen Witcher-3-Erweiterung Songs of the Past KI einzusetzen. Das berichtete zuerst Game File, PC Gamer, VGC und IGN haben es aufgegriffen. Jacek Rozenek spricht Geralt seit jeher auf Polnisch, erlitt 2019 aber einen Schlaganfall und konnte zeitweise nicht sprechen. Nach langem Training kehrte er zurück, seine Stimme klingt heute jedoch tiefer und rauer. Weil die Erweiterung mitten in der Handlung von The Witcher 3 spielt, hätte der Unterschied auffallen können. Rozenek nimmt deshalb weiter alle Zeilen selbst auf, Respeecher passt sie danach an seinen Klang von vor rund zwölf Jahren an. Trainiert wurde das Modell mit seinen früheren Aufnahmen für das Spiel. Rozenek unterstützt das ausdrücklich und sagt, die Stimme solle so nah wie möglich an seiner von damals sein. Lokalisierungsproduzent Mikołaj Szwed nennt es einen Sonderfall wegen der Erkrankung und sieht darin eine ethische Nutzung mit Einwilligung. Für die englische Stimme von Doug Cockle ist laut CD Projekt nichts dergleichen geplant. CD Projekt arbeitete schon bei Cyberpunk 2077: Phantom Liberty mit Respeecher, damals mit Zustimmung der Familie eines verstorbenen Sprechers. Ein Termin für Songs of the Past steht in den Berichten nicht.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      },
+      "weitere_links": [
+        {
+          "name": "VGC",
+          "url": "https://www.videogameschronicle.com/news/the-witcher-3-expansion-uses-ai-to-adjust-geralts-polish-voiceover-because-the-actor-suffered-a-stroke/"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/cd-projekt-red-used-ai-to-alter-geralts-voice-due-to-polish-actors-health-issues"
+        }
+      ],
+      "tags": [
+        "The Witcher 3",
+        "CD Projekt Red",
+        "KI",
+        "Synchronisation"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-witcher3-ki-stimme-geralt.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.467Z"
+      },
+      "id": "2026-11-12-helldivers2-kosmetik-mods",
+      "datum": "2026-11-12T00:29:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Helldivers 2"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Helldivers 2: Nach Anti-Cheat-Wechsel und Review-Welle sollen kosmetische Mods mit dem nächsten Hotfix wieder laufen",
+      "schlagzeile": "Helldivers 2: Arrowhead will harmlose Mods wieder erlauben",
+      "kurz": "Seit dem Wechsel auf Easy Anti-Cheat funktionieren in Helldivers 2 viele Mods nicht mehr, auf Steam folgten über 10.000 negative Reviews. Arrowhead kündigt an, dass einige rein kosmetische Mods mit dem nächsten Hotfix wieder laufen sollen. Mods, die das Gameplay verändern, bleiben verboten.",
+      "zusammenfassung": "Arrowhead hat bei Helldivers 2 das Anti-Cheat-System von GameGuard auf Easy Anti-Cheat umgestellt. Ziel war laut Studio, Mods zu stoppen, die unfaire Vorteile bringen oder anderen schaden. Dabei hörten aber auch harmlose kosmetische Mods auf zu funktionieren. Die Reaktion fiel heftig aus: Laut PC Gamer kamen über 10.000 neue negative Steam-Reviews dazu, die jüngsten Bewertungen stehen auf „größtenteils negativ“. Im neuen Entwickler-Blog räumt Arrowhead ein, dass PC-Spieler Fan-Mods verloren haben. Nach Anpassungen sollen einige kosmetische Mods mit dem nächsten Hotfix wieder funktionieren. Mods, die das Gameplay verändern, bleiben verboten, weil sie technisch nicht von Cheats zu unterscheiden seien. Offiziell unterstützt werden Mods weiterhin nicht. Arrowhead entschuldigt sich außerdem für eine ungenaue Roadmap und verpasste Patch-Termine. Für Anfang Dezember sind unter anderem Jetpacks beim Tragen zweihändiger Gegenstände geplant. Ein Datum für den Hotfix nennt das Studio nicht.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/third-person-shooter/after-cracking-down-on-cheat-mods-in-helldivers-2-and-taking-another-steam-review-beating-arrowhead-plans-hotfix-that-should-allow-harmless-cosmetics/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Helldivers 2",
+        "Arrowhead",
+        "Mods",
+        "Anti-Cheat"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-helldivers2-kosmetik-mods.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.583Z"
+      },
+      "id": "2026-11-12-marvel-1943-fast-fertig",
+      "datum": "2026-11-12T00:27:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Marvel 1943"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Bericht: Marvel 1943: Rise of Hydra soll fast fertig sein, aber deutlich kleiner als geplant",
+      "schlagzeile": "Leak: Ist Marvel 1943 fast fertig – aber stark zusammengestrichen?",
+      "kurz": "Nach Gerüchten über eine Einstellung berichtet Kotaku, Marvel 1943: Rise of Hydra sei nahezu fertig. Das Spiel soll aber deutlich weniger Inhalt und spielerische Tiefe bieten als geplant. Skydance hat dazu nichts Offizielles gesagt.",
+      "zusammenfassung": "Um Marvel 1943: Rise of Hydra, das Captain-America- und Black-Panther-Spiel von Amy Hennig, gab es zuletzt Gerüchte über eine bevorstehende Einstellung. Laut Kotaku und Bloomberg-Reporter Jason Schreier hat die Führung von Skydance den Mitarbeitern per Slack mitgeteilt, dass das nicht stimmt. Kotaku berichtet zudem, das Spiel sei „close to done“, also fast fertig. Die Entwicklung soll aber schwierig gewesen sein und das Budget deutlich überschritten haben. Deshalb seien Umfang und Spieldauer stark gekürzt worden. Laut den Quellen von Kotaku ist das Spiel „light on gameplay“, vieles laufe über eine einzige Taste. Ursprünglich soll Marvel 1943 als Netflix-Spiel begonnen haben. Angekündigt wurde es 2024, seitdem wurde es mehrfach verschoben. Einen Termin gibt es nicht. Alle Angaben stammen aus anonymen Quellen, Skydance hat sie nicht bestätigt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/marvel-1943-rise-of-hydra-is-reportedly-close-to-done-though-at-the-cost-of-cutting-back-on-content-and-length"
+      },
+      "weitere_links": [],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Bericht von Kotaku mit anonymen Quellen, Teile von Jason Schreier (Bloomberg) gestützt; über IGN (Bewertung hoch) aufgegriffen; von Skydance nicht bestätigt."
+      },
+      "ursprungsquelle": "Kotaku (via IGN)",
+      "tags": [
+        "Marvel 1943",
+        "Skydance",
+        "Amy Hennig"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-marvel-1943-fast-fertig.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.692Z"
+      },
+      "id": "2026-11-12-nvidia-board-huang-abloesung",
+      "datum": "2026-11-12T00:14:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Berichte: Nvidia-Verwaltungsrat berät über Absetzung von CEO Jensen Huang und sucht bereits Nachfolger",
+      "schlagzeile": "Nvidia vor dem Chefwechsel? Verwaltungsrat berät über Huangs Absetzung",
+      "kurz": "Laut Wall Street Journal bereitet Nvidias Verwaltungsrat die Absetzung von Firmengründer und CEO Jensen Huang vor. Auslöser ist ein Bericht der New York Times über eine zweite außereheliche Beziehung, diesmal zu einer ihm direkt unterstellten Managerin. Bloomberg zufolge sucht eine externe Firma bereits nach Nachfolgern. Bis heute mittag hat Nvidia weiterhin keine Entscheidung bekanntgegeben; die Meldungen beruhen auf anonymen Quellen.",
+      "zusammenfassung": "Die Krise um Nvidia-Chef Jensen Huang spitzt sich zu. Nach Berichten des Wall Street Journal wollte der Verwaltungsrat am Mittwochabend (US-Zeit) über Huangs Zukunft beraten, eine Absetzung stehe im Raum. Auslöser ist ein neuer Bericht der New York Times: Huang soll neben der bereits eingeräumten Affäre auch eine Beziehung zu einer Vizepräsidentin gehabt haben, die direkt an ihn berichtet. Die Zeitung beruft sich auf fünf frühere Beschäftigte, ein angebliches Video eines Vorfalls im März hat sie nach eigenen Angaben nicht selbst gesehen. Weder Nvidia noch die Betroffenen haben den Bericht bestätigt. Laut Bloomberg arbeitet der Verwaltungsrat bereits mit einer externen Firma an der Suche nach einem Nachfolger, auch ein Interims-CEO werde erwogen. Hintergrund ist die seit Sonntag laufende Untersuchung zu Huangs Affäre mit einer Managerin des Nvidia-Kunden Megaspeed, die von US-Behörden als mutmaßliche chinesische Agentin eingestuft worden sein soll; China weist das zurück. Huang führt Nvidia seit der Gründung 1993, einen benannten Nachfolger gibt es laut PCGH nicht. Laut PCGH reicht für eine Abberufung die einfache Mehrheit der Direktoren. Die Aktie verlor nach den Berichten nachbörslich rund acht Prozent und fiel auf ein 52-Wochen-Tief. Am kommenden Dienstag legt Nvidia Quartalszahlen vor, am Mittwoch darauf ist ein vertrauliches Briefing im US-Kongress geplant. Konkrete Auswirkungen auf GeForce-Karten, Preise oder Treiber sind bisher nicht bekannt. Wichtig: Alles beruht auf Medienberichten mit anonymen Quellen von Wall Street Journal, New York Times und Bloomberg; bis heute mittag hat Nvidia keine Entscheidung bekanntgegeben, die Lage kann sich ändern.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/nvidia-krise-verwaltungsrat-beraet-ueber-rauswurf-von-jensen-huang.100297/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-Jensen-Huang-Affaere-Abloesung-CEO-Nachfolger-1559660/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Jensen-Huang-nach-weiterer-Affaere-mit-Mitarbeiterin-wohl-vor-dem-Aus-bei-Nvidia-11521625.html"
+        },
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/zweite-affaere-nvidia-erwaegt-offenbar-jensen-huangs-absetzung-2611-215113.html"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/nvidia-board-is-preparing-to-potentially-oust-ceo-jensen-huang"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Unternehmen",
+        "Aktie"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-nvidia-board-huang-abloesung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.780Z"
+      },
+      "id": "2026-11-12-golden-joystick-2026",
+      "datum": "2026-11-11T22:31:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Awards"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Golden Joystick Awards 2026: Resident Evil Requiem ist Spiel des Jahres, Crimson Desert gewinnt am PC",
+      "schlagzeile": "Golden Joysticks: Resident Evil Requiem holt den Spiel-des-Jahres-Titel",
+      "kurz": "Bei den 44. Golden Joystick Awards hat Resident Evil Requiem den Hauptpreis als Ultimate Game of the Year gewonnen. Bestes PC-Spiel wurde Crimson Desert. Der Multiplayer-Hit Meccha Chameleon räumte vier Preise ab, The Witcher 4 ist das meisterwartete Spiel.",
+      "zusammenfassung": "Die Golden Joystick Awards gelten als ältestes Publikumsvoting der Spielebranche und fanden 2026 zum 44. Mal statt. Den Hauptpreis als Ultimate Game of the Year holte Resident Evil Requiem von Capcom. Das Horrorspiel gewann außerdem als bestes Konsolenspiel, für den besten Trailer und für die beste Hauptdarstellerin, Angela Sant'Albano als Grace Ashcroft. Capcom wurde laut TheGameVerse zudem Studio des Jahres. Bestes PC-Spiel wurde Crimson Desert, obwohl es auch auf Konsolen erscheint. Das Versteckspiel Meccha Chameleon gewann vier Preise: bestes Multiplayer-Spiel, bestes selbst veröffentlichtes Indie-Spiel, Streamers' Choice und Developers' Choice. The Witcher 3: Wild Hunt Remastered wurde bestes Remaster, The Witcher 4 meisterwartetes Spiel. Als beste Gaming-Hardware wählten die Fans den Steam Controller. Weitere Preise gingen an Onimusha: Way of the Sword (Audio), Control: Resonant (Grafikdesign), Doom: The Dark Ages – Revelations (Erweiterung) und Subnautica 2 (Early Access). Veranstalter der Awards ist der Verlag von PC Gamer.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/"
+      },
+      "weitere_links": [
+        {
+          "name": "TheGameVerse auf X (Gewinnerliste)",
+          "url": "https://x.com/TheGameVerse/status/2120750515277709426"
+        }
+      ],
+      "tags": [
+        "Golden Joystick Awards",
+        "Resident Evil Requiem",
+        "Crimson Desert",
+        "Awards"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-golden-joystick-2026.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.876Z"
+      },
+      "id": "2026-11-12-gta6-clip-realistisch",
+      "datum": "2026-11-11T21:49:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6: Rockstar teilt Ingame-Clip, den viele für ein echtes Handyvideo aus Miami halten",
+      "schlagzeile": "Echt oder GTA 6? Neuer Clip von Rockstar narrt das Netz",
+      "kurz": "Ein rund 15 Sekunden langer GTA-6-Clip aus Ego-Perspektive sorgt für Diskussionen, weil viele ihn für ein echtes Video halten. Er bildet ein reales Handyvideo der GTA-Autos aus der Marketing-Aktion in Miami nach. Rockstar teilte den Clip in seiner Instagram-Story, was laut IGN auf echtes Spielmaterial hindeutet.",
+      "zusammenfassung": "Eine Woche vor dem Start von GTA 6 sorgt ein kurzer Clip für Staunen. Ursprünglich tauchte er beim Instagram-Konto „Only in Dade“ auf, das skurrile Szenen aus Miami-Dade sammelt. Zu sehen ist eine Fahrt über den Ocean Drive, vorbei an einer Reihe auffälliger Autos, dazu eine zweite Perspektive vom Gehweg. Der Clip bildet laut IGN, Polygon und Insider Gaming ein echtes Video nach, das im Oktober bei Rockstars Marketing-Aktion mit nachgebauten GTA-Autos in Miami entstand. Viele Zuschauer hielten das Material zunächst für reale Aufnahmen oder für KI. Rockstar teilte den Clip in seiner Instagram-Story und markierte ihn mit „Gefällt mir“, was IGN als starkes Zeichen für echtes Spielmaterial wertet. Ausdrücklich bestätigt hat Rockstar es nach Polygon-Angaben aber nicht. Der Look könnte laut Spekulationen von Fans zeigen, wie Aufnahmen mit der Handykamera im Spiel aussehen. Insider Gaming betont, dass der Clip nichts über einen möglichen Ego-Modus aussagt. GTA 6 erscheint am 19. November für PS5 und Xbox Series X/S und läuft laut Rockstar auf Konsolen mit 30 fps. Das Preloading läuft bereits.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/new-gta-6-surprise-gameplay-seemingly-released-in-yet-another-viral-marketing-stunt"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-new-gameplay-onlyindade-ai-real-fake-rockstar-instagram/"
+        },
+        {
+          "name": "GamePro (News-Übersicht)",
+          "url": "https://www.gamepro.de/news/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Grafik",
+        "Marketing"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-gta6-clip-realistisch.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.986Z"
+      },
+      "id": "2026-11-12-black-forest-games-unabhaengig",
+      "datum": "2026-11-11T21:37:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Branche"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "Black Forest Games kauft sich von Embracer frei und gründet die Studiogruppe Third Signal",
+      "schlagzeile": "Deutsches Destroy-All-Humans-Studio kauft sich von Embracer frei",
+      "kurz": "Das deutsche Studio Black Forest Games hat sich per Management-Buy-out von THQ Nordic und Embracer gelöst. Es gründet zugleich Third Signal, eine Gruppe unabhängiger Studios. Mit THQ Nordic arbeitet das Team weiter zusammen.",
+      "zusammenfassung": "Black Forest Games ist nach neun Jahren unter dem Dach von THQ Nordic und Embracer wieder eigenständig. Das gelang laut Eurogamer und PC Gamer über einen Management-Buy-out. Das Studio entwickelte unter anderem Giana Sisters: Twisted Dreams und die Remakes der ersten beiden Destroy-All-Humans-Spiele. Gegründet wurde es von früheren Mitarbeitern von Spellbound Entertainment, bekannt für Desperados und Arcania: Gothic 4. Zusammen mit der Unabhängigkeit startet Third Signal, eine Gruppe unabhängiger Studios, die künftig auch anderen Indie-Teams helfen soll. Third-Signal-Chef Andreas Tobler sagt sinngemäß, viele der besten Spiele des letzten Jahrzehnts stammten von Teams mit 50 statt 500 Leuten. Laut Pressemitteilung arbeiten THQ Nordic und Black Forest Games weiter bei der Entwicklung zusammen. Die Rechte an Destroy All Humans hat das Studio offenbar nicht übernommen. Geschäftsführer Adrian Goersch kündigt ein neues Projekt an, Details nennt er nicht. Das Studio war 2024 von Embracers Entlassungen betroffen und verlor damals rund 50 Stellen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/gaming-industry/giana-sisters-developer-black-forest-games-buys-itself-out-of-embracer-some-of-the-best-games-of-the-last-decade-came-from-teams-of-fifty-not-five-hundred/"
+        }
+      ],
+      "tags": [
+        "Black Forest Games",
+        "Embracer",
+        "THQ Nordic",
+        "Third Signal"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-black-forest-games-unabhaengig.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.101Z"
+      },
+      "id": "2026-11-12-nintendo-dmca-github",
+      "datum": "2026-11-11T21:14:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Nintendo"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Nintendo lässt per DMCA 144 GitHub-Repositorys mit Switch-Modchip-Firmware und zwei Emulatoren entfernen",
+      "schlagzeile": "Nintendo räumt GitHub auf: Switch-Emulatoren und Modchip-Firmware weg",
+      "kurz": "Nintendo hat vier DMCA-Beschwerden an GitHub geschickt, die sich gegen die Switch-Emulatoren Yuzu und Citron Neo sowie gegen Modchip-Firmware richten. GitHub hat 144 Repositorys mit der Firmware entfernt. Laut TorrentFreak ist sie an anderer Stelle auf der Plattform aber weiterhin zu finden.",
+      "zusammenfassung": "Nintendo geht erneut gegen Werkzeuge zum Umgehen des Switch-Kopierschutzes vor. Laut IGN gingen vier DMCA-Beschwerden bei GitHub ein, die das Unternehmen öffentlich dokumentiert hat. Im Visier stehen die Emulatoren Yuzu und Citron Neo, vor allem aber Firmware für Modchips wie Picofly. Solche Chips werden auf die Switch-Hauptplatine gelötet und umgehen den Kopierschutz. Von der Firmware hat GitHub 144 Repositorys entfernt und durch einen DMCA-Hinweis ersetzt. Nintendo argumentiert in der Beschwerde vom 6. November, die technischen Schutzmaßnahmen sollten das Spielen von Raubkopien und auf fremden Geräten verhindern. Laut TorrentFreak ist die Firmware an anderen Stellen auf GitHub aber weiterhin verfügbar. Schon 2024 hatte Nintendo rund 8.500 Kopien von Yuzu entfernen lassen. IGN bringt die neue Welle mit Berichten in Verbindung, wonach Emulatoren kurz zuvor das neue Ocarina-of-Time-Remake am PC lauffähig gemacht haben; ein direkter Zusammenhang ist nicht belegt. Ob Nintendo weitere Schritte plant, ist offen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Nintendo",
+        "Switch",
+        "Emulation",
+        "DMCA",
+        "GitHub"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-nintendo-dmca-github.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.209Z"
+      },
+      "id": "2026-11-12-id-veteranen-hidden-horses",
+      "datum": "2026-11-11T21:09:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Branche"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "Rund 20 frühere id-Software-Entwickler gründen das Studio Hidden Horses und planen einen Arena-Shooter",
+      "schlagzeile": "Nach Xbox-Entlassungen: Ex-id-Entwickler gründen eigenes Shooter-Studio",
+      "kurz": "Rund 20 ehemalige Entwickler von id Software haben das Studio Hidden Horses gegründet, das den Beschäftigten selbst gehört. Ihr erstes Projekt ist der Einzelspieler-Arena-Shooter Danger Pay. Finanziert werden soll er unter anderem über Kickstarter.",
+      "zusammenfassung": "Bei den Xbox-Entlassungen im Juli 2026 verlor id Software laut Berichten 136 Entwickler. Rund 20 von ihnen haben jetzt Hidden Horses gegründet, ein Studio im Besitz der Beschäftigten. Laut PC Gamer bringen die Gründer zusammen über 250 Jahre Erfahrung mit. Das Studio soll demokratisch geführt werden und langfristige Stabilität über schnelles Wachstum und fragwürdige Monetarisierung stellen. Mitgründer Dustin Land sagt, man wolle das Team zusammenhalten und klassische Shooter machen. Das erste Spiel heißt Danger Pay, ein Einzelspieler-Arena-Shooter rund um eine brutale TV-Spielshow. Als Vorbilder nennt das Studio den Film The Running Man von 1987 und das Arcade-Spiel Smash TV. Für die Finanzierung ist eine Kickstarter-Kampagne geplant. Plattformen, Termin und Kickstarter-Start sind noch nicht bekannt.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "id Software",
+        "Hidden Horses",
+        "Danger Pay",
+        "Shooter"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-id-veteranen-hidden-horses.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.315Z"
+      },
+      "id": "2026-11-12-tes6-sentinel-pause",
+      "datum": "2026-11-11T20:36:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Elder Scrolls"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Bethesda: Zum Skyrim-Jubiläum keine Neuigkeiten zu The Elder Scrolls 6: Sentinel – und auch „für einige Zeit“ nicht",
+      "schlagzeile": "15 Jahre Skyrim, aber kein Elder Scrolls 6: Bethesda bremst die Fans",
+      "kurz": "Zum 15. Geburtstag von Skyrim hatten Fans auf Neuigkeiten zu The Elder Scrolls 6: Sentinel gehofft. Bethesda Game Studios stellte auf Reddit klar, dass es keine große Ankündigung gibt. Neues zu Sentinel werde es „für einige Zeit“ nicht geben.",
+      "zusammenfassung": "Am 11. November wurde The Elder Scrolls V: Skyrim 15 Jahre alt. Im Subreddit zu The Elder Scrolls 6 spekulierten Fans auf eine Überraschung zum Jubiläum, angeheizt durch einen Podcast-Teaser zu einer „großen Ankündigung“. Der Podcaster stellte später klar, dass sie nichts mit Bethesda zu tun hat. Dann meldete sich auch das offizielle Konto von Bethesda Game Studios auf Reddit. Man werde keine große Ankündigung machen und „für einige Zeit“ nichts Neues zu Sentinel zeigen, schrieb das Studio. Den Titel Sentinel hatte Bethesda erst Anfang November offiziell gemacht. Angekündigt wurde The Elder Scrolls 6 bereits 2018. Zum Jubiläum gibt es Skyrim auf allen Plattformen günstiger. The Elder Scrolls Online macht das Greymoor-Kapitel kostenlos zum Teil des Grundspiels, eine Skyrim-Aktion läuft dort bis 2. Dezember. Wann es neue Infos zu Sentinel gibt, ist offen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/dont-expect-elder-scrolls-6-sentinel-for-some-time-bethesda"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-shoots-down-elder-scrolls-6-sentinel-announcement-rumor-on-skyrims-15th-anniversary/"
+        }
+      ],
+      "tags": [
+        "The Elder Scrolls 6",
+        "Sentinel",
+        "Skyrim",
+        "Bethesda"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-12-tes6-sentinel-pause.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.406Z"
+      },
+      "id": "2026-11-11-xbox-cloud-ohne-game-pass",
+      "datum": "2026-11-11T19:00:15+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Xbox Cloud Gaming ohne Game Pass: Spielzeit kaufen oder kostenlos mit Werbung streamen",
+      "schlagzeile": "Xbox Cloud Gaming öffnet sich: Stunden kaufen oder gratis mit Werbung",
+      "kurz": "Seit 11. November können Spieler in unterstützten Ländern Xbox-Cloud-Spielzeit auch ohne Game-Pass-Abo kaufen. Zusätzlich bewirbt Xbox kostenloses Streaming mit Werbung, mit Zeitlimit pro Sitzung. Gestreamt werden nur Spiele, die man besitzt, oder ausgewählte Free-to-Play-Titel.",
+      "zusammenfassung": "Microsoft baut Xbox Cloud Gaming um. Laut Xbox Wire können Spieler in unterstützten Märkten seit dem 11. November Cloud-Spielzeit im Xbox Store kaufen, ohne Game Pass zu abonnieren. In der Insider-Testphase kosteten die werbefreien Pakete 3,99 Dollar für 10, 7,99 Dollar für 25 und 11,99 Dollar für 50 Stunden; das waren ausdrücklich Einführungspreise, Euro-Preise sind in den Quellen nicht genannt. Gekaufte Stunden verfallen nicht und bieten laut Xbox kürzere Wartezeiten und bessere Streamqualität. Auf der offiziellen Cloud-Gaming-Seite und auf X bewirbt Xbox zudem kostenloses Streaming mit Werbung, wo verfügbar, mit Zeitlimits pro Sitzung. Im Insider-Test lag das Limit laut The Verge bei einer Stunde. Gestreamt werden können eigene Spiele, ausgewählte Free-to-Play-Titel und Game-Pass-Spiele. Für Game-Pass-Abonnenten gibt es seit November Monatskontingente: 15 Stunden bei Ultimate, 10 bei Premium und 5 bei Essential. Wer sie verbraucht, kann Stunden dazukaufen oder auf die Werbe-Variante ausweichen. Pünktlich dazu startet GTA 6 am 19. November per Cloud auch auf der Xbox One. Welche Länder zum Start dabei sind, ist offen.",
+      "quelle": {
+        "name": "Xbox",
+        "url": "https://x.com/XBOX/status/2120577357769564501"
+      },
+      "weitere_links": [
+        {
+          "name": "Xbox Wire (GTA VI per Cloud, Spielzeit ab 11.11.)",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "name": "Xbox Cloud Gaming (offizielle Seite)",
+          "url": "https://www.xbox.com/en-US/cloud-gaming"
+        },
+        {
+          "name": "Xbox Wire (Preise im Insider-Test)",
+          "url": "https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/"
+        },
+        {
+          "name": "Xbox Wire (Monatskontingente)",
+          "url": "https://news.xbox.com/en-us/2026/09/03/xbox-cloud-gaming-changes/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1015321/xbox-cloud-gaming-pay-as-you-go-cloud-hours-pricing"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Cloud Gaming",
+        "Game Pass",
+        "Streaming"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-xbox-cloud-ohne-game-pass.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.493Z"
+      },
+      "id": "2026-11-11-dark-souls-server-zurueck",
+      "datum": "2026-11-11T18:05:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Online"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Dark Souls 2 und 3: Online-Funktionen nach fast zwei Wochen Ausfall wieder verfügbar",
+      "schlagzeile": "Dark Souls 2 und 3 sind wieder online – Ursache bleibt geheim",
+      "kurz": "Nach knapp zwei Wochen Pause laufen die Online-Funktionen von Dark Souls 2 und 3 wieder auf allen Plattformen. Invasionen und Nachrichten funktionieren laut PC Gamer wieder. Was genau das Serverproblem war, hat FromSoftware nicht verraten.",
+      "zusammenfassung": "Die Server von Dark Souls 2 und Dark Souls 3 sind wieder in Betrieb. Knapp zwei Wochen zuvor waren die Mehrspieler-Funktionen beider Spiele wegen eines nicht näher erklärten Serverproblems auf allen Plattformen abgeschaltet worden. Auf der offiziellen Dark-Souls-Seite heißt es nun knapp, die Untersuchung sei abgeschlossen, ein Fix eingespielt und die Online-Funktionen seien wiederhergestellt. Damit funktionieren laut PC Gamer Invasionen und Nachrichten wieder wie gewohnt. Die Ursache nennt FromSoftware weiterhin nicht. Zum Vergleich: 2022 waren die PC-Server aller Dark-Souls-Spiele fast ein Jahr lang offline, damals wegen einer Sicherheitslücke, über die Schadcode ausgeführt werden konnte. Ob diesmal ebenfalls ein Sicherheitsproblem dahintersteckte, ist nicht bekannt. Während der Pause halfen Fan-Mods wie Seamless Co-op, die unabhängig von den offiziellen Servern laufen. Wer die klassischen Invasionen spielen will, kann das jetzt wieder.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/dark-souls/dark-souls-2-and-3-multiplayer-is-back-we-still-dont-know-what-went-wrong-but-at-least-it-didnt-take-almost-a-year-to-fix-it/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Dark Souls",
+        "FromSoftware",
+        "Server",
+        "Multiplayer"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-dark-souls-server-zurueck.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.581Z"
+      },
+      "id": "2026-11-11-kb5132061-installationsfehler",
+      "datum": "2026-11-11T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11: Microsoft bestätigt Installationsfehler bei KB5132061 und verteilt eine automatische Reparatur",
+      "schlagzeile": "Microsoft bestätigt KB5132061-Fehler – Fix kommt per Windows Update",
+      "kurz": "Microsoft hat die Installationsprobleme beim November-Sicherheitsupdate KB5132061 inzwischen offiziell bestätigt. Auf betroffenen Windows-11-PCs bricht die Installation ab oder wird wiederholt versucht, typische Fehlercodes sind 0x800f0993, 0x800f0989 und 0x80070306. Laut Microsoft läuft eine Reparatur automatisch über Windows Update und soll betroffene Geräte innerhalb von 24 bis 48 Stunden nach dem Start am Mittwoch um 19 Uhr Wiener Zeit erreichen; danach wird das Sicherheitsupdate selbst nachinstalliert. Nutzer müssen dafür nichts tun, außer online zu bleiben und Updates über die Einstellungen zu beziehen.",
+      "zusammenfassung": "Das November-Sicherheitsupdate KB5132061 lässt sich auf einem Teil der Windows-11-PCs nicht installieren, die Installation bricht teilweise erst bei 99 Prozent ab, und wiederholte Versuche helfen oft nicht. Gemeldet werden die Fehlercodes 0x800f0993, 0x800f0989 und 0x80070306, vereinzelt auch 0x800f0922. Microsoft hat das Problem am Mittwoch als bekanntes Problem in den englischen Versionshinweisen zu KB5132061 dokumentiert. Laut den Angaben des Konzerns wird eine Reparatur automatisch auf betroffenen Geräten ausgeführt, die mit dem Internet verbunden sind und Updates über die Einstellungen beziehen; manuelle Schritte sind dafür nicht nötig. Alle betroffenen Geräte sollen innerhalb von 24 bis 48 Stunden nach dem Start am Mittwoch um 19 Uhr Wiener Zeit (10 Uhr Pazifikzeit) den Fix erhalten und das Sicherheitsupdate anschließend selbst herunterladen und installieren. Eine von BleepingComputer zitierte Microsoft-Service-Meldung schränkt ein, betroffen sei nur ein Teil der Geräte mit dem optionalen Oktober-Vorschauupdate KB5127936; Geräte ohne dieses Vorschauupdate seien nicht betroffen. Was genau die Ursache ist, nennt Microsoft nicht. Zuvor hatten unter anderem Windows Latest und das Portal DrWindows über die Fehler berichtet, viele Systeme waren aber nie betroffen. Frühere Hinweise auf die Windows-Sandbox oder auf DISM und sfc bleiben damit zweitrangig, weil der Konzern jetzt zum Abwarten auf die automatische Reparatur rät. Wer nach Ablauf der 48 Stunden immer noch nicht installieren kann, soll laut Microsoft die Windows-Hilfe nutzen oder den Support kontaktieren. Es bleibt ein Sicherheitsupdate, deshalb sollte man es nicht dauerhaft aussetzen.",
+      "quelle": {
+        "name": "Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update"
+      },
+      "weitere_links": [
+        {
+          "name": "Dr. Windows",
+          "url": "https://www.drwindows.de/news/installationsfehler-0x800f0993-beim-windows-11-november-update-problem-laut-microsoft-geloest"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
+        },
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-explains-how-windows-11-kb5132061-install-fail-bug-is-being-fixed/"
+        },
+        {
+          "name": "Windows Latest",
+          "url": "https://www.windowslatest.com/2026/11/11/microsoft-investigates-windows-11-kb5132061-issues-0x800f0993-0x80070306-and-0x800f0989-installation-errors/"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "KB5132061",
+        "Patchday",
+        "Update-Fehler"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-kb5132061-installationsfehler.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.676Z"
+      },
+      "id": "2026-11-11-harada-xbox-series-s",
+      "datum": "2026-11-11T15:09:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Ex-Tekken-Chef Katsuhiro Harada: Konsolen wie die Xbox Series S sollten nicht erscheinen",
+      "schlagzeile": "Tekken-Legende Harada über Series S: „Extraarbeit für ein schwächeres Kind“",
+      "kurz": "Katsuhiro Harada hat auf einer Entwicklerkonferenz in Südkorea die Xbox Series S kritisiert, während ein Xbox-Vertreter im Saal saß. Das Problem sei vor allem, dass sie der Series X so ähnlich, aber spürbar schwächer sei. Ein CD-Projekt-Entwickler hielt dagegen: Die Optimierung helfe allen Plattformen.",
+      "zusammenfassung": "Katsuhiro Harada, lange Chef der Tekken-Reihe und inzwischen Leiter des neuen Studios VS Studio, hat sich auf der Console Game Developers Conference 2026 in Südkorea deutlich über die Xbox Series S geäußert. Laut Inven Global, zitiert von Eurogamer, sagte er vor einem anwesenden ranghohen Xbox-Vertreter, er wünsche sich, dass Hardware wie die Series S nicht veröffentlicht werde. Das größte Problem sei nicht nur der knappe Speicher, sondern dass die Konsole der Series X sehr ähnlich, aber unglücklich schwächer sei. Nach der besten Fassung fühle es sich an, als müsse man Extraarbeit für ein etwas schwächeres Kind leisten. Bei der Switch 2 könne man dagegen gedanklich auf ein eigenes Gerät für Nintendo-Fans umschalten. Weil es etwa in den USA mehr Series-S- als Series-X-Nutzer gebe, könne man nicht sparen, und Beschwerden über schlechtere Texturen landeten dann bei den Entwicklern. Paweł Sasko von CD Projekt Red hielt dagegen: Die Optimierung für schwächere Hardware lasse Spiele auf allen Plattformen deutlich besser laufen, und der niedrige Preis vergrößere den Markt. Shift-Up-Technikchef DongKi Lee sagte, er freue sich auf die nächste Xbox mit dem Codenamen Helix. Es handelt sich um eine Meinungsäußerung auf einem Podium, nicht um eine offizielle Position von Microsoft oder eines Studios.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release"
+      },
+      "weitere_links": [
+        {
+          "name": "Video Games Chronicle",
+          "url": "https://www.videogameschronicle.com/news/katsuhiro-harada-says-he-wishes-xbox-series-s-didnt-exist-because-its-like-doing-extra-work-for-a-slightly-weaker-child/"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/"
+        }
+      ],
+      "tags": [
+        "Xbox Series S",
+        "Tekken",
+        "Katsuhiro Harada",
+        "Entwickler"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-harada-xbox-series-s.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.769Z"
+      },
+      "id": "2026-11-11-rtx5080-24gb-gestrichen",
+      "datum": "2026-11-11T14:09:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Berichte: Nvidia soll die RTX 5080 mit 24 GB gestrichen haben – 16-GB-Modell bleibt",
+      "schlagzeile": "Leak: Nvidia soll die RTX 5080 mit 24 GB gestrichen haben",
+      "kurz": "Laut dem chinesischen Branchenkanal Board Channels hat Nvidia seinen Boardpartnern den für Jänner 2027 geplanten Start einer RTX 5080 mit 24 GB abgesagt. Grund sollen die teuren 3-GB-GDDR7-Chips sein. Die RTX 5080 mit 16 GB soll weiter produziert werden. Nvidia hat dazu nichts bestätigt.",
+      "zusammenfassung": "Eine RTX 5080 mit 24 GB Grafikspeicher wird es nach neuen Berichten vorerst nicht geben. TechPowerUp beruft sich auf den chinesischen Branchenkanal Board Channels, wonach Nvidia die Boardpartner offiziell über das Aus für den geplanten Start im Jänner 2027 informiert haben soll. Als Grund werden die Kosten genannt: 3-GB-GDDR7-Chips sollen laut dem von PC Gamer zitierten Beitrag etwa dreimal so viel kosten wie die bisher verbauten 2-GB-Chips. Mit dem teureren Speicher hätte die Karte zu einem Preis erscheinen müssen, der sich kaum verkaufen ließe. Die bekannte RTX 5080 mit 16 GB soll deshalb weiter gebaut werden. Laut früheren Gerüchten hätte das 24-GB-Modell die gleiche Zahl an Recheneinheiten gehabt, aber mehr Speicher, mehr Bandbreite und etwas höhere Taktraten. PC Gamer weist darauf hin, dass es zuvor sogar hieß, die 24-GB-Version könnte die RTX 5090 und die 16-GB-Variante ersetzen; Nvidia-Manager Jeff Fisher hatte aber betont, dass die Produktion der RTX 5090 nicht eingestellt sei. Ein Super-Refresh ist laut TechPowerUp derzeit nicht in Sicht, die nächste große Stufe wäre die RTX-60-Serie. Wichtig: Schon das 24-GB-Modell selbst war nie offiziell angekündigt, es geht also um das Gerücht über das Ende eines Gerüchts. Nvidia hat sich nicht geäußert.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354686/nvidia-geforce-rtx-5080-24-gb-reportedly-cancelled-16-gb-model-remains"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/apparently-now-we-wont-see-a-24-gb-rtx-5080-which-is-probably-actually-good-for-our-wallets/"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Geforce-RTX-5080-Grafikkarte-281030/News/Nvidia-streicht-24-GiB-Modell-1559572/"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/nvidia-reportedly-cancelled-rtx-5080-24-gb-as-3-gb-gddr7-is-way-too-expensive/"
+        }
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Board Channels ist eine bekannte, aber nicht immer treffsichere Lieferketten-Quelle; von TechPowerUp, PC Gamer, PCGH und Wccftech aufgegriffen, von Nvidia unbestätigt."
+      },
+      "ursprungsquelle": "Board Channels (via VideoCardz, Gazlog, harukaze5719)",
+      "tags": [
+        "RTX 5080",
+        "Nvidia",
+        "GDDR7",
+        "Grafikspeicher"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-rtx5080-24gb-gestrichen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.866Z"
+      },
+      "id": "2026-11-11-gta6-de-cix-rekord",
+      "datum": "2026-11-11T13:49:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Vorab-Download von GTA 6: Internetknoten DE-CIX misst neuen Datenrekord",
+      "schlagzeile": "GTA-6-Download sprengt Rekord: 22,3 Terabit pro Sekunde in Frankfurt",
+      "kurz": "Am ersten Abend des Vorab-Downloads von GTA 6 hat der Internetknoten DE-CIX in Frankfurt einen neuen Spitzenwert von 22,30 Terabit pro Sekunde gemessen. Auch weltweit meldet der Betreiber einen Rekord. Spielbar ist GTA 6 ab Mitternacht zum 19. November.",
+      "zusammenfassung": "Der Start des Vorab-Downloads von Grand Theft Auto VI hat messbare Spuren im Netz hinterlassen. Wie der Betreiber des DE-CIX Golem auf Anfrage mitteilte, erreichte der Knoten in Frankfurt am 10. November um 20:20 Uhr einen neuen Spitzenwert von 22,30 Terabit pro Sekunde. Das sind 19,06 Prozent mehr als beim bisherigen Höchstwert seit Jänner 2026. Über alle DE-CIX-Standorte weltweit wurden 33,01 Terabit pro Sekunde gemessen, ebenfalls ein Rekord. DE-CIX-Technikchef Thomas King erklärte, große Spielestarts gehörten zu den Ereignissen, die den Verkehr sehr schnell stark steigen lassen. Der DE-CIX Frankfurt gilt nach Datendurchsatz als größter Internetknoten Europas. Der Vorab-Download für PS5 und Xbox Series X|S startete in der Nacht auf den 10. November, die Datei ist rund 210 bis 212 GB groß. Auch ein deutscher Internetanbieter meldete laut PC Games ein Vielfaches des üblichen Gaming-Datenverkehrs. Spielbar ist GTA 6 ab dem 19. November um Mitternacht. Ob der Starttag selbst noch einmal neue Rekorde bringt, bleibt abzuwarten.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/downloadstart-de-cix-verzeichnet-wegen-gta-vi-neue-datenrekorde-2611-215089.html"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games",
+          "url": "https://www.pcgames.de/GTA-6-Spiel-55239/News/Deutschland-Internet-1-und-1-Vodafone-Datenverkehr-zehnfach-1559532/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "DE-CIX",
+        "Download",
+        "Internet"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-gta6-de-cix-rekord.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.960Z"
+      },
+      "id": "2026-11-11-mh-wilds-ascendance-beta",
+      "datum": "2026-11-11T12:16:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Monster Hunter"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Steam-Änderungen deuten auf Beta für die Monster-Hunter-Wilds-Erweiterung Ascendance hin",
+      "schlagzeile": "Leak: Bekommt Monster Hunter Wilds: Ascendance bald eine Beta?",
+      "kurz": "Capcom hat die alte Beta-App von Monster Hunter Wilds auf Steam still in „Ascendance Beta test“ umbenannt, wie SteamDB zeigt. Das spricht für einen baldigen Test der Erweiterung. Capcom hat noch nichts angekündigt, ein Termin ist unbekannt.",
+      "zusammenfassung": "Die erste große Erweiterung von Monster Hunter Wilds heißt Ascendance und soll 2027 erscheinen. Laut Eurogamer und PC Gamer hat Capcom nun auf Steam die alte Beta-App des Hauptspiels umbenannt. Sie heißt laut dem SteamDB-Änderungsprotokoll jetzt Monster Hunter Wilds: Ascendance Beta test und hat ein neues Titelbild bekommen. Das deutet auf einen bevorstehenden Beta-Test hin. Weil die App dieselbe ID wie die frühere Wilds-Beta hat, könnte sie bei früheren Testern wieder in der Bibliothek auftauchen; eine eigene Anmeldung wäre dann eventuell nicht nötig. Wann eine Beta starten könnte, ist völlig offen, Eurogamer tippt vorsichtig auf Anfang 2027. Capcom hatte Ascendance zuletzt in der State of Play im September und auf der Tokyo Game Show gezeigt, inklusive des zurückkehrenden Älteren Drachen Teostra. Die Erweiterung soll anspruchsvoller werden, nachdem viele Spieler das Hauptspiel zum Start zu leicht fanden. Es handelt sich um Hinweise aus Steam-Daten, nicht um eine offizielle Ankündigung.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/monster-hunter-wilds-ascendance-beta-steam-backend"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/action/capcom-quietly-updates-the-monster-hunter-wilds-beta-listing-on-steam-indicating-a-possible-expansion-playtest/"
+        }
+      ],
+      "zuverlaessigkeit": {
+        "stufe": "mittel-hoch",
+        "begruendung": "Beruht auf öffentlich sichtbaren Steam-Änderungen (SteamDB), die Capcom selbst vorgenommen hat; eine Beta selbst ist aber nicht angekündigt."
+      },
+      "ursprungsquelle": "SteamDB-Änderungsprotokoll (via PC Gamer)",
+      "tags": [
+        "Monster Hunter Wilds",
+        "Ascendance",
+        "Capcom",
+        "Beta",
+        "Steam"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-mh-wilds-ascendance-beta.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:05.058Z"
+      },
+      "id": "2026-11-11-radeon-ssd-fix-tool",
+      "datum": "2026-11-11T11:06:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Treiber"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Inoffizielles Open-Source-Tool stoppt das Dauerschreiben von atieclxx.exe auf die SSD",
+      "schlagzeile": "Radeon-Treiber quält die SSD: Gratis-Tool stoppt das Dauerschreiben",
+      "kurz": "Ein Community-Entwickler hat auf GitHub ein kostenloses Tool gegen den Radeon-Fehler veröffentlicht, bei dem atieclxx.exe sich jede Sekunde neu auf die SSD kopiert. Es prüft, ob der PC betroffen ist, schätzt den Verschleiß und blockiert das Schreiben, ohne den Dienst abzuschalten. Es ist ein inoffizieller Workaround, nicht von AMD.",
+      "zusammenfassung": "Auf manchen PCs mit Radeon-Treiber oder AMD-Chipsatztreiber kopiert sich die Datei atieclxx.exe, die zum Dienst AMD External Events Utility gehört, jede Sekunde selbst. Das erzeugt ständige Schreiblast auf dem Systemlaufwerk, und so kommen auch ohne Nutzung schnell Hunderte Gigabyte zusammen, was SSDs unnötig altern lässt. Ein Community-Mitglied namens Necandi hat dafür nun das Tool Radeon-atieclxx-SSD-Fix auf GitHub veröffentlicht, wie ComputerBase und Wccftech berichten. Es prüft zuerst, ob das System betroffen ist, und schätzt den bisherigen Verschleiß der SSD. Diese Schätzung ist grob: Sie nimmt an, dass der Fehler seit dem Einbau der AMD-Karte besteht, und rechnet ohne Laufzeitangabe der SSD mit acht Stunden Betrieb pro Tag. Statt den Dienst abzuschalten, verbietet das Tool nur dem Systemkonto, die Kopie zu überschreiben. Dadurch schlägt der Kopierversuch fehl, und FreeSync, Frame Pacing und Hotkeys sollen weiter funktionieren. Bisherige Workarounds wie das Beenden des Dienstes oder das Abschalten von Resizable BAR konnten genau dort Probleme machen. Wer kein Tool will, kann die Rechte laut ComputerBase auch per icacls-Befehl selbst entziehen und später wieder freigeben. Der Entwickler betont, dass er nichts mit AMD zu tun hat und die Nutzung auf eigene Verantwortung erfolgt. AMD hat einen offiziellen Fix mit dem Treiber 26.11.1 angekündigt, der noch aussteht.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/radeon-atieclxx-ssd-fix-tool-stoppt-das-dauerschreiben-des-radeon-treibers.100286/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/amd-radeon-ssd-write-bug-gets-a-fix-from-necanditool/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Radeon",
+        "SSD",
+        "Treiber",
+        "atieclxx"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-radeon-ssd-fix-tool.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:05.176Z"
+      },
+      "id": "2026-11-11-zen6-epyc-tests",
+      "datum": "2026-11-11T10:58:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD Epyc 9006 Venice im Handel: Erste Tests zeigen große Sprünge für Zen 6",
+      "schlagzeile": "Erste Zen-6-Tests: AMDs 256-Kerner ist 58 % schneller als der Vorgänger",
+      "kurz": "AMD verkauft die Server-Prozessoren Epyc 9006 Venice mit Zen 6 jetzt offiziell. In den ersten unabhängigen Tests von Phoronix war das Topmodell Epyc 9996 im Mittel 1,58-mal so schnell wie das bisherige Zen-5c-Flaggschiff. Für Gamer ist das ein erster Blick auf die Architektur künftiger Ryzen-Chips.",
+      "zusammenfassung": "AMD hat den Verkaufsstart der sechsten Epyc-Generation alias Venice bekanntgegeben, die bereits im Juli vorgestellt wurde. Den Anfang machen neun Modelle für den Sockel SP7, laut Golem folgen Anfang 2027 weitere 22 für SP8. Phoronix durfte die beiden Spitzenmodelle testen. Der Epyc 9996 hat 256 Zen-6c-Kerne, bis zu 4,1 GHz und 600 Watt TDP und kostet laut AMD-Liste 14.904 US-Dollar. Im Doppelsockel-System lag er über alle Benchmarks gemittelt beim 1,58-Fachen des Vorgängers Epyc 9965 mit 192 Kernen. Bei HPC-Anwendungen war er etwa doppelt so schnell wie Intels Xeon 6980P und lieferte trotz höherer Leistungsaufnahme die beste Leistung pro Watt. Laut Golem profitieren die kompakten Kerne von größeren Chiplets mit 32 statt 12 Kernen. Der zweite getestete Chip, der Epyc 9686F, hat 96 Zen-6-Kerne mit bis zu 5,3 GHz. Für Gamer sind das Server-Chips, aber sie zeigen erstmals unabhängig, was die Zen-6-Architektur leistet, die später auch in Ryzen-Prozessoren erwartet wird. Wie viel davon in Spielen ankommt, lässt sich aus Server-Benchmarks nicht ableiten. Phoronix weist außerdem darauf hin, dass die volle Leistung schnellen MRDIMM-Speicher braucht, der in der aktuellen RAM-Krise sehr teuer sein dürfte.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/venice-amds-epyc-9006-setzen-sich-an-die-spitze-der-server-cpus-2611-215075.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix (Epyc 9996 Test)",
+          "url": "https://www.phoronix.com/review/amd-epyc-9996"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/AMD-Zen-Architektur-261795/News/Neue-Architektur-Vergleich-1559571/"
+        },
+        {
+          "name": "AMD auf X",
+          "url": "https://x.com/AMD/status/2120532173623054816"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "Epyc",
+        "Venice",
+        "Server"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-zen6-epyc-tests.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:05.281Z"
+      },
+      "id": "2026-11-11-zelda-oot-5-2-mio",
+      "datum": "2026-11-11T10:56:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Nintendo"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Zelda: Ocarina of Time Remake verkauft sich in vier Tagen mehr als 5,2 Millionen Mal",
+      "schlagzeile": "Zelda-Remake bricht Switch-2-Rekord: 5,2 Millionen in nur vier Tagen",
+      "kurz": "Nintendo meldet mehr als 5,2 Millionen verkaufte Exemplare des Ocarina-of-Time-Remakes in den ersten vier Tagen. Das ist der schnellste Verkaufsstart eines Nintendo-Spiels auf der Switch 2. Laut Nintendo zählen echte Verkäufe, nicht nur Auslieferungen an den Handel.",
+      "zusammenfassung": "Das Remake von The Legend of Zelda: Ocarina of Time ist ein großer Erfolg für Nintendo. Laut einer Pressemitteilung des Herstellers wurden in den ersten vier Tagen nach dem Start am 5. November weltweit mehr als 5,2 Millionen Exemplare verkauft. Damit ist es der erfolgreichste Verkaufsstart eines von Nintendo veröffentlichten Switch-2-Spiels, laut Golem weltweit und in Europa. Nintendo spricht dabei laut Golem von tatsächlich verkauften Einheiten und nicht nur von Auslieferungen an den Handel. Eine Aufteilung nach Regionen oder nach digital und physisch gibt es nicht. Der Rekord bezieht sich ausdrücklich auf Nintendo-eigene Spiele, wie Eurogamer betont. Das Remake kommt auch bei der Kritik sehr gut an: Golem nennt einen Metacritic-Schnitt von 96 Punkten. Neu sind unter anderem Grafik, Soundtrack, Sprachausgabe und überarbeitete Kämpfe. Bemerkenswert ist der Erfolg auch, weil das Spiel nur zwei Wochen vor GTA 6 erschienen ist. Das Remake ist Teil der Feiern zum 40. Geburtstag der Zelda-Reihe.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/the-legend-of-zelda-zelda-ocarina-of-time-legt-rekordstart-auf-switch-2-hin-2611-215084.html"
+        },
+        {
+          "name": "IGN Deutschland",
+          "url": "https://de.ign.com/the-legend-of-zelda-ocarina-of-time-remake/157167/the-legend-of-zelda-ocarina-of-time-ist-ein-riesenerfolg-fur-nintendo-und-hat-gerade-einen-verkaufsr"
+        }
+      ],
+      "tags": [
+        "Zelda",
+        "Ocarina of Time",
+        "Switch 2",
+        "Nintendo",
+        "Verkaufszahlen"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-11-zelda-oot-5-2-mio.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -376,6 +1437,43 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.935Z"
+      },
+      "id": "2026-11-10-gpu-taskman-vram",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Tools"
+      ],
+      "kategorie": "Software",
+      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
+      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
+      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
+      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GPU Taskman",
+        "VRAM",
+        "Open Source",
+        "Tool"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-10T18:28:32.855Z"
       },
       "id": "2026-11-10-auto-sr-xbox-ally-ryzen",
@@ -406,43 +1504,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-auto-sr-xbox-ally-ryzen.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-10T18:28:32.935Z"
-      },
-      "id": "2026-11-10-gpu-taskman-vram",
-      "datum": "2026-11-10T19:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "GPU",
-        "Tools"
-      ],
-      "kategorie": "Software",
-      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
-      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
-      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
-      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GPU Taskman",
-        "VRAM",
-        "Open Source",
-        "Tool"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
         "ki_generiert": true
       }
     },
@@ -497,53 +1558,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:31.904Z"
-      },
-      "id": "2026-11-10-amd-zen6-ipc-epyc",
-      "datum": "2026-11-10T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "CPU",
-        "AMD"
-      ],
-      "kategorie": "Prozessoren",
-      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
-      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
-      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
-      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
-      },
-      "weitere_links": [
-        {
-          "name": "heise online",
-          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
-        },
-        {
-          "name": "AMD auf X",
-          "url": "https://x.com/AMD/status/2120200385520369828"
-        }
-      ],
-      "tags": [
-        "Zen 6",
-        "Epyc 9006",
-        "Venice",
-        "IPC",
-        "AMD"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:31.989Z"
       },
       "id": "2026-11-10-amd-mext-flash-statt-ram",
@@ -582,6 +1596,53 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.904Z"
+      },
+      "id": "2026-11-10-amd-zen6-ipc-epyc",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "AMD"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
+      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
+      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
+      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
+        },
+        {
+          "name": "AMD auf X",
+          "url": "https://x.com/AMD/status/2120200385520369828"
+        }
+      ],
+      "tags": [
+        "Zen 6",
+        "Epyc 9006",
+        "Venice",
+        "IPC",
+        "AMD"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
         "ki_generiert": true
       }
     },
@@ -2378,6 +3439,48 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -2420,48 +3523,6 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -3599,6 +4660,54 @@
       }
     },
     {
+      "id": "2026-11-05-dlss5-hogwarts-legacy",
+      "datum": "2026-11-05T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "DLSS",
+        "GPU"
+      ],
+      "kategorie": "GPU",
+      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
+      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
+      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
+      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
+      "quelle": {
+        "name": "NVIDIA GeForce",
+        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
+      },
+      "weitere_links": [
+        {
+          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
+          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
+        },
+        {
+          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS 5",
+        "Hogwarts Legacy",
+        "RTX 50",
+        "Neural Rendering"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:10.079Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-xbox-pc-app-60",
       "datum": "2026-11-05T18:00:00+01:00",
       "label": "News",
@@ -3646,54 +4755,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-xbox-pc-app-60.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-dlss5-hogwarts-legacy",
-      "datum": "2026-11-05T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "NVIDIA",
-        "DLSS",
-        "GPU"
-      ],
-      "kategorie": "GPU",
-      "titel": "Hogwarts Legacy erhält DLSS 5 mit 3D-Guided Neural Rendering auf GeForce RTX 50",
-      "schlagzeile": "DLSS 5 Neural Rendering jetzt in Hogwarts Legacy",
-      "kurz": "Seit dem 5 November 2026 unterstützt Hogwarts Legacy auf dem PC NVIDIA DLSS 5 mit 3D-Guided Neural Rendering. Das Feature braucht eine GeForce RTX 50 und einen aktuellen Game-Ready-Treiber; in den Display-Einstellungen gibt es den Schalter „Neural Rendering“. Marketing-FPS-Zahlen sind kein Alltagsversprechen.",
-      "zusammenfassung": "NVIDIA und Portkey Games melden, dass Hogwarts Legacy auf dem PC DLSS 5 mit 3D-Guided Neural Rendering erhalten hat. Die Technik soll Beleuchtung und Materialdetails KI-gestützt anreichern und dabei Geometrie sowie Texturen der Engine als Grundlage behalten; Entwickler können das Ergebnis über Artist-Controls steuern. Voraussetzung laut Support-Artikel: eine GeForce RTX 50 Serie sowie GeForce Game Ready Driver 616.64 oder neuer. Aktivierung unter Display-Einstellungen: Upscale Type auf NVIDIA DLSS, dann Neural Rendering einschalten; Shortcut Shift+Alt+B. Unterstützte Stores: Steam, Epic Games Store und Windows Store. Laut NVIDIA-Blog vom 5 November 2026 folgt War Thunder mit DLSS 5 Mitte November, Where Winds Meet am 23 November. Das Feature ist an RTX 50 bzw. passende Cloud-/Spark-Pfade gebunden und ersetzt kein klassisches Upscaling allein. FPS-Marketing aus Demos übernehmen wir nicht als Praxisversprechen.",
-      "quelle": {
-        "name": "NVIDIA GeForce",
-        "url": "https://www.nvidia.com/en-us/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/"
-      },
-      "weitere_links": [
-        {
-          "name": "Portkey Games: DLSS 5 in Hogwarts Legacy aktivieren",
-          "url": "https://portkeygamessupport.wbgames.com/hc/en-us/articles/56349775286419-Enabling-NVIDIA-DLSS-5-Neural-Rendering-in-Hogwarts-Legacy-PC-Steam-EGS-or-Windows-PC"
-        },
-        {
-          "name": "NVIDIA Blog: GFN Thursday Hogwarts DLSS 5",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
-        }
-      ],
-      "tags": [
-        "NVIDIA",
-        "DLSS 5",
-        "Hogwarts Legacy",
-        "RTX 50",
-        "Neural Rendering"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:10.079Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-dlss5-hogwarts-legacy.webp",
         "ki_generiert": true
       }
     },
@@ -3799,6 +4860,49 @@
       }
     },
     {
+      "id": "2026-11-05-discord-native-windows",
+      "datum": "2026-11-05T16:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Discord"
+      ],
+      "kategorie": "Software",
+      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
+      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
+      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
+      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
+          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
+        }
+      ],
+      "tags": [
+        "Discord",
+        "Windows",
+        "Rust",
+        "Electron",
+        "RAM"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.960Z"
+      },
+      "ki_unterstuetzt": true,
+      "bild": {
+        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-05-fsr-412-xbox",
       "datum": "2026-11-05T16:00:00+01:00",
       "label": "News",
@@ -3847,49 +4951,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-fsr-412-xbox.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-05-discord-native-windows",
-      "datum": "2026-11-05T16:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows",
-        "Discord"
-      ],
-      "kategorie": "Software",
-      "titel": "Discord baut Windows-Client in Rust neu: Early Build mit rund 290 MB RAM statt Electron-Gigabytes",
-      "schlagzeile": "Discord verlässt Electron: Rust-Client soll RAM-Hunger beenden",
-      "kurz": "Discord will den Windows-Desktop-Client von Electron auf eine native Rust-App mit GPUI umstellen. Ein früher Build namens Discord Phoenix zeigt laut CTO-Screenshot etwa 290 MB RAM. Die bisherige Electron-App kann Berichten zufolge bis in den Bereich von 4 GB laufen.",
-      "zusammenfassung": "Discord-CTO Stanislav Vishnevskiy hat angekündigt, dass Discord Electron zugunsten einer in Rust geschriebenen Desktop-App mit GPUI aufgibt. ComputerBase und Windows Latest greifen die Ankündigung auf. Ein früher Windows-11-Screenshot listet Discord Phoenix mit 290,2 MB RAM. Windows Latest erinnert daran, dass Discord selbst getestet hat, den Client neu zu starten, wenn der Speicherverbrauch 4 GB überschreitet, und dass normaler Betrieb oft unter 1 GB liege, Idle aber leicht 1 bis 2 GB erreichen könne. Rust nutzt Discord bereits für Infrastruktur, Voice und Teile des aktuellen Clients; nun soll der ganze Client folgen. Wann Tests oder der öffentliche Rollout starten, ist offen. Der Schritt passt zu Microsofts Effizienz-Agenda für Windows 11, weniger speicherhungrige Apps auf schwächeren PCs laufen zu lassen. Es bleibt abzuwarten, ob Feature-Parität und Stabilität der Electron-Version standhalten.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/apps/effizienz-fuer-windows-11-discord-will-mit-nativer-app-den-ram-verbrauch-senken.100189/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Electron raus, Rust-Build mit ~290 MB",
-          "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/"
-        }
-      ],
-      "tags": [
-        "Discord",
-        "Windows",
-        "Rust",
-        "Electron",
-        "RAM"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-06T08:41:21.960Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-05-discord-native-windows.webp",
         "ki_generiert": true
       }
     },
