@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-11T18:17:07.870Z",
+    "stand": "2026-11-12T07:50:30.018Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -3993,89 +3993,6 @@
       "ki_unterstuetzt": true,
       "bild": {
         "datei": "assets/img/news/2026-11-05-openssh-musl-bypass.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-04-gta6-vorbestellungen-750-mio",
-      "datum": "2026-11-04T23:42:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "GTA 6"
-      ],
-      "kategorie": "Games",
-      "titel": "GTA 6: Sensor Tower schätzt über 750 Millionen US-Dollar Umsatz aus Vorbestellungen",
-      "schlagzeile": "Analysten: GTA 6 spielt schon vor dem Start über 750 Mio. Dollar ein",
-      "kurz": "Laut einer Schätzung des Analysehauses Sensor Tower wurde GTA 6 bis zum 03.11.2026 rund 7,7 Millionen Mal vorbestellt. Das entspricht etwa 751 Millionen US-Dollar Umsatz auf PS5 und Xbox. Offizielle Zahlen von Rockstar oder Take-Two gibt es dazu nicht.",
-      "zusammenfassung": "Das Analysehaus Sensor Tower hat laut IGN die Vorbestellungen von Grand Theft Auto VI ausgewertet. Demnach waren bis zum 03.11.2026 geschätzt 7,71 Millionen Exemplare vorbestellt, was rund 751 Millionen US-Dollar Umsatz entspricht. Der Großteil entfällt auf die PlayStation 5: Sensor Tower sieht dort etwa 74 Prozent der Vorbestellungen und rund 559 Millionen US-Dollar, auf der Xbox etwa 26 Prozent und rund 192 Millionen US-Dollar. Die Ultimate Edition kostet 100 US-Dollar, die Standard-Version 80 US-Dollar. Take-Two-Chef Strauss Zelnick sieht in den Vorbestellungen laut IGN vor allem die treuesten Fans. Zum Vergleich: GTA 5 setzte 2013 laut IGN in den ersten 24 Stunden 800 Millionen US-Dollar um und knackte nach drei Tagen die Milliarde. Ob GTA 6 diesen Rekord bricht, zeigt sich erst nach dem Start. Wichtig ist: Es handelt sich um eine Schätzung eines Marktforschers, nicht um Zahlen von Rockstar oder Take-Two. GTA 6 erscheint am 19.11.2026 für PS5 und Xbox Series X|S, eine PC-Version ist weiterhin nicht angekündigt.",
-      "quelle": {
-        "name": "IGN",
-        "url": "https://www.ign.com/articles/gta-6-rakes-in-over-750-million-in-pre-orders-two-weeks-ahead-of-release-date"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GTA 6",
-        "Rockstar Games",
-        "Take-Two",
-        "Vorbestellungen",
-        "Sensor Tower"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-05T11:07:22.393Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-04-gta6-vorbestellungen-750-mio.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-04-windows-paint-luecke",
-      "datum": "2026-11-04T20:36:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Windows & Sicherheit",
-      "titel": "Windows 11: Sicherheitslücke in Paint (CVE-2026-83844) – gepatchte Version kommt bei vielen nicht an",
-      "schlagzeile": "Lücke in Windows-Paint: Der Fix ist da, nur bei vielen kommt er nicht an",
-      "kurz": "In der Paint-App von Windows 11 steckt eine Sicherheitslücke, über die Angreifer aus der Ferne Code ausführen könnten. Microsoft hat schon am 13.10.2026 einen Fix über den Microsoft Store verteilt. Viele Nutzer und Admins bekommen die gepatchte Version laut Berichten aber gar nicht angeboten.",
-      "zusammenfassung": "Microsoft führt die Schwachstelle in Paint unter der Kennung CVE-2026-83844 und bewertet sie mit 8,1 von 10 Punkten. Microsoft selbst stuft sie als „Wichtig“ ein, also eine Stufe unter „Kritisch“. Es handelt sich um einen Lesezugriff außerhalb des erlaubten Speicherbereichs, der im schlimmsten Fall das Ausführen von Schadcode über das Netzwerk ermöglicht, ohne dass der Nutzer etwas anklicken muss. Laut Microsoft ist ein Angriff aber schwierig umzusetzen, und Angriffe in freier Wildbahn sind bisher nicht bekannt. Weil Paint über den Microsoft Store aktualisiert wird, schützt das normale Windows-Update allein nicht vor der Lücke. Laut Windows Latest gilt Paint ab Version 11.2609.401.0 als sicher, diese Version tauchte im Store aber selbst bei aktivierten automatischen Updates nicht auf. Auch Admins berichten auf Reddit und im Microsoft-Forum, dass sie die genannte Version nicht bekommen. Laut Neowin nannte Microsofts Sicherheitsseite zunächst eine andere Versionsnummer, möglicherweise ein Tippfehler. Ebenfalls denkbar ist laut Neowin eine gestaffelte Verteilung. Die installierte Version lässt sich in der PowerShell mit dem Befehl „Get-AppxPackage Microsoft.Paint“ prüfen. Wer Paint nicht braucht, kann die App vorerst auch deinstallieren.",
-      "quelle": {
-        "name": "Neowin",
-        "url": "https://www.neowin.net/news/microsoft-paint-cve-2026-83844-lets-hackers-hack-windows-11-pcs-over-internet/"
-      },
-      "weitere_links": [
-        {
-          "name": "Windows Latest: Paint-Lücke und fehlendes Update",
-          "url": "https://www.windowslatest.com/2026/11/05/windows-11s-paint-has-a-no-click-hacking-bug-and-even-with-auto-updates-on-you-may-not-have-the-fix/"
-        },
-        {
-          "name": "Microsoft Security Update Guide: CVE-2026-83844",
-          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844"
-        }
-      ],
-      "tags": [
-        "Windows 11",
-        "Paint",
-        "Sicherheitslücke",
-        "CVE-2026-83844",
-        "Microsoft Store"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-05T11:07:22.457Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-04-windows-paint-luecke.webp",
         "ki_generiert": true
       }
     }
