@@ -2,10 +2,472 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-13T18:09:21.381Z",
+    "stand": "2026-11-13T21:54:41.799Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:37.966Z"
+      },
+      "id": "2026-11-13-rainbow-six-vegas-leak",
+      "datum": "2026-11-13T18:10:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Ubisoft"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Bericht: Ubisoft Montreal arbeitet an neuem Rainbow Six: Vegas mit dem Codenamen Spades",
+      "schlagzeile": "Leak: Kehrt Rainbow Six: Vegas nach 18 Jahren zurück?",
+      "kurz": "Laut Insider Gaming hat Ubisoft ein neues Rainbow Six: Vegas freigegeben, Codename Spades. Das Spiel soll sich bei Ubisoft Montreal in einer frühen Entwicklungsphase befinden. Ubisoft hat das nicht bestätigt, eine Ankündigung dürfte noch Jahre entfernt sein.",
+      "zusammenfassung": "Die Rainbow-Six-Vegas-Reihe könnte nach fast zwei Jahrzehnten zurückkehren. Insider Gaming berichtet unter Berufung auf anonyme Quellen, dass Ubisoft ein neues Vegas-Spiel mit dem Codenamen Spades freigegeben hat. Es soll bei Ubisoft Montreal in einer frühen Entwicklungsphase sein. Insgesamt seien dort drei neue Projekte gestartet worden, ein weiteres davon soll ebenfalls im Rainbow-Six-Universum spielen. Laut den Quellen handelt es sich eher um ein Vegas 3 als um ein Remake, sicher ist das aber nicht. Der letzte Teil, Rainbow Six: Vegas 2, erschien 2008. Seitdem lag der Fokus vor allem auf Rainbow Six Siege. Die Marke gehört inzwischen zu Vantage Studios, einer Ubisoft-Tochter, an der Tencent 26,32 Prozent hält. Ubisoft hat sich nicht geäußert, das Projekt ist also unbestätigt. Insider Gaming selbst rechnet damit, dass eine offizielle Ankündigung noch einige Jahre dauert.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/rainbow-six-vegas-3/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354797/leak-tips-rainbow-six-vegas-series-slated-to-return-from-18-year-hiatus"
+        }
+      ],
+      "ursprungsquelle": "Insider Gaming (Tom Henderson), anonyme Quellen",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Exklusivbericht von Insider Gaming mit anonymen Quellen; Tom Henderson hat eine gute Trefferquote bei Ubisoft-Projekten. TechPowerUp gibt nur den Bericht wieder, keine unabhängige Zweitquelle. Ubisoft hat nicht bestätigt."
+      },
+      "tags": [
+        "Rainbow Six",
+        "Rainbow Six Vegas",
+        "Ubisoft",
+        "Tom Clancy"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-rainbow-six-vegas-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.066Z"
+      },
+      "id": "2026-11-13-ps5-qssr-sechs-spiele",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen-Update",
+      "titel": "Sonys KI-Upscaling QSSR kommt für sechs weitere Spiele auf die normale PS5, darunter Spider-Man 2 und Arc Raiders",
+      "schlagzeile": "KI-Upscaling für die normale PS5: Sechs Spiele werden schärfer",
+      "kurz": "Sonys KI-Upscaler QSSR kommt in sechs weitere PS5-Spiele, darunter Marvel's Spider-Man 2, Control Resonant und Arc Raiders. QSSR basiert auf PSSR der PS5 Pro, läuft aber auf der normalen PS5. Spider-Man 2 hat das Update bereits erhalten.",
+      "zusammenfassung": "Sony bringt seine KI-Hochskalierung Quick Spectral Super Resolution, kurz QSSR, in weitere Spiele auf der Standard-PS5. Bestätigt sind Marvel's Spider-Man 2, Control Resonant, The Finals, ARC Raiders, No Man's Sky und Hell Let Loose: Vietnam. Laut PlayStation auf X startet Spider-Man 2 heute, VGC meldet die übrigen als aktualisiert oder in Kürze. QSSR baut auf der gleichen Grundlage wie PSSR der PS5 Pro auf. Die ersten Spiele mit QSSR waren Marvel's Wolverine und Ghost of Yōtei. Insomniac verspricht für Spider-Man 2 stabileres und schärferes Bild im Qualitäts- und im Performance-Modus. Remedy spricht bei Control Resonant von spürbar besserer Bildstabilität und feineren Details. Auch für Arc Raiders, No Man's Sky und Hell Let Loose: Vietnam nennen die Studios ein schärferes, saubereres Bild. Digital Foundry hatte das Potenzial der Technik als bemerkenswert bezeichnet, gerade weil viele Spiele dieser Generation mit niedriger Auflösung und schwachem Upscaling kämpfen. Messwerte zu Bildrate oder Auflösung nennen die Studios nicht. Ob QSSR Leistung kostet, ist daher noch offen.",
+      "quelle": {
+        "name": "VGC",
+        "url": "https://www.videogameschronicle.com/news/6-more-games-receive-ps5-performance-updates-via-qssr-including-arc-raiders-and-control-resonant/"
+      },
+      "weitere_links": [
+        {
+          "name": "PlayStation auf X",
+          "url": "https://x.com/PlayStation/status/2121241936681976081"
+        },
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/5-big-ps5-games-will-receive-qssr-update/"
+        }
+      ],
+      "tags": [
+        "PS5",
+        "QSSR",
+        "PSSR",
+        "Upscaling",
+        "Spider-Man 2",
+        "Arc Raiders"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-ps5-qssr-sechs-spiele.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.560Z"
+      },
+      "id": "2026-11-13-word-kompatibilitaet-layout",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
+      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
+      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
+      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
+        }
+      ],
+      "tags": [
+        "Microsoft Word",
+        "Office",
+        "Microsoft 365",
+        "Kompatibilität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.162Z"
+      },
+      "id": "2026-11-13-gta6-day-one-patch-macca",
+      "datum": "2026-11-13T17:32:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6 eine Woche vor Release: erstes Update 1.002 wird verteilt, erster Teaser zur In-Game-Zeichentrickserie Macca & Friends",
+      "schlagzeile": "GTA 6: Erstes Update vor Release – und eine eigene Zeichentrickserie",
+      "kurz": "Rockstar verteilt eine Woche vor dem Start ein erstes, rund 1 GB großes Update für GTA 6, ohne Patch-Notes. Außerdem gibt es einen ersten Blick auf Macca & Friends, eine Zeichentrickserie, die im Spiel läuft. Laut Guardian waren fast 5.000 Menschen an GTA 6 beteiligt.",
+      "zusammenfassung": "Kurz vor dem Release am 19. November bekommt GTA 6 bereits sein erstes Update. Laut Polygon erhielten einige Spieler am Freitag eine Benachrichtigung über Version 1.002, die rund ein Gigabyte groß ist. Rockstar hat keine Patch-Notes veröffentlicht, vermutlich auch, um nichts zu spoilern. Das Update wird offenbar gestaffelt verteilt, nicht alle sehen es sofort. Weitere Updates bis zum Start sind laut Polygon möglich. Außerdem hat der X-Account DiscussingFilm einen ersten Teaser zu Macca & Friends veröffentlicht, einer von Rockstar für das Spiel produzierten Serie, berichtet IGN. Die Zeichentrickserie über den Alligator Macca und seine Freunde läuft im Spiel auf dem Sender Weazel. Rob Nelson, einer der Studioleiter von Rockstar North, brauchte laut New York Times rund 80 Stunden für einen Durchgang. Laut einem Guardian-Bericht, zusammengefasst von Golem, waren fast 5.000 Menschen an der Entwicklung beteiligt. Wie viele davon externe Dienstleister waren, ist nicht bekannt. Laut Bloomberg hat Rockstar heute 4.711 Beschäftigte an zwölf Standorten. GTA 6 erscheint für PS5 und Xbox Series X/S, eine PC-Version ist nicht angekündigt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-nov-13-patch-102-what-is-download-size-ps5-xbox/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-has-a-whole-animated-tv-series-you-can-watch-in-game"
+        },
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/rockstar-games-fast-5-000-menschen-haben-an-gta-6-gearbeitet-2611-215191.html"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar Games",
+        "Patch",
+        "Day-One-Patch"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-gta6-day-one-patch-macca.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.263Z"
+      },
+      "id": "2026-11-13-gow-sons-of-sparta-ps4",
+      "datum": "2026-11-13T17:17:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Spiele",
+      "titel": "God of War: Sons of Sparta erscheint am 16. November für PS4 und bekommt zwei neue Spielmodi",
+      "schlagzeile": "God of War: Sons of Sparta kommt auf die PS4 – mit zwei neuen Modi",
+      "kurz": "Der 2D-Ableger God of War: Sons of Sparta erscheint am 16. November auch für die PS4. Gleichzeitig bekommen PS4 und PS5 per Gratis-Update zwei neue Modi: einen Speedrun-Modus und einen Modus, in dem jeder Treffer tödlich ist.",
+      "zusammenfassung": "Sony bringt God of War: Sons of Sparta auf eine weitere Plattform. Der 2D-Action-Plattformer erscheint am 16. November um Mitternacht Ortszeit für die PlayStation 4, das hat PlayStation auf X bestätigt. Zeitgleich kommt ein kostenloses Update mit zwei neuen Modi für die PS4- und die PS5-Version. Der Hermes-Modus ist ein Speedrun-Modus mit Split-Timer und dauerhafter Bestenliste. Er wird nach dem Durchspielen freigeschaltet oder über einen Code im Startmenü, berichtet VGC. Im Erebus-Modus reicht für Kratos und die Gegner jeweils ein einziger Treffer. Diesen Modus wählt man beim Start eines neuen Spiels. Sons of Sparta wurde von Mega Cat Studios zusammen mit Santa Monica Studio entwickelt und erschien im Februar für die PS5. Das Spiel erzählt eine kanonische Geschichte aus Kratos' Jugend während seiner Ausbildung in Sparta mit seinem Bruder Deimos. Einen Preis für die PS4-Version nennt der Bericht nicht.",
+      "quelle": {
+        "name": "VGC",
+        "url": "https://www.videogameschronicle.com/news/playstations-god-of-war-spin-off-is-coming-to-ps4-and-getting-new-modes/"
+      },
+      "weitere_links": [
+        {
+          "name": "PlayStation auf X",
+          "url": "https://x.com/PlayStation/status/2121257001262969225"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/god-of-war-sons-of-sparta-new-update-ps4-release/"
+        }
+      ],
+      "tags": [
+        "God of War",
+        "PS4",
+        "PS5",
+        "Santa Monica Studio",
+        "Update"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-gow-sons-of-sparta-ps4.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:37.646Z"
+      },
+      "id": "2026-11-13-tsmc-mitarbeiterdaten-leak",
+      "datum": "2026-11-13T16:48:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "TSMC"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "TSMC bestätigt Datenleck: Daten von Mitarbeitern tauchen im Netz auf, angeblich für drei Bitcoin angeboten",
+      "schlagzeile": "TSMC-Datenleck: Mitarbeiterdaten angeblich für drei Bitcoin im Angebot",
+      "kurz": "TSMC hat in einer Pflichtmitteilung an die US-Börsenaufsicht bestätigt, dass Daten aktueller und ehemaliger Mitarbeiter unerlaubt auf einer externen Website aufgetaucht sind. Die Daten stammen laut TSMC aus Diensten eines Cloud-Anbieters, die eigenen Systeme seien nicht kompromittiert. Kundendaten sind laut TSMC nicht betroffen.",
+      "zusammenfassung": "Der weltgrößte Auftragsfertiger für Chips hat ein Datenleck bestätigt. In einer Form-6-K-Mitteilung an die US-Börsenaufsicht SEC schreibt TSMC, dass Daten aktueller und ehemaliger Mitarbeiter ohne Erlaubnis auf einer externen Website verfügbar gemacht wurden. Laut Seeking Alpha, zitiert von PC Gamer, geht es um mehr als 46.000 Datensätze. TSMC zufolge stimmen die Daten mit Informationen überein, die bei einem nicht genannten Cloud-Dienstleister gespeichert waren. Hinweise auf einen Einbruch in die eigenen Systeme gebe es nicht. Betroffene seien informiert, außerdem arbeite man mit dem Cloud-Anbieter, Ermittlungsbehörden und einer externen Sicherheitsfirma zusammen. Die taiwanische United Daily News berichtet, Hacker hätten 6,9 GB an Daten in einem Untergrundforum für drei Bitcoin angeboten. Eine veröffentlichte Stichprobe soll unter anderem Ausweisnummern, Adressen und Bankdaten enthalten; das ist von TSMC nicht bestätigt. Laut TSMC haben die Daten nichts mit dem Geschäftsbetrieb oder Kundeninformationen zu tun. Chipdesigns oder Kundendaten von Firmen wie Nvidia, AMD oder Apple sind nach jetzigem Stand also nicht betroffen. Bereits 2023 war TSMC über einen gehackten Zulieferer in die Schlagzeilen geraten.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/hardware/chipmaking-giant-tsmc-discovers-major-employee-data-leak-reports-say-info-was-up-for-sale-for-three-bitcoin-on-shady-forums/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "TSMC",
+        "Datenleck",
+        "Sicherheit",
+        "Chipfertigung"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-tsmc-mitarbeiterdaten-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:37.756Z"
+      },
+      "id": "2026-11-13-intel-desktop-marktanteil",
+      "datum": "2026-11-13T16:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Mercury Research: Intel gewinnt im dritten Quartal 2026 rund fünf Prozentpunkte Desktop-Marktanteil von AMD zurück",
+      "schlagzeile": "Überraschung: Intel nimmt AMD bei Desktop-CPUs Marktanteile ab",
+      "kurz": "Laut Mercury Research ist AMDs Anteil bei Desktop-Prozessoren im dritten Quartal 2026 von rund 35 auf 29,9 Prozent gefallen. Die Marktforscher vermuten, dass Intel mehr Chips in den Desktop-Markt umgeleitet hat. AMD könnte zudem darunter leiden, dass der Gaming-PC-Markt schwächelt.",
+      "zusammenfassung": "Bei Desktop-Prozessoren hat Intel im dritten Quartal 2026 deutlich Boden gutgemacht. Laut den neuen Zahlen von Mercury Research, über die PC Gamer berichtet, sank AMDs Desktop-Anteil von rund 35 Prozent im zweiten Quartal auf 29,9 Prozent. Das ist ein Rückschritt um etwa fünf Prozentpunkte innerhalb von drei Monaten. Mercury Research ist sich selbst nicht ganz sicher, woran das liegt. Die Marktforscher vermuten, dass Intel wegen schwacher Notebook-Nachfrage mehr Chips in den Desktop-Markt lenken konnte, der im dritten Quartal saisonal stärker ist. AMD habe dagegen kein saisonales Wachstum gezeigt. Als zweiten Grund nennt Mercury AMDs stärkere Abhängigkeit vom Gaming-Markt, der unter knappen und teuren Grafikkarten leidet. Dazu kommen hohe Preise für RAM und SSDs, die viele vom Kauf eines neuen PCs abhalten. Intel ist bei Komplett-PC-Herstellern stark vertreten, die auch günstige Systeme mit älteren DDR4-Plattformen bauen. PC Gamer betont, dass das kein Zeichen für einen gesunden Markt ist: Beide Hersteller sollen im dritten Quartal mehr als zehn Prozent weniger Notebook-Chips ausgeliefert haben. Bei der Gaming-Leistung liegt AMD mit den X3D-Modellen weiterhin vorne.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Intel",
+        "AMD",
+        "Ryzen",
+        "Marktanteil",
+        "Mercury Research"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-intel-desktop-marktanteil.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:37.522Z"
+      },
+      "id": "2026-11-13-huang-kongress-anhoerung",
+      "datum": "2026-11-13T14:09:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "US-Kongress lädt Ex-Nvidia-Chef Jensen Huang mit Subpoena-Drohung vor, Trump schlägt Tim Cook als Nachfolger vor",
+      "schlagzeile": "Kongress droht Huang mit Vorladung – Trump will Tim Cook als Nvidia-Chef",
+      "kurz": "Drei Ausschüsse des US-Repräsentantenhauses wollen Jensen Huang Anfang Dezember befragen und drohen bei Nichterscheinen mit einer Vorladung. Zusätzlich soll er öffentlich vor dem Bankenausschuss des Senats aussagen. US-Präsident Trump empfiehlt unterdessen Apples Tim Cook als neuen Nvidia-Chef.",
+      "zusammenfassung": "Der Druck auf den zurückgetretenen Nvidia-Gründer Jensen Huang wächst weiter. Laut PC Gamer haben die Vorsitzenden dreier Ausschüsse des US-Repräsentantenhauses Huang und Nvidias Chefjuristen Tim Teter zu nichtöffentlichen, protokollierten Befragungen am 1. und 2. Dezember geladen. Kommen die beiden nicht, droht eine Vorladung per Subpoena. Themen sind der mutmaßliche Schmuggel von KI-Chips, die Nutzung von Nvidia-Produkten durch gegnerische Militärs und Berichte über eine Einflussnahme auf US-Exportkontrollen, unter anderem rund um die Firma MegaSpeed aus Singapur. Ein früheres Schreiben vor Huangs Rücktritt war noch deutlich freundlicher formuliert. Zusätzlich hat Senator Tim Scott Huang für den 3. Dezember zu einer öffentlichen Anhörung im Bankenausschuss des Senats geladen, ebenso Handelsminister Howard Lutnick. Laut BBC, zitiert von PC Gamer, ist Huang bereit, vor dem Kongress zu erscheinen. Parallel dazu hat US-Präsident Donald Trump auf Truth Social einen Wunschnachfolger genannt: Tim Cook, der Apple-Chef bis September war und jetzt Executive Chairman ist, berichtet Golem. Entscheiden wird darüber aber der Nvidia-Verwaltungsrat, der interne und externe Kandidaten prüfen will. Bis dahin führt Finanzchefin Colette Kress das Unternehmen kommissarisch. Ob Cook überhaupt Interesse hat, ist nicht bekannt.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/hardware/graphics-cards/clear-national-security-concerns-that-need-to-be-addressed-immediately-new-letters-to-jensen-huang-from-congress-strike-a-tougher-tone-for-the-ex-nvidia-ceo/"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/nvidia-chefposten-trump-empfiehlt-tim-cook-als-nachfolger-von-jensen-huang-2611-215166.html"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "US-Kongress",
+        "Exportkontrollen",
+        "Tim Cook"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-huang-kongress-anhoerung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.470Z"
+      },
+      "id": "2026-11-13-november-patch-druck-aktivierung",
+      "datum": "2026-11-13T13:27:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft bestätigt: November-Updates für Windows verursachen Druckfehler und Aktivierungsprobleme",
+      "schlagzeile": "Windows-Patch im November: Drucken und Aktivierung machen Ärger",
+      "kurz": "Microsoft hat zwei neue Probleme mit den November-Sicherheitsupdates bestätigt. Dokumente mit unsichtbaren Bildern lassen sich teils nicht drucken, und bestimmte Aktivierungsbefehle scheitern mit Fehler 0x80041008. Ein Fix für die Aktivierung soll in den nächsten Tagen kommen.",
+      "zusammenfassung": "Der November-Patchday sorgt für weitere Probleme. Laut BleepingComputer hat Microsoft bestätigt, dass Drucken nach den Updates fehlschlagen kann. Betroffen sind Dokumente mit Bildern, die bei der gewählten Druckauflösung eine Höhe oder Breite von null haben. Solche unsichtbaren Bilder stecken etwa in Wasserzeichen oder Layout-Ankern von Word-Dokumenten. Das Problem betrifft vor allem den Druck über die Windows-Grafikschnittstelle GDI, ab Windows 10 und Windows Server 2016. Zusätzlich scheitern Aktivierungsbefehle über das Tool slmgr.vbs mit dem Fehler 0x80041008. Das betrifft vor allem Firmen, die Aktivierung und KMS-Server automatisieren. Bereits aktivierte Geräte bleiben laut Microsoft aktiviert. Ein Fix soll in den kommenden Tagen erscheinen, bis dahin hilft nur der Business-Support. Für das Druckproblem nennt der Bericht noch keinen Termin. Diese Woche hatte Microsoft außerdem bestätigt, dass die November-Updates auf Systemen mit dem Oktober-Vorschauupdate nicht installiert werden. Privatnutzer sind vor allem vom Druckfehler betroffen.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/"
+      },
+      "weitere_links": [
+        {
+          "name": "BleepingComputer (Aktivierung)",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "Windows 10",
+        "Patchday",
+        "Drucken",
+        "Aktivierung"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-november-patch-druck-aktivierung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:37.866Z"
+      },
+      "id": "2026-11-13-xbox-25-konsole-ausverkauft",
+      "datum": "2026-11-13T13:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Xbox Series X zum 25. Jubiläum in Sekunden ausverkauft, Scalper verlangen bis zu 2.500 Dollar",
+      "schlagzeile": "Jubiläums-Xbox in Sekunden weg – Scalper verlangen bis zu 2.500 Dollar",
+      "kurz": "Die transparent-grüne Xbox Series X zum 25. Jubiläum war im Microsoft Store innerhalb von Sekunden ausverkauft. Fans sind wütend über die knappe Stückzahl und fehlende Schutzmaßnahmen gegen Bots. Auf eBay wurden Konsolen laut IGN schon für 1.500 bis 2.500 Dollar verkauft.",
+      "zusammenfassung": "Der Verkaufsstart der limitierten Xbox Series X zum 25. Geburtstag der Marke ist für viele Fans schiefgegangen. Laut IGN war die Konsole im Microsoft Store innerhalb von Sekunden vergriffen. Microsoft hatte vorab nur eine begrenzte Stückzahl angekündigt, die je nach Markt und Händler unterschiedlich ausfällt. Die Konsole kostet regulär 999 Dollar. GameStop bot sein Kontingent laut IGN zeitweise für 4.950 Dollar an, auch das ist inzwischen ausverkauft. Auf eBay hat IGN Dutzende bereits verkaufte Exemplare für 1.500 bis 2.500 Dollar gefunden. Fans kritisieren vor allem, dass Microsoft keine Warteschlange und keine Beschränkung auf echte Xbox-Konten eingeführt hat. Manche berichten, der Warenkorb sei während des Kaufs einfach verschwunden. Xbox-Chefin Asha Sharma hatte im Oktober gesagt, die Nachfrage nach Konsolen sei größer als das Angebot. Ob Microsoft nachliefert, ist nicht bekannt. Preise und Verfügbarkeit in Europa nennt der Bericht nicht.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/xbox-25th-anniversary-console-stock-sells-out-in-seconds-sparking-fan-fury-over-scalping-and-limited-supply"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Xbox",
+        "Xbox Series X",
+        "25 Jahre Xbox",
+        "Scalper"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-xbox-25-konsole-ausverkauft.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.378Z"
+      },
+      "id": "2026-11-13-gdc-ps6-helix-ki",
+      "datum": "2026-11-13T11:20:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation",
+        "Xbox"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "GDC-Umfrage: 10 Prozent der Entwickler arbeiten schon an PS6-Spielen, 8 Prozent an Project Helix, 40 Prozent nutzen generative KI",
+      "schlagzeile": "Schon in Arbeit: Jeder zehnte Entwickler baut ein Spiel für die PS6",
+      "kurz": "In der GDC-Umfrage sagen 10 Prozent der Entwickler mit laufendem Projekt, dass ihr Spiel für die nächste PlayStation geplant ist. 8 Prozent nennen Microsofts Project Helix. Außerdem nutzen 40 Prozent generative KI, aber 55 Prozent halten sie für schädlich.",
+      "zusammenfassung": "Der neue State of the Game Industry Report der Game Developers Conference zeigt, dass die nächste Konsolengeneration schon in Arbeit ist. Laut Golem geben 10 Prozent der Befragten mit einem laufenden Projekt an, dass ihr Spiel für Sonys kommende PlayStation vorgesehen ist. 8 Prozent nennen Microsofts nächste Xbox mit dem Codenamen Project Helix. Mehrfachnennungen waren möglich, wie viele verschiedene Spiele das sind, ist also unklar. Wichtigste Plattform bleibt der PC mit 81 Prozent, gefolgt von PS5 mit 45 und Xbox Series X/S mit 37 Prozent. Das Steam Deck kommt auf 32, die Switch 2 auf 29 und Valves Steam Machine auf 21 Prozent. Zweites großes Thema ist KI: Laut Eurogamer nutzen 40 Prozent der Befragten generative KI bei der Arbeit, vier Prozentpunkte mehr als im Vorjahr. Gleichzeitig sagen 55 Prozent, dass KI der Spielebranche schadet. In AAA-Studios fühlen sich 27 Prozent zur KI-Nutzung gedrängt oder ermutigt, bei Indie-Entwicklern nur 9 Prozent. Zur Zahl der Befragten nennt Golem mehr als 2.600, Eurogamer mehr als 2.300. Die Entlassungszahlen aus derselben Umfrage standen bereits gestern im Ticker.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/next-gen-jeder-zehnte-entwickler-arbeitet-an-spiel-fuer-playstation-6-2611-215177.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/gdc-report-40-percent-developers-generative-ai"
+        }
+      ],
+      "tags": [
+        "GDC",
+        "PS6",
+        "Project Helix",
+        "Xbox",
+        "Generative KI",
+        "Spielebranche"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-gdc-ps6-helix-ki.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -2734,43 +3196,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:32.935Z"
-      },
-      "id": "2026-11-10-gpu-taskman-vram",
-      "datum": "2026-11-10T19:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "GPU",
-        "Tools"
-      ],
-      "kategorie": "Software",
-      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
-      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
-      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
-      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GPU Taskman",
-        "VRAM",
-        "Open Source",
-        "Tool"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:32.855Z"
       },
       "id": "2026-11-10-auto-sr-xbox-ally-ryzen",
@@ -2801,6 +3226,43 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-auto-sr-xbox-ally-ryzen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.935Z"
+      },
+      "id": "2026-11-10-gpu-taskman-vram",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Tools"
+      ],
+      "kategorie": "Software",
+      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
+      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
+      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
+      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GPU Taskman",
+        "VRAM",
+        "Open Source",
+        "Tool"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
         "ki_generiert": true
       }
     },
@@ -2855,53 +3317,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:31.989Z"
-      },
-      "id": "2026-11-10-amd-mext-flash-statt-ram",
-      "datum": "2026-11-10T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "AMD"
-      ],
-      "kategorie": "Speicher",
-      "titel": "AMD MEXT: Software lagert selten genutzten Arbeitsspeicher auf Flash aus, um teuren DRAM zu sparen",
-      "schlagzeile": "RAM-Krise: AMD will mit Flash-Speicher bis zu 75 % DRAM einsparen",
-      "kurz": "AMD hat MEXT vorgestellt, eine Software, die selten genutzte Speicherseiten von DRAM auf Flash-SSDs auslagert. So sollen Server mit deutlich weniger teurem Arbeitsspeicher fast gleich schnell laufen. Das Angebot gilt vorerst nur für Epyc-Server. Alle Leistungswerte stammen von AMD.",
-      "zusammenfassung": "AMD reagiert mit MEXT auf die anhaltende Speicherknappheit. Laut AMD macht DRAM je nach Konfiguration 75 bis 90 Prozent der Kosten eines Servers aus, während ein großer Teil des Speichers ungenutzt oder überdimensioniert ist. MEXT erkennt „kalte“ Speicherseiten und verschiebt sie auf Flash-Speicher, also NVMe-SSDs. KI-Modelle sollen vorhersagen, welche Daten bald wieder gebraucht werden, und diese rechtzeitig in den DRAM zurückholen. Die Software besteht laut Wccftech aus einem Linux-Treiber, einer KI-Engine, die auf einem einzelnen Epyc-Kern läuft, und einem Monitoring-Werkzeug. Nach AMDs Angaben lässt sich der DRAM-Bedarf so um 20 bis 75 Prozent senken, bei ähnlicher Leistung. Im Chipdesign-Beispiel soll ein Server mit halbem DRAM noch 95 Prozent der Leistung erreichen. Diese Werte sind Herstellerangaben, unabhängige Tests fehlen noch. Laut Phoronix ist der Linux-Treiber nicht quelloffen. MEXT ist vorerst nur für Epyc-Server mit NVMe-Laufwerken gedacht, später soll es eine Lizenz geben. AMD deutete an, dass so etwas auch für normale PCs interessant werden könnte, konkrete Pläne dafür gibt es aber nicht.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/amd-mext-memory-solution-flash-repaces-dram-same-performance/"
-      },
-      "weitere_links": [
-        {
-          "name": "ComputerBase",
-          "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
-        },
-        {
-          "name": "Phoronix",
-          "url": "https://www.phoronix.com/news/AMD-MEXT"
-        }
-      ],
-      "tags": [
-        "MEXT",
-        "DRAM",
-        "RAM-Krise",
-        "Epyc",
-        "Flash"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:31.904Z"
       },
       "id": "2026-11-10-amd-zen6-ipc-epyc",
@@ -2940,6 +3355,53 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.989Z"
+      },
+      "id": "2026-11-10-amd-mext-flash-statt-ram",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "AMD"
+      ],
+      "kategorie": "Speicher",
+      "titel": "AMD MEXT: Software lagert selten genutzten Arbeitsspeicher auf Flash aus, um teuren DRAM zu sparen",
+      "schlagzeile": "RAM-Krise: AMD will mit Flash-Speicher bis zu 75 % DRAM einsparen",
+      "kurz": "AMD hat MEXT vorgestellt, eine Software, die selten genutzte Speicherseiten von DRAM auf Flash-SSDs auslagert. So sollen Server mit deutlich weniger teurem Arbeitsspeicher fast gleich schnell laufen. Das Angebot gilt vorerst nur für Epyc-Server. Alle Leistungswerte stammen von AMD.",
+      "zusammenfassung": "AMD reagiert mit MEXT auf die anhaltende Speicherknappheit. Laut AMD macht DRAM je nach Konfiguration 75 bis 90 Prozent der Kosten eines Servers aus, während ein großer Teil des Speichers ungenutzt oder überdimensioniert ist. MEXT erkennt „kalte“ Speicherseiten und verschiebt sie auf Flash-Speicher, also NVMe-SSDs. KI-Modelle sollen vorhersagen, welche Daten bald wieder gebraucht werden, und diese rechtzeitig in den DRAM zurückholen. Die Software besteht laut Wccftech aus einem Linux-Treiber, einer KI-Engine, die auf einem einzelnen Epyc-Kern läuft, und einem Monitoring-Werkzeug. Nach AMDs Angaben lässt sich der DRAM-Bedarf so um 20 bis 75 Prozent senken, bei ähnlicher Leistung. Im Chipdesign-Beispiel soll ein Server mit halbem DRAM noch 95 Prozent der Leistung erreichen. Diese Werte sind Herstellerangaben, unabhängige Tests fehlen noch. Laut Phoronix ist der Linux-Treiber nicht quelloffen. MEXT ist vorerst nur für Epyc-Server mit NVMe-Laufwerken gedacht, später soll es eine Lizenz geben. AMD deutete an, dass so etwas auch für normale PCs interessant werden könnte, konkrete Pläne dafür gibt es aber nicht.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amd-mext-memory-solution-flash-repaces-dram-same-performance/"
+      },
+      "weitere_links": [
+        {
+          "name": "ComputerBase",
+          "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+        },
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/AMD-MEXT"
+        }
+      ],
+      "tags": [
+        "MEXT",
+        "DRAM",
+        "RAM-Krise",
+        "Epyc",
+        "Flash"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
         "ki_generiert": true
       }
     },
@@ -4736,48 +5198,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -4820,6 +5240,48 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
@@ -4949,128 +5411,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-07-tsmc-3d-dram-nvidia.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-06-openai-gpt6-cyber-bugs",
-      "datum": "2026-11-06T21:24:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Sicherheit",
-        "KI"
-      ],
-      "kategorie": "Sicherheit",
-      "titel": "OpenAI stellt GPT-6 Cyber vor: laut eigener Angabe 81 Firefox- und 948 Linux-LPE-Funde",
-      "schlagzeile": "OpenAI GPT-6 Cyber findet 81 Firefox- und 948 Linux-Bugs",
-      "kurz": "OpenAI hat GPT-6 Cyber vorgestellt, ein nicht öffentliches Security-Modell. Laut Unternehmensangaben fand es 81 zuvor unbekannte high-severity Firefox-Lücken und entwickelte Exploits für 948 Linux-Local-Privilege-Escalation-Fälle. Die Zahlen stammen von OpenAI und sind keine unabhängige Vollaudit-Bestätigung.",
-      "zusammenfassung": "BleepingComputer, Phoronix und Golem berichten über OpenAIs Ankündigung von GPT-6 Cyber. Das Modell ist nicht öffentlich und derzeit auf freigeschaltete Kunden im Daybreak-Red-Programm beschränkt. OpenAI gibt an, 81 zuvor unbekannte high-severity Schwachstellen in Firefox entdeckt und Patches mitentwickelt zu haben; viele seien bei Mozilla bereits ausgerollt. Zur Linux-Kernel-Forschung nennt OpenAI 2308 potenzielle Funde, 1724 reproduzierte Schwachstellen und 948 Local-Privilege-Escalation-Exploits von unprivileged zu root. Im ExploitGym-Benchmark nennt das Unternehmen 48,5 Prozent Erfolgsrate gegenüber 32,1 Prozent beim Vorgänger GPT-5.6 Cyber. Im Preparedness Framework stuft OpenAI die Cyber-Fähigkeit als „Critical“ ein. Unabhängige Audit-Tiefe zu Umfang und Schwere der Funde ist begrenzt – die Zahlen sind Firmenangaben, kein Beleg dafür, dass „Linux generell unsicher“ wäre. OpenAI warnt vor einem begrenzten Zeitfenster, in dem Verteidiger Frontier-Modelle zum Härten nutzen sollten, bevor ähnliche Fähigkeiten breiter verfügbar sind.",
-      "quelle": {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/"
-      },
-      "weitere_links": [
-        {
-          "name": "Phoronix: OpenAI 948 Linux LPE Bugs",
-          "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs"
-        },
-        {
-          "name": "Golem: OpenAI will fast 1000 Root-Lücken gefunden haben",
-          "url": "https://www.golem.de/news/mit-ki-agenten-openai-will-in-linux-system-fast-1-000-root-luecken-gefunden-haben-2611-214884.html"
-        }
-      ],
-      "tags": [
-        "OpenAI",
-        "GPT-6 Cyber",
-        "Firefox",
-        "Linux",
-        "Sicherheit"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:09.777Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-06-openai-gpt6-cyber-bugs.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-06-zen6-tee-riscv",
-      "datum": "2026-11-06T20:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "AMD",
-        "CPU"
-      ],
-      "kategorie": "Prozessoren",
-      "titel": "AMD Zen 6: Firmware-Hinweis auf RISC-V-basiertes TEE statt ARM-PSP",
-      "schlagzeile": "Zen 6: AMD wechselt TEE von ARM auf RISC-V",
-      "kurz": "Ein linux-firmware-Commit für AMD PMF Trusted Application auf Zen-6-Client (Family 1Ah M80h) erwähnt ein RISC-V-basiertes TEE. Bisher lief der Secure Processor typischerweise auf ARM Cortex-A5 mit TrustZone. Ob RISC-V wirklich neu ab Zen 6 ist oder nur erstmals dokumentiert, bleibt offen.",
-      "zusammenfassung": "Phoronix berichtet über einen linux-firmware-Commit, der PMF-TA-Firmware v4 für die Plattform 1AH_M80H ergänzt – das entspricht kommenden AMD-Ryzen-Zen-6-Client-CPUs. Im Commit-Text heißt es, die Trusted Application laufe nun auf einem RISC-V-basierten TEE, nutze ein größeres Shared-Memory-Layout und erweiterte Policy-Bedingungen inklusive bis zu 20 Custom-BIOS-Inputs. Das Platform Management Framework steuert unter anderem Power-, Thermal- und Systemverhalten. Traditionell basierte der AMD Platform Security Processor bzw. Secure Processor auf ARM Cortex-A5 mit TrustZone. Phoronix findet keine älteren öffentlichen Hinweise auf RISC-V-TEE in Ryzen/EPYC und lässt offen, ob das Feature neu für Zen 6 ist oder bei älteren SoCs nur nie erwähnt wurde. Ein finales Marketing-Label der Ryzen-Generation nennt der Commit nicht. Für Linux-Enablement und Security-Nerds ist der Architekturwechsel dennoch ein seltenes Zen-6-Detail vor dem Produktlaunch.",
-      "quelle": {
-        "name": "Phoronix",
-        "url": "https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based"
-      },
-      "weitere_links": [],
-      "tags": [
-        "AMD",
-        "Zen 6",
-        "RISC-V",
-        "TEE",
-        "Firmware"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:09.838Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-06-zen6-tee-riscv.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-06-epic-linux-launcher-distros",
-      "datum": "2026-11-06T20:22:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "Linux",
-        "PC"
-      ],
-      "kategorie": "Spiele",
-      "titel": "Epic Games Launcher Preview: breite Linux-Distro-Unterstützung und AppImage-Rückkehr geplant",
-      "schlagzeile": "Epic: neuer Launcher soll viele Linux-Distros unterstützen",
-      "kurz": "Epic bestätigt gegenüber GamingOnLinux, dass der neue Launcher in der Preview möglichst viele Linux-Distributionen unterstützen soll – explizit unter anderem Fedora, SteamOS, Cachy und Omarchy. Packaging wechselt noch; AppImage soll noch in diesem Monat zurückkommen. Preview heißt nicht fertige Distro-Matrix.",
-      "zusammenfassung": "GamingOnLinux hat Jake Jones (Communications Director, Epic Games) zum Linux-Support des neuen Epic Games Launchers befragt. Laut Statement plant Epic, „so viele Linux-Distributionen wie möglich“ zu unterstützen, darunter Fedora, SteamOS, Cachy, Omarchy und weitere. Die Preview startete mit AppImage, wechselte später auf ein .deb für Debian/Ubuntu; die FAQ nannte Fedora als baldig. Epic testet und bewertet Packaging-Formate und will AppImage noch in diesem Monat wiederherstellen. Bis die Matrix feststeht, können Formate kommen und gehen. Flatpak/Flathub bleibt in der Meldung offen. Der Launcher-Status ist Preview, kein finaler Store-Rollout für jede Distro. Fortnite oder Easy Anti-Cheat v2 sind ein separates Thema und werden hier nicht als „Fortnite kommt auf Linux“ verkauft. Zusammen mit dem bereits bekannten GOG-Galaxy-Linux-Zeitfenster 2027 bleibt der Wettbewerb der Store-Clients auf Linux spannend.",
-      "quelle": {
-        "name": "GamingOnLinux",
-        "url": "https://www.gamingonlinux.com/2026/11/epic-games-comments-on-planned-linux-distribution-support/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Epic Games",
-        "Linux",
-        "Launcher",
-        "SteamOS"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:09.906Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-06-epic-linux-launcher-distros.webp",
         "ki_generiert": true
       }
     }

@@ -2,10 +2,123 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-13T18:09:21.381Z",
+    "stand": "2026-11-13T21:54:41.798Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-06-openai-gpt6-cyber-bugs",
+      "datum": "2026-11-06T21:24:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "KI"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "OpenAI stellt GPT-6 Cyber vor: laut eigener Angabe 81 Firefox- und 948 Linux-LPE-Funde",
+      "schlagzeile": "OpenAI GPT-6 Cyber findet 81 Firefox- und 948 Linux-Bugs",
+      "kurz": "OpenAI hat GPT-6 Cyber vorgestellt, ein nicht öffentliches Security-Modell. Laut Unternehmensangaben fand es 81 zuvor unbekannte high-severity Firefox-Lücken und entwickelte Exploits für 948 Linux-Local-Privilege-Escalation-Fälle. Die Zahlen stammen von OpenAI und sind keine unabhängige Vollaudit-Bestätigung.",
+      "zusammenfassung": "BleepingComputer, Phoronix und Golem berichten über OpenAIs Ankündigung von GPT-6 Cyber. Das Modell ist nicht öffentlich und derzeit auf freigeschaltete Kunden im Daybreak-Red-Programm beschränkt. OpenAI gibt an, 81 zuvor unbekannte high-severity Schwachstellen in Firefox entdeckt und Patches mitentwickelt zu haben; viele seien bei Mozilla bereits ausgerollt. Zur Linux-Kernel-Forschung nennt OpenAI 2308 potenzielle Funde, 1724 reproduzierte Schwachstellen und 948 Local-Privilege-Escalation-Exploits von unprivileged zu root. Im ExploitGym-Benchmark nennt das Unternehmen 48,5 Prozent Erfolgsrate gegenüber 32,1 Prozent beim Vorgänger GPT-5.6 Cyber. Im Preparedness Framework stuft OpenAI die Cyber-Fähigkeit als „Critical“ ein. Unabhängige Audit-Tiefe zu Umfang und Schwere der Funde ist begrenzt – die Zahlen sind Firmenangaben, kein Beleg dafür, dass „Linux generell unsicher“ wäre. OpenAI warnt vor einem begrenzten Zeitfenster, in dem Verteidiger Frontier-Modelle zum Härten nutzen sollten, bevor ähnliche Fähigkeiten breiter verfügbar sind.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix: OpenAI 948 Linux LPE Bugs",
+          "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs"
+        },
+        {
+          "name": "Golem: OpenAI will fast 1000 Root-Lücken gefunden haben",
+          "url": "https://www.golem.de/news/mit-ki-agenten-openai-will-in-linux-system-fast-1-000-root-luecken-gefunden-haben-2611-214884.html"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "GPT-6 Cyber",
+        "Firefox",
+        "Linux",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.777Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T21:54:41.797Z"
+    },
+    {
+      "id": "2026-11-06-zen6-tee-riscv",
+      "datum": "2026-11-06T20:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD Zen 6: Firmware-Hinweis auf RISC-V-basiertes TEE statt ARM-PSP",
+      "schlagzeile": "Zen 6: AMD wechselt TEE von ARM auf RISC-V",
+      "kurz": "Ein linux-firmware-Commit für AMD PMF Trusted Application auf Zen-6-Client (Family 1Ah M80h) erwähnt ein RISC-V-basiertes TEE. Bisher lief der Secure Processor typischerweise auf ARM Cortex-A5 mit TrustZone. Ob RISC-V wirklich neu ab Zen 6 ist oder nur erstmals dokumentiert, bleibt offen.",
+      "zusammenfassung": "Phoronix berichtet über einen linux-firmware-Commit, der PMF-TA-Firmware v4 für die Plattform 1AH_M80H ergänzt – das entspricht kommenden AMD-Ryzen-Zen-6-Client-CPUs. Im Commit-Text heißt es, die Trusted Application laufe nun auf einem RISC-V-basierten TEE, nutze ein größeres Shared-Memory-Layout und erweiterte Policy-Bedingungen inklusive bis zu 20 Custom-BIOS-Inputs. Das Platform Management Framework steuert unter anderem Power-, Thermal- und Systemverhalten. Traditionell basierte der AMD Platform Security Processor bzw. Secure Processor auf ARM Cortex-A5 mit TrustZone. Phoronix findet keine älteren öffentlichen Hinweise auf RISC-V-TEE in Ryzen/EPYC und lässt offen, ob das Feature neu für Zen 6 ist oder bei älteren SoCs nur nie erwähnt wurde. Ein finales Marketing-Label der Ryzen-Generation nennt der Commit nicht. Für Linux-Enablement und Security-Nerds ist der Architekturwechsel dennoch ein seltenes Zen-6-Detail vor dem Produktlaunch.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/AMD-Zen-6-TEE-RISC-V-Based"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "RISC-V",
+        "TEE",
+        "Firmware"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.838Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T21:54:41.797Z"
+    },
+    {
+      "id": "2026-11-06-epic-linux-launcher-distros",
+      "datum": "2026-11-06T20:22:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Linux",
+        "PC"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Epic Games Launcher Preview: breite Linux-Distro-Unterstützung und AppImage-Rückkehr geplant",
+      "schlagzeile": "Epic: neuer Launcher soll viele Linux-Distros unterstützen",
+      "kurz": "Epic bestätigt gegenüber GamingOnLinux, dass der neue Launcher in der Preview möglichst viele Linux-Distributionen unterstützen soll – explizit unter anderem Fedora, SteamOS, Cachy und Omarchy. Packaging wechselt noch; AppImage soll noch in diesem Monat zurückkommen. Preview heißt nicht fertige Distro-Matrix.",
+      "zusammenfassung": "GamingOnLinux hat Jake Jones (Communications Director, Epic Games) zum Linux-Support des neuen Epic Games Launchers befragt. Laut Statement plant Epic, „so viele Linux-Distributionen wie möglich“ zu unterstützen, darunter Fedora, SteamOS, Cachy, Omarchy und weitere. Die Preview startete mit AppImage, wechselte später auf ein .deb für Debian/Ubuntu; die FAQ nannte Fedora als baldig. Epic testet und bewertet Packaging-Formate und will AppImage noch in diesem Monat wiederherstellen. Bis die Matrix feststeht, können Formate kommen und gehen. Flatpak/Flathub bleibt in der Meldung offen. Der Launcher-Status ist Preview, kein finaler Store-Rollout für jede Distro. Fortnite oder Easy Anti-Cheat v2 sind ein separates Thema und werden hier nicht als „Fortnite kommt auf Linux“ verkauft. Zusammen mit dem bereits bekannten GOG-Galaxy-Linux-Zeitfenster 2027 bleibt der Wettbewerb der Store-Clients auf Linux spannend.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/epic-games-comments-on-planned-linux-distribution-support/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Epic Games",
+        "Linux",
+        "Launcher",
+        "SteamOS"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-07T07:51:09.906Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T21:54:41.798Z"
+    },
     {
       "id": "2026-11-06-mindfactory-cyberangriff",
       "datum": "2026-11-06T18:22:00+01:00",
