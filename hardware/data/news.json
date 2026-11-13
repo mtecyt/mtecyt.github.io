@@ -2,10 +2,620 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-13T07:49:12.924Z",
+    "stand": "2026-11-13T08:06:17.709Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.343Z"
+      },
+      "id": "2026-11-13-microsoft-365-grossstoerung",
+      "datum": "2026-11-13T05:50:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Großstörung bei Microsoft 365: Outlook, Exchange, Teams und Copilot stundenlang gestört, Erholung nur schrittweise",
+      "schlagzeile": "Outlook und Teams down: Microsoft 365 kämpft mit Großstörung",
+      "kurz": "Seit Donnerstagabend ist Microsoft 365 weltweit massiv gestört, betroffen sind unter anderem Outlook, Exchange Online, Teams und Copilot. Laut Microsoft sind zahlreiche Server unerwartet ausgefallen, ein Cyberangriff sei es nicht. Am Freitagmorgen zeigt Microsofts Statusseite weiter eine Dienstbeeinträchtigung; eine durchgehende Erholung ist noch nicht erreicht.",
+      "zusammenfassung": "Am Donnerstag, dem 12. November, kam es zu einer der größten Microsoft-365-Störungen der letzten Zeit. Laut BleepingComputer begann der Vorfall mit der Kennung MO1550821 um 13:26 Uhr US-Ostküstenzeit, in Mitteleuropa also am Abend. Betroffen waren unter anderem Exchange Online und Outlook, Teams, SharePoint Online, Microsoft 365 Copilot und Defender XDR, und zwar in allen Regionen. Microsoft nennt als Ursache eine Reihe von Servern, die unerwartet nicht mehr verfügbar waren und so die übrige Infrastruktur überlasteten. Das Unternehmen stoppte alle Deployments, verteilte den Datenverkehr um und startete Server neu. Laut Neowin wirkten erste Gegenmaßnahmen nicht wie erhofft, ein Kernprozess auf den betroffenen Servern sei überlastet gewesen. Microsoft-Manager Charles Lamanna entschuldigte sich und erklärte, es gebe keine Hinweise auf einen Angriff. In der Nacht meldete Microsoft eine langsame Erholung, am Freitagmorgen zeigt die offizielle Statusseite aber weiter eine Dienstbeeinträchtigung; Microsoft spricht nur von teilweisem Erfolg, eine durchgehende Erholung ist noch nicht erreicht. Firmenkunden können laut Windows Latest über das Microsoft-365-Admin-Center eine SLA-Gutschrift beantragen. Ob und in welcher Höhe es Geld zurückgibt, hängt von der tatsächlich betroffenen Nutzerzahl und Dauer ab. Privatnutzer von Outlook.com haben in der Regel keinen Anspruch.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-regrets-outlook-exchange-sharepoint-outage-after-admitting-it-still-cant-fix/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Microsoft-365-Stoerung-Serverausfaelle-legen-Teams-Exchange-und-Copilot-lahm-11523565.html"
+        },
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/cloud-serverausfaelle-stoeren-outlook-und-microsoft-365-2611-215165.html"
+        },
+        {
+          "name": "Windows Latest (SLA-Gutschrift)",
+          "url": "https://www.windowslatest.com/2026/11/13/microsoft-365-outage-you-may-get-money-off-your-bill-if-you-use-it-for-work-but-youll-have-to-ask-microsoft-for-it-as-a-server-failure-takes-down-outlook-teams-and-exchange/"
+        }
+      ],
+      "tags": [
+        "Microsoft 365",
+        "Outlook",
+        "Teams",
+        "Exchange",
+        "Störung"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-microsoft-365-grossstoerung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.568Z"
+      },
+      "id": "2026-11-13-nvidia-doj-ermittlungen",
+      "datum": "2026-11-13T05:03:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Berichte: US-Justizministerium ermittelt nach Huang-Rücktritt gegen Nvidia, Supermicro und Megaspeed",
+      "schlagzeile": "Nach Huangs Rücktritt: US-Justiz soll Ermittlungen gegen Nvidia starten",
+      "kurz": "Laut Semafor haben mehrere Abteilungen des US-Justizministeriums Untersuchungen eingeleitet, die Nvidia, Supermicro und Megaspeed betreffen. Im Kern geht es um mutmaßlich nach China gelieferte KI-Beschleuniger. Anzeichen für eine Anklage gegen Nvidia oder Ex-CEO Jensen Huang gibt es bisher nicht.",
+      "zusammenfassung": "Einen Tag nach dem Rücktritt von Jensen Huang wird es für Nvidia nicht ruhiger. Laut heise berichtet Semafor unter Berufung auf zwei Regierungsvertreter, dass verschiedene Abteilungen des US-Justizministeriums Untersuchungen eingeleitet haben. Betroffen sind demnach Nvidia, der Serverhersteller Supermicro und das in Singapur ansässige Unternehmen Megaspeed. Megaspeed wird vorgeworfen, Nvidia-KI-Beschleuniger trotz US-Exportbeschränkungen nach China geliefert zu haben. Im Mittelpunkt soll die Rolle einer früheren leitenden Megaspeed-Mitarbeiterin stehen, mit der Huang eine Beziehung gehabt haben soll. Laut heise gibt es bislang keine Anzeichen, dass das Ministerium Anklage gegen Nvidia oder Huang erheben wird. Nvidia und das Justizministerium wollten sich nicht äußern. Supermicro erklärte, Megaspeed sei nie Kunde gewesen, und sagte Kooperation mit den Behörden zu. Zusätzlich berichtet Reuters von einer weiteren Beziehung Huangs zu einer Nvidia-Mitarbeiterin. Für Käufer von GeForce-Karten hat das vorerst keine bekannten Folgen. Am 17. November legt Nvidia seine Quartalszahlen vor, dort dürfte das Thema zur Sprache kommen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Berichte-ueber-kartellrechtliche-Pruefung-Nvidias-und-weitere-Affaere-des-Ex-Chefs-11523636.html"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware (Quartalszahlen am 17.11.)",
+          "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Geforce-62124-Dawn-of-War-4-Huang-Ruecktritt-1559859/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Justizministerium",
+        "Megaspeed",
+        "Export"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-nvidia-doj-ermittlungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.608Z"
+      },
+      "id": "2026-11-13-codex-radeon-r600-fix",
+      "datum": "2026-11-13T02:41:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "AMD",
+        "Treiber"
+      ],
+      "kategorie": "Linux",
+      "titel": "Mit Hilfe von OpenAI Codex: Fast 20 Jahre alter Videodekoder-Fehler bei Radeon-HD-2000/3000-Karten unter Linux behoben",
+      "schlagzeile": "KI findet uralten Radeon-Bug: Fix für HD 2000/3000 kommt in Linux 7.5",
+      "kurz": "Ein Hobby-Entwickler hat mit Hilfe von OpenAI Codex einen Videofehler bei fast 20 Jahre alten Radeon-GPUs der R600-Ära gefunden und behoben. Der Patch hält Videodaten im VRAM und landet in Linux 7.5. AMD pflegt diese Karten seit Jahren nicht mehr.",
+      "zusammenfassung": "Unter den AMD-Grafiktreiber-Patches für Linux 7.5 steckt laut Phoronix eine ungewöhnliche Korrektur. Sie betrifft den Videodekoder UVD von Radeon-Karten der R600-Generation, also der Radeon HD 2000 und 3000 von vor fast 20 Jahren. Der Entwickler Ted Bullock bemerkte auf einem alten iMac mit RV610-Chip beschädigte Videobilder. Die Fehler traten auf, wenn der Dekoder komprimierte Videodaten aus dem Arbeitsspeicher las, während die GPU gleichzeitig zeichnete. Lagen die Daten im Grafikspeicher, liefen die Videos sauber. Sein Patch hält die UVD-Puffer deshalb für die Chips RV610, RV620, RV630, RV635 und RV670 im VRAM. Getestet hat er nur auf seiner eigenen Hardware, für die anderen Chips fehlt noch eine Bestätigung. Bullock schreibt offen, dass er OpenAI Codex bei Analyse, Tests und Patch genutzt hat. Der Patch wurde angenommen und kommt mit Linux 7.5. Die Merge-Phase dafür beginnt um den Jahreswechsel.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Codex-R600-UVD-FIx-Linux-7.5"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Linux",
+        "Radeon",
+        "AMD",
+        "Treiber",
+        "KI",
+        "Retro"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-codex-radeon-r600-fix.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.516Z"
+      },
+      "id": "2026-11-13-windhawk-patchday-fix",
+      "datum": "2026-11-13T01:44:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "November-Patchday legt Windhawk-Mods lahm, Entwickler liefert Workaround",
+      "schlagzeile": "Patchday legt Windhawk-Mods lahm – so laufen sie wieder",
+      "kurz": "Nach dem November-Update KB5132061 funktionieren viele Mods des Anpassungs-Tools Windhawk nicht mehr, vor allem für Taskleiste und Explorer. Grund sind fehlende Debug-Symbole von Microsoft. Der Entwickler hat einen Workaround veröffentlicht, Mods einfach aus- und wieder einschalten.",
+      "zusammenfassung": "Windhawk ist ein beliebtes Tool, mit dem sich Windows per Mods anpassen lässt, etwa die Taskleiste oder der Datei-Explorer. Seit dem November-Patchday melden Nutzer laut Neowin, dass ihre Mods nicht mehr laden. Das Problem tauchte am 10. November kurz nach dem Update KB5132061 in einem GitHub-Eintrag auf, betroffen sind Windows 11 und Windows 10. Windhawk-Entwickler Michael Maltsev bestätigte den Fehler. Ursache ist, dass Microsoft einige Debug-Symbole für die neuen Windows-Versionen nicht veröffentlicht hat. Windhawk braucht diese Symbole, um die Stellen im System zu finden, die eine Mod verändert. Laut Maltsev ist das nicht das erste Mal, dass Microsoft Symbole verspätet oder gar nicht bereitstellt. Als Lösung gibt es eine manuelle Zuordnung über den Symbol-Cache von Windhawk, die die meisten betroffenen Mods wieder zum Laufen bringt. Sie ist bereits im Online-Cache enthalten. Wer noch Probleme hat, sollte die betroffenen Mods in Windhawk deaktivieren und wieder aktivieren.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/patch-tuesday-updates-break-popular-windows-customization-tool-windhawk-but-theres-a-fix/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Windows 10",
+        "Windhawk",
+        "KB5132061",
+        "Patchday"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-windhawk-patchday-fix.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.684Z"
+      },
+      "id": "2026-11-13-wolfenstein-3-offiziell",
+      "datum": "2026-11-13T01:01:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Xbox bestätigt: Wolfenstein 3 ist bei MachineGames offiziell in Produktion",
+      "schlagzeile": "Endlich offiziell: Wolfenstein 3 ist bei MachineGames in Arbeit",
+      "kurz": "Xbox hat bei der FanFest zum 25-jährigen Jubiläum bestätigt, dass Wolfenstein 3 bei MachineGames in Produktion ist. Die Sprecher von B.J. Blazkowicz und Grace Walker sind wieder dabei. Einen Termin oder Plattformen gibt es noch nicht.",
+      "zusammenfassung": "Lange wurde spekuliert, jetzt ist es offiziell: Wolfenstein 3 ist in Produktion. Xbox-Chefin Asha Sharma bestätigte das Projekt auf X im Rahmen der Xbox FanFest in Seattle. Entwickelt wird es erneut vom schwedischen Studio MachineGames, das zuletzt Indiana Jones und der Große Kreis gemacht hat. MachineGames zeigte dazu eine Seite aus dem Drehbuch mit dem Satz „His reputation precedes him“. Auf einem Foto aus dem Motion-Capture-Studio sind Brian Bloom und Debra Wilson zu sehen, die erneut B.J. Blazkowicz und Grace Walker spielen. Der Vorgänger Wolfenstein 2: The New Colossus erschien 2017. Studiochef Jerk Gustafsson hatte schon früher erklärt, B.J.s Geschichte sei immer als Trilogie geplant gewesen. Einen Trailer, Termin oder Plattformen hat Xbox noch nicht genannt. Parallel entsteht bei Amazon eine Wolfenstein-Serie.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN Deutschland",
+          "url": "https://de.ign.com/wolfenstein-iii/157214/es-ist-offiziell-wolfenstein-3-ist-gerade-bei-machinegames-in-entwicklung"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2121030203439010175"
+        }
+      ],
+      "tags": [
+        "Wolfenstein 3",
+        "MachineGames",
+        "Xbox",
+        "Bethesda",
+        "Shooter"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-wolfenstein-3-offiziell.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.251Z"
+      },
+      "id": "2026-11-13-pocketpair-gta6-urlaub",
+      "datum": "2026-11-12T23:08:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Palworld-Studio Pocketpair schickt seine Belegschaft zum GTA-6-Start auf „Dienstreise nach Vice City“",
+      "schlagzeile": "GTA-6-Fieber: Palworld-Studio gibt allen zum Launch frei",
+      "kurz": "Das Palworld-Studio Pocketpair stellt alle Mitarbeitenden, die GTA 6 spielen wollen, in der Launch-Woche frei. Offiziell heißt das „dringende Dienstreise nach Vice City“. Auch Logitech und weitere Firmen geben zum Launch frei.",
+      "zusammenfassung": "GTA 6 erscheint am 19. November für Konsolen, und manche Firmen planen schon um. Das japanische Studio Pocketpair, bekannt für Palworld, hat auf X eine augenzwinkernde Mitteilung veröffentlicht. Alle Mitarbeitenden, die GTA 6 spielen wollen, werden vom 19. bis 23. November von ihren Aufgaben befreit und zu einer „Dienstreise nach Vice City“ ermutigt. Da in den Zeitraum ein Wochenende fällt, sind es effektiv drei freie Arbeitstage. Pocketpair betont, dass die Updates für Palworld und Craftopia trotzdem wie geplant kommen sollen. Laut PC Gamer ist das Studio nicht allein: Logitech gibt seinen rund 7.000 Beschäftigten am 19. November mit dem „Logi Game Day“ frei, wobei jedes Spiel erlaubt ist. Auch der US-Tuningteilehersteller Burger Motorsports und der kanadische Lkw-Hersteller Edison Motors haben freie Tage zum Launch angekündigt. Eine PC-Version von GTA 6 hat Rockstar weiterhin nicht terminiert.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Pocketpair",
+        "Palworld",
+        "Logitech"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-pocketpair-gta6-urlaub.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.975Z"
+      },
+      "id": "2026-11-13-og-xbox-pc-21-spiele",
+      "datum": "2026-11-12T23:01:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox",
+        "PC"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Xbox bringt 21 weitere Spiele der ersten Xbox auf den PC, vier Klassiker erhalten erstmals Erfolge",
+      "schlagzeile": "KOTOR, Morrowind & Co.: 21 Ur-Xbox-Klassiker laufen jetzt am PC",
+      "kurz": "Über die Abwärtskompatibilität auf dem PC laufen jetzt 21 weitere Spiele der ersten Xbox, insgesamt sind es 25. Dabei sind unter anderem Morrowind, beide KOTOR-Teile und TimeSplitters 2. Vier Spiele bekommen erstmals Erfolge.",
+      "zusammenfassung": "Vier Monate nach dem Start der Abwärtskompatibilität für Spiele der ersten Xbox auf dem PC legt Microsoft nach. 21 weitere Titel sind hinzugekommen, damit umfasst der PC-Katalog nun 25 Spiele. Dazu gehören laut VGC und Thurrott unter anderem The Elder Scrolls III: Morrowind, Star Wars: Knights of the Old Republic I und II, Jedi Academy, Jedi Outcast, TimeSplitters 2 und Crimson Skies. Morrowind und Grabbed by the Ghoulies sind auch im Game Pass enthalten. Erstmals gibt es Erfolge für vier Klassiker: beide KOTOR-Teile, Blinx: The Time Sweeper und Conker: Live and Reloaded. Laut Xbox lassen sie sich am PC und auf der Konsole freischalten. Xbox-Vizepräsident Jason Ronald schreibt außerdem, die ersten vier Spiele liefen jetzt stabiler und schneller, und alle Titel unterstützten Maus und Tastatur. Weitere Spiele sollen folgen. Die Ankündigung gehört zur Xbox FanFest rund um das 25-jährige Jubiläum am 15. November.",
+      "quelle": {
+        "name": "VGC",
+        "url": "https://www.videogameschronicle.com/uncategorised/21-original-xbox-games-are-now-on-pc-via-backward-compatibility/"
+      },
+      "weitere_links": [
+        {
+          "name": "Thurrott.com",
+          "url": "https://www.thurrott.com/games/xbox/343819/microsoft-brings-21-more-og-xbox-games-to-pc-via-backward-compatibility"
+        },
+        {
+          "name": "Xbox auf X",
+          "url": "https://x.com/XBOX/status/2120986769974083713"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Abwärtskompatibilität",
+        "PC",
+        "KOTOR",
+        "Morrowind",
+        "Retro"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-og-xbox-pc-21-spiele.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.431Z"
+      },
+      "id": "2026-11-13-geforce-621-24",
+      "datum": "2026-11-12T23:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Nvidia",
+        "Treiber"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Nvidia GeForce 621.24 WHQL: Game Ready für Dawn of War 4 und Assetto Corsa Rally, Vorbereitung auf DLSS 5 in Where Winds Meet",
+      "schlagzeile": "GeForce 621.24: Neuer Treiber für Dawn of War 4 und DLSS 5",
+      "kurz": "Nvidia hat den GeForce-Treiber 621.24 WHQL veröffentlicht, nur acht Tage nach 621.14. Er ist Game Ready für Dawn of War 4 und Assetto Corsa Rally und bereitet DLSS 5 in Where Winds Meet vor. Behoben werden nur zwei Fehler, die vor allem Profi- und Videoanwendungen betreffen.",
+      "zusammenfassung": "Mit GeForce 621.24 WHQL liefert Nvidia den vierten Treiber innerhalb von 22 Tagen. Im Mittelpunkt steht laut PCGH Warhammer 40.000: Dawn of War 4, das am 3. Dezember erscheint, Käufer der Commander Edition dürfen schon am 30. November spielen. Auch Assetto Corsa Rally ist optimiert, die Rallye-Simulation soll am 19. November ein Update mit DLSS 4.5 und Dynamic Multi Frame Generation erhalten. Diese Bildgenerierung setzt eine GeForce RTX 5000 voraus. Am 23. November soll Where Winds Meet DLSS 5 mit neuem Neural Rendering bekommen, laut PCGH nur für Blackwell-Karten und RTX-Spark-Systeme. Behoben wurden zwei Fehler: Der OptiX-Denoiser in Chaos Vantage konnte bei hohen Auflösungen versagen, und H.265-Videos von DJI im D-Log-Profil wurden in Windows-Apps mit falschen Farben gezeigt. Offene Fehler nennen die Release Notes zum Start nicht. Neu ist außerdem CUDA 13.5. Unterstützt werden Desktop-Karten von der GTX 1630 bis zur RTX 5090, Pascal und Maxwell sind nicht mehr dabei. Wer keines der genannten Spiele spielt, muss nicht sofort aktualisieren.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Geforce-62124-Dawn-of-War-4-Huang-Ruecktritt-1559859/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354746/nvidia-geforce-621-24-whql-game-ready-drivers-released"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "GeForce",
+        "Treiber",
+        "DLSS 5",
+        "Dawn of War 4"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-geforce-621-24.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.458Z"
+      },
+      "id": "2026-11-13-amd-china-gpu-kuerzung",
+      "datum": "2026-11-12T22:14:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "AMD"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Bericht: AMD soll die Lieferungen von Gaming-GPUs in China seit Oktober um 20 bis 50 Prozent gekürzt haben",
+      "schlagzeile": "Leak: Kürzt AMD die Radeon-Lieferungen in China um bis zu 50 %?",
+      "kurz": "AMD soll seine Gaming-GPU-Lieferungen an Boardpartner in China seit Oktober um 20 bis 50 Prozent gekürzt haben. Das berichtet das chinesische Forum Board Channels, die Knappheit soll bis Januar anhalten. AMD hat sich dazu nicht geäußert.",
+      "zusammenfassung": "Laut einem Beitrag im chinesischen Branchenforum Board Channels vom 12. November hat AMD die Menge an Gaming-Grafikchips für seine Boardpartner in China seit Beginn des vierten Quartals deutlich reduziert. Die Rede ist von mindestens 20 bis 50 Prozent weniger, die monatlichen Zuteilungen sollen weiter sinken. Die Lage sei damit inzwischen ähnlich knapp wie bei Nvidia. Die Quelle erwartet, dass das Angebot bis Januar sehr knapp bleibt. Radeon-Preise in China sollen jedes Quartal steigen, begründet wird das mit höheren Kosten für Speicher und GPUs. AMD soll den Preis seiner Pakete aus GPU und GDDR6 in diesem Monat erneut anheben, nach einer Erhöhung im Oktober. TechPowerUp weist darauf hin, dass der Bericht keine konkreten Stückzahlen, betroffenen Modelle oder Gründe nennt. Er betrifft zudem nur China, ob Europa oder die USA ähnliche Kürzungen sehen, ist offen. AMD hat den Bericht nicht kommentiert. Die Angaben sind unbestätigt und sollten als Hinweis auf die Marktlage verstanden werden, nicht als Fakt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354757/amd-reportedly-cuts-gaming-gpu-supply-in-china-by-up-to-50"
+      },
+      "weitere_links": [],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Ursprung ist ein Beitrag im chinesischen Branchenforum Board Channels (via VideoCardz, TechPowerUp); keine Zahlen zu Modellen oder Stückzahlen, von AMD nicht bestätigt. Board Channels lag bei Liefer- und Preisthemen schon öfter richtig."
+      },
+      "tags": [
+        "AMD",
+        "Radeon",
+        "China",
+        "Preise",
+        "Lieferengpass"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-amd-china-gpu-kuerzung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.881Z"
+      },
+      "id": "2026-11-13-fable-gameplay-4-minuten",
+      "datum": "2026-11-12T21:16:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Xbox zeigt vier Minuten neues Gameplay aus Fable, Release am 23. Februar 2027",
+      "schlagzeile": "Vier Minuten neues Fable: Kämpfe, Magie und ein düsterer Wald",
+      "kurz": "Xbox hat vier Minuten neues Gameplay aus dem Fable-Reboot von Playground Games veröffentlicht. Zu sehen sind Nahkampf, Fernkampf und Magie, aufgenommen auf dem PC in Ultra-Einstellungen. Fable erscheint am 23. Februar 2027 für Xbox Series X|S, PS5 und PC.",
+      "zusammenfassung": "Zum 25-jährigen Xbox-Jubiläum hat Xbox-Chefin Asha Sharma ein neues Gameplay-Video zu Fable geteilt. Die vier Minuten zeigen laut IGN vor allem Kämpfe mit Schwert, Fernkampfwaffen und Magie. Aufgenommen wurde auf dem PC mit Ultra-Grafikeinstellungen. Inhaltlich geht es um den Helden von Briar Hill, der mit einer einheimischen Heldin im Wald Deepwood seltsamen magischen Vorfällen nachgeht. Entwickelt wird das Spiel von Playground Games, bekannt für die Forza-Horizon-Reihe. Fable war ursprünglich für diesen Herbst geplant und wurde auf den 23. Februar 2027 verschoben. Es erscheint für Xbox Series X|S, PS5 und PC, auf Steam ist es bereits vorbestellbar. Die Reaktionen sind gemischt: PC Gamer findet, das Video wirke düster und eher gewöhnlich und erinnere wenig an die bunte, schräge Fable-Reihe. In den YouTube-Kommentaren fiel das Echo dagegen überwiegend positiv aus. Ein kurzer Clip zeigt naturgemäß nur einen kleinen Ausschnitt des Spiels.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/fable-drops-four-minutes-of-new-gameplay"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2120955243790057796"
+        }
+      ],
+      "tags": [
+        "Fable",
+        "Playground Games",
+        "Xbox",
+        "PS5",
+        "Rollenspiel"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-fable-gameplay-4-minuten.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.789Z"
+      },
+      "id": "2026-11-13-id-software-neues-spiel",
+      "datum": "2026-11-12T21:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "id Software bestätigt neues Spiel unter Regie von Hugo Martin, Doom: The Dark Ages bekommt Slaughter Mode",
+      "schlagzeile": "Doom-Macher id Software arbeitet schon am nächsten Spiel",
+      "kurz": "id Software arbeitet an einem neuen Spiel, das wieder Hugo Martin als Game Director leitet. Welche Marke es wird, ist offen. Zuvor bekommt Doom: The Dark Ages am 16. November einen kostenlosen Slaughter Mode für Besitzer der Revelations-Erweiterung.",
+      "zusammenfassung": "Xbox-Chefin Asha Sharma hat während der Xbox FanFest bestätigt, dass id Software bereits am nächsten Spiel arbeitet. Das Studio selbst schrieb auf X, das Projekt entstehe in den Teams in Texas und Frankfurt, Game Director sei erneut Hugo Martin. Martin war Creative Director bei Doom (2016) und Doom Eternal sowie Game Director von Doom: The Dark Ages. Ob es ein neues Doom, ein Quake oder etwas ganz anderes wird, verrät id nicht. Laut id wird es noch einige Zeit dauern, bis es mehr zu zeigen gibt, das Projekt steht also wohl noch am Anfang. VGC erinnert daran, dass id Software zuletzt stark von den Xbox-Entlassungen betroffen war, insgesamt verloren dort 136 Menschen ihre Jobs. Zuvor kommt am 16. November der Slaughter Mode für Doom: The Dark Ages. Der endlose Einzelspieler-Modus ist ein kostenloses Update für alle, die die Erweiterung Revelations besitzen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/doom-developer-id-software-confirms-work-on-new-game-will-be-directed-by-hugo-martin"
+      },
+      "weitere_links": [
+        {
+          "name": "VGC",
+          "url": "https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2120969774062817747"
+        }
+      ],
+      "tags": [
+        "id Software",
+        "Doom",
+        "Hugo Martin",
+        "Xbox",
+        "Shooter"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-id-software-neues-spiel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:16.320Z"
+      },
+      "id": "2026-11-13-cmp170hx-80gb-hack",
+      "datum": "2026-11-12T20:52:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia",
+        "KI"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Hardware-Hack: Nvidias Mining-Karte CMP 170HX lässt sich auf 80 GB HBM2e und bis zu 126 SMs freischalten",
+      "schlagzeile": "Aus 8 werden 80 GB: Hack macht Nvidias Mining-Karte zur KI-Karte",
+      "kurz": "Eine Entwicklerin hat bei Nvidias alter Mining-Karte CMP 170HX per Spannungs-Trick die vollen 80 GB HBM2e statt 8 GB freigeschaltet. Auch bis zu 126 statt 70 Recheneinheiten ließen sich aktivieren. Der Umbau erfordert Löten, ist dauerhaft und kann die Karte zerstören.",
+      "zusammenfassung": "Die CMP 170HX hat Nvidia 2021 als reinen Ethereum-Beschleuniger verkauft, im Inneren steckt aber derselbe GA100-Chip wie in der Rechenzentrumskarte A100. Ab Werk sind nur 8 GB der eigentlich verbauten 80 GB HBM2e nutzbar, dazu 70 von 128 Streaming-Multiprozessoren. Mit dem Software-Tool cmpunlocker ließen sich schon seit dem Sommer bis zu 64 GB freischalten. Eine Entwicklerin namens Kate geht mit einem am 10. November veröffentlichten Hardware-Hack weiter: Eine kleine Zusatzplatine mit STM32-Mikrocontroller erzeugt gezielte Spannungseinbrüche und bringt so den eFuse-Controller dazu, gesperrte Einstellungen wieder anzunehmen. Laut ComputerBase lieferten neun von zehn getesteten Karten danach die vollen 80 GB, eine kam auf 64 GB. Je nach Exemplar wurden außerdem 120 bis 126 SMs aktiv. In einem OpenCL-FP16-Test erreichte die umgebaute Karte 85,9 TFLOPS und lag damit vor einer regulären A100 mit 72,5 TFLOPS. Dieser Wert lässt sich laut ComputerBase aber nicht direkt auf echte KI-Anwendungen übertragen. Auch PCIe 4.0 x16 und NVLink sollen sich mit zusätzlichen Anpassungen freischalten lassen. Der Haken: Der Eingriff braucht Lötarbeiten und laut der Entwicklerin zwischen einer und 48 Stunden Versuche. Die Änderungen an den eFuses sind dauerhaft, ein Fehler kann die Karte unbrauchbar machen. Dass auch andere Exemplare so viel funktionsfähige Hardware haben, ist nicht garantiert.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/nvidia-mining-gpu-80-gb-statt-8-gb-vram-und-80-prozent-mehr-kerne-per-hack.100309/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-CMP-170HX-A100-Hack-80-GiB-VRAM-Voltage-Glitching-1559861/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "CMP 170HX",
+        "GA100",
+        "HBM2e",
+        "Mod",
+        "KI"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-cmp170hx-80gb-hack.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.158Z"
+      },
+      "id": "2026-11-13-game-awards-disney-plus",
+      "datum": "2026-11-12T20:17:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [],
+      "kategorie": "Spiele",
+      "titel": "The Game Awards 2026 laufen erstmals auch auf Disney+",
+      "schlagzeile": "The Game Awards 2026 laufen erstmals auch auf Disney+",
+      "kurz": "Die Game Awards 2026 werden erstmals auch auf Disney+ übertragen. Twitch, YouTube und weitere Plattformen bleiben dabei, die Show steigt am 10. Dezember in Los Angeles.",
+      "zusammenfassung": "Die Game Awards bekommen in diesem Jahr einen neuen Partner: Laut IGN wird die Show erstmals auch auf Disney+ gestreamt. Daneben läuft sie wie gewohnt auf Twitch und YouTube sowie unter anderem auf Steam, TikTok, X, Facebook und Kick. Die Verleihung findet am Donnerstag, 10. Dezember, im Peacock Theater in Los Angeles statt. Los geht es um 19:30 Uhr Ostküstenzeit, in Mitteleuropa ist das in der Nacht auf den 11. Dezember um 1:30 Uhr. Moderiert wird wieder von Geoff Keighley. Laut Variety will Disney die Partnerschaft nutzen, um eigene Spiele- und Animationsprojekte zu bewerben. Zu den Favoriten zählt IGN unter anderem Resident Evil Requiem, 007 First Light und das Ocarina-of-Time-Remake. GTA 6 erscheint am 19. November und ist damit gerade noch für die diesjährigen Awards zugelassen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/the-game-awards-2026-are-coming-to-disney"
+      },
+      "weitere_links": [],
+      "tags": [
+        "The Game Awards",
+        "Disney+",
+        "Geoff Keighley",
+        "GTA 6"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-game-awards-disney-plus.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T08:06:17.063Z"
+      },
+      "id": "2026-11-13-halo-ce-firefight",
+      "datum": "2026-11-12T19:46:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Halo: Campaign Evolved bekommt diesen Winter Firefight als kostenloses Update",
+      "schlagzeile": "Halo: Campaign Evolved bekommt gratis Firefight-Modus",
+      "kurz": "Das Halo-Remake Campaign Evolved erhält diesen Winter den Firefight-Modus als kostenloses Update. Bis zu vier Spieler kämpfen darin gemeinsam gegen Gegnerwellen. Mehr Details soll es beim Halo Fest Mitte Dezember geben.",
+      "zusammenfassung": "Xbox hat bei der FanFest angekündigt, dass Halo: Campaign Evolved einen Firefight-Modus bekommt. Firefight ist ein kooperativer PvE-Modus für bis zu vier Spieler, der schon in mehreren Halo-Teilen enthalten war. Das Update kommt kostenlos irgendwann in diesem Winter, ein genaues Datum gibt es noch nicht. Besucher der FanFest sollten den Modus laut VGC bereits vor Ort anspielen können. Weitere Details will Xbox beim Halo Fest am 12. und 13. Dezember nennen. Halo: Campaign Evolved ist ein Remake der Kampagne des ersten Halo und erschien im Juli. VGC weist darauf hin, dass das kleiner gewordene Halo Studios nach den Xbox-Entlassungen nur noch bestehende Halo-Spiele betreut. Ein neues Halo entsteht laut VGC bei Activision.",
+      "quelle": {
+        "name": "VGC",
+        "url": "https://www.videogameschronicle.com/news/halo-campaign-evolved-is-getting-firefight-in-a-free-update/"
+      },
+      "weitere_links": [
+        {
+          "name": "Thurrott.com",
+          "url": "https://www.thurrott.com/games/343808/halo-campaign-evolved-to-get-firefight-mode"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2120925412788498530"
+        }
+      ],
+      "tags": [
+        "Halo",
+        "Halo Studios",
+        "Xbox",
+        "Koop",
+        "Update"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-halo-ce-firefight.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-12-amd-26-11-1-ssd-fix",
       "datum": "2026-11-12T18:42:00+01:00",
@@ -2124,6 +2734,43 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.935Z"
+      },
+      "id": "2026-11-10-gpu-taskman-vram",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Tools"
+      ],
+      "kategorie": "Software",
+      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
+      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
+      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
+      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GPU Taskman",
+        "VRAM",
+        "Open Source",
+        "Tool"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-10T18:28:32.855Z"
       },
       "id": "2026-11-10-auto-sr-xbox-ally-ryzen",
@@ -2154,43 +2801,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-auto-sr-xbox-ally-ryzen.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-10T18:28:32.935Z"
-      },
-      "id": "2026-11-10-gpu-taskman-vram",
-      "datum": "2026-11-10T19:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "GPU",
-        "Tools"
-      ],
-      "kategorie": "Software",
-      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
-      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
-      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
-      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GPU Taskman",
-        "VRAM",
-        "Open Source",
-        "Tool"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
         "ki_generiert": true
       }
     },
@@ -2245,53 +2855,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:31.904Z"
-      },
-      "id": "2026-11-10-amd-zen6-ipc-epyc",
-      "datum": "2026-11-10T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "CPU",
-        "AMD"
-      ],
-      "kategorie": "Prozessoren",
-      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
-      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
-      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
-      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
-      },
-      "weitere_links": [
-        {
-          "name": "heise online",
-          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
-        },
-        {
-          "name": "AMD auf X",
-          "url": "https://x.com/AMD/status/2120200385520369828"
-        }
-      ],
-      "tags": [
-        "Zen 6",
-        "Epyc 9006",
-        "Venice",
-        "IPC",
-        "AMD"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:31.989Z"
       },
       "id": "2026-11-10-amd-mext-flash-statt-ram",
@@ -2330,6 +2893,53 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.904Z"
+      },
+      "id": "2026-11-10-amd-zen6-ipc-epyc",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "AMD"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
+      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
+      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
+      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
+        },
+        {
+          "name": "AMD auf X",
+          "url": "https://x.com/AMD/status/2120200385520369828"
+        }
+      ],
+      "tags": [
+        "Zen 6",
+        "Epyc 9006",
+        "Venice",
+        "IPC",
+        "AMD"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
         "ki_generiert": true
       }
     },
@@ -4126,6 +4736,48 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-07T20:50:55.736Z"
+      },
+      "id": "2026-11-07-cpuz-ram-rueckgang",
+      "datum": "2026-11-07T10:40:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Speicher & Markt",
+      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
+      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
+      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
+      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
+      },
+      "weitere_links": [
+        {
+          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
+          "url": "https://x.com/d0cTB/status/2118776662292906051"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "CPU-Z",
+        "DDR4",
+        "DDR5",
+        "Statistik"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-07T20:50:55.660Z"
       },
       "id": "2026-11-07-razor-lake-lga1954-2028",
@@ -4168,48 +4820,6 @@
       },
       "bild": {
         "datei": "assets/img/news/2026-11-07-razor-lake-lga1954-2028.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T20:50:55.736Z"
-      },
-      "id": "2026-11-07-cpuz-ram-rueckgang",
-      "datum": "2026-11-07T10:40:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "CPU-Z-Statistik: Anteil von 32- und 64-GB-PCs sinkt erstmals im Jahresvergleich",
-      "schlagzeile": "Erstmals weniger RAM: CPU-Z sieht 16-GB-PCs wieder im Kommen",
-      "kurz": "Laut CPU-Z-Validator-Statistik sinkt der Anteil von PCs mit 32 GB RAM im Jahresvergleich um 2,5 %, bei 64 GB sogar um 18 %. 16-GB- und 8-GB-Systeme legen dagegen zu, DDR4 gewinnt Anteile vor DDR5. Die Daten zeigen nur eingereichte Validierungen, keine Marktzahlen.",
-      "zusammenfassung": "Doc TB, einer der Entwickler hinter CPU-Z, hat am 6. November 2026 neue Zahlen aus dem CPU-Z Validator veröffentlicht, VideoCardz hat sie am 7. November aufbereitet. Erstmals sinkt demnach die RAM-Ausstattung der erfassten PCs im Jahresvergleich. 32 GB bleiben mit 37,2 % die häufigste Konfiguration, verlieren aber 2,5 % an Anteil. Bei 64 GB beträgt der Rückgang 18 %, der Anteil liegt jetzt bei 7,3 %. 16-GB-Systeme legen um 12,9 % auf 33,0 % zu und liegen damit knapp hinter 32 GB. Auch 8 GB wachsen um 5,5 % auf 11,0 %, 24 GB um 19,7 % auf 2,3 %. Bei der Speichergeneration steigt DDR4 um 6,0 % auf 54,5 %, DDR5 fällt um 2,9 % auf 32,9 %. Eine Ursache nennen die Zahlen nicht; sie passen aber zu den stark gestiegenen RAM-Preisen der letzten Monate, über die der Ticker mehrfach berichtet hat. Wichtig: Die Statistik beruht nur auf Systemen, die Nutzer aktiv im Validator einreichen, und ist keine Marktstudie. Die Veränderungen sind relative Anteile und bedeuten nicht, dass Besitzer ihren RAM ausbauen.",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/cpu-z-statistics-show-32gb-and-64gb-ram-configurations-declining-year-over-year"
-      },
-      "weitere_links": [
-        {
-          "name": "Doc TB (CPU-Z) auf X, 06.11.2026",
-          "url": "https://x.com/d0cTB/status/2118776662292906051"
-        }
-      ],
-      "tags": [
-        "RAM",
-        "CPU-Z",
-        "DDR4",
-        "DDR5",
-        "Statistik"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-cpuz-ram-rueckgang.webp",
         "ki_generiert": true
       }
     },
