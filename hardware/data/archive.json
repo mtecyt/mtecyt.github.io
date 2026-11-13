@@ -2,10 +2,186 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-12T19:17:36.304Z",
+    "stand": "2026-11-13T07:49:12.923Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-06-nvidia-dlss-override-19",
+      "datum": "2026-11-06T08:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "NVIDIA",
+        "DLSS"
+      ],
+      "kategorie": "Software",
+      "titel": "NVIDIA App: DLSS Override für 19 weitere Spiele, darunter Witcher 3 und PUBG",
+      "schlagzeile": "NVIDIA App: DLSS Override für 19 weitere Spiele freigeschaltet",
+      "kurz": "Ein Update der NVIDIA App ergänzt DLSS-Override-Profile für 19 weitere Titel. Darunter sind ältere Spiele wie The Witcher 3 und PUBG sowie kommende bzw. angekündigte Releases. Override erlaubt das Erzwingen neuerer DLSS-Modelle und -Modi, wo der Treiber es unterstützt.",
+      "zusammenfassung": "TechPowerUp meldet das NVIDIA-App-Update 11.0.9.585 mit DLSS-Override-Unterstützung für 19 weitere Spiele sowie Optimal-Settings-Profilen für sechs Titel. Auf der Override-Liste stehen unter anderem Honeycomb: The World Beyond, WARDOGS, PUBG: Battlegrounds, Aniimo, 007 First Light, Active Matter, Enlisted, Dragon's Dogma 2, The Witcher 3: Wild Hunt, AION 2, Halloween: The Game, HOT WHEELS Infinite Rush, Silent Hill: Townfall, Control Resonant, Ace Combat 8: Wings of Theve, Dynasty Warriors 3 Complete Edition Remastered, Star Wars: Galactic Racer, Gears of War: E-Day und Clive Barker's Hellraiser: Revival. Optimal Settings kommen unter anderem für AION 2, Aniimo, Control Resonant, EA Sports FC 27, Gears of War: E-Day und Star Wars: Galactic Racer. Einige Titel waren laut TechPowerUp bereits in früheren Builds gelistet; NVIDIA erklärt die Doppelungen nicht und nennt auch nicht pro Spiel, welche Override-Optionen greifen. DLSS Override liegt unter Grafik-Programmeinstellungen und erlaubt neuere DLSS-Modelle oder Modi wie DLAA, wenn ein Spiel sie selbst nicht anbietet. Das Changelog erwähnt sonst nur allgemeine Stabilitäts- und Sicherheitsfixes.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354528/nvidia-app-update-adds-dlss-override-support-to-19-more-games"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz: 19 DLSS-Override-Profile",
+          "url": "https://videocardz.com/newz/nvidia-adds-19-dlss-override-profiles-including-several-upcoming-pc-games"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "DLSS",
+        "NVIDIA App",
+        "Treiber"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.904Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T07:49:12.921Z"
+    },
+    {
+      "id": "2026-11-06-unity-buyout-gespraeche",
+      "datum": "2026-11-06T08:00:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Unity"
+      ],
+      "kategorie": "Games",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "hinweis": "Unbestätigt: Reuters-Bericht über vorläufige Gespräche, aufgegriffen von PC Gamer, Insider Gaming und IGN. Kein abgeschlossener Deal; Unity prüft Optionen mit einer Bank. Zahlen und Ausgang offen."
+      },
+      "ursprungsquelle": "Reuters",
+      "titel": "Berichte: Silver Lake und saudischer PIF sollen vorläufig über Unity-Übernahme gesprochen haben",
+      "schlagzeile": "Leak: Silver Lake und PIF sollen über Unity-Kauf sprechen",
+      "kurz": "Laut einem Reuters-Bericht haben Silver Lake und der saudische Public Investment Fund nach dem EA-Deal vorläufige Gespräche über eine Übernahme von Unity geführt. In Zweitberichten kursieren Bewertungsgrößen um etwa 25 Milliarden US-Dollar. Ein Abschluss ist nicht sicher; die Aktien reagierten auf die Gerüchte.",
+      "zusammenfassung": "Mehrere Medien berichten unter Berufung auf Reuters, dass Silver Lake und der saudische Public Investment Fund vorläufige Gespräche über eine mögliche Übernahme von Unity geführt haben. Dieselben Akteure waren kürzlich am großen EA-Deal beteiligt; Silver Lake hält Berichten zufolge bereits einen Minderheitsanteil an Unity. Insider Gaming nennt eine Bewertung in der Größenordnung von etwa 25 Milliarden US-Dollar und schreibt, Unity prüfe Optionen mit einer Bank. Es handelt sich ausdrücklich um frühe Gespräche; ein Deal ist nicht garantiert. Allein die Gerüchte hätten den Aktienkurs spürbar anziehen lassen, in einem Bericht ist von nahezu 15 Prozent die Rede. Unity ist vor allem für die gleichnamige Engine bekannt und steckt hinter zahlreichen großen Spielen. Die Lage bleibt unbestätigt, bis Unity oder die Investoren offiziell Stellung nehmen. Zuverlässigkeit: mittel wegen Reuters als Ursprung, aber vorläufigem Charakter.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming: Silver Lake und PIF sollen Unity wollen",
+          "url": "https://insider-gaming.com/saudi-silver-lake-pif-unity-acquisition-buyout/"
+        },
+        {
+          "name": "IGN: Silver Lake und PIF sollen Unity anstreben",
+          "url": "https://www.ign.com/articles/after-buying-ea-silver-lake-and-pif-are-reportedly-now-seeking-to-acquire-gaming-software-provider-unity"
+        }
+      ],
+      "tags": [
+        "Unity",
+        "Silver Lake",
+        "PIF",
+        "Übernahme",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.844Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T07:49:12.922Z"
+    },
+    {
+      "id": "2026-11-06-amd-pc-markt-2027",
+      "datum": "2026-11-06T07:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "RAM"
+      ],
+      "kategorie": "Markt & Wirtschaft",
+      "titel": "AMD plant 2027 mit zweistelligem Rückgang der PC-Auslieferungen wegen hoher Speicherpreise",
+      "schlagzeile": "AMD: PC-Markt soll 2027 zweistellig schrumpfen – RAM-Preise belasten",
+      "kurz": "Lisa Su sagte im Earnings Call, AMD plane für 2027 mit einem zweistelligen Rückgang der PC-Stückzahlen weltweit. Grund seien höhere Speicher- und Komponentenpreise, die die Nachfrage belasten. Es handelt sich um eine Planungsannahme für den Gesamtmarkt, nicht um bereits gemessene Zahlen.",
+      "zusammenfassung": "Im Earnings Call zum dritten Quartal 2026 erklärte AMD-Chefin Lisa Su, der Konzern plane für 2027 mit einem Rückgang der PC-Markt-Stückzahlen um einen zweistelligen Prozentsatz. Als Ursache nennt sie höhere Speicher- und Komponentenkosten, die Desktop-PCs und Notebooks verteuern und die Nachfrage belasten. AMD will Sell-in an Sell-through angleichen, um Lagerbestände bei Kunden und im Handel gesund zu halten. Trotz der erwarteten Marktschwäche will AMD laut Su über die Ryzen-Roadmap und ein wachsendes Commercial-Geschäft besser abschneiden als der Gesamtmarkt. Parallel erwartet AMD, dass der Data-Center-Bereich 2027 mehr als 80 Prozent des Konzernumsatzes ausmacht. Im Client-Geschäft stieg der Umsatz im dritten Quartal um 7 Prozent auf 2,9 Milliarden US-Dollar; Gaming fiel um 40 Prozent auf 773 Millionen, vor allem wegen schwächerer Semi-Custom-Verkäufe im Konsolenzyklus. PCGH betont, dass es sich um eine Planungsannahme handelt und nicht um eine schon gemessene Marktentwicklung. VideoCardz greift dieselbe Earnings-Call-Aussage auf. RAM-Preise sind in Google Trends DE aktuell kaum gesucht, die Meldung bleibt trotzdem relevant für Hardware-Käufer.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/AMD-PC-Markt-2027-Prognose-RAM-Preise-Lisa-Su-1559144/"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz: AMD erwartet zweistelligen PC-Markt-Rückgang 2027",
+          "url": "https://videocardz.com/newz/amd-prepares-for-even-weaker-pc-market-in-2027-expects-double-digit-decline-in-shipments"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Lisa Su",
+        "PC-Markt",
+        "RAM",
+        "Data Center"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.598Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T07:49:12.923Z"
+    },
+    {
+      "id": "2026-11-06-rx9070xt-clustered-geometry",
+      "datum": "2026-11-06T07:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "DirectX",
+        "GPU",
+        "PC-Gaming"
+      ],
+      "kategorie": "GPU",
+      "titel": "Microsoft Agility SDK: größtes DirectX-Raytracing-Update seit 2018 – Clustered Geometry und PTLAS",
+      "schlagzeile": "DirectX: größtes Raytracing-Update seit 2018 – Clustered Geometry",
+      "kurz": "Microsoft hat mit dem Agility SDK 1.722 Preview das umfangreichste DirectX-Raytracing-Update seit 2018 veröffentlicht. Clustered Geometry und Partitioned TLAS sollen den Aufbau von Raytracing-Strukturen massiv beschleunigen und den Speicherbedarf senken. In unabhängigen Demo-Messungen von PCGH steigt eine RX 9070 XT von 1,7 auf 91 Fps; Spiele müssen die Technik erst einbauen.",
+      "zusammenfassung": "Microsoft bezeichnet die neuen DirectX-Raytracing-Funktionen im Agility SDK 1.722 Preview als umfangreichste Erweiterung seit der Einführung von DXR im Jahr 2018. Kernpunkte sind Clustered Geometry (CLAS), Partitioned Top-Level Acceleration Structures (PTLAS) und indirekte Acceleration-Structure-Builds. Clustered Geometry zerlegt Geometrie in wiederverwendbare Cluster mit bis zu 256 Dreiecken; das soll den Aufbau von Raytracing-Strukturen in detailreichen, dynamischen Szenen stark beschleunigen und präzisere Reflexionen sowie Schatten ohne teure Proxy-Geometrie ermöglichen. PTLAS soll erlauben, nur veränderte Szenenbereiche zu aktualisieren. Laut ComputerBase und Microsoft stieg in einem Beispiel auf einer Radeon RX 9070 die Bildrate von 1,2 auf 79 Fps, der Struktur-Speicherbedarf sank von rund 7519 auf 774 MB; Scratch-Speicher stieg dagegen stark. PC Games Hardware hat die Demo D3D12RaytracingClusteredGeometry zusätzlich unabhängig gemessen: Eine RX 9070 XT ging bei 1600×920 von 1,7 auf 91 Fps (etwa Faktor 54), der BVH-Speicher von 7518 auf 771 MiB; eine RTX 5080 von 1,4 auf 310 Fps. Ohne Clustered Geometry lag die Radeon leicht vorn, mit dem Feature war die RTX 5080 deutlich schneller. Die Preview läuft auf GeForce RTX, Radeon RX 9000 sowie Intel Arc B-Serie und unterstützten Core-Ultra-iGPUs; neue Hardware-Features sind nicht nötig, Treiberunterstützung schon. Bestehende Spiele profitieren nicht automatisch: Studios müssen die APIs einbauen. Advanced Shader Delivery und weitere Agility-SDK-1.620-Funktionen gehören zum gleichen Release-Paket, sind aber kein Teil der Raytracing-Demo-Zahlen.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/directx-12-microsoft-bringt-groesstes-raytracing-update-seit-2018.100099/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft DirectX Blog: Agility SDK 1.620 / 1.722 Preview",
+          "url": "https://devblogs.microsoft.com/directx/agilitysdk-1-620-retail-and-1-722-preview/"
+        },
+        {
+          "name": "Microsoft: Clustered Geometry und PTLAS Preview",
+          "url": "https://devblogs.microsoft.com/directx/clas-ptlas-preview/"
+        },
+        {
+          "name": "PCGH: RX 9070 XT / RTX 5080 in Clustered-Geometry-Demo",
+          "url": "https://www.pcgameshardware.de/Radeon-RX-9070-XT-Grafikkarte-281023/News/DirectX-Raytracing-Clustered-Geometry-RTX-5080-Benchmark-1559145/"
+        }
+      ],
+      "tags": [
+        "Radeon",
+        "RX 9070 XT",
+        "DirectX",
+        "Raytracing",
+        "RTX 5080"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-06T08:41:21.389Z"
+      },
+      "ki_unterstuetzt": true,
+      "archiviert_am": "2026-11-13T07:49:12.923Z"
+    },
     {
       "id": "2026-11-05-asrock-rx7900-vbios",
       "datum": "2026-11-05T20:07:00+01:00",
