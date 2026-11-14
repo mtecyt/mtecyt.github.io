@@ -2,10 +2,843 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-14T18:00:46.889Z",
+    "stand": "2026-11-14T18:51:02.370Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.841Z"
+      },
+      "id": "2026-11-14-huang-petition-musk",
+      "datum": "2026-11-14T18:19:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Petition für Huangs Rückkehr an die Nvidia-Spitze: über 100.000 Unterschriften, Elon Musk unterstützt sie, intern über 1.600 Kommentare",
+      "schlagzeile": "„Bring back the boss“: 100.000 wollen Jensen Huang zurück bei Nvidia",
+      "kurz": "Eine öffentliche Petition für die Rückkehr von Jensen Huang zu Nvidia hat laut Golem mehr als 100.000 Unterschriften, darunter über 2.000 von aktuellen und ehemaligen Beschäftigten. Elon Musk hat auf X angekündigt, sie zu unterzeichnen. Auch im internen Forum fordern viele Mitarbeitende den Gründer zurück.",
+      "zusammenfassung": "Wenige Tage nach dem Rücktritt von Jensen Huang formiert sich Widerstand gegen die Entscheidung des Verwaltungsrats. Eine Petition unter dem Motto „33 Jahre verdienen eine Antwort“ hatte laut Golem am Abend des 14. November mehr als 100.187 Unterschriften. Darunter sollen über 2.000 aktuelle und ehemalige Nvidia-Beschäftigte sein, prüfen lässt sich das von außen nicht. Elon Musk hatte am 13. November auf X auf die Petition hingewiesen und angekündigt, sie zu unterschreiben. Laut Wired gibt es zudem im internen Vorschlagsforum von Nvidia einen Beitrag für Huangs Rückkehr mit mehr als 1.600 Kommentaren, die meisten davon zustimmend. Heise berichtet, Interims-Chefin Colette Kress habe für den 18. November eine Betriebsversammlung angekündigt. Der Verwaltungsrat hatte Huangs Rücktritt nach Berichten über eine zweite Affäre mit einer direkt unterstellten Managerin bekanntgegeben; Reuters berichtete später von einer dritten Beziehung. Huang selbst hat sich seit seiner Mail an die Belegschaft vom Sonntag nicht mehr geäußert. Nvidia und Verwaltungsratschef Harvey Jones haben auf die Petition bisher nicht reagiert. Eine Petition hat keine rechtliche Wirkung, die Entscheidung liegt allein beim Verwaltungsrat.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/petition-nvidia-mitarbeiter-und-elon-musk-wollen-huang-zurueck-2611-215228.html"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Nvidia-Angestellte-wollen-Jensen-Huang-zurueck-11525279.html"
+        },
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Elon-Musk-unterzeichnet-Petition-fuer-Rueckkehr-von-Huang-als-Nvidia-CEO-1559989/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Elon Musk",
+        "Petition",
+        "Colette Kress"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-huang-petition-musk.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.016Z"
+      },
+      "id": "2026-11-14-gta6-codes-fehlen-box",
+      "datum": "2026-11-14T17:43:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Einige physische GTA-6-Ausgaben enthalten keinen lesbaren Download-Code, Händler reagieren unterschiedlich",
+      "schlagzeile": "GTA 6 gekauft, aber kein Code in der Box? Erste Käufer melden Fehldrucke",
+      "kurz": "Mehrere Käufer berichten, dass in ihrer physischen GTA-6-Ausgabe kein lesbarer Download-Code steckt. Statt des Codes gibt es nur einen grauen Streifen, der sich nicht freirubbeln lässt. Betroffen sind laut Polygon PlayStation- und Xbox-Fassungen, das Problem scheint aber nicht weit verbreitet zu sein.",
+      "zusammenfassung": "GTA 6 erscheint komplett digital, auch die Box im Handel enthält keine Disc, sondern nur einen Code zum Herunterladen. Der Code steht auf der Rückseite des Covers und soll durch die durchsichtige Hülle sichtbar sein. Seit dem 12. November liefern Händler die Vorbestellungen aus, damit Käufer das Spiel vorab laden können. Laut Polygon melden nun mehrere Käufer, dass ihr Code fehlt: Statt der Zeichen gibt es nur einen grauen Streifen, der wie ein Rubbelfeld aussieht, sich aber nicht freirubbeln lässt. Das betrifft demnach sowohl PlayStation- als auch Xbox-Ausgaben. Händler reagieren unterschiedlich: Einige Best-Buy-Filialen sollen die Rücknahme verweigert haben, Amazon habe den Kaufpreis erstattet, GameStop verweise an Rockstar. Zwei Reddit-Nutzer berichten, Rockstars Support habe ihre Tickets ohne Lösung geschlossen. Rockstar hat sich öffentlich noch nicht geäußert. Polygon geht davon aus, dass nur wenige Exemplare betroffen sind. Wer eine Box gekauft hat, sollte den Code also schon vor dem Start am 19. November prüfen.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-grand-theft-auto-no-code-physical-edition/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Download-Code",
+        "Handel"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-gta6-codes-fehlen-box.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.184Z"
+      },
+      "id": "2026-11-14-xbox-25-spiele-pc-kauf",
+      "datum": "2026-11-14T15:45:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox",
+        "Windows"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Zum Xbox-Jubiläum: 25 Spiele gratis beim Kauf eines neuen Windows-PCs, aber nur in den USA",
+      "schlagzeile": "25 Xbox-Spiele gratis – aber nur zum neuen PC und nur in den USA",
+      "kurz": "Microsoft feiert 25 Jahre Xbox mit einem Paket aus 25 PC-Spielen, darunter Skyrim, Halo: Combat Evolved Anniversary und Gears of War: Reloaded. Es gibt sie nur beim Kauf eines qualifizierten neuen Windows-PCs bis Ende 2026, gezählt wird ab Anfang November. Die Aktion gilt ausschließlich in den USA.",
+      "zusammenfassung": "Xbox-Chefin Asha Sharma hat auf X das „25 Years of Xbox Bundle“ vorgestellt. Wer einen qualifizierten neuen Windows-PC kauft und aktiviert, bekommt laut Microsofts Aktionsbedingungen 25 digitale PC-Spiele dazu. Dazu zählen unter anderem Skyrim Special Edition, Oblivion, Halo: Combat Evolved Anniversary, Gears of War: Reloaded, Age of Empires 2, Doom, Quake, Fallout 76 und Call of Duty: WWII. Berechtigt sind ausgewählte Windows-Home-Geräte teilnehmender Händler und Hersteller, auch einige Handhelds; Windows-Pro-Geräte sind bis auf eine Ausnahme ausgeschlossen. Refurbished-, Open-Box-, Rückläufer- und Vorführgeräte zählen nicht. Der Kauf muss zwischen dem 2. November und dem 31. Dezember 2026 erfolgen. Das Paket erscheint spätestens am 30. November im Microsoft Store unter „Im Lieferumfang des Geräts enthalten“ und muss bis 12. Februar 2027 eingelöst werden. Die Lizenzen sind an das Microsoft-Konto gebunden und nicht übertragbar. Laut PC Games gilt die Aktion nur in den USA, in Deutschland und Österreich also nicht. Ob sie ausgeweitet wird, ist nicht bekannt. In der Community kommt die Aktion eher kritisch an, auch weil neue PC-Hardware derzeit besonders teuer ist.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Microsoft-Xbox-Konsolen-18125/News/25-Gratis-Spiele-bei-Kauf-eines-neuen-PCs-1559998/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft (Aktionsbedingungen)",
+          "url": "https://www.microsoft.com/en-us/windows/xbox-bundle-terms-and-conditions"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2120999976927220138"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "25 Jahre Xbox",
+        "Windows",
+        "Microsoft Store",
+        "Asha Sharma"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-xbox-25-spiele-pc-kauf.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.758Z"
+      },
+      "id": "2026-11-14-12v2x6-pinprotect-november",
+      "datum": "2026-11-14T15:34:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Netzteil"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Über zehn neue Fälle geschmolzener GeForce-Stromstecker im November; Corsairs Spezialkabel zeigt, wann PinProtect abschaltet",
+      "schlagzeile": "Schon wieder geschmolzen: Über zehn Stecker-Fälle allein im November",
+      "kurz": "VideoCardz hat allein für November mehr als zehn gemeldete Fälle beschädigter 16-Pin-Stromstecker bei GeForce-Karten gezählt, bis hinunter zur RTX 5070. Gleichzeitig zeigt ein Test mit einem Corsair-Spezialkabel, dass dessen Schutzfunktion PinProtect bei Überlast tatsächlich abschaltet.",
+      "zusammenfassung": "Die Probleme mit dem 12V-2×6-Stecker reißen nicht ab. VideoCardz hat Meldungen gesammelt, die der Kanal UNIKO's Hardware aus Reddit, chinesischen Foren und anderen Communitys zusammengetragen hat, und kommt allein im November auf mehr als zehn Fälle. Betroffen sind unter anderem RTX 5090 D, mehrere RTX 4090, eine RTX 5080, eine RTX 5070 Ti und zwei RTX 5070. Auffällig ist die RTX 5070, die Nvidia nur mit 250 Watt angibt, gegenüber 575 Watt bei der RTX 5090. Manche Schäden lagen an der Grafikkarte, andere an Adaptern oder auf der Netzteilseite. Wie häufig solche Fehler insgesamt sind, lässt sich aus den Einzelmeldungen nicht ableiten, und die Ursachen sind nicht einzeln geprüft. Passend dazu hat Professional Review ein bisher unbekanntes Corsair-Testkabel gezeigt, bei dem sich jede der sechs 12-Volt-Leitungen per Schalter abtrennen lässt. An einer RTX 5080 mit rund 250 Watt Last wurden die Leitungen nacheinander abgeschaltet. Erst als nur noch wenige Pins Strom führten und ein Pin über die Schwelle von rund 9,5 Ampere kam, schaltete Corsairs PinProtect im Netzteil RM1200e die Karte ab. Das Kabel ist laut Wccftech nicht im Handel erhältlich und dient offenbar internen Tests.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/here-are-all-the-melted-geforce-power-connector-and-cable-cases-reported-in-november-alone"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/corsairs-special-12v-2x6-cable-with-six-switches-gets-tested/"
+        }
+      ],
+      "tags": [
+        "12V-2×6",
+        "12VHPWR",
+        "RTX 5070",
+        "RTX 4090",
+        "Corsair",
+        "PinProtect"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-12v2x6-pinprotect-november.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.664Z"
+      },
+      "id": "2026-11-14-geforce-freeman-nope",
+      "datum": "2026-11-14T14:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Nvidias GeForce-Evangelist Jacob Freeman weist Spekulationen über ein Ende von GeForce nach Huangs Rücktritt zurück",
+      "schlagzeile": "Aus für GeForce nach Huangs Abgang? Nvidia-Mann sagt: „Nope“",
+      "kurz": "Nach dem Rücktritt von Jensen Huang fragen sich viele Gamer, ob Nvidia GeForce aufgibt. GeForce-Evangelist Jacob Freeman antwortete auf X auf genau diese Frage mit einem knappen „Nope“. Eine offizielle Roadmap gibt es dazu aber nicht.",
+      "zusammenfassung": "Seit Jensen Huang als Nvidia-Chef zurückgetreten ist, wird spekuliert, ob sich der Konzern noch stärker auf KI-Hardware konzentriert und das Gaming-Geschäft zurückfährt. Jacob Freeman, bei Nvidia als GeForce-Evangelist tätig und früher Produktmanager bei EVGA, hat sich dazu auf X geäußert. Er war auf der LAN-Party PDXLAN in den USA und schrieb, es sei viel passiert diese Woche, die Arbeit mit Kollegen, die PC-Gaming lieben, gehe aber weiter. Auf die direkte Frage eines Nutzers, ob das nun das Ende von GeForce sei, antwortete er mit „Nope“ und einem Smiley. Das ist eine persönliche Antwort auf X und keine offizielle Ankündigung von Nvidia. Eine neue Gaming-Roadmap hat Nvidia nicht vorgelegt. Laut VideoCardz soll Nvidia zuvor mehrere bereits mit Boardpartnern besprochene Produkte gestrichen haben, darunter eine SUPER-Serie mit 3-GB-Speicherchips; bestätigt ist das nicht. Günstiger werden Grafikkarten durch Freemans Aussage ebenfalls nicht, die RTX 5090 kostet in den USA derzeit mehr als das Dreifache ihrer UVP.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidias-jacob-freeman-says-the-end-of-geforce-is-not-happening"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/geforce-evangelist-jacob-freeman-assures-gaming-gpus-safe-prices/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "GeForce",
+        "Jacob Freeman",
+        "Jensen Huang"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-geforce-freeman-nope.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.098Z"
+      },
+      "id": "2026-11-14-tarkov-konsole-mobile",
+      "datum": "2026-11-14T12:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Escape from Tarkov"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Escape from Tarkov: Konsolenversion soll 2027 angekündigt werden, erscheint aber frühestens 2028; Mobile-Ableger wird ein Top-down-Extraction-Shooter",
+      "schlagzeile": "Tarkov: Konsolenfassung erst ab 2028, Handy-Ableger von oben",
+      "kurz": "Battlestate-Chef Nikita Buyanov will die Konsolenfassung von Escape from Tarkov im kommenden Jahr vorstellen, erscheinen soll sie aber nicht vor 2028. Das geplante Handyspiel wird laut Insider Gaming kein Port, sondern ein Extraction-Shooter aus der Top-down-Perspektive. Auch dieses Spiel soll 2027 angekündigt werden.",
+      "zusammenfassung": "Battlestate Games hat in einem Interview mit Insider Gaming neue Details zu seinen Tarkov-Plänen verraten. Laut PC Games steht Studio-Chef Nikita Buyanov kurz davor, einen Partner für die Konsolenumsetzung zu finden. Er rechnet fest damit, die Konsolenfassung 2027 offiziell vorzustellen, womöglich schon Anfang des Jahres. Eine Veröffentlichung im Jahr 2027 schloss er aus, frühestens 2028 ist also realistisch. Für welche Konsolen die Fassung kommt, hat Battlestate weiterhin nicht verbindlich gesagt. Schon früher hatte Buyanov angekündigt, dass die Konsolenversion nicht vereinfacht werden und sogar ohne Zielhilfe auskommen soll; ob das so bleibt, ist offen. Außerdem arbeitet das Studio an einem Tarkov-Spiel für Smartphones. Laut Buyanov ist es ein Extraction-Spiel im Look von Tarkov, aber aus der Third-Person-Perspektive von oben, ähnlich wie Escape from Duckov oder Zero Sievert. Es gebe bereits spielbare Prototypen, eine Ankündigung sei für nächstes Jahr geplant. Im Dezember startet zudem die zweite PvP-Season von Escape from Tarkov.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/tarkov-new-mobile-game-top-down-extraction-shooter/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games",
+          "url": "https://www.pcgames.de/Escape-from-Tarkov-Spiel-56471/News/konsolenversion-release-2028-1559994/"
+        }
+      ],
+      "tags": [
+        "Escape from Tarkov",
+        "Battlestate Games",
+        "Konsole",
+        "Mobile",
+        "Extraction-Shooter"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-tarkov-konsole-mobile.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.581Z"
+      },
+      "id": "2026-11-14-rtx5090-usa-dreifach-uvp",
+      "datum": "2026-11-14T11:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "RTX 5090 bei Newegg wieder lieferbar, aber zum mehr als dreifachen UVP; in Japan sinken die Preise für RTX 5090 und RTX 5080",
+      "schlagzeile": "RTX 5090 wieder lieferbar – für das Dreifache der UVP",
+      "kurz": "Die GeForce RTX 5090 ist bei Newegg in den USA wieder direkt lieferbar. Das günstigste Modell kostet aber 6.249,99 Dollar, mehr als dreimal so viel wie die UVP von 1.999 Dollar. In Japan sind die Preise für RTX 5090 und RTX 5080 dagegen zuletzt deutlich gefallen.",
+      "zusammenfassung": "Nach Wochen mit kaum verfügbarer Ware listet der US-Händler Newegg laut VideoCardz wieder mehrere RTX-5090-Modelle zum direkten Kauf. Am günstigsten ist eine ASUS ROG Astral RTX 5090 OC für 6.249,99 Dollar. Modelle von GIGABYTE und MSI liegen zwischen rund 6.600 und 7.000 Dollar, eine MSI SUPRIM SOC kostet 7.349,99 Dollar. Nvidias offizielle UVP liegt weiterhin bei 1.999 Dollar, selbst das billigste Angebot kostet also gut das 3,1-Fache. Im September gab es bei Newegg selbst kaum noch Lagerware, Käufer waren meist auf Marktplatz-Händler angewiesen. In Japan geht es dagegen nach unten: Laut Wccftech mit Verweis auf ITmedia und Gazlog fiel eine Palit RTX 5090 GameRock bei Dospara von 1.288.000 auf 1.048.000 Yen, im Laden in Akihabara sogar auf 999.800 Yen. Die RTX 5080 sank von bis zu 359.800 auf 299.800 Yen. Zeitlich fällt das mit dem Rücktritt von Jensen Huang zusammen, einen direkten Zusammenhang sehen die Berichte aber nicht. Die Preise hatten demnach schon Ende Oktober ihren Höhepunkt erreicht, danach stiegen die Lagerbestände. Ob daraus ein breiter Preisrückgang wird, ist offen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidia-geforce-rtx-5090-returns-to-stock-at-us-retailers-now-available-for-just-3x-msrp"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/geforce-rtx-5090-and-rtx-5080-witness-a-sudden-price-drop-of-up-to-22-in-japan-but-its-unlikely-due-to-jensens-resignation/"
+        }
+      ],
+      "tags": [
+        "RTX 5090",
+        "RTX 5080",
+        "Grafikkartenpreise",
+        "Newegg",
+        "Japan"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-rtx5090-usa-dreifach-uvp.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.272Z"
+      },
+      "id": "2026-11-14-steamos-3-10-hdmi21-amd",
+      "datum": "2026-11-14T10:08:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "SteamOS"
+      ],
+      "kategorie": "Software",
+      "titel": "SteamOS 3.10.0 Preview: HDMI 2.1 mit VRR, FRL und ALLM für AMD-Grafik, Mesh Shader für Nvidia ab Turing",
+      "schlagzeile": "SteamOS 3.10 Preview: AMD-Grafik bekommt endlich HDMI 2.1 mit VRR",
+      "kurz": "Valve hat SteamOS 3.10.0 als öffentliche Vorschau veröffentlicht. Mit AMD-Grafik unterstützt das System jetzt HDMI 2.1 mit VRR, FRL und ALLM. Nvidia-Karten ab Turing bekommen Mesh Shader, dazu kommt ein Kernel auf Basis von Linux 7.3.",
+      "zusammenfassung": "Valve hat laut GamingOnLinux die Preview von SteamOS 3.10.0 veröffentlicht. Für Nutzer mit AMD-Grafik ist die wichtigste Neuerung die Unterstützung von HDMI 2.1 mit variabler Bildrate (VRR), Fixed Rate Link (FRL) für hohe Bandbreiten und dem automatischen Spielemodus ALLM. Als bekanntes Problem nennt Valve, dass der Monitor Dell G3223Q schwarz bleiben kann. Für Nvidia-Grafik gibt es Stabilitäts- und Leistungsverbesserungen, Mesh Shader ab der Turing-Generation und Korrekturen für Grafikfehler in Shadow of the Tomb Raider und The Surge 2. Im Spielmodus kommt die Vulkan-Erweiterung VK_EXT_present_timing dazu. Außerdem verbessert Valve das Frame-Timing mit Bildratenbegrenzer unter VRR und reduziert Flackern in der Steam-Oberfläche. Für den ASUS ROG Xbox Ally X20 gibt es HDR- und Helligkeitseinstellungen. Der Desktop-Modus springt auf KDE Plasma 6.8.2, der Kernel auf Linux 7.3. Es handelt sich um eine frühe Testversion; Valve rät nur zum Wechsel, wer mit möglichen Fehlern leben kann.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/steamos-3-10-0-preview-brings-hdmi-2-1-vrr-frl-and-allm-for-amd-and-improvements-for-nvidia/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "SteamOS",
+        "Valve",
+        "HDMI 2.1",
+        "VRR",
+        "AMD",
+        "Nvidia",
+        "Linux"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-steamos-3-10-hdmi21-amd.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.934Z"
+      },
+      "id": "2026-11-14-gta6-fake-pc-download-malware",
+      "datum": "2026-11-14T08:36:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Sicherheit"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Gefälschter GTA-6-PC-Download verteilt Infostealer, der Steam-Logins und Krypto-Wallets abgreift",
+      "schlagzeile": "Vorsicht: „GTA 6 für PC“ ist Malware – sie klaut Steam-Logins",
+      "kurz": "Sicherheitsforscher von Cynet warnen vor einem angeblichen GTA-6-PC-Download, der in Wahrheit Schadsoftware ist. Sie stiehlt unter anderem Passwörter, Steam- und Roblox-Zugänge sowie Daten von Krypto-Wallets. Eine PC-Version von GTA 6 gibt es nicht, das Spiel erscheint am 19. November nur für PS5 und Xbox Series X|S.",
+      "zusammenfassung": "Kurz vor dem Start von GTA 6 versuchen Betrüger, die Vorfreude auszunutzen. Laut Neowin hat die Sicherheitsfirma Cynet einen angeblichen „GTA 6 EXE FILE DOWNLOAD“ untersucht, der über ein Google-Colab-Notebook verbreitet wurde. Der Link führt auf eine Seite, die sich als Software-Portal ausgibt und mit Versionsnummer, Download-Zähler und Siegeln wie „Virus-free“ und „Verified“ seriös wirken soll. Angeboten werden nur 72 MB, im Archiv stecken eine winzige EXE-Datei und eine Textdatei. Diese fordert dazu auf, die EXE als Administrator zu starten, Sicherheitswarnungen zu ignorieren und eine Ausnahme im Virenscanner einzurichten. Wer das tut, installiert einen Infostealer, der virtuelle Maschinen und Sandboxes erkennt und sich in Browser-Prozesse einklinkt. Er stiehlt Passwörter, Cookies, Browserdaten, Geheimnisse aus Browser-Erweiterungen, Steam- und Roblox-Zugangsdaten sowie Krypto-Wallet-Daten. Außerdem kann er kopierte Krypto-Adressen austauschen und weitere Schadsoftware nachladen. Wichtig: Eine PC-Version von GTA 6 ist nicht angekündigt. Zum Start am 19. November erscheint das Spiel nur für PlayStation 5 und Xbox Series X|S, jeder Windows- oder Mac-Download ist daher mit hoher Wahrscheinlichkeit Betrug.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/fake-gta-vi-download-for-pc-steals-steam-logins-crypto-wallet-data/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Malware",
+        "Infostealer",
+        "Steam",
+        "Sicherheit"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-gta6-fake-pc-download-malware.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.417Z"
+      },
+      "id": "2026-11-14-wine-11-22-avx-arm",
+      "datum": "2026-11-14T02:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Software",
+      "titel": "Wine 11.22 emuliert AVX auf ARM64 und behebt 34 Fehler, unter anderem in Guild Wars 2 und Star Citizen",
+      "schlagzeile": "Wine 11.22: Windows-Programme mit AVX laufen jetzt auch auf ARM",
+      "kurz": "Die Entwicklerversion Wine 11.22 kann AVX-Befehle in der x86-Emulation auf ARM64 nachbilden. Damit laufen mehr moderne Windows-Programme auf ARM-Rechnern unter Linux. Dazu kommen 34 Fehlerkorrekturen, auch für Spiele.",
+      "zusammenfassung": "Das Wine-Projekt hat die Entwicklerversion 11.22 veröffentlicht. Wichtigste Neuerung ist laut Phoronix die Unterstützung von AVX-Befehlen in der x86-Emulation unter ARM64. Viele moderne Windows-Programme setzen AVX voraus und liefen bisher auf ARM-Systemen mit Wine nicht oder nur eingeschränkt. Mit ARM64EC-Builds lassen sich diese Befehle jetzt emulieren. Das ist vor allem für Linux auf ARM-Rechnern interessant. Außerdem aktualisiert Wine 11.22 die Sprachdaten auf Unicode CLDR 49, führt eine Zufallsverteilung des Adressraums ein und verbessert die Darstellung der Schrift Tahoma. Insgesamt behebt die Version 34 bekannte Fehler, unter anderem in Guild Wars 2, Star Citizen und der Logos Bible Software. Wine ist die Grundlage von Valves Proton, mit dem Windows-Spiele unter Linux und auf dem Steam Deck laufen. Neuerungen aus Wine landen aber erst mit der Zeit in Proton. Es handelt sich um eine Entwicklerversion; die stabile Version Wine 12.0 wird für Anfang 2027 vorbereitet.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Wine-11.22-Released"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Wine",
+        "Linux",
+        "ARM64",
+        "AVX",
+        "Proton"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-wine-11-22-avx-arm.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.290Z"
+      },
+      "id": "2026-11-14-windows11-neuer-ausfuehren",
+      "datum": "2026-11-14T02:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Windows 11 bekommt im Dezember den neuen Ausführen-Dialog, der Durchsuchen-Knopf fällt weg",
+      "schlagzeile": "Win+R wird modern: Neuer Ausführen-Dialog kommt im Dezember für alle",
+      "kurz": "Der neu gestaltete Ausführen-Dialog von Windows 11 ist im Release-Preview-Kanal angekommen. Er soll mit dem Patchday am 8. Dezember auf alle PCs mit 25H2 und 26H2 kommen. Der alte Dialog bleibt per Schalter verfügbar.",
+      "zusammenfassung": "Microsoft bringt den modernisierten Ausführen-Dialog (Win+R) zu allen Windows-11-Nutzern. Laut Windows Latest steckt er jetzt in den Release-Preview-Builds 26200.10066 (25H2) und 26300.10066 (26H2). Normalerweise folgt darauf Ende des Monats ein optionales Update und am 8. Dezember die Verteilung an alle per Patchday. Die Einführung erfolgt schrittweise, nicht jeder PC bekommt den Dialog sofort. Der neue Dialog basiert auf WinUI 3, unterstützt den Dark Mode und öffnet laut Microsoft im Mittel in 94 Millisekunden statt 103 Millisekunden beim alten. Der Knopf „Durchsuchen“ fällt weg: Laut Microsoft hat ihn in einer Stichprobe von 35 Millionen Nutzern nur 0,0038 Prozent je angeklickt. Pfade lassen sich weiter eintippen, und die neue Abkürzung ~\\ springt in den Benutzerordner. Frühere Befehle erscheinen über dem Eingabefeld und lassen sich mit den Pfeiltasten durchblättern. Wer den alten Dialog lieber mag, schaltet unter Einstellungen > System > Erweitert zurück. Microsoft will nach und nach weitere alte Dialoge auf WinUI 3 umstellen, etwa die Eigenschaften im Datei-Explorer.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/14/windows-11s-modern-run-box-arrives-for-everyone-in-december-and-microsoft-found-almost-nobody-ever-clicked-browse-in-the-old-one/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Insider Blog",
+          "url": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "Ausführen",
+        "WinUI 3",
+        "Release Preview"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-windows11-neuer-ausfuehren.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:00.938Z"
+      },
+      "id": "2026-11-14-blade-runner-aaa-spiel",
+      "datum": "2026-11-14T00:49:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Blade Runner"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Blade-Runner-Rechteinhaber Alcon spricht über ein AAA-Videospiel zur Filmreihe",
+      "schlagzeile": "Blade Runner als AAA-Spiel? Rechteinhaber bestätigt Gespräche",
+      "kurz": "Alcon Entertainment, Besitzer der Blade-Runner-Marke, führt Gespräche über ein großes AAA-Spiel. Das bestätigten die beiden Alcon-Chefs im Gespräch mit IGN. Details wie Studio, Plattformen oder Termin gibt es noch nicht.",
+      "zusammenfassung": "Die Filmreihe Blade Runner könnte ein großes Videospiel bekommen. Andrew Kosove und Broderick Johnson, die Chefs des Rechteinhabers Alcon Entertainment, haben laut IGN bestätigt, dass es Gespräche über ein AAA-Spiel gibt. Die Aussage fiel in einem Interview zur neuen Serie Blade Runner 2099, die am 25. November bei Prime Video startet. Auf die Frage, warum es nach dem Erfolg von Cyberpunk 2077 kein großes Blade-Runner-Spiel gibt, antwortete Kosove mit „Ja“ und betonte ausdrücklich das „AAA“. Spieler sollen mit der Welt von Blade Runner interagieren können. Mehr wollte er nicht verraten. Ein Entwicklerstudio, Plattformen oder ein Zeitraum sind damit nicht bekannt, und Gespräche bedeuten noch kein angekündigtes Spiel. Die Marke hat bisher wenig Glück mit Spielen: Als Klassiker gilt nur das Adventure von Westwood aus dem Jahr 1997, das 2022 ein Remaster bekam. Das 2023 angekündigte Blade Runner 2033: Labyrinth von Annapurna gilt als eingestellt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/blade-runner-2099-executive-producers-confirm-franchise-owners-are-in-talks-for-aaa-video-game-adaptation"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Blade Runner",
+        "Alcon Entertainment",
+        "AAA",
+        "Cyberpunk"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-blade-runner-aaa-spiel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:00.843Z"
+      },
+      "id": "2026-11-14-pearl-abyss-ki-pipeline",
+      "datum": "2026-11-13T23:17:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Crimson Desert"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Crimson-Desert-Studio Pearl Abyss will KI in seiner gesamten Entwicklung ausbauen, DokeV soll 2028 erscheinen",
+      "schlagzeile": "Trotz Ärger um Crimson Desert: Pearl Abyss setzt noch stärker auf KI",
+      "kurz": "Pearl Abyss, das Studio hinter Crimson Desert, will KI künftig in der gesamten Spieleentwicklung einsetzen. Das steht im Brief zu den Quartalszahlen. Zugleich nennt das Studio ein Ziel für DokeV: zweite Jahreshälfte 2028.",
+      "zusammenfassung": "Pearl Abyss baut den Einsatz von KI in der Spieleentwicklung aus. Das geht laut PC Gamer und Eurogamer aus dem Brief des Studios zu den Zahlen des dritten Quartals 2026 hervor. Demnach prüft das Team neue Spielsysteme inzwischen mit KI, bevor sie aufwendig von Hand umgesetzt werden. KI soll außerdem wiederkehrende Aufgaben automatisieren, bei der Erstellung von Inhalten helfen und Tests optimieren, und zwar in der gesamten Entwicklungs-Pipeline. Pearl Abyss betont, KI sei nur ein Werkzeug und kein Ersatz für Entwickler; Gameplay und Inhalte würden weiterhin vom Team gestaltet. Das Thema ist heikel: Anfang des Jahres musste sich das Studio entschuldigen, weil in Crimson Desert KI-generierte 2D-Grafiken entdeckt wurden. Damals hieß es, diese hätten eigentlich vor dem Release ersetzt werden sollen, und man habe den KI-Einsatz nicht klar genug offengelegt. Welche Spiele genau betroffen sind und wie viel KI-Inhalt am Ende im fertigen Spiel landet, sagt der Brief nicht. Außerdem nennt Pearl Abyss ein Ziel für DokeV: Das bunte Actionspiel soll in der zweiten Jahreshälfte 2028 erscheinen.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/crimson-desert-devs-proudly-using-ai/"
+        }
+      ],
+      "tags": [
+        "Pearl Abyss",
+        "Crimson Desert",
+        "DokeV",
+        "KI",
+        "Spieleentwicklung"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-pearl-abyss-ki-pipeline.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:00.547Z"
+      },
+      "id": "2026-11-14-nvidia-ceo-suche-haas",
+      "datum": "2026-11-13T22:03:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Nvidia-Chefsuche: Verwaltungsrat soll Arm-Chef Rene Haas angesprochen haben, Nvidia nennt Spekulationen verfrüht",
+      "schlagzeile": "Wird der Arm-Chef neuer Nvidia-Boss? Verwaltungsrat bremst",
+      "kurz": "Laut Financial Times hat Nvidias Verwaltungsrat Arm-Chef Rene Haas als möglichen Nachfolger von Jensen Huang angesprochen. Nvidia selbst sagt, man suche erst eine Personalberatung und habe noch keine Kandidaten offiziell kontaktiert. Gleichzeitig kursiert ein angeblicher Mitarbeiterbrief für Huangs Rückkehr, den ein Nvidia-Manager als Fälschung bezeichnet.",
+      "zusammenfassung": "Nach dem Rücktritt von Jensen Huang sucht Nvidia einen neuen Chef. Laut einem Bericht der Financial Times, zusammengefasst von Tom's Hardware, hat der Verwaltungsrat Arm-Chef Rene Haas als möglichen Nachfolger angesprochen. Haas soll einer von mehreren Kandidaten sein; ob er ein Angebot bekommt oder annehmen würde, ist offen. Er arbeitete bis 2013 rund sieben Jahre bei Nvidia, unter anderem an Notebook-GPUs und Tegra-Chips, und führt Arm seit 2022. Nvidia hat auf den Bericht reagiert: Gegenüber CNBC erklärte der Verwaltungsrat, man wähle gerade erst eine Personalberatung aus und habe noch keine Kandidaten offiziell kontaktiert. Spekulationen über einzelne Namen seien verfrüht. Bis auf Weiteres führt Finanzchefin Colette Kress das Unternehmen kommissarisch. Intern ist die Stimmung laut WIRED, zitiert von PCGH, gespalten: Ein Beitrag in Nvidias interner Ideenbox sammelte über 1.600 Kommentare, überwiegend für eine Rückkehr Huangs. Ein im Netz verbreiteter Brief, angeblich von Nvidia-Führungskräften unterschrieben, ist dagegen laut dem Nvidia-Forschungschef Bryan Catanzaro eine Fälschung; er habe ihn nicht unterschrieben und stehe hinter dem Verwaltungsrat. Elon Musk kündigte laut Wccftech an, eine Petition für Huangs Rückkehr zu unterschreiben. Eine Wiedereinsetzung Huangs ist von Nvidia nicht angekündigt. Für GeForce-Kunden gibt es laut PCGH bisher keine bekannten Auswirkungen auf Produkte oder Preise. Am 17. November legt Nvidia erstmals ohne Huang Quartalszahlen vor.",
+      "quelle": {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Jensen-Huang-Ruecktritt-Mitarbeiter-fordern-Rueckkehr-1559985/"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/letter-seeking-ex-ceo-jensen-huangs-return-is-obviously-fake-says-nvidia-vp-after-he-is-made-a-named-signatory-alongside-top-leadership-at-firm/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Rene Haas",
+        "Arm",
+        "Jensen Huang",
+        "Colette Kress"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-nvidia-ceo-suche-haas.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.024Z"
+      },
+      "id": "2026-11-14-pioner-eingestellt",
+      "datum": "2026-11-13T21:37:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Survival-Shooter"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Survival-Shooter Pioner wird eingestellt, das Studio hat kein Geld mehr für Entwicklung und Server",
+      "schlagzeile": "Aus nach elf Monaten: Survival-Shooter Pioner macht dicht",
+      "kurz": "Der Survival-Shooter Pioner wird weniger als ein Jahr nach dem Start im Early Access eingestellt. Entwickler GFAGames hat keine Finanzierung für Weiterentwicklung und Server gefunden. Wann die Server abgeschaltet werden, ist noch offen.",
+      "zusammenfassung": "Der Survival-Shooter Pioner ist am Ende. Laut PC Gamer hat Entwickler GFAGames auf Steam angekündigt, die Entwicklung einzustellen und das Spiel zu schließen. Gespräche mit bestehenden und neuen Partnern über eine Finanzierung seien gescheitert. Das Studio habe nicht mehr genug eigenes Geld, um weiterzuentwickeln und die Server zu betreiben. Pioner galt seit seiner Vorstellung 2021 als Mischung aus Stalker, Metro und Escape from Tarkov, mit Einzelspieler-Kampagne sowie Koop- und PvP-Modus in einer spätsowjetischen Welt. Seit Dezember 2025 war es im Early Access und erreichte auf Steam in der Spitze 1.686 gleichzeitige Spieler. Nach technischen Problemen und langsamen Updates brachen die Zahlen im Sommer ein, Mitte September spielten nur noch ein paar Dutzend Menschen. Viele Käufer fordern unter der Ankündigung eine Rückerstattung. Dazu hat sich GFAGames noch nicht geäußert. Auch ein Termin für die Abschaltung der Server fehlt noch.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/fps/a-survival-game-we-once-called-stalker-and-tarkovs-alien-baby-is-closing-down-less-than-a-year-after-launch/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Pioner",
+        "GFAGames",
+        "Early Access",
+        "Survival-Shooter"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-pioner-eingestellt.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.499Z"
+      },
+      "id": "2026-11-14-euro-office-desktop",
+      "datum": "2026-11-13T21:14:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Office"
+      ],
+      "kategorie": "Software",
+      "titel": "Europäische Office-Alternative Euro-Office gibt es jetzt als Desktop-App für Windows, macOS und Linux",
+      "schlagzeile": "Europas Office-Alternative gibt es jetzt auch offline auf dem Desktop",
+      "kurz": "Euro-Office, die europäische Alternative zu Microsoft 365, gibt es jetzt als kostenlose Desktop-App namens Nextcloud Office Desktop. Sie läuft offline unter Windows, macOS und Linux. Technisch ist sie ein Ableger von ONLYOFFICE.",
+      "zusammenfassung": "Euro-Office ist jetzt auch als klassische Desktop-Anwendung verfügbar. Laut OMG! Ubuntu heißt die App Nextcloud Office Desktop und ist kostenlos sowie quelloffen. Euro-Office wurde im März 2026 als europäische Alternative zu Microsoft 365 angekündigt und lief bisher nur über einen Server im Browser oder per Mobil-App. Die Desktop-Version funktioniert dagegen ohne eigenen Server und offline. Sie bietet Textverarbeitung, Tabellenkalkulation, Präsentationen und PDF-Werkzeuge. Microsoft-Formate wie DOCX, XLSX und PPTX werden ebenso unterstützt wie offene Formate wie ODT. Zusätzlich lässt sich die App mit Nextcloud oder anderen Servern für gemeinsames Bearbeiten verbinden. Installer gibt es für Windows und macOS auf x86 und ARM64 sowie für Linux auf x86 als DEB- und RPM-Paket. Technisch basiert Euro-Office auf ONLYOFFICE, dessen Hersteller den Ableger kritisch sieht. Auch aus dem LibreOffice-Lager gibt es Kritik. OMG! Ubuntu merkt an, dass die App derzeit vor allem wie ein umbenanntes ONLYOFFICE wirkt.",
+      "quelle": {
+        "name": "OMG! Ubuntu",
+        "url": "https://www.omgubuntu.co.uk/2026/11/euro-office-desktop-apps-nextcloud"
+      },
+      "weitere_links": [
+        {
+          "name": "Dr. Windows",
+          "url": "https://www.drwindows.de/news/euro-office-offizielle-desktop-app-wurde-veroeffentlicht"
+        }
+      ],
+      "tags": [
+        "Euro-Office",
+        "Nextcloud",
+        "ONLYOFFICE",
+        "Open Source",
+        "Digitale Souveränität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-euro-office-desktop.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.200Z"
+      },
+      "id": "2026-11-14-m365-stoerung-ursache",
+      "datum": "2026-11-13T20:54:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Microsoft 365"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entschuldigt sich für die Microsoft-365-Großstörung und nennt ein Netzwerk-Upgrade als Ursache",
+      "schlagzeile": "Microsoft-365-Ausfall: Kein Hack, keine KI – ein Netzwerk-Upgrade war schuld",
+      "kurz": "Microsoft hat sich für die weltweite Störung von Outlook, Teams und Co. entschuldigt. Ursache war laut Microsoft ein Fehler aus einem früheren Netzwerk-Upgrade, nicht ein Angriff oder KI. Ein ausführlicher Bericht soll folgen.",
+      "zusammenfassung": "Microsoft hat die Ursache der großen Microsoft-365-Störung vom 12. November genannt. Laut PC Gamer entschuldigte sich das Unternehmen in einer Stellungnahme ausdrücklich bei Kunden und Partnern. Der Fehler sei bei einem früheren Ausbau der Netzwerkkapazität entstanden und erst nach einer späteren Netzwerkänderung zum Problem geworden. Ein Cyberangriff oder KI-Agenten seien nicht beteiligt gewesen. Im Netz war zuvor spekuliert worden, ob KI-generierter Code den Ausfall verursacht hat. Microsoft gibt an, die eigentliche Ursache behoben zu haben, und meldet eine breite Erholung der Dienste. Die Wiederherstellung sei bewusst schrittweise erfolgt, um die Stabilität zu prüfen, und habe deshalb länger gedauert. Am Samstag teilte Microsoft mit, dass die Dienste für die zuletzt betroffenen Kunden und Regionen vollständig wiederhergestellt sind. Betroffen waren unter anderem Outlook, Teams, SharePoint und Copilot. Einen ausführlichen Bericht will Microsoft nach Abschluss der internen Prüfung veröffentlichen. Firmenkunden können je nach Vertrag eine SLA-Gutschrift prüfen.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/software/microsoft-deeply-apologizes-for-global-service-outage-says-no-ai-or-hackers-are-to-blame/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest",
+          "url": "https://www.windowslatest.com/2026/11/14/microsoft-is-begging-you-not-to-blame-ai-for-the-microsoft-365-outage-insisting-it-was-a-botched-network-upgrade/"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-recover-ca395c0f1e51af784b6d70afb6554f6a"
+        }
+      ],
+      "tags": [
+        "Microsoft 365",
+        "Outlook",
+        "Teams",
+        "Störung"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-m365-stoerung-ursache.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.116Z"
+      },
+      "id": "2026-11-14-windows-oob-aktivierung",
+      "datum": "2026-11-13T20:32:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft veröffentlicht Notfall-Update gegen Aktivierungsfehler nach dem November-Patchday",
+      "schlagzeile": "Notfall-Update: Microsoft repariert Windows-Aktivierung nach Patchday",
+      "kurz": "Microsoft hat außerplanmäßige Updates veröffentlicht, die den Aktivierungsfehler 0x80041008 nach dem November-Patchday beheben. Betroffen waren vor allem Firmen, die Windows über slmgr.vbs aktivieren. Die Updates gibt es für Windows 11 23H2, Windows 10 und Windows Server.",
+      "zusammenfassung": "Microsoft hat den Aktivierungsfehler nach dem November-Patchday mit einem Notfall-Update behoben. Das berichtet Neowin. Nach den Sicherheitsupdates scheiterten Aktivierungs- und Lizenzbefehle über das Tool slmgr.vbs mit dem Fehler 0x80041008. Betroffen waren vor allem Firmen, die Aktivierung und Produktschlüssel per Skript verwalten. Die außerplanmäßigen Updates gibt es für Windows Server 2025 (KB5136489), Windows Server 2022 (KB5136487), Windows Server 2019 und Windows 10 Enterprise LTSC 2019 (KB5136490), Windows 11 23H2 (KB5136483) sowie Windows 10 22H2 mit ESU und Windows 10 Enterprise LTSC 2021 (KB5136493). Es sind kumulative Updates, die auch alle bisherigen Korrekturen enthalten. Windows Server und Windows 10 erhalten sie über den Microsoft Update Catalog, Windows 11 23H2 zusätzlich über die optionalen Updates in Windows Update. Für die neueren Versionen 24H2, 25H2 und 26H2 nennt der Bericht kein eigenes Update. Das ebenfalls bestätigte Druckproblem nach dem Patchday behebt dieses Update laut Bericht nicht. Microsoft empfiehlt ohnehin, für die Automatisierung künftig PowerShell statt slmgr.vbs zu nutzen.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-releases-emergency-oob-windows-update-to-fix-licensing-and-activation-issues/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Windows 10",
+        "Windows Server",
+        "Out-of-Band-Update",
+        "Aktivierung"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-windows-oob-aktivierung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:00.660Z"
+      },
+      "id": "2026-11-14-nvidia-wsj-knappheit",
+      "datum": "2026-11-13T20:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "NVIDIA",
+        "GPU"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "WSJ-Bericht: Huang soll KI-Startups finanziert haben, damit sie Nvidias überschüssige GPUs abnehmen",
+      "schlagzeile": "Bericht: Hat Nvidia KI-Startups bezahlt, damit sie GPUs kaufen?",
+      "kurz": "Laut Wall Street Journal hat Jensen Huang mit Nvidias Geld KI-Startups und Rechenzentren finanziert, die dann Nvidia-GPUs kauften. Hintergrund soll ein Überangebot an bestellten TSMC-Chips gewesen sein. Finanzchefin Colette Kress soll dagegen gehalten haben.",
+      "zusammenfassung": "Ein neuer Bericht des Wall Street Journal wirft ein Schlaglicht auf Nvidias Finanzpraktiken unter Jensen Huang. TechPowerUp und Wccftech fassen ihn zusammen. Demnach hat Nvidia KI-Startups und kleinere Cloud-Anbieter finanziell unterstützt, die mit dem Geld wiederum Nvidia-GPUs kauften und Rechenzentren bauten. Grund soll gewesen sein, dass große Cloud-Konzerne verstärkt eigene Chips einsetzen und Nvidia bei TSMC mehr Chips bestellt hatte, als direkt Abnehmer da waren. Huang soll intern von einer „Lawine“ gesprochen haben, die auf ihn zukomme. Laut dem Bericht kam es im August zu einem Streit mit Finanzchefin und heutiger Interimschefin Colette Kress, die solche Kreisfinanzierungen zurückfahren wollte, unter anderem den milliardenschweren Deal mit OpenAI. Laut Wccftech setzte Kress durch, dass die Garantien für OpenAI-Rechenleistung von bis zu 250 auf bis zu 125 Milliarden US-Dollar sinken. Huang soll sie daraufhin herabsetzend kritisiert haben. Kress soll auch gewarnt haben, dass sich viele der kleinen Cloud-Anbieter die GPUs eigentlich nicht leisten können. Ob diese Praxis die GPU- und Speicherpreise für Spieler direkt nach oben getrieben hat, belegt der Bericht nicht; das ist eine Einordnung von Wccftech. Nvidia hat sich laut den vorliegenden Berichten nicht dazu geäußert. Die Vorwürfe stammen aus anonymen Quellen und sind nicht offiziell bestätigt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/"
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Wall Street Journal",
+        "TSMC",
+        "OpenAI",
+        "GPU-Preise"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-nvidia-wsj-knappheit.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:00.753Z"
+      },
+      "id": "2026-11-14-core-ultra-7-260k",
+      "datum": "2026-11-13T19:44:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Intel Core Ultra 7 260K erscheint ohne Ankündigung, vorerst nur in zwei Newegg-Komplett-PCs",
+      "schlagzeile": "Heimlich gestartet: Intels Core Ultra 7 260K gibt es nur im Fertig-PC",
+      "kurz": "Intel hat mit dem Core Ultra 7 260K still und leise eine neue Desktop-CPU gestartet. Sie steckt bisher nur in zwei Gaming-PCs von Newegg und wird nicht einzeln verkauft. Technisch ist sie ein leicht gedrosselter Core Ultra 7 265K.",
+      "zusammenfassung": "Intel hat eine neue Desktop-CPU auf den Markt gebracht, ohne sie anzukündigen. Der Core Ultra 7 260K ist laut TechPowerUp nur in zwei Gaming-PCs der Newegg-Eigenmarke ABS erhältlich. Das Modell Kaze II Aqua kombiniert sie mit einer RTX 5060 für 1.699,99 US-Dollar, der Flux II Aqua mit einer RTX 5070 für 1.999,99 US-Dollar. Newegg bestätigt, dass der Prozessor exklusiv bleibt und nicht einzeln verkauft wird. Intel spricht laut Tom's Hardware von einem Modell mit begrenzter Verfügbarkeit ohne Boxed-Version. Technisch entspricht der Chip weitgehend dem Core Ultra 7 265K: 8 Performance- und 12 Effizienzkerne, 30 MB L3-Cache und 125 Watt Basisleistung. Der maximale Takt der P-Kerne liegt mit 5,4 GHz aber 100 MHz niedriger. Da er nur DDR5-6400 unterstützt, gehört er zur ursprünglichen Arrow-Lake-Familie und nicht zum Refresh mit DDR5-7200. Die ersten Newegg-Einträge waren widersprüchlich, teils stand dort 260KF oder ein Boost von 5,2 GHz. Benchmarks gibt es noch nicht. Für Selbstbauer ist die CPU damit uninteressant, und Preise oder Verfügbarkeit in Europa sind nicht bekannt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354821/intel-core-ultra-7-260k-arrives-without-an-announcement-limited-to-two-prebuilt-desktops"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/intel-core-ultra-7-260k-launches-as-newegg-exclusive-cpu-now-available-in-prebuilt-gaming-pcs"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-core-ultra-7-260k-quietly-launches-as-newegg-exclusive-cpu/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Core Ultra 7 260K",
+        "Arrow Lake",
+        "Newegg"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-14-core-ultra-7-260k.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -58,6 +891,47 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.560Z"
+      },
+      "id": "2026-11-13-word-kompatibilitaet-layout",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
+      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
+      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
+      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
+        }
+      ],
+      "tags": [
+        "Microsoft Word",
+        "Office",
+        "Microsoft 365",
+        "Kompatibilität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-13T21:54:38.066Z"
       },
       "id": "2026-11-13-ps5-qssr-sechs-spiele",
@@ -96,47 +970,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-13-ps5-qssr-sechs-spiele.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-13T21:54:38.560Z"
-      },
-      "id": "2026-11-13-word-kompatibilitaet-layout",
-      "datum": "2026-11-13T17:35:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Software",
-      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
-      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
-      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
-      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Neowin",
-          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
-        }
-      ],
-      "tags": [
-        "Microsoft Word",
-        "Office",
-        "Microsoft 365",
-        "Kompatibilität"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
         "ki_generiert": true
       }
     },
@@ -3196,6 +4029,43 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-10T18:28:32.935Z"
+      },
+      "id": "2026-11-10-gpu-taskman-vram",
+      "datum": "2026-11-10T19:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "GPU",
+        "Tools"
+      ],
+      "kategorie": "Software",
+      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
+      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
+      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
+      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GPU Taskman",
+        "VRAM",
+        "Open Source",
+        "Tool"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-10T18:28:32.855Z"
       },
       "id": "2026-11-10-auto-sr-xbox-ally-ryzen",
@@ -3226,43 +4096,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-auto-sr-xbox-ally-ryzen.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-10T18:28:32.935Z"
-      },
-      "id": "2026-11-10-gpu-taskman-vram",
-      "datum": "2026-11-10T19:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "GPU",
-        "Tools"
-      ],
-      "kategorie": "Software",
-      "titel": "GPU Taskman: Open-Source-Werkzeug zeigt genau, welche Programme wie viel Grafikspeicher belegen",
-      "schlagzeile": "Wer frisst deinen VRAM? Kostenloses Tool zeigt es pro Programm",
-      "kurz": "Der Microsoft- und GitHub-Entwickler Scott Hanselman hat das Open-Source-Werkzeug GPU Taskman veröffentlicht. Es zeigt pro Programm, wie viel Grafikspeicher belegt ist, dazu Auslastung, Temperatur und Takt der GPU. Das Tool ist noch experimentell.",
-      "zusammenfassung": "Scott Hanselman, Vice President bei Microsoft und GitHub, hat mit GPU Taskman ein kostenloses Werkzeug für die Kommandozeile entwickelt. Es soll genauer als der Windows-Task-Manager zeigen, wohin der Grafikspeicher geht. Angezeigt werden VRAM-Belegung, von der GPU genutzter Systemspeicher und die einzelnen Prozesse, dazu Auslastung, Temperatur, Leistungsaufnahme, Takt und PCIe-Werte. Das Tool unterscheidet etwa zwischen Desktop, Browsern, Spielen und KI-Anwendungen. Bei lokalen KI-Modellen in llama.cpp, Ollama oder LM Studio kann es den Speicher für Modellgewichte und KV-Cache getrennt schätzen. Für Spieler kann es helfen, VRAM-Engpässe zu finden, die Ruckler verursachen. Hanselman warnt aber, dass genutzter System-RAM nicht automatisch einen VRAM-Überlauf bedeutet, und einzelne Texturen erkennt das Tool nicht. GPU Taskman unterstützt NVIDIA- und AMD-Karten unter Windows 10 und 11, dazu Linux, WSL und Apple-Silicon-Macs; Version 0.3.5 bringt Intel-GPUs unter Linux. Es steht unter MIT-Lizenz auf GitHub, für Windows gibt es eine portable Version. Die Software ist noch experimentell, einige Werte sind Schätzungen.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/microsoft-vp-creates-open-source-gpu-task-manager-that-shows-exactly-whats-using-your-vram/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GPU Taskman",
-        "VRAM",
-        "Open Source",
-        "Tool"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-gpu-taskman-vram.webp",
         "ki_generiert": true
       }
     },
@@ -3317,53 +4150,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-10T18:28:31.904Z"
-      },
-      "id": "2026-11-10-amd-zen6-ipc-epyc",
-      "datum": "2026-11-10T18:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "CPU",
-        "AMD"
-      ],
-      "kategorie": "Prozessoren",
-      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
-      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
-      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
-      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
-      },
-      "weitere_links": [
-        {
-          "name": "heise online",
-          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
-        },
-        {
-          "name": "AMD auf X",
-          "url": "https://x.com/AMD/status/2120200385520369828"
-        }
-      ],
-      "tags": [
-        "Zen 6",
-        "Epyc 9006",
-        "Venice",
-        "IPC",
-        "AMD"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-10T18:28:31.989Z"
       },
       "id": "2026-11-10-amd-mext-flash-statt-ram",
@@ -3402,6 +4188,53 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-10-amd-mext-flash-statt-ram.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-10T18:28:31.904Z"
+      },
+      "id": "2026-11-10-amd-zen6-ipc-epyc",
+      "datum": "2026-11-10T18:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "AMD"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD legt Zen-6-Architektur offen: 27 Prozent mehr IPC, Epyc 9006 „Venice“ mit bis zu 256 Kernen startet",
+      "schlagzeile": "Zen 6 ist da: AMD verspricht 27 % mehr IPC – zuerst für Server-Epyc",
+      "kurz": "AMD hat die Technik hinter Zen 6 enthüllt und nennt 27 Prozent mehr IPC gegenüber Zen 5. Die ersten Zen-6-Chips sind die Server-Prozessoren Epyc 9006 „Venice“ mit bis zu 256 Kernen und bis zu 5,3 GHz. Der IPC-Wert stammt aus einem ungewöhnlichen Vergleich von AMD. Zu Ryzen-Desktop-CPUs mit Zen 6 hat AMD noch nichts gesagt.",
+      "zusammenfassung": "Mit dem Ende der Sperrfrist hat AMD am Abend viele Details zur Zen-6-Architektur veröffentlicht. Laut AMD steigt die IPC, also die Leistung pro Takt, im Schnitt um 27 Prozent gegenüber Zen 5, mit rund 20 Prozent in normalen Anwendungen und rund 31 Prozent bei KI-Lasten. ComputerBase und heise weisen aber darauf hin, dass AMD dafür 16 Zen-6c-Kerne in einem einzigen Chiplet mit 16 Zen-5-Kernen auf zwei Chiplets verglichen hat, was kein klassischer IPC-Vergleich ist. Technisch wird der Kern breiter: Der Op-Cache wächst auf 6.750 Einträge und liefert 18 statt 12 Micro-Ops pro Takt, Registerfile und Reorder-Buffer wachsen auf 352 und 640 Einträge. AVX-512 bleibt, SMT ebenfalls. Die normalen Zen-6-Kerne sitzen zu zwölft in einem Chiplet mit 48 MB L3-Cache, die kompakten Zen-6c-Kerne zu 32 in einem Chiplet mit 128 MB L3, gefertigt in TSMCs 2-nm-Prozess. Erste Produkte sind die Server-CPUs Epyc 9006 „Venice“ mit bis zu 256 Kernen, 16 DDR5-Speicherkanälen, PCIe 6.0 und bis zu 600 Watt. Die Hochtakt-Modelle erreichen bis zu 5,3 GHz. AMD liefert nach eigenen Angaben bereits aus, erste Systeme sollen noch dieses Jahr kommen. In ersten Remote-Messungen von heise brauchte ein einzelner Zen-5-Kern in Blender rund 22 Prozent länger als ein Zen-6-Kern, der allerdings auch höher taktet. 2027 folgen eine kleinere Plattform sowie Venice-X mit 3D-V-Cache und Verano mit LPDDR5X-Speicher. Auf der Roadmap stehen danach Zen 7 „Florence“ für 2028 und Zen 8 „Ravenna“. Zu Ryzen-Prozessoren für Desktop und Notebook mit Zen 6 und deren Termin hat AMD auf dem Event nichts gesagt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/artikel/prozessoren/amd-zen-6-details.100131/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
+        },
+        {
+          "name": "AMD auf X",
+          "url": "https://x.com/AMD/status/2120200385520369828"
+        }
+      ],
+      "tags": [
+        "Zen 6",
+        "Epyc 9006",
+        "Venice",
+        "IPC",
+        "AMD"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-10-amd-zen6-ipc-epyc.webp",
         "ki_generiert": true
       }
     },
