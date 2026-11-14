@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-13T21:54:41.799Z",
+    "stand": "2026-11-14T07:39:21.339Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -5324,93 +5324,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-07-custom-engine-wald-rtx3080.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-07-windows-hello-pin-parallel",
-      "datum": "2026-11-07T08:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Betriebssysteme",
-      "titel": "Windows 11 Insider: PIN parallel zum Windows-Hello-Gesichts- oder Fingerabdruck-Scan",
-      "schlagzeile": "Windows 11: PIN tippen während Windows Hello scannt",
-      "kurz": "In der Windows-11-Insider-Experimental-Build 26340.9882 lässt sich die PIN tippen, während Windows Hello noch Gesicht oder Fingerabdruck prüft. Der Lockscreen zeigt „Look at the camera or enter your PIN“; wer zuerst funktioniert, gewinnt. Der Rollout ist experimentell, ein Retail-Termin fehlt.",
-      "zusammenfassung": "Windows Latest testet Build 26340.9882 vom 6 November 2026 (Basis Windows 11 26H2, Experimental-Kanal): Auf dem Anmeldebildschirm erscheint das PIN-Feld parallel zur Windows-Hello-Prüfung. Statt auf Fehlschlag der Gesichtserkennung zu warten oder umständlich Anmeldeoptionen zu wählen, gilt laut Microsoft-Release-Notes „whichever method works first“. Nach einem Neustart bleibt PIN-First aus Sicherheitsgründen bestehen. Schlägt Face fehl, gibt es einen direkten „Retry face sign-in“-Hinweis. Bei Geräten mit IR-Kamera und Fingerabdrucksensor kann der Prompt Gesicht und Fingerabdruck nennen, mit PIN darunter. Neu sind Event-Log-IDs 4628 und 4629 unter Security für eingerichtete bzw. fehlgeschlagene Hello-Methoden; zusätzliche Operational-Events helfen der IT. Die Funktion erschien laut Test ohne ViVeTool. Experimental-Builds können Bugs enthalten; wann das Verhalten den stabilen Kanal erreicht, sagte Microsoft nicht.",
-      "quelle": {
-        "name": "Windows Latest",
-        "url": "https://www.windowslatest.com/2026/11/07/microsoft-is-fixing-one-of-windows-11s-most-frustrating-sign-in-problems-with-a-new-windows-hello-update/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Windows 11",
-        "Windows Hello",
-        "PIN",
-        "Insider"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-07T07:51:09.706Z"
-      },
-      "ki_unterstuetzt": true,
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-windows-hello-pin-parallel.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-08T09:19:31.755Z"
-      },
-      "id": "2026-11-07-tsmc-3d-dram-nvidia",
-      "datum": "2026-11-07T06:00:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "GPU",
-        "Speicher"
-      ],
-      "kategorie": "Speicher & Markt",
-      "titel": "TSMC prüft Einstieg in 3D-DRAM – Anstoß soll von NVIDIA gekommen sein",
-      "schlagzeile": "TSMC prüft 3D-DRAM: NVIDIA soll den Speichereinstieg angestoßen haben",
-      "kurz": "Laut einem Bericht von The Information vom 6.11.2026 prüft der Auftragsfertiger TSMC den Einstieg in die Produktion von 3D-DRAM. Der Anstoß soll von NVIDIA gekommen sein, TSMCs größtem Kunden. Konkrete Fabriken, Investitionen oder ein Starttermin nennt der Bericht nicht. TSMC wollte Marktgerüchte gegenüber The Information nicht kommentieren und verwies auf seine Rolle als Logik-Foundry; NVIDIA antwortete demnach nicht.",
-      "zusammenfassung": "The Information hat am 6.11.2026 unter Berufung auf zwei mit den Gesprächen vertraute Personen berichtet, TSMC prüfe einen Einstieg in die Fertigung von 3D-DRAM. Auslöser soll eine Anfrage von NVIDIA gewesen sein. igor'sLAB hat den Bericht am 7.11.2026 aufgegriffen und eingeordnet. Demnach hat TSMC damit begonnen, mögliche Produktionskonzepte für vertikal aufgebauten DRAM auszuarbeiten; als Optionen nennt der Bericht den Bau neuer Fertigungsanlagen oder die Übernahme eines vorhandenen Werks mit anschließender Umrüstung. Ein Produktionsbeginn, Investitionssummen oder geplante Kapazitäten wurden nicht genannt. Verantwortlich für die Initiative soll Hsu Kuo-chin sein, ein TSMC-Vizepräsident aus dem Bereich Advanced Packaging, der zuvor bei Micron in Taiwan tätig war. TSMC erklärte gegenüber The Information, grundsätzlich keine Marktgerüchte zu kommentieren, und verwies auf seine Ausrichtung als Auftragsfertiger für Logikchips. NVIDIA reagierte laut dem Bericht nicht auf eine Anfrage, und Reuters konnte die Angaben nicht unabhängig bestätigen. Technisch ist 3D-DRAM etwas anderes als das bereits etablierte High Bandwidth Memory: Bei HBM werden mehrere separat gefertigte DRAM-Chips gestapelt, bei 3D-DRAM sollen die Speicherzellenschichten selbst vertikal integriert werden, um die Dichte zu erhöhen. Ein erfolgreicher Einstieg würde TSMC in einen Markt bringen, den bislang vor allem Samsung, SK hynix und Micron beherrschen. Gleichzeitig ist aus dem Bericht kein kurzfristiger Start der Massenproduktion abzuleiten, weil Wärme, Prozessintegration und ausreichende Ausbeuten als offene Hürden gelten und eine Entwicklung Jahre dauern könnte. Vor dem Hintergrund knapper und teurer Speicher für PCs und Rechenzentren wäre ein zusätzlicher Hersteller folgenschwer, bislang stehen aber nur ein Medienbericht und mögliche Entwicklungsüberlegungen im Raum.",
-      "quelle": {
-        "name": "igor'sLAB",
-        "url": "https://www.igorslab.de/tsmc-prueft-einstieg-in-3d-dram-nvidia-soll-entwicklung-neuartiger-speicherchips-angestossen-haben/"
-      },
-      "weitere_links": [
-        {
-          "name": "The Verge (über The Information)",
-          "url": "https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-into-the-ram-business-at-the-request-of-nvidia"
-        },
-        {
-          "name": "Seoul Economic Daily",
-          "url": "https://en.sedaily.com/finance/2026/11/07/tsmc-weighs-3d-dram-push-at-nvidias-request"
-        },
-        {
-          "name": "Wccftech (Update)",
-          "url": "https://wccftech.com/nvidia-custom-hbm-samsung-tsmc-3nm-base-die/"
-        }
-      ],
-      "tags": [
-        "TSMC",
-        "NVIDIA",
-        "3D-DRAM",
-        "Speicher",
-        "HBM"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-tsmc-3d-dram-nvidia.webp",
         "ki_generiert": true
       }
     }
