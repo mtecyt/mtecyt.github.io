@@ -2,10 +2,51 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-15T07:25:39.427Z",
+    "stand": "2026-11-15T11:01:57.622Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-09T10:27:13.114Z"
+      },
+      "id": "2026-11-08-rtings-woled-edge-rot",
+      "datum": "2026-11-08T11:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "OLED",
+        "Monitor"
+      ],
+      "kategorie": "Displays",
+      "titel": "RTINGS-Langzeittest: 14 von 16 älteren WOLED-Fernsehern zeigen Pixelausfälle am Rand",
+      "schlagzeile": "„Edge Rot“: 14 von 16 WOLED-TVs mit toten Pixeln am Rand",
+      "kurz": "Im 18.000-Stunden-Langzeittest von RTINGS haben 14 von 16 Fernsehern mit WOLED-Panels von LG Display tote Pixel entlang der Bildränder entwickelt. RTINGS nennt das „Edge Rot“; mit Einbrennen hat es nichts zu tun. Die drei getesteten QD-OLED-TVs blieben verschont. Betroffen sind vor allem Modelle von 2020 bis 2022, neuere Panels ab 2024 sind nicht getestet.",
+      "zusammenfassung": "Die Testseite RTINGS hat Ergebnisse aus ihrem beschleunigten Langzeittest veröffentlicht, in dem Fernseher rund 18.000 Stunden liefen. Von 16 Geräten mit WOLED-Panels von LG Display entwickelten 14 tote Pixel, kleine Pixelgruppen oder sichtbare Schäden entlang der Bildschirmränder, das sind 87,5 Prozent. RTINGS nennt das Phänomen „Edge Rot“. Anders als Einbrennen hängt es laut RTINGS nicht davon ab, ob statische Inhalte gezeigt werden, und lässt sich auch nicht durch abwechslungsreiches Material vermeiden. Bei den älteren WBC-Panels waren 9 von 10 Geräten betroffen, fünf davon stark; bei den neueren WBE-Panels 5 von 6, darunter Modelle von LG und Sony. Das 2023er-Modell LG G3 zeigte keine Randschäden. Die drei getesteten QD-OLED-Fernseher mit Panels von Samsung Display blieben ohne Edge Rot; RTINGS betont aber, dass drei Geräte zu wenige sind, um QD-OLED für immun zu erklären. Auch drei geprüfte OLED-Monitore, darunter ein WOLED-Modell, zeigten keine Randschäden. Zwei RTINGS-Mitarbeiter fanden das Problem zudem an ihren privat genutzten Geräten aus 2020 und 2021. Die genaue Ursache ist nicht geklärt; diskutiert werden Verunreinigungen in der Fertigung und Schwächen der Schutzschicht, die Feuchtigkeit vom Panel fernhalten soll. LG Electronics und LG Display bestätigten gegenüber RTINGS, dass das Phänomen bei einer kleinen Zahl von Produkten unter längerer Hitze, Feuchtigkeit oder anderen harten Bedingungen auftreten könne, unter normalen Bedingungen aber nicht zu erwarten sei. Die 87,5 Prozent sind ein Ergebnis aus einem kleinen Testfeld unter Dauerlast und keine Ausfallquote aller verkauften Geräte. Ob Panels ab 2024 betroffen sind, hat RTINGS noch nicht ermittelt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/rtings-discovers-edge-rot-affecting-87-5-of-tested-woled-tvs"
+      },
+      "weitere_links": [
+        {
+          "name": "Hardware Busters",
+          "url": "https://hwbusters.com/news/rtings-finds-edge-rot-on-14-of-16-woled-tvs-after-18000-hours-while-qd-oled-sets-stay-clean/"
+        }
+      ],
+      "tags": [
+        "OLED",
+        "WOLED",
+        "QD-OLED",
+        "RTINGS",
+        "LG Display",
+        "Edge Rot"
+      ],
+      "archiviert_am": "2026-11-15T11:01:57.622Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
