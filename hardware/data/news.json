@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-14T18:51:02.370Z",
+    "stand": "2026-11-15T07:25:39.428Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -5713,94 +5713,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-08-rtings-woled-edge-rot.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-08T09:19:31.848Z"
-      },
-      "id": "2026-11-07-warzone-switch2",
-      "datum": "2026-11-07T20:48:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "Switch 2",
-        "Warzone"
-      ],
-      "kategorie": "Spiele",
-      "titel": "Call of Duty: Warzone ist jetzt kostenlos auf der Nintendo Switch 2",
-      "schlagzeile": "Warzone ist jetzt kostenlos auf der Nintendo Switch 2",
-      "kurz": "Call of Duty: Warzone ist auf der Nintendo Switch 2 erschienen und im Nintendo eShop kostenlos erhältlich. Einen Kauf von Modern Warfare 4 braucht man dafür nicht, ein Activision-Konto schon. Der Start fiel mit Season 1 zusammen; gleichzeitig endete der Support für PlayStation 4 und Xbox One.",
-      "zusammenfassung": "Laut Insider Gaming ist Call of Duty: Warzone auf der Nintendo Switch 2 verfügbar und im eShop als eigenständiges Free-to-Play-Spiel zu haben. Wer Modern Warfare 4 nicht besitzt, kann das Battle Royale trotzdem spielen. Ein Activision-Konto ist Voraussetzung. Der Start erfolgte zusammen mit Season 1; Activision schreibt dazu, man könne in Hajin, Zodiac und die übrigen Karten und Playlists einsteigen, während das kostenlose Spiel erstmals auf Nintendos Handheld ankomme. Nintendo Life hat das Angebot am 7.11.2026 nachgetragen und auf dem eigenen Gerät eine Dateigröße von 122 GB gemessen; eine offizielle Downloadgröße von Activision liegt uns nicht vor. Insider Gaming ordnet den Schritt als Rückkehr der Reihe auf Nintendo-Hardware ein: Modern Warfare 4 war demnach das erste Call-of-Duty-Spiel auf einer Nintendo-Konsole seit Ghosts auf der Wii U. Mit Season 1 hat Activision den Support für PlayStation 4 und Xbox One beendet; der Fortschritt soll sich über dasselbe verknüpfte Activision-Konto auf unterstützte Plattformen mitnehmen lassen. Auflösung, Bildrate und Crossplay-Details für die Switch-2-Fassung hat Activision in der uns vorliegenden Berichterstattung nicht beziffert. Der Start selbst lag am 6.11.2026, die von uns genutzte Meldung von Insider Gaming erschien am 7.11.2026.",
-      "quelle": {
-        "name": "Insider Gaming (Tom Henderson)",
-        "url": "https://insider-gaming.com/call-of-duty-warzone-switch-2-release/"
-      },
-      "weitere_links": [
-        {
-          "name": "Nintendo Life (122 GB Messung)",
-          "url": "https://www.nintendolife.com/news/2026/11/icymi-call-of-duty-warzone-is-now-available-for-switch-2"
-        }
-      ],
-      "tags": [
-        "Warzone",
-        "Switch 2",
-        "Call of Duty",
-        "Activision",
-        "Modern Warfare 4"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-warzone-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-08T09:19:31.917Z"
-      },
-      "id": "2026-11-07-pulse-elevate-verschoben",
-      "datum": "2026-11-07T20:36:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PlayStation"
-      ],
-      "kategorie": "Konsolen",
-      "titel": "Sony verschiebt Pulse-Elevate-Lautsprecher unbegrenzt wegen Produktionsproblem",
-      "schlagzeile": "Sony verschiebt Pulse Elevate unbegrenzt – kurz vor dem Start",
-      "kurz": "Sony hat den Verkaufsstart der kabellosen Pulse-Elevate-Lautsprecher unbegrenzt verschoben. Der 12. November als Termin entfällt, weil die Qualitätsprüfung ein Produktionsproblem gefunden hat. Einen neuen Termin nennt Sony nicht; was mit bereits aufgegebenen Vorbestellungen passiert, ist offen.",
-      "zusammenfassung": "Sony hat am 6.11.2026 im PlayStation-Blog den Start der Pulse-Elevate-Lautsprecher unbegrenzt verschoben. Eurogamer und IGN haben die Mitteilung am 7.11.2026 aufgegriffen. Im Blog schreibt Sony, man habe bei der laufenden Qualitätsprüfung ein Produktionsproblem gefunden und sich deshalb entschieden, den Start zu verschieben; die zusätzliche Zeit solle sicherstellen, dass das Produkt die vorgesehene Erfahrung liefert. Einen neuen Termin und eine genaue Beschreibung des Problems nennt Sony nicht. Die Lautsprecher sollten am 12. November weltweit in den Handel kommen, also nur wenige Tage nach der Mitteilung. Die unverbindliche Preisempfehlung liegt laut der aktualisierten Blog-Seite bei 219,99 US-Dollar, 219,99 Euro und 199,99 Pfund. Pulse Elevate ist Sonys erstes kabelloses Lautsprecherpaar für Desktop-Spiele und sitzt neben dem Pulse-Elite-Headset und den Pulse-Explore-Ohrhörern. Sie verbinden sich über PlayStation Link mit der PS5, mit PCs, Macs und dem PlayStation Portal und können gleichzeitig per Bluetooth mit einem Smartphone gekoppelt werden. Im rechten Lautsprecher steckt ein Mikrofon mit von Sony so genannter KI-unterstützter Geräuschunterdrückung. Die Variante Midnight Black sollte überall erhältlich sein, die weiße Fassung nur in ausgewählten Ländern, darunter Deutschland, Österreich und Großbritannien. Vorbestellungen liefen seit September. Eurogamer schreibt, es sei unklar, was nun mit diesen Bestellungen geschieht.",
-      "quelle": {
-        "name": "Eurogamer",
-        "url": "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue"
-      },
-      "weitere_links": [
-        {
-          "name": "PlayStation Blog (offizielle Mitteilung)",
-          "url": "https://blog.playstation.com/2025/09/24/introducing-pulse-elevate-sony-interactive-entertainments-first-wireless-speakers-for-desktop-gaming/"
-        },
-        {
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/sony-announces-indefinite-delay-for-playstations-pulse-elevate-wireless-speakers-days-before-launch"
-        }
-      ],
-      "tags": [
-        "PlayStation",
-        "Pulse Elevate",
-        "Sony",
-        "PS5"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-07-pulse-elevate-verschoben.webp",
         "ki_generiert": true
       }
     }
