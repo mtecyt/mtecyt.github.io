@@ -2,10 +2,96 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-18T18:26:48.880Z",
+    "stand": "2026-11-18T20:03:09.950Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.710Z"
+      },
+      "id": "2026-11-18-gta6-streaming-rekord",
+      "datum": "2026-11-18T18:52:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Streaming",
+      "titel": "GTA 6 bricht Streaming-Rekorde: laut Streams Charts 3,29 Mio. gleichzeitige Twitch-Zuschauer und rund 7,9 Mio. über alle Plattformen vor dem weltweiten Start",
+      "schlagzeile": "GTA 6 bricht schon vor dem Start den Streaming-Weltrekord",
+      "kurz": "Noch bevor GTA 6 in den meisten Ländern spielbar ist, hat es den Rekord für Livestream-Zuschauer gebrochen. Laut Streams Charts schauten zeitgleich fast 7,9 Millionen Menschen auf Twitch, YouTube, Kick und anderen Plattformen zu, davon 3,29 Millionen allein auf Twitch.",
+      "zusammenfassung": "GTA 6 startet regional gestaffelt, in Neuseeland war es bereits am 18. November spielbar, später auch in Singapur und Hongkong. Nach vorläufigen Daten des Analysedienstes Streams Charts erreichte das Spiel laut Polygon in der Spitze 7.886.402 gleichzeitige Zuschauer über alle Plattformen. Twitch lag mit 3,29 Millionen vorne, gefolgt von YouTube mit 3,19 Millionen und Kick mit 1,48 Millionen. Damit ist GTA 6 nach diesen Daten auch die meistgesehene Spielekategorie der Twitch-Geschichte, vor League of Legends mit 3,11 Millionen und Fortnite mit 3,04 Millionen. Den bisherigen Plattform-übergreifenden Rekord für einen Spielestart hielt laut Streams Charts die geschlossene Beta von Valorant aus dem Jahr 2020 mit 1,74 Millionen Zuschauern; damals gab es allerdings Beta-Zugänge fürs Zuschauen. Eurogamer hatte am frühen Nachmittag noch 6,38 Millionen Zuschauer gemeldet, die Zahl stieg also im Tagesverlauf weiter. Weil weitere Regionen erst noch freigeschaltet werden, könnten die Werte noch steigen. Es handelt sich um vorläufige Messwerte eines Drittanbieters, nicht um offizielle Zahlen von Twitch oder Rockstar. Der offizielle Start auf PS5 und Xbox Series ist am 19. November.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-streaming-record-twitch-viewers-reviews/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Twitch",
+        "Streaming",
+        "Rekord",
+        "Rockstar"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Cozy home streaming room at dusk behind an empty gaming chair: microphone on boom arm, controller, monitors with a blurred sunny coastal city street with palm trees, side monitor with abstract colorful chat-like blocks, warm lamp and cool window light, terracotta plant pot, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-gta6-streaming-rekord.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.427Z"
+      },
+      "id": "2026-11-18-jedec-ddr6-vorschau",
+      "datum": "2026-11-18T18:33:48+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Arbeitsspeicher",
+      "titel": "JEDEC zeigt erste DDR6-Eckdaten: Start bei 12,8 GT/s, 96 Bit breiter Datenbus, 74-mm-Module, Formfaktoren RDIMM, UDIMM und CAMM möglich",
+      "schlagzeile": "DDR6 nimmt Form an: 50 % mehr Bandbreite und viel kürzere Module",
+      "kurz": "Das Normungsgremium JEDEC hat erstmals offiziell Eckdaten zum kommenden Arbeitsspeicher DDR6 vorgestellt. RDIMMs sollen bei 12,8 GT/s starten, der Datenbus wächst von 64 auf 96 Bit, und die Bandbreite soll zum Start um mehr als 50 % steigen. Es handelt sich ausdrücklich um Entwicklungspläne, nicht um einen fertigen Standard.",
+      "zusammenfassung": "Die JEDEC Solid State Technology Association hat am 18. November eine Vorschau auf den DDR6-Standard veröffentlicht, der im Komitee JC-42 entwickelt wird. Laut JEDEC soll DDR6 bei RDIMMs mit 12,8 GT/s starten, nach 9,2 GT/s bei DDR5; die Roadmap reicht bis 14,4 GT/s und darüber hinaus. Der Datenbus wird von 64 auf 96 DQ verbreitert, also um 50 %. Zusammen mit den höheren Datenraten soll das zum Start mehr als 50 % zusätzliche Bandbreite bringen. JEDEC betont selbst, dass dieses Bandbreitenziel nicht gleichbedeutend mit entsprechend mehr Leistung in Anwendungen ist. Neu ist eine Pseudo-Channel-Architektur, außerdem verdoppelt sich die Zahl der Bänke. DRAM-Chips sollen bis zu 128 Gbit Dichte erreichen. Auffällig für PC-Bastler: Die Module werden mit 74 mm deutlich kürzer als DDR5-Riegel mit 133 mm. Als mögliche Formfaktoren nennt JEDEC RDIMM, UDIMM und CAMM, also nicht nur CAMM. Dazu kommen flexible ECC-Varianten und eine bessere Effizienz durch VSS-terminierte Ein- und Ausgänge sowie Stromsparmodi für Rechenzentren. Der Fokus liegt klar auf Servern und KI-Rechenzentren. Alle Angaben können sich laut JEDEC im weiteren Standardisierungsprozess noch ändern. Einen Termin für den fertigen Standard oder erste Produkte nennt die Pressemitteilung nicht.",
+      "quelle": {
+        "name": "JEDEC (Pressemitteilung)",
+        "url": "https://www.jedec.org/news/pressreleases/jedec%C2%AE-previews-next-generation-ddr6-dram-higher-performance-greater-capacity"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354995/jedec-previews-next-generation-ddr6-dram"
+        }
+      ],
+      "tags": [
+        "DDR6",
+        "JEDEC",
+        "RAM",
+        "CAMM",
+        "Arbeitsspeicher"
+      ],
+      "img_prompt": "Close-up of compact unbranded engineering-sample memory modules on a warm wooden lab workbench, gold edge contacts along one long edge only, tweezers and a blurred probe, dusty teal accent; documentary hardware photo style (stil).",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-jedec-ddr6-vorschau.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -428,6 +514,49 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.578Z"
+      },
+      "id": "2026-11-17-game-awards-2026-nominierte",
+      "datum": "2026-11-17T19:16:01+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Events",
+      "titel": "The Game Awards 2026: GTA 6 in acht Kategorien nominiert; GOTY-Kandidaten 007 First Light, Control Resonant, GTA 6, Phantom Blade Zero, Resident Evil Requiem und Zelda: Ocarina of Time; Show am 10. Dezember",
+      "schlagzeile": "Game Awards 2026: GTA 6 räumt acht Nominierungen ab",
+      "kurz": "Die Nominierten für The Game Awards 2026 stehen fest. GTA 6 ist in acht Kategorien vertreten, darunter Spiel des Jahres. Die Gewinner werden am 10. Dezember in Los Angeles verkündet.",
+      "zusammenfassung": "Geoff Keighley hat am 17. November die Nominierten der Game Awards 2026 in allen Kategorien veröffentlicht. Grand Theft Auto 6 führt das Feld mit acht Nominierungen an, unter anderem für Spiel des Jahres, Game Direction, Erzählung, Art Direction, Musik und Audio. Um den Titel Spiel des Jahres kämpfen 007 First Light, Control Resonant, GTA 6, Phantom Blade Zero, Resident Evil Requiem und The Legend of Zelda: Ocarina of Time. Control Resonant und 007 First Light sind ebenfalls mehrfach nominiert. In der Kategorie Most Anticipated Game stehen unter anderem Fable, God of War Laufey und The Witcher 4. Bei Best Ongoing Game sind etwa Arc Raiders, Fortnite und The Witcher 3 dabei. Über die Gewinner entscheidet zu 90 % eine internationale Jury und zu 10 % das Fan-Voting, das bereits läuft. Die Kategorie Player's Voice wird komplett von Fans bestimmt. Die Show läuft am 10. Dezember aus dem Peacock Theater in Los Angeles und soll wie gewohnt auch neue Spiele-Ankündigungen bringen. Bemerkenswert: GTA 6 erscheint erst am 19. November und ist damit nur knapp für den diesjährigen Zeitraum qualifiziert. Eine vollständige Liste aller Kategorien bieten die verlinkten Quellen.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/grand-theft-auto-vi-dominates-the-game-awards-2026-with-eight-nominations/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN Deutschland",
+          "url": "https://de.ign.com/project-007/157337/die-nominierungen-fur-die-game-awards-2026-stehen-fest-gta-6-dominiert"
+        }
+      ],
+      "tags": [
+        "The Game Awards",
+        "GTA 6",
+        "GOTY",
+        "Control Resonant",
+        "007 First Light"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Wide cinematic view of an empty grand theatre stage prepared for a video game award show: red velvet seats, warm golden spotlights with cool-blue accents, six screens with blurred colorful abstract skies, a simple original faceted golden statuette on a pedestal, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-17-game-awards-2026-nominierte.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-18T18:03:27.136Z"
       },
       "id": "2026-11-17-doom-dark-ages-fsr41-vulkan",
@@ -505,6 +634,44 @@
       "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Quiet empty strategy-game studio office in warm late-afternoon light: unoccupied desks with unmarked monitors showing only a softly blurred abstract map of generic terrain (no real game UI), packed cardboard boxes, a half-cleared corkboard with blank papers, an olive plant as muted accent, no logos, no text, no recognizable characters.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-firaxis-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.830Z"
+      },
+      "id": "2026-11-16-gta6-hacker-schuldig",
+      "datum": "2026-11-16T19:51:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Hacker hinter dem GTA-6-Leak von 2022 bekennt sich vor britischem Gericht schuldig; Angriffe auf Rockstar, Uber und EE/BT mit geschätzt 10 Mio. Pfund Schaden",
+      "schlagzeile": "GTA-6-Leak von 2022: Hacker bekennt sich schuldig",
+      "kurz": "Der heute 21-Jährige, der 2022 Rockstar Games gehackt und frühe GTA-6-Videos veröffentlicht hatte, hat sich vor einem Londoner Gericht schuldig bekannt. Ein Strafmaß steht noch aus.",
+      "zusammenfassung": "Am 16. November bekannte sich der Mann am Woolwich Crown Court im Südosten Londons schuldig, Rockstar Games und weitere Firmen gehackt zu haben, darunter Uber und EE/BT. Der geschätzte Schaden der Cyberangriffe liegt laut Bericht bei rund 10 Millionen Pfund. Zur Zeit des Rockstar-Hacks war er 16 bis 17 Jahre alt. Laut Eurogamer, das sich auf die BBC beruft, war er damals in einem Hotel unter Polizeischutz untergebracht und nutzte für den Angriff nur einen Amazon Fire Stick, den Hotelfernseher sowie Bluetooth-Tastatur und -Maus. Er drang demnach auch in Rockstars Slack-Kanäle ein und drohte, den Quellcode von GTA 6 zu veröffentlichen. Die Leaks von 2022 zeigten rund eine Stunde unfertiges Gameplay und machten Protagonistin Lucia erstmals öffentlich. Zuvor war er wegen einer schweren Autismus-Diagnose zunächst in eine Klinik eingewiesen worden, wurde inzwischen aber für verhandlungsfähig erklärt und kam Anfang des Jahres in ein reguläres Gefängnis. Das Strafmaß steht noch aus. Nicht zu verwechseln ist der Fall mit den Leaks von 2026, die einem anderen Akteur zugeschrieben werden. Rockstar hatte den Einbruch 2022 bestätigt und erklärt, die Entwicklung sei langfristig nicht beeinträchtigt.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Hack",
+        "Leak",
+        "Gericht"
+      ],
+      "img_prompt": "Documentary-style editorial photograph of an anonymous budget hotel room at night: wall-mounted TV with blurred dark screen, small generic streaming stick, wireless keyboard and mouse on a bedspread, paper coffee cup, warm lamp and cool window light, olive cushion accent, no people, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-gta6-hacker-schuldig.webp",
         "ki_generiert": true
       }
     },
@@ -680,49 +847,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.014Z"
-      },
-      "id": "2026-11-16-playstation-controller-bezahlen-patent",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PlayStation"
-      ],
-      "kategorie": "Konsolen",
-      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
-      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
-      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
-      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
-      "quelle": {
-        "name": "Golem.de",
-        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
-        }
-      ],
-      "tags": [
-        "Sony",
-        "PlayStation",
-        "Controller",
-        "Patent",
-        "NFC"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.113Z"
       },
       "id": "2026-11-16-intel-sammelklage",
@@ -757,6 +881,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.014Z"
+      },
+      "id": "2026-11-16-playstation-controller-bezahlen-patent",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
+      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
+      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
+      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "PlayStation",
+        "Controller",
+        "Patent",
+        "NFC"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
         "ki_generiert": true
       }
     },
@@ -2707,47 +2874,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-13T21:54:38.560Z"
-      },
-      "id": "2026-11-13-word-kompatibilitaet-layout",
-      "datum": "2026-11-13T17:35:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Software",
-      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
-      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
-      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
-      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Neowin",
-          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
-        }
-      ],
-      "tags": [
-        "Microsoft Word",
-        "Office",
-        "Microsoft 365",
-        "Kompatibilität"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-13T21:54:38.066Z"
       },
       "id": "2026-11-13-ps5-qssr-sechs-spiele",
@@ -2786,6 +2912,47 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-13-ps5-qssr-sechs-spiele.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.560Z"
+      },
+      "id": "2026-11-13-word-kompatibilitaet-layout",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
+      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
+      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
+      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
+        }
+      ],
+      "tags": [
+        "Microsoft Word",
+        "Office",
+        "Microsoft 365",
+        "Kompatibilität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
         "ki_generiert": true
       }
     },
