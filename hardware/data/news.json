@@ -2,10 +2,512 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-18T17:57:07.745Z",
+    "stand": "2026-11-18T18:03:27.544Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.037Z"
+      },
+      "id": "2026-11-18-rockstar-gewerkschaft-abstimmung",
+      "datum": "2026-11-18T16:56:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Spieleindustrie"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Rund 1.600 Rockstar-Beschäftigte im Vereinigten Königreich stimmen über die Anerkennung einer Gewerkschaft ab, die Auszählung endet am 26. November",
+      "schlagzeile": "1.600 Rockstar-Beschäftigte stimmen über eine Gewerkschaft ab",
+      "kurz": "Während GTA 6 startet, stimmen mehr als 1.600 Rockstar-Beschäftigte im Vereinigten Königreich über die Anerkennung einer Gewerkschaft ab. Die Frist endet am 26. November. Entschieden ist damit noch nichts; bei einem Ja wäre es nach PC Gamer die größte Spiele-Gewerkschaft des Landes.",
+      "zusammenfassung": "PC Gamer und Polygon berichten über die Abstimmung, die mit dem Test- und Starttag von GTA 6 zusammenfällt. In einem Gastbeitrag für The Guardian schreibt der Rockstar-Animationsprogrammierer und Gewerkschaftsvertreter Nestor Uriarte, hinter den Rekordzahlen stünden Tausende Menschen, die einen fairen Anteil am Erfolg sehen sollten. Mit einer anerkannten Vertretung wolle man Löhne, Arbeitsbedingungen und Boni besser absichern und auch den Einsatz von KI in der Entwicklung verhandeln. Uriarte nennt anhaltende Sorgen zu Mehrarbeit, zu einem möglichen Gender-Pay-Gap und zu unklaren Bonusregeln; zugleich betont er, die Initiative komme von Beschäftigten im Studio, nicht von außen. Ob die Mehrheit zustimmt, steht erst nach dem 26. November fest. Parallel läuft in Glasgow ein Tribunal zu Vorwürfen, Rockstar habe gewerkschaftlich aktive Mitarbeiter benachteiligt oder entlassen; über diesen Streit ist gerichtlich noch nicht abschließend entschieden. Uriarte verweist außerdem auf die Entlassungen bei Firaxis im gleichen Konzernumfeld. Eine Stellungnahme von Rockstar zur laufenden Abstimmung liegt in den vorliegenden Berichten nicht vor.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/we-need-to-come-together-on-the-eve-of-gta-6-1-600-rockstar-workers-are-voting-on-unionization/"
+      },
+      "weitere_links": [
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-devs-union-vote-recognition/"
+        }
+      ],
+      "tags": [
+        "Rockstar Games",
+        "Gewerkschaft",
+        "GTA 6",
+        "Vereinigtes Königreich"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Warm late-afternoon union-hall table scene: a stack of unmarked paper ballots and a simple wooden box on a scuffed table, several empty chairs, a window with golden light, a dusty-teal enamel pitcher as accent, no readable text, no logos, no faces close enough to identify, no game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-rockstar-gewerkschaft-abstimmung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.821Z"
+      },
+      "id": "2026-11-18-gta6-technik-fsr4-series-s",
+      "datum": "2026-11-18T15:43:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Grafik"
+      ],
+      "kategorie": "Technik",
+      "titel": "Rockstar bestätigt Technik von GTA 6: 1440p mit Upscaling auf 4K bei PS5, PS5 Pro und Series X, 720p mit FSR 4 auf 1080p bei der Series S, Ziel sind 30 Bilder pro Sekunde",
+      "schlagzeile": "GTA 6: 1440p auf PS5 und Series X, Series S startet mit FSR 4 bei 720p",
+      "kurz": "Rockstar hat gegenüber Wccftech die Technik von GTA 6 auf den Konsolen bestätigt. PlayStation 5, PS5 Pro und Xbox Series X rechnen intern in 1440p und skalieren auf 4K hoch, die Series S startet bei 720p und nutzt als erstes Spiel auf der Konsole AMD FSR 4 für 1080p. Ziel sind 30 Bilder pro Sekunde, konstant hält das laut Analysen nur die PS5 Pro.",
+      "zusammenfassung": "Die Angaben stammen von Rockstar und wurden von ComputerBase und Tom's Hardware aufgegriffen. Auf PS5 und Series X kommt demnach eine hauseigene TAA-Lösung zum Zuge, auf der PS5 Pro Sonys PSSR, auf der Series S FSR 4. Anschließend wird auf allen Plattformen eine 4K-Benutzeroberfläche darübergelegt. Raytracing-gestützte globale Beleuchtung ist auch auf der Series S vorgesehen, die Umsetzung wird an die jeweilige Hardware angepasst. Raytraced-Schatten nennt ComputerBase nur für die PS5 Pro. Das Bildziel von 30 fps erreicht die günstigere Xbox und die normale PS5 laut Tabelle nicht immer konstant, die PS5 Pro soll die Marke halten. Gegenüber Kotaku sagte Technikchef Marc Chambers laut VGC, die „Basispräsentation“ auf der PS5 Pro umfasse Reflexionen und globale Beleuchtung per Raytracing sowie die höhere Schärfe durch PSSR. Der Prozessor der PS5 Pro sei etwas besser als in der normalen PS5, aber nicht stark genug, um die komplexe Simulation mit höherer Bildrate laufen zu lassen. Eine Absenkung der Grafik zugunsten von 60 fps klingt in dieser Aussage nicht nach einem geplanten Weg. Die oft dunkleren Bildränder bezeichnet Rockstar als künstlerische Entscheidung, abschalten lässt sich die Vignettierung derzeit nicht; einen Fehler, der sie zeitweise zu stark machte, hat das Studio nach eigenen Angaben behoben. Eine PC-Version mit eigenen Grafikstufen bleibt ohne Termin. Die Aussagen bestätigen frühere Berichte, wonach GTA 6 auch auf der PS5 Pro bei 30 fps bleibt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/gta-6-erstes-spiel-mit-amd-fsr-4-auf-der-xbox-series-s.100389/"
+      },
+      "weitere_links": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/video-games/console-gaming/gta-vi-runs-at-1440p-on-ps5-and-xbox-series-x-but-just-720p-with-upscaling-on-series-s-rockstar-details-upscaling-technologies-for-launch"
+        },
+        {
+          "name": "Video Games Chronicle",
+          "url": "https://www.videogameschronicle.com/news/rockstar-says-ps5-pro-cant-handle-gta-6-at-60-fps/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "FSR 4",
+        "Xbox Series S",
+        "PS5 Pro",
+        "PSSR"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Warm late-afternoon living-room scene: a large unmarked television seen from behind a couch, the screen showing an original out-of-focus sunlit coastal city street (not a known game view), two plain unbranded game controllers on a wooden table, a terracotta mug as accent, natural window light, no logos, no text, no UI, not a real screenshot.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-gta6-technik-fsr4-series-s.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.602Z"
+      },
+      "id": "2026-11-18-am5-agesa-vcore-14-ryzen-8000",
+      "datum": "2026-11-18T14:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Mainboards",
+      "titel": "AGESA 1.3.0.1f Patch A begrenzt bei ausgewählten Ryzen-8000-Prozessoren die Kernspannung auf 1,4 Volt; MSI und Asus verteilen bereits passende BIOS-Versionen",
+      "schlagzeile": "Neues AM5-BIOS: Vcore bei manchen Ryzen-8000-CPUs auf 1,4 Volt begrenzt",
+      "kurz": "Ein neues AGESA-Update begrenzt bei ausgewählten Ryzen-8000-Prozessoren die Kernspannung auf höchstens 1,4 Volt. MSI nennt die Änderung in den Release Notes, sagt aber nicht, welche Modelle betroffen sind. Asus verteilt bereits Beta-BIOS-Versionen und warnt davor, alte Profile zu übernehmen.",
+      "zusammenfassung": "Die Firmware trägt die Bezeichnung AGESA 1.3.0.1f Patch A, berichtet PCGH. In den MSI-Release-Notes steht wörtlich, die maximale Vcore werde für ausgewählte CPUs der Ryzen-8000-Serie auf 1,4 Volt begrenzt. Welche Modelle das sind und ob die Vorgabe von AMD stammt, ist offen. Die Regelung betrifft die Versorgung der Rechenkerne und ist von der bereits bekannten SoC-Spannungsgrenze von 1,3 Volt zu unterscheiden. Unklar bleibt auch, ob nur manuell gesetzte Werte oder zusätzlich die automatische Regelung und Precision Boost Overdrive eingeschränkt werden. Auswirkungen auf die Alltagsleistung sind nicht belegt, fürs manuelle Übertakten kann die Grenze spürbar werden. Zusätzlich führt das Update eine neue POST-Anzeige für das DDR5-Speichertraining ein: Auf dem zweistelligen Display läuft während der Initialisierung eine Zahlenfolge von 00 bis 09 im Sekundentakt, danach beginnt sie von vorn. Das ist keine Prozentanzeige, soll aber helfen zu erkennen, ob das Board noch trainiert oder hängt. Asus bietet die Firmware bereits als Beta für ausgewählte Boards der Serien X870, X870E und X670E an und warnt ausdrücklich davor, gespeicherte UEFI-Profile älterer AGESA-Versionen zu importieren. Wer ein stabil laufendes System hat, muss wegen der POST-Anzeige nicht auf eine Beta wechseln.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Ryzen-7-8700G-CPU-280151/News/BIOS-Update-Spannung-Reduktion-1560422/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "AM5",
+        "AGESA",
+        "Ryzen 8000",
+        "BIOS"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An open unbranded AM5-style motherboard on a wooden workbench, a bare unmarked CPU in a small plastic tray beside it, a simple screwdriver and a terracotta cable comb as muted accent, warm late-morning window light, shallow depth of field, no readable text, no logos, no brand markings, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-am5-agesa-vcore-14-ryzen-8000.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.713Z"
+      },
+      "id": "2026-11-18-gta6-tests-metacritic-99",
+      "datum": "2026-11-18T13:17:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA-6-Tests sind erschienen: Metacritic liegt derzeit bei 99 Punkten, der Verkaufsstart für PlayStation 5 und Xbox Series X|S ist der 19. November 2026, ein PC-Termin fehlt weiter",
+      "schlagzeile": "GTA 6 startet: Tests feiern das Spiel, Metacritic liegt derzeit bei 99",
+      "kurz": "Die Tests zu Grand Theft Auto 6 sind da, bei Metacritic steht das Spiel derzeit bei 99 Punkten und damit gleichauf mit Zelda: Ocarina of Time. Offizieller Start auf PlayStation 5 und Xbox Series X|S ist der 19. November 2026, in Neuseeland ist es bereits spielbar. Ein Termin für die PC-Version hat Rockstar weiter nicht genannt.",
+      "zusammenfassung": "Viele große Fachmedien vergeben Höchstwertungen, berichtet unter anderem Polygon. OpenCritic liegt derzeit bei 98 Punkten. Die Werte können sich noch ändern, je mehr Tests dazukommen. Gelobt werden vor allem die Dichte der Spielwelt Leonida, die Beziehung zwischen Jason und Lucia und der Detailgrad; vereinzelt gibt es Kritik an einem langsamen Einstieg, an umständlicher Bedienung oder an ungelenktem Kampf. Rockstar-Präsident Sam Houser hat aus Anlass des Starts eine seltene Erklärung abgegeben, die IGN vorliegt: Das Studio wolle die Erwartungen übertreffen und zeigen, wozu Spiele fähig seien, und blicke auf „viele weitere Jahre“ gemeinsamer Erlebnisse. Was genau damit gemeint ist, etwa ein Online-Modus, sagt Rockstar nicht. In manchen Zeitzonen, etwa in Neuseeland, können Spieler das Spiel bereits starten, in Europa typischerweise in der Nacht zum 19. November. Berichte über Vorverkaufserlöse von mehr als 1,5 Milliarden US-Dollar stammen von Marktbeobachtern, nicht von einer offiziellen Rockstar-Mitteilung. Die PC-Fassung bleibt ohne Termin, ein Cloud-Streaming über Xbox wird als Zwischenlösung genannt. Wer Wertungen und Verkaufszahlen zitiert, sollte den Stand vom 18. November 2026 im Blick behalten, beides kann sich schnell ändern. PlayStation hat den Start offiziell auf Donnerstag, den 19. November, datiert. Der Support weist darauf hin, dass vor dem Spielen ein PS5-Systemupdate nötig ist.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-review-roundup/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN (Sam Houser)",
+          "url": "https://www.ign.com/articles/rockstar-president-sam-houser-issues-rare-statement-to-celebrate-gta-6-launch"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/Test-Review-Metascore-Bewertungen-1560408/"
+        },
+        {
+          "name": "PC Games (Test)",
+          "url": "https://www.pcgames.de/GTA-6-Spiel-55239/Tests/Review-Rockstar-Wertung-Lucia-Jason-1560203/"
+        },
+        {
+          "name": "PlayStation",
+          "url": "https://x.com/PlayStation/status/2123084055071908103"
+        },
+        {
+          "name": "PlayStation Support",
+          "url": "https://x.com/PS_Support_US/status/2122863683881619685"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar Games",
+        "Metacritic",
+        "PlayStation 5",
+        "Xbox"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Cinematic late-afternoon scene on a sun-bleached coastal city boulevard: an original generic sports car parked at a cracked curb, palm shadows on warm asphalt, pastel motel facades without signs, a distant unbranded television store window softly reflecting the street, golden natural light, rich colors, no recognizable game characters, no logos, no text, no copied map or UI, not a screenshot.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-gta6-tests-metacritic-99.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.443Z"
+      },
+      "id": "2026-11-18-windows-server-2028-vorschau",
+      "datum": "2026-11-18T11:01:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft veröffentlicht eine öffentliche Vorschau von Windows Server 2028 mit härterer Standardabsicherung, lokalem KI-Betrieb und neuer Speichertechnik, nennt aber noch keinen Termin für die fertige Version",
+      "schlagzeile": "Windows Server 2028 ist als öffentliche Vorschau da – ohne Fertigtermin",
+      "kurz": "Microsoft hat eine öffentliche Vorschau von Windows Server 2028 freigegeben. Sie zielt auf eine härtere Standardabsicherung, lokalen KI-Betrieb und schnelleren Speicher, etwa mit nativem NVMe. Einen Termin für die fertige Version nennt der Konzern nicht.",
+      "zusammenfassung": "Das schreibt Microsoft im Blog der Windows-Server-Techcommunity, berichtet heise. Interessierte können sich außerdem für das Technology Adoption Program bewerben. Damit ist zugleich klar, dass Microsoft weiter ein Serverbetriebssystem für den Einsatz im eigenen Rechenzentrum anbietet und nicht nur Cloud-Dienste. Zur Sicherheit soll eine standardmäßig gehärtete Server-Core-Konfiguration gehören, dazu eine neue Security-Baseline, Trusted Launch für Generation-2-VMs und der Beginn der Unterstützung für vertrauliche virtuelle Maschinen auf passender Hardware vor Ort. Geplant sind außerdem automatische Zertifikate und Vorbereitungen für Post-Quanten-Kryptografie. Mehr Tempo versprechen ein standardmäßig aktiver nativer NVMe-Stapel, NVMe über TCP und RDMA sowie die Möglichkeit, von ReFS-Laufwerken zu starten. Die Serververwaltung soll als Vorschau in Microsoft Intune einziehen, der Virtualisierungsmodus des Windows Admin Center ist allgemein verfügbar. Im Bereich KI spricht Microsoft von „hybrider Intelligenz“: Inferenz soll näher an den Daten oder unter eigener Kontrolle laufen können, unter anderem mit Foundry Local, Windows ML, vLLM und llama.cpp. Als Hardware-Vorschau nennt Microsoft AMDs Instinct-Karte MI350P für das erste Halbjahr 2027. Microsoft eXecution Containers sollen lokale Inferenz zusätzlich isolieren. Bleibt es beim üblichen Rhythmus, könnte die fertige Version in etwa einem Jahr erscheinen; verbindlich ist das nicht. Die Vorschau läuft über das Windows-Insider-Programm für Server.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Windows-Server-2028-Oeffentliche-Vorschau-verfuegbar-11528845.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows Server 2028",
+        "Microsoft",
+        "NVMe",
+        "Intune",
+        "KI"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A clean on-premises server rack in a small business closet, warm daylight from a high window, unbranded servers with soft status lights, a blank-screen KVM monitor on a folding tray, an olive cloth on the tray as accent, no readable text, no logos, no brand markings, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-windows-server-2028-vorschau.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.478Z"
+      },
+      "id": "2026-11-18-amd-ces-2027-zen6-teaser",
+      "datum": "2026-11-18T11:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD kündigt einen Auftritt zur CES 2027 am 5. Januar in Las Vegas an; ein Teaser zeigt ein sehr dünnes Notebook, offizielle Chipdetails fehlen noch",
+      "schlagzeile": "AMD macht CES-2027-Auftritt fest – Zen 6 für Notebooks wird erwartet",
+      "kurz": "AMD hat einen Auftritt zur CES 2027 in Las Vegas fest zugesagt. Der Termin ist der 5. Januar 2027 um 10 Uhr Ortszeit, 19 Uhr mitteleuropäischer Zeit. Ein Teaser zeigt ein sehr dünnes, leicht aufgeklapptes Notebook; welche Chips AMD genau vorstellt, ist noch nicht bestätigt.",
+      "zusammenfassung": "Den Termin nannte AMD-Manager Jack Huynh am 17. November auf X, berichtet ComputerBase; auch PCGH greift die Ankündigung auf. Huynh schreibt von einer „nächsten Ära des Rechnens“ und will auf der CES in der Mandalay Bay einen Ausblick zeigen. Das beigefügte Bild deutet auf besonders flache Notebooks hin. In den vergangenen Jahren hat AMD zur CES typischerweise neue Mobilprozessoren vorgestellt, ein Verkaufsstart folgt oft erst Monate später. ComputerBase verknüpft den Teaser mit den bereits bekannten Codenamen Medusa Point für kommende Notebook-Chips und mit inoffiziellen Sample-Listungen der vergangenen Wochen, etwa zu 10-, 8- und 6-Kern-Varianten. Diese Konfigurationen und Takte sind nicht von AMD bestätigt. Ebenso unbestätigt ist, ob zur CES auch Desktop-Ableger mit Zen 6 gezeigt werden; PCGH wirft diese Frage auf, eine offizielle Antwort gibt es nicht. Auch Berichte über zusätzliche sehr sparsame Kerne unterhalb von Zen 6 und Zen 6c bleiben vorerst Spekulation. Bis zum 5. Januar sind also vor allem der Termin und der Notebook-Teaser belastbar, technische Daten erst, wenn AMD sie selbst nennt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/prozessoren/medusa-point-und-co-amd-teasert-neue-notebook-chips-fuer-ces-2027-an.100382/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/AMD-Zen-Architektur-261795/News/Zen-6-Desktop-Prozessoren-CES-2027-1560410/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "CES 2027",
+        "Zen 6",
+        "Medusa Point",
+        "Notebook"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An ultra-thin unbranded silver laptop standing slightly open on a light oak desk beside a window, blank dark screen with no logos, a closed notebook and a terracotta ceramic cup as muted accent, warm late-morning daylight, shallow depth of field, no people, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-amd-ces-2027-zen6-teaser.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.348Z"
+      },
+      "id": "2026-11-18-nvidia-q3-huang-bleibt-draussen",
+      "datum": "2026-11-18T00:26:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Nvidia legt im ersten Quartalsbericht nach Jensens Huangs Rücktritt 115,8 Milliarden US-Dollar Umsatz vor; der Verwaltungsrat beabsichtigt nicht, Huang wieder als CEO einzusetzen",
+      "schlagzeile": "Rekordquartal bei Nvidia: Verwaltungsrat schließt Huangs Rückkehr als CEO aus",
+      "kurz": "Nvidia hat im dritten Geschäftsquartal 115,8 Milliarden US-Dollar Umsatz und 65,3 Milliarden Dollar Gewinn erzielt und damit die Erwartungen übertroffen. Verwaltungsratschef Harvey Jones erklärte, das Gremium beabsichtige nicht, den zurückgetretenen Jensen Huang wieder als CEO einzusetzen. Huang hatte sich zuvor bereiterklärt, zurückzukehren, falls der Rat das für richtig hält.",
+      "zusammenfassung": "Es ist der erste Quartalsbericht seit Huangs Rücktritt in der Vorwoche. Den Umsatz beziffert Nvidia offiziell auf 115,8 Milliarden US-Dollar, 103 Prozent mehr als ein Jahr zuvor und 20 Prozent mehr als im Vorquartal; der Gewinn stieg auf 65,3 Milliarden Dollar. Allein die Rechenzentren-Sparte kam auf 107,6 Milliarden Dollar (plus 110 Prozent). Die früher eigenständige Gaming-Sparte ist in Edge Computing aufgegangen und erzielte dort zusammen 8,2 Milliarden Dollar, ein Plus von 42 Prozent. Interimschefin und Finanzchefin Colette Kress sprach von einem starken Start der Serverplattform Vera Rubin und einem unverändert gültigen Produktplan. Für das vierte Quartal, das eine Woche länger dauert, erwartet Nvidia 130 Milliarden Dollar Umsatz plus/minus 3 Prozent, ohne Rechenzentrums-Chips für China. Die Bruttomarge soll auf 71 bis 72 Prozent sinken. Die Verpflichtungen für kommende Komponenten stiegen auf 390 Milliarden Dollar nach 279 Milliarden im Vorquartal, laut ComputerBase vor allem wegen teurer Speicherverträge. Zu Beginn der Analystenkonferenz stellte Verwaltungsratschef Harvey Jones klar, der Rat habe Huangs Rücktritt einstimmig angenommen und beabsichtige nicht, ihn wieder als CEO einzusetzen; Fragen zur laufenden internen Untersuchung wolle er nicht beantworten. Wenige Stunden zuvor hatte Huang geschrieben, er wäre geehrt, zurückzukehren, wenn der Rat das im Interesse von Aktionären, Beschäftigten, Unternehmen und den USA für richtig hält. Die Suche nach einer dauerhaften Führung läuft intern und extern weiter, Kress bleibt interimsweise im Amt. Umgerechnet entsprechen die Quartalszahlen laut ComputerBase rund 105,3 Milliarden Euro Umsatz und 59,4 Milliarden Euro Gewinn.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/nach-skandal-nvidia-uebertrifft-erwartungen-und-schliesst-huang-rueckkehr-aus.100376/"
+      },
+      "weitere_links": [
+        {
+          "name": "Nvidia IR (Quartalsbericht)",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Nvidia-Fast-116-Milliarden-US-Dollar-Umsatz-Jensen-Huang-will-zurueckkommen-11528649.html"
+        },
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354967/jensen-huang-will-not-be-reinstated-as-ceo-says-nvidia-board-chief"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "Quartalszahlen",
+        "Vera Rubin"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A long empty glass-walled boardroom in a modern office, an unoccupied leather chair at the head of a walnut table, a closed unmarked laptop and a short stack of blank papers, warm late-morning sunlight, muted dusty-teal accent from a glass water carafe, city skyline softly blurred. No people, no readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-nvidia-q3-huang-bleibt-draussen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.343Z"
+      },
+      "id": "2026-11-18-windows11-baseline-protection",
+      "datum": "2026-11-18T00:17:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11 testet Baseline Protection: Apps erhalten eine Ja-nein-Auskunft über acht Sicherheitsfunktionen und dürfen warnen, Funktionen beschränken oder den Start verweigern; die allgemeine Freigabe ist für 2027 geplant",
+      "schlagzeile": "Windows 11 testet Schutzprüfung, an der Apps den Start verweigern dürfen",
+      "kurz": "Microsoft testet in einer Insider-Vorschau die Funktion Windows Baseline Protection. Sie fasst acht vorhandene Schutzmaßnahmen zu einer Auskunft zusammen, die Programme abfragen können. Entwickler dürfen dann warnen, Funktionen einschränken oder den Start verhindern; eine allgemeine Freigabe ist für 2027 vorgesehen.",
+      "zusammenfassung": "Windows Latest beschreibt die Vorschau ausführlich. Zu den acht geprüften Punkten gehören unter anderem Secure Boot und die Speicherintegrität. Wer diese Funktionen abgeschaltet hat, etwa für einen parallelen Linux-Start, besteht die Prüfung nicht. Apps bekommen eine klare Ja-nein-Antwort, eine Liste fehlender Punkte oder ein schwerer zu fälschendes, hardwaregestütztes Attest, das ein Anbieter auf seinen Servern prüfen kann. Microsoft betont, das System melde nur den Zustand, die Richtlinie bleibe beim jeweiligen Entwickler. Adobe, Battle.net, 1Password und Schoolyear testen die Schnittstelle bereits. Keines dieser Unternehmen hat angekündigt, Rechner mit negativer Prüfung pauschal auszusperren; Battle.net spricht laut Bericht davon, die Sicherheit zu erhöhen und die Reibung für Spieler gering zu halten. In den Einstellungen soll eine neue Seite „Sicherheit > Baseline protection“ den Status zeigen und viele der fehlenden Funktionen mit einem Schalter samt Neustart einschalten können. Die allgemeine Bereitstellung plant Microsoft für 2027, bis dahin bleibt es ein Insider-Test, der sich noch ändern kann. Für Spieler und Schrauber ist vor allem wichtig, dass eine abschaltbare Schutzfunktion künftig nicht mehr nur eine lokale Warnung auslösen, sondern den Start einzelner Programme verhindern kann, wenn der Anbieter das so festlegt.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/18/apps-could-soon-refuse-to-run-on-your-windows-11-pc-if-it-fails-microsofts-new-security-check-and-adobe-and-battle-net-are-already-on-board/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Windows-Software-277633/News/Windows-11-Neue-Sicherheitsfunktion-App-Nutzung-einschraenken-sperren-1560427/"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "Baseline Protection",
+        "Insider",
+        "Secure Boot",
+        "Sicherheit"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded silver Windows-style laptop on a kitchen table in warm late-morning light, the screen showing only a simple abstract green shield shape with no text, a closed notebook and an olive ceramic cup nearby, shallow depth of field, no people, no readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-windows11-baseline-protection.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.242Z"
+      },
+      "id": "2026-11-17-java4shell-rce",
+      "datum": "2026-11-17T21:13:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Kritische Lücke Java4Shell in OpenJDK erlaubt über fehlerhafte Base64-Dekodierung auf manchen x86-64-Systemen mit AVX-512 das Ausführen von fremdem Code; Oracle hat Patches veröffentlicht",
+      "schlagzeile": "Java4Shell: Gefährliche Lücke in Java, Patches von Oracle sind da",
+      "kurz": "In OpenJDK gibt es eine als Java4Shell bezeichnete Sicherheitslücke, über die Angreifer auf verwundbaren Systemen aus der Ferne Code ausführen können. Betroffen ist eine hardwarebeschleunigte Base64-Funktion auf bestimmten x86-64-Prozessoren mit AVX-512. Oracle hat am 17. November Patches veröffentlicht, als Zwischenlösung lässt sich die Beschleunigung abschalten.",
+      "zusammenfassung": "Die Lücke trägt die Nummer CVE-2026-114938. Das Forschungsunternehmen Calif stuft sie mit einem CVSS-4.0-Wert von 9,2 als kritisch ein, Oracle vergibt nach CVSS 3.1 die Stufe 8,1 (hoch), berichtet BleepingComputer; auch heise und PCGH greifen den Fall auf. Betroffen sind OpenJDK ab Version 17.0.6 und darauf aufbauende Pakete, darunter Oracle Java SE, Amazon Corretto, Eclipse Temurin, Microsofts OpenJDK-Build, Azul Zulu und Red Hats OpenJDK. Die fehlerhafte Stelle steckt in einer beschleunigten Base64-Dekodierung, die nur auf x86-64-Prozessoren mit bestimmten AVX-512-Befehlen greift; neuere Ryzen- und Intel-Systeme können also eher betroffen sein als ältere Rechner ohne diese Befehle. Calif konnte damit nach eigenen Angaben unter anderem bei Jenkins, Jira, Confluence, Keycloak und JFrog Artifactory eine nicht authentisierte Codeausführung zeigen, bei weiteren Diensten nur mit Anmeldung. Es gibt keinen einheitlichen Angriff für alle Programme, die präparierten Daten müssen die verwundbare Funktion jeweils erreichen. Oracle hat Korrekturen im November-Sicherheitsupdate veröffentlicht. Wer nicht sofort aktualisieren kann, kann die Beschleunigung laut Forschern vorübergehend mit den Startoptionen zur Deaktivierung der Base64-Intrinsics oder von AVX-512 abschalten. Ein allgemeiner Proof-of-Concept für die Speicherverletzung liegt vor, ausformulierte Angriffe auf die genannten Anwendungen hat Calif nicht veröffentlicht.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Java4Shell-Gefaehrlicher-Bug-in-Java-11528499.html"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Java-Software-256198/News/Java4Shell-Sicherheitsluecke-Darauf-muessen-Besitzer-neuerer-Ryzen-und-Intel-Systeme-achten-1560375/"
+        },
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/Java4Shell-Vulnerability"
+        }
+      ],
+      "tags": [
+        "Java",
+        "Java4Shell",
+        "OpenJDK",
+        "CVE-2026-114938",
+        "Sicherheit"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A server room aisle in warm late-morning light leaking from a side door, unbranded rack servers with small unreadable status lights, a laptop on a rolling cart showing a blurred unreadable terminal, a dusty-teal network cable coiled on the cart, no people, no readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-17-java4shell-rce.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.136Z"
+      },
+      "id": "2026-11-17-doom-dark-ages-fsr41-vulkan",
+      "datum": "2026-11-17T18:11:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "FSR",
+        "Grafik"
+      ],
+      "kategorie": "Technik",
+      "titel": "Update 5 von Doom: The Dark Ages bringt als erstes Vulkan-Spiel offiziell AMD FSR 4.1 und Frame Generation 4; AMD aktualisiert zugleich das Unreal-Engine-Plugin",
+      "schlagzeile": "Doom: The Dark Ages bringt als erstes Vulkan-Spiel FSR 4.1 nativ",
+      "kurz": "Mit Update 5 unterstützt Doom: The Dark Ages als erstes Vulkan-Spiel offiziell AMDs FSR 4.1 und Frame Generation 4. Damit entfällt der bisher oft nötige Umweg über Drittanbieter-Werkzeuge. Parallel hat AMD das Unreal-Engine-Plugin auf Version 4.1.2 aktualisiert, dort bleibt es allerdings bei DirectX 12.",
+      "zusammenfassung": "Bestätigt hat das AMD-Manager Jack Huynh auf X, berichtet ComputerBase. Ende Oktober hatte AMD im FSR SDK 2.4.0 bereits eine Vulkan-Schnittstelle bereitgestellt, Spiele mussten sie aber erst einbauen. Das maschinelle Hochskalieren von FSR 4.1 läuft auf Radeon-Karten der Serien RX 9000, RX 7000 und RX 6000 sowie auf ausgewählten Ryzen-APUs. Für die KI-gestützte Frame Generation 4 sind mindestens Radeon-Karten der RX-9000-Serie nötig. id Software gibt außerdem an, Frame Generation lasse sich auf Intel-Grafik aktivieren, wenn Hardware und Treiber mitspielen; konkrete Modelle nennt das Studio nicht. Das Unreal-Plugin 4.1.2 überträgt die SDK-Neuerungen auf die Unreal Engine 5.3 bis 5.8, erweitert das Hochskalieren auf RX 6000 und bestimmte Ryzen-Prozessoren mit integrierter Grafik und bringt Verbesserungen beim Frame Pacing auf RX 9000. Die Vulkan-Funktion aus dem SDK steckt in diesem Plugin noch nicht. Update 5 ergänzt außerdem den Slaughter-Modus für die im Juli 2026 erschienene Story-Erweiterung Revelations, mit endlos steigenden Gegnerwellen. Für den Ticker ist vor allem der erste native FSR-4.1-Einsatz unter Vulkan relevant, nicht nur ein weiteres Spiele-Update.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/doom-the-dark-ages-update-5-bringt-amd-fsr-4-1-nativ-in-ein-vulkan-spiel.100371/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Doom",
+        "FSR 4.1",
+        "Vulkan",
+        "AMD",
+        "Unreal Engine"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Dynamic original medieval-fantasy melee in warm late-day light: an original armored warrior with a unique unbranded helmet charges through a ruined stone hall, dust and debris in the air, strong diagonal composition and low camera, rich natural colors, no recognizable game character or franchise armor, no logos, no text, no UI, not a screenshot.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-17-doom-dark-ages-fsr41-vulkan.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.926Z"
+      },
+      "id": "2026-11-18-firaxis-entlassungen",
+      "datum": "2026-11-17T17:26:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Spieleindustrie"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Firaxis entlässt nach Bloomberg rund ein Drittel der Belegschaft, etwa 60 Personen; Studioleiterin Heather Hazen geht, 2K bestätigt den Umbau",
+      "schlagzeile": "Civilization-Studio Firaxis entlässt rund ein Drittel der Belegschaft",
+      "kurz": "Das Civilization- und XCOM-Studio Firaxis hat nach Angaben von Bloomberg rund 60 Menschen entlassen, etwa ein Drittel der Belegschaft. Studioleiterin Heather Hazen verlässt das Unternehmen, das bestätigt ein Sprecher von 2K. Über ein neues XCOM-Spiel mit Entwicklungsproblemen berichtet Bloomberg unter Berufung auf informierte Personen.",
+      "zusammenfassung": "Die Streichungen erfolgten am 17. November, also kurz vor dem Start von GTA 6 beim gemeinsamen Mutterkonzern Take-Two. 2K bestätigt den Umbau, nicht aber die Zahl der Betroffenen. In einer Stellungnahme heißt es, Firaxis konzentriere sich wieder auf seine Stärke, erstklassige Strategiespiele zu entwickeln, verkleinere das Studio und müsse sich von talentierten Kollegen verabschieden. Diese Entscheidungen fielen nie leicht, seien aber nötig. Zu Hazens Wechsel sagt 2K, sie übergebe die Leitung bewusst jetzt, damit eine neue Führung den nächsten Abschnitt von Beginn an verantworten könne. Bloomberg berichtet unter Berufung auf mit den Vorgängen vertraute Personen zudem, ein neues XCOM-Spiel habe unter Entwicklungsproblemen gelitten und im Sommer einen wichtigen Meilenstein verfehlt; die Arbeit gehe weiter, das Projekt könne sich durch die Kürzungen aber noch einmal ändern. Diese Punkte sind nicht offiziell bestätigt. Das zuletzt erschienene Spiel des Studios, Civilization VII, war im Februar 2025 gestartet und in der Spielerschaft umstritten. Firaxis hatte in den Vorjahren bereits Personal abgebaut. Die genaue künftige Studioleitung ist noch nicht benannt.",
+      "quelle": {
+        "name": "IGN Deutschland",
+        "url": "https://de.ign.com/sid-meiers-civilization-vii/157335/diese-entscheidungen-fallen-nie-leicht-civilization-entwickler-firaxis-entlasst-ein-drittel-seiner-b"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/gaming-industry/civilization-dev-firaxis-reportedly-lays-off-a-third-of-its-staff-studio-head-departs/"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/firaxis-layoffs-civilization-xcom-heather-hazen"
+        }
+      ],
+      "tags": [
+        "Firaxis",
+        "2K",
+        "Civilization",
+        "XCOM",
+        "Entlassungen"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Quiet empty strategy-game studio office in warm late-afternoon light: unoccupied desks with unmarked monitors showing only a softly blurred abstract map of generic terrain (no real game UI), packed cardboard boxes, a half-cleared corkboard with blank papers, an olive plant as muted accent, no logos, no text, no recognizable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-firaxis-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -178,49 +680,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.113Z"
-      },
-      "id": "2026-11-16-intel-sammelklage",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Intel"
-      ],
-      "kategorie": "Unternehmen",
-      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
-      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
-      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
-      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Wccftech",
-          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
-        }
-      ],
-      "tags": [
-        "Intel",
-        "Sammelklage",
-        "Lip-Bu Tan",
-        "Aktie",
-        "Speicherkrise"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.014Z"
       },
       "id": "2026-11-16-playstation-controller-bezahlen-patent",
@@ -255,6 +714,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.113Z"
+      },
+      "id": "2026-11-16-intel-sammelklage",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
+      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
+      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
+      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Sammelklage",
+        "Lip-Bu Tan",
+        "Aktie",
+        "Speicherkrise"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
         "ki_generiert": true
       }
     },
@@ -2205,6 +2707,47 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.560Z"
+      },
+      "id": "2026-11-13-word-kompatibilitaet-layout",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
+      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
+      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
+      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
+        }
+      ],
+      "tags": [
+        "Microsoft Word",
+        "Office",
+        "Microsoft 365",
+        "Kompatibilität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-13T21:54:38.066Z"
       },
       "id": "2026-11-13-ps5-qssr-sechs-spiele",
@@ -2243,47 +2786,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-13-ps5-qssr-sechs-spiele.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-13T21:54:38.560Z"
-      },
-      "id": "2026-11-13-word-kompatibilitaet-layout",
-      "datum": "2026-11-13T17:35:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Software",
-      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
-      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
-      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
-      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Neowin",
-          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
-        }
-      ],
-      "tags": [
-        "Microsoft Word",
-        "Office",
-        "Microsoft 365",
-        "Kompatibilität"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
         "ki_generiert": true
       }
     },
