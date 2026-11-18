@@ -2,10 +2,64 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-18T17:57:07.744Z",
+    "stand": "2026-11-18T18:26:48.879Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.406Z"
+      },
+      "id": "2026-11-11-xbox-cloud-ohne-game-pass",
+      "datum": "2026-11-11T19:00:15+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Xbox Cloud Gaming ohne Game Pass: Spielzeit kaufen oder kostenlos mit Werbung streamen",
+      "schlagzeile": "Xbox Cloud Gaming öffnet sich: Stunden kaufen oder gratis mit Werbung",
+      "kurz": "Seit 11. November können Spieler in unterstützten Ländern Xbox-Cloud-Spielzeit auch ohne Game-Pass-Abo kaufen. Zusätzlich bewirbt Xbox kostenloses Streaming mit Werbung, mit Zeitlimit pro Sitzung. Gestreamt werden nur Spiele, die man besitzt, oder ausgewählte Free-to-Play-Titel.",
+      "zusammenfassung": "Microsoft baut Xbox Cloud Gaming um. Laut Xbox Wire können Spieler in unterstützten Märkten seit dem 11. November Cloud-Spielzeit im Xbox Store kaufen, ohne Game Pass zu abonnieren. In der Insider-Testphase kosteten die werbefreien Pakete 3,99 Dollar für 10, 7,99 Dollar für 25 und 11,99 Dollar für 50 Stunden; das waren ausdrücklich Einführungspreise, Euro-Preise sind in den Quellen nicht genannt. Gekaufte Stunden verfallen nicht und bieten laut Xbox kürzere Wartezeiten und bessere Streamqualität. Auf der offiziellen Cloud-Gaming-Seite und auf X bewirbt Xbox zudem kostenloses Streaming mit Werbung, wo verfügbar, mit Zeitlimits pro Sitzung. Im Insider-Test lag das Limit laut The Verge bei einer Stunde. Gestreamt werden können eigene Spiele, ausgewählte Free-to-Play-Titel und Game-Pass-Spiele. Für Game-Pass-Abonnenten gibt es seit November Monatskontingente: 15 Stunden bei Ultimate, 10 bei Premium und 5 bei Essential. Wer sie verbraucht, kann Stunden dazukaufen oder auf die Werbe-Variante ausweichen. Pünktlich dazu startet GTA 6 am 19. November per Cloud auch auf der Xbox One. Welche Länder zum Start dabei sind, ist offen.",
+      "quelle": {
+        "name": "Xbox",
+        "url": "https://x.com/XBOX/status/2120577357769564501"
+      },
+      "weitere_links": [
+        {
+          "name": "Xbox Wire (GTA VI per Cloud, Spielzeit ab 11.11.)",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "name": "Xbox Cloud Gaming (offizielle Seite)",
+          "url": "https://www.xbox.com/en-US/cloud-gaming"
+        },
+        {
+          "name": "Xbox Wire (Preise im Insider-Test)",
+          "url": "https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/"
+        },
+        {
+          "name": "Xbox Wire (Monatskontingente)",
+          "url": "https://news.xbox.com/en-us/2026/09/03/xbox-cloud-gaming-changes/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/news/1015321/xbox-cloud-gaming-pay-as-you-go-cloud-hours-pricing"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Cloud Gaming",
+        "Game Pass",
+        "Streaming"
+      ],
+      "archiviert_am": "2026-11-18T18:26:48.878Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
