@@ -2,10 +2,557 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-18T18:26:48.879Z",
+    "stand": "2026-11-19T07:36:34.708Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:02.862Z"
+      },
+      "id": "2026-11-12-outlook-mails-blockiert",
+      "datum": "2026-11-12T05:53:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Outlook",
+        "Microsoft"
+      ],
+      "kategorie": "Software",
+      "titel": "Outlook.com: Fehlerhafte Spam-Regel hat tagelang echte E-Mails abgewiesen – die Mails sind verloren",
+      "schlagzeile": "Outlook hat tagelang Mails abgewiesen – und die kommen nicht zurück",
+      "kurz": "Eine fehlerhafte Spam-Regel von Microsoft hat tagelang legitime E-Mails an Outlook.com-, Hotmail- und Live-Adressen abgewiesen. Microsoft hat das Update zurückgenommen, Absender und Empfänger müssen nichts ändern. Abgewiesene Mails sind aber nicht wiederherstellbar, man muss Absender um erneutes Senden bitten.",
+      "zusammenfassung": "Wer zuletzt auffällig wenige E-Mails im Outlook.com-Postfach hatte, war womöglich betroffen. Laut Windows Latest wurden mindestens ab dem 5. November legitime Mails an Outlook.com-, Hotmail-, Live- und MSN-Adressen abgewiesen. Absender erhielten Fehlermeldungen, ihren Mails fehlten SPF-, DKIM- oder DMARC-Einträge, obwohl das teils nicht stimmte. Microsoft bestätigte gegenüber Windows Latest, dass ein Update der Spam-Regeln die Ursache war. Das Unternehmen hat es zurückgenommen, der Mailfluss läuft laut Windows Latest seit dem 9. November wieder. Weder Absender noch Empfänger müssen Einstellungen ändern. Das Problem: Die abgewiesenen Mails landeten nicht im Spam-Ordner, sondern kamen nie an. Microsoft kann sie deshalb nicht wiederherstellen. Wer wichtige Mails erwartet hat, sollte Absender bitten, sie erneut zu schicken. Admins finden den Vorfall im Microsoft-365-Admin-Center unter der Kennung EX1545193. Wie viele Nutzer betroffen waren, nennt Microsoft nicht.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/12/you-may-have-missed-emails-on-outlook-for-days-as-microsoft-confirms-its-spam-rule-wrongly-blocked-them-and-blamed-senders-settings/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Outlook",
+        "Microsoft",
+        "E-Mail",
+        "Spam"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.697Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:02.974Z"
+      },
+      "id": "2026-11-12-powershell-signatur-kb5132061",
+      "datum": "2026-11-12T05:08:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "November-Update KB5132061: Strengere Prüfung lässt manche signierte PowerShell-Skripte scheitern",
+      "schlagzeile": "Windows-Update bremst signierte PowerShell-Skripte aus – so geht der Fix",
+      "kurz": "Mit dem November-Sicherheitsupdate prüft Windows die Textkodierung signierter PowerShell-Skripte strenger. Skripte mit fehlerhaftem UTF-8 gelten danach womöglich als nicht signiert und laufen in verwalteten Umgebungen nicht mehr wie gewohnt. Microsoft empfiehlt, sie als UTF-8 mit BOM zu speichern und neu zu signieren.",
+      "zusammenfassung": "Microsoft hat mit dem Update KB5132061 vom 10. November die Prüfung von PowerShell-Signaturen verschärft. Bisher konnte Windows Skripte mit ungültigem UTF-8 noch verarbeiten, indem es fehlerhafte Zeichen ersetzte. Das passiert jetzt nicht mehr, betroffene Dateien werden abgelehnt. Laut Microsoft meldet Get-AuthenticodeSignature dann „NotSigned“ für ein eigentlich signiertes Skript. Set-AuthenticodeSignature kann mit einem Fehler abbrechen. Auf Geräten mit App Control for Business können betroffene Skripte nur noch im eingeschränkten Sprachmodus laufen. Betroffen sind vor allem Skripte mit fehlerhaftem UTF-8, UTF-8 ohne BOM auf Systemen mit anderer Codepage und Dateien in Kodierungen wie Shift-JIS. Microsoft empfiehlt, die Skripte zu prüfen, als gültiges UTF-8 mit BOM zu speichern und neu zu signieren. Ein Beispielskript namens Repair-SignedPowerShellUtf8.ps1 sucht betroffene Dateien und überschreibt keine Originale. Laut Neowin gilt die Änderung neben Windows 11 auch für Windows 10 Enterprise LTSC 2021 und Windows Server 2025. Private Nutzer ohne signierte Skripte merken davon in der Regel nichts.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/latest-windows-11-update-kb5132061-could-break-your-powershell-scripts/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft Support (KB5132061)",
+          "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update"
+        },
+        {
+          "name": "Microsoft Support (Anleitung zur Kodierung)",
+          "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/11/powershell-sip-canonical-repair"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "PowerShell",
+        "KB5132061",
+        "Sicherheit"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.698Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.109Z"
+      },
+      "id": "2026-11-12-tomb-raider-catalyst-switch2",
+      "datum": "2026-11-12T04:01:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Tomb Raider",
+        "Switch 2"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Amazon nennt Tomb Raider: Catalyst auch für Nintendo Switch 2",
+      "schlagzeile": "Tomb Raider: Catalyst kommt wohl auch für die Switch 2",
+      "kurz": "Ein Beitrag auf Amazons offizieller News-Seite nennt die Switch 2 als Plattform für beide kommenden Tomb-Raider-Spiele. Für Legacy of Atlantis war das bekannt, für Catalyst bisher nicht. Amazon ist Publisher von Catalyst, eine Bestätigung von Crystal Dynamics oder Nintendo fehlt noch.",
+      "zusammenfassung": "Laut Insider Gaming steht in einem am 9. November aktualisierten Beitrag von Amazon News, dass beide neuen Tomb-Raider-Spiele für PS5, Xbox Series X/S, Nintendo Switch 2 und Steam erscheinen. Für Tomb Raider: Legacy of Atlantis (2027) war die Switch-2-Version schon offiziell, das Spiel ist im eShop vorbestellbar. Neu ist die Angabe für Tomb Raider: Catalyst. Das Spiel wurde in diesem Jahr auf 2028 verschoben. Catalyst wird von Amazon Game Studios veröffentlicht, daher hat die Angabe Gewicht. Insider Gaming hält einen Fehler im Artikel aber für möglich, auch wenn er seit zwei Tagen unverändert online ist. Crystal Dynamics und Nintendo haben die Switch-2-Fassung noch nicht bestätigt. Technische Details oder einen Termin für die Switch-2-Version gibt es nicht.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/tomb-raider-catalyst-switch-2/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Tomb Raider",
+        "Catalyst",
+        "Switch 2",
+        "Amazon"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.704Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.236Z"
+      },
+      "id": "2026-11-12-steam-erfolge-linux-64bit",
+      "datum": "2026-11-12T02:16:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam",
+        "Linux"
+      ],
+      "kategorie": "Spiele-Stores",
+      "titel": "Steam-Client-Update: Achievement Sets für alle und der Linux-Client läuft endlich als 64-Bit-Programm",
+      "schlagzeile": "Steam-Update: Neue Erfolge-Sets und 64 Bit für Linux",
+      "kurz": "Valve hat ein neues Steam-Update für alle Nutzer veröffentlicht. Spiele können Erfolge jetzt in Sets für Grundspiel und DLC gruppieren, ohne dass eine 100-Prozent-Wertung verloren geht. Unter Linux ist der Steam-Client nun ein 64-Bit-Programm und läuft in einem Steam-Runtime-Container.",
+      "zusammenfassung": "Valve hat am 11. November ein Steam-Client-Update für den stabilen Kanal veröffentlicht. Wichtigste Neuerung für alle sind die Steam Achievement Sets. Entwickler können Erfolge damit nach Grundspiel und DLC gruppieren. Neue Erfolge oder DLC-Erfolge machen eine bereits vollständige Erfolgs-Sammlung so nicht mehr unvollständig. Saisonale oder nicht mehr erreichbare Erfolge lassen sich archivieren. Dazu kommt eine überarbeitete Erfolgs-Seite. Unter Linux ist der Steam-Client nun eine 64-Bit-Anwendung und läuft in einem Steam-Runtime-Container. Das soll laut Valve für gleiches Verhalten auf verschiedenen Distributionen sorgen, es ist dieselbe Technik, die auch Spiele nutzen. Laut TechPowerUp war Steam unter Linux bisher noch ein 32-Bit-Programm. Zusätzlich behebt das Update unter anderem einen Absturz beim Aufwachen aus dem Standby. Ob Entwickler die neuen Erfolgs-Sets auch nutzen, liegt bei ihnen.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/353772/linux-finally-gets-64-bit-steam-client-and-new-game-achievements-management"
+      },
+      "weitere_links": [
+        {
+          "name": "Steam (Ankündigung Achievement Sets)",
+          "url": "https://store.steampowered.com/news/posts/4149575031735702629"
+        },
+        {
+          "name": "9to5Linux",
+          "url": "https://9to5linux.com/new-steam-client-update-introduces-linux-64-bit-support-steam-achievement-sets"
+        }
+      ],
+      "tags": [
+        "Steam",
+        "Valve",
+        "Linux",
+        "Achievements"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.704Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.349Z"
+      },
+      "id": "2026-11-12-witcher3-ki-stimme-geralt",
+      "datum": "2026-11-12T01:02:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Witcher"
+      ],
+      "kategorie": "Spiele",
+      "titel": "The Witcher 3: CD Projekt passt die polnische Stimme von Geralt im neuen Add-on per KI an – mit Zustimmung des Sprechers",
+      "schlagzeile": "Nach Schlaganfall: KI lässt Geralts polnische Stimme wieder jung klingen",
+      "kurz": "Im kommenden Witcher-3-Add-on Songs of the Past wird die polnische Stimme von Geralt per KI nachbearbeitet. Sprecher Jacek Rozenek nimmt alle Zeilen selbst auf, seine Stimme hat sich nach einem Schlaganfall 2019 aber hörbar verändert. Das KI-Unternehmen Respeecher gleicht sie mit seiner Zustimmung an den Klang von früher an.",
+      "zusammenfassung": "CD Projekt Red hat bestätigt, für die polnische Fassung der neuen Witcher-3-Erweiterung Songs of the Past KI einzusetzen. Das berichtete zuerst Game File, PC Gamer, VGC und IGN haben es aufgegriffen. Jacek Rozenek spricht Geralt seit jeher auf Polnisch, erlitt 2019 aber einen Schlaganfall und konnte zeitweise nicht sprechen. Nach langem Training kehrte er zurück, seine Stimme klingt heute jedoch tiefer und rauer. Weil die Erweiterung mitten in der Handlung von The Witcher 3 spielt, hätte der Unterschied auffallen können. Rozenek nimmt deshalb weiter alle Zeilen selbst auf, Respeecher passt sie danach an seinen Klang von vor rund zwölf Jahren an. Trainiert wurde das Modell mit seinen früheren Aufnahmen für das Spiel. Rozenek unterstützt das ausdrücklich und sagt, die Stimme solle so nah wie möglich an seiner von damals sein. Lokalisierungsproduzent Mikołaj Szwed nennt es einen Sonderfall wegen der Erkrankung und sieht darin eine ethische Nutzung mit Einwilligung. Für die englische Stimme von Doug Cockle ist laut CD Projekt nichts dergleichen geplant. CD Projekt arbeitete schon bei Cyberpunk 2077: Phantom Liberty mit Respeecher, damals mit Zustimmung der Familie eines verstorbenen Sprechers. Ein Termin für Songs of the Past steht in den Berichten nicht.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      },
+      "weitere_links": [
+        {
+          "name": "VGC",
+          "url": "https://www.videogameschronicle.com/news/the-witcher-3-expansion-uses-ai-to-adjust-geralts-polish-voiceover-because-the-actor-suffered-a-stroke/"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/cd-projekt-red-used-ai-to-alter-geralts-voice-due-to-polish-actors-health-issues"
+        }
+      ],
+      "tags": [
+        "The Witcher 3",
+        "CD Projekt Red",
+        "KI",
+        "Synchronisation"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.705Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.467Z"
+      },
+      "id": "2026-11-12-helldivers2-kosmetik-mods",
+      "datum": "2026-11-12T00:29:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Helldivers 2"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Helldivers 2: Nach Anti-Cheat-Wechsel und Review-Welle sollen kosmetische Mods mit dem nächsten Hotfix wieder laufen",
+      "schlagzeile": "Helldivers 2: Arrowhead will harmlose Mods wieder erlauben",
+      "kurz": "Seit dem Wechsel auf Easy Anti-Cheat funktionieren in Helldivers 2 viele Mods nicht mehr, auf Steam folgten über 10.000 negative Reviews. Arrowhead kündigt an, dass einige rein kosmetische Mods mit dem nächsten Hotfix wieder laufen sollen. Mods, die das Gameplay verändern, bleiben verboten.",
+      "zusammenfassung": "Arrowhead hat bei Helldivers 2 das Anti-Cheat-System von GameGuard auf Easy Anti-Cheat umgestellt. Ziel war laut Studio, Mods zu stoppen, die unfaire Vorteile bringen oder anderen schaden. Dabei hörten aber auch harmlose kosmetische Mods auf zu funktionieren. Die Reaktion fiel heftig aus: Laut PC Gamer kamen über 10.000 neue negative Steam-Reviews dazu, die jüngsten Bewertungen stehen auf „größtenteils negativ“. Im neuen Entwickler-Blog räumt Arrowhead ein, dass PC-Spieler Fan-Mods verloren haben. Nach Anpassungen sollen einige kosmetische Mods mit dem nächsten Hotfix wieder funktionieren. Mods, die das Gameplay verändern, bleiben verboten, weil sie technisch nicht von Cheats zu unterscheiden seien. Offiziell unterstützt werden Mods weiterhin nicht. Arrowhead entschuldigt sich außerdem für eine ungenaue Roadmap und verpasste Patch-Termine. Für Anfang Dezember sind unter anderem Jetpacks beim Tragen zweihändiger Gegenstände geplant. Ein Datum für den Hotfix nennt das Studio nicht.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/third-person-shooter/after-cracking-down-on-cheat-mods-in-helldivers-2-and-taking-another-steam-review-beating-arrowhead-plans-hotfix-that-should-allow-harmless-cosmetics/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Helldivers 2",
+        "Arrowhead",
+        "Mods",
+        "Anti-Cheat"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.705Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.583Z"
+      },
+      "id": "2026-11-12-marvel-1943-fast-fertig",
+      "datum": "2026-11-12T00:27:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Marvel 1943"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Bericht: Marvel 1943: Rise of Hydra soll fast fertig sein, aber deutlich kleiner als geplant",
+      "schlagzeile": "Leak: Ist Marvel 1943 fast fertig – aber stark zusammengestrichen?",
+      "kurz": "Nach Gerüchten über eine Einstellung berichtet Kotaku, Marvel 1943: Rise of Hydra sei nahezu fertig. Das Spiel soll aber deutlich weniger Inhalt und spielerische Tiefe bieten als geplant. Skydance hat dazu nichts Offizielles gesagt.",
+      "zusammenfassung": "Um Marvel 1943: Rise of Hydra, das Captain-America- und Black-Panther-Spiel von Amy Hennig, gab es zuletzt Gerüchte über eine bevorstehende Einstellung. Laut Kotaku und Bloomberg-Reporter Jason Schreier hat die Führung von Skydance den Mitarbeitern per Slack mitgeteilt, dass das nicht stimmt. Kotaku berichtet zudem, das Spiel sei „close to done“, also fast fertig. Die Entwicklung soll aber schwierig gewesen sein und das Budget deutlich überschritten haben. Deshalb seien Umfang und Spieldauer stark gekürzt worden. Laut den Quellen von Kotaku ist das Spiel „light on gameplay“, vieles laufe über eine einzige Taste. Ursprünglich soll Marvel 1943 als Netflix-Spiel begonnen haben. Angekündigt wurde es 2024, seitdem wurde es mehrfach verschoben. Einen Termin gibt es nicht. Alle Angaben stammen aus anonymen Quellen, Skydance hat sie nicht bestätigt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/marvel-1943-rise-of-hydra-is-reportedly-close-to-done-though-at-the-cost-of-cutting-back-on-content-and-length"
+      },
+      "weitere_links": [],
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Bericht von Kotaku mit anonymen Quellen, Teile von Jason Schreier (Bloomberg) gestützt; über IGN (Bewertung hoch) aufgegriffen; von Skydance nicht bestätigt."
+      },
+      "ursprungsquelle": "Kotaku (via IGN)",
+      "tags": [
+        "Marvel 1943",
+        "Skydance",
+        "Amy Hennig"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.706Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.692Z"
+      },
+      "id": "2026-11-12-nvidia-board-huang-abloesung",
+      "datum": "2026-11-12T00:14:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Berichte: Nvidia-Verwaltungsrat berät über Absetzung von CEO Jensen Huang und sucht bereits Nachfolger",
+      "schlagzeile": "Nvidia vor dem Chefwechsel? Verwaltungsrat berät über Huangs Absetzung",
+      "kurz": "Laut Wall Street Journal bereitet Nvidias Verwaltungsrat die Absetzung von Firmengründer und CEO Jensen Huang vor. Auslöser ist ein Bericht der New York Times über eine zweite außereheliche Beziehung, diesmal zu einer ihm direkt unterstellten Managerin. Bloomberg zufolge sucht eine externe Firma bereits nach Nachfolgern. Bis heute mittag hat Nvidia weiterhin keine Entscheidung bekanntgegeben; die Meldungen beruhen auf anonymen Quellen.",
+      "zusammenfassung": "Die Krise um Nvidia-Chef Jensen Huang spitzt sich zu. Nach Berichten des Wall Street Journal wollte der Verwaltungsrat am Mittwochabend (US-Zeit) über Huangs Zukunft beraten, eine Absetzung stehe im Raum. Auslöser ist ein neuer Bericht der New York Times: Huang soll neben der bereits eingeräumten Affäre auch eine Beziehung zu einer Vizepräsidentin gehabt haben, die direkt an ihn berichtet. Die Zeitung beruft sich auf fünf frühere Beschäftigte, ein angebliches Video eines Vorfalls im März hat sie nach eigenen Angaben nicht selbst gesehen. Weder Nvidia noch die Betroffenen haben den Bericht bestätigt. Laut Bloomberg arbeitet der Verwaltungsrat bereits mit einer externen Firma an der Suche nach einem Nachfolger, auch ein Interims-CEO werde erwogen. Hintergrund ist die seit Sonntag laufende Untersuchung zu Huangs Affäre mit einer Managerin des Nvidia-Kunden Megaspeed, die von US-Behörden als mutmaßliche chinesische Agentin eingestuft worden sein soll; China weist das zurück. Huang führt Nvidia seit der Gründung 1993, einen benannten Nachfolger gibt es laut PCGH nicht. Laut PCGH reicht für eine Abberufung die einfache Mehrheit der Direktoren. Die Aktie verlor nach den Berichten nachbörslich rund acht Prozent und fiel auf ein 52-Wochen-Tief. Am kommenden Dienstag legt Nvidia Quartalszahlen vor, am Mittwoch darauf ist ein vertrauliches Briefing im US-Kongress geplant. Konkrete Auswirkungen auf GeForce-Karten, Preise oder Treiber sind bisher nicht bekannt. Wichtig: Alles beruht auf Medienberichten mit anonymen Quellen von Wall Street Journal, New York Times und Bloomberg; bis heute mittag hat Nvidia keine Entscheidung bekanntgegeben, die Lage kann sich ändern.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/nvidia-krise-verwaltungsrat-beraet-ueber-rauswurf-von-jensen-huang.100297/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Nvidia-Jensen-Huang-Affaere-Abloesung-CEO-Nachfolger-1559660/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Jensen-Huang-nach-weiterer-Affaere-mit-Mitarbeiterin-wohl-vor-dem-Aus-bei-Nvidia-11521625.html"
+        },
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/zweite-affaere-nvidia-erwaegt-offenbar-jensen-huangs-absetzung-2611-215113.html"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/nvidia-board-is-preparing-to-potentially-oust-ceo-jensen-huang"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Unternehmen",
+        "Aktie"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.706Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.780Z"
+      },
+      "id": "2026-11-12-golden-joystick-2026",
+      "datum": "2026-11-11T22:31:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Awards"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Golden Joystick Awards 2026: Resident Evil Requiem ist Spiel des Jahres, Crimson Desert gewinnt am PC",
+      "schlagzeile": "Golden Joysticks: Resident Evil Requiem holt den Spiel-des-Jahres-Titel",
+      "kurz": "Bei den 44. Golden Joystick Awards hat Resident Evil Requiem den Hauptpreis als Ultimate Game of the Year gewonnen. Bestes PC-Spiel wurde Crimson Desert. Der Multiplayer-Hit Meccha Chameleon räumte vier Preise ab, The Witcher 4 ist das meisterwartete Spiel.",
+      "zusammenfassung": "Die Golden Joystick Awards gelten als ältestes Publikumsvoting der Spielebranche und fanden 2026 zum 44. Mal statt. Den Hauptpreis als Ultimate Game of the Year holte Resident Evil Requiem von Capcom. Das Horrorspiel gewann außerdem als bestes Konsolenspiel, für den besten Trailer und für die beste Hauptdarstellerin, Angela Sant'Albano als Grace Ashcroft. Capcom wurde laut TheGameVerse zudem Studio des Jahres. Bestes PC-Spiel wurde Crimson Desert, obwohl es auch auf Konsolen erscheint. Das Versteckspiel Meccha Chameleon gewann vier Preise: bestes Multiplayer-Spiel, bestes selbst veröffentlichtes Indie-Spiel, Streamers' Choice und Developers' Choice. The Witcher 3: Wild Hunt Remastered wurde bestes Remaster, The Witcher 4 meisterwartetes Spiel. Als beste Gaming-Hardware wählten die Fans den Steam Controller. Weitere Preise gingen an Onimusha: Way of the Sword (Audio), Control: Resonant (Grafikdesign), Doom: The Dark Ages – Revelations (Erweiterung) und Subnautica 2 (Early Access). Veranstalter der Awards ist der Verlag von PC Gamer.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/"
+      },
+      "weitere_links": [
+        {
+          "name": "TheGameVerse auf X (Gewinnerliste)",
+          "url": "https://x.com/TheGameVerse/status/2120750515277709426"
+        }
+      ],
+      "tags": [
+        "Golden Joystick Awards",
+        "Resident Evil Requiem",
+        "Crimson Desert",
+        "Awards"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.707Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.876Z"
+      },
+      "id": "2026-11-12-gta6-clip-realistisch",
+      "datum": "2026-11-11T21:49:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6: Rockstar teilt Ingame-Clip, den viele für ein echtes Handyvideo aus Miami halten",
+      "schlagzeile": "Echt oder GTA 6? Neuer Clip von Rockstar narrt das Netz",
+      "kurz": "Ein rund 15 Sekunden langer GTA-6-Clip aus Ego-Perspektive sorgt für Diskussionen, weil viele ihn für ein echtes Video halten. Er bildet ein reales Handyvideo der GTA-Autos aus der Marketing-Aktion in Miami nach. Rockstar teilte den Clip in seiner Instagram-Story, was laut IGN auf echtes Spielmaterial hindeutet.",
+      "zusammenfassung": "Eine Woche vor dem Start von GTA 6 sorgt ein kurzer Clip für Staunen. Ursprünglich tauchte er beim Instagram-Konto „Only in Dade“ auf, das skurrile Szenen aus Miami-Dade sammelt. Zu sehen ist eine Fahrt über den Ocean Drive, vorbei an einer Reihe auffälliger Autos, dazu eine zweite Perspektive vom Gehweg. Der Clip bildet laut IGN, Polygon und Insider Gaming ein echtes Video nach, das im Oktober bei Rockstars Marketing-Aktion mit nachgebauten GTA-Autos in Miami entstand. Viele Zuschauer hielten das Material zunächst für reale Aufnahmen oder für KI. Rockstar teilte den Clip in seiner Instagram-Story und markierte ihn mit „Gefällt mir“, was IGN als starkes Zeichen für echtes Spielmaterial wertet. Ausdrücklich bestätigt hat Rockstar es nach Polygon-Angaben aber nicht. Der Look könnte laut Spekulationen von Fans zeigen, wie Aufnahmen mit der Handykamera im Spiel aussehen. Insider Gaming betont, dass der Clip nichts über einen möglichen Ego-Modus aussagt. GTA 6 erscheint am 19. November für PS5 und Xbox Series X/S und läuft laut Rockstar auf Konsolen mit 30 fps. Das Preloading läuft bereits.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/new-gta-6-surprise-gameplay-seemingly-released-in-yet-another-viral-marketing-stunt"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-new-gameplay-onlyindade-ai-real-fake-rockstar-instagram/"
+        },
+        {
+          "name": "GamePro (News-Übersicht)",
+          "url": "https://www.gamepro.de/news/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Grafik",
+        "Marketing"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.707Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:03.986Z"
+      },
+      "id": "2026-11-12-black-forest-games-unabhaengig",
+      "datum": "2026-11-11T21:37:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Branche"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "Black Forest Games kauft sich von Embracer frei und gründet die Studiogruppe Third Signal",
+      "schlagzeile": "Deutsches Destroy-All-Humans-Studio kauft sich von Embracer frei",
+      "kurz": "Das deutsche Studio Black Forest Games hat sich per Management-Buy-out von THQ Nordic und Embracer gelöst. Es gründet zugleich Third Signal, eine Gruppe unabhängiger Studios. Mit THQ Nordic arbeitet das Team weiter zusammen.",
+      "zusammenfassung": "Black Forest Games ist nach neun Jahren unter dem Dach von THQ Nordic und Embracer wieder eigenständig. Das gelang laut Eurogamer und PC Gamer über einen Management-Buy-out. Das Studio entwickelte unter anderem Giana Sisters: Twisted Dreams und die Remakes der ersten beiden Destroy-All-Humans-Spiele. Gegründet wurde es von früheren Mitarbeitern von Spellbound Entertainment, bekannt für Desperados und Arcania: Gothic 4. Zusammen mit der Unabhängigkeit startet Third Signal, eine Gruppe unabhängiger Studios, die künftig auch anderen Indie-Teams helfen soll. Third-Signal-Chef Andreas Tobler sagt sinngemäß, viele der besten Spiele des letzten Jahrzehnts stammten von Teams mit 50 statt 500 Leuten. Laut Pressemitteilung arbeiten THQ Nordic und Black Forest Games weiter bei der Entwicklung zusammen. Die Rechte an Destroy All Humans hat das Studio offenbar nicht übernommen. Geschäftsführer Adrian Goersch kündigt ein neues Projekt an, Details nennt er nicht. Das Studio war 2024 von Embracers Entlassungen betroffen und verlor damals rund 50 Stellen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/gaming-industry/giana-sisters-developer-black-forest-games-buys-itself-out-of-embracer-some-of-the-best-games-of-the-last-decade-came-from-teams-of-fifty-not-five-hundred/"
+        }
+      ],
+      "tags": [
+        "Black Forest Games",
+        "Embracer",
+        "THQ Nordic",
+        "Third Signal"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.707Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.101Z"
+      },
+      "id": "2026-11-12-nintendo-dmca-github",
+      "datum": "2026-11-11T21:14:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Nintendo"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Nintendo lässt per DMCA 144 GitHub-Repositorys mit Switch-Modchip-Firmware und zwei Emulatoren entfernen",
+      "schlagzeile": "Nintendo räumt GitHub auf: Switch-Emulatoren und Modchip-Firmware weg",
+      "kurz": "Nintendo hat vier DMCA-Beschwerden an GitHub geschickt, die sich gegen die Switch-Emulatoren Yuzu und Citron Neo sowie gegen Modchip-Firmware richten. GitHub hat 144 Repositorys mit der Firmware entfernt. Laut TorrentFreak ist sie an anderer Stelle auf der Plattform aber weiterhin zu finden.",
+      "zusammenfassung": "Nintendo geht erneut gegen Werkzeuge zum Umgehen des Switch-Kopierschutzes vor. Laut IGN gingen vier DMCA-Beschwerden bei GitHub ein, die das Unternehmen öffentlich dokumentiert hat. Im Visier stehen die Emulatoren Yuzu und Citron Neo, vor allem aber Firmware für Modchips wie Picofly. Solche Chips werden auf die Switch-Hauptplatine gelötet und umgehen den Kopierschutz. Von der Firmware hat GitHub 144 Repositorys entfernt und durch einen DMCA-Hinweis ersetzt. Nintendo argumentiert in der Beschwerde vom 6. November, die technischen Schutzmaßnahmen sollten das Spielen von Raubkopien und auf fremden Geräten verhindern. Laut TorrentFreak ist die Firmware an anderen Stellen auf GitHub aber weiterhin verfügbar. Schon 2024 hatte Nintendo rund 8.500 Kopien von Yuzu entfernen lassen. IGN bringt die neue Welle mit Berichten in Verbindung, wonach Emulatoren kurz zuvor das neue Ocarina-of-Time-Remake am PC lauffähig gemacht haben; ein direkter Zusammenhang ist nicht belegt. Ob Nintendo weitere Schritte plant, ist offen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Nintendo",
+        "Switch",
+        "Emulation",
+        "DMCA",
+        "GitHub"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.707Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.209Z"
+      },
+      "id": "2026-11-12-id-veteranen-hidden-horses",
+      "datum": "2026-11-11T21:09:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Branche"
+      ],
+      "kategorie": "Spielebranche",
+      "titel": "Rund 20 frühere id-Software-Entwickler gründen das Studio Hidden Horses und planen einen Arena-Shooter",
+      "schlagzeile": "Nach Xbox-Entlassungen: Ex-id-Entwickler gründen eigenes Shooter-Studio",
+      "kurz": "Rund 20 ehemalige Entwickler von id Software haben das Studio Hidden Horses gegründet, das den Beschäftigten selbst gehört. Ihr erstes Projekt ist der Einzelspieler-Arena-Shooter Danger Pay. Finanziert werden soll er unter anderem über Kickstarter.",
+      "zusammenfassung": "Bei den Xbox-Entlassungen im Juli 2026 verlor id Software laut Berichten 136 Entwickler. Rund 20 von ihnen haben jetzt Hidden Horses gegründet, ein Studio im Besitz der Beschäftigten. Laut PC Gamer bringen die Gründer zusammen über 250 Jahre Erfahrung mit. Das Studio soll demokratisch geführt werden und langfristige Stabilität über schnelles Wachstum und fragwürdige Monetarisierung stellen. Mitgründer Dustin Land sagt, man wolle das Team zusammenhalten und klassische Shooter machen. Das erste Spiel heißt Danger Pay, ein Einzelspieler-Arena-Shooter rund um eine brutale TV-Spielshow. Als Vorbilder nennt das Studio den Film The Running Man von 1987 und das Arcade-Spiel Smash TV. Für die Finanzierung ist eine Kickstarter-Kampagne geplant. Plattformen, Termin und Kickstarter-Start sind noch nicht bekannt.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "id Software",
+        "Hidden Horses",
+        "Danger Pay",
+        "Shooter"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.708Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-12T10:57:04.315Z"
+      },
+      "id": "2026-11-12-tes6-sentinel-pause",
+      "datum": "2026-11-11T20:36:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Elder Scrolls"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Bethesda: Zum Skyrim-Jubiläum keine Neuigkeiten zu The Elder Scrolls 6: Sentinel – und auch „für einige Zeit“ nicht",
+      "schlagzeile": "15 Jahre Skyrim, aber kein Elder Scrolls 6: Bethesda bremst die Fans",
+      "kurz": "Zum 15. Geburtstag von Skyrim hatten Fans auf Neuigkeiten zu The Elder Scrolls 6: Sentinel gehofft. Bethesda Game Studios stellte auf Reddit klar, dass es keine große Ankündigung gibt. Neues zu Sentinel werde es „für einige Zeit“ nicht geben.",
+      "zusammenfassung": "Am 11. November wurde The Elder Scrolls V: Skyrim 15 Jahre alt. Im Subreddit zu The Elder Scrolls 6 spekulierten Fans auf eine Überraschung zum Jubiläum, angeheizt durch einen Podcast-Teaser zu einer „großen Ankündigung“. Der Podcaster stellte später klar, dass sie nichts mit Bethesda zu tun hat. Dann meldete sich auch das offizielle Konto von Bethesda Game Studios auf Reddit. Man werde keine große Ankündigung machen und „für einige Zeit“ nichts Neues zu Sentinel zeigen, schrieb das Studio. Den Titel Sentinel hatte Bethesda erst Anfang November offiziell gemacht. Angekündigt wurde The Elder Scrolls 6 bereits 2018. Zum Jubiläum gibt es Skyrim auf allen Plattformen günstiger. The Elder Scrolls Online macht das Greymoor-Kapitel kostenlos zum Teil des Grundspiels, eine Skyrim-Aktion läuft dort bis 2. Dezember. Wann es neue Infos zu Sentinel gibt, ist offen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/dont-expect-elder-scrolls-6-sentinel-for-some-time-bethesda"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/bethesda-shoots-down-elder-scrolls-6-sentinel-announcement-rumor-on-skyrims-15th-anniversary/"
+        }
+      ],
+      "tags": [
+        "The Elder Scrolls 6",
+        "Sentinel",
+        "Skyrim",
+        "Bethesda"
+      ],
+      "archiviert_am": "2026-11-19T07:36:34.708Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
