@@ -2,10 +2,542 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-20T07:22:05.446Z",
+    "stand": "2026-11-20T18:28:49.137Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.617Z"
+      },
+      "id": "2026-11-20-fastunlock-windows-sperrbildschirm",
+      "datum": "2026-11-20T07:44:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Ungepatchte Windows-11-Lücke FastUnlock: Über die Sprachausgabe Narrator lässt sich am Sperrbildschirm Code ausführen, wenn ein Angreifer physischen Zugriff hat",
+      "schlagzeile": "FastUnlock: Neue Windows-Lücke umgeht Sperrbildschirm per Sprachausgabe",
+      "kurz": "Ein Sicherheitsforscher hat eine ungepatchte Lücke in Windows 11 veröffentlicht, mit der man an einem gesperrten PC Programme starten kann. Nötig sind physischer Zugriff und ein mit einem Microsoft-Konto verknüpftes Benutzerkonto. Einen Patch gibt es noch nicht.",
+      "zusammenfassung": "Veröffentlicht hat FastUnlock der als MSNightmare oder Nightmare Eclipse bekannte frühere Microsoft-Mitarbeiter, der Lücken regelmäßig ohne Vorwarnung publik macht. Der Angriff startet am Sperrbildschirm über „PIN vergessen“, dann wird mit Windows-Taste und U die Sprachausgabe Narrator geöffnet. Deren neu gestaltete Oberfläche läuft laut dem Forscher fälschlich auch im Kontext des Sperrbildschirms und führt über versteckte Fenster bis in die Einstellungen. Von dort lassen sich etwa über einen USB-Stick Programme starten, und zwar unter dem eingeschränkten Konto WsiAccount, nicht als Administrator. Die Sicherheitsfirma ThreatLocker hat die Methode nachgestellt und bestätigt. Getestet wurde sie laut Forscher auf Windows 11 26H2 mit den November-Updates. Der Forscher spricht von einer Umgehung von BitLocker; The Hacker News und Cybersecuritynews stellen klar, dass die Verschlüsselung nicht geknackt wird. Der Angriff funktioniert, weil das per TPM automatisch entsperrte Laufwerk am Sperrbildschirm schon lesbar ist. Wer nur lokale Konten nutzt, ist laut Forscher nicht betroffen. Als Schutz bis zum Patch empfehlen Fachleute eine BitLocker-PIN beim Start und das Herunterfahren oder den Ruhezustand statt Sperren, wenn Geräte unbeaufsichtigt sind. Hinweise auf reale Angriffe gibt es bisher nicht, eine Stellungnahme oder CVE von Microsoft ebenfalls nicht.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/fastunlock-zero-day-bypasses-bitlocker-on-fully-patched-windows-11-researcher-claims/"
+      },
+      "weitere_links": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/new-windows-11-lock-screen-zero-day-unlocks-bitlocker-protected-pcs-with-just-a-few-keystrokes-win-u-keyboard-trick-lets-physical-attackers-run-usb-payloads-or-create-new-admin-accounts"
+        },
+        {
+          "name": "ThreatLocker",
+          "url": "https://www.threatlocker.com/blog/proof-of-concept-for-fastunlock-windows-lock-screen-bypass-from-nightmare-eclipse"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "Sicherheitslücke",
+        "Zero-Day",
+        "BitLocker",
+        "Narrator",
+        "FastUnlock"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A closed-lid-half-open unbranded laptop on a café table showing a blurred, unreadable lock screen with a soft landscape wallpaper, a small unbranded USB stick lying next to the keyboard, a pair of over-ear headphones and a cup of coffee, warm late-morning window light, muted terracotta accent from a napkin. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-fastunlock-windows-sperrbildschirm.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.256Z"
+      },
+      "id": "2026-11-20-gta6-remote-play-dlss5-mod",
+      "datum": "2026-11-20T07:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "GPU"
+      ],
+      "kategorie": "Spiele & Technik",
+      "titel": "Modder streamt GTA 6 per PS5 Remote Play auf den PC und bringt das Bild dort mit einer inoffiziellen DLSS-5-Anbindung und Frame Generation auf 60 fps",
+      "schlagzeile": "GTA 6 mit 60 fps am PC: Modder jagt den PS5-Stream durch DLSS 5",
+      "kurz": "Ein Modder lässt GTA 6 auf der PS5 laufen, streamt das Bild per Remote Play auf einen PC und verdoppelt dort mit einer RTX 5080 die Bildrate auf rund 60 fps. Dazu nutzt er eine experimentelle, nicht offizielle DLSS-5-Anbindung. Die Steuerung bleibt aber bei 30 fps und wird sogar träger.",
+      "zusammenfassung": "Laut ComputerBase hat der Modder Phosphen ein Einrichtungsskript auf GitHub veröffentlicht, das die quelloffene Software Veyra mit passenden Einstellungen installiert. Die PS5 überträgt das Spiel per Remote Play mit 1080p und 60 Hz an den Windows-PC; weil die Konsole nur 30 Bilder pro Sekunde berechnet, ist jedes zweite Bild doppelt. Veyra entfernt diese Doppelbilder und erzeugt mit Frame Generation neue Zwischenbilder, eine Capture-Karte ist nicht nötig. Für die optische Aufwertung nutzt Veyra nach Projektangaben eine von Nvidia signierte Neural-Rendering-Laufzeit, die Anbindung selbst stammt aber aus der Community und ist nicht zertifiziert. Nach Messungen des Modders an rund 80 Sekunden Material stieg die Bildrate im Schnitt von 29,5 auf 59 fps, auf der RTX 5080 dauert die Verarbeitung etwa 12 Millisekunden pro Bild. Unabhängig überprüft sind diese Werte nicht. Der Haken: Eingaben laufen weiter über die Konsole mit 30 fps, und Stream plus Nachbearbeitung erhöhen die Eingabeverzögerung. Außerdem ist der Stream auf 1080p begrenzt und komprimiert, verlorene Details kann DLSS nicht zuverlässig zurückholen, und ohne Tiefen- und Bewegungsdaten der Engine drohen Artefakte bei schnellen Bewegungen. Es handelt sich also um ein technisches Experiment, nicht um eine PC-Version von GTA 6.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/gta-6-am-pc-modder-verpassen-dem-ps5-spiel-nachtraeglich-dlss-5-und-60-fps.100416/"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/modders-already-run-gta-vi-with-dlss-5-and-frame-generation-on-pcs-through-ps5-remote-play"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "DLSS 5",
+        "Frame Generation",
+        "RTX 5080",
+        "PS5",
+        "Remote Play",
+        "Mod"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Documentary-style photo-illustration: a gaming PC desk at golden hour with an unbranded graphics card with two visible axial fans visible through a glass side panel, a blank-screened gaming console standing next to the monitor, the monitor showing an out-of-focus generic sunny coastal city street with palm trees and a sports car in motion, a game controller in the foreground, warm window light versus cool monitor light, natural rich colors. No readable text, no logos, no game UI, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-gta6-remote-play-dlss5-mod.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:41.779Z"
+      },
+      "id": "2026-11-20-legion-go-beam-leak",
+      "datum": "2026-11-20T06:00:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Handheld",
+        "Lenovo"
+      ],
+      "kategorie": "Handhelds",
+      "titel": "Gerücht: Lenovo soll mit dem Legion Go Beam einen günstigeren Handheld mit festen Controllern, breiten Displayrändern und ohne Touchpad planen",
+      "schlagzeile": "Leak: Lenovo Legion Go Beam soll günstiger Handheld ohne Touchpad werden",
+      "kurz": "Geleakte Produktbilder zeigen einen bisher unangekündigten Handheld namens Legion Go Beam. Er wirkt wie eine abgespeckte Version des Legion Go S mit festen Controllern und ohne Touchpad. Lenovo hat das Gerät nicht bestätigt, technische Daten gibt es keine.",
+      "zusammenfassung": "Die drei Bilder hat Windows Latest veröffentlicht, ComputerBase, TechPowerUp und VideoCardz haben sie aufgegriffen. Zu sehen ist ein weißer Handheld mit grünen Akzenten, der optisch an das Legion Go S erinnert, aber stärker abgerundet ist und anders angeordnete Analogsticks hat. Erkennbar sind zwei nach vorne gerichtete Lautsprecher, vier Schultertasten und zwei Zusatztasten auf der Rückseite. Die Ränder über und unter dem Display fallen deutlich breiter aus als beim Legion Go S; Notebookcheck vermutet deshalb ein Bild im Format 16:9 statt 16:10. Oben sind nur ein USB-C-Anschluss, eine Klinkenbuchse und ein microSD-Leser zu sehen, ob ein zweiter USB-C-Port fehlt oder nur woanders sitzt, ist offen. Prozessor, Speicher, Display, Akku und Betriebssystem sind unbekannt. The Verge spekuliert wegen der kleinen Lüftungsöffnungen und des Namens über ein Gerät, das vor allem für Cloud-Gaming oder Streaming gedacht sein könnte; Belege für eine Partnerschaft mit Microsoft oder Nvidia gibt es nicht. Die sichtbaren Einsparungen sprechen für eine Einordnung unterhalb des Legion Go S, Preis und Termin fehlen. Eine Vorstellung zur CES im Januar gilt als möglich, Lenovo hält dort am 6. Januar seine Tech World ab. Alles stammt aus einer einzigen Bildquelle und ist unbestätigt.",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Echte Produktbilder aus einer einzigen Quelle (Windows Latest), von mehreren Fachmedien aufgegriffen; keine Bestätigung durch Lenovo, keine technischen Daten, Einordnung als Streaming-Gerät ist Spekulation."
+      },
+      "ursprungsquelle": "Windows Latest (exklusive Produktbilder)",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/lenovo-legion-go-beam-leak-zeigt-handheld-ohne-touchpad.100410/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest",
+          "url": "https://www.windowslatest.com/2026/11/18/exclusive-lenovo-legion-go-beam-is-a-simpler-handheld-that-could-undercut-the-legion-go-2-which-now-costs-up-to-1999/"
+        },
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/355009/lenovo-legion-go-beam-handheld-leaks-sans-iconic-trackpad"
+        },
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/lenovo-legion-go-beam-handheld-leaks-ahead-of-ces-2027"
+        }
+      ],
+      "tags": [
+        "Lenovo",
+        "Legion Go Beam",
+        "Handheld",
+        "CES 2027",
+        "Leak"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded white handheld gaming PC with integrated controllers and a muted olive-green accent on the buttons lying on a warm wooden desk, screen dark and blank, slightly wide bezels, next to a coiled USB-C cable and a cup of coffee, late-morning window light, natural rich colors. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-legion-go-beam-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.144Z"
+      },
+      "id": "2026-11-20-gta6-sensor-tower-2-36-mrd",
+      "datum": "2026-11-20T01:29:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Marktforscher Sensor Tower schätzt GTA 6 nach dem ersten Tag inklusive Vorbestellungen auf rund 24,6 Millionen verkaufte Exemplare und 2,36 Milliarden Dollar Umsatz",
+      "schlagzeile": "GTA 6: Schätzung sieht 24,6 Millionen verkaufte Spiele und 2,36 Mrd. Dollar",
+      "kurz": "Laut Sensor Tower hat GTA 6 bis zum Abend des Starttags rund 24,6 Millionen Exemplare verkauft und etwa 2,36 Milliarden Dollar eingespielt. Die Zahl enthält Vorbestellungen und ist eine Schätzung, Take-Two hat sie nicht bestätigt. Zum Vergleich: GTA 5 kam am ersten Tag 2013 auf rund 800 Millionen Dollar.",
+      "zusammenfassung": "Die Schätzung nannte Sensor Tower gegenüber Deadline, auch die BBC berichtet darüber. Am Mittwoch vor dem Start lag der Wert noch bei rund 17,1 Millionen Exemplaren und 1,65 Milliarden Dollar, am Donnerstagmorgen bei 19,1 Millionen und 1,84 Milliarden. Etwa drei Viertel der Verkäufe sollen auf die PS5 entfallen, der Rest auf Xbox; am PC ist GTA 6 noch nicht erschienen. Sensor Tower spricht vom erfolgreichsten Start eines Unterhaltungsprodukts überhaupt. Die Firma stützt sich nach eigenen Angaben unter anderem auf Daten aus E-Mail-Kaufbelegen und öffentliche Profile auf den Spieleplattformen. Wichtig ist der Haken: Die 2,36 Milliarden Dollar sind nicht in 24 Stunden nach dem Start entstanden, sondern schließen alle Vorbestellungen ein. Take-Two veröffentlicht eigene Verkaufszahlen in der Regel mit den Quartalszahlen, eine offizielle Bestätigung steht daher aus. Laut Sensor Tower soll GTA 6 die Spielzeit in anderen Einzelspieler-Titeln um rund 10 Prozent senken. Auch frühere Schätzungen des Anbieters haben sich in den vergangenen Tagen mehrfach verändert.",
+      "quelle": {
+        "name": "Deadline",
+        "url": "https://deadline.com/2026/11/gta-6-sales-launch-day-surge-videogame-1237229514/"
+      },
+      "weitere_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/c9zr5nyv5dj2o"
+        },
+        {
+          "name": "PC Games",
+          "url": "https://www.pcgames.de/GTA-6-Spiel-55239/News/1-5-Milliarden-Dollar-vor-Release-1560198/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Sensor Tower",
+        "Verkaufszahlen",
+        "Take-Two",
+        "Rockstar"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a dynamic sunset scene on a busy palm-lined boulevard of an original subtropical coastal city, crowds of original adult gamers streaming out of an unbranded electronics store carrying plain unmarked game boxes, a sports car sweeping past in motion blur, low camera angle with strong diagonals, warm golden-hour sunlight against cool teal shadows, energy and celebration, natural rich colors. No text, no logos, no readable signs, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-gta6-sensor-tower-2-36-mrd.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.849Z"
+      },
+      "id": "2026-11-20-vmware-vcenter-zero-day",
+      "datum": "2026-11-20T01:26:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "Server"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Broadcom schließt kritische Lücke in VMware vCenter Server, die mutmaßlich chinesische Staatshacker laut Mandiant seit September für Angriffe ausnutzen",
+      "schlagzeile": "VMware vCenter: Notfall-Patch für Lücke, die Hacker seit September nutzen",
+      "kurz": "Broadcom hat eine kritische Lücke in VMware vCenter Server geschlossen, über die Angreifer ohne Anmeldung Administratorrechte erlangen können. Laut Mandiant nutzt eine mutmaßlich chinesische Hackergruppe sie seit Anfang September aus. Admins sollen sofort patchen.",
+      "zusammenfassung": "Die Lücke trägt die Kennung CVE-2026-123890 und steckt im VMware Directory Service von vCenter Server, mit dem Unternehmen ihre virtuellen Maschinen verwalten. Laut BleepingComputer kann ein Angreifer mit Netzwerkzugang die Anmeldung umgehen und erhält eine Sitzung als Administrator. Broadcom behebt sie im Sicherheitshinweis VMSA-2026-0009 vom 19. November, zusammen mit vier weiteren Lücken in SDDC Manager und den VMware Tools für Windows. Broadcom stuft das Update als Notfall ein, offizielle Umgehungslösungen gibt es nicht, Netzwerk- und Firewall-Beschränkungen können das Risiko nur senken. Mandiant und Googles Threat Intelligence Group schreiben die Angriffe der Gruppe Armory Castle zu, früher als UNC5221 bekannt. Die Angreifer drangen demnach zuerst über eine weitere Lücke in BeyondTrust Remote Support ein und bewegten sich dann zu internen Linux-Systemen und zur VMware-Infrastruktur. Mit eigenen Werkzeugen legten sie Administratorkonten an, stahlen die Verzeichnisdatenbank und konnten mit gestohlenen Signaturschlüsseln Anmeldetoken fälschen und so auch die Mehr-Faktor-Anmeldung umgehen. Am Ende gelangten sie bis zu ESXi-Hosts und Daten aus virtuellen Maschinen. Broadcom selbst hat die Ausnutzung nicht bestätigt, Mandiant hat sie aber dokumentiert. Für Privatnutzer ist das kein Thema, für Firmen-Admins hat das Update höchste Priorität.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "VMware",
+        "vCenter",
+        "Broadcom",
+        "Zero-Day",
+        "Mandiant",
+        "Sicherheitslücke"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A real server room aisle with rows of unbranded rack servers, one rack door open and an administrator's laptop resting on a pull-out shelf with a blurred unreadable screen, neatly bundled network cables in muted dusty-teal, warm daylight spilling in from a corridor window mixing with cool room light, natural rich colors, slight dust. No people's faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-vmware-vcenter-zero-day.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.497Z"
+      },
+      "id": "2026-11-20-crusader-kings-3-gratis-wochenende",
+      "datum": "2026-11-19T22:19:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Strategie",
+        "Steam"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Crusader Kings 3 ist bis Montag, 23. November, auf Steam kostenlos spielbar; parallel kostet das Grundspiel bis 30. November mit 70 Prozent Rabatt 14,99 Euro",
+      "schlagzeile": "Crusader Kings 3 übers Wochenende gratis – danach 70 Prozent günstiger",
+      "kurz": "Paradox' Mittelalter-Strategiespiel Crusader Kings 3 kann man auf Steam bis Montag kostenlos ausprobieren. Wer danach kaufen will, zahlt bis 30. November 14,99 statt 49,99 Euro. Das Gratis-Wochenende folgt kurz auf die neue Erweiterung Silk & Silver.",
+      "zusammenfassung": "Laut Polygon läuft das Gratis-Wochenende bis Montag, 23. November, 10 Uhr Pazifikzeit, also 19 Uhr in Österreich und Deutschland. Auf der Steam-Seite steht das Spiel derzeit mit der Option zum kostenlosen Spielen und einem Wochenend-Angebot. Der Rabatt von 70 Prozent gilt laut Steam bis 30. November, im österreichischen Store sinkt der Preis von 49,99 auf 14,99 Euro. Es handelt sich um ein zeitlich begrenztes Gratis-Wochenende, nicht um ein dauerhaftes Geschenk. Crusader Kings 3 erschien im September 2020 und lässt Spieler eine mittelalterliche Adelsfamilie über Generationen führen. Im Mittelpunkt stehen Diplomatie, Heiratspolitik, Erbfolge und Intrigen, Krieg ist nur ein Teil davon. Stirbt der Herrscher, spielt man mit dem Erben weiter. Kurz vor dem Gratis-Wochenende sind die kostenpflichtige Erweiterung Silk & Silver und das kostenlose Update 1.21 „Florin“ am 17. November erschienen.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/free-games-on-steam-november-2026-crusader-kings-3/"
+      },
+      "weitere_links": [
+        {
+          "name": "Steam (Crusader Kings III)",
+          "url": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/"
+        }
+      ],
+      "tags": [
+        "Crusader Kings 3",
+        "Paradox",
+        "Steam",
+        "Gratis-Wochenende",
+        "Angebot",
+        "Mittelalter"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original medieval illustration: inside a torch-and-candle-lit stone great hall of a 13th-century castle, an original adult noble lord in period-plausible clothing leaning over a large wooden table with a painted parchment map and carved wooden army markers, a scheming advisor whispering at his shoulder, an armored knight in period-plausible mail and surcoat entering through a sunlit archway with urgent news, dramatic low camera angle with strong diagonals, warm golden window light against cool stone shadows, natural rich colors, dust in the light beams. Original designs, no heraldry from real games, no text, no logos, no UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-crusader-kings-3-gratis-wochenende.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:41.626Z"
+      },
+      "id": "2026-11-20-steam-machine-ohne-reservierung",
+      "datum": "2026-11-19T22:10:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Valve",
+        "Konsolen"
+      ],
+      "kategorie": "Konsolen & PCs",
+      "titel": "Valve beendet die Reservierungen für die Steam Machine: Das 512-GB-Modell ist frei bestellbar, die 2-TB-Warteliste wird geschlossen, Preise könnten steigen",
+      "schlagzeile": "Steam Machine jetzt ohne Reservierung – Valve warnt vor höheren Preisen",
+      "kurz": "Valve verkauft die Steam Machine mit 512 GB ab sofort ohne Reservierung, solange der Vorrat reicht. Die Warteliste für das 2-TB-Modell nimmt keine neuen Interessenten mehr auf. Wegen stark steigender Kosten für Speicher und SSDs weiß Valve nach eigener Aussage noch nicht, wie viele Geräte es bauen kann und zu welchem Preis.",
+      "zusammenfassung": "Valve hatte die Steam Machine wegen der Speicherkrise bisher nur über ein Reservierungssystem mit zufälliger Auswahl verkauft. Laut PC Gamer sind inzwischen alle Reservierungen für das 512-GB-Modell bedient, es gibt sogar Restbestand, den man direkt in den Warenkorb legen kann. Ist diese Produktionsrunde ausverkauft, wird das Gerät als nicht vorrätig markiert, bis neue Einheiten fertig sind. Beim 2-TB-Modell übersteigt die Warteliste die aktuelle Produktion. Wer schon auf der Liste steht, behält seinen Platz, neue Anmeldungen sind aber nicht mehr möglich, und Valve betont, dass niemand auf der Warteliste ein Gerät garantiert bekommt. Wer stattdessen zum 512-GB-Modell greift, verliert seinen Platz auf der 2-TB-Liste. Valve schreibt, dass die Kosten für Arbeitsspeicher und Speicher weiterhin in nie dagewesenem Ausmaß steigen. Deshalb wisse man noch nicht, wie viele Steam Machines man bauen könne und zu welchem Preis sie angeboten werden. Selbst wenn mehr Geräte gebaut werden, dann laut Valve in kleineren Stückzahlen als geplant. Neue Informationen zur Verfügbarkeit des 2-TB-Modells will Valve im Januar nennen. Eine konkrete Preiserhöhung hat Valve bisher nicht angekündigt.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/hardware/steam-machines/valve-may-raise-steam-machine-prices-yet-again-memory-and-storage-costs-continue-to-increase-at-unprecedented-levels/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/355040/valve-ditches-steam-machine-reservations-but-warns-of-price-hikes-and-shortages"
+        },
+        {
+          "name": "GamingOnLinux",
+          "url": "https://www.gamingonlinux.com/2026/11/while-stock-lasts-you-can-now-just-buy-a-512gb-steam-machine/"
+        }
+      ],
+      "tags": [
+        "Valve",
+        "Steam Machine",
+        "Speicherkrise",
+        "SteamOS"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact unbranded small-form-factor gaming console box (simple dark cube shape with a subtle front light strip turned off) standing on a warm wooden TV sideboard next to a plain cardboard shipping box with blank paper label and a game controller without logos, a small stack of blank memory module packaging beside it, late-morning window light, muted terracotta accent from a cushion in the background. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-steam-machine-ohne-reservierung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.016Z"
+      },
+      "id": "2026-11-20-gta6-cyberleek-xbox-build",
+      "datum": "2026-11-19T22:08:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Hackergruppe CyberLeek behauptet, eine nahezu fertige Xbox-Version von GTA 6 per Torrent veröffentlicht zu haben – ohne die Startdatei, die erst später folgen soll",
+      "schlagzeile": "Leak: Hacker wollen fast fertige GTA-6-Xbox-Version ins Netz gestellt haben",
+      "kurz": "Die Gruppe CyberLeek, die schon vor dem Start GTA-6-Spielszenen geleakt hatte, behauptet, eine Entwicklerversion des Spiels vom November 2026 veröffentlicht zu haben. Laut Medien fehlt die Startdatei, das Spiel ist damit vorerst nicht lauffähig. Ob die Dateien echt sind, ist unbestätigt.",
+      "zusammenfassung": "Laut Eurogamer, VGC und PC Gamer bietet CyberLeek auf der eigenen Seite einen Download von rund 209 GB an, angeblich die Xbox-Version aus dem November 2026 und damit sehr nah an der Verkaufsfassung. Eurogamer konnte die Angebotsseite sehen, die Existenz echter Spieldateien aber nicht überprüfen. Laut der Gruppe fehlt bewusst eine Datei: die Hauptprogrammdatei, die erst nach einem Countdown erscheinen soll. Früher käme sie, wenn ein Krypto-Token der Gruppe einen bestimmten Wert erreicht; viele Leaks der Gruppe hingen bisher an solchen Krypto-Aktionen. CyberLeek behauptet zudem, die Community werde das Spiel binnen einer Woche am PC emulieren, und droht notfalls mit einer PS5-Version. Ob das technisch klappt, ist völlig offen. Rockstar hatte frühere Leaks der Gruppe als herzzerreißend bezeichnet, Take-Two versuchte per Gerichtsbeschluss bei Discord, an Hinweise zur Identität zu kommen. Eine Stellungnahme von Rockstar oder Take-Two zum neuen Leak liegt bisher nicht vor. Wichtig: Raubkopien herunterzuladen ist illegal, und angebliche Leak-Downloads sind ein beliebter Weg, Schadsoftware zu verbreiten. GTA 6 ist offiziell nur für PS5 und Xbox Series erschienen, eine PC-Fassung hat Rockstar noch nicht angekündigt.",
+      "zuverlaessigkeit": {
+        "stufe": "niedrig bis mittel",
+        "begruendung": "Behauptung der Hackergruppe selbst; Medien bestätigen nur Angebotsseite und Größe, nicht die Echtheit der Dateien. Gruppe hat zuvor echte Spielszenen geleakt, verfolgt aber Krypto-Interessen."
+      },
+      "ursprungsquelle": "CyberLeek (eigene Website/Statement)",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build"
+      },
+      "weitere_links": [
+        {
+          "name": "Video Games Chronicle (VGC)",
+          "url": "https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/"
+        },
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/gta-6-xbox-build-reportedly-leaked-by-cyberleek-but-its-not-playable-yet/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "CyberLeek",
+        "Leak",
+        "Rockstar",
+        "Take-Two",
+        "Xbox"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a tense night scene in a cramped hacker hideout in a humid subtropical coastal city, an original adult character in a hoodie seen from behind and slightly from the side, hunched over several blank glowing monitors and a tangle of external drives and cables, palm trees and warm orange streetlights visible through rain-streaked window blinds, dramatic low camera angle, warm tungsten desk lamp versus cool blue monitor spill for readable warm/cool contrast, dust in the air, no faces in detail, screens blank and unreadable. No text, no logos, no game UI, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-gta6-cyberleek-xbox-build.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:41.900Z"
+      },
+      "id": "2026-11-20-intel-it-entlassungen",
+      "datum": "2026-11-19T21:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Intel setzt den Stellenabbau fort: Laut Business Insider trifft eine neue Kündigungsrunde die weltweite IT-Abteilung, die Zahl der Betroffenen ist unbekannt",
+      "schlagzeile": "Intel streicht weiter: Jetzt soll es die weltweite IT-Abteilung treffen",
+      "kurz": "Intel hat laut Business Insider eine weitere Entlassungsrunde begonnen, diesmal in der weltweiten IT-Abteilung. Wie viele Stellen wegfallen, sagt Intel nicht. Seit Ende 2024 ist die Belegschaft bereits um rund 27.800 Menschen geschrumpft.",
+      "zusammenfassung": "Die Kürzungen in Intels IT-Organisation sollen laut Business Insider am 16. November begonnen haben, Tom's Hardware und Wccftech berichten darüber. Die Abteilung umfasst rund 2.607 Beschäftigte an 55 Standorten in 53 Ländern. Angebliche Mitarbeiter sprechen von einem zweistelligen Prozentsatz, also mindestens rund 260 Stellen; diese Angaben sind nicht unabhängig bestätigt. Intel nennt weder Zahlen noch betroffene Teams und erklärt nur, man überprüfe die Belegschaft regelmäßig im Hinblick auf strategische Prioritäten. Es ist nicht die erste Runde in diesem Jahr: Im Juli traf es die Rechenzentrums- und KI-Sparte, zwischen Juli und Oktober meldete Intel in Kalifornien neun Stellenabbau-Mitteilungen mit insgesamt 222 Beschäftigten. Ende September hatte Intel noch 81.100 Mitarbeiter, Ende 2024 waren es 108.900. Konzernchef Lip-Bu Tan treibt seit seinem Amtsantritt einen harten Sparkurs voran. Für Kunden ändert sich kurzfristig nichts, der Abbau zeigt aber, wie sehr Intel weiter Kosten senken will.",
+      "quelle": {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-ceo-lip-bu-tans-campaign-against-a-bloated-culture-reaches-the-global-it-division-as-purported-employees-claim-double-digit-percentage-job-cuts/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Entlassungen",
+        "Lip-Bu Tan",
+        "IT"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty office desk in a corporate IT room with a closed laptop without logos, a neatly coiled network cable, a cardboard box with a desk plant and a mug packed inside, rows of server racks softly out of focus behind a glass wall, warm late-morning window light, muted dusty-teal accent from the mug. No people, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-intel-it-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.735Z"
+      },
+      "id": "2026-11-20-xbox-aco-shader-compiler",
+      "datum": "2026-11-19T21:16:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Xbox",
+        "GPU"
+      ],
+      "kategorie": "Entwicklung & Grafik-APIs",
+      "titel": "Microsoft bietet Entwicklern im Xbox-GDK vom Oktober 2026 experimentell den AMD-Shader-Compiler ACO aus dem Linux-Projekt Mesa an, erste Tests zeigen 2 bis 16 Prozent Vorteil",
+      "schlagzeile": "Xbox testet Linux-Shader-Compiler: Bis zu 16 Prozent mehr Leistung möglich",
+      "kurz": "Microsoft stellt Spieleentwicklern für Xbox Series X und S einen experimentellen Shader-Compiler auf Basis von ACO aus dem Linux-Grafikprojekt Mesa bereit. In ersten Tests lagen die Verbesserungen bei 2 bis 16 Prozent. Bestehende Spiele werden dadurch nicht automatisch schneller.",
+      "zusammenfassung": "Die Neuerung steht in Microsofts Dokumentation zum Game Development Kit vom Oktober 2026, ComputerBase, Wccftech und TechSpot haben sie aufgegriffen. ACO steht für AMD Compiler und wurde unter Mitwirkung von Valve für Linux entwickelt; er steckt standardmäßig im Vulkan-Treiber RADV für AMD-Grafik und damit auch im Steam Deck. Shader sind kleine Programme, die Licht, Oberflächen und Effekte berechnen und vor der Ausführung in Maschinenbefehle für die GPU übersetzt werden müssen. ACO ist auf AMD-Architekturen zugeschnitten und passt zur RDNA-2-Grafik der Xbox Series X und S. Den Linux-Treiber selbst braucht Microsoft dafür nicht, der Compiler wird in die DirectX-12-basierte Xbox-Entwicklungsumgebung eingebunden. Laut Microsoft können sowohl die Kompilierzeit als auch die Laufzeitleistung profitieren, je nach Engine, Inhalt und Shader-Engpässen. Konkrete Spiele, Messmethoden oder FPS-Vergleiche nennt Microsoft nicht. Ein schnellerer Compiler bedeutet daher nicht automatisch 16 Prozent mehr Bilder pro Sekunde. Entwickler müssen ACO selbst ausprobieren und angepasste Spielversionen ausliefern, damit Spieler etwas davon haben. Ob und wann ACO zum Standard in den Xbox-Werkzeugen wird, ist offen.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/xbox-series-s-x-neuer-compiler-soll-bis-zu-16-prozent-mehr-leistung-bringen.100406/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft Learn (GDK, What's new)",
+          "url": "https://learn.microsoft.com/en-us/gaming/gdk/docs/gdk-dev/whatsnew/whats-new?view=gdk-2610"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/microsoft-tests-new-aco-shader-compiler-on-xbox-series-xs-reports-up-to-16-performance-improvements/"
+        },
+        {
+          "name": "TechSpot",
+          "url": "https://www.techspot.com/news/114617-microsoft-experimenting-open-source-amd-code-give-xbox.html"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "ACO",
+        "Mesa",
+        "Shader-Compiler",
+        "GDK",
+        "RDNA 2",
+        "Valve",
+        "DirectX 12"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A game developer's desk in warm late-morning light: a dark unbranded game console standing upright next to a monitor showing blurred unreadable lines of code and a soft out-of-focus colorful 3D test scene, a mechanical keyboard, a notepad with blank pages and a pen, a small unbranded graphics card with two visible axial fans lying on a wooden shelf in the background, natural rich colors, muted olive accent from a plant pot. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-xbox-aco-shader-compiler.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.953Z"
+      },
+      "id": "2026-11-20-windows11-kb5132057-suche",
+      "datum": "2026-11-19T19:50:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Optionales Windows-11-Update KB5132057 bringt eine neu geschriebene, native Windows-Suche, einen modernen Ausführen-Dialog und eine Abschaltmöglichkeit für das Einrastfunktion-Fenster",
+      "schlagzeile": "Windows-11-Update: Neue Suche ohne Edge-Unterbau, moderner Ausführen-Dialog",
+      "kurz": "Microsoft verteilt das optionale Update KB5132057 für Windows 11 25H2 und 26H2. Es bringt schrittweise eine komplett neu gebaute Windows-Suche, einen modernen Ausführen-Dialog und weitere Neuerungen. Wer wartet, bekommt alles mit dem Patchday am 8. Dezember.",
+      "zusammenfassung": "Laut Windows Latest basierte die Suche in der Taskleiste bisher auf WebView2, also im Kern auf Edge, und ist nun nativ in WinUI neu geschrieben. Im Test von Windows Latest brauchte sie 15 bis 20 Prozent weniger Arbeitsspeicher und reagierte schneller. Die neue Suche zeigt Ergebnisse in einer einzigen Liste und kann direkt Aktionen ausführen, etwa Bluetooth oder den Dunkelmodus umschalten; sie startet laut Microsoft zunächst auf Englisch. Der überarbeitete Ausführen-Dialog muss unter Einstellungen, System, Erweitert eingeschaltet werden, der Durchsuchen-Knopf entfällt. Für Spieler praktisch: Das Fenster zur Einrastfunktion nach fünfmaligem Drücken der Umschalttaste lässt sich jetzt direkt abschalten. Windows Hello kann das Display bei Dunkelheit kurz aufhellen, und die Suche unter „Dieser PC“ im Explorer nutzt nun den Suchindex. Im Xbox-Modus gibt es die Schnelleinstellungen jetzt auch in der Gaming-Taskansicht. Dazu kommen Fehlerkorrekturen, etwa für Miracast mit zu niedriger Auflösung und die falsche Warnung, dass noch jemand den PC benutzt. Viele Funktionen werden schrittweise verteilt und sind nach der Installation nicht sofort sichtbar. Das Paket ist laut Windows Latest fast 5 GB groß, und als bekanntes Problem nennt Microsoft offen bleibende SQL-Verbindungen.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/kb5132057-and-kb5132265-updates-for-windows-11-are-now-generally-available/"
+      },
+      "weitere_links": [
+        {
+          "name": "Windows Latest",
+          "url": "https://www.windowslatest.com/2026/11/20/windows-11-kb5132057-out-with-native-search-that-ditches-edge-modern-run-and-a-way-to-kill-sticky-keys-direct-download-links-for-offline-installer-msu/"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "KB5132057",
+        "Windows-Suche",
+        "Ausführen-Dialog",
+        "Update"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A modern unbranded laptop on a warm wooden desk with a blurred, unreadable search panel open in the lower middle of the screen over a soft landscape wallpaper, a wireless mouse, a notebook and a small potted plant, late-morning golden window light, natural rich colors, muted dusty-teal accent from the notebook cover. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-windows11-kb5132057-suche.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -935,45 +1467,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:04.847Z"
-      },
-      "id": "2026-11-18-nand-spotpreise-minus-20",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "SSD",
-        "Speicherpreise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
-      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
-      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
-      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "NAND",
-        "SSD",
-        "Speicherpreise",
-        "YMTC",
-        "TrendForce"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:05.129Z"
       },
       "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
@@ -1004,6 +1497,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.847Z"
+      },
+      "id": "2026-11-18-nand-spotpreise-minus-20",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
+      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
+      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
+      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "YMTC",
+        "TrendForce"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
         "ki_generiert": true
       }
     },
@@ -1406,6 +1938,49 @@
       "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Cinematic late-afternoon scene on a sun-bleached coastal city boulevard: an original generic sports car parked at a cracked curb, palm shadows on warm asphalt, pastel motel facades without signs, a distant unbranded television store window softly reflecting the street, golden natural light, rich colors, no recognizable game characters, no logos, no text, no copied map or UI, not a screenshot.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-gta6-tests-metacritic-99.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.371Z"
+      },
+      "id": "2026-11-20-wow-forever-15-jahre-rekord",
+      "datum": "2026-11-18T13:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "World of Warcraft"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Blizzard: World of Warcraft Forever hat mehr wöchentlich aktive Spieler als WoW in den vergangenen 15 Jahren, nach zwei Wochen wurden über 15 Millionen Charaktere erstellt",
+      "schlagzeile": "WoW Forever: So viele Spieler pro Woche wie seit 15 Jahren nicht mehr",
+      "kurz": "Zwei Wochen nach dem Start meldet Blizzard für World of Warcraft Forever einen Rekord: So viele Menschen pro Woche wie jetzt haben WoW seit 15 Jahren nicht mehr gespielt. Dazu kommen über 15,16 Millionen erstellte Charaktere. Eine konkrete Spielerzahl nennt Blizzard aber nicht.",
+      "zusammenfassung": "Den Rekord verkündete Holly Longdale, Vizepräsidentin und Executive Producer von World of Warcraft, am 18. November auf X. Laut PC Games und GamesRadar+ lag WoW zuletzt Anfang der 2010er-Jahre, zur Zeit von Cataclysm, auf diesem Niveau; damals meldete Blizzard rund 12 Millionen Abonnenten. Eine Infografik zeigt Zahlen als Momentaufnahme vom 18. November: 15.160.147 erstellte Charaktere, rund 1,48 Milliarden abgeschlossene Quests und fast 9,8 Milliarden besiegte Gegner. Dazu kommen über 140.000 Gilden, mehr als 71 Millionen Gruppen und fast 29 Millionen genutzte Camping-Gegenstände aus dem neuen Camping-System. Gestorben sind die Spielfiguren knapp 197 Millionen Mal, davon rund 29 Millionen Mal im Kampf gegen andere Spieler. Tödlichster Dungeon-Boss ist Erzmagier Arugal aus der Burg Schattenfang. Wichtig: Charaktere sind keine Spieler, viele legen mehrere Figuren an. WoW Forever ist am 4. November gestartet und knüpft an die frühe Welt von Azeroth an, ergänzt um neue Gebiete und Dungeons. Die ersten neuen Schlachtzüge sollen laut Blizzard am 9. Dezember folgen.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/World-of-Warcraft-Spiel-42971/News/WoW-Forever-Rekorde-Statistiken-1560372/"
+      },
+      "weitere_links": [
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-has-more-people-playing-weekly-than-blizzard-has-seen-in-15-years-lead-says-as-the-new-mmo-reaches-15-million-players/"
+        }
+      ],
+      "tags": [
+        "World of Warcraft",
+        "WoW Forever",
+        "Blizzard",
+        "MMO",
+        "Spielerzahlen"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original fantasy illustration: a lively group of original adult adventurers (a human ranger, a dwarf-like warrior in sturdy plate armor, a robed mage) resting around a crackling campfire with bedrolls and a small tent at the edge of a sunlit ancient forest, distant ruined stone tower on a hill, one adventurer standing alert with drawn sword at the treeline as dusk falls, low camera with strong diagonals, warm firelight against cool blue evening sky, natural rich colors. Original designs only, no recognizable game characters, races or armor sets, no text, no logos, no UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-wow-forever-15-jahre-rekord.webp",
         "ki_generiert": true
       }
     },
@@ -1975,49 +2550,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.113Z"
-      },
-      "id": "2026-11-16-intel-sammelklage",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Intel"
-      ],
-      "kategorie": "Unternehmen",
-      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
-      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
-      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
-      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Wccftech",
-          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
-        }
-      ],
-      "tags": [
-        "Intel",
-        "Sammelklage",
-        "Lip-Bu Tan",
-        "Aktie",
-        "Speicherkrise"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.014Z"
       },
       "id": "2026-11-16-playstation-controller-bezahlen-patent",
@@ -2052,6 +2584,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.113Z"
+      },
+      "id": "2026-11-16-intel-sammelklage",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
+      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
+      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
+      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Sammelklage",
+        "Lip-Bu Tan",
+        "Aktie",
+        "Speicherkrise"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
         "ki_generiert": true
       }
     },
@@ -4002,6 +4577,47 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.560Z"
+      },
+      "id": "2026-11-13-word-kompatibilitaet-layout",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
+      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
+      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
+      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
+        }
+      ],
+      "tags": [
+        "Microsoft Word",
+        "Office",
+        "Microsoft 365",
+        "Kompatibilität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
         "am": "2026-11-13T21:54:38.066Z"
       },
       "id": "2026-11-13-ps5-qssr-sechs-spiele",
@@ -4040,47 +4656,6 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-13-ps5-qssr-sechs-spiele.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-13T21:54:38.560Z"
-      },
-      "id": "2026-11-13-word-kompatibilitaet-layout",
-      "datum": "2026-11-13T17:35:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Software",
-      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
-      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
-      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
-      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Neowin",
-          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
-        }
-      ],
-      "tags": [
-        "Microsoft Word",
-        "Office",
-        "Microsoft 365",
-        "Kompatibilität"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
         "ki_generiert": true
       }
     },
