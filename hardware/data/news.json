@@ -2,10 +2,606 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-20T18:43:08.157Z",
+    "stand": "2026-11-20T19:34:40.145Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.464Z"
+      },
+      "id": "2026-11-20-cairn-ki-agenten-zero-day",
+      "datum": "2026-11-20T18:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "KI"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Amazon: Mutmaßlich chinesische Angreifer ließen autonome KI-Agenten der Plattform Cairn eine Zero-Day-Lücke in MONAI Label finden und einen Server übernehmen",
+      "schlagzeile": "„Verschafft euch Shell-Zugang“: KI-Agenten finden Zero-Day und kapern Server",
+      "kurz": "Angreifer haben laut Amazon eine Plattform für autonome KI-Agenten namens Cairn genutzt, um eine bisher unbekannte Lücke zu finden und auszunutzen. Die Agenten bekamen nur den Auftrag, Shell-Zugang zu erlangen. Binnen elf Minuten fanden sie in einer medizinischen Bildsoftware einen Weg und übernahmen später den Server.",
+      "zusammenfassung": "Entdeckt hat die Kampagne Amazon Threat Intelligence, weil die Angreifer ihre Cairn-Instanz ohne Passwort offen im Netz stehen ließen, berichtet BleepingComputer. Cairn ist eigentlich ein legitimes Werkzeug für Penetrationstests, das mehrere KI-Agenten koordiniert. Die Angriffe liefen vom 8. bis 10. September und zielten vor allem auf Bildungseinrichtungen in Ostasien außerhalb Chinas. Die Agenten fanden eine Path-Traversal-Lücke in MONAI Label, einer quelloffenen Anwendung zum Beschriften medizinischer Bilder. Vom Erkunden der Schnittstelle bis zur Ausnutzung vergingen laut Amazon elf Minuten. Später schrieben sie über die Lücke eine Hintertür in eine Python-Startdatei und erlangten Root-Rechte. Nicht alles klappte: Ein 16-stündiger Versuch mit 148 Aktionen gegen einen Redis-Server scheiterte, ebenso sechs Stunden Passwort-Raten gegen einen Uni-GPU-Server. Amazon ordnet die Angreifer mit mittlerer Sicherheit China zu, anhand von Sprache, Zeitstempeln und Zielen. Die Lücke in MONAI Label ist seit einem Update vom 18. November geschlossen. Amazon warnt, dass KI-Agenten Lücken schneller finden und ausnutzen, als Sicherheitsteams reagieren können.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "KI-Agenten",
+        "Zero-Day",
+        "Cairn",
+        "Amazon",
+        "Hacker"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A university research server room at dusk: rows of unbranded GPU servers behind a glass door, a single laptop left open on a cart with a blurred unreadable terminal, warm orange sunset light through a window clashing with cool blue room light, cables in muted olive green, natural rich colors, subtle dust in the air. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-cairn-ki-agenten-zero-day.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.496Z"
+      },
+      "id": "2026-11-20-nvidia-kalifornien-nyt-huang",
+      "datum": "2026-11-20T17:52:44+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "Kaliforniens Generalstaatsanwalt stellt Nvidia eine Ermittlungs-Vorladung zu möglichen China-Lieferungen zu; zugleich wirft ein Bericht der New York Times Ex-Chef Jensen Huang jahrzehntelange Demütigung von Mitarbeitern vor",
+      "schlagzeile": "Nvidia: Kalifornien ermittelt, NYT erhebt schwere Vorwürfe gegen Huang",
+      "kurz": "Kaliforniens Generalstaatsanwalt Rob Bonta prüft, ob Nvidia-Chips oder vertrauliche Daten nach China gelangt sind und ob Anleger getäuscht wurden. Parallel berichtet die New York Times über jahrzehntelange verbale Übergriffe von Ex-Chef Jensen Huang. Ein Sprecher Huangs weist die Vorwürfe zurück.",
+      "zusammenfassung": "Bonta hat Nvidia am 19. November eine Ermittlungs-Vorladung zugestellt, das teilt sein Büro in einer Pressemitteilung mit. Gefragt wird, ob fortschrittliche Nvidia-Chips oder vertrauliche Informationen nach China gelangt sein könnten und ob Nvidia Anleger und Öffentlichkeit über dieses Risiko falsch informiert hat. Anlass ist die Affäre des zurückgetretenen Chefs mit einer Managerin, die nach dem Verdacht von US-Sicherheitsbehörden vom chinesischen Geheimdienst angeworben worden sein soll, berichtet heise. Eine Reaktion von Nvidia gab es laut heise zunächst nicht. Am Freitag folgte ein Bericht der New York Times, über den PC Gamer und Eurogamer berichten. Mehr als ein Dutzend aktuelle und frühere Beschäftigte werfen Huang darin vor, über Jahrzehnte Mitarbeiter vor Kollegen beleidigt und mit drastischen Gewaltfantasien bedroht zu haben. Ein früherer Personalchef soll 2005 nach Kritik daran entlassen worden sein und eine vertrauliche Einigung über mehr als eine Million Dollar erzielt haben. Huangs Sprecher nennt die Darstellung Erfindungen, die Tausende Unterstützer im Unternehmen widerlegten. Laut PC Gamer hat eine öffentliche Petition für Huangs Rückkehr inzwischen über 200.000 Unterschriften. Der Verwaltungsratschef hatte laut Berichten zuvor erklärt, Huang nicht wieder als Chef einsetzen zu wollen. Die Vorwürfe der Zeitung sind nicht gerichtlich geprüft, die Ermittlung in Kalifornien steht noch am Anfang.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/hardware/graphics-cards/nyt-report-documents-ex-nvidia-ceo-jensen-huangs-decades-of-berating-employees-he-said-he-would-rip-both-arms-off-a-subordinate-and-beat-the-person-over-the-head-to-death-with-them/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Kalifornien-will-von-Nvidia-Aufklaerung-zu-China-Lieferungen-11532235.html"
+        },
+        {
+          "name": "California Department of Justice (Pressemitteilung)",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/jensen-huang-nvidia-investigation-harassment"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Kalifornien",
+        "New York Times",
+        "China"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Exterior of a modern unbranded glass corporate headquarters building at dusk-golden hour, seen from a low angle across a plaza with a few blurred passers-by far away, a stack of paper documents in a dusty-teal folder resting on a stone bench in the foreground, warm sunset light reflected in the glass, natural rich colors. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-nvidia-kalifornien-nyt-huang.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.271Z"
+      },
+      "id": "2026-11-20-openai-amd-chipdesign-ki",
+      "datum": "2026-11-20T16:42:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "CPU",
+        "AMD",
+        "KI"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "OpenAI-Modelle haben Schaltungscode von AMD-GPU- und CPU-Entwürfen überarbeitet; laut OpenAI bis zu 14 Prozent PPA-Gewinn, einige Änderungen sind bereits in einem zur Fertigung übergebenen Chip",
+      "schlagzeile": "KI entwirft mit: OpenAI holt bis zu 14 Prozent aus AMD-Grafikchip heraus",
+      "kurz": "OpenAI hat seine KI-Modelle an Schaltungsentwürfen von AMD arbeiten lassen. Bei einer Flaggschiff-GPU sollen sie bis zu 14 Prozent bessere PPA-Werte erreicht haben, bei einer kommenden CPU einen einstelligen Prozentwert. Einige Änderungen hat AMD laut OpenAI schon in einen Chip übernommen, der zur Fertigung ging.",
+      "zusammenfassung": "Die Zahlen stammen aus einem technischen Bericht von OpenAI, über den ComputerBase, PC Gamer, PCGH und Wccftech berichten. PPA steht für Leistungsaufnahme, Rechenleistung und Chipfläche, also die drei Kennzahlen, an denen jede Änderung am Chipdesign gemessen wird. Die 14 Prozent bedeuten deshalb nicht automatisch 14 Prozent mehr Spieleleistung, wie sich die drei Werte einzeln verändert haben, schlüsselt OpenAI nicht auf. Auch welche AMD-GPU gemeint ist, bleibt offen. Die Modelle arbeiteten direkt am SystemVerilog-Code, also an der Beschreibung der Schaltungen, geprüft wurden die Ergebnisse mit Entwurfswerkzeugen von Synopsys. Laut OpenAI entsprach das Ergebnis etwa einem Jahr Optimierungsarbeit, erledigt in weniger als fünf Monaten. Bei wichtigen Blöcken einer kommenden AMD-Flaggschiff-CPU sollen die Verbesserungen im einstelligen Prozentbereich liegen. AMD habe einige Änderungen in einen kürzlich zur Fertigung eingereichten Chip übernommen, weitere sollen in künftige Produkte einfließen. Ob davon kommende Architekturen wie RDNA 5 oder Zen 6 profitieren, ist eine Vermutung von ComputerBase und nicht bestätigt. Vorher hatte OpenAI die Methode an seinem eigenen KI-Beschleuniger Jalapeño erprobt, dort schrumpfte etwa die Fläche der Vektoreinheit um rund 13 Prozent. Zusammen mit Synopsys entwickelt OpenAI nun ein spezialisiertes Modell für Chip-Entwurfswerkzeuge. Eine eigene Stellungnahme von AMD mit Details liegt bisher nicht vor.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/chip-entwicklung-openai-verbessert-amds-gpu-design-um-14-prozent.100432/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/openai-says-it-redesigned-an-amd-gpu-and-amd-is-using-some-of-those-tweaks-for-use-in-future-products/"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/OpenAI-KI-Modell-GPU-CPU-von-AMD-verbessert-1560688/"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/openai-models-deliver-up-to-14-ppa-gains-on-amd-flagship-gpu-designs-with-some-changes-already-sent-to-manufacturing/"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "AMD",
+        "Chipdesign",
+        "GPU",
+        "KI"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of a chip design engineer's desk: a large unbranded silicon wafer in a clear carrier case next to a bare unbranded graphics processor die on an anti-static mat, a laptop in the background with a blurred unreadable circuit layout on screen, tweezers and a loupe, a muted dusty-teal notebook, warm late-morning window light, natural rich colors. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-openai-amd-chipdesign-ki.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.710Z"
+      },
+      "id": "2026-11-20-sockel1700-undervolting-cep",
+      "datum": "2026-11-20T15:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "Intel",
+        "Mainboard"
+      ],
+      "kategorie": "Mainboards",
+      "titel": "Gigabyte bestätigt PCGH: Mit neuen Sockel-1700-BIOS-Versionen bleibt Undervolting bei K-Prozessoren und kommenden Raptor-Lake-Neuauflagen möglich, CEP lässt sich manuell abschalten",
+      "schlagzeile": "Intel-Sockel 1700: Undervolting bleibt mit neuem BIOS möglich – mit Haken",
+      "kurz": "Neue BIOS-Versionen für Sockel-1700-Mainboards aktivieren Intels Schutzfunktion CEP ab Werk, die beim Undervolting Leistung kostet. Laut Gigabyte lässt sie sich bei K-Prozessoren der Core-i-12000- bis 14000-Reihe und kommenden Refresh-CPUs aber abschalten. Wer eine CPU ohne K hat und undervoltet, sollte beim alten BIOS bleiben.",
+      "zusammenfassung": "PCGH hatte Gigabyte nach den Folgen des neuen Microcodes 0x137 gefragt, der mit BIOS-Updates für kommende Intel-Prozessoren ausgeliefert wird. Bei bisherigen Versionen mit diesem Microcode klagten Nutzer über eine dauerhaft aktive Current Excursion Protection, kurz CEP. Die Funktion senkt den Takt, wenn die Kernspannung unter eine Mindestgrenze fällt, und soll so Abstürze verhindern. Wer seine CPU absichtlich mit weniger Spannung betreibt, um Strom und Wärme zu sparen, verliert dadurch Leistung. Laut Gigabyte bleibt CEP bis auf Weiteres ab Werk an, lässt sich aber manuell abschalten. Das gilt für K-Modelle der Core-i-12000-, 13000- und 14000-Reihe sowie für die noch ausstehenden Refresh-Prozessoren. Bei Modellen ohne K-Suffix rät PCGH Undervoltern, das alte BIOS weiter zu nutzen. Die Aussage steht unter Vorbehalt, falls Intel noch neue Vorgaben macht. Die für 2027 erwarteten Raptor-Lake-Neuauflagen für günstige DDR4-PCs hat Intel bisher nicht offiziell bestätigt. Wer nicht selbst ausgiebig auf Stabilität testen will, ist laut PCGH mit aktivem CEP besser bedient. Die Aussage stammt von Gigabyte, für andere Mainboard-Hersteller kann es anders aussehen.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Mainboard-Hardware-154107/News/kein-cep-zwang-fuer-raptor-lake-net-1560595/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Intel",
+        "Sockel 1700",
+        "Undervolting",
+        "CEP",
+        "Gigabyte",
+        "BIOS"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Overhead close-up of an unbranded ATX motherboard with an installed desktop CPU socket area and a tower air cooler partly removed, thermal paste visible, a small multimeter with a blank display and a muted olive-green screwdriver beside it on a warm wooden desk, warm window light, natural rich colors, fine dust. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-sockel1700-undervolting-cep.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.033Z"
+      },
+      "id": "2026-11-20-dnd-beyond-optimizely-malware",
+      "datum": "2026-11-20T14:08:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Sicherheit",
+        "Tabletop"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "D&D Beyond lieferte am 16. November über den kompromittierten Dienst Optimizely kurzzeitig Schadcode aus; Zahlungsdaten laut Betreiber nicht betroffen",
+      "schlagzeile": "D&D Beyond lieferte Schadcode aus – über ein fremdes Website-Werkzeug",
+      "kurz": "Die offizielle Dungeons-&-Dragons-Plattform D&D Beyond gehörte zu fast 200 Websites, auf denen Angreifer über den Dienst Optimizely Schadcode einschleusten. Der Code konnte Karteneingaben abgreifen und Krypto-Adressen austauschen. Zahlungen liefen laut Betreiber über einen separaten Anbieter und waren nicht betroffen.",
+      "zusammenfassung": "Angreifer nutzten am 16. November eine Lücke bei der Kontoanmeldung von Optimizely Web Experimentation, einem verbreiteten Werkzeug für Website-Tests, berichten GameStar und GamesRadar+. So schleusten sie bösartiges JavaScript in Projekte von Kunden ein, das deren Websites dann an Besucher auslieferten. Laut den Sicherheitsforschern von Report URI waren 178 Organisationen betroffen, darunter D&D Beyond und der Magic-Shop Secret Lair. Der Code konnte Kartendaten aus Bezahlformularen mitlesen, Krypto-Wallet-Adressen austauschen und auf älteren iPhones und iPads bekannte Exploits nachladen. Optimizely erklärt, die Lücke binnen drei Stunden nach Entdeckung geschlossen zu haben, betroffen seien weniger als fünf Prozent der Kunden. D&D Beyond hat den Dienst entfernt, Executive Producer Brian Perry betont, Zahlungen würden über einen eigenen Zahlungsdienstleister abgewickelt. Spieler, die handeln müssen, will D&D Beyond direkt kontaktieren. Für Secret Lair meldet Wizards of the Coast, dass keine Kundendaten betroffen waren. GameStar rät vorsorglich zu Ab- und Wiederanmelden, einem neuen Passwort und aktuellen Apple-Systemen. Wie viele Besucher den Code tatsächlich ausgeführt haben, ist nicht bekannt.",
+      "quelle": {
+        "name": "GameStar",
+        "url": "https://www.gamestar.de/artikel/dnd-beyond-zentrale-webseite-dungeons-dragons-malware-attacke,3463509.html"
+      },
+      "weitere_links": [
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/tabletop-gaming/d-and-d-beyond-was-hit-with-a-major-malware-attack-but-dont-worry-your-payment-details-are-safe/"
+        }
+      ],
+      "tags": [
+        "D&D Beyond",
+        "Dungeons & Dragons",
+        "Optimizely",
+        "Malware",
+        "Supply Chain"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A tabletop role-playing session on a warm wooden table: unbranded polyhedral dice in muted terracotta, hand-painted original fantasy miniatures, a folded paper game screen with no text, a laptop at the edge showing a blurred unreadable page with a subtle red warning tint, warm evening lamp light mixing with window daylight, natural rich colors. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-dnd-beyond-optimizely-malware.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.355Z"
+      },
+      "id": "2026-11-20-ruby-kritische-luecken",
+      "datum": "2026-11-20T13:45:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "Programmierung"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Ruby schließt sieben Lücken in String- und Regex-Verarbeitung, sechs erlauben Codeausführung; Updates auf 4.0.10, 3.4.13 und 3.3.14, auch Rails-Anwendungen, GitHub und GitLab betroffen",
+      "schlagzeile": "Ruby: Gefährliche Lücken in Suchmustern – auch Rails-Apps müssen updaten",
+      "kurz": "Das Ruby-Projekt hat sieben Sicherheitslücken geschlossen, sechs davon können Angreifern das Ausführen von eigenem Code erlauben. Für fünf existieren Demonstrations-Exploits. Entwickler sollen auf Ruby 4.0.10, 3.4.13 oder 3.3.14 aktualisieren.",
+      "zusammenfassung": "Die Lücken stecken laut heise in der Verarbeitung von Zeichenketten und regulären Ausdrücken, also Suchmustern. Gefährlich wird es vor allem, wenn eine Anwendung Nutzern erlaubt, eigene Suchmuster vorzugeben, etwa in einer Rails-Webanwendung. Dann kann ein präpariertes Muster schon beim Übersetzen Speicher doppelt freigeben oder über einen Puffer hinausschreiben und so Code einschleusen. Andere Fehler betreffen die Umwandlung von Groß- und Kleinschreibung. Das GitHub-Advisory stuft mehrere Lücken als kritisch ein. Für die einzige Lücke mit bereits vergebener CVE-Nummer fällt die Bewertung mit CVSS 7,4 und lokalem Angriffsweg deutlich zurückhaltender aus. Die Fehler wurden am 18. November behoben. Vier davon meldeten der Forscher Stephan Lipp und das KI-Unternehmen Anthropic, ein Fix-Commit nennt sogar ein KI-Modell als Co-Autor. Laut heise sind auch große Ruby-Anwendungen wie GitHub und GitLab betroffen. Wer selbst Ruby oder Rails betreibt, sollte zügig aktualisieren. Für normale Windows- oder Spiele-Nutzer besteht kein direkter Handlungsbedarf.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Kritisch-eingestufte-Luecken-in-Ruby-auch-Rails-GitHub-und-GitLab-betroffen-11532469.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Ruby",
+        "Rails",
+        "Sicherheitslücke",
+        "RCE"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A software developer's workspace at golden hour: a laptop with a blurred unreadable code editor in deep red and dark tones, a paper notebook with abstract doodles, a muted terracotta mug, a small potted plant, warm sunlight through a window casting long shadows on a wooden desk, natural rich colors, shallow depth of field. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-ruby-kritische-luecken.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.815Z"
+      },
+      "id": "2026-11-20-gta6-xbox-auto-upload-sperren",
+      "datum": "2026-11-20T13:42:47+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Xbox"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Xbox-Spieler erhalten zweitägige Sperren, nachdem automatisch hochgeladene GTA-6-Clips mit Strandszenen offenbar von der automatischen Inhaltsprüfung beanstandet wurden",
+      "schlagzeile": "GTA 6 am Strand gefilmt, Xbox gesperrt: Automatischer Upload als Falle",
+      "kurz": "Einige Xbox-Spieler haben nach dem Start von GTA 6 eine zweitägige Sperre erhalten. Auslöser waren offenbar automatisch hochgeladene Spielclips mit Strandszenen und Figuren in Badekleidung. Wer das vermeiden will, kann den automatischen Upload in den Einstellungen abschalten.",
+      "zusammenfassung": "Betroffene haben sich auf Reddit gemeldet, Pure Xbox und Dr. Windows haben die Fälle aufgegriffen. Zunächst wirkten die Sperren willkürlich, später stellte sich heraus, dass die Clips an den Stränden von Leonida aufgenommen waren. Auf der Xbox werden Aufnahmen standardmäßig automatisch auf die Server hochgeladen. Dort prüft Microsoft sie auf verbotene Inhalte wie Hassrede, Drogen, exzessive Gewalt sowie Nacktheit und sexuelle Inhalte. Ein Betroffener schreibt, sein Clip habe keinerlei Nacktheit gezeigt, nur normale Strandszenen. Pure Xbox weist darauf hin, dass GTA 6 an anderer Stelle durchaus Nacktheit enthält, ob einzelne Clips solche Szenen zeigten, ist unklar. Die Entscheidungen wirken automatisiert und laut Pure Xbox nicht anfechtbar. Microsoft hat sich bisher nicht öffentlich dazu geäußert, wie viele Spieler betroffen sind, ist unbekannt. Den automatischen Upload schaltet man unter Einstellungen, Voreinstellungen, Aufzeichnen und freigeben ab. Die Sperren dauern laut den Berichten zwei Tage, Konten werden nicht gelöscht.",
+      "quelle": {
+        "name": "Dr. Windows",
+        "url": "https://www.drwindows.de/news/gta-6-zu-realistisch-xbox-spieler-nach-automatischem-upload-von-bikini-videos-gesperrt"
+      },
+      "weitere_links": [
+        {
+          "name": "Pure Xbox",
+          "url": "https://www.purexbox.com/news/2026/11/gta-6-players-warned-to-turn-off-auto-uploads-or-risk-getting-banned-on-xbox"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Xbox",
+        "Sperre",
+        "Moderation"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Dynamic sunny scene on a subtropical beach boardwalk in a fictional Florida-like city: an original adult character in casual summer clothes running past palm trees while holding up a handheld video camera, motion blur on the background, swimmers far away as small blurred figures, turquoise sea, warm afternoon sun, low camera angle with strong diagonal, natural rich colors, a muted terracotta beach umbrella as accent. No nudity, no faces in detail, no text, no logos, no game UI, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-gta6-xbox-auto-upload-sperren.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.588Z"
+      },
+      "id": "2026-11-20-windows11-26h2-automatisch",
+      "datum": "2026-11-20T13:14:28+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft installiert Windows 11 26H2 seit dieser Woche automatisch auf privaten und nicht verwalteten PCs mit Windows 11 24H2 und 25H2",
+      "schlagzeile": "Windows 11 26H2 kommt jetzt automatisch – auch ohne Klick auf Update",
+      "kurz": "Microsoft verteilt Windows 11 26H2 nun automatisch an private und nicht von einer IT-Abteilung verwaltete PCs. Betroffen sind Geräte mit Windows 11 24H2 und 25H2. Bisher kam das Update nur, wenn man selbst danach suchte.",
+      "zusammenfassung": "Laut einem Eintrag im Windows-Statusdashboard, über den BleepingComputer berichtet, hat Microsoft am 18. November die nächste Phase der Verteilung gestartet. Seit Ende Oktober konnten alle geeigneten Geräte 26H2 manuell über Windows Update holen. Jetzt wird die automatische Auslieferung schrittweise ausgeweitet, zuerst für nicht verwaltete Geräte mit Windows 11 24H2 und 25H2. Ob und wann ein PC das Update bekommt, hängt von seinen Windows-Update-Einstellungen ab. Wer es sofort will, sucht unter Einstellungen und Windows Update nach Updates und aktiviert die Option für die neuesten Updates. Windows 11 26H2 ist seit September allgemein verfügbar und wird als kleines Freischaltpaket installiert, was schnell gehen soll. Es enthält alle Funktionen, die Microsoft für 24H2 und 25H2 angekündigt hat. Der Support für 26H2 endet im Oktober 2029. Microsoft hatte im vergangenen Monat zudem gemahnt, nicht mehr unterstützte Versionen zu aktualisieren, weil sie nach einer Zertifikatsumstellung im kommenden Jahr keine Sicherheitsupdates mehr bekommen werden. Diese Woche hatte Microsoft außerdem Probleme mit Hotpatches bestätigt, die allerdings nur verwaltete Firmengeräte betreffen.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "26H2",
+        "Windows Update"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A home desk in warm morning window light: an unbranded laptop showing a blurred, unreadable blue progress screen, a cup of coffee and a pair of headphones in muted dusty teal next to it, a houseplant in soft focus in the background, natural rich colors, shallow depth of field, fine dust in the sunbeam. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-windows11-26h2-automatisch.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.920Z"
+      },
+      "id": "2026-11-20-total-war-40k-sternensysteme",
+      "datum": "2026-11-20T13:12:10+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Strategie",
+        "Total War"
+      ],
+      "kategorie": "PC-Spiele",
+      "titel": "Total War: Warhammer 40,000 teilt die Kampagne in Sternensysteme mit eigenen Mini-Kampagnen, Geschichten und Siegzielen; Creative Assembly zeigt Flotten und Space-Marine-Armeen im Livestream",
+      "schlagzeile": "Total War: Warhammer 40,000 zerlegt die Galaxis in Mini-Kampagnen",
+      "kurz": "Creative Assembly hat in einem einstündigen Livestream die Kampagne von Total War: Warhammer 40,000 gezeigt. Jedes Sternensystem ist eine eigene, abgeschlossene Kampagne mit Geschichte und Siegzielen. Einheiten und Fähigkeiten nimmt man ins nächste System mit.",
+      "zusammenfassung": "Laut Eurogamer begründen die Entwickler den Aufbau damit, dass sich die Größe der ganzen Galaxis nicht auf einer einzigen Total-War-Karte darstellen lasse. Jedes System habe deshalb eine eigene Ausgangslage, eine eigene Erzählung und eigene Siegziele. Im Stream ging es um das System Praevoss mit mehreren Planeten, auf drei davon kann man landen und Schlachten schlagen. Ein gezeigtes Ziel verlangte, mit Space Marines einen Planeten zu halten und gleichzeitig eine Ork-Plage auszulöschen. Viel Zeit bekamen die Raumflotten, die Truppen transportieren, sich aufrüsten lassen und Armeen etwa mit Orbitalbombardements unterstützen. Space-Marine-Armeen sind wenige, teure und starke Einheiten. Verliert man eine ganze Armee, soll das bewusst schmerzhaft sein, weil das im Warhammer-Universum einem ganzen Orden entspricht. Nach einem System zieht man weiter und behält Einheiten und freigeschaltete Fähigkeiten. Erscheinen soll das Spiel 2027, einen genauen Termin gibt es noch nicht. Wie viele Sternensysteme und spielbare Fraktionen es zum Start gibt, geht aus dem Bericht nicht hervor.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/total-war-warhammer-40000-campaign-space-marines"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Total War",
+        "Warhammer 40,000",
+        "Creative Assembly",
+        "Strategie"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Cinematic original sci-fi battle scene on a dusty rust-colored alien plain: a squad of original heavily armored futuristic infantry in bulky olive-and-bone armor advancing in cover behind rocks, low close camera, strong diagonal, a huge original starship silhouette in the hazy sky firing a distant orbital strike, dust and debris, warm low sun versus cool shadow, natural rich colors, a muted teal accent on armor trim. Original designs only, no copy of any franchise armor, emblem or character, no text, no logos, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-total-war-40k-sternensysteme.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.146Z"
+      },
+      "id": "2026-11-20-vulkan-1-4-369-amd-raytracing",
+      "datum": "2026-11-20T12:05:08+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Vulkan",
+        "Raytracing",
+        "GPU-API"
+      ],
+      "kategorie": "Grafik-APIs",
+      "titel": "Vulkan 1.4.369 bringt die experimentelle AMD-Erweiterung VK_AMDX_multi_level_acceleration_structure für zusätzliche Ebenen in Raytracing-Beschleunigungsstrukturen",
+      "schlagzeile": "Vulkan 1.4.369: AMD-Erweiterung soll Raytracing in großen Welten beschleunigen",
+      "kurz": "Das neue Vulkan-Update 1.4.369 enthält eine experimentelle Erweiterung von AMD für Raytracing. Sie erlaubt bis zu zwei zusätzliche Ebenen in der Beschleunigungsstruktur. Das soll Aufbauzeiten und Speicherbedarf in komplexen, animierten Spielwelten senken.",
+      "zusammenfassung": "Die Khronos Group hat die Spezifikation am 20. November veröffentlicht, Phoronix hat die Neuerung hervorgehoben. Raytracing braucht eine Beschleunigungsstruktur, eine Art Suchbaum über alle Objekte der Szene, die bei Bewegung ständig neu gebaut oder aktualisiert werden muss. Bisher sind dafür zwei Ebenen vorgesehen, was laut dem Entwurfsdokument Entwickler zwingt, die Komplexität ihrer Raytracing-Welten zu begrenzen. Hauptprobleme sind lange Aufbau- und Aktualisierungszeiten und hoher Speicherbedarf, besonders bei viel animierter Geometrie. Die Erweiterung VK_AMDX_multi_level_acceleration_structure erlaubt bis zu zwei zusätzliche Instanz-Ebenen. So lässt sich genauer steuern, welche Teile großer Welten gemeinsam neu gebaut werden müssen. Weil Geometrie mehrfach wiederverwendet werden kann, soll außerdem der Speicherbedarf sinken. Das Kürzel AMDX zeigt, dass die Erweiterung noch experimentell ist und sich ändern kann. Ob und wann sie in Treiber und Spiele einzieht, ist offen. Microsoft hatte Ende Oktober in einer DirectX-Vorschau mit Cluster-Geometrie und partitionierten TLAS ebenfalls Neuerungen für Raytracing-Beschleunigungsstrukturen vorgestellt. Daneben enthält Vulkan 1.4.369 vor allem Klarstellungen und Korrekturen an der Spezifikation.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Vulkan-AMDX-Ray-Tracing-Struct"
+      },
+      "weitere_links": [
+        {
+          "name": "Khronos Vulkan-Docs (GitHub, v1.4.369)",
+          "url": "https://github.com/KhronosGroup/Vulkan-Docs/releases/tag/v1.4.369"
+        },
+        {
+          "name": "DirectX Developer Blog (Raytracing-Vorschau, 28.10.2026)",
+          "url": "https://devblogs.microsoft.com/directx/clas-ptlas-preview/"
+        }
+      ],
+      "tags": [
+        "Vulkan",
+        "AMD",
+        "Raytracing",
+        "Khronos",
+        "Grafik-API"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A game developer's desk in warm late-afternoon window light: a wide monitor showing a blurred, unreadable photorealistic forest scene with soft ray-traced reflections in a puddle, an unbranded graphics card with two visible axial fans resting on a stack of paper next to the keyboard, a muted dusty-teal coffee mug, natural rich colors, shallow depth of field. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-vulkan-1-4-369-amd-raytracing.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.246Z"
+      },
+      "id": "2026-11-20-f5-big-ip-kritische-luecken",
+      "datum": "2026-11-20T11:57:43+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "Netzwerk"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "F5 veröffentlicht Notfall-Hotfixes für fünf kritische Pufferüberläufe in BIG-IP APM und iRules, über die Angreifer ohne Anmeldung Code ausführen können",
+      "schlagzeile": "F5 BIG-IP: Fünf kritische Lücken, keine Umgehung – Admins sollen sofort patchen",
+      "kurz": "F5 warnt vor fünf kritischen Lücken in BIG-IP, über die Angreifer ohne Anmeldung Systeme lahmlegen oder Code ausführen können. Es gibt keine Umgehungslösung, nur Hotfixes. Ausgenutzt werden die Lücken laut F5 bisher nicht.",
+      "zusammenfassung": "Betroffen sind laut BleepingComputer der Access Policy Manager von BIG-IP, mit dem Firmen Zugänge zu ihren Anwendungen steuern, sowie die Skriptfunktion iRules. Die fünf Lücken mit den Kennungen CVE-2026-121805, CVE-2026-120292, CVE-2026-120285, CVE-2026-116953 und CVE-2026-123637 sind Stack-Pufferüberläufe. Angreifer ohne Anmeldung können damit den zentralen Datenverkehrsprozess zum Absturz bringen und bei passender Konfiguration eigenen Code ausführen. Zusätzlich gibt es einen Hotfix für eine hoch eingestufte SAML-Lücke, die Dienstausfälle auslösen kann. F5 nennt keine Gegenmaßnahmen außer den am Mittwoch veröffentlichten Hotfixes. Laut Shadowserver sind über 177.000 BIG-IP-Instanzen im Netz erreichbar, über 14.600 Adressen zeigen Merkmale des Access Policy Managers. Wie viele davon bereits gepatcht sind, ist unbekannt. Ausgenutzt werden die neuen Lücken laut F5 bisher nicht, F5-Geräte sind aber regelmäßig Ziel von Kriminellen und staatlichen Angreifern. Die US-Behörde CISA führt seit 2021 sieben aktiv ausgenutzte F5-Lücken. Für Privatanwender ist das kein Thema, für Firmen-Admins hat das Update höchste Priorität.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "F5",
+        "BIG-IP",
+        "Sicherheitslücke",
+        "RCE"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A network rack in a small company server room: unbranded load-balancer appliances with blinking green status LEDs, a laptop on a pull-out shelf with a blurred unreadable terminal window, patch cables in muted terracotta neatly bundled, warm daylight from a corridor window mixing with cool room light, natural rich colors, slight dust. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-f5-big-ip-kritische-luecken.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:34.736Z"
+      },
+      "id": "2026-11-20-rocm-10-2-radeon-780m",
+      "datum": "2026-11-20T11:30:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "AMD",
+        "KI",
+        "Treiber",
+        "Linux"
+      ],
+      "kategorie": "Treiber",
+      "titel": "AMD ROCm 10.2 unterstützt offiziell 18 weitere Ryzen-Prozessoren mit Radeon 780M, 760M und 740M für PyTorch und vLLM unter Windows und Linux",
+      "schlagzeile": "Lokale KI ohne Grafikkarte: ROCm unterstützt jetzt Radeon 780M offiziell",
+      "kurz": "AMD hat mit ROCm 10.2 die offizielle Unterstützung auf 18 weitere Ryzen-Prozessoren mit integrierter Grafik ausgeweitet. Damit lassen sich auf vielen Notebooks und Mini-PCs mit Radeon 780M KI-Werkzeuge wie PyTorch und vLLM ohne Bastelei nutzen. Das gilt für Windows und Linux.",
+      "zusammenfassung": "ROCm ist AMDs Software-Plattform für Berechnungen auf der Grafikeinheit, PCGH beruft sich bei der Meldung auf AMD und Phoronix. Neu dabei sind unter anderem Ryzen 9 180, Ryzen 7 165, Ryzen 7 155, Ryzen 5 125 sowie Modelle wie Ryzen 7 253 und deren Pro-Varianten. Grundlage ist die offizielle Freigabe der Grafikarchitektur gfx1103, auf der Radeon 780M, 760M und 740M basieren. Bisher mussten Nutzer solcher Geräte Software oft selbst kompilieren oder Umwege gehen. Unterstützt werden die Schnittstelle HIP sowie PyTorch und vLLM, die ROCm 10.2 auf die Versionen 2.15 und 0.32 hebt. Außerdem verbessert AMD die Kommunikation zwischen bis zu acht Radeon-Karten in PCIe-Systemen. Die Freigabe sagt allerdings nichts über die Geschwindigkeit aus. Integrierte Grafik teilt sich den Arbeitsspeicher mit dem Prozessor, Größe und Bandbreite begrenzen deshalb, welche Sprachmodelle sinnvoll laufen. Für kleinere Modelle sind die Geräte nun aber offiziell eine Option. Mit Spieleleistung hat das Update nichts zu tun.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/Lokale-KI-AMD-erweitert-ROC-Support-fuer-Radeon-780M-und-18-Ryzen-Prozessoren-1560546/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "ROCm",
+        "Radeon 780M",
+        "Lokale KI",
+        "PyTorch"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact unbranded mini PC and a thin laptop side by side on a warm wooden desk by a window, the laptop screen showing a blurred unreadable chat-like interface, a coiled USB-C cable, a small notebook and a muted olive-green pen, late-morning golden daylight, natural rich colors, shallow depth of field. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-rocm-10-2-radeon-780m.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.389Z"
+      },
+      "id": "2026-11-20-usa-ki-chips-china-genehmigt",
+      "datum": "2026-11-20T11:20:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia",
+        "AMD",
+        "Export"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "US-Handelsministerium genehmigte den Export von 879.000 KI-Chips von Nvidia und AMD nach China, auch an Alibaba und Tencent, die das Pentagon als Militärunternehmen führt",
+      "schlagzeile": "879.000 KI-Chips für China: USA genehmigten Nvidia- und AMD-Verkäufe",
+      "kurz": "Die US-Regierung hat Nvidia und AMD den Verkauf von 879.000 KI-Chips nach China erlaubt. Darunter sind Lieferungen an Alibaba und Tencent, die auf der Liste chinesischer Militärunternehmen des US-Kriegsministeriums stehen. Beantragt hatten die beiden Hersteller 3,4 Millionen Chips.",
+      "zusammenfassung": "Die Zahlen hat Brian Mast veröffentlicht, Vorsitzender des Auswärtigen Ausschusses im US-Repräsentantenhaus, berichtet ComputerBase. Er hatte die Exportanträge bei der zuständigen Behörde BIS des Handelsministeriums angefordert. Demnach beantragten Nvidia und AMD Genehmigungen für insgesamt 3,4 Millionen Chips, erlaubt wurden 879.000. Abgelehnt wurden unter anderem Nvidia-Anträge über 610.000 Chips für Alibaba und 508.000 für den TikTok-Eigentümer ByteDance. Andere Verkäufe an Alibaba und Tencent wurden dagegen genehmigt, obwohl beide Firmen als mit dem chinesischen Militär verbunden eingestuft sind. Mast sieht darin einen Widerspruch zu den Zielen der US-Exportpolitik. Bei einigen Nvidia-Anträgen vermutet er zudem, dass Zwischenhändler die Chips an gesperrte Firmen weiterverkauft hätten, die Hersteller stuften dieses Risiko in den Anträgen jeweils als niedrig ein. Seit dieser Woche gilt außerdem eine neue US-Regel, die chinesischen Firmen den Fernzugriff auf Chips in ausländischen Rechenzentren verbietet. Tencent und Alibaba erwarten dadurch weniger Rechenleistung und einen langsameren Ausbau. Genehmigte Exporte heißen nicht automatisch Lieferung, denn auch Peking muss den Import erlauben und hat das teils verweigert. Welche Chipmodelle genau betroffen sind, geht aus den Berichten nicht hervor.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/nvidia-und-amd-usa-genehmigen-chipverkaeufe-an-chinesische-militaerunternehmen.100427/"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/von-amd-und-nvidia-us-handelsministerium-genehmigte-chipverkaeufe-an-china-2611-215462.html"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "AMD",
+        "China",
+        "Exportkontrolle",
+        "KI-Chips"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A real container port at golden hour seen from a low angle, a forklift lifting a plain unmarked shipping crate onto a pallet beside stacked rust-red and dusty-teal containers, a sealed anti-static bag with an unbranded server GPU module visible on top of the crate, warm low sun, natural rich colors, slight haze. No faces, no readable text, no logos, no flags.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-usa-ki-chips-china-genehmigt.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T19:34:33.611Z"
+      },
+      "id": "2026-11-20-moore-threads-lushan-teaser",
+      "datum": "2026-11-20T11:02:46+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Moore Threads teasert Desktop-Grafikkarte „Lushan“ mit dem laut Hersteller größten Videospeicher einer Consumer-GPU; Vorstellung am 29. Dezember",
+      "schlagzeile": "Chinas Lushan-Grafikkarte soll mehr Videospeicher haben als jede andere",
+      "kurz": "Der chinesische Hersteller Moore Threads kündigt eine neue Desktop-Grafikkarte mit Codenamen Lushan an. Sie soll den größten Videospeicher in der Geschichte der Consumer-Grafikkarten bieten und für Spiele wie lokale KI gedacht sein. Wie viel Speicher es genau wird, verrät der Teaser nicht.",
+      "zusammenfassung": "Den Teaser hat laut Wccftech ein Produktmanager von Moore Threads am 18. November in sozialen Medien veröffentlicht, IT Home hat ihn aufgegriffen. Vollständig vorgestellt werden soll Lushan am 29. Dezember auf der hauseigenen MUSA-Entwicklerkonferenz. Positioniert wird die Karte sowohl für anspruchsvolle PC-Spiele als auch für das lokale Ausführen von KI-Sprachmodellen. Gerade dafür ist viel Videospeicher wichtig, weil größere Modelle sonst nicht in den Speicher der Grafikkarte passen. Laut übersetztem Teaser soll die KI-Rechenleistung um das 64-Fache steigen, genannt werden außerdem eine neue Rendering-Architektur namens UNITE und eine selbst entwickelte Raytracing-Einheit. Worauf sich der Faktor 64 bezieht, ist offen. Die konkrete Speichermenge, Bandbreite, Preis und Verfügbarkeit nennt Moore Threads noch nicht. Ob Lushan mehr Speicher als die 32 Gigabyte einer RTX 5090 bekommt, ist nur eine naheliegende Vermutung. Die bisherigen Karten MTT S80 und S90 haben durch Treiber-Updates deutlich zugelegt, spielen aber leistungsmäßig nicht in der Oberklasse. In Europa sind Moore-Threads-Karten bisher kaum erhältlich. Belastbare Daten gibt es erst nach der Vorstellung Ende Dezember.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/moore-threads-teases-lushan-desktop-gpu-largest-vram-capacity-consumer-history/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Moore Threads",
+        "Lushan",
+        "Grafikkarte",
+        "VRAM",
+        "China"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded full-size desktop graphics card with two visible axial fans and a matte dark-grey shroud with a muted terracotta accent stripe, lying on a warm wooden workbench next to a row of memory chips on an anti-static mat and a small screwdriver, PCIe gold contacts only on one long edge, warm late-morning window light, natural rich colors, slight dust. No faces, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-20-moore-threads-lushan-teaser.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -1467,45 +2063,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -1536,6 +2093,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
@@ -2550,49 +3146,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.014Z"
-      },
-      "id": "2026-11-16-playstation-controller-bezahlen-patent",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PlayStation"
-      ],
-      "kategorie": "Konsolen",
-      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
-      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
-      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
-      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
-      "quelle": {
-        "name": "Golem.de",
-        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
-        }
-      ],
-      "tags": [
-        "Sony",
-        "PlayStation",
-        "Controller",
-        "Patent",
-        "NFC"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.113Z"
       },
       "id": "2026-11-16-intel-sammelklage",
@@ -2627,6 +3180,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.014Z"
+      },
+      "id": "2026-11-16-playstation-controller-bezahlen-patent",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
+      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
+      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
+      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "PlayStation",
+        "Controller",
+        "Patent",
+        "NFC"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
         "ki_generiert": true
       }
     },
