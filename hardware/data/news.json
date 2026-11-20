@@ -2,10 +2,700 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-19T18:25:35.310Z",
+    "stand": "2026-11-20T06:56:31.908Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.289Z"
+      },
+      "id": "2026-11-19-amd-hunterbrook-aktie",
+      "datum": "2026-11-19T19:05:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "AMD-Aktie fällt nach Bericht des Leerverkäufers Hunterbrook zeitweise um 15 Prozent; Vorwurf: AMD-Firmware tauche in Server-Updates einer auf der US-Entity-List stehenden chinesischen Firma auf",
+      "schlagzeile": "Shortseller-Bericht zu China: AMD-Aktie stürzt kurz um 15 Prozent ab",
+      "kurz": "Die AMD-Aktie ist am Donnerstag binnen etwa 30 Minuten um rund 15 Prozent eingebrochen und hat sich danach wieder erholt. Auslöser war ein Bericht von Hunterbrook, das selbst auf fallende AMD-Kurse wettet. Der Bericht sagt ausdrücklich, dass er keinen Verstoß gegen Exportkontrollen belegt.",
+      "zusammenfassung": "Hunterbrook Media wirft AMD vor, ein eigenes China-Problem zu haben, und zieht den Vergleich zur Megaspeed-Affäre bei Nvidia. Kern des Berichts: Der chinesische Serverhersteller IEIT Systems steht seit März 2025 auf der Entity List der USA und darf ohne Lizenz keine Geschäfte mit US-Firmen machen. Trotzdem soll IEIT seitdem mindestens sechs neuere Versionen von AMDs Start-Firmware in eigene BIOS-Updates eingebaut haben, zuletzt im Oktober 2026. Nahezu identische Dateien fand Hunterbrook bei drei nicht gelisteten Firmen, die laut Firmenunterlagen mit IEIT verbunden sind: Aivres, Kaytus und Maginfra. Wie IEIT an den Code kam und ob Lizenzen bestehen, klärt der Bericht nicht; TechPowerUp hält etwa auch Weitergabe über Dritte oder das Herauslösen aus öffentlich verteilter Firmware für möglich. Zusätzlich listet Hunterbrook AMDs China-Geschäft auf, darunter 67 Millionen Dollar Lizenzeinnahmen 2025 aus zwei gelisteten Joint Ventures und 22,4 Prozent des Umsatzes mit Kunden in China und Hongkong. Wichtig ist der Interessenkonflikt: Hunterbrook hat eine Short-Position auf AMD offengelegt und profitiert also von fallenden Kursen. Eine Stellungnahme von AMD nennen die vorliegenden Berichte nicht. Der Kurs erholte sich laut TechPowerUp nach dem kurzen Absturz wieder. Für PC-Käufer ändert sich vorerst nichts, die Vorwürfe betreffen Server und Exportregeln.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355036/amd-stock-dives-15-over-shortseller-report-alleging-export-control-violations-to-china-rebounds-later"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/hunterbrook-says-its-not-just-nvidia-amd-has-a-china-problem-of-its-own-with-amd-firmware-now-traced-to-blacklisted-ieit-servers/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Hunterbrook",
+        "Exportkontrollen",
+        "China",
+        "IEIT",
+        "Aktie"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of an unbranded server motherboard with a large CPU socket and a small firmware chip, lying on a warm wooden workbench beside a printed stock chart with blank axes and a pair of reading glasses, late-afternoon window light, muted olive accent from a desk plant. No readable text, no logos, no numbers.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-amd-hunterbrook-aktie.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.720Z"
+      },
+      "id": "2026-11-19-ubisoft-halbjahr-verlust-motherbrain",
+      "datum": "2026-11-19T18:12:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Ubisoft"
+      ],
+      "kategorie": "Branche",
+      "titel": "Ubisoft meldet für das erste Geschäftshalbjahr 2026/27 einen Nettoverlust von 254,5 Millionen Euro und 16,5 Prozent weniger Net Bookings, streicht 166 Stellen in Montréal und Québec und gründet die KI-Tochter Motherbrain",
+      "schlagzeile": "Ubisoft: 254 Mio. Euro Verlust, 166 Jobs weg – und ein eigenes KI-Studio",
+      "kurz": "Ubisoft hat im ersten Geschäftshalbjahr 254,5 Millionen Euro Verlust gemacht, die Net Bookings fielen um 16,5 Prozent. Kurz vorher bestätigte der Konzern den Abbau von 166 Stellen in den Studios Montréal und Québec, die an Assassin's Creed und Far Cry arbeiten. Zugleich wird die Generative-KI-Abteilung Motherbrain eine eigene Tochterfirma.",
+      "zusammenfassung": "Laut Insider Gaming lagen die Net Bookings im Halbjahr bei 644,7 Millionen Euro nach 772,4 Millionen im Vorjahr. Das zweite Quartal fiel mit 388,9 Millionen Euro besser aus als die eigene Prognose von rund 370 Millionen, vor allem dank Assassin's Creed Black Flag Resynced. Schwach waren dagegen ältere Spiele, deren Erlöse um 40,8 Prozent einbrachen, und die laufenden Spielerausgaben mit minus 33,4 Prozent. Für das Gesamtjahr hält Ubisoft an seinen Zielen fest: Net Bookings mit einem Rückgang im hohen einstelligen Prozentbereich und höchstens 500 Millionen Euro Mittelabfluss. Ab dem Geschäftsjahr 2027/28 will der Konzern wieder operativ Gewinn machen. Die 166 Stellen in Montréal und Québec entsprechen laut GamesIndustry.biz rund 4 Prozent der Belegschaft dort und betreffen Projekte, die gestrichen oder stark umgebaut wurden, teils auch das Joint Venture Vantage Studios mit Tencent. Ubisoft begründet das mit veränderten Produktionsprioritäten und verspricht Abfindungen und Unterstützung. Die Kürzungen gehören zum im Januar angekündigten Umbau, der bereits Studioschließungen und sechs gestrichene Projekte brachte. Neu ist Motherbrain: Laut VGC ist das Team hinter dem KI-Experiment Teammates jetzt eine eigene Tochter für KI-gestützte Spielmechaniken. Ob daraus eigene Spiele entstehen oder die Technik in andere Ubisoft-Titel einfließt, ist offen.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/ubisoft-reports-254-million-loss-net-bookings-fall/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/ubisoft-layoffs-166-assassins-creed-far-cry-montreal-quebec"
+        },
+        {
+          "name": "VGC",
+          "url": "https://www.videogameschronicle.com/news/ubisoft-has-founded-a-studio-dedicated-to-generative-ai-in-games/"
+        }
+      ],
+      "tags": [
+        "Ubisoft",
+        "Quartalszahlen",
+        "Entlassungen",
+        "Motherbrain",
+        "Generative KI",
+        "Assassin's Creed"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Documentary-style scene of an empty modern game studio open-plan office at golden hour: rows of desks with dark monitors, a few cardboard moving boxes on chairs, a whiteboard wiped clean, warm low sunlight streaming through tall windows across the floor, cool shadows, muted terracotta accent from a single office chair. No people, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-ubisoft-halbjahr-verlust-motherbrain.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.398Z"
+      },
+      "id": "2026-11-19-zen6-desktop-nach-computex",
+      "datum": "2026-11-19T17:59:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Gerücht: AMDs Desktop-Prozessoren mit Zen 6 (Olympic Ridge) sollen wegen eines Wechsels auf TSMC N2X erst nach der Computex 2027 erscheinen",
+      "schlagzeile": "Leak: Zen 6 für Desktop-PCs soll sich bis nach der Computex 2027 verspäten",
+      "kurz": "Laut einem Leaker im chinesischen Forum Chiphell soll AMD seine Desktop-CPUs mit Zen 6 auf TSMCs Fertigung N2X umgestellt haben. Dadurch rutsche der Start hinter die Computex Anfang Juni 2027. AMD hat das nicht bestätigt.",
+      "zusammenfassung": "Die Angabe stammt vom Chiphell-Nutzer Zhang Zhonghao und wurde von Wccftech und TechPowerUp aufgegriffen. Demnach soll Olympic Ridge, so der Codename der Desktop-Reihe, nicht mehr auf N2 oder N2P setzen, sondern auf N2X, eine auf hohe Taktraten ausgelegte 2-nm-Variante. Dieser Wechsel soll den Start über die Computex 2027 hinaus verschieben. Wccftech spekuliert selbst über Juli oder August 2027, betont aber, dass das eigene Vermutung auf Basis früherer Starts ist. Bisher war ein Start im ersten Quartal 2027 mit Vorstellung zur CES erwartet worden; AMD hat den CES-Auftritt bestätigt, aber keine Produkte genannt. Laut TechPowerUp sollen die Server-Chips mit Zen 6 weiter auf N2 und N2P setzen. Unverändert erwartet wird, dass Zen 6 auf dem Sockel AM5 bleibt und bis zu 12 Kerne pro CCD bringt. Bestätigt ist davon nichts, und beide Medien behandeln die Verschiebung ausdrücklich als Gerücht. Sollte es stimmen, hätte Intel mit Nova Lake Anfang 2027 einige Monate allein das Feld der neuen Desktop-Generation.",
+      "zuverlaessigkeit": {
+        "stufe": "niedrig bis mittel",
+        "begruendung": "Einzelne Quelle aus dem Chiphell-Forum, keine Bestätigung durch AMD oder Zulieferer; Wccftech und TechPowerUp geben nur den Forenbeitrag wieder und nennen den Termin selbst Gerücht."
+      },
+      "ursprungsquelle": "Zhang Zhonghao im Forum Chiphell",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/amd-zen-6-olympic-ridge-desktop-cpus-reportedly-slip-past-computex-2027-after-a-switch-to-tsmcs-performance-focused-n2x-2nm-process/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/355030/amd-zen-6-for-desktop-reportedly-pushed-to-computex-2027"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "Olympic Ridge",
+        "TSMC N2X",
+        "AM5",
+        "Computex 2027"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded desktop CPU in its plastic clamshell lying next to an empty AM5-style motherboard socket with the retention bracket open, on a warm wooden desk with a paper wall calendar slightly out of focus showing blank squares, late-morning window light, muted dusty-teal accent from a thermal paste tube cap. No readable text, no logos, no numbers.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-zen6-desktop-nach-computex.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.910Z"
+      },
+      "id": "2026-11-19-gta6-japan-zensur",
+      "datum": "2026-11-19T17:32:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Japanische Version von GTA 6 entschärft Blut, Verstümmelungen und Nacktheit ohne Option zum Zurückstellen",
+      "schlagzeile": "GTA 6 in Japan: Weniger Blut, keine Enthauptungen, Badekleidung unter der Dusche",
+      "kurz": "Die japanische Fassung von GTA 6 ist bei Gewalt und Nacktheit deutlich entschärft. Blut und Verletzungen sind abgeschwächt, Enthauptungen fehlen, und Jason und Lucia duschen in Badekleidung. Anders als in anderen Regionen lässt sich das nicht in den Optionen ändern.",
+      "zusammenfassung": "Laut VGC zeigen Screenshots und Videos aus Japan, dass Blut und Gore stark reduziert sind. Die japanische Seite GameSpark hat eine ausführliche Übersicht der Änderungen veröffentlicht, darunter weniger Blut bei verletzten und besiegten Gegnern und komplett entfernte Enthauptungen. Bei Nacktheit greift die Fassung ebenfalls ein: Beim Duschen tragen die Hauptfiguren Badekleidung, während sie in anderen Regionen nackt sind. Spielerisch bleibt das Spiel nach bisherigen Berichten genauso gewalttätig, die Änderungen sind kosmetisch. In anderen Regionen lassen sich Blut und Gore in den Anzeige-Einstellungen selbst herunterregeln und Verstümmelungen abschalten, in Japan gibt es keine Möglichkeit, sie hochzustellen. Erwartet worden war die Zensur, weil die japanische Version eine etwas kleinere Dateigröße hat. Das gilt laut VGC allerdings auch für Neuseeland und Australien, ohne dass dort bisher drastische Änderungen bekannt sind. Rockstar selbst hat sich zu den Unterschieden nach den vorliegenden Berichten nicht geäußert. Für Spieler in Deutschland und Österreich gibt es keine Hinweise auf eine geschnittene Fassung.",
+      "quelle": {
+        "name": "VGC",
+        "url": "https://www.videogameschronicle.com/news/japan-censors-gta-6s-violence-and-nudity-including-jason-in-the-shower/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Japan",
+        "Zensur",
+        "Rockstar",
+        "CERO"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Original scene: a quiet Tokyo-style side street at dusk with small shops and a game store window, the window display showing a few blank generic game boxes with plain covers and no artwork, warm shop lights against cool blue evening sky, wet pavement reflections, a lone cyclist blurred in motion in the distance. No readable text, no logos, no signs with letters, no recognizable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-gta6-japan-zensur.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.113Z"
+      },
+      "id": "2026-11-19-fallout-wasteland-full-of-cats",
+      "datum": "2026-11-19T17:09:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Fallout"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Australische Altersfreigabe listet das unangekündigte Wimmelbild-Spiel „A Wasteland Full of Cats“ des Studios Devcats, laut Beschreibung in Partnerschaft mit Bethesda und der Fallout-Reihe",
+      "schlagzeile": "Leak: Kommt ein Fallout-Wimmelbildspiel, in dem man Katzen sucht?",
+      "kurz": "Bei der australischen Prüfstelle für Altersfreigaben ist ein Spiel namens „A Wasteland Full of Cats“ aufgetaucht. Laut Beschreibung sucht man darin entlaufene Katzen aus einer Vault im Ödland, entwickelt vom brasilianischen Studio Devcats in Partnerschaft mit Bethesda. Angekündigt ist das Spiel nicht.",
+      "zusammenfassung": "Entdeckt haben den Eintrag Nutzer im Fallout-Subreddit, PC Gamer hat darüber berichtet. Laut der Beschreibung der Prüfstelle spielt man eine der Katzen aus einer Vault: Nach einem Unfall entkommen alle Katzen ins Ödland, und man muss sie mit Hilfe einiger Figuren wiederfinden und zurückbringen. Genannt werden 14 Orte und 33 Räume plus eine Vault mit bekannten Schauplätzen aus der Fallout-Reihe sowie leichte Rätsel, die versteckte Level freischalten. Devcats ist für die Spielreihe „Full of Cats“ bekannt, einfache Wimmelbildspiele, in denen man Katzen in Zeichnungen sucht. Der Eintrag spricht ausdrücklich von einer Partnerschaft mit Bethesda und der Fallout-Marke. Bethesda und Devcats haben sich bisher nicht geäußert, Plattformen, Preis und Termin sind unbekannt. PC Gamer hält den Eintrag für glaubwürdig, weil die Prüfstelle nicht für Scherze bekannt ist, stellt aber selbst offen, ob alles so kommt. Ein großes neues Fallout-Spiel ist das in keinem Fall, eher ein kleiner Ableger.",
+      "zuverlaessigkeit": {
+        "stufe": "mittel bis hoch",
+        "begruendung": "Offizieller Eintrag der Australian Classification Board, aber keine Ankündigung durch Bethesda oder Devcats; Details stammen nur aus der Freigabebeschreibung."
+      },
+      "ursprungsquelle": "Australian Classification Board (entdeckt im Fallout-Subreddit)",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/fallout/a-new-fallout-game-has-been-rated-in-australia-and-its-a-hidden-object-game/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Fallout",
+        "Bethesda",
+        "Devcats",
+        "A Wasteland Full of Cats",
+        "Altersfreigabe"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Original scene: a curious tabby cat peeking out from behind a rusty retro-futuristic metal barrel in a sunlit post-apocalyptic desert junkyard, overgrown weeds, an old round bunker door half buried in the sand in the background with no symbols or numbers, warm golden late-afternoon light and cool blue shadows, slight dust in the air. No text, no logos, no numbers, no recognizable game characters or emblems.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-fallout-wasteland-full-of-cats.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.808Z"
+      },
+      "id": "2026-11-19-gta6-neuseeland-trick",
+      "datum": "2026-11-19T16:40:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Ampere Analysis: Rund 2,1 Millionen Xbox-Spieler aus den USA und Großbritannien nutzten den „Neuseeland-Trick“, um GTA 6 früher zu spielen; Sensor Tower schätzt rund 20 Millionen Vorbestellungen",
+      "schlagzeile": "GTA 6: Über zwei Millionen Xbox-Fans „zogen“ für den Frühstart nach Neuseeland",
+      "kurz": "Laut Ampere Analysis haben rund 1,5 Millionen Xbox-Nutzer in den USA und 600.000 in Großbritannien ihre Konsolenregion auf Neuseeland umgestellt, um GTA 6 vorzeitig zu starten. Weil das Spiel überall um Mitternacht Ortszeit freigeschaltet wurde, war Neuseeland zuerst dran. Auf PlayStation war der Trick deutlich aufwendiger und seltener.",
+      "zusammenfassung": "Rockstar hat GTA 6 am 19. November weltweit jeweils um Mitternacht Ortszeit freigeschaltet. Auf der Xbox genügt eine Änderung der Region in den Einstellungen, um im neuseeländischen Store zu landen und das Spiel so viele Stunden früher zu spielen. Ampere Analysis zählte neben den USA und Großbritannien auch rund 200.000 Spieler in Kanada, 200.000 in Brasilien und 100.000 in Mexiko. Auf PlayStation braucht es ein neues Konto mit Region Neuseeland und passendes Guthaben; dort nutzten laut Ampere nur etwa 100.000 Spieler in den USA den Trick. Das Vorgehen verstößt formal gegen die Nutzungsbedingungen, Microsoft und Sony sind bisher aber nicht dagegen vorgegangen. Das neuseeländische Tourismusamt begrüßte die virtuellen Besucher sogar mit einem Augenzwinkern auf Instagram. Laut IGN Deutschland schätzt Sensor Tower, dass GTA 6 bis zum 16. November rund 17 Millionen Mal vorbestellt war und vor dem Start etwa 20 Millionen erreicht haben dürfte. Offizielle Verkaufszahlen haben Rockstar und Take-Two noch nicht genannt. Alle Zahlen stammen von Analysefirmen und sind Schätzungen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/2-million-people-new-zealand-gta-6-early"
+        },
+        {
+          "name": "IGN Deutschland",
+          "url": "https://de.ign.com/grand-theft-auto-vi/157399/gta-6-soll-vor-dem-start-bereits-20-millionen-vorbestellungen-erreicht-haben"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Xbox",
+        "Neuseeland-Trick",
+        "Ampere Analysis",
+        "Sensor Tower",
+        "Vorbestellungen"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Original scene: a young adult gamer seen from behind and slightly to the side, sitting on a couch late at night, holding an unbranded generic game controller, the TV screen showing a blurred sunrise over green coastal hills and a sea with no interface, a warm table lamp on one side and cool blue screen light on the other, a world map poster out of focus on the wall without readable text. No logos, no text, no recognizable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-gta6-neuseeland-trick.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.513Z"
+      },
+      "id": "2026-11-19-rtx-spark-mini-pcs",
+      "datum": "2026-11-19T16:13:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "PC-Systeme"
+      ],
+      "kategorie": "PC-Systeme",
+      "titel": "Erste Mini-PCs mit Nvidia RTX Spark N1X von Asus, Dell und MSI sind erhältlich; Asus verlangt für den ProArt GR1X mit 128 GB und 4 TB 9.299 Euro",
+      "schlagzeile": "RTX Spark kommt als Mini-PC – Asus verlangt bis zu 9.299 Euro",
+      "kurz": "Nach den Notebooks gibt es Nvidias Arm-Plattform RTX Spark jetzt auch als kompakte Desktop-PCs von Asus, Dell und MSI. Alle nutzen den größeren N1X-Chip mit bis zu 128 GB gemeinsamem Speicher. Der Asus ProArt GR1X kostet in Topausstattung 9.299 Euro und bietet als Besonderheit einen zweiten M.2-Steckplatz.",
+      "zusammenfassung": "Nvidia bewirbt die Mini-PCs als dauerhaft laufende Rechner für lokale KI-Agenten, Bild- und Videoerzeugung und das Feintuning von Modellen unter Windows. Laut Thurrott steckt in allen Geräten der N1X mit 20 CPU-Kernen und 6.144 GPU-Kernen, dazu bis zu 128 GB Unified Memory und 10-Gbit-Ethernet. Anders als bei DGX Spark lassen sich mehrere Geräte nicht zusammenschalten. ComputerBase hat den MSI EdgeMesa N AI+ mit 128 GB und 4-TB-SSD für 7.999 Euro getestet; Asus nimmt für dieselbe Ausstattung 9.299 Euro. Dafür nutzt Asus ein eigenes Platinenlayout mit einem zweiten M.2-Slot im Format 2280, sodass bis zu 12 TB SSD-Speicher möglich sind. Außerdem kühlt Asus mit Kupfer und fünf Heatpipes, was das Gewicht auf 1,48 Kilogramm treibt, gegenüber 0,55 Kilogramm beim MSI. Acer, Gigabyte, HP und Microsoft mit einer Surface RTX Spark Dev Box sollen ähnliche Geräte folgen lassen. Thurrott hatte die Plattform in seinem Notebook-Test noch kritisch bewertet und sieht im Desktop-Format zumindest einen sinnvolleren Einsatzzweck. Für klassisches Gaming sind die Geräte nicht gedacht, sie zielen auf KI-Entwickler und Kreative.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/pc-systeme/proart-gr1x-mit-rtx-spark-fuer-9-299-euro-liefert-asus-kupfer-und-einen-zweiten-m-2-slot.100413/"
+      },
+      "weitere_links": [
+        {
+          "name": "Thurrott.com",
+          "url": "https://www.thurrott.com/hardware/344087/first-nvidia-rtx-spark-desktops-start-shipping-today"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "RTX Spark",
+        "N1X",
+        "Asus ProArt GR1X",
+        "MSI EdgeMesa",
+        "Mini-PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact unbranded square mini PC with a brushed metal shell standing on a warm wooden desk next to a small monitor with a blurred unreadable screen and a coiled network cable, the lid of a second identical box removed beside it showing a copper heatsink with heatpipes and a blower fan, late-morning window light, muted olive accent from a ceramic cup. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-rtx-spark-mini-pcs.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.360Z"
+      },
+      "id": "2026-11-19-amd-adrenalin-26-11-2",
+      "datum": "2026-11-19T15:04:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "AMD",
+        "Treiber"
+      ],
+      "kategorie": "Treiber",
+      "titel": "AMD Adrenalin 26.11.2 WHQL behebt den SSD-Schreibfehler nun auch für Radeon RX 5000 und RX 6000 unter Windows 10, bringt ROCm 10.2 und behebt deaktiviertes Smart Access Memory",
+      "schlagzeile": "Radeon-Treiber 26.11.2: SSD-Bug jetzt auch auf RX 5000 und RX 6000 behoben",
+      "kurz": "AMD hat den WHQL-Treiber Adrenalin 26.11.2 veröffentlicht. Er behebt die übermäßigen Schreibzugriffe auf das Systemlaufwerk im Leerlauf jetzt auch für Radeon RX 5000 und RX 6000 unter Windows 10. Für RX 7000 und RX 9000 gab es den Fix schon mit 26.11.1.",
+      "zusammenfassung": "Der Fehler steckte im Treiberdienst AMD External Events Utility und konnte laut PCGH im schlimmsten Fall mehrere hundert Gigabyte Schreibvorgänge pro Tag verursachen. Mit 26.11.2 sind damit alle RDNA-Grafikkarten seit 2019 abgedeckt. Außerdem behebt der Treiber, dass Smart Access Memory nach der Installation unter Windows 10 deaktiviert sein konnte. Weitere Korrekturen betreffen ein Speicherleck ab RX 5000, bei dem Programme mit der Zeit immer langsamer starten, Abstürze beim Streamen mit OBS Studio auf RX 9000 und Treiber-Timeouts in War Thunder auf RX 5000. Neu sind die Unterstützung für ROCm 10.2, Phantom Blade Zero und die Crimson-Desert-Erweiterung Charting the Unknown. Bekannte Probleme bleiben: Crimson Desert startet auf RX 6000 unter Umständen nicht, hier empfiehlt AMD, bei 26.11.1 zu bleiben. In Assassin's Creed Black Flag Resynced kann es auf RX 7000 zu Abstürzen kommen. Wer eine RX 5000 oder RX 6000 unter Windows 10 nutzt, sollte das Update wegen des SSD-Fehlers einspielen.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355010/amd-software-adrenalin-26-11-2-whql-drivers-released"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/AMD-Radeon-Grafikkarte-255597/News/SSD-Schreibvorgaenge-Treiber-Bug-Release-Changelog-1560545/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Adrenalin 26.11.2",
+        "Treiber",
+        "SSD-Bug",
+        "Radeon RX 6000",
+        "ROCm"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded desktop graphics card with two visible axial fans installed in an open PC case on a warm wooden desk, an M.2 SSD visible on the motherboard below it, a laptop beside the case with a blurred unreadable progress bar on screen, late-morning window light, muted terracotta accent from a screwdriver handle. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-amd-adrenalin-26-11-2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.460Z"
+      },
+      "id": "2026-11-19-windows7-treiber-rtx50-rx9000",
+      "datum": "2026-11-19T14:45:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber",
+        "Windows"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Hobby-Entwickler portieren aktuelle Grafiktreiber von AMD, Nvidia und Intel auf Windows 7; damit sollen erstmals Radeon RX 7000/9000, GeForce RTX 40/50 und neuere Intel-Grafik unter Windows 7 laufen",
+      "schlagzeile": "Sechs Jahre nach Support-Ende: RTX 5090 und RX 9070 XT laufen unter Windows 7",
+      "kurz": "Eine kleine Gruppe privater Entwickler hat Windows-10-Grafiktreiber von AMD, Nvidia und Intel so umgebaut, dass sie unter Windows 7 funktionieren. Damit lassen sich erstmals Karten wie die Radeon RX 9070 XT oder die GeForce RTX 5090 unter dem alten System nutzen. Es handelt sich um ein inoffizielles Projekt mit bisher sehr wenigen Tests.",
+      "zusammenfassung": "Laut PCGH haben die Entwickler den AMD-Treiber Adrenalin 25.8.1, eine Variante von 26.5.2 für Polaris und Vega, einen Intel-Treiber vom Stand Juni 2024 und den GeForce-Treiber 582.35 portiert. Dazu wurden Treiber vom Modell WDDM 2.x auf das ältere Treibermodell von Windows 7 übertragen. Offiziell hatte AMD die Windows-7-Unterstützung nach der RX-6000-Serie eingestellt, Nvidia vor der RTX-40-Generation, und Intel unterstützt nicht einmal die Grafik der Core-i-8000-Generation unter Windows 7. Hinter dem Projekt stehen laut PCGH zwei griechische Entwickler aus der Hackintosh-Szene, als Sprachrohr tritt der X-Account TheBobPony auf. Die Portierung sei von Hand und ohne KI entstanden. Getestet wurde bisher nur mit der UHD 770 eines Core i5-14500, einer GeForce RTX 5060 und einer Radeon RX 9060 XT. Zur Treiberqualität gibt es keine Versprechen, PCGH bereitet einen eigenen Test vor. Windows 7 bekommt seit 2020 keine regulären Sicherheitsupdates mehr, für den Alltag im Internet ist das System daher keine gute Wahl. Interessant ist das Projekt vor allem für Retro-Fans und Bastler mit alten Spielen oder Programmen.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/PCGH-Retro-Thema-284165/News/wddm2-grafiktreiber-fuer-windows-7-supporten-rx9000-rtx50-und-Xe-1560535/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 7",
+        "Grafiktreiber",
+        "WDDM",
+        "RTX 5090",
+        "RX 9070 XT",
+        "Retro"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An older beige-and-grey PC tower with its side panel off on a warm wooden workbench, a modern unbranded graphics card with two visible axial fans installed inside looking slightly oversized, an old CRT-era keyboard in front, a CRT-style monitor in the background showing a blurred unreadable desktop, late-afternoon window light, muted olive accent from a vintage desk lamp. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-windows7-treiber-rtx50-rx9000.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.686Z"
+      },
+      "id": "2026-11-19-powershell-7-windows",
+      "datum": "2026-11-19T14:01:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft liefert PowerShell 7 ab der nächsten Windows-Version mit und kündigt Windows PowerShell 5.1 ab; Windows 11 26H2 und Server 2025 sind die letzten Versionen mit fest integrierter 5.1",
+      "schlagzeile": "Windows bekommt PowerShell 7 fest eingebaut – das Aus für 5.1 ist eingeleitet",
+      "kurz": "Microsoft will PowerShell 7 ab der nächsten Windows-Version mitliefern und hat die alte Windows PowerShell 5.1 abgekündigt. Sie bleibt zunächst als optionales Feature verfügbar und bekommt weiter Sicherheitsupdates. Wann sie ganz verschwindet, steht noch nicht fest.",
+      "zusammenfassung": "PowerShell-Produktmanager Jason Helmick hat die Pläne im PowerShell-Blog vorgestellt, eine konkrete Windows-Versionsnummer nennt Microsoft nicht. Laut heise sind Windows Server 2025 und Windows 11 26H2 die letzten Versionen mit fest integrierter PowerShell 5.1. In der nächsten Version wird 5.1 zu einem Feature on Demand, das bei Neuinstallationen aber standardmäßig aktiviert sein soll. Abgekündigt heißt nicht Support-Ende: Neue Funktionen gibt es nicht mehr, Sicherheitsupdates laufen entsprechend dem Lebenszyklus der jeweiligen Windows-Version weiter. Über die endgültige Entfernung will Microsoft anhand von Nutzungsdaten entscheiden und das vorher ankündigen. Beide Versionen können parallel laufen, volle Kompatibilität ist aber nicht garantiert, weil 5.1 auf dem .NET Framework und 7 auf dem plattformübergreifenden .NET basiert. Administratoren sollen deshalb prüfen, welche Skripte und Aufgaben noch powershell.exe statt pwsh.exe aufrufen. PowerShell 7 kommt als MSIX-Paket, dem noch Funktionen fehlen, etwa die Ausführung unter dem SYSTEM-Konto. Für normale Nutzer ändert sich zunächst wenig, für Admins und Skript-Bastler ist es ein klarer Arbeitsauftrag.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Microsoft-bringt-PowerShell-7-fest-in-kuenftige-Windows-Versionen-11530777.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows",
+        "PowerShell 7",
+        "PowerShell 5.1",
+        "Windows 11 26H2",
+        "Windows Server"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a warm wooden desk with a dark terminal window on screen showing blurred unreadable lines, a second small monitor out of focus, a mechanical keyboard and a paper checklist with blank lines and a pen, late-morning window light, muted olive accent from a desk plant. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-powershell-7-windows.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.251Z"
+      },
+      "id": "2026-11-19-anno117-patch-3-0-1",
+      "datum": "2026-11-19T13:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Anno 117"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Anno 117: Pax Romana erhält Update 3.0.1 mit besserer Performance auf PS5, weniger Abstürzen, Fehlerbehebungen und mehr Hafenfläche in Aegyptus",
+      "schlagzeile": "Anno 117: Neuer Patch macht die PS5-Fassung runder – mit Nebenwirkungen",
+      "kurz": "Für Anno 117: Pax Romana ist seit dem 18. November das Update 3.0.1 für PC, PS5 und Xbox Series X/S verfügbar. Es soll extreme Framerate-Einbrüche auf der PS5 seltener machen, die CPU entlasten und viele Fehler beheben. Ubisoft warnt aber selbst vor einigen neuen Problemen.",
+      "zusammenfassung": "Laut PC Games betrifft der Patch auch die kürzlich erschienene Erweiterung „Erwachen des Deltas“. Bei der Performance verspricht Ubisoft seltenere starke Einbrüche der Bildrate auf der PS5 und eine geringere CPU-Last, was vor allem großen Spielständen helfen soll. Dazu kommen Korrekturen gegen Speicherprobleme und Freezes auf Konsolen sowie gegen Abstürze mit bestimmten Intel-Arc-Grafikkarten. Unter Dutzenden weiteren Fehlerbehebungen nennt PC Games fehlerhafte Schiffsrouten und Probleme mit Spezialisten. Spielerisch gibt es auf drei Inseln im Norden von Aegyptus mehr Küstenfläche für Hafengebäude, damit sich Handelsknoten leichter bauen lassen. Außerdem wurde das Baumenü in Latium überarbeitet, Zisternen in Aegyptus zeigen ihren Bewässerungsbereich an, und die Boni mehrerer Getreidespeicher lassen sich nicht mehr stapeln. Ubisoft listet zugleich bekannte neue Fehler, die mit dem Patch auftreten können. Wer große Spielstände hat, sollte die Änderung bei den Getreidespeichern im Blick behalten, weil sie die Versorgung verändern kann.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Anno-117-Pax-Romana-Spiel-74719/News/Patch-Update-Bugs-Performance-PS5-1560543/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Anno 117",
+        "Pax Romana",
+        "Patch",
+        "Ubisoft",
+        "PS5"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Original scene in the style of a documentary history illustration: an ancient Mediterranean harbor on a river delta at golden hour, wooden merchant ships with furled sails at stone quays, workers carrying amphorae and grain sacks, a small lighthouse and warehouses with terracotta roofs, irrigation canals and palm trees in the background, warm sunlight and cool blue water. Construction and trade only, no battle. No text, no logos, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-anno117-patch-3-0-1.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.805Z"
+      },
+      "id": "2026-11-19-microsoft-agent-framework-malware",
+      "datum": "2026-11-19T12:55:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Angreifer schleusen Infostealer in die Versionen 1.26.1 und 1.26.2 des Python-Pakets von Microsofts Agent Framework ein; Zugangsdaten zu Azure, Git, Docker und Hugging Face gefährdet",
+      "schlagzeile": "Malware in Microsofts KI-Framework: Betroffene Entwickler müssen handeln",
+      "kurz": "In zwei Versionen des Python-Pakets von Microsofts Agent Framework steckte ein Infostealer. Er greift Zugangsdaten zu Diensten wie Azure, Git, Docker und Hugging Face ab. Wer die Versionen 1.26.1 oder 1.26.2 installiert hat, sollte Systeme isolieren und alle Zugänge erneuern.",
+      "zusammenfassung": "Mit dem Agent Framework bauen Entwickler eigene KI-Agenten in Python, .NET und Go; die Pakete werden laut heise im Schnitt rund 200.000 Mal im Monat heruntergeladen. Entdeckt haben die Malware die Sicherheitsfirma OX Security und die Seite Opensource Malware. Im Python-Paket lag eine Datei namens agent_framework_meta.pth, deren eine Zeile bei jedem Start von Python ausgeführt wird. So konnte sich der Schadcode über mehrere Python-Projekte hinweg festsetzen. Microsoft stufte die zuerst infizierte Version 1.26.1 auf die saubere 1.26.0 zurück, danach gelang den Angreifern aber noch der Upload von 1.26.2 mit einem anderen Startmechanismus und demselben Infostealer. OX Security vermutet, dass die Angreifer an Microsoft-Zugänge zum Paketverzeichnis gekommen sind; bestätigt ist das nicht. Microsoft sagte The Register, man untersuche den Angriff, und stellte vorübergehend einige GitHub-Repositorys auf privat. Betroffene sollen laufende Projekte stoppen, infizierte Systeme isolieren, alle dort genutzten Zugangsdaten erneuern und die betroffenen Dienste auf fremde Aktivitäten prüfen. Für normale Windows-Nutzer besteht kein direkter Handlungsbedarf, betroffen sind Entwickler mit dem Paket.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Microsofts-KI-Framework-verteilt-Malware-So-bekamen-Angreifer-Zugang-11530977.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/cybercriminals-compromise-microsofts-agent-framework-pypi-package-to-steal-credentials/"
+        }
+      ],
+      "tags": [
+        "Microsoft",
+        "Agent Framework",
+        "PyPI",
+        "Supply-Chain-Angriff",
+        "Infostealer",
+        "Python"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A developer workstation on a warm wooden desk: a laptop with a blurred unreadable code editor, an unplugged network cable lying deliberately beside it, a USB security key and a paper notepad with blank lines, late-afternoon window light, muted terracotta accent from a mug. No people, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-microsoft-agent-framework-malware.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.568Z"
+      },
+      "id": "2026-11-19-edge-lockdown-webgpu",
+      "datum": "2026-11-19T12:46:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Sicherheit"
+      ],
+      "kategorie": "Browser",
+      "titel": "Microsoft testet in Edge Canary einen Lockdown-Modus, der WebGL, WebGL2 und WebGPU abschaltet, um Angriffe über den GPU-Prozess zu erschweren",
+      "schlagzeile": "Edge testet Lockdown-Modus: WebGL und WebGPU werden zum Schutz abgeschaltet",
+      "kurz": "Microsoft entwickelt für den Browser Edge einen optionalen Lockdown-Modus nach dem Vorbild von Apple. In der ersten Testversion blockiert er die Grafik-Schnittstellen WebGL, WebGL2 und WebGPU, über die Angreifer aus der Sandbox ausbrechen könnten. Browserspiele und interaktive Karten funktionieren dann womöglich nicht mehr richtig.",
+      "zusammenfassung": "Laut BleepingComputer baut der Modus auf dem erweiterten Sicherheitsmodus von Edge auf, der bereits die JIT-Kompilierung in der JavaScript-Engine V8 abschaltet. Gedacht ist er für besonders gefährdete Nutzer wie Journalisten, Führungskräfte, Sicherheitsforscher und Administratoren, die für mehr Schutz Kompatibilitätsprobleme in Kauf nehmen. Die ersten Schutzmaßnahmen zielen auf den GPU-Prozess, eine höher privilegierte Komponente, die komplexe Grafikaufgaben zwischen Browsercode, Bibliotheken und Gerätetreibern abwickelt. Nach Microsofts Schätzung hätte der Modus rund 60 Prozent der Angriffe zur Rechteausweitung blockiert, die in freier Wildbahn gegen Edge-Nutzer beobachtet wurden. Testen lässt er sich in Edge Canary über das Flag edge-sdsm-plus und den strengen Sicherheitsmodus mit blockierter WebGL- und WebGPU-Grafik. In der Adressleiste erscheint dann ein Hinweis, wenn eine Seite betroffen ist. Microsoft will den Modus in kommenden Versionen erweitern und Ausnahmen für vertrauenswürdige Seiten ermöglichen. Für normale Nutzer und Spieler ändert sich nichts, solange sie den Modus nicht selbst einschalten. Wann er in die stabile Edge-Version kommt, ist offen.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Microsoft Edge",
+        "Lockdown-Modus",
+        "WebGPU",
+        "WebGL",
+        "GPU-Prozess",
+        "Sicherheit"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a warm wooden desk showing a blurred unreadable web page with a soft grey placeholder where a 3D map would be, a small brass padlock lying next to the trackpad, a cup of tea and a notebook beside it, late-morning window light, muted dusty-teal accent from the notebook cover. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-edge-lockdown-webgpu.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:31.002Z"
+      },
+      "id": "2026-11-19-gta6-ps5-pro-cpu-30fps",
+      "datum": "2026-11-19T11:11:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "PlayStation"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Rockstar-Technikchef Marc Chambers: Die CPU der PS5 Pro ist zu schwach, um die Simulation von GTA 6 mit höheren Bildraten zu berechnen; kein 60-fps-Modus auf aktuellen Konsolen",
+      "schlagzeile": "Rockstar erklärt die 30 fps: Die CPU der PS5 Pro reicht für GTA 6 nicht aus",
+      "kurz": "Rockstar hat bestätigt, dass GTA 6 auch auf der PS5 Pro bei 30 Bildern pro Sekunde bleibt. Laut Technikchef Marc Chambers ist der Prozessor der Konsole nur wenig stärker als der der normalen PS5 und reicht nicht, um die komplexe Simulation mit mehr Bildern zu berechnen. Einen Performance-Modus wird es auf den aktuellen Konsolen damit nicht geben.",
+      "zusammenfassung": "Chambers, Technology Production Director bei Rockstar, äußerte sich gegenüber Kotaku, Wccftech hat die Aussagen aufgegriffen. Die Grundfassung nutzt laut Chambers raytracing-basierte Reflexionen und globale Beleuchtung. Auf der PS5 Pro kommen raytracing-basierte Schatten und eine schärfere Darstellung über Sonys Upscaler PSSR hinzu. Die stärkere Grafikeinheit der Pro werde also für Bildqualität genutzt, der Prozessor sei aber nur leicht besser als in der Standard-PS5. Er sei nicht stark genug, um die komplexe Simulation des Spiels mit höheren Bildraten laufen zu lassen. Damit erteilt Rockstar Wünschen nach einem 40- oder 60-fps-Modus mit reduzierter Grafik eine Absage. Wccftech sieht darin auch eine Antwort auf Vorwürfe schlechter Optimierung und verweist auf die gealterten Zen-2-Prozessoren der aktuellen Konsolen. Laut Wccftech-Test erreichen PS5, Xbox Series X und Series S die 30 fps nicht immer stabil. Höhere Bildraten dürfte es damit erst mit einer PC-Version oder der nächsten Konsolengeneration geben; einen Termin für eine PC-Fassung hat Rockstar weiterhin nicht genannt.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/rockstar-ps5-pro-cpu-not-powerful-grand-theft-auto-vi-complex-simulation-60-fps-hopes/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "PS5 Pro",
+        "30 fps",
+        "Rockstar",
+        "Zen 2",
+        "PSSR"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded white-and-black game console standing upright on a warm wooden TV sideboard, its side panel removed beside it revealing a cooling fan and heatsink, a generic controller lying in front, late-afternoon window light, muted dusty-teal accent from a cushion on a sofa out of focus. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-gta6-ps5-pro-cpu-30fps.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.618Z"
+      },
+      "id": "2026-11-19-trendforce-nand-2027",
+      "datum": "2026-11-19T10:58:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "TrendForce erwartet ab dem ersten Quartal 2027 sinkende NAND-Vertragspreise um 0 bis 5 Prozent, ab dem zweiten Quartal für alle Produktgruppen; Grund sind gekürzte SSD-Bestellungen chinesischer Cloud-Anbieter",
+      "schlagzeile": "Marktforscher: SSD-Speicher soll 2027 wieder billiger werden",
+      "kurz": "Laut TrendForce kippt der NAND-Markt 2027 ins Überangebot. Die Vertragspreise sollen im ersten Quartal 2027 um 0 bis 5 Prozent fallen, ab dem zweiten Quartal in allen Produktgruppen. Für Endkunden ist das eine Prognose, keine Preissenkung im Laden.",
+      "zusammenfassung": "TrendForce begründet die Wende vor allem mit China: Dortige Cloud-Anbieter haben ihre Bestellungen für Server-SSDs für 2027 stärker gekürzt, als US-Anbieter zusätzlich bestellen. Gleichzeitig soll das Angebot an NAND-Bits 2027 um 25 bis 30 Prozent wachsen, etwa durch mehr QLC-Speicher und Chips mit mehr Lagen. Die Investitionen der Branche steigen laut Prognose um 26,7 Prozent auf 29,9 Milliarden Dollar. Schon im vierten Quartal 2026 hat TrendForce den erwarteten Anstieg der Vertragspreise auf 8 bis 13 Prozent gesenkt, die Spotpreise sind zuletzt um mehr als 20 Prozent gefallen. Bei Endgeräten erwartet TrendForce dagegen 2027 eher steigende Preise, weil günstige Speicherbestände aufgebraucht sind und Hersteller Speicherausstattungen verkleinern. heise sieht darin erste Anzeichen, dass SSD-Preise Anfang 2027 sinken könnten. Unsicher bleibt laut TrendForce, wie schnell China Lagerbestände abbaut, wie sich GPU-Exportregeln ändern und welche Folgen die US-Politik nach den Zwischenwahlen für geplante Rechenzentren hat. Ladenpreise reagieren ohnehin erst mit Verzögerung auf Vertragspreise. Für Arbeitsspeicher (DRAM) trifft die Prognose keine Aussage.",
+      "quelle": {
+        "name": "TrendForce via TechPowerUp",
+        "url": "https://www.techpowerup.com/355022/nand-flash-prices-set-to-decline-in-2027-as-chinese-csp-order-cuts-outweigh-north-american-demand-growth"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/SSD-Preise-koennten-Anfang-2027-sinken-Erste-Anzeichen-fuer-Nachfrage-Rueckgang-11530781.html"
+        }
+      ],
+      "tags": [
+        "TrendForce",
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "2027"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several bare unbranded M.2 SSD sticks fanned out on a sheet of graph paper with a hand-drawn downward curve in pencil and no numbers, on a warm honey-toned wooden desk, gold contacts on one short edge only, late-morning window light, muted dusty-teal accent from a paper clip tray. No readable text, no logos, no digits.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-trendforce-nand-2027.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T06:56:30.173Z"
+      },
+      "id": "2026-11-19-nvidia-gentlemen-ransomware",
+      "datum": "2026-11-19T10:23:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Ransomware-Gruppe The Gentlemen listet Nvidia auf ihrer Leak-Seite und droht mit Datenveröffentlichung am 28. November; Nvidia prüft einen möglichen Vorfall bei einem externen Partner",
+      "schlagzeile": "Erpresser drohen Nvidia mit Datenleck – Countdown läuft bis 28. November",
+      "kurz": "Die Ransomware-Gruppe The Gentlemen führt Nvidia seit Mittwoch auf ihrer Erpresserseite im Darknet und droht mit der Veröffentlichung angeblich erbeuteter Daten, ein Countdown läuft bis Ende kommender Woche. Belege für einen Angriff hat die Gruppe bisher nicht gezeigt. Nvidia untersucht nach eigener Aussage einen möglichen Vorfall bei einem Drittanbieter und hat keine Hinweise auf kompromittierte eigene Systeme gefunden.",
+      "zusammenfassung": "Laut BleepingComputer hat die Gruppe The Gentlemen Nvidia auf ihrer Leak-Seite eingetragen und einen Countdown gestartet, der am 28. November endet. Dateilisten, Datenmengen oder andere überprüfbare Nachweise fehlen bislang. Ein Nvidia-Sprecher sagte BleepingComputer, man untersuche einen Vorfall, der möglicherweise einen externen Partner betroffen habe. Hinweise darauf, dass Systeme oder Netzwerke von Nvidia selbst betroffen seien, gebe es nicht, man beobachte die Lage weiter. Welcher Partner gemeint ist, sagt Nvidia nicht. PCGH verweist auf eine Beobachtung des Portals Ransomnews: Die Gruppe führt seit dem 6. Oktober den taiwanischen Zulieferer Jentech Precision Industrial auf ihrer Seite, der sich als Partner des Nvidia-MGX-Ökosystems bezeichnet und Kühlkomponenten für KI-Systeme fertigt. Ob es da einen Zusammenhang gibt, ist offen. The Gentlemen ist seit 2025 aktiv, arbeitet als Ransomware-as-a-Service und setzt auf doppelte Erpressung, also Datendiebstahl plus Verschlüsselung. Auf der Leak-Seite stehen inzwischen über 1.100 angebliche Opfer, was aber nicht gleichbedeutend mit nachgewiesenen Angriffen ist. Nvidia hatte bereits 2022 einen Einbruch durch Lapsus$ und im Mai dieses Jahres ein Datenleck bei einem regionalen GeForce-NOW-Partner bestätigt. Ob am 28. November tatsächlich Daten auftauchen, lässt sich derzeit nicht abschätzen.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/ransomware-erpressung-gentlemen-partner-1560599/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Ransomware",
+        "The Gentlemen",
+        "Datenleck",
+        "Sicherheit"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A server rack aisle in a small data center seen at an angle, one rack door open with neatly bundled network cables, a closed laptop and a paper incident checklist with blank lines on a rolling cart in the foreground, warm daylight falling in from a high window mixing with cool rack light, muted terracotta accent from a padlock on the cart. No people, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-19-nvidia-gentlemen-ransomware.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -245,45 +935,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -314,6 +965,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
@@ -1285,49 +1975,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.014Z"
-      },
-      "id": "2026-11-16-playstation-controller-bezahlen-patent",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PlayStation"
-      ],
-      "kategorie": "Konsolen",
-      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
-      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
-      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
-      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
-      "quelle": {
-        "name": "Golem.de",
-        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
-        }
-      ],
-      "tags": [
-        "Sony",
-        "PlayStation",
-        "Controller",
-        "Patent",
-        "NFC"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.113Z"
       },
       "id": "2026-11-16-intel-sammelklage",
@@ -1362,6 +2009,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.014Z"
+      },
+      "id": "2026-11-16-playstation-controller-bezahlen-patent",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
+      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
+      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
+      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "PlayStation",
+        "Controller",
+        "Patent",
+        "NFC"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
         "ki_generiert": true
       }
     },
@@ -3312,47 +4002,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-13T21:54:38.560Z"
-      },
-      "id": "2026-11-13-word-kompatibilitaet-layout",
-      "datum": "2026-11-13T17:35:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Windows"
-      ],
-      "kategorie": "Software",
-      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
-      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
-      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
-      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Neowin",
-          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
-        }
-      ],
-      "tags": [
-        "Microsoft Word",
-        "Office",
-        "Microsoft 365",
-        "Kompatibilität"
-      ],
-      "bild": {
-        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-13T21:54:38.066Z"
       },
       "id": "2026-11-13-ps5-qssr-sechs-spiele",
@@ -3391,6 +4040,47 @@
       ],
       "bild": {
         "datei": "assets/img/news/2026-11-13-ps5-qssr-sechs-spiele.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-13T21:54:38.560Z"
+      },
+      "id": "2026-11-13-word-kompatibilitaet-layout",
+      "datum": "2026-11-13T17:35:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft entfernt alte Kompatibilitätsoptionen aus Word, ältere Dokumente können ab Dezember ihr Layout verlieren",
+      "schlagzeile": "Word bricht ab Dezember das Layout alter Dokumente – so sicherst du sie",
+      "kurz": "Microsoft streicht einige alte Kompatibilitätseinstellungen aus Word. Dokumente, die mit Word 2010 oder älter gespeichert wurden, können danach anders umbrechen. Unter Windows startet die Umstellung im Dezember 2026, auf dem Mac Anfang 2027.",
+      "zusammenfassung": "Microsoft räumt in Word auf und entfernt einige ältere Kompatibilitätsoptionen. Das berichtet heise unter Berufung auf die Message-Center-Mitteilung MC1551147. Betroffen sind Dokumente, die in Word 2010 oder früher erstellt oder zuletzt gespeichert wurden und diese Einstellungen nutzen. In solchen Dateien kann der Text künftig anders umbrechen. Abstände und Seitenzahlen können sich ändern, Bilder und Formen auf eine andere Seite rutschen. Welche Optionen genau wegfallen, sagt Microsoft nicht. Der Kompatibilitätsmodus selbst bleibt erhalten. Unter Windows läuft die Umstellung im Lauf des Dezembers 2026, auf dem Mac Anfang 2027. Eine Möglichkeit zum Aufschieben nennt Microsoft nicht. Wer auf das exakte Layout angewiesen ist, sollte wichtige alte Dokumente vorher prüfen und als PDF exportieren. Eine Umwandlung ins neue Word-Format hilft laut heise nicht, weil dabei die alten Kompatibilitätseinstellungen ebenfalls verloren gehen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Vorsicht-Umbruch-Word-zerschiesst-bald-das-Layout-alter-Dokumente-11524878.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-is-retiring-some-compatibility-mode-options-in-word-and-old-documents-may-break/"
+        }
+      ],
+      "tags": [
+        "Microsoft Word",
+        "Office",
+        "Microsoft 365",
+        "Kompatibilität"
+      ],
+      "bild": {
+        "datei": "assets/img/news/2026-11-13-word-kompatibilitaet-layout.webp",
         "ki_generiert": true
       }
     },
