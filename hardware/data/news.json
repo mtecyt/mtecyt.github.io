@@ -2,10 +2,463 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-21T18:31:12.556Z",
+    "stand": "2026-11-21T19:51:39.505Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-21-entra-connect-health-datenleck",
+      "datum": "2026-11-21T19:01:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "Microsoft"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Microsoft bestätigt ausgenutzte Lücke in Entra Connect Health: Admin-Mailadressen und Tenant-Daten abgeflossen",
+      "schlagzeile": "Lücke bei Microsoft Entra: Angreifer erbeuten Admin-Adressen von Firmen",
+      "kurz": "Angreifer haben eine Lücke im Cloud-Dienst Microsoft Entra Connect Health ausgenutzt und Mailadressen von Administratoren sowie Konfigurationsdaten von Firmen-Tenants abgegriffen. Microsoft hat die Lücke am 19. November geschlossen und betroffene Kunden informiert. Passwörter und Schlüssel sollen nicht betroffen sein.",
+      "zusammenfassung": "BleepingComputer berichtet über eine Benachrichtigung, die Microsoft an Administratoren verschickt hat; Microsoft bestätigte die Lücke auf Nachfrage. Entra Connect Health überwacht die lokale Identitäts-Infrastruktur von Firmen aus der Cloud. Die Schwachstelle steckte in der Programmierschnittstelle des Dienstes, entstand am 23. Juli und wurde am 9. November entdeckt. Laut Microsoft gab es unberechtigten Lesezugriff, aber keine festgestellten Änderungen an Konfigurationen. Abgeflossen sind unter anderem Mailadressen technischer Kontakte und Admins, Tenant-IDs, Domainnamen, Länderangaben, Lizenzstufen und der Status der Verzeichnissynchronisation. Auch ein abgelaufenes, nicht mehr genutztes Zertifikat wurde über die Schnittstelle ausgeliefert. Passwörter, Passwort-Hashes, Tokens und gültige Schlüssel waren laut Microsoft nicht betroffen. Wie viele Organisationen betroffen sind und wer hinter dem Angriff steckt, sagt Microsoft nicht. Kunden müssen nichts installieren, Microsoft warnt aber vor gezielten Phishing-Angriffen auf die erbeuteten Admin-Adressen. Empfohlen werden phishing-resistente Mehrfaktor-Anmeldung für privilegierte Konten und ein Blick in die Entra-Audit- und Anmeldeprotokolle. Ein PowerShell-Skript von Microsoft zeigt, welche Datenarten betroffen sein könnten.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Microsoft",
+        "Entra",
+        "Sicherheitslücke",
+        "Cloud",
+        "Phishing"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:39.123Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet corporate IT office in the evening: a laptop on a desk with its screen showing blurred, unreadable security dashboard panels, a server rack with small status lights softly out of focus behind, a hardware security key lying on the desk next to a notebook, a muted amber desk lamp as accent, warm lamp light mixed with cool window dusk, natural rich colors, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-entra-connect-health-datenleck.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-nioh-3-complete-edition-korea",
+      "datum": "2026-11-21T17:40:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Nioh 3",
+        "Koei Tecmo"
+      ],
+      "kategorie": "Spiele",
+      "zuverlaessigkeit": {
+        "stufe": "hoch bis mittel",
+        "begruendung": "Offizieller Eintrag der koreanischen Alterseinstufungsbehörde GRAC (gemeldet von Insider Gaming, bestätigt von Eurogamer); Koei Tecmo hat die Edition aber noch nicht angekündigt, Termin und Inhalt sind offen."
+      },
+      "titel": "Koreanische Prüfstelle stuft unangekündigte Nioh 3 Complete Edition ein",
+      "schlagzeile": "Leak: Kommt bald eine Complete Edition von Nioh 3?",
+      "kurz": "Die koreanische Alterseinstufungsbehörde GRAC hat eine Nioh 3 Complete Edition eingestuft, die Koei Tecmo noch gar nicht angekündigt hat. Laut Eintrag handelt es sich um eine Sammlung der Zusatzinhalte des Action-Rollenspiels. Ein Termin ist nicht bekannt.",
+      "zusammenfassung": "Insider Gaming hat den Eintrag entdeckt, Eurogamer hat ihn aufgegriffen. Die Edition wurde am 2. November eingereicht und am 17. November mit „ab 19“ eingestuft, begründet mit drastischer Gewaltdarstellung. Laut maschinell übersetzter Beschreibung ist es eine Zusammenstellung der Zusatzinhalte des düsteren Sengoku-Action-Rollenspiels. Der Eintrag verweist zudem auf eine ausländische Einstufung, laut Insider Gaming eine CERO-Freigabe ab 17 aus Japan. Die GRAC veröffentlicht Einstufungen sofort, deshalb tauchen Spiele dort oft vor der offiziellen Ankündigung auf. Beim Vorgänger lagen zwischen Einstufung des Hauptspiels im Januar 2020 und der Complete Edition im November desselben Jahres rund zehn Monate. Nioh 3 erschien am 6. Februar und hat laut Eurogamer über eine Million Exemplare verkauft. Der zweite Zusatzinhalt „Bloody Insurrection“ ist für Februar 2027 angekündigt, Eurogamer hält einen gemeinsamen Start mit der Complete Edition für möglich. Das ist Spekulation, Koei Tecmo hat sich bisher nicht geäußert. Erfahrungsgemäß enthält eine Complete Edition das Hauptspiel und alle Zusatzinhalte, bestätigt ist der Umfang aber nicht.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/nioh-3-complete-edition-rated/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea"
+        }
+      ],
+      "tags": [
+        "Nioh 3",
+        "Koei Tecmo",
+        "Team Ninja",
+        "Complete Edition",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.625Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a dynamic duel in a misty Sengoku-era Japanese mountain forest at dawn, an original armored samurai warrior in period-plausible lacquered armor leaping forward with a drawn katana against a towering original horned yokai creature made of smoke and bark, autumn leaves and sparks swirling, low camera angle with strong diagonals, warm golden sunrise light breaking through cool blue mist, natural rich colors, cinematic scale, non-graphic action, no blood. No text, no logos, no recognizable game characters.",
+      "ursprungsquelle": "Game Rating and Administration Committee (GRAC, Korea), entdeckt von Insider Gaming",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-nioh-3-complete-edition-korea.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-hwinfo-rest-api",
+      "datum": "2026-11-21T17:29:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Tools",
+        "Monitoring"
+      ],
+      "kategorie": "Software",
+      "titel": "HWiNFO 8.61 Beta bringt eingebauten REST-API-Server: Sensorwerte im Browser auf Handy, Tablet oder Zweitbildschirm, ohne Lizenz auf 12 Stunden begrenzt",
+      "schlagzeile": "HWiNFO schickt Sensorwerte aufs Handy – gratis aber nur für 12 Stunden",
+      "kurz": "Das Diagnose-Werkzeug HWiNFO hat in der Beta 8.61 einen eingebauten REST-API-Server bekommen. Temperaturen, Takt und Verbrauch lassen sich damit im Browser auf jedem Gerät im Heimnetz anzeigen, auch mit selbst gebauten Dashboards. Ohne Lizenz läuft der Server nur 12 Stunden.",
+      "zusammenfassung": "Die Entwickler haben die Funktion im HWiNFO-Forum vorgestellt, VideoCardz berichtet. Der Server stellt alle Sensorwerte samt Einheiten, Beschreibungen und Hierarchie als JSON bereit, wahlweise über HTTP oder HTTPS. Eigene Anzeigen lassen sich mit einfachem HTML und JavaScript bauen, eine fertige Oberfläche im Stil des bekannten Sensorfensters liegt bei. Eingeschaltet wird das Ganze im Sensorfenster über die Schaltfläche „Remote Center“, dort lassen sich IP-Adresse, Port und HTTPS einstellen. Über einen Filter bestimmt man, welche Werte angezeigt, überwacht und protokolliert werden. Damit kann ein altes Tablet oder ein kleiner Zweitbildschirm zur Temperaturanzeige für CPU und Grafikkarte werden. Die Einschränkung: Ohne Lizenz stoppt der Server nach 12 Stunden. Die Lizenz kostet laut VideoCardz 29 US-Dollar, drei Jahre 52 US-Dollar. Die Beta enthält außerdem verbesserte Unterstützung für Intel-Grafik und erste Unterstützung für Intels Coral Rapids. Dokumentation und Beispiel-Dashboards liegen auf GitHub. Wer den Server nutzt, sollte ihn nur im eigenen Netz erreichbar machen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/hwinfo-adds-rest-api-for-custom-sensor-dashboards-free-version-limited-to-12-hours"
+      },
+      "weitere_links": [
+        {
+          "name": "HWiNFO-Forum (Ankündigung)",
+          "url": "https://www.hwinfo.com/forum/threads/hwinfo-rest-api-local-web-server.11402/"
+        },
+        {
+          "name": "HWiNFO REST-API-Doku (GitHub)",
+          "url": "https://github.com/malikm/HWiNFO/tree/main/sensors/rest_api"
+        }
+      ],
+      "tags": [
+        "HWiNFO",
+        "Monitoring",
+        "REST API",
+        "Sensoren",
+        "Tools"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:39.243Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small tablet propped up on a wooden desk next to a gaming PC tower with a glass side panel, the tablet showing blurred, unreadable gauges and soft colored graphs, an unbranded graphics card with two visible axial fans visible through the glass, a muted teal mug as accent, warm evening lamp light mixed with soft daylight, natural rich colors, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-hwinfo-rest-api.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-nova-lake-s-28c-h-16c",
+      "datum": "2026-11-21T16:39:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU",
+        "Nova Lake"
+      ],
+      "kategorie": "Prozessoren",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Zwei unabhängige Fundstellen (Eintrag in der OpenBenchmarking-Datenbank und Datenblatt des Industrie-PC-Herstellers Advantech), entdeckt von momomo_us; Intel hat weder Taktraten noch Modelle bestätigt, das Desktop-Modell ist ein frühes Testmuster."
+      },
+      "titel": "Nova Lake: 28-Kern-Testmuster für Desktop läuft mit 5,2 GHz, Advantech-Datenblatt nennt 16-Kern-Notebookchip mit 25 Watt",
+      "schlagzeile": "Leak: Nova Lake mit 28 Kernen und 5,2 GHz – und ein 16-Kerner für Notebooks",
+      "kurz": "In der Benchmark-Datenbank OpenBenchmarking ist ein Testmuster von Intels Nova Lake-S mit 28 Kernen und 5,2 GHz aufgetaucht. Parallel listet ein Datenblatt von Advantech einen Nova-Lake-H-Chip mit 16 Kernen, 4,8 GHz und 25 Watt TDP. Intel hat nichts davon bestätigt.",
+      "zusammenfassung": "Beide Funde gehen auf den bekannten Hardware-Spürhund momomo_us zurück, TechPowerUp und Wccftech haben sie aufgegriffen. Der Desktop-Chip erscheint als „Intel 0000“ mit dem Kürzel NVL, die Kernzahl passt zur erwarteten Aufteilung aus 8 Performance-, 16 Effizienz- und 4 Stromspar-Kernen. Getestet wurde auf einer Intel-Referenzplatine mit frühem BIOS, 32 GB Arbeitsspeicher und Ubuntu 26.04, unter anderem mit Quake II RTX, Unigine und OpenCL-Lasten. TechPowerUp warnt, dass Testmuster mit anderer Firmware, anderen Stromgrenzen und Taktprofilen laufen als die Verkaufsversionen. Ob 5,2 GHz ein Dauertakt oder nur ein Höchstwert ist, verrät der Eintrag nicht. Der Notebook-Chip steckt laut Advantech-Datenblatt auf einer Platine für Robotik und Industrie und wird dort als „Core Ultra Series 4“ geführt. Genannt werden 8 Performance-, 4 Effizienz- und 4 Stromspar-Kerne, 2,0 GHz Basistakt, 4,8 GHz Turbo und 18 MB Cache. Dazu kommen Unterstützung für DDR5-8000 mit bis zu 128 GB und eine integrierte Grafik mit 2,3 GHz. Ein konkreter Modellname fehlt. Intel selbst hat zu Taktraten und Ausstattung der Nova-Lake-Reihe noch keine Angaben gemacht.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355078/28-core-intel-nova-lake-s-appears-in-testing-running-at-5-2-ghz"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech (Nova Lake-H, Advantech-Datenblatt)",
+          "url": "https://wccftech.com/intel-core-ultra-4-series-16-core-nova-lake-mobile-processor-specifications-leaked/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "Core Ultra Series 4",
+        "CPU",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.018Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of a bare desktop CPU engineering sample with a plain unmarked metal heat spreader resting on an anti-static mat beside an open test bench motherboard socket, a pair of tweezers and a thermal paste syringe nearby, a muted teal anti-static bag as accent, warm late-afternoon window light, natural rich colors, shallow depth of field, documentary lab photo. No readable text, no logos, no faces.",
+      "ursprungsquelle": "momomo_us auf X (Fundstellen: OpenBenchmarking.org und Advantech-Datenblatt)",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-nova-lake-s-28c-h-16c.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-gta6-ps5-absturz-ce-108255-1",
+      "datum": "2026-11-21T16:03:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6 stürzt bei manchen Spielern auf PS5 mit Fehler CE-108255-1 ab, Rockstar hat sich noch nicht geäußert",
+      "schlagzeile": "GTA 6 stürzt auf manchen PS5 ab – Fehler CE-108255-1 stoppt die Story",
+      "kurz": "Einige Spieler melden, dass GTA 6 auf der PS5 regelmäßig mit dem Fehlercode CE-108255-1 abstürzt. Teilweise kommen sie dadurch in der Story nicht weiter, auch auf der PS5 Pro und vereinzelt auf der Xbox Series X. Rockstar hat die Probleme bisher nicht bestätigt, einen Patch gibt es nicht.",
+      "zusammenfassung": "Eurogamer hat Berichte aus Reddit und von Dexerto gesammelt. Ein Spieler schreibt, das Spiel laufe zunächst einwandfrei und stürze dann nach etwa 40 Minuten zum PS5-Startbildschirm ab. Ein anderer kommt bei einer frühen Mission nicht weiter, weil das Spiel an derselben Stelle jedes Mal abstürzt. Besitzer einer PS5 Pro berichten von Abstürzen schon im Prolog. Auch auf der Xbox Series X gibt es einzelne Meldungen über Abstürze nach etwa 15 Minuten. Wie viele Spieler betroffen sind, ist unklar; es handelt sich um Einzelberichte. Rockstar hat die Abstürze nicht kommentiert und verweist bei Konsolenfehlern an Sony oder Microsoft. Sony beschreibt CE-108255-1 nur allgemein als Fehler der Anwendung und rät, nach Spiel-Updates zu suchen. Weitere allgemeine Tipps sind ein Systemupdate, das Wiederherstellen der Lizenzen, das Leeren des Caches und Neuaufbauen der Datenbank im abgesicherten Modus. Liegt das Spiel auf einer externen SSD, kann ein Umzug auf den internen Speicher helfen. Manche Betroffene haben all das laut Eurogamer schon erfolglos versucht.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "PS5",
+        "Absturz",
+        "Fehler",
+        "Rockstar Games"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.851Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a dynamic moment on a sunny palm-lined coastal highway of an original subtropical city, an original sleek sports car frozen mid-drift as the scene around it fractures into floating glass-like shards and pixel fragments, as if time glitched, dust and palm leaves suspended in the air, low camera angle with strong diagonals, warm golden afternoon light against a cool teal ocean, natural rich colors, cinematic energy. No text, no logos, no readable signs, no recognizable game characters or vehicles.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-gta6-ps5-absturz-ce-108255-1.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-silverstone-nova-lake-netzteil",
+      "datum": "2026-11-21T12:44:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "Netzteil",
+        "Nova Lake"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "Silverstone bringt Netzteil HELA 1350Rz mit drei CPU-Stromkabeln und begründet das mit dem hohen Strombedarf von Intels Nova Lake-S",
+      "schlagzeile": "Drei CPU-Kabel für Nova Lake: Silverstone rüstet Netzteil für Intels Stromhunger",
+      "kurz": "Silverstone hat das 1.350-Watt-Netzteil HELA 1350Rz vorgestellt, das ausdrücklich Intels kommende Nova-Lake-S-Prozessoren unterstützt. Es bringt drei CPU-Stromkabel mit, was bei Netzteilen für Heim-PCs ungewöhnlich ist. Silverstone begründet das mit dem hohen Strombedarf der neuen Chips.",
+      "zusammenfassung": "Laut Produktseite hat das HELA 1350Rz drei 4+4-polige CPU-Kabel, um den „hohen Strombedarf“ von Nova Lake-S abzudecken, berichten VideoCardz und Wccftech. Üblich sind bei Desktop-Netzteilen ein oder zwei solcher Kabel. Das Netzteil ist nach ATX 3.1 zertifiziert, erreicht 80 Plus Platinum und hat zwei 12V-2x6-Anschlüsse für Grafikkarten. Einen Preis nennt der Bericht nicht. Intel hat den Stromverbrauch von Nova Lake-S offiziell noch nicht genannt. Frühere, unbestätigte Berichte sprachen beim Spitzenmodell mit 52 Kernen von bis zu 474 Watt im kurzfristigen Turbo-Limit PL2. Zum Vergleich: Der aktuelle Core Ultra 9 285K liegt bei 250 Watt. Laut früheren Berichten sollen manche Z990-Mainboards zwei oder drei CPU-Stromanschlüsse bekommen, der dritte gilt als optional für Übertakter. Wer heute ein Netzteil kauft, braucht für Nova Lake also nicht zwingend ein neues; entscheidend sind Mainboard und Prozessor-Modell.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/silverstone-hela-1350w-psu-officially-supports-intel-nova-lake-s-cpus-features-three-eps-power-cables"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/silverstone-says-intel-nova-lake-s-has-high-power-demands-so-its-hela-1350rz-power-supply-ships-with-three-44-pin-cpu-cables/"
+        }
+      ],
+      "tags": [
+        "Silverstone",
+        "Netzteil",
+        "Intel",
+        "Nova Lake",
+        "Stromverbrauch"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.195Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded black modular ATX power supply on a wooden workbench with several braided black CPU power cables fanned out next to it, one cable plugged into its socket, a half-built PC case with a motherboard in soft focus behind, a muted orange cable tie bundle as accent, warm natural daylight from a side window, natural rich colors, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-silverstone-nova-lake-netzteil.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-zen6-1usmus-widerspruch",
+      "datum": "2026-11-21T12:05:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU",
+        "Zen 6"
+      ],
+      "kategorie": "Prozessoren",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "1usmus (Entwickler von Ryzen DRAM Calculator und Hydra) gilt als gut vernetzt, nennt aber keine eigenen Belege; Aussage steht gegen einen Chiphell-Beitrag, AMD schweigt."
+      },
+      "titel": "Ryzen-Tool-Entwickler 1usmus widerspricht Berichten über Zen-6-Verschiebung auf den Sommer, N2X-Fertigung und über 6 GHz",
+      "schlagzeile": "Leak: Zen 6 doch nicht erst im Sommer? Ryzen-Insider widerspricht",
+      "kurz": "Der Entwickler 1usmus nennt drei aktuelle Gerüchte zu AMDs Zen 6 für AM5 „nicht zutreffend“. Demnach wird Zen 6 nicht auf den Sommer verschoben, die ersten Chips nutzen nicht TSMC N2X und überschreiten nicht 6 GHz. AMD hat sich nicht geäußert.",
+      "zusammenfassung": "1usmus ist bekannt für Werkzeuge wie den Ryzen DRAM Calculator und Hydra und schrieb seine Einschätzung am 20. November auf X; Wccftech hat sie am Samstag aufgegriffen. Er widerspricht damit einem Chiphell-Beitrag, über den wir am 19. November berichtet haben. Dort hieß es, AMD habe die Desktop-Reihe Olympic Ridge auf die taktoptimierte 2-nm-Variante N2X umgestellt und verschiebe den Start deshalb bis nach der Computex 2027. Laut 1usmus nutzen die ersten Zen-6-Prozessoren für AM5 nicht N2X. Wccftech interpretiert das so, dass zunächst N2 oder N2P zum Einsatz kommen und N2X allenfalls später folgen könnte; das ist eine Deutung, keine Aussage von 1usmus. Auch eine Verschiebung bis in den Sommer stimme nicht. Einen konkreten Termin nennt er nicht. Gerüchte über Taktraten jenseits von 6 GHz bezeichnet er ebenfalls als falsch. Belege für seine Aussagen legt 1usmus nicht vor, es steht also Aussage gegen Aussage. Offiziell hat AMD nur einen Auftritt auf der CES 2027 angekündigt, ohne Produkte zu nennen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/1usmus-responds-amd-ryzen-zen-6-summer-delay-process-node-rumors-not-accurate/"
+      },
+      "weitere_links": [
+        {
+          "name": "1usmus auf X (Hinweis, 20.11.2026)",
+          "url": "https://x.com/1usmus/status/2123674984568733989"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "Ryzen",
+        "Olympic Ridge",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.342Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A desktop processor with a plain unmarked heat spreader seated in an open AM5-style socket on a motherboard, retention bracket lifted, shot from a low angle on a cluttered hobbyist desk with a calendar page blurred beyond recognition in the background, a muted red sticky note as accent, warm afternoon window light, natural rich colors, documentary photo. No readable text, no logos, no faces.",
+      "ursprungsquelle": "1usmus auf X",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-zen6-1usmus-widerspruch.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-debian-13-8",
+      "datum": "2026-11-21T11:51:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Debian 13.8 „Trixie“ erschienen: 122 Fehlerkorrekturen und 150 Sicherheitsupdates in neuen Installationsabbildern",
+      "schlagzeile": "Debian 13.8 ist da: 150 Sicherheitsupdates für „Trixie“",
+      "kurz": "Das Debian-Projekt hat die achte Punktversion von Debian 13 „Trixie“ veröffentlicht. Sie bündelt 122 Fehlerkorrekturen und 150 Sicherheitsupdates in neuen Installationsabbildern. Bestehende Systeme brauchen kein neues Abbild, ein normales Update reicht.",
+      "zusammenfassung": "Debian 13.8 erscheint zwei Monate nach Version 13.7, berichten 9to5Linux und Phoronix unter Berufung auf die offizielle Ankündigung. Punktversionen bringen keine neuen Funktionen, sondern sammeln Sicherheits- und Fehlerkorrekturen, die zuvor einzeln veröffentlicht wurden. Die neuen Abbilder sind vor allem für Neuinstallationen gedacht, damit danach nicht Hunderte Updates nachgeladen werden müssen. Installationsabbilder gibt es für sechs Architekturen, darunter amd64, arm64 und RISC-V 64-Bit. Live-Abbilder erscheinen nur für 64-Bit-PCs, unter anderem mit KDE Plasma 6.3, GNOME 48 und Xfce 4.20. Wer Debian 13 bereits nutzt, aktualisiert wie gewohnt über die Paketverwaltung, etwa mit „apt update“ und „apt full-upgrade“. Welche Pakete im Einzelnen betroffen sind, listet die Debian-Ankündigung auf. Das Projekt rät allen Nutzern von Debian 13, ihre Installationen zu aktualisieren.",
+      "quelle": {
+        "name": "9to5Linux",
+        "url": "https://9to5linux.com/debian-13-8-trixie-released-with-122-bug-fixes-and-150-security-updates"
+      },
+      "weitere_links": [
+        {
+          "name": "Debian (Ankündigung)",
+          "url": "https://www.debian.org/News/2026/20261121"
+        },
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/Debian-13.8-Released"
+        }
+      ],
+      "tags": [
+        "Debian",
+        "Linux",
+        "Trixie",
+        "Sicherheitsupdates"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:39.350Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small home server and a laptop on a wooden shelf in a cozy study, the laptop screen showing a blurred, unreadable terminal window with soft colored lines, a network switch with small green status lights beside it, a muted red houseplant pot as accent, warm late-morning window light, natural rich colors, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-debian-13-8.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-gta6-xbox-quick-resume-60fps",
+      "datum": "2026-11-21T10:21:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Xbox"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Quick-Resume-Fehler auf Xbox Series X entsperrt GTA 6 auf über 60 fps, das Spiel läuft dann aber doppelt so schnell",
+      "schlagzeile": "GTA 6 mit über 60 fps auf Xbox – per Glitch, aber im Zeitraffer",
+      "kurz": "Ein Reddit-Nutzer hat einen Fehler in der Quick-Resume-Funktion der Xbox Series X gefunden, der die 30-fps-Grenze von GTA 6 aufhebt. Der Haken: Weil die Spielgeschwindigkeit an die Bildrate gekoppelt ist, läuft das Spiel dann zu schnell. Zwischensequenzen sollen dagegen normal laufen.",
+      "zusammenfassung": "Wccftech berichtet über die Anleitung des Reddit-Nutzers Meowwie64. Voraussetzung sind eine Xbox Series X, ein 120-Hz-Bildschirm und die Spielversion 1.002.001. Man startet GTA 6 mit 60 Hz, stellt nach dem Intro auf 120 Hz um, startet über das Guide-Menü ein anderes Spiel und wechselt dann per Quick Resume zurück. Danach läuft GTA 6 ohne Bildratenbegrenzung. Weil Animationen und Spielgeschwindigkeit an die Bildrate gebunden sind, wird das Spiel bei mehr als 30 Bildern pro Sekunde entsprechend beschleunigt. Laut den geteilten Videos funktionieren die Zwischensequenzen auch mit über 60 fps. Ob der Trick auf der Series S oder mit späteren Patches funktioniert, ist offen. Rockstar hat GTA 6 auf allen Konsolen auf 30 fps ausgelegt, auch auf der PS5 Pro. Wccftech vermutet, dass schwankende Bildraten der Grund sind, denn selbst die 30 fps werden nicht immer gehalten; Rockstar hat sich dazu nicht geäußert. Die Grundlage sind ein Reddit-Beitrag und Videos, unabhängig geprüft ist der Trick nicht. Spielbar im eigentlichen Sinn ist das Ganze nicht, es zeigt aber, dass die Konsole in manchen Szenen mehr Bilder schafft.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Xbox Series X",
+        "60 fps",
+        "Quick Resume",
+        "Glitch"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.990Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a high-speed chase at sunset through a palm-lined boulevard of an original subtropical coastal city, an original muscle car and a pursuing patrol car (unmarked, no lettering) streaking past with exaggerated motion blur and stretched light trails as if time were fast-forwarded, flocks of birds and palm fronds whipping by, low camera angle with strong diagonals, warm orange sunset light against a cool violet-blue sky, natural rich colors, cinematic energy. No text, no logos, no readable signs, no recognizable game characters or vehicles.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-gta6-xbox-quick-resume-60fps.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-amdlss5-2-5-frame-generation",
+      "datum": "2026-11-21T09:59:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "GPU",
+        "Mod"
+      ],
+      "kategorie": "Grafik-Mod",
+      "titel": "Inoffizieller Mod AMDLSS5 2.5: Neuronales Rendering im DLSS-5-Stil läuft auf Radeon bis zu 60 Prozent schneller, dazu bis zu sechsfache Frame Generation",
+      "schlagzeile": "Radeon-Mod AMDLSS5 2.5: Schnellere KI-Grafik und bis zu 6-fache Frame Generation",
+      "kurz": "Version 2.5 des inoffiziellen Mods AMDLSS5 bringt eine neue Vulkan-Engine für das neuronale Rendering im Stil von DLSS 5 auf Radeon-Karten. Das Netzwerk soll bis zu 60 Prozent schneller rechnen, Spiele laufen laut Entwickler etwa 10 Prozent flotter. Neu ist eine Frame Generation mit zwei- bis sechsfacher Bildvervielfachung.",
+      "zusammenfassung": "Der Mod ist kostenlos auf GitHub erschienen, VideoCardz und Wccftech berichten. Die neue Engine baut auf der quelloffenen Laufzeit DLSSNR-AMD des Entwicklers Mochizuki auf. Die 60 Prozent beziehen sich auf die Rechenzeit des neuronalen Netzes, nicht auf die gesamte Bildrate. Gemessen hat der Entwickler in Resident Evil Requiem auf einer Radeon RX 9070 XT: rund 10 Prozent mehr Bilder pro Sekunde als mit Version 2.0 und etwa 0,5 GB weniger Videospeicher. Die Frame Generation stammt von Apex Compute und funktioniert auch in Spielen ohne eigene Bildvervielfachung. Eine Einblendung zeigt die zusätzliche Eingabeverzögerung an. Neu unterstützt werden unter anderem Baldur's Gate 3, Microsoft Flight Simulator 2024 und The Last of Us Part I. Offiziell laufen Radeon-RX-9000-Karten, die RX 7800 XT gilt als kompatibel, andere RX-7000-Modelle nur experimentell, RX 6000 und älter gar nicht. Der Entwickler räumt Bildfehler in einigen Spielen ein. AMD selbst bietet keine vergleichbare Funktion an, und VideoCardz hat den Mod nicht selbst getestet. Wie bei allen Mods gilt: Nutzung auf eigene Gefahr, in Online-Spielen mit Anti-Cheat besser nicht.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/modder-makes-dlss-5-neural-rendering-on-amd-gpus-60-faster-adds-6x-apex-frame-generation"
+      },
+      "weitere_links": [
+        {
+          "name": "AMDLSS5 2.5 (GitHub, Release-Notizen)",
+          "url": "https://github.com/Wehaveall/AMDLSS5/releases/tag/v2.5.0"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/amdlss5-2-5-boosts-dlss-5-style-neural-rendering-performance-by-60-on-amd-gpus/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "Radeon",
+        "DLSS 5",
+        "Mod",
+        "Frame Generation"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T19:51:38.470Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded graphics card with two visible axial fans installed horizontally in an open PC case on a desk, beside it a monitor showing a blurred, unreadable colorful landscape scene from a generic game, a keyboard in the foreground with soft focus, a muted red desk lamp shade as accent, warm late-afternoon daylight, natural rich colors, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-amdlss5-2-5-frame-generation.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-21-gpd-win-mini-ultra-preis",
       "datum": "2026-11-21T06:56:00+01:00",
@@ -2505,45 +2958,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:04.847Z"
-      },
-      "id": "2026-11-18-nand-spotpreise-minus-20",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "SSD",
-        "Speicherpreise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
-      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
-      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
-      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "NAND",
-        "SSD",
-        "Speicherpreise",
-        "YMTC",
-        "TrendForce"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:05.129Z"
       },
       "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
@@ -2574,6 +2988,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.847Z"
+      },
+      "id": "2026-11-18-nand-spotpreise-minus-20",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
+      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
+      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
+      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "YMTC",
+        "TrendForce"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
         "ki_generiert": true
       }
     },
@@ -3633,49 +4086,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.113Z"
-      },
-      "id": "2026-11-16-intel-sammelklage",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Intel"
-      ],
-      "kategorie": "Unternehmen",
-      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
-      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
-      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
-      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Wccftech",
-          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
-        }
-      ],
-      "tags": [
-        "Intel",
-        "Sammelklage",
-        "Lip-Bu Tan",
-        "Aktie",
-        "Speicherkrise"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.014Z"
       },
       "id": "2026-11-16-playstation-controller-bezahlen-patent",
@@ -3710,6 +4120,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.113Z"
+      },
+      "id": "2026-11-16-intel-sammelklage",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
+      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
+      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
+      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Sammelklage",
+        "Lip-Bu Tan",
+        "Aktie",
+        "Speicherkrise"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
         "ki_generiert": true
       }
     },
