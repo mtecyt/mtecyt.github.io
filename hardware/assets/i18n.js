@@ -150,7 +150,19 @@
   "rating_hoch (für Build-Funde)": "hoch (für Build-Funde)",
   "rating_hoch (für Releases)": "hoch (für Releases)",
   "rating_hoch (für Preise/PS-Plus-Listen)": "hoch (für Preise/PS-Plus-Listen)",
-  "rating_niedrig (keine Leak-Quelle)": "niedrig (keine Leak-Quelle)"
+  "rating_niedrig (keine Leak-Quelle)": "niedrig (keine Leak-Quelle)",
+  "hot_section_a": "HOT NEWS",
+  "hot_lead_a": "Die Meldungen mit den meisten Stimmen – nur solange sie im Ticker sind.",
+  "hot_empty": "Noch keine Stimmen. Mit dem Button an einer Meldung kann die Liste gefüllt werden.",
+  "hot_vote_a": "Hot",
+  "hot_voted": "Unterstützt",
+  "hot_votes_one": "{n} Stimme",
+  "hot_votes_other": "{n} Stimmen",
+  "hot_aria_vote": "„{title}“ unterstützen",
+  "hot_aria_unvote": "Stimme für „{title}“ zurücknehmen",
+  "hot_aria_jump": "Zur Meldung: {title}",
+  "hot_rank": "Rang {n}",
+  "hot_badge": "Hot {n}"
 }/*END_UI_DE*/;
 
   // ---- Sprache bestimmen: nur ?lang=… (Standard: Deutsch) ----

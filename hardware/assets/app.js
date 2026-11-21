@@ -183,6 +183,7 @@ I18N.ready.then(function () {
     var h = "";
     if (src && !archived) h += '<figure class="detail-media"><img src="' + esc(src) + '" alt="" width="800" height="450" decoding="async"><figcaption>' + esc(T("ai_image_long")) + '</figcaption></figure>';
     h += labels(e);
+    h += '<div class="hot-vote-slot hot-vote-slot-detail" data-hot-id="' + esc(e.id) + '"></div>';
     var la = langAttr(e);
     if (e._translated) h += '<p class="tr-note">' + esc(T("ai_translated")) + ' <a href="' + esc(I18N.withLang((archived ? "archiv.html" : "index.html") + "#" + e.id, "de")) + '" hreflang="de" lang="de">' + esc(T("show_original")) + "</a></p>";
     if (e._fallback) h += '<p class="tr-note">' + esc(T("not_translated")) + "</p>";
@@ -349,8 +350,12 @@ I18N.ready.then(function () {
 
     function slide(e, i, arr) {
       return '<div class="slide" role="group" aria-roledescription="' + esc(T("slide")) + '" aria-label="' + esc(T("slide_label", { i: i + 1, n: arr.length })) + '">' +
-        '<button type="button" class="news-card has-media"' + langAttr(e) + ' data-id="' + esc(e.id) + '" id="card-' + esc(e.id) + '" aria-haspopup="dialog" title="' + esc(e.titel) + '">' +
-        cardInner(e, true, i < 3) + "</button></div>";
+        '<article class="news-card has-media"' + langAttr(e) + ' data-id="' + esc(e.id) + '" id="card-' + esc(e.id) + '">' +
+        '<button type="button" class="news-card-main" aria-haspopup="dialog" title="' + esc(e.titel) + '">' +
+        cardInner(e, true, i < 3) + "</button>" +
+        '<div class="hot-vote-slot" data-hot-id="' + esc(e.id) + '"></div>' +
+        '<div class="hot-badge-slot" data-hot-badge="' + esc(e.id) + '"></div>' +
+        "</article></div>";
     }
 
     // ---- Geometrie ----
@@ -438,10 +443,11 @@ I18N.ready.then(function () {
 
     // ---- Detailansicht (Modal) ----
     var detail = makeModal(byId, {
-      onOpen: function () { paused.modal = true; restart(); },
+      onOpen: function () { paused.modal = true; restart(); if (window.MTEC_HOT) window.MTEC_HOT.paint(); },
       onClose: function () { paused.modal = false; restart(); }
     });
     track.addEventListener("click", function (ev) {
+      if (ev.target.closest(".hot-vote, .hot-vote-slot")) return;
       var c = ev.target.closest(".news-card");
       if (c) detail.open(c.getAttribute("data-id"));
     });
@@ -461,7 +467,28 @@ I18N.ready.then(function () {
       dotsBox.innerHTML = "";
       track.scrollTo({ left: 0, behavior: "instant" });
       pos = 0; paintDots(); restart();
+      if (window.MTEC_HOT) window.MTEC_HOT.bindTicker({ all: all, byId: byId, jumpTo: jumpTo });
     }
+
+    function jumpTo(id) {
+      if (!byId[id]) return;
+      if (!matchesFilter(byId[id], filt)) {
+        filt = { art: "alle", bereich: "alle" };
+        writeFilterState(filt);
+        paintChips(filt);
+        draw();
+      }
+      var card = document.getElementById("card-" + id);
+      if (card) {
+        var idx = Array.prototype.indexOf.call(slides(), card.parentNode);
+        if (idx >= 0) goTo(Math.min(idx, Math.max(0, positions() - 1)), true);
+        card.classList.remove("hot-flash");
+        void card.offsetWidth;
+        card.classList.add("hot-flash");
+        try { card.scrollIntoView({ behavior: mqReduce.matches ? "auto" : "smooth", block: "center", inline: "nearest" }); } catch (e) {}
+      }
+    }
+
     draw();
 
     // Direktlink index.html#<id> öffnet die Meldung; ältere Meldungen liegen im Archiv

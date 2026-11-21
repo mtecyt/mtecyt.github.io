@@ -6,8 +6,8 @@
 <title data-i18n="t546533a9c3">Datenschutzerklärung – M-TEC</title>
 <meta name="description" content="Datenschutzerklärung der Website von M-TEC." data-i18n-attr="content:td669930f3e">
 <link rel="icon" href="assets/img/gpu-tycoon-icon.png">
-<link rel="stylesheet" href="assets/style.css?v=b6f0004845b1">
-<script src="assets/i18n.js?v=b6f0004845b1"></script>
+<link rel="stylesheet" href="assets/style.css?v=825f40e1869c">
+<script src="assets/i18n.js?v=825f40e1869c"></script>
 </head>
 <body>
 <header class="site-header"><div class="wrap">
@@ -71,7 +71,15 @@
 <p>Zur Ausübung Ihrer Rechte genügt eine E-Mail an <a href="mailto:mtec.yt@yahoo.com">mtec.yt@yahoo.com</a>.</p>
 <p>Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, können Sie sich bei der Aufsichtsbehörde beschweren (Art. 77 DSGVO). In Österreich ist das die Österreichische Datenschutzbehörde, Barichgasse 40–42, 1030 Wien, <a href="https://www.dsb.gv.at" target="_blank" rel="noopener">www.dsb.gv.at</a>.</p>
 
-<h2>10. Änderungen</h2>
+
+<h2 id="hot-stimmen">10. Stimmen im News-Ticker</h2>
+<p>Auf dem News-Ticker gibt es einen freiwilligen „Hot“-Button an den Meldungen sowie den Bereich „HOT NEWS“ mit den fünf meistgewählten <em>Schlagzeilen</em>. Es erscheinen nur Meldungen, die noch im Ticker stehen; nach dem Verschieben ins Archiv fallen sie aus der Liste. Pro Meldung und Browser ist eine Stimme vorgesehen, die sich über denselben Button wieder zurücknehmen lässt.</p>
+<p>Die Stimmenzahlen liegen bei <strong>Cloudflare</strong> (Auftragsverarbeiter) in einem Workers-KV-Speicher mit festgelegter Jurisdiction <span translate="no">EU</span>. Gespeichert werden ausschließlich die <strong>Meldungs-ID</strong> und ein <strong>Zähler</strong>. Es gibt keine Nutzungskonten, keine Cookie-Setzung durch diese Funktion und keine werbliche Auswertung. Der Dienst ist unter <span translate="no">https://mtec-hot-news.mtec-hot.workers.dev</span> erreichbar und nimmt nur Meldungs-IDs an, die aktuell im öffentlichen Ticker stehen.</p>
+<p>Im Browser wird nur festgehalten, welche Meldungen dieses Gerät bereits unterstützt hat (<span translate="no">localStorage</span>-Schlüssel <span translate="no">mtec-hot-voted</span>, kein Cookie). Wer den Browser-Speicher leert, setzt dieses lokale Merkmal zurück; die Summe auf dem Server bleibt davon unberührt, außer die Stimme wird vorher über den Button zurückgenommen.</p>
+<p>Zur Missbrauchsbremse kann die IP-Adresse des Aufrufs kurz in einen täglich wechselnden Hash überführt und für ein Rate-Limit (derzeit 30 POST-Anfragen pro Minute je Hash sowie ein standortweiter Deckel ohne Personenbezug) genutzt werden. Dieser Hash wird nicht in der KV-Datenbank und nicht als Profil gespeichert. Eine dauerhafte Speicherung der IP-Adresse ist nicht vorgesehen.</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer missbrauchsarmen, freiwilligen Leser-Rückmeldung) bzw., soweit erforderlich, Art. 6 Abs. 1 lit. a DSGVO. Es gelten die Rechte in Abschnitt 9. Weil auf dem Server nur Summen stehen, lässt sich eine einzelne Stimme dort typischerweise nicht einer Person zuordnen.</p>
+
+<h2>11. Änderungen</h2>
 <p>Wir passen diese Datenschutzerklärung an, wenn sich die Website oder die Rechtslage ändert, etwa bei der Einführung von Werbung. Es gilt die jeweils hier veröffentlichte Fassung.</p>
 
 <p class="small" style="color:var(--faint)">Siehe auch: <a href="impressum.html">Impressum</a></p>
@@ -82,7 +90,7 @@
 <div><a href="archiv.html" data-i18n="t83c33d3e51">News-Archiv</a> · <a href="quellen.html" data-i18n="t606e08cdd5">Quellenliste</a> · <a href="impressum.html" data-i18n="t5c3175413b">Impressum</a> · <a href="datenschutz.html" data-i18n="t606838b247">Datenschutz</a> · <a href="https://mtecyt.github.io/gpu-tycoon/privacy/" data-i18n="tdf00029c14">Datenschutz GPU Tycoon (App)</a></div>
 <div style="flex-basis:100%" data-i18n="tce05a1577e">Inhalte teilweise KI-gestützt erstellt. Alle Markennamen gehören ihren Inhabern.</div>
 </div></footer>
-<script src="assets/app.js?v=b6f0004845b1" defer></script>
+<script src="assets/app.js?v=825f40e1869c" defer></script>
 
 </body>
 </html>
