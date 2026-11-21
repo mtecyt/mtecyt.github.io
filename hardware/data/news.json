@@ -2,10 +2,400 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-21T07:27:43.700Z",
+    "stand": "2026-11-21T13:44:31.810Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-21-gpd-win-mini-ultra-preis",
+      "datum": "2026-11-21T06:56:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Handheld",
+        "Intel"
+      ],
+      "kategorie": "Handhelds",
+      "titel": "GPD nennt Preis für den Win Mini Ultra: 1.699 US-Dollar für die Version mit Intel Arc G3 Extreme, 32 GB RAM und 1 TB SSD",
+      "schlagzeile": "GPD Win Mini Ultra: Handheld mit Intel Arc G3 Extreme kostet 1.699 Dollar",
+      "kurz": "GPD hat den Preis für den Win Mini Ultra genannt: 1.699 US-Dollar mit 32 GB RAM und 1 TB SSD über Indiegogo. Im Inneren arbeitet Intels Handheld-Chip Arc G3 Extreme. Die Kampagne startet im Dezember, eine 64-GB-Version soll es nur im Handel geben.",
+      "zusammenfassung": "Den Preis hat GPD selbst auf X veröffentlicht, TechPowerUp und VideoCardz berichten darüber. Der Win Mini Ultra ist ein kleiner Klapp-Handheld mit vollständiger Tastatur. Verbaut sind Intels Arc G3 Extreme mit integrierter Arc-B390-Grafik, zwei USB4-v2-Anschlüsse mit 80 Gbit/s und ein Steckplatz für PCIe-5.0-SSDs. Dazu kommen Hall-Effekt-Trigger und VRR-Unterstützung. Die 1.699 US-Dollar gelten für die Indiegogo-Version mit 32 GB RAM und 1 TB SSD inklusive Versand. Die Kampagne soll im Dezember starten, ausgeliefert werden soll direkt danach. Eine Variante mit 64 GB RAM wird laut GPD nicht über Indiegogo, sondern nur über den Handel verkauft. Europäische Preise nennt GPD noch nicht. Das Unternehmen begründet den hohen Preis mit den gestiegenen Speicherpreisen und warnt, dass es später teurer werden könnte. Crowdfunding birgt grundsätzlich das Risiko von Verzögerungen.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355075/gpd-win-mini-ultra-pricing-confirmed-intel-arc-g3-extreme-handheld-starts-at-usd-1-699"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/gpd-win-mini-ultra-with-intel-arc-g3-extreme-priced-at-1699-64gb-version-skips-indiegogo"
+        }
+      ],
+      "tags": [
+        "GPD",
+        "Win Mini Ultra",
+        "Intel",
+        "Arc G3 Extreme",
+        "Handheld"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:30.470Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small unbranded clamshell handheld gaming PC opened on a warm wooden desk, compact full keyboard below a dark blank screen, small thumbsticks beside the keyboard, two USB-C cables plugged into its side, a muted dusty-teal notebook and a coffee cup in the background, late-morning window light, natural rich colors. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-gpd-win-mini-ultra-preis.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-geforce-hotfix-621-35-ssd",
+      "datum": "2026-11-21T00:50:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber",
+        "Nvidia"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Nvidia veröffentlicht GeForce-Hotfix 621.35 gegen die übermäßigen SSD-Schreibzugriffe der Treiber 621.14 und 621.24",
+      "schlagzeile": "GeForce-Hotfix 621.35 stoppt die Schreibflut auf der SSD",
+      "kurz": "Nvidia hat den GeForce-Hotfix-Treiber 621.35 veröffentlicht. Er behebt den Fehler, durch den die Treiber 621.14 und 621.24 im Leerlauf massenhaft Daten auf die SSD schrieben. Der Hotfix ist optional und nur über Nvidias Kundensupport erhältlich.",
+      "zusammenfassung": "Der Treiber enthält laut Nvidia genau eine Korrektur: Im Hintergrund konnten übermäßig viele Schreibzugriffe auf die Datei nvlog.nvlgstg auftreten. Verursacht wurde das vom Prozess NVDisplayContainer.exe, der auch auf ruhenden PCs ständig schrieb. Laut TechPowerUp waren es in Extremfällen bis zu 30 GB pro Stunde, beim älteren Treiber 621.01 nur rund 2 MB in fünf Minuten. Der Hotfix basiert auf dem aktuellen Game-Ready-Treiber 621.24 vom 12. November. Wie alle Hotfixes hat er eine verkürzte Qualitätsprüfung durchlaufen und wird nur über die Support-Seite von Nvidia angeboten. Bisherige Notlösungen waren der Wechsel zurück auf 621.01 oder das Stoppen des Dienstes NVIDIA Display Container LS. Wer betroffen ist, sollte den Hotfix installieren, alle anderen können auf den nächsten WHQL-Treiber warten. AMD hatte wenige Tage zuvor ein ähnliches Problem mit seinen Radeon-Treibern und ebenfalls optionale Korrekturen veröffentlicht.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355072/nvidias-ssd-write-bug-gets-patched-in-geforce-hotfix-621-35-driver"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/nvidia-releases-geforce-621-35-hotfix-to-fix-excessive-ssd-writes"
+        },
+        {
+          "name": "NVIDIA Customer Care auf X",
+          "url": "https://x.com/nvidiacc/status/2123899436892033037"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "GeForce",
+        "Treiber",
+        "Hotfix",
+        "SSD"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:31.234Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A PC workbench in warm late-morning window light: an open desktop PC case with an unbranded graphics card with two visible axial fans installed, an M.2 SSD lying on an anti-static bag in the foreground, a small screwdriver and a muted dusty-teal parts tray, a laptop with a blurred unreadable screen in the background, fine dust and slight wear, natural rich colors. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-geforce-hotfix-621-35-ssd.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-gta6-review-bombing-ultimate-laeden",
+      "datum": "2026-11-20T23:46:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6: Nutzerwertung auf Metacritic fällt auf rund 5 von 10, Spieler kritisieren für die Standard-Edition verschlossene Läden",
+      "schlagzeile": "GTA 6: Kritiker geben 99, Nutzer nur 5 – und Ärger über verschlossene Läden",
+      "kurz": "Während GTA 6 bei Kritikern auf Metacritic bei 99 liegt, ist die Nutzerwertung auf rund 5 von 10 gefallen. Ein Teil der Bewertungen wirkt wie gezieltes Review-Bombing. Zusätzlich ärgern sich Käufer der Standard-Edition, weil vier Läden für sie komplett verschlossen bleiben.",
+      "zusammenfassung": "Laut Insider Gaming lag die Nutzerwertung auf Metacritic nach über 10.000 Bewertungen bei 5,1 von 10, knapp die Hälfte davon negativ. Die Kritikerwertung der PS5-Fassung liegt weiterhin bei 99 aus 152 Tests. Viele niedrige Bewertungen bestehen nur aus einem Satz oder greifen Story und Figuren aus politischen Gründen an, teils mit rassistischen und sexistischen Kommentaren. Es gibt aber auch Kritik an Leistung, Fehlern, verlorenem Spielfortschritt und an der Nähe zu Red Dead Redemption 2. Metacritic hatte schon vor dem Start gefälschte Nutzerbewertungen entfernt, berichtete VGC. Ein zweiter Streitpunkt: Die Ultimate Edition für 99,99 US-Dollar schaltet vier Geschäfte frei, darunter einen Friseursalon und ein Tattoostudio. Wer die Standard-Edition für 79,99 US-Dollar hat, steht laut IGN vor verschlossenen Türen und kann die eingerichteten Läden nicht einmal betreten. Rockstar hatte die Inhalte vorab angekündigt, viele Spieler hatten aber zumindest Zugang ohne Kaufmöglichkeit erwartet. In sozialen Netzwerken fallen Worte wie gierig. Rockstar hat sich zu beidem bisher nicht geäußert. Nutzerwertungen schwanken in den ersten Tagen stark, die Zahlen sind eine Momentaufnahme.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/gta-6-review-bombed/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN (verschlossene Läden)",
+          "url": "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+        },
+        {
+          "name": "VGC (gefälschte Bewertungen entfernt)",
+          "url": "https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Metacritic",
+        "Review-Bombing",
+        "Ultimate Edition"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:30.861Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: an original adult character in summer clothes seen from behind, standing in front of the closed, shuttered glass door of a stylish boutique on a sunny palm-lined street of an original subtropical city, the warmly lit decorated interior visible but out of reach behind the glass, low camera angle with a strong diagonal of the sidewalk, warm afternoon sun against cool teal shadows, a muted terracotta awning as accent, natural rich colors. No text, no logos, no readable signs, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-gta6-review-bombing-ultimate-laeden.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-trump-rechenzentren-ausland",
+      "datum": "2026-11-20T23:27:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Rechenzentren",
+        "Politik"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "Trump droht US-Konzernen mit hoher Steuer, wenn sie Rechenzentren im Ausland bauen – Details nennt er nicht",
+      "schlagzeile": "Trump will US-Konzernen den Bau von Rechenzentren im Ausland verleiden",
+      "kurz": "US-Präsident Donald Trump hat angekündigt, US-Firmen den Bau von Rechenzentren im Ausland nicht mehr zu erlauben oder mit einer hohen Steuer zu belegen. Details, Steuersatz und Rechtsgrundlage nannte er nicht. Betroffen wären etwa Microsoft, Amazon, Google und Oracle, die auch in Europa Rechenzentren betreiben.",
+      "zusammenfassung": "Die Aussage fiel am Freitag auf einer Pressekonferenz im Weißen Haus, AP, The Verge und Dr. Windows berichten. Trump sagte, man werde US-Unternehmen nicht erlauben, Rechenzentren außerhalb der USA zu bauen. Wer es trotzdem tue, müsse mit einer enormen Steuer rechnen. Nach eigenen Worten hatte er sein Team darüber vorher nicht informiert. Wie hoch die Abgabe sein soll und auf welchem Weg sie kommen soll, ist offen. Konzerne wie Microsoft, Amazon, Google, Meta und Oracle betreiben schon viele Rechenzentren im Ausland, auch in Europa. Dr. Windows weist darauf hin, dass Kosten am Ende bei den Kunden landen könnten. Unklar ist auch, was das für Konstruktionen wie die Delos Cloud bedeutet, bei der Microsoft als Technologielieferant auftritt. Ob der Plan politisch durchkommt, ist fraglich, denn im Kongress wird bald eine demokratische Mehrheit vereidigt. Bisher ist es nur eine Ankündigung, kein Gesetz und keine Verordnung.",
+      "quelle": {
+        "name": "Dr. Windows",
+        "url": "https://www.drwindows.de/news/fuer-us-unternehmen-us-regierung-will-bau-von-rechenzentren-im-ausland-verbieten"
+      },
+      "weitere_links": [
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+        }
+      ],
+      "tags": [
+        "Rechenzentren",
+        "USA",
+        "Cloud",
+        "Microsoft",
+        "Amazon"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:30.610Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A long data center aisle photographed at eye level in warm natural light coming from a high side window at the end of the hall, rows of unbranded server racks with small status lights, a technician's rolling cart with a muted olive toolbox in the foreground, slight dust in the light beam, natural rich colors, documentary look. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-trump-rechenzentren-ausland.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-nvidia-sec-bilanzpruefung",
+      "datum": "2026-11-20T23:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "Wirtschaft"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "Reuters: US-Börsenaufsicht SEC prüft mögliche Bilanzierungsfragen bei Nvidia, Aktie verliert in einer Woche 23 Prozent",
+      "schlagzeile": "SEC nimmt Nvidias Buchhaltung unter die Lupe – Aktie mit Rekord-Wochenminus",
+      "kurz": "Die US-Börsenaufsicht SEC untersucht laut Reuters mögliche Bilanzierungsfragen bei Nvidia. Welche Geschäfte betroffen sind, ist unklar, SEC und Nvidia äußerten sich nicht. Die Aktie verlor in dieser Woche 23 Prozent, so viel wie seit Oktober 2008 nicht mehr.",
+      "zusammenfassung": "Reuters beruft sich auf zwei mit der Sache vertraute Personen, ComputerBase und Wccftech haben den Bericht aufgegriffen. Die Prüfung soll von Mitarbeitern der Enforcement-Abteilung der SEC geführt werden. Welche Geschäftsvorgänge im Fokus stehen und seit wann geprüft wird, ist nicht bekannt. Die SEC lehnte einen Kommentar ab, Nvidia reagierte zunächst nicht. Das Wall Street Journal hatte schon am Dienstag über eine SEC-Prüfung berichtet, ohne das Thema zu kennen. Aufmerksamkeit bekommt laut ComputerBase vor allem eine Änderung bei den regionalen Umsatzangaben: Nvidia ordnet Umsätze seit dem Vorjahr nach dem Hauptsitz der Kunden statt nach der Rechnungsadresse zu, dadurch verschwand Singapur aus der Aufschlüsselung. Ob das mit der Prüfung zusammenhängt, ist nicht belegt. Auch die Finanzierungen und Garantien, mit denen Nvidia KI-Firmen und Cloud-Anbieter unterstützt, stehen bei Anlegern in der Kritik. Interimschefin Colette Kress kündigte laut Reuters an, dabei künftig selektiver vorzugehen. Die Aktie verlor allein am Freitag 14 Prozent und über die Woche 23 Prozent. Eine Ermittlung bedeutet noch keinen Vorwurf und kein Fehlverhalten; Ergebnisse gibt es bisher keine.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/us-boersenaufsicht-nvidias-buchhaltung-im-fokus-von-sec-ermittlung.100442/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/nvidia-being-investigated-by-the-sec-for-accounting-issues-says-report/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "SEC",
+        "Börse",
+        "Bilanz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:30.286Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet financial newsroom desk at late-morning: a stack of printed balance sheets with unreadable blurred figures, a magnifying glass resting on them, a closed laptop and an unbranded graphics card with two visible axial fans lying beside the papers, a muted terracotta folder as accent, warm window light, natural rich colors. No readable text or numbers, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-nvidia-sec-bilanzpruefung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-deltarune-kapitel-6-durchspielbar",
+      "datum": "2026-11-20T22:32:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Deltarune"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Toby Fox: Deltarune Kapitel 6 ist von Anfang bis Ende spielbar, Lokalisierung und erste Tests laufen, Arbeit an Kapitel 7 hat begonnen",
+      "schlagzeile": "Deltarune: Kapitel 6 ist komplett spielbar, Kapitel 7 schon in Arbeit",
+      "kurz": "Entwickler Toby Fox meldet, dass Deltarune Kapitel 6 als vollständiger Entwurf von Anfang bis Ende spielbar ist. Lokalisierung und erste Tests haben begonnen, einige wichtige Szenen brauchen aber noch Arbeit. Ein Termin steht nicht fest, Fox hofft auf 2027.",
+      "zusammenfassung": "Die Angaben stammen aus dem Herbst-Newsletter von Toby Fox, Insider Gaming hat sie zusammengefasst. Laut Fox existieren alle Karten, Ereignisse und Kämpfe von Kapitel 6, nur ein optionales Ereignis ziehe sich noch. Lokalisierung und vorläufige Tests sollen inzwischen angelaufen sein. Einige wichtige Szenen seien in der Präsentation aber noch nicht fertig, deshalb dauere es bis zum vollständigen Testen noch etwas. Fox betont erneut, dass Kapitel 6 eher kurz ausfällt. Teammitglieder, die mit Kapitel 6 fertig sind, arbeiten bereits an Kapitel 7. Fox schreibt, dass er bei diesem Kapitel zum ersten Mal das Gefühl habe zu wissen, was er tut. Einen Veröffentlichungstermin gibt es für keines der beiden Kapitel, für Kapitel 6 hofft Fox auf 2027.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/deltarune-chapter-6-playable-start-to-finish/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Deltarune",
+        "Toby Fox",
+        "Indie"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:30.984Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a small indie game studio desk at golden hour, hand-drawn pixel-art sketches and storyboard cards pinned on a cork board above the desk, a drawing tablet with a stylus, a blank-screened monitor, a cup of tea with a muted dusty-teal mug, warm window light with long shadows, cosy and hopeful mood, natural rich colors. No readable text, no logos, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-deltarune-kapitel-6-durchspielbar.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-gta6-3-79-mrd-rekord",
+      "datum": "2026-11-20T21:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Rockstar: GTA 6 setzt am ersten Tag 3,79 Milliarden US-Dollar um und verkaufte vorab 32,5 Millionen Exemplare",
+      "schlagzeile": "Offiziell: GTA 6 macht 3,79 Milliarden Dollar am ersten Tag",
+      "kurz": "Rockstar Games meldet für GTA 6 einen Umsatz von 3,79 Milliarden US-Dollar am ersten Verkaufstag. Vor dem Start wurden 32,5 Millionen Exemplare verkauft. Damit sei es der größte Unterhaltungsstart aller Zeiten, über alle Medien hinweg.",
+      "zusammenfassung": "Die Zahlen stammen aus einer Pressemitteilung von Rockstar Games und Take-Two, Eurogamer und AP berichten. Gemeint ist der weltweite Handelsumsatz bis Ende des 19. November, nach Schätzungen des Unternehmens. Die 32,5 Millionen vorab verkauften Exemplare auf PS5 und Xbox Series X/S sind laut Rockstar ein plattformübergreifender Rekord. Zum Vergleich: GTA 5 kam vor 13 Jahren am ersten Tag auf rund 800 Millionen US-Dollar. Die Zahlen liegen deutlich über der Schätzung von Sensor Tower, die von rund 25 Millionen Spielen und 2,36 Milliarden US-Dollar ausging. Wie viele Exemplare nach dem Start ohne Vorbestellung verkauft wurden, sagt Rockstar nicht. Auch beim Datenverkehr gab es Rekorde: Der US-Anbieter Comcast meldet den verkehrsreichsten Tag seiner Geschichte, mit einer Spitze 31 Prozent über einem normalen Tag. Zu Spitzenzeiten entfielen laut Comcast 24 Prozent des Internetverkehrs auf Downloads und Spielen von GTA 6. Eine PC-Version hat Rockstar weiterhin nicht angekündigt.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch"
+      },
+      "weitere_links": [
+        {
+          "name": "Business Wire (Pressemitteilung Rockstar/Take-Two)",
+          "url": "https://www.businesswire.com/news/home/20261120446139/en/Grand-Theft-Auto-VI-Shatters-Entertainment-Box-Office-Records-with-%243.79-Billion-in-Day-One-Retail-Sales"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/grand-theft-auto-gta-vice-city-playstation-15c69f76548ab5659bc3fe44a69756d8"
+        },
+        {
+          "name": "IGN (Comcast-Rekord)",
+          "url": "https://www.ign.com/articles/gta-6-triggers-busiest-traffic-day-in-comcast-history"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar Games",
+        "Take-Two",
+        "Verkaufszahlen",
+        "Rekord"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:30.738Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a dynamic night-to-dawn scene on a palm-lined waterfront of an original subtropical coastal city, a sleek original sports car drifting around a corner in motion blur, sparks of confetti-like paper and dust in the warm headlight beams, fireworks far away over the bay, low camera angle with strong diagonals, warm golden light against cool teal sky, natural rich colors, celebratory energy. No text, no logos, no readable signs, no recognizable game characters or vehicles.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-gta6-3-79-mrd-rekord.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-persona-schnellere-entwicklung",
+      "datum": "2026-11-20T20:23:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Persona"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Atlus verspricht kürzere Wartezeiten zwischen künftigen Persona-Teilen, zu Persona 6 gibt es weiterhin kaum Details",
+      "schlagzeile": "Persona 6 ist nicht das Ende: Atlus will Fans nicht mehr so lange warten lassen",
+      "kurz": "Atlus will die Abstände zwischen großen Persona-Teilen verkürzen. Das sagte P-Studio-Produzent Kazuhisa Wada in einem Interview. Zu Persona 6 selbst gibt es weiterhin nur einen Teaser und keinen Termin.",
+      "zusammenfassung": "Wada äußerte sich in einem Interview mit dem Sega-Magazin Samania, Eurogamer berichtet nach einer Übersetzung von GamesRadar+. Persona 6 sei nicht das Ende, das Team arbeite daran, dass Fans auf das nächste Spiel nicht mehr so lange warten müssen wie bisher. Große Rollenspiele wie Persona bräuchten fünf Jahre oder mehr Entwicklungszeit, deshalb lägen zwischen nummerierten Teilen oft lange Pausen. Wie Atlus das ändern will, sagt Wada nicht. Offen ist, ob der nächste Hauptteil schon parallel entsteht oder ob nur die Abläufe gestrafft werden. Zu Persona 6 könne er wenig sagen, das Team wolle aber etwas Besseres schaffen als je zuvor. Bislang gibt es nur einen kurzen Teaser vom Xbox Games Showcase 2026. Einen Termin oder Plattformdetails hat Atlus nicht genannt.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/persona-6-games-come-quicker-atlus"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Persona 6",
+        "Atlus",
+        "Sega",
+        "Rollenspiel"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:31.105Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: an original adult student character in a dark school-uniform-like jacket (original design) walking through a sunlit Japanese-style city street at dusk, a mysterious soft shadow figure looming in the wet reflections of the pavement, train overhead line and lanterns, strong diagonal composition, warm sunset light against cool blue shadows, natural rich colors, mysterious mood. No text, no logos, no readable signs, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-persona-schnellere-entwicklung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-microsoft-pc-assist",
+      "datum": "2026-11-20T19:58:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft veröffentlicht die App PC Assist für Windows 11: gute Systemübersicht, aber viele Funktionen öffnen nur Get Help oder Bing",
+      "schlagzeile": "Microsoft PC Assist: Neue Windows-App mit guten Ansätzen und viel Bing",
+      "kurz": "Microsoft bietet mit PC Assist eine neue, optionale App für Windows an, die Probleme lösen und Leistung, Speicher und Netzwerk überwachen soll. Windows Latest lobt die Übersichten, kritisiert aber, dass Fehlerbehebungen nur die Get-Help-App öffnen und Werkzeuge auf Bing verweisen. Das Installationsprogramm will standardmäßig Bing als Suchmaschine setzen.",
+      "zusammenfassung": "Windows Latest hat PC Assist in Version 0.4.4.0 getestet, die App ist ein separater Download von Microsofts Website. Bei der Installation ist eine Option vorausgewählt, die Bing als Startseite und Suchmaschine in mehreren Browsern einrichtet. Microsoft weist auf der Downloadseite darauf hin und kündigt zudem Werbehinweise in der App an. Für den Start braucht die App die .NET-10-Desktop-Laufzeit. Die Bereiche Leistung, Speicher und Netzwerk zeigen laut Test übersichtlich Auslastung, große und doppelte Dateien sowie den Datenverbrauch pro App. Die Fehlerbehebungen für Audio, Netzwerk, Drucker oder Bluetooth öffnen dagegen nur die bereits vorhandene Get-Help-App. Alle zehn Werkzeuge, etwa Übersetzer, Wetter oder Speedtest, öffnen die jeweilige Bing-Seite im Browser. Die Oberfläche läuft teilweise über WebView2, einen Dunkelmodus und ein frei skalierbares Fenster gibt es nicht. Microsoft bewirbt die App bei Bing als KI-Assistenten, im Test fand Windows Latest aber keine KI-Funktion in der App. Die App ist optional und wird nicht automatisch installiert.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/21/microsoft-built-a-new-pc-optimizer-for-windows-11-that-nobody-asked-for-and-its-whole-interface-is-web-app-slop-running-on-webview2/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Microsoft",
+        "PC Assist",
+        "Bing"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:31.694Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a warm wooden kitchen table in late-morning window light, its screen showing blurred, unreadable soft graphs and panels, a hand-written sticky-note pad with no legible writing, a muted terracotta coffee mug and reading glasses beside it, natural rich colors, documentary look, shallow depth of field. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-microsoft-pc-assist.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
@@ -599,6 +989,58 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded full-size desktop graphics card with two visible axial fans and a matte dark-grey shroud with a muted terracotta accent stripe, lying on a warm wooden workbench next to a row of memory chips on an anti-static mat and a small screwdriver, PCIe gold contacts only on one long edge, warm late-morning window light, natural rich colors, slight dust. No faces, no readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-20-moore-threads-lushan-teaser.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-windows-rdma-usb4-ki",
+      "datum": "2026-11-20T08:50:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "KI"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft stellt RDMA über USB4 für Windows vor: Mehrere PCs sollen per USB4-Kabel gemeinsam ein großes KI-Modell ausführen",
+      "schlagzeile": "Windows koppelt PCs per USB4-Kabel – für KI-Modelle, die nicht auf einen passen",
+      "kurz": "Microsoft hat eine Entwicklervorschau von RDMA über USB4 für Windows angekündigt. Damit sollen mehrere per USB4-Kabel verbundene PCs ein großes KI-Modell gemeinsam ausführen und dabei Speicher und Grafikleistung bündeln. Die nötige Windows-Testversion soll bald für Insider im Experimental-Kanal erscheinen.",
+      "zusammenfassung": "Microsoft hat die Technik am 19. November in einem Blogbeitrag vorgestellt, Neowin und VideoCardz berichten. RDMA erlaubt den direkten Datenaustausch zwischen dem Arbeitsspeicher zweier Systeme, ohne den üblichen Netzwerkstapel. Bisher brauchte man dafür unter Windows spezielle Netzwerkkarten aus dem Serverbereich, jetzt sollen normale USB4-Anschlüsse reichen, auch Thunderbolt 4 und 5. Laut Microsoft sinkt die Latenz kleiner Nachrichten auf etwa 28 bis 50 Mikrosekunden, rund viermal weniger als mit UDP über dieselbe Verbindung. In Tests liefen auf drei Mini-PCs mit Ryzen AI Max+ 395 und je 128 GB Speicher das Modell Qwen3-235B mit rund 18,5 Token pro Sekunde. Intel zeigte GPT-OSS-120B auf drei und vier Systemen mit Core Ultra Series 3. Jeder PC muss direkt mit jedem anderen verbunden sein, eine Kette kostet deutlich Leistung. Der USB4-Treiber-Provider und ein angepasstes llama.cpp sind bereits als Open Source verfügbar. Für die Vorschau sind laut Neowin ein Registry-Eintrag und Testsignierung nötig, was zeitweise das Abschalten von Secure Boot bedeutet. Die Funktion ist standardmäßig aus und richtet sich vorerst an Entwickler.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-shows-massive-gains-with-new-windows-usb4-feature-that-combines-multiple-pcs/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft Tech Community (Blog)",
+          "url": "https://techcommunity.microsoft.com/blog/microsoftusbblog/introducing-rdma-over-usb4%c2%ae-on-windows-run-larger-local-ai-models-across-pcs/4574602"
+        },
+        {
+          "name": "Microsoft auf GitHub",
+          "url": "https://github.com/microsoft/windows-usb4-rdma"
+        },
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/microsoft-brings-rdma-over-usb4-to-windows-allowing-multiple-pcs-to-run-one-local-ai-model"
+        }
+      ],
+      "tags": [
+        "Windows",
+        "USB4",
+        "RDMA",
+        "KI",
+        "Thunderbolt"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:31.563Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Three small unbranded mini PCs standing side by side on a warm wooden desk, connected to each other with short braided USB-C cables in a triangle, tiny status lights, a laptop with a blurred unreadable screen behind them, a muted olive-green cable organizer as accent, late-morning window light, natural rich colors, documentary look. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-windows-rdma-usb4-ki.webp",
         "ki_generiert": true
       }
     },
@@ -2933,6 +3375,51 @@
       "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Quiet empty strategy-game studio office in warm late-afternoon light: unoccupied desks with unmarked monitors showing only a softly blurred abstract map of generic terrain (no real game UI), packed cardboard boxes, a half-cleared corkboard with blank papers, an olive plant as muted accent, no logos, no text, no recognizable characters.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-firaxis-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-21-fsr-4-1-2-unreal-rx6000",
+      "datum": "2026-11-17T09:04:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "FSR",
+        "AMD",
+        "Unreal Engine"
+      ],
+      "kategorie": "Grafik-API",
+      "titel": "AMD bringt FSR Upscaling 4.1.2 als Unreal-Engine-5-Plugin und damit ML-Upscaling für Radeon RX 6000 und Ryzen-Handhelds",
+      "schlagzeile": "FSR 4.1 für Unreal Engine 5: ML-Upscaling jetzt auch für Radeon RX 6000",
+      "kurz": "AMD hat sein FSR-Plugin für Unreal Engine 5 auf Version 4.1.2 aktualisiert. Damit läuft das ML-basierte FSR-Upscaling erstmals auch auf Radeon RX 6000 und ausgewählten Ryzen-Prozessoren mit integrierter Grafik. Das Plugin unterstützt Unreal Engine 5.3 bis 5.8, vorerst nur mit DirectX 12.",
+      "zusammenfassung": "AMD hat das Update auf GPUOpen am 16. November veröffentlicht, VideoCardz berichtete am 17. November. Das Plugin basiert auf dem FSR-SDK 2.4 mit dem Codenamen Redstone. Für Radeon RX 6000 und Ryzen AI Max nutzt AMD das volle INT8-Modell, für schwächere integrierte Grafik in Notebooks und Handhelds ein optimiertes Modell mit weniger als halber Größe. Die Auswahl erfolgt automatisch je nach Hardware, auf nicht unterstützten Grafikkarten greift FSR 3 als Rückfallebene. Zum Paket gehören außerdem FSR Frame Generation 4.0.2 und eine neue Swapchain, die auf Radeon RX 9000 die Bildausgabe dem Treiber überlässt. Diese Funktion benötigt den Adrenalin-Treiber 26.10.1 oder neuer, FSR Frame Generation 4.0.2 setzt Windows 11 voraus. Auch das Anti-Lag-2-Plugin wurde auf Version 2.0.6 aktualisiert. Vulkan unterstützt das SDK bereits, das Unreal-Plugin aber noch nicht, einen Termin nennt AMD nicht. Weil das Plugin FSR über die FSR-Schnittstelle einbindet, können Spiele neuere FSR-Versionen später auch per Treiber-Update erhalten. Ob und wann einzelne Spiele das Update übernehmen, entscheiden die Entwickler.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/amd-releases-fsr-4-1-2-unreal-engine-5-plugin-with-radeon-rx-6000-and-ryzen-handheld-support"
+      },
+      "weitere_links": [
+        {
+          "name": "AMD GPUOpen",
+          "url": "https://gpuopen.com/learn/amd-fsr-ue-plugin-412/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "FSR 4",
+        "Unreal Engine 5",
+        "Radeon RX 6000",
+        "Upscaling"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:31.361Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A game developer's desk in warm late-afternoon window light: a wide monitor showing a blurred, unreadable photorealistic mountain landscape scene, a second monitor with an out-of-focus node-graph editor, an unbranded graphics card with two visible axial fans standing upright next to the keyboard, a small handheld gaming PC with a dark blank screen beside it, a muted terracotta notebook as accent, natural rich colors, shallow depth of field. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-21-fsr-4-1-2-unreal-rx6000.webp",
         "ki_generiert": true
       }
     },
