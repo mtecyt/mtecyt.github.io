@@ -2,10 +2,360 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-21T07:27:43.699Z",
+    "stand": "2026-11-21T18:31:12.555Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.841Z"
+      },
+      "id": "2026-11-14-huang-petition-musk",
+      "datum": "2026-11-14T18:19:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Petition für Huangs Rückkehr an die Nvidia-Spitze: über 100.000 Unterschriften, Elon Musk unterstützt sie, intern über 1.600 Kommentare",
+      "schlagzeile": "„Bring back the boss“: 100.000 wollen Jensen Huang zurück bei Nvidia",
+      "kurz": "Eine öffentliche Petition für die Rückkehr von Jensen Huang zu Nvidia hat laut Golem mehr als 100.000 Unterschriften, darunter über 2.000 von aktuellen und ehemaligen Beschäftigten. Elon Musk hat auf X angekündigt, sie zu unterzeichnen. Auch im internen Forum fordern viele Mitarbeitende den Gründer zurück.",
+      "zusammenfassung": "Wenige Tage nach dem Rücktritt von Jensen Huang formiert sich Widerstand gegen die Entscheidung des Verwaltungsrats. Eine Petition unter dem Motto „33 Jahre verdienen eine Antwort“ hatte laut Golem am Abend des 14. November mehr als 100.187 Unterschriften. Darunter sollen über 2.000 aktuelle und ehemalige Nvidia-Beschäftigte sein, prüfen lässt sich das von außen nicht. Elon Musk hatte am 13. November auf X auf die Petition hingewiesen und angekündigt, sie zu unterschreiben. Laut Wired gibt es zudem im internen Vorschlagsforum von Nvidia einen Beitrag für Huangs Rückkehr mit mehr als 1.600 Kommentaren, die meisten davon zustimmend. Heise berichtet, Interims-Chefin Colette Kress habe für den 18. November eine Betriebsversammlung angekündigt. Der Verwaltungsrat hatte Huangs Rücktritt nach Berichten über eine zweite Affäre mit einer direkt unterstellten Managerin bekanntgegeben; Reuters berichtete später von einer dritten Beziehung. Huang selbst hat sich seit seiner Mail an die Belegschaft vom Sonntag nicht mehr geäußert. Nvidia und Verwaltungsratschef Harvey Jones haben auf die Petition bisher nicht reagiert. Eine Petition hat keine rechtliche Wirkung, die Entscheidung liegt allein beim Verwaltungsrat.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/petition-nvidia-mitarbeiter-und-elon-musk-wollen-huang-zurueck-2611-215228.html"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Nvidia-Angestellte-wollen-Jensen-Huang-zurueck-11525279.html"
+        },
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/Wirtschaft-Thema-238882/News/Elon-Musk-unterzeichnet-Petition-fuer-Rueckkehr-von-Huang-als-Nvidia-CEO-1559989/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Elon Musk",
+        "Petition",
+        "Colette Kress"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.550Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.016Z"
+      },
+      "id": "2026-11-14-gta6-codes-fehlen-box",
+      "datum": "2026-11-14T17:43:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Einige physische GTA-6-Ausgaben enthalten keinen lesbaren Download-Code, Händler reagieren unterschiedlich",
+      "schlagzeile": "GTA 6 gekauft, aber kein Code in der Box? Erste Käufer melden Fehldrucke",
+      "kurz": "Mehrere Käufer berichten, dass in ihrer physischen GTA-6-Ausgabe kein lesbarer Download-Code steckt. Statt des Codes gibt es nur einen grauen Streifen, der sich nicht freirubbeln lässt. Betroffen sind laut Polygon PlayStation- und Xbox-Fassungen, das Problem scheint aber nicht weit verbreitet zu sein.",
+      "zusammenfassung": "GTA 6 erscheint komplett digital, auch die Box im Handel enthält keine Disc, sondern nur einen Code zum Herunterladen. Der Code steht auf der Rückseite des Covers und soll durch die durchsichtige Hülle sichtbar sein. Seit dem 12. November liefern Händler die Vorbestellungen aus, damit Käufer das Spiel vorab laden können. Laut Polygon melden nun mehrere Käufer, dass ihr Code fehlt: Statt der Zeichen gibt es nur einen grauen Streifen, der wie ein Rubbelfeld aussieht, sich aber nicht freirubbeln lässt. Das betrifft demnach sowohl PlayStation- als auch Xbox-Ausgaben. Händler reagieren unterschiedlich: Einige Best-Buy-Filialen sollen die Rücknahme verweigert haben, Amazon habe den Kaufpreis erstattet, GameStop verweise an Rockstar. Zwei Reddit-Nutzer berichten, Rockstars Support habe ihre Tickets ohne Lösung geschlossen. Rockstar hat sich öffentlich noch nicht geäußert. Polygon geht davon aus, dass nur wenige Exemplare betroffen sind. Wer eine Box gekauft hat, sollte den Code also schon vor dem Start am 19. November prüfen.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-grand-theft-auto-no-code-physical-edition/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Download-Code",
+        "Handel"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.551Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.184Z"
+      },
+      "id": "2026-11-14-xbox-25-spiele-pc-kauf",
+      "datum": "2026-11-14T15:45:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox",
+        "Windows"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Zum Xbox-Jubiläum: 25 Spiele gratis beim Kauf eines neuen Windows-PCs, aber nur in den USA",
+      "schlagzeile": "25 Xbox-Spiele gratis – aber nur zum neuen PC und nur in den USA",
+      "kurz": "Microsoft feiert 25 Jahre Xbox mit einem Paket aus 25 PC-Spielen, darunter Skyrim, Halo: Combat Evolved Anniversary und Gears of War: Reloaded. Es gibt sie nur beim Kauf eines qualifizierten neuen Windows-PCs bis Ende 2026, gezählt wird ab Anfang November. Die Aktion gilt ausschließlich in den USA.",
+      "zusammenfassung": "Xbox-Chefin Asha Sharma hat auf X das „25 Years of Xbox Bundle“ vorgestellt. Wer einen qualifizierten neuen Windows-PC kauft und aktiviert, bekommt laut Microsofts Aktionsbedingungen 25 digitale PC-Spiele dazu. Dazu zählen unter anderem Skyrim Special Edition, Oblivion, Halo: Combat Evolved Anniversary, Gears of War: Reloaded, Age of Empires 2, Doom, Quake, Fallout 76 und Call of Duty: WWII. Berechtigt sind ausgewählte Windows-Home-Geräte teilnehmender Händler und Hersteller, auch einige Handhelds; Windows-Pro-Geräte sind bis auf eine Ausnahme ausgeschlossen. Refurbished-, Open-Box-, Rückläufer- und Vorführgeräte zählen nicht. Der Kauf muss zwischen dem 2. November und dem 31. Dezember 2026 erfolgen. Das Paket erscheint spätestens am 30. November im Microsoft Store unter „Im Lieferumfang des Geräts enthalten“ und muss bis 12. Februar 2027 eingelöst werden. Die Lizenzen sind an das Microsoft-Konto gebunden und nicht übertragbar. Laut PC Games gilt die Aktion nur in den USA, in Deutschland und Österreich also nicht. Ob sie ausgeweitet wird, ist nicht bekannt. In der Community kommt die Aktion eher kritisch an, auch weil neue PC-Hardware derzeit besonders teuer ist.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Microsoft-Xbox-Konsolen-18125/News/25-Gratis-Spiele-bei-Kauf-eines-neuen-PCs-1559998/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft (Aktionsbedingungen)",
+          "url": "https://www.microsoft.com/en-us/windows/xbox-bundle-terms-and-conditions"
+        },
+        {
+          "name": "Asha Sharma auf X",
+          "url": "https://x.com/asha_shar/status/2120999976927220138"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "25 Jahre Xbox",
+        "Windows",
+        "Microsoft Store",
+        "Asha Sharma"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.552Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.758Z"
+      },
+      "id": "2026-11-14-12v2x6-pinprotect-november",
+      "datum": "2026-11-14T15:34:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Netzteil"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Über zehn neue Fälle geschmolzener GeForce-Stromstecker im November; Corsairs Spezialkabel zeigt, wann PinProtect abschaltet",
+      "schlagzeile": "Schon wieder geschmolzen: Über zehn Stecker-Fälle allein im November",
+      "kurz": "VideoCardz hat allein für November mehr als zehn gemeldete Fälle beschädigter 16-Pin-Stromstecker bei GeForce-Karten gezählt, bis hinunter zur RTX 5070. Gleichzeitig zeigt ein Test mit einem Corsair-Spezialkabel, dass dessen Schutzfunktion PinProtect bei Überlast tatsächlich abschaltet.",
+      "zusammenfassung": "Die Probleme mit dem 12V-2×6-Stecker reißen nicht ab. VideoCardz hat Meldungen gesammelt, die der Kanal UNIKO's Hardware aus Reddit, chinesischen Foren und anderen Communitys zusammengetragen hat, und kommt allein im November auf mehr als zehn Fälle. Betroffen sind unter anderem RTX 5090 D, mehrere RTX 4090, eine RTX 5080, eine RTX 5070 Ti und zwei RTX 5070. Auffällig ist die RTX 5070, die Nvidia nur mit 250 Watt angibt, gegenüber 575 Watt bei der RTX 5090. Manche Schäden lagen an der Grafikkarte, andere an Adaptern oder auf der Netzteilseite. Wie häufig solche Fehler insgesamt sind, lässt sich aus den Einzelmeldungen nicht ableiten, und die Ursachen sind nicht einzeln geprüft. Passend dazu hat Professional Review ein bisher unbekanntes Corsair-Testkabel gezeigt, bei dem sich jede der sechs 12-Volt-Leitungen per Schalter abtrennen lässt. An einer RTX 5080 mit rund 250 Watt Last wurden die Leitungen nacheinander abgeschaltet. Erst als nur noch wenige Pins Strom führten und ein Pin über die Schwelle von rund 9,5 Ampere kam, schaltete Corsairs PinProtect im Netzteil RM1200e die Karte ab. Das Kabel ist laut Wccftech nicht im Handel erhältlich und dient offenbar internen Tests.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/here-are-all-the-melted-geforce-power-connector-and-cable-cases-reported-in-november-alone"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/corsairs-special-12v-2x6-cable-with-six-switches-gets-tested/"
+        }
+      ],
+      "tags": [
+        "12V-2×6",
+        "12VHPWR",
+        "RTX 5070",
+        "RTX 4090",
+        "Corsair",
+        "PinProtect"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.552Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.664Z"
+      },
+      "id": "2026-11-14-geforce-freeman-nope",
+      "datum": "2026-11-14T14:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Nvidias GeForce-Evangelist Jacob Freeman weist Spekulationen über ein Ende von GeForce nach Huangs Rücktritt zurück",
+      "schlagzeile": "Aus für GeForce nach Huangs Abgang? Nvidia-Mann sagt: „Nope“",
+      "kurz": "Nach dem Rücktritt von Jensen Huang fragen sich viele Gamer, ob Nvidia GeForce aufgibt. GeForce-Evangelist Jacob Freeman antwortete auf X auf genau diese Frage mit einem knappen „Nope“. Eine offizielle Roadmap gibt es dazu aber nicht.",
+      "zusammenfassung": "Seit Jensen Huang als Nvidia-Chef zurückgetreten ist, wird spekuliert, ob sich der Konzern noch stärker auf KI-Hardware konzentriert und das Gaming-Geschäft zurückfährt. Jacob Freeman, bei Nvidia als GeForce-Evangelist tätig und früher Produktmanager bei EVGA, hat sich dazu auf X geäußert. Er war auf der LAN-Party PDXLAN in den USA und schrieb, es sei viel passiert diese Woche, die Arbeit mit Kollegen, die PC-Gaming lieben, gehe aber weiter. Auf die direkte Frage eines Nutzers, ob das nun das Ende von GeForce sei, antwortete er mit „Nope“ und einem Smiley. Das ist eine persönliche Antwort auf X und keine offizielle Ankündigung von Nvidia. Eine neue Gaming-Roadmap hat Nvidia nicht vorgelegt. Laut VideoCardz soll Nvidia zuvor mehrere bereits mit Boardpartnern besprochene Produkte gestrichen haben, darunter eine SUPER-Serie mit 3-GB-Speicherchips; bestätigt ist das nicht. Günstiger werden Grafikkarten durch Freemans Aussage ebenfalls nicht, die RTX 5090 kostet in den USA derzeit mehr als das Dreifache ihrer UVP.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidias-jacob-freeman-says-the-end-of-geforce-is-not-happening"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/geforce-evangelist-jacob-freeman-assures-gaming-gpus-safe-prices/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "GeForce",
+        "Jacob Freeman",
+        "Jensen Huang"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.554Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.098Z"
+      },
+      "id": "2026-11-14-tarkov-konsole-mobile",
+      "datum": "2026-11-14T12:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Escape from Tarkov"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Escape from Tarkov: Konsolenversion soll 2027 angekündigt werden, erscheint aber frühestens 2028; Mobile-Ableger wird ein Top-down-Extraction-Shooter",
+      "schlagzeile": "Tarkov: Konsolenfassung erst ab 2028, Handy-Ableger von oben",
+      "kurz": "Battlestate-Chef Nikita Buyanov will die Konsolenfassung von Escape from Tarkov im kommenden Jahr vorstellen, erscheinen soll sie aber nicht vor 2028. Das geplante Handyspiel wird laut Insider Gaming kein Port, sondern ein Extraction-Shooter aus der Top-down-Perspektive. Auch dieses Spiel soll 2027 angekündigt werden.",
+      "zusammenfassung": "Battlestate Games hat in einem Interview mit Insider Gaming neue Details zu seinen Tarkov-Plänen verraten. Laut PC Games steht Studio-Chef Nikita Buyanov kurz davor, einen Partner für die Konsolenumsetzung zu finden. Er rechnet fest damit, die Konsolenfassung 2027 offiziell vorzustellen, womöglich schon Anfang des Jahres. Eine Veröffentlichung im Jahr 2027 schloss er aus, frühestens 2028 ist also realistisch. Für welche Konsolen die Fassung kommt, hat Battlestate weiterhin nicht verbindlich gesagt. Schon früher hatte Buyanov angekündigt, dass die Konsolenversion nicht vereinfacht werden und sogar ohne Zielhilfe auskommen soll; ob das so bleibt, ist offen. Außerdem arbeitet das Studio an einem Tarkov-Spiel für Smartphones. Laut Buyanov ist es ein Extraction-Spiel im Look von Tarkov, aber aus der Third-Person-Perspektive von oben, ähnlich wie Escape from Duckov oder Zero Sievert. Es gebe bereits spielbare Prototypen, eine Ankündigung sei für nächstes Jahr geplant. Im Dezember startet zudem die zweite PvP-Season von Escape from Tarkov.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/tarkov-new-mobile-game-top-down-extraction-shooter/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games",
+          "url": "https://www.pcgames.de/Escape-from-Tarkov-Spiel-56471/News/konsolenversion-release-2028-1559994/"
+        }
+      ],
+      "tags": [
+        "Escape from Tarkov",
+        "Battlestate Games",
+        "Konsole",
+        "Mobile",
+        "Extraction-Shooter"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.554Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.581Z"
+      },
+      "id": "2026-11-14-rtx5090-usa-dreifach-uvp",
+      "datum": "2026-11-14T11:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "RTX 5090 bei Newegg wieder lieferbar, aber zum mehr als dreifachen UVP; in Japan sinken die Preise für RTX 5090 und RTX 5080",
+      "schlagzeile": "RTX 5090 wieder lieferbar – für das Dreifache der UVP",
+      "kurz": "Die GeForce RTX 5090 ist bei Newegg in den USA wieder direkt lieferbar. Das günstigste Modell kostet aber 6.249,99 Dollar, mehr als dreimal so viel wie die UVP von 1.999 Dollar. In Japan sind die Preise für RTX 5090 und RTX 5080 dagegen zuletzt deutlich gefallen.",
+      "zusammenfassung": "Nach Wochen mit kaum verfügbarer Ware listet der US-Händler Newegg laut VideoCardz wieder mehrere RTX-5090-Modelle zum direkten Kauf. Am günstigsten ist eine ASUS ROG Astral RTX 5090 OC für 6.249,99 Dollar. Modelle von GIGABYTE und MSI liegen zwischen rund 6.600 und 7.000 Dollar, eine MSI SUPRIM SOC kostet 7.349,99 Dollar. Nvidias offizielle UVP liegt weiterhin bei 1.999 Dollar, selbst das billigste Angebot kostet also gut das 3,1-Fache. Im September gab es bei Newegg selbst kaum noch Lagerware, Käufer waren meist auf Marktplatz-Händler angewiesen. In Japan geht es dagegen nach unten: Laut Wccftech mit Verweis auf ITmedia und Gazlog fiel eine Palit RTX 5090 GameRock bei Dospara von 1.288.000 auf 1.048.000 Yen, im Laden in Akihabara sogar auf 999.800 Yen. Die RTX 5080 sank von bis zu 359.800 auf 299.800 Yen. Zeitlich fällt das mit dem Rücktritt von Jensen Huang zusammen, einen direkten Zusammenhang sehen die Berichte aber nicht. Die Preise hatten demnach schon Ende Oktober ihren Höhepunkt erreicht, danach stiegen die Lagerbestände. Ob daraus ein breiter Preisrückgang wird, ist offen.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/nvidia-geforce-rtx-5090-returns-to-stock-at-us-retailers-now-available-for-just-3x-msrp"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/geforce-rtx-5090-and-rtx-5080-witness-a-sudden-price-drop-of-up-to-22-in-japan-but-its-unlikely-due-to-jensens-resignation/"
+        }
+      ],
+      "tags": [
+        "RTX 5090",
+        "RTX 5080",
+        "Grafikkartenpreise",
+        "Newegg",
+        "Japan"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.554Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:02.272Z"
+      },
+      "id": "2026-11-14-steamos-3-10-hdmi21-amd",
+      "datum": "2026-11-14T10:08:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "SteamOS"
+      ],
+      "kategorie": "Software",
+      "titel": "SteamOS 3.10.0 Preview: HDMI 2.1 mit VRR, FRL und ALLM für AMD-Grafik, Mesh Shader für Nvidia ab Turing",
+      "schlagzeile": "SteamOS 3.10 Preview: AMD-Grafik bekommt endlich HDMI 2.1 mit VRR",
+      "kurz": "Valve hat SteamOS 3.10.0 als öffentliche Vorschau veröffentlicht. Mit AMD-Grafik unterstützt das System jetzt HDMI 2.1 mit VRR, FRL und ALLM. Nvidia-Karten ab Turing bekommen Mesh Shader, dazu kommt ein Kernel auf Basis von Linux 7.3.",
+      "zusammenfassung": "Valve hat laut GamingOnLinux die Preview von SteamOS 3.10.0 veröffentlicht. Für Nutzer mit AMD-Grafik ist die wichtigste Neuerung die Unterstützung von HDMI 2.1 mit variabler Bildrate (VRR), Fixed Rate Link (FRL) für hohe Bandbreiten und dem automatischen Spielemodus ALLM. Als bekanntes Problem nennt Valve, dass der Monitor Dell G3223Q schwarz bleiben kann. Für Nvidia-Grafik gibt es Stabilitäts- und Leistungsverbesserungen, Mesh Shader ab der Turing-Generation und Korrekturen für Grafikfehler in Shadow of the Tomb Raider und The Surge 2. Im Spielmodus kommt die Vulkan-Erweiterung VK_EXT_present_timing dazu. Außerdem verbessert Valve das Frame-Timing mit Bildratenbegrenzer unter VRR und reduziert Flackern in der Steam-Oberfläche. Für den ASUS ROG Xbox Ally X20 gibt es HDR- und Helligkeitseinstellungen. Der Desktop-Modus springt auf KDE Plasma 6.8.2, der Kernel auf Linux 7.3. Es handelt sich um eine frühe Testversion; Valve rät nur zum Wechsel, wer mit möglichen Fehlern leben kann.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/steamos-3-10-0-preview-brings-hdmi-2-1-vrr-frl-and-allm-for-amd-and-improvements-for-nvidia/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "SteamOS",
+        "Valve",
+        "HDMI 2.1",
+        "VRR",
+        "AMD",
+        "Nvidia",
+        "Linux"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.555Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-14T18:51:01.934Z"
+      },
+      "id": "2026-11-14-gta6-fake-pc-download-malware",
+      "datum": "2026-11-14T08:36:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Sicherheit"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Gefälschter GTA-6-PC-Download verteilt Infostealer, der Steam-Logins und Krypto-Wallets abgreift",
+      "schlagzeile": "Vorsicht: „GTA 6 für PC“ ist Malware – sie klaut Steam-Logins",
+      "kurz": "Sicherheitsforscher von Cynet warnen vor einem angeblichen GTA-6-PC-Download, der in Wahrheit Schadsoftware ist. Sie stiehlt unter anderem Passwörter, Steam- und Roblox-Zugänge sowie Daten von Krypto-Wallets. Eine PC-Version von GTA 6 gibt es nicht, das Spiel erscheint am 19. November nur für PS5 und Xbox Series X|S.",
+      "zusammenfassung": "Kurz vor dem Start von GTA 6 versuchen Betrüger, die Vorfreude auszunutzen. Laut Neowin hat die Sicherheitsfirma Cynet einen angeblichen „GTA 6 EXE FILE DOWNLOAD“ untersucht, der über ein Google-Colab-Notebook verbreitet wurde. Der Link führt auf eine Seite, die sich als Software-Portal ausgibt und mit Versionsnummer, Download-Zähler und Siegeln wie „Virus-free“ und „Verified“ seriös wirken soll. Angeboten werden nur 72 MB, im Archiv stecken eine winzige EXE-Datei und eine Textdatei. Diese fordert dazu auf, die EXE als Administrator zu starten, Sicherheitswarnungen zu ignorieren und eine Ausnahme im Virenscanner einzurichten. Wer das tut, installiert einen Infostealer, der virtuelle Maschinen und Sandboxes erkennt und sich in Browser-Prozesse einklinkt. Er stiehlt Passwörter, Cookies, Browserdaten, Geheimnisse aus Browser-Erweiterungen, Steam- und Roblox-Zugangsdaten sowie Krypto-Wallet-Daten. Außerdem kann er kopierte Krypto-Adressen austauschen und weitere Schadsoftware nachladen. Wichtig: Eine PC-Version von GTA 6 ist nicht angekündigt. Zum Start am 19. November erscheint das Spiel nur für PlayStation 5 und Xbox Series X|S, jeder Windows- oder Mac-Download ist daher mit hoher Wahrscheinlichkeit Betrug.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/fake-gta-vi-download-for-pc-steals-steam-logins-crypto-wallet-data/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Malware",
+        "Infostealer",
+        "Steam",
+        "Sicherheit"
+      ],
+      "archiviert_am": "2026-11-21T18:31:12.555Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
