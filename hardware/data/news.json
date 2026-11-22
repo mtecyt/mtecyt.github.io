@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-22T15:37:56.090Z",
+    "stand": "2026-11-22T18:35:33.655Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -3302,45 +3302,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -3371,6 +3332,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
@@ -4430,49 +4430,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.014Z"
-      },
-      "id": "2026-11-16-playstation-controller-bezahlen-patent",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PlayStation"
-      ],
-      "kategorie": "Konsolen",
-      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
-      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
-      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
-      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
-      "quelle": {
-        "name": "Golem.de",
-        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
-        }
-      ],
-      "tags": [
-        "Sony",
-        "PlayStation",
-        "Controller",
-        "Patent",
-        "NFC"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.113Z"
       },
       "id": "2026-11-16-intel-sammelklage",
@@ -4507,6 +4464,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.014Z"
+      },
+      "id": "2026-11-16-playstation-controller-bezahlen-patent",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
+      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
+      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
+      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "PlayStation",
+        "Controller",
+        "Patent",
+        "NFC"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
         "ki_generiert": true
       }
     },
@@ -4888,426 +4888,6 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A thick unbranded black smartphone with a plain matte back lying face down on a wooden desk, its removable back cover and battery taken out beside it, three small hardware slide switches visible on the side, a tiny screwdriver and a microSD card nearby, a blurred laptop with a terminal window in the background, muted olive-green accent from a notebook cover. No readable text, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-librem-5-v2-risc-v.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-16T10:02:21.031Z"
-      },
-      "id": "2026-11-16-fbi-artex-ki-angriffe",
-      "datum": "2026-11-15T19:29:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Sicherheit",
-        "KI"
-      ],
-      "kategorie": "Sicherheit",
-      "titel": "FBI warnt vor ARTEX: KI-gestütztes Pentest-Framework wird seit August 2026 für automatisierte Angriffe weltweit missbraucht, unter anderem beim ConnectWise-Lieferkettenangriff",
-      "schlagzeile": "FBI warnt: KI-Werkzeug ARTEX automatisiert weltweit Hackerangriffe",
-      "kurz": "Das FBI warnt vor ARTEX, einem KI-gestützten Pentest-Framework, das Angreifer seit mindestens August 2026 missbrauchen. Manche Einbrüche führten in unter drei Stunden zu privilegiertem Zugriff. Auch der Lieferkettenangriff auf ConnectWise im Oktober soll damit gelaufen sein.",
-      "zusammenfassung": "In einer FLASH-Warnung vom Freitag schreibt das FBI, mehrere Tätergruppen setzten das quelloffene Framework gegen Organisationen aus Finanzwesen, Verwaltung, Technik, Verteidigung, Gesundheitswesen und weiteren Branchen ein, berichtet BleepingComputer. ARTEX ist in Go geschrieben und lässt KI-Agenten Aufklärung, Schwachstellensuche, Angriff, Rechteausweitung und Datendiebstahl weitgehend selbstständig erledigen. Ein eigenes KI-Modell hat es nicht, es bindet externe Sprachmodelle wie Claude, GPT, DeepSeek, GLM, Grok und Kimi an. Laut FBI können so auch Angreifer mit wenig Fachwissen mehrere Ziele gleichzeitig angreifen. Besonders gut findet das Werkzeug Lücken in vernachlässigten Systemen wie Partnerportalen, Mitarbeiter-Apps, Altdiensten und Drittanbieter-Anbindungen. Der Entwickler „Autumn-27“ hatte ARTEX im Juli auf GitHub veröffentlicht und am 8. Oktober wieder entfernt, doch Forks, Archivkopien und eine kommerzielle Version namens ARTEX PRO sind weiter im Umlauf. Anfang November zählten Forscher über 1.600 offen erreichbare ARTEX-Konsolen. Zu den genannten Angriffen gehört der Lieferkettenangriff auf ConnectWise Cloud Backup im Oktober, über den Angreifer in Microsoft-365-Umgebungen von Kunden gelangten. Das FBI empfiehlt, öffentlich erreichbare Anwendungen und Cloud-Verwaltungszugänge abzusichern, Berechtigungen und Anmeldeprotokolle zu prüfen und sensible Schnittstellen zu drosseln. Der Sicherheitsforscher MalwareMustDie hat zudem ein freies Paket mit Erkennungsregeln für gängige Sicherheitswerkzeuge veröffentlicht.",
-      "quelle": {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "FBI",
-        "ARTEX",
-        "KI",
-        "Cyberangriff",
-        "ConnectWise"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A dim security operations room in warm late-afternoon light: two large monitors showing blurred unreadable network graphs and log lines, a mechanical keyboard, a half-empty coffee mug and a notepad with blank pages on a wooden desk, a server rack with small status lights softly out of focus behind, muted amber accent from a desk lamp. No people, no readable text, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-fbi-artex-ki-angriffe.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.309Z"
-      },
-      "id": "2026-11-15-cyberpunk-torrent-regen-mod",
-      "datum": "2026-11-15T18:39:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PC-Spiele",
-        "Mods"
-      ],
-      "kategorie": "Spiele",
-      "titel": "Cyberpunk-2077-Mod „Torrent“ ersetzt den Regen in Night City durch einzelne 3D-Tropfen und bringt Gewitter mit Blitzen",
-      "schlagzeile": "Cyberpunk 2077: Neue Mod lässt es in Night City endlich richtig regnen",
-      "kurz": "Die Mod Torrent ersetzt die flachen Regeneffekte von Cyberpunk 2077 durch einzelne 3D-Tropfen, Gischt und Gewitter. Die Tropfen reagieren auf Wind, Licht und Fahrtempo. Die Mod ist kostenlos bei Nexus Mods erhältlich.",
-      "zusammenfassung": "Der Modder CyanideX hat für Cyberpunk 2077 die Mod Torrent veröffentlicht, berichtet Eurogamer mit Verweis auf DSOGaming. Sie ersetzt die bisher eher flachen Regeneffekte durch einzelne 3D-Tropfen mit eigener Größe und Fallgeschwindigkeit. Die Tropfen reagieren auf die Bewegung des Spielers, bei schneller Fahrt prasseln sie auf die Windschutzscheibe zu, und starker Wind drückt sie zur Seite. Straßenlaternen, Leuchtreklamen und Autoscheinwerfer spiegeln sich in den Tropfen, durch Dächer und in Gebäude regnet es nicht mehr. Auf dem Boden spritzen Tropfen auf, bei starkem Regen liegt Dunst in der Ferne, und Autos wirbeln auf nasser Straße Gischt auf. Dazu kommt ein neues Gewittersystem mit verästelten Blitzen, deren Häufigkeit sich in zehn Stufen einstellen lässt. Mit der Mod AudioXL folgt jedem Blitz passend zur Entfernung ein Donner. Für lichtempfindliche Spieler gibt es die Option Reduce Flashes, die das Flackern durch ein langsames Aufleuchten ersetzt und die Zahl der Blitze halbiert. Torrent funktioniert mit Nova City 2 und anderen Wetter-Mods. Angaben zur Leistung auf schwächeren PCs nennen die Berichte nicht. Die Mod ist ab sofort kostenlos bei Nexus Mods erhältlich.",
-      "quelle": {
-        "name": "Eurogamer",
-        "url": "https://www.eurogamer.net/cyberpunk-2077-torrent-rain-weather-mod"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Cyberpunk 2077",
-        "Mod",
-        "Night City",
-        "Grafik",
-        "Nexus Mods"
-      ],
-      "img_prompt": "Cinematic original illustration of a rainy futuristic Asian-American megacity street at night seen from a low angle near the wet asphalt: an original-design courier in a weathered rain jacket sprinting across the street through heavy individual 3D raindrops, a car passing behind throwing tyre spray, a branching lightning bolt over the skyline, warm sodium street lamps and car headlights reflecting in puddles against cool blue storm light, rich natural colors, muted magenta accent from a distant sign (unreadable, no letters). No copies of known game characters or locations, no text, no logos, no UI.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-cyberpunk-torrent-regen-mod.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.402Z"
-      },
-      "id": "2026-11-15-dawn-of-war-4-systemanforderungen",
-      "datum": "2026-11-15T18:30:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PC-Spiele"
-      ],
-      "kategorie": "Spiele",
-      "titel": "Warhammer 40.000: Dawn of War 4 – Systemanforderungen veröffentlicht, empfohlen sind 32 GB RAM und 125 GB auf einer NVMe-SSD",
-      "schlagzeile": "Dawn of War 4 will 32 GB RAM und 125 GB SSD – mitten in der RAM-Krise",
-      "kurz": "King Art und Deep Silver haben die PC-Anforderungen für Dawn of War 4 veröffentlicht. Bei CPU und Grafikkarte ist das Strategiespiel genügsam, beim Speicher nicht: Empfohlen sind 32 GB RAM und 125 GB auf einer NVMe-SSD. Das Spiel erscheint am 3. Dezember.",
-      "zusammenfassung": "Kurz vor dem Start von Warhammer 40.000: Dawn of War 4 haben Entwickler King Art und Publisher Deep Silver die PC-Systemanforderungen genannt, berichtet PC Games Hardware. Als Minimum reichen ein Core i5-10600K oder Ryzen 5 2600X, eine GeForce GTX 1660 oder Radeon RX 5700 und 16 GB RAM. Empfohlen werden ein Core i7-12700 oder Ryzen 5 7600X, eine GeForce RTX 3060 Ti oder Radeon RX 9060 mit 8 GB und 32 GB Arbeitsspeicher. In beiden Fällen braucht das Spiel 125 GB auf einer NVMe-SSD; laut King Art sind davon rund 25 GB Puffer für DLCs und Updates. Für welche Auflösung und Bildrate die Angaben gelten, ist nicht bekannt. Offiziell steht Windows 11 auch bei den Mindestanforderungen, in einem Steam-Beitrag stellten die Entwickler aber klar, dass das Spiel auch unter Windows 10 in 64 Bit läuft. Weil Microsoft den Support für Windows 10 beendet hat, kann King Art die Kompatibilität mit künftigen Updates dort aber nicht garantieren. Die hohen Speicherempfehlungen fallen in eine Zeit, in der Arbeitsspeicher deutlich teurer geworden ist. Wer nicht installieren will, kann Dawn of War 4 auch über GeForce Now streamen. Das Spiel kostet auf Steam 59,99 Euro, die Commander Edition mit der Year-1-Erweiterung 89,99 Euro, Vorbesteller bekommen zehn Prozent Rabatt. Nvidia hat mit dem GeForce-Treiber 621.24 bereits einen Game-Ready-Treiber für das Spiel veröffentlicht.",
-      "quelle": {
-        "name": "PC Games Hardware (PCGH)",
-        "url": "https://www.pcgameshardware.de/Warhammer-40000-Dawn-of-War-4-Spiel-78930/News/Systemanforderungen-32-GB-RAM-125-GB-SSD-1560033/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Dawn of War 4",
-        "Warhammer 40.000",
-        "Systemanforderungen",
-        "RAM",
-        "Strategie",
-        "King Art"
-      ],
-      "img_prompt": "Dynamic original sci-fi battle illustration, low close camera angle on a ruined industrial plain: a squad of heavily armored original-design futuristic infantry soldiers in bulky weathered ceramic-and-steel armor advancing through smoke and flying debris, one kneeling in cover behind broken concrete while firing a plausible heavy rifle, a massive original walker-tank silhouette looming through dust behind them, strong diagonals, warm late-afternoon sunlight cutting through smoke with a cool blue shadow contrast, rich natural colors, muted brass accent on armor trims. No copies of known Warhammer designs, no skulls or iconic emblems, no text, no logos, no UI.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-dawn-of-war-4-systemanforderungen.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-16T10:02:21.126Z"
-      },
-      "id": "2026-11-16-madden-gta6-nicht-loeschen",
-      "datum": "2026-11-15T18:22:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "GTA 6"
-      ],
-      "kategorie": "Spiele",
-      "titel": "EA blendet in Madden NFL 27 ein „Don't Delete!“-Pop-up im Vice-City-Look ein und kündigt ein Update für den 17. November an, zwei Tage vor GTA 6",
-      "schlagzeile": "„Nicht löschen!“: Madden 27 kämpft kurz vor GTA 6 um seinen Speicherplatz",
-      "kurz": "EA zeigt in Madden NFL 27 ein neues Pop-up mit der Botschaft „Don't Delete!“ und kündigt ein Update für den 17. November an. GTA 6 nennt EA nicht, Palmen und Pink-Lila-Farben erinnern aber stark an Vice City. GTA 6 braucht über 200 GB und erscheint zwei Tage später.",
-      "zusammenfassung": "Spieler entdeckten die Einblendung am Wochenende, CharlieIntel machte sie bekannt, IGN berichtet. Darin heißt es sinngemäß, eine Crew bereite einen großen Coup vor und man solle das Signal eines Insiders am 17. November abwarten. An diesem Dienstag soll ein neues Update für Madden NFL 27 erscheinen. EA erwähnt GTA 6 nicht ausdrücklich, Gestaltung und Wortwahl spielen aber deutlich auf das Rockstar-Spiel an. Der offizielle Madden-Account auf X hatte schon am 10. November für ein Update am 18. November mit dem Satz geworben, 210 GB sollten nicht zwischen Spieler und ihre Liga kommen. Hintergrund: GTA 6 braucht je nach Konsole über 200 GB, viele Spieler müssen dafür andere Spiele löschen. In frühen Screenshots stand im Pop-up zudem der Tippfehler „awating signal“, der offenbar schnell behoben wurde. In sozialen Netzwerken reagieren viele Spieler belustigt. GTA 6 erscheint am 19. November für PS5 und Xbox Series X|S.",
-      "quelle": {
-        "name": "IGN",
-        "url": "https://www.ign.com/articles/ea-adds-dont-delete-message-to-madden-nfl-27-in-bid-to-keep-players-from-making-room-ahead-of-gta-6"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Madden NFL 27",
-        "EA",
-        "GTA 6",
-        "Speicherplatz",
-        "Update"
-      ],
-      "img_prompt": "Dynamic original sports-action illustration: an original-design American football running back in a plain unmarked jersey and helmet bursting through a tackle on a stadium field at golden hour, low close camera, strong diagonal motion, turf and dust flying, in the background a huge sunset sky in warm pink and purple tones with silhouettes of palm trees beyond the stadium rim, rich natural colors, muted teal accent on the jersey. Original characters only, no team logos, no numbers, no text, no UI.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-madden-gta6-nicht-loeschen.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.489Z"
-      },
-      "id": "2026-11-15-kongress-ki-chip-exporte",
-      "datum": "2026-11-15T17:07:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nvidia",
-        "GPU"
-      ],
-      "kategorie": "Wirtschaft",
-      "titel": "US-Kongress treibt nach dem Megaspeed-Fall parteiübergreifend strengere Exportkontrollen für KI-Chips voran, Teile könnten ins Verteidigungsgesetz NDAA wandern",
-      "schlagzeile": "Nach Megaspeed-Affäre: US-Kongress will KI-Chip-Exporte strenger regeln",
-      "kurz": "Demokraten und Republikaner wollen den Export leistungsfähiger KI-Chips schärfer kontrollieren, berichtet ComputerBase unter Berufung auf die Financial Times. Einige Vorhaben könnten in das jährliche US-Verteidigungsgesetz aufgenommen werden. Ob das vor Jahresende klappt, ist offen.",
-      "zusammenfassung": "Der Fall rund um den Nvidia-Kunden Megaspeed aus Singapur bringt Bewegung in die US-Exportpolitik. Laut ComputerBase, das sich auf die Financial Times stützt, bekommen mehrere Gesetzesvorhaben zur Kontrolle von KI-Chips im Kongress Unterstützung aus beiden Parteien. Sie sollen Verkäufe ins Ausland begrenzen und dem Kongress mehr Mitsprache bei bereits genehmigten Geschäften geben. US-Behörden prüfen seit über einem Jahr, ob Megaspeed Nvidia-Chips nach China weitergeleitet hat. Ein Vorschlag, der Remote Access Security Act, soll chinesischen Firmen den Fernzugriff auf KI-Beschleuniger in ausländischen Rechenzentren erschweren, wenn sie diese Chips selbst nicht kaufen dürfen. Einige Vorhaben könnten in das jährliche Verteidigungsgesetz NDAA aufgenommen werden, das als kaum zu blockieren gilt. Abgeordnete verlangen außerdem von Handelsminister Howard Lutnick eine Erklärung, warum Nvidia an Megaspeed liefern durfte. Laut Financial Times kamen die Vorhaben schon vorher voran, der Megaspeed-Fall habe ihre Chancen aber deutlich erhöht. Unklar ist, ob dem Kongress vor Jahresende genug Zeit bleibt. Für Gaming-Grafikkarten gibt es bisher keine bekannten direkten Folgen. Die Debatte trifft Nvidia aber in einer heiklen Phase: Am 17. November legt der Konzern seine Quartalszahlen vor.",
-      "quelle": {
-        "name": "ComputerBase",
-        "url": "https://www.computerbase.de/news/wirtschaft/nvidia-us-kongress-will-ki-chip-exporte-schaerfer-kontrollieren.100340/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Nvidia",
-        "Exportkontrollen",
-        "KI-Chips",
-        "USA",
-        "China",
-        "Megaspeed"
-      ],
-      "img_prompt": "Documentary photo: a row of rack-mounted AI servers in a data center aisle with green status LEDs, in the foreground a closed wooden shipping crate with a metal customs seal and a blank paper shipping label on a loading cart, warm sunlight falling in from an open loading-bay door mixed with cool server-room light, natural rich colors, muted brick-red accent from the crate straps, shallow depth of field. No text, no logos, no flags, no people's faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-kongress-ki-chip-exporte.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.576Z"
-      },
-      "id": "2026-11-15-playstation-black-friday-zubehoer",
-      "datum": "2026-11-15T16:56:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PlayStation"
-      ],
-      "kategorie": "Konsolen",
-      "titel": "PlayStation Black Friday ab 16. November: Rabatte auf DualSense, Pulse-Headsets, PS VR2 und Spiele, aber keine Preissenkung für PS5 und PS5 Pro",
-      "schlagzeile": "PlayStation Black Friday: Rabatt auf Controller und PS VR2, nicht auf die PS5",
-      "kurz": "Sonys Black-Friday-Aktion startet in der Nacht auf Montag um Mitternacht Ortszeit und läuft bis Ende November. Rabatte gibt es auf DualSense-Controller, Headsets, PS VR2 und Spiele, die PS5 selbst wird nicht günstiger. Die Euro-Preise nennt Sony noch nicht.",
-      "zusammenfassung": "Sony hat die Details seiner Black-Friday-Aktion bekanntgegeben, die am 16. November um Mitternacht Ortszeit startet und bis zum 30. November läuft. Im PlayStation-Blog nennt Sony US-Rabatte: 20 Dollar auf den DualSense, 30 Dollar auf den DualSense Edge, 40 Dollar auf das Pulse-Elite-Headset, 30 Dollar auf die Pulse-Explore-Ohrhörer, 30 Dollar auf den Access-Controller und 100 Dollar auf PS VR2. Laut Polygon kostet der DualSense damit in den USA 54 Dollar und PS VR2 299 Dollar. Die PS5 und die PS5 Pro selbst bekommen keinen offiziellen Rabatt, anders als im Vorjahr mit einem vergünstigten Bundle, wie Push Square anmerkt. Reduziert werden außerdem Spiele wie Marvel's Wolverine, Saros, Ghost of Yōtei Complete Edition und Marvel Tōkon: Fighting Souls, im PlayStation Store gibt es bis zu 75 Prozent Rabatt auf PS5- und PS4-Spiele. Laut Push Square bekommen PS-Plus-Mitglieder unter anderem in Deutschland und Österreich beim Kauf über PlayStation Direct zusätzlich fünf Prozent auf den Aktionspreis. Für neue PS-Plus-Mitglieder und Upgrades auf Premium oder Deluxe gibt es ebenfalls Angebote. Die Preise in Euro und die genauen Laufzeiten einzelner Angebote veröffentlicht Sony erst zum Start auf der regionalen Black-Friday-Seite, sie können sich je nach Land und Händler unterscheiden. Der 27-Zoll-Monitor mit Ladehaken ist nur in den USA und Japan erhältlich.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/playstation-black-friday-hardware-deals/"
-      },
-      "weitere_links": [
-        {
-          "name": "PlayStation.Blog",
-          "url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026/"
-        },
-        {
-          "name": "Push Square",
-          "url": "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-knocks-up-to-usd100-off-ps5-accessories-psvr2"
-        },
-        {
-          "name": "PlayStation auf X",
-          "url": "https://x.com/PlayStation/status/2121923744369160304"
-        }
-      ],
-      "tags": [
-        "PlayStation",
-        "Black Friday",
-        "DualSense",
-        "PS VR2",
-        "PS5",
-        "Angebote"
-      ],
-      "img_prompt": "Documentary photo of a living room in late afternoon: two unbranded white-and-black wireless game controllers and a wireless gaming headset lying on a wooden coffee table next to a plain brown shipping box with tissue paper, a white virtual-reality headset half out of its unbranded box, warm golden window light, natural rich colors, muted mustard-yellow accent from a throw pillow, shallow depth of field. No text, no logos, no price tags with numbers.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-playstation-black-friday-zubehoer.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.661Z"
-      },
-      "id": "2026-11-15-rtx4090ti-es-china",
-      "datum": "2026-11-15T16:49:00+01:00",
-      "label": "Leak",
-      "bereich": "hardware",
-      "themen": [
-        "GPU",
-        "Nvidia"
-      ],
-      "kategorie": "Grafikkarten",
-      "titel": "Mutmaßliches Engineering Sample der nie erschienenen GeForce RTX 4090 Ti mit 18.176 CUDA-Kernen auf chinesischem Marktplatz angeboten",
-      "schlagzeile": "Leak: Nie erschienene RTX 4090 Ti soll in China zum Verkauf stehen",
-      "kurz": "Auf einem chinesischen Gebrauchtmarktplatz wird laut VideoCardz ein Vorserienmodell der RTX 4090 Ti angeboten. Der Verkäufer nennt 18.176 CUDA-Kerne, rund elf Prozent mehr als bei der RTX 4090. Unabhängig geprüft sind diese Angaben nicht.",
-      "zusammenfassung": "Nvidia hat die GeForce RTX 4090 Ti nie auf den Markt gebracht, doch immer wieder tauchen Prototypen davon auf. Jetzt ist laut VideoCardz ein weiteres mutmaßliches Engineering Sample auf einem chinesischen Gebrauchtmarktplatz gelistet. Entdeckt hat das Angebot der X-Nutzer @meiei_nowa, UNIKO's Hardware hat weitere Fotos veröffentlicht. Laut Verkäufer hat die Karte 18.176 CUDA-Kerne, 192 ROPs und 568 TMUs. Das passt zu den Gerüchten, die vor Jahren über die RTX 4090 Ti kursierten, und entspricht etwa elf Prozent mehr Shadern als bei der normalen RTX 4090 mit 16.384 Kernen. Dieselbe Kernzahl hat auch die Profikarte RTX 6000 Ada Generation. Der Vollausbau des AD102-Chips mit 18.432 Kernen steckte dagegen nur im nie erschienenen TITAN-Ada-Prototyp, den der Übertakter der8auer getestet hat. Der Verkäufer gibt an, dass die Karte einen internen Nvidia-Treiber braucht, im Test aber ohne erkennbare Probleme lief. Frühere RTX-4090-Ti-Muster fielen durch ein Vier-Slot-Design mit gedrehter Platine auf; ein von Gamers Nexus getestetes Exemplar lief allerdings nur mit normalen RTX-4090-Daten. Warum Nvidia die Karte gestrichen hat, wurde nie offiziell erklärt. Ob es sich wirklich um eine RTX 4090 Ti handelt, lässt sich aus dem Angebot allein nicht belegen.",
-      "zuverlaessigkeit": {
-        "stufe": "mittel",
-        "begruendung": "Fotos und Daten stammen aus einem Verkaufsangebot; die Angaben des Verkäufers sind nicht unabhängig geprüft. Die Kernzahl deckt sich mit älteren Gerüchten zur RTX 4090 Ti. Nvidia äußert sich nicht."
-      },
-      "ursprungsquelle": "Verkaufsangebot auf einem chinesischen Gebrauchtmarktplatz, entdeckt von @meiei_nowa auf X, Fotos von UNIKO's Hardware",
-      "quelle": {
-        "name": "VideoCardz",
-        "url": "https://videocardz.com/newz/nvidia-geforce-rtx-4090-ti-engineering-sample-with-18176-cuda-cores-surfaces-in-china"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RTX 4090 Ti",
-        "Nvidia",
-        "AD102",
-        "Engineering Sample",
-        "Prototyp"
-      ],
-      "img_prompt": "Documentary photo: an unbranded oversized four-slot prototype graphics card with a plain dark metal shroud and three visible axial fans lying on a worn wooden workbench, the PCIe gold contacts only along one long bottom edge, the slot bracket on one short end, a small paper tag on a string attached (blank), a jeweller's loupe and a padded shipping envelope next to it, warm late-morning window light, natural rich colors, muted olive-green accent from a cutting mat, shallow depth of field. No text, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-rtx4090ti-es-china.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.747Z"
-      },
-      "id": "2026-11-15-game-awards-nominierungen-gta6",
-      "datum": "2026-11-15T16:30:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "GTA 6"
-      ],
-      "kategorie": "Spiele",
-      "titel": "The Game Awards geben am 17. November die Nominierten bekannt, GTA 6 ist trotz Release am 19. November teilnahmeberechtigt",
-      "schlagzeile": "Game Awards: Nominierte kommen am Dienstag – GTA 6 darf noch mitspielen",
-      "kurz": "Die Nominierten der Game Awards 2026 werden am Dienstag um 18 Uhr unserer Zeit in einem Livestream verkündet. GTA 6 erscheint erst zwei Tage später, ist nach den offiziellen Regeln aber trotzdem zugelassen. Die Show selbst steigt am 10. Dezember in Los Angeles.",
-      "zusammenfassung": "Geoff Keighley stellt die Nominierten der Game Awards 2026 am Dienstag in einem eigenen Livestream auf YouTube und Twitch vor. Los geht es um 18 Uhr mitteleuropäischer Zeit, in früheren Jahren dauerte die Sendung nur rund zehn Minuten. Vergeben werden Preise in mehr als 30 Kategorien, die Kandidaten für das Spiel des Jahres kommen traditionell zum Schluss. Spannend ist das wegen GTA 6, das erst zwei Tage später für PS5 und Xbox Series X|S erscheint. Laut dem offiziellen Regelwerk, das Polygon zitiert, reicht es für die Hauptkategorien, wenn ein Spiel bis Freitag um 21 Uhr pazifischer Zeit erhältlich ist. GTA 6 rutscht damit noch durch, eine Nominierung ist damit aber nicht garantiert. Für den Publikumspreis Players' Voice gilt sogar das Monatsende als Stichtag. Über die Nominierungen entscheidet eine Jury aus über 100 Medien und Creator-Organisationen, die Gewinner werden laut PC Games zu 90 Prozent von der Jury und zu 10 Prozent per Fan-Abstimmung bestimmt. Ob Rockstar der Jury vorab Spielcodes geschickt hat, ist nicht bekannt. Einen ähnlichen Fall gab es 2014, als das Wii-U-Smash-Bros kurz vor dem US-Start nominiert wurde. Die Preisverleihung findet am 10. Dezember im Peacock Theater in Los Angeles statt, nach unserer Zeit in der Nacht auf den 11. Dezember.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/GTA-6-Spiel-55239/News/game-awards-2026-nominierung-vor-release-1560030/"
-      },
-      "weitere_links": [
-        {
-          "name": "Polygon",
-          "url": "https://www.polygon.com/the-game-awards-2026-nominees-announcement-date/"
-        }
-      ],
-      "tags": [
-        "The Game Awards",
-        "GTA 6",
-        "Spiel des Jahres",
-        "Rockstar",
-        "Geoff Keighley"
-      ],
-      "img_prompt": "Documentary photo inside an empty theater shortly before an awards show rehearsal: a wide stage with warm golden spotlights, a single unmarked golden statuette-shaped trophy on a pedestal in sharp focus in the foreground, rows of red velvet seats softly out of focus, a technician on a ladder in the far background, natural rich colors, muted teal accent from stage curtains, cinematic but realistic. No text, no logos, no screens with content, no recognizable people.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-game-awards-nominierungen-gta6.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.833Z"
-      },
-      "id": "2026-11-15-phishing-microsoft-365-ausfall",
-      "datum": "2026-11-15T14:59:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Sicherheit",
-        "Microsoft 365"
-      ],
-      "kategorie": "Sicherheit",
-      "titel": "Microsoft warnt vor Phishing-Kampagne, die gefälschte Störungsmeldungen zum Microsoft-365-Ausfall verschickt",
-      "schlagzeile": "Phishing-Welle nutzt Microsoft-365-Ausfall – Microsoft warnt",
-      "kurz": "Kriminelle nutzen den Microsoft-365-Ausfall dieser Woche für Phishing, warnt Microsofts Threat-Intelligence-Team. Gefälschte Störungsmeldungen behaupten, zurückgehaltene Mails würden gelöscht, wenn man nicht auf einen Link klickt. Echte Störungsinfos gibt es nur im Microsoft 365 Admin Center.",
-      "zusammenfassung": "Nur kurz nach dem großen Ausfall von Microsofts Cloud-Diensten tauchen Phishing-Mails dazu auf, berichtet heise online. Microsofts Threat-Intelligence-Team warnt auf Bluesky vor einer Kampagne, die Statusmeldungen zu Microsoft 365 nachahmt. Die Mails beziehen sich auf den echten Exchange-Online-Vorfall mit der Kennung EX1550543. Einige der Nachrichten, die Microsoft am Freitag entdeckt hat, behaupten, während des Ausfalls seien E-Mails zurückgehalten worden und würden binnen 24 Stunden gelöscht, wenn man sie nicht per Link wiederherstellt. Die Betreffzeilen folgen oft dem Muster „Outage“ plus sechsstelliger Code, als Absendername dienen Bezeichnungen wie „Outage Notification“ oder „Service Health“. Laut Microsoft kommen die Mails von drei Domains, die Klick-Links leiten über SendGrid auf eine weitere Seite weiter. Bisher richtete sich die Kampagne an Organisationen verschiedener Branchen in den USA. Das Muster entspricht typischem Zugangsdaten-Phishing; dass tatsächlich Passwörter abgegriffen oder Schadsoftware verteilt wurde, konnte Microsoft aber noch nicht bestätigen. Microsoft Defender blockiert die genutzten Domains, Defender for Office 365 schiebt solche Mails in Quarantäne. Admins sollen ihre Safe-Links-Richtlinien prüfen und Störungsmeldungen nur im Microsoft 365 Admin Center nachlesen. Für alle gilt: Bei Mails mit Löschdrohung und Zeitdruck nicht auf Links klicken.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Phishing-Kampagne-nutzt-Microsoft-Cloud-Ausfall-11525471.html"
-      },
-      "weitere_links": [],
-      "tags": [
-        "Phishing",
-        "Microsoft 365",
-        "Exchange Online",
-        "Sicherheit",
-        "Microsoft Defender"
-      ],
-      "img_prompt": "Documentary photo of an office desk in warm late-afternoon light: a laptop with a blurred unreadable email inbox on screen, a hand hovering over the touchpad hesitating, a smartphone showing an unreadable notification beside it, a coffee cup and a sticky note (blank), natural rich colors, muted orange accent from a desk lamp shade, shallow depth of field. No readable text, no logos, no brand names.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-phishing-microsoft-365-ausfall.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-15T18:43:51.921Z"
-      },
-      "id": "2026-11-15-dawnwalker-1-2-new-game-plus",
-      "datum": "2026-11-15T11:00:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "PC-Spiele"
-      ],
-      "kategorie": "Spiele",
-      "titel": "The Blood of Dawnwalker: Update 1.2 bringt in der Woche ab 16. November New Game Plus, Stufenobergrenze 100 und Balance-Änderungen",
-      "schlagzeile": "Blood of Dawnwalker: New Game Plus und Stufe 100 kommen diese Woche",
-      "kurz": "Rebel Wolves liefert mit Update 1.2 für The Blood of Dawnwalker das meistgewünschte Feature nach: New Game Plus. Dazu steigt die Stufenobergrenze auf 100. Das Update soll im Lauf dieser Woche erscheinen, einen genauen Tag gibt es noch nicht.",
-      "zusammenfassung": "Das polnische Studio Rebel Wolves, gegründet von früheren Witcher-Entwicklern, hat Update 1.2 für sein Vampir-Rollenspiel The Blood of Dawnwalker angekündigt. Es soll in der Woche ab dem 16. November erscheinen, einen genauen Termin nennt das Studio nicht. Wichtigste Neuerung ist ein New-Game-Plus-Modus, der nach dem Epilog freigeschaltet wird. Stufe, Fähigkeiten und Inventar werden in den neuen Durchgang übernommen. Die Stufenobergrenze steigt auf 100, Gegner werden in allen Regionen einheitlich skaliert, und Gegenstände bekommen eigene New-Game-Plus-Versionen mit angepassten Werten. Auch ohne New Game Plus ändert das Update einiges: Rebel Wolves passt die Lebenspunkte der Gegner und die Häufigkeit ihrer Spezialfähigkeiten an. Außerdem wird Geländegeometrie überarbeitet, damit Bewegung im Kampf und beim Erkunden flüssiger klappt. Besitzer der Eclipse Edition bekommen zusätzliche Songs im Spiel-Soundtrack, der später auch bei Spotify und anderen Streamingdiensten erscheinen soll. Vollständige Patch Notes gibt es noch nicht, genaue Zahlen zu den Balance-Änderungen fehlen daher. Offen ist auch, ob New Game Plus mehrfach hintereinander gespielt werden kann. Bei den Golden Joystick Awards landete das Spiel diese Woche laut GamesRadar+ in zwei Kategorien auf Platz zwei.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/The-Blood-of-Dawnwalker-Spiel-75056/News/New-Game-Plus-angekuendigt-1560015/"
-      },
-      "weitere_links": [
-        {
-          "name": "Polygon",
-          "url": "https://www.polygon.com/blood-of-dawnwalker-update-new-game-plus-announced/"
-        },
-        {
-          "name": "GamesRadar+",
-          "url": "https://www.gamesradar.com/games/rpg/the-blood-of-dawnwalker-is-getting-new-game-next-week-with-patch-bringing-the-level-cap-for-the-ex-witcher-devs-vampire-rpg-up-to-100/"
-        }
-      ],
-      "tags": [
-        "The Blood of Dawnwalker",
-        "Rebel Wolves",
-        "Patch",
-        "New Game Plus",
-        "Rollenspiel"
-      ],
-      "img_prompt": "Dynamic original dark-fantasy action illustration in a medieval Central European mountain village at dusk: an original-design hooded swordsman in a worn leather coat lunging forward with a plausible longsword against a pale feral vampire-like creature leaping from a broken wooden fence, low close camera, strong diagonal motion, mud and splinters flying, warm golden lantern and sunset light against cool blue mountain shadows, rich natural colors, muted crimson accent on a scarf. Original characters only, no copies of known game characters, no gore, no text, no logos, no UI.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-15-dawnwalker-1-2-new-game-plus.webp",
         "ki_generiert": true
       }
     }
