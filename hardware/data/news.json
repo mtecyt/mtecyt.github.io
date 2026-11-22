@@ -2,10 +2,456 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-22T18:35:33.655Z",
+    "stand": "2026-11-22T21:44:59.543Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-22-gta6-jason-steve-mcqueen",
+      "datum": "2026-11-22T17:11:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Rockstar"
+      ],
+      "kategorie": "Games",
+      "titel": "Rockstar-Narrative-Chef: Jasons wortkarger Charakter in GTA 6 ist von Steve McQueen in „The Getaway“ und von Recherchen zu ehemaligen Army Rangers inspiriert",
+      "schlagzeile": "Warum Jason in GTA 6 so wenig redet: Rockstar nennt Steve McQueen als Vorbild",
+      "kurz": "Jason Duval, einer der beiden Hauptfiguren in GTA 6, spricht bewusst wenig. Laut Rockstars Narrative-Chef Rupert Humphries stand Steve McQueen im Film „The Getaway“ Pate. Dazu kamen Recherchen zu ehemaligen Army Rangers.",
+      "zusammenfassung": "Humphries ist bei Rockstar Senior Vice President für Narrative und hat sich per E-Mail gegenüber Destructoid geäußert, Eurogamer und PC Gamer haben das aufgegriffen. Als das Team eine Geschichte über ein Paar auf der Flucht erzählen wollte, habe es sich ähnliche Filme angesehen. Besonders aufgefallen sei Sam Peckinpahs „The Getaway“ von 1972 mit Steve McQueen. McQueen sei dafür bekannt gewesen, Dialogzeilen zu streichen und Dinge allein durch seine Präsenz auszudrücken. Rockstar wollte ausprobieren, wie nah man dem mit einer Spielfigur kommt, zumal viele frühere Hauptfiguren das Gegenteil waren. Das habe zu den Recherchen über Veteranen und besonders ehemalige Army Rangers gepasst, die im Spiel „Marauders“ heißen. Solche Leute würden laut Humphries nur reden oder reagieren, wenn es nötig ist, und trotzdem stark auftreten. Autor Michael Wiafe nennt die Kriminalgeschichte Floridas als naheliegenden Ausgangspunkt für die Figuren. Die Hauptfiguren seien auf dem Papier Kriminelle, aber auch anständige Menschen, Ausreden für sie suche das Spiel nicht. Autorin Elizabeth Gauvey-Kern sagt, die Geschichte nehme heftige Wendungen, das Ziel von Jason und Lucia bleibe aber gleich. Manche Fans hatten Jason vor dem Release als zu blass kritisiert, Destructoid findet die Zurückhaltung im fertigen Spiel dagegen schlüssig.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers"
+      },
+      "weitere_links": [
+        {
+          "name": "Destructoid (Original-Interview)",
+          "url": "https://www.destructoid.com/gta-6-jason-nonchalant-1970s-heist-movie-inspiration/"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/jasons-stoic-character-in-grand-theft-auto-6-was-inspired-by-steve-mcqueen-and-research-into-army-veterans-these-guys-typically-arent-running-their-mouths/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Jason",
+        "Steve McQueen",
+        "The Getaway",
+        "Story"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:59.020Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original cinematic scene of a 1970s-inspired unbranded muscle car parked on the shoulder of a long empty highway through Florida-like wetlands at golden hour, an original adult man in a plain dark jacket seen only from behind leaning calmly against the car with his face not visible, a duffel bag at his feet, palm trees and a distant thunderstorm on the horizon, low camera angle, strong diagonal of the road, warm golden sunlight against a cool blue-grey sky, natural rich colors. No readable text, no logos, no license plate text, no recognizable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-gta6-jason-steve-mcqueen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-crystalmark-cpuix",
+      "datum": "2026-11-22T17:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "CPU",
+        "Benchmark",
+        "Retro"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Der Entwickler von CrystalDiskMark arbeitet an CrystalMark CPUix, einem CPU-Benchmark für Prozessoren vom i386 bis heute",
+      "schlagzeile": "Vom i386 bis heute: CrystalDiskMark-Macher baut CPU-Benchmark für alle Epochen",
+      "kurz": "Noriyuki Miyazaki, Entwickler von CrystalDiskInfo und CrystalDiskMark, arbeitet an einem neuen CPU-Benchmark namens CrystalMark CPUix. Er soll Prozessoren vom i386 bis zu aktuellen Modellen mit einer einheitlichen Wertung vergleichen. Als Termin nennt die offizielle Website den 31. März 2027.",
+      "zusammenfassung": "Laut ComputerBase hat Miyazaki das Projekt zum 28. Jubiläum seiner Software-Schmiede Crystal Dew World auf X angekündigt. CPUix soll die Leistung von i386-Prozessoren bis zu den neuesten CPUs nach einem einheitlichen Maßstab bewerten. Der i386 stammt aus dem Jahr 1985, Miyazaki spricht deshalb von rund 40 Jahre alten Prozessoren. Damit das funktioniert, soll der Benchmark auch unter Windows 95 und Windows NT 3.51 laufen. Für Entwicklung und Tests hat Miyazaki nach eigenen Angaben einen über 30 Jahre alten PC gekauft, einen NEC PC-9821 mit Pentium-Prozessor. Er will weitere alte und neue Hardware anschaffen, um CPUix über viele Generationen zu testen. Auf einem Foto ist schemenhaft eine frühe Version des Programms zu sehen. Weitere Details zu Testverfahren oder Wertung gibt es noch nicht. CrystalDiskMark gilt als Standard-Benchmark für SSDs, CrystalDiskInfo hat laut ComputerBase zuletzt 100 Millionen Downloads erreicht. Das frühere CPU-Infotool CrystalCPUID wurde dagegen schon vor Jahren eingestellt. Ob der Termin im März 2027 hält, bleibt abzuwarten.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/apps/vom-crystaldiskmark-entwickler-cpuix-vergleicht-moderne-und-historische-prozessoren.100449/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "CrystalMark CPUix",
+        "CrystalDiskMark",
+        "Benchmark",
+        "CPU",
+        "Retro-PC",
+        "i386"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.669Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A cozy retro computing workbench: an old beige unbranded desktop PC case with its side panel removed showing a vintage motherboard with a socketed square processor and a few expansion cards, next to it a modern compact motherboard with a large processor heatsink, an old CRT monitor softly blurred in the background with no readable content, a muted terracotta notebook as accent, warm natural late-afternoon daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-crystalmark-cpuix.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-intel-arc-g3-play-leak",
+      "datum": "2026-11-22T16:27:05+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "Handheld",
+        "Panther Lake"
+      ],
+      "kategorie": "Handhelds",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Exklusivbericht von VideoCardz ohne genannte Ursprungsquelle; die abgespeckte Panther-Lake-Variante war schon im August berichtet worden, eine Kernaufteilung stammt vom Leaker Jaykihn und einem HWiNFO-Eintrag (PTL-080). Intel hat den Chip nicht angekündigt, die Konfiguration ist laut VideoCardz noch nicht final."
+      },
+      "ursprungsquelle": "VideoCardz (exklusiv); Kernaufteilung laut Jaykihn auf X und HWiNFO-Eintrag PTL-080",
+      "titel": "Bericht: Intel plant mit „Arc G3 Play“ einen günstigeren Handheld-Chip auf Panther-Lake-Basis mit nur vier Xe3-Grafikkernen",
+      "schlagzeile": "Leak: Intels „Arc G3 Play“ soll Handhelds unter 800 Dollar möglich machen",
+      "kurz": "Laut VideoCardz arbeitet Intel an einem dritten Handheld-Prozessor namens Arc G3 Play. Er soll nur vier Xe3-Grafikkerne haben und Panther-Lake-Handhelds unter 800 Dollar ermöglichen. Intel hat den Chip nicht angekündigt.",
+      "zusammenfassung": "Arc G3 Play würde unter den bereits erhältlichen Arc G3 und Arc G3 Extreme angesiedelt. Arc G3 nutzt laut VideoCardz die Grafikeinheit Arc B370 mit 10 Xe3-Kernen, Arc G3 Extreme die Arc B390 mit 12 Kernen. Die Play-Variante käme also nur auf ein Drittel der Grafikkerne des Topmodells. Bei der CPU gibt es zwei mögliche Aufteilungen: Im August war von vier Performance- und vier sparsamen Low-Power-Kernen die Rede. Neuer ist ein HWiNFO-Eintrag namens PTL-080, der laut Leaker Jaykihn acht Efficient-Kerne ohne Performance-Kerne nutzt. Beide Varianten hätten acht CPU-Kerne, VideoCardz hält die neuere 0+8+0+4-Version für den wahrscheinlicheren Kandidaten. Für die ältere Variante war ein Leistungsbereich von 8 bis 25 Watt genannt worden, die bestehenden Modelle laufen mit bis zu 30 und 35 Watt. Ob diese Werte für die neue Konfiguration gelten, ist offen. Intel soll damit ein günstigeres Preissegment anpeilen, damit Hersteller Panther-Lake-Handhelds unter 800 Dollar anbieten können. Wie viel Spieleleistung bei vier Grafikkernen übrig bleibt, ist unbekannt. Zum Vergleich: Der GPD Win Mini Ultra mit Arc G3 Extreme kostet 1.699 Dollar. Weder Name noch Daten oder Termin sind von Intel bestätigt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/exclusive-intel-prepares-arc-g3-play-soc-for-budget-gaming-handhelds-with-just-4-xe3-cores"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Intel",
+        "Arc G3 Play",
+        "Panther Lake",
+        "Xe3",
+        "Handheld",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.405Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact unbranded handheld gaming PC with a dark matte shell lying on a wooden table, its screen softly blurred showing an abstract colorful landscape with no readable content, two thumbsticks and buttons without any markings, a small bare mobile processor chip on a green circuit board placed beside it, a muted olive canvas pouch as accent, warm natural afternoon daylight from a window, natural rich colors, shallow depth of field, documentary product photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-intel-arc-g3-play-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "TSMC",
+        "Chipfertigung",
+        "Export"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "Neue US-Exportregel stuft Chips ab 16/14 nm als potenziell exportkontrolliert ein: TSMC soll Lieferungen an mehrere Chipentwickler vorerst angehalten haben",
+      "schlagzeile": "Neue US-Regel trifft auch Handy-Chips: TSMC soll Lieferungen gestoppt haben",
+      "kurz": "Eine neue Regel der US-Exportbehörde BIS behandelt Chips aus 16- und 14-nm-Fertigung und feiner vorsorglich wie KI-Chips für Rechenzentren. Laut Nikkei Asia hat TSMC deshalb mehrere Lieferungen an chinesische und andere Chipentwickler vorerst angehalten, um die Vorgaben zu prüfen. Betroffen sein können auch Chips für Smartphones, Fernseher und Autos.",
+      "zusammenfassung": "Die Regel des Bureau of Industry and Security (BIS) gilt laut Tom's Hardware seit dem 19. November als vorläufige Verordnung. Kern ist eine Vermutung: Auftragsfertiger und Packaging-Firmen sollen Chips aus 16- oder 14-nm-Fertigung und feiner grundsätzlich als exportkontrollierte Hochleistungschips einstufen. Wer das vermeiden will, braucht eine Bestätigung eines zugelassenen Chipentwicklers zur Rechenleistung des Chips. Dabei geht es um Fertigungsverfahren, die seit rund zehn Jahren im Einsatz sind und in vielen Alltagsgeräten stecken. Nikkei Asia beruft sich auf mehrere Branchenmanager, wonach die Auswirkungen deutlich breiter sind als zunächst erwartet. TSMC soll mehrere Lieferungen an chinesische und nicht-chinesische Kunden zurückgehalten haben, solange die Prüfung läuft. Die Regel selbst ordnet keinen Lieferstopp an, die Pause ist eine Reaktion des Unternehmens, deren genauer Umfang nicht offiziell bestätigt ist. Eine öffentliche Stellungnahme von TSMC liegt bislang nicht vor. Zusätzlich verlangen die USA nun Exportlizenzen für KI-Chips nach Indonesien, Malaysia, Singapur, Brasilien und Thailand, weil diese Länder als Umschlagplätze für Lieferungen nach China gelten. Außerdem dürfen chinesische Firmen laut der Verordnung keine Rechenleistung in ausländischen Rechenzentren mehr mieten, um an moderne US-Chips zu kommen. Für PC-Spieler ändert sich kurzfristig nichts, längere Verzögerungen bei Chips für Konsumelektronik könnten aber Lieferketten und Preise belasten.",
+      "quelle": {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips"
+      },
+      "weitere_links": [
+        {
+          "name": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "BIS",
+        "Exportkontrollen",
+        "USA",
+        "China",
+        "16 nm",
+        "Chipfertigung"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.232Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-cachyos-eac-linux-v2",
+      "datum": "2026-11-22T13:55:53+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Gaming",
+        "Anti-Cheat"
+      ],
+      "kategorie": "Linux",
+      "titel": "CachyOS November 2026 unterstützt Easy Anti-Cheat Linux v2 mit eigenem signiertem Kernel und bringt neues Wiederherstellungs-Werkzeug",
+      "schlagzeile": "CachyOS macht Linux fit für Easy Anti-Cheat v2 – mit eigenem Gaming-Kernel",
+      "kurz": "Die beliebte Gaming-Linux-Distribution CachyOS unterstützt mit der November-Version Easy Anti-Cheat Linux v2. Dafür gibt es einen eigenen signierten Kernel mit separatem Booteintrag. Voraussetzung sind unter anderem Secure Boot und TPM 2.0.",
+      "zusammenfassung": "Laut GamingOnLinux lässt EAC Linux v2 Spiele nur starten, wenn es prüfen kann, wie das System gebootet wurde. Nötig sind Secure Boot mit einem Kernel, der mit einem von Epic akzeptierten Schlüssel signiert ist, ein TPM 2.0, eine aktivierte IOMMU und ein Kernel im Lockdown-Modus, der nur signierte Module lädt. CachyOS liefert dafür den Kernel linux-cachyos-eac und ein passend signiertes systemd-boot. Der EAC-Kernel bekommt einen eigenen Booteintrag, die normalen Einträge bleiben erhalten. Man startet ihn also nur, wenn man ein Spiel mit EAC spielen will. Das Skript eac-setup richtet das für systemd-boot, Limine und rEFInd ein, GRUB wird nur experimentell unterstützt. DKMS-Module funktionieren mit dem EAC-Kernel nicht, deshalb gibt es Nvidia-, ZFS- und r8125-Module als eigene Pakete. Wer BitLocker nutzt oder die Festplatte per TPM entsperrt, soll vorher die Anleitung im CachyOS-Wiki lesen. Neu ist außerdem ein Wiederherstellungs-Werkzeug, mit dem sich Btrfs-Snapshots ohne Live-USB-Stick testen und zurückspielen lassen. Der Paket-Installer 2.0 unterstützt auf Wunsch AUR, Flatpak und AppImage. An Bord sind Linux 7.3.5, Mesa 26.3.1 und der Nvidia-Treiber 620.73.04. Hintergrund ist Epics neuer Launcher mit Linux-Unterstützung, mit dem EAC Linux v2 kommen soll. Welche Spiele EAC v2 auf Linux tatsächlich freischalten, entscheiden weiterhin die jeweiligen Studios.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/cachyos-november-2026-release-brings-support-for-easy-anti-cheat-linux-v2/"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/CachyOS-November-2026"
+        },
+        {
+          "name": "9to5Linux",
+          "url": "https://9to5linux.com/cachyos-november-2026-iso-release-brings-cachyos-package-installer-2-0"
+        }
+      ],
+      "tags": [
+        "CachyOS",
+        "Linux",
+        "Easy Anti-Cheat",
+        "Secure Boot",
+        "TPM",
+        "Epic Games"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:59.264Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A gaming desk at dusk with an unbranded desktop PC tower with a glass side panel showing a graphics card with two visible axial fans, a monitor softly blurred showing an abstract boot menu with no readable text, a keyboard and a gamepad lying beside it, a small potted plant, a muted olive mouse pad as accent, warm natural evening light from a window mixed with soft desk lamp light, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-cachyos-eac-linux-v2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-gta6-circana-ueber-haelfte",
+      "datum": "2026-11-22T13:02:30+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Rockstar"
+      ],
+      "kategorie": "Games",
+      "titel": "Circana: Am Launch-Tag spielten 61 Prozent der aktiven US-PS5-Spieler und 56 Prozent der aktiven Xbox-Spieler weltweit GTA 6",
+      "schlagzeile": "GTA 6 am Launch-Tag: Mehr als jeder zweite aktive Konsolen-Spieler war dabei",
+      "kurz": "Laut Marktforscher Circana spielten am 19. November 61 Prozent der aktiven PS5-Spieler in den USA und 56 Prozent der aktiven Xbox-Spieler weltweit GTA 6. Im Schnitt verbrachten sie mehr als acht Stunden im Spiel. Fortnite kam als Zweiter auf 10 Prozent.",
+      "zusammenfassung": "Die Zahlen stammen aus Circanas Player Engagement Tracker, Analyst Mat Piscatella hat sie auf Bluesky veröffentlicht, berichtet Eurogamer. Gemessen wurde, welcher Anteil der an diesem Tag aktiven Spieler GTA 6 startete. PS5-Spieler kamen im Schnitt auf 513 Minuten, also über achteinhalb Stunden, Xbox-Spieler auf 494 Minuten. Piscatella nannte sowohl die Nutzerquote als auch die Spielzeit „absolut verrückt“. Fortnite hatte an diesem Tag mit 10 Prozent über beide Plattformen die zweithöchste Quote. Vor dem Release spielten die späteren GTA-6-Spieler laut Circana vor allem Fortnite, Call of Duty, GTA 5, Roblox und NBA 2K27. Zu beachten: Die PS5-Werte beziehen sich nur auf die USA, die Xbox-Werte auf alle Regionen. Verkaufszahlen sind das nicht, sondern Anteile an den aktiven Spielern eines Tages. Rockstar hatte zuvor 32,5 Millionen vor dem Start verkaufte Exemplare und 3,79 Milliarden Dollar Umsatz am ersten Tag gemeldet. Parallel wird das Spiel auf Metacritic von Nutzern wegen der 30 fps auf Konsolen und politischer Vorwürfe abgewertet.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Circana",
+        "PS5",
+        "Xbox",
+        "Spielzeit",
+        "Rockstar"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.788Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A warm living room late at night seen from behind a sofa: an adult player silhouetted from behind holding an unbranded gamepad, facing a large TV showing a softly blurred sunny coastal city at golden hour with palm trees and no interface or readable content, an empty pizza box and two drink cans on the coffee table, a wall clock without numbers, a muted dusty teal blanket as accent, warm lamp light mixed with cool TV glow, natural rich colors, cinematic composition. No readable text, no logos, no recognizable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-gta6-circana-ueber-haelfte.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-geforce-621-35-schreibflut-weiter",
+      "datum": "2026-11-22T12:48:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber",
+        "Nvidia",
+        "SSD"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Test eines Neowin-Redakteurs: GeForce-Hotfix 621.35 senkt die SSD-Schreiblast nur, nach Stunden im Leerlauf schrieb der Treiber erneut 36 GB",
+      "schlagzeile": "GeForce-Hotfix 621.35 hilft nur halb: Im Leerlauf wieder 36 GB auf der SSD",
+      "kurz": "Der GeForce-Hotfix 621.35 sollte das ständige Schreiben des Nvidia-Treibers auf die SSD beenden. Ein Test eines Neowin-Redakteurs zeigt, dass der Fehler nach längerer Laufzeit wiederkommt, wenn auch schwächer. Bisher ist das ein einzelner Testbericht, Nvidia hat sich dazu nicht geäußert.",
+      "zusammenfassung": "Getestet hat Robbie Khan auf einem Windows-11-PC mit RTX 4090 und einer 2-TB-SSD vom Typ Samsung 990 Pro. Er verglich die Treiber 621.24, 621.01 und den Hotfix 621.35 und beobachtete die Schreibzugriffe des Prozesses NVDisplay.Container.exe sowie die SMART-Werte der SSD. In der ersten Stunde nach der Installation schrieb der Hotfix nur 90,8 KB, der Fehler schien also behoben. Über neun Stunden im Leerlauf mit Monitor im Standby kamen dann aber 40,85 GB Schreibzugriffe zusammen. Laut HWiNFO64 stiegen die tatsächlichen Host Writes der SSD in dieser Zeit um rund 36 GB. Zum Vergleich: Mit dem Treiber 621.24 waren es rund 1,18 TB in etwa fünf Tagen. Der Hotfix verringert das Problem also deutlich, beseitigt es in diesem Test aber nicht. Mit dem älteren Treiber 621.01 trat der Fehler bei Khan nicht auf, der Prozess schrieb nur 12,55 MB in 55 Minuten. Neowin und Wccftech raten deshalb weiterhin zur Rückkehr auf 621.01. Wccftech betont, dass es sich um einen Einzelfall handelt, andere Systeme können sich anders verhalten. Wer prüfen will, ob der eigene PC betroffen ist, kann die Schreibzugriffe von NVDisplay.Container.exe im Task-Manager oder die Host Writes der SSD in HWiNFO beobachten. Eine Stellungnahme von Nvidia oder ein weiterer Treiber liegt bisher nicht vor.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/nvidia-62135-driver-fails-to-fix-ssd-degradation-even-on-an-idle-windows-pc/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/nvidia-geforce-hotfix-driver-621-35-reportedly-fails-to-fully-fix-excessive-ssd-writes/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "GeForce",
+        "Treiber",
+        "621.35",
+        "Hotfix",
+        "SSD",
+        "Schreiblast"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:59.133Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of an unbranded NVMe M.2 SSD installed on a desktop motherboard next to a large graphics card with two visible axial fans, a small activity LED glowing softly amber on the board, the scene inside an open PC case on a wooden desk at evening, a laptop with a softly blurred monitoring graph with no readable text in the background, a muted terracotta cable tie as accent, warm natural light from a desk lamp and window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-geforce-621-35-schreibflut-weiter.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-gta6-psn-sperre-fkk-foto",
+      "datum": "2026-11-22T12:22:10+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "PlayStation"
+      ],
+      "kategorie": "Games",
+      "titel": "GTA-6-Spieler meldet 30 Tage Sperre für PSN-Sozialfunktionen, nachdem er ein im Spiel aufgenommenes Nacktfoto per PlayStation-Nachricht verschickt hatte",
+      "schlagzeile": "GTA-6-Foto vom FKK-Strand verschickt: Spieler meldet 30 Tage PSN-Sperre",
+      "kurz": "Ein GTA-6-Spieler berichtet, dass Sony ihm für 30 Tage die Sozialfunktionen des PlayStation Network gesperrt hat. Er hatte einem Freund ein mit der Spielkamera aufgenommenes Foto aus dem FKK-Bereich des Spiels per PSN-Nachricht geschickt. Sonys Verhaltensregeln machen keine Ausnahme für Inhalte aus Spielen ab 18.",
+      "zusammenfassung": "Der Spieler hat den Fall laut Eurogamer am Freitagabend auf X öffentlich gemacht und andere ausdrücklich gewarnt. Er zeigte dazu einen Screenshot der Benachrichtigung von PlayStation Safety. Demnach verstieß über „Nachrichten auf PlayStation“ gesendeter Inhalt gegen den Verhaltenskodex. Das Konto sei wegen „pornografischer oder obszöner Inhalte“ 30 Tage lang von den Sozialfunktionen ausgeschlossen. Bei weiteren Verstößen droht laut Mitteilung eine vorübergehende oder dauerhafte Sperre für die gesamte PlayStation-Nutzung. Sonys Verhaltensregeln verbieten das Teilen obszöner, pornografischer oder illegaler Inhalte. Wie Dexerto anmerkt, gibt es keine Ausnahme für Bilder aus Spielen, auch nicht aus solchen mit Altersfreigabe ab 18. Sony hat sich zum konkreten Fall nicht geäußert, der Bericht beruht auf den Angaben des Spielers. Erst vor wenigen Tagen hatten Xbox-Spieler von Sperren berichtet, nachdem Clips mit Nacktszenen aus GTA 6 automatisch hochgeladen worden waren. Wer Fotos aus dem Spiel teilen will, sollte also genau hinsehen, was darauf zu sehen ist.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "PlayStation Network",
+        "PSN",
+        "Sperre",
+        "Verhaltenskodex",
+        "Sony"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.900Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A modern living room in warm evening light: an unbranded white game console standing next to a TV, a smartphone lying face up on a coffee table with a softly blurred messaging screen and a small red warning shape with no readable text, an unbranded gamepad and a half-empty glass beside it, a beach towel in muted terracotta draped over the sofa arm as a playful hint, warm lamp light mixed with cool TV glow, natural rich colors, cinematic shallow depth of field. No readable text, no logos, no recognizable characters, no nudity.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-gta6-psn-sperre-fkk-foto.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-glinet-goodcloud-malware",
+      "datum": "2026-11-22T11:02:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "Router"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Lücke in der Cloud-Fernverwaltung von GL.iNet ausgenutzt: Angreifer installierten Schadsoftware auf Routern und KVM-Geräten, Firmware-Updates folgen",
+      "schlagzeile": "Malware auf GL.iNet-Routern: Angreifer kamen über die Cloud-Verwaltung",
+      "kurz": "Über eine Lücke in den Cloud-Fernverwaltungsdiensten von GL.iNet haben Unbekannte Schadsoftware auf einige Router und KVM-Geräte des Herstellers gespielt. Die Cloud-Lücke ist geschlossen, bereits infizierte Geräte bleiben aber befallen. Besitzer sollen ihre Geräte prüfen und die neue Firmware installieren.",
+      "zusammenfassung": "GL.iNet hat den Vorfall laut eigener Sicherheitsmitteilung am 20. November entdeckt. Ein unbefugter Dritter nutzte demnach eine Schwachstelle der Cloud-Fernverwaltung, um auf Geräte zuzugreifen und Schadsoftware zu installieren. Der Angriffsweg ist laut Hersteller blockiert, neue Infektionen darüber sind nicht mehr möglich. Diese Maßnahmen entfernen aber keine Schadsoftware von bereits befallenen Geräten, betont GL.iNet. Als Erkennungszeichen nennt der Hersteller einen laufenden Prozess mit dem Text „crond -i /tmp/.log“, der sich im Router-Menü LuCI unter Prozesse oder per SSH finden lässt. Wer den Eintrag findet, soll das Gerät als infiziert betrachten und die neue Firmware installieren oder es auf Werkseinstellungen zurücksetzen. Für KVM-Geräte gibt es bereits Beta-Firmware mit den Korrekturen, stabile Versionen für Router und KVM waren für den 22. November angekündigt. GL.iNet empfiehlt das Update auch ohne Anzeichen einer Infektion. Bei infizierten KVM-Geräten soll zusätzlich der angeschlossene Computer überprüft werden. Wie viele Geräte betroffen sind, seit wann die Lücke ausgenutzt wurde und was die Schadsoftware genau tut, hat GL.iNet nicht mitgeteilt. Nutzer im Herstellerforum berichten zudem von weiteren Hintertüren, die der offizielle Check nicht erkennt, das ist bislang nicht vom Hersteller bestätigt.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/GL-iNet-Schwachstelle-entdeckt-Patch-verfuegbar-11533722.html"
+      },
+      "weitere_links": [
+        {
+          "name": "GL.iNet (Sicherheitsmitteilung)",
+          "url": "https://www.gl-inet.com/blogs/blog/glinet-security-notice-2026-11-20"
+        }
+      ],
+      "tags": [
+        "GL.iNet",
+        "Router",
+        "KVM",
+        "Sicherheitslücke",
+        "Malware",
+        "Firmware"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:59.418Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small unbranded travel router and a compact KVM box with blank housings lying on a home office desk next to a laptop with a softly blurred terminal window with no readable text, an ethernet cable coiled beside them, a cup of tea, a muted terracotta notebook as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-glinet-goodcloud-malware.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-22-outlook-ausfall-abschlussbericht",
       "datum": "2026-11-22T06:24:01+01:00",
@@ -3302,45 +3748,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:04.847Z"
-      },
-      "id": "2026-11-18-nand-spotpreise-minus-20",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "SSD",
-        "Speicherpreise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
-      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
-      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
-      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "NAND",
-        "SSD",
-        "Speicherpreise",
-        "YMTC",
-        "TrendForce"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:05.129Z"
       },
       "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
@@ -3371,6 +3778,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.847Z"
+      },
+      "id": "2026-11-18-nand-spotpreise-minus-20",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
+      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
+      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
+      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "YMTC",
+        "TrendForce"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
         "ki_generiert": true
       }
     },
@@ -4430,49 +4876,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-16T10:02:20.113Z"
-      },
-      "id": "2026-11-16-intel-sammelklage",
-      "datum": "2026-11-16T07:50:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Intel"
-      ],
-      "kategorie": "Unternehmen",
-      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
-      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
-      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
-      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
-      "quelle": {
-        "name": "heise online",
-        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
-      },
-      "weitere_links": [
-        {
-          "name": "Wccftech",
-          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
-        }
-      ],
-      "tags": [
-        "Intel",
-        "Sammelklage",
-        "Lip-Bu Tan",
-        "Aktie",
-        "Speicherkrise"
-      ],
-      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-16T10:02:20.014Z"
       },
       "id": "2026-11-16-playstation-controller-bezahlen-patent",
@@ -4507,6 +4910,49 @@
       "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-16-playstation-controller-bezahlen-patent.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.113Z"
+      },
+      "id": "2026-11-16-intel-sammelklage",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
+      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
+      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
+      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Sammelklage",
+        "Lip-Bu Tan",
+        "Aktie",
+        "Speicherkrise"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-16-intel-sammelklage.webp",
         "ki_generiert": true
       }
     },
