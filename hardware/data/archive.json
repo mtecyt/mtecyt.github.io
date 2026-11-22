@@ -2,10 +2,253 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-21T18:31:12.555Z",
+    "stand": "2026-11-22T07:25:19.809Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-15T11:01:52.403Z"
+      },
+      "id": "2026-11-15-gta6-album-tracklist-leak",
+      "datum": "2026-11-15T05:52:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Tracklist des offiziellen GTA-6-Albums vor Release per Video geleakt; Rolling Stone und Billboard halten die Liste laut eigenen Quellen für echt",
+      "schlagzeile": "Leak: Lana Del Rey, Dua Lipa, Jennie – ist das die GTA-6-Tracklist?",
+      "kurz": "Ein Video aus einem Laden zeigt offenbar die Vinyl-Ausgabe von „Grand Theft Auto VI: The Album“ samt kompletter Tracklist. Laut PC Gamer bestätigen Quellen von Rolling Stone und Billboard die Liste. Rockstar selbst hat sich nicht geäußert.",
+      "zusammenfassung": "Wenige Tage vor dem Start von GTA 6 ist offenbar die Tracklist des offiziellen Albums durchgesickert. Laut IGN zeigt ein in sozialen Medien geteiltes Video aus einem Geschäft Vorder- und Rückseite der Doppel-LP „Grand Theft Auto VI: The Album“, die eigentlich erst am 19. November für rund 50 Dollar erscheinen soll. Laut Insider Gaming umfasst das Album 34 Titel. Genannt werden unter anderem Lana Del Rey mit dem bisher unveröffentlichten Song „Crazy For You“, Dua Lipa und Jennie von Blackpink; PC Gamer nennt außerdem Playboi Carti und Keith Richards. Zu den ersten Titeln gehören zwei Songs des französischen Duos Justice, eines mit Michael McDonald und eines mit Tame Impala, SZA und King Gizzard & the Lizard Wizard. Laut PC Gamer haben Quellen von Rolling Stone und Billboard die Liste als korrekt bezeichnet. Rockstar Games und Take-Two haben die Tracklist nicht bestätigt; nach unseren Regeln gilt sie daher weiter als Leak. Wichtig: Das Album ist nicht der komplette Soundtrack des Spiels. Die Radiosender im Spiel enthalten zusätzlich lizenzierte Songs, und die Filmmusik von Justice erscheint laut IGN separat am 11. Dezember. GTA 6 erscheint am 19. November für PS5 und Xbox Series X|S, einen PC-Termin gibt es weiterhin nicht.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-leak-seemingly-reveals-full-track-list-days-before-launch"
+        },
+        {
+          "name": "Insider Gaming (Tom Henderson)",
+          "url": "https://insider-gaming.com/gta-6-album-leak-lists-dua-lipa-jennie-and-lana-del-rey/"
+        }
+      ],
+      "ursprungsquelle": "Video eines Nutzers in sozialen Medien (Ladengeschäft mit Vorab-Exemplaren der Vinyl)",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Video zeigt offenbar das physische Produkt; laut PC Gamer bestätigen Quellen von Rolling Stone und Billboard die Liste. Rockstar/Take-Two haben nicht bestätigt, daher nach GTA-Regel kein offizieller Stand."
+      },
+      "tags": [
+        "GTA 6",
+        "Soundtrack",
+        "Lana Del Rey",
+        "Dua Lipa",
+        "Justice",
+        "Rockstar Games"
+      ],
+      "img_prompt": "Cinematic photo: a vintage convertible cruising along a palm-lined coastal boulevard at golden hour, warm sunset light, a vinyl record sleeve without any print lying on the passenger seat in the foreground, natural rich colors, muted coral-pink accent, dynamic low angle with slight motion blur. Generic car, no real persons in focus, no text, no logos, no game characters.",
+      "archiviert_am": "2026-11-22T07:25:19.804Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-15T11:01:52.842Z"
+      },
+      "id": "2026-11-15-ubuntu-pro-ki-sicherheitspatches",
+      "datum": "2026-11-15T02:55:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Sicherheit"
+      ],
+      "kategorie": "Betriebssysteme",
+      "titel": "Canonical startet Edge-Archiv: Ubuntu-Pro-Nutzer können KI-erzeugte Sicherheitspatches vor der regulären Prüfung testen",
+      "schlagzeile": "Ubuntu testet KI-Sicherheitspatches – wer will, bekommt sie früher",
+      "kurz": "Canonical bietet Ubuntu-Pro-Nutzern ein neues, freiwilliges Paketarchiv namens Edge an. Darin landen Sicherheitskorrekturen, die ein KI-System namens Surge erstellt, bevor sie vollständig geprüft sind. Die normalen Updates bleiben laut Canonical weiterhin von Menschen geprüft.",
+      "zusammenfassung": "Canonical lässt Sicherheitslücken in Ubuntu jetzt teilweise von KI-Agenten flicken. Laut OMG! Ubuntu hat das Unternehmen ein System aus mehreren KI-Agenten namens Surge gebaut, das Korrekturen für bekannte Lücken in Userspace-Paketen auf ältere Versionen zurückportiert. Diese maschinell erzeugten Patches landen in einem neuen Archiv namens Edge. Das Archiv ist freiwillig und standardmäßig aus; wer es nutzen will, muss es auf seinem System selbst aktivieren. Den Linux-Kernel patcht Surge nicht. Die regulären Ubuntu-Updates sollen laut Canonical weiterhin wie bisher von Menschen geprüft und getestet werden, Surge-Fixes wandern nicht automatisch in die stabilen Versionen. Als Grund nennt Canonical die stark gestiegene Zahl an Lückenmeldungen, die mit Hilfe von Sprachmodellen gefunden werden, sowie Angriffe mit KI-Agenten; das Sicherheitsteam habe schon doppelt so viele Fixes ausgeliefert wie im Vorjahr. Nutzer des Edge-Archivs sollen helfen, die KI-Patches im Alltag zu prüfen, bevor sie allgemein freigegeben werden. Ubuntu Pro ist für Privatleute auf bis zu fünf Geräten kostenlos, Edge steht für Ubuntu 18.04 bis 26.04 LTS bereit. Updates daraus werden standardmäßig nicht automatisch installiert. Ein Risiko bleibt: Ungeprüfte Patches können Fehler enthalten, deshalb ist Edge eher etwas für Tester als für Produktivsysteme.",
+      "quelle": {
+        "name": "OMG! Ubuntu",
+        "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-pro-ai-security-archive"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Ubuntu",
+        "Canonical",
+        "Ubuntu Pro",
+        "Sicherheit",
+        "KI",
+        "Linux"
+      ],
+      "img_prompt": "Documentary photo: a laptop on a wooden desk showing a blurred unreadable terminal window, a small home server box with blinking status LEDs beside it, a cup of coffee, warm late-morning window light, natural rich colors, muted terracotta accent from a notebook cover, shallow depth of field. No readable text on screen, no logos.",
+      "archiviert_am": "2026-11-22T07:25:19.805Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-15T11:01:52.567Z"
+      },
+      "id": "2026-11-15-lol-new-dawn-blg-weltmeister",
+      "datum": "2026-11-14T23:05:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "League of Legends"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Riot kündigt beim Worlds-Finale „League of Legends: New Dawn“ an, die größte Überarbeitung des Spiels seit 2009; BLG wird Weltmeister",
+      "schlagzeile": "League of Legends wird 2027 rundum erneuert – BLG holt den WM-Titel",
+      "kurz": "Riot Games hat beim Finale der LoL-Weltmeisterschaft „New Dawn“ vorgestellt, ein großes Update für 2027. Client, Summoner's Rift, Grafik und Gameplay sollen sich deutlich ändern. Das Finale selbst gewann Bilibili Gaming mit 3:1 gegen Gen.G.",
+      "zusammenfassung": "Beim Finale der League-of-Legends-Weltmeisterschaft 2026 in Brooklyn hat Riot Games „League of Legends: New Dawn“ angekündigt. Laut IGN handelt es sich um ein umfassendes Update, das 2027 erscheinen und Client, Summoner's Rift, Optik und Gameplay verändern soll. Executive Producer Paul Bellezza sprach im ersten Trailer vom Beginn einer neuen Ära für League. Der Trailer zeigt unter anderem eine neu gestaltete Championauswahl, die an das Mobilspiel Wild Rift erinnert, sowie überarbeitete Vasallen, Drachen und Baron Nashor. Außerdem deuten die Szenen auf ein neues oder stark umgebautes Runensystem und größere Änderungen am Kartengelände hin. Was genau sich am Gameplay ändert, verrät Riot noch nicht; die vollständige Präsentation ist für Januar 2027 geplant. Seit dem Start 2009 gab es zwar mehrere große Umbauten, etwa die neue Karte 2014, aber nichts in dieser Größenordnung. GameStar spricht deshalb schon von einem „League of Legends 2“, Riot selbst nennt es ein Update. Ob die Spielerschaft die Änderungen annimmt, ist offen. Sportlich holte Bilibili Gaming aus China den Titel: Laut Insider Gaming schlug BLG Gen.G im Finale mit 3:1. Midlaner Knight wurde zum wertvollsten Spieler des Turniers gekürt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming (Tom Henderson)",
+          "url": "https://insider-gaming.com/blg-wins-lol-worlds-2026-and-first-summoners-cup/"
+        },
+        {
+          "name": "IGN Deutschland",
+          "url": "https://de.ign.com/league-of-legends/157272/league-of-legends-new-dawn-wird-mit-einem-ersten-trailer-vorgestellt-riot-kundigt-fur-2027-eine-umfa"
+        }
+      ],
+      "tags": [
+        "League of Legends",
+        "New Dawn",
+        "Riot Games",
+        "Worlds 2026",
+        "BLG",
+        "E-Sport"
+      ],
+      "img_prompt": "Dynamic cinematic fantasy action scene: an original armored warrior with a glowing-free steel greatsword and an original hooded mage casting a swirl of natural fire and wind charge across a misty jungle river crossing toward a huge original stone-scaled beast, low dramatic perspective, strong diagonals, flying water spray and leaves, warm golden morning sun breaking through the canopy with cool blue shadows, natural rich colors, muted violet accent. Original designs only, no known game characters, no text, no logos, no UI.",
+      "archiviert_am": "2026-11-22T07:25:19.805Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-15T11:01:52.293Z"
+      },
+      "id": "2026-11-15-zephyr-4070tis-ein-luefter",
+      "datum": "2026-11-14T22:45:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Zephyr bringt die RTX 4070 Ti Super Sakura Snow X mit nur einem Lüfter für 285 Watt nach Absage doch noch in China auf den Markt",
+      "schlagzeile": "Ein Lüfter für 285 Watt: Mini-RTX 4070 Ti Super kommt doch noch",
+      "kurz": "Der chinesische Hersteller Zephyr verkauft seine RTX 4070 Ti Super Sakura Snow X nun doch, nachdem das Modell im März wegen teurem GDDR6X-Speicher auf Eis lag. Laut Zephyr ist es die einzige Serienkarte dieses Typs, die 285 Watt mit nur einem Axiallüfter kühlt. Für leisen Betrieb empfiehlt der Hersteller ein Power-Limit von 220 Watt bei unter fünf Prozent Leistungsverlust.",
+      "zusammenfassung": "Zephyr hat die Geforce RTX 4070 Ti Super Sakura Snow X nach mehreren Verschiebungen und einer zwischenzeitlichen Absage doch noch in den Handel gebracht, berichtet PC Games Hardware. Laut Hersteller ist sie die einzige seriengefertigte RTX 4070 Ti Super, die 285 Watt Board-Power mit einem einzigen Axiallüfter abführt. Dafür muss der Lüfter allerdings hoch drehen. Zephyr empfiehlt deshalb für leiseren Betrieb, das Power-Limit auf 220 Watt zu senken; dabei sollen weniger als fünf Prozent Spieleleistung verloren gehen. Welche Spiele der Hersteller dafür getestet hat, verrät er nicht. Im März 2026 hatte Zephyr das Modell wegen stark gestiegener GDDR6X-Preise vorerst gestoppt und stattdessen eine RTX 4070 Super mit 12 GB angekündigt. Die Karte steckt in einem aus einem Metallblock gefrästen Gehäuse und zielt auf kompakte PCs, in die keine Triple-Lüfter-Karte passt. Die kleine erste Charge lief über einen Händler auf Douyin und ist laut Techtesters bereits ausverkauft. Einen offiziellen Preis gibt es nicht; im Juli waren 6.199 bis 6.499 Yuan im Gespräch, umgerechnet etwa 795 bis 835 Euro vor Steuern und Zoll. Einen Marktstart in Deutschland hat Zephyr nicht angekündigt. Das 220-Watt-Limit lässt sich übrigens bei jeder RTX 4070 Ti Super selbst einstellen, etwa mit rund 77 Prozent Power-Limit in MSI Afterburner bei Referenz-TGP.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Geforce-RTX-4070-Ti-Super-Grafikkarte-280115/News/Zephyr-Sakura-Snow-X-ein-Luefter-Power-Limit-220-Watt-1560011/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RTX 4070 Ti Super",
+        "Zephyr",
+        "Mini-ITX",
+        "Power-Limit",
+        "Undervolting"
+      ],
+      "img_prompt": "Documentary photo: a compact single-fan graphics card with a CNC-milled bare aluminium shroud and one visible axial fan, lying next to a small mini-ITX PC case on a wooden workbench, warm late-morning window light, natural rich colors, muted dusty-teal accent from a cable sleeve, shallow depth of field. No text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-22T07:25:19.806Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-15T11:01:52.756Z"
+      },
+      "id": "2026-11-15-inxile-buero-schuesse",
+      "datum": "2026-11-14T22:03:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Studios",
+      "titel": "Schüsse auf Bürogebäude von Xbox-Studio inXile in Kalifornien: niemand verletzt, Polizei nimmt Verdächtigen fest",
+      "schlagzeile": "Schüsse auf Gebäude von Xbox-Studio inXile – Polizei fasst Verdächtigen",
+      "kurz": "Auf das Bürogebäude in Tustin, Kalifornien, in dem das Xbox-Studio inXile sitzt, ist am Mittwoch geschossen worden. Verletzt wurde niemand. Die Polizei hat zwei Tage später einen Verdächtigen festgenommen, das Motiv ist noch unklar.",
+      "zusammenfassung": "Das Bürogebäude des Microsoft-Studios inXile Entertainment in Tustin, Kalifornien, ist von Schüssen getroffen worden. Laut Insider Gaming meldeten lokale Medien den Vorfall am Nachmittag des 11. November, mehrere Kugeln trafen das Gebäude. Die Polizei sprach gegenüber dem Magazin Aftermath von einem Drive-by-Shooting und fand mehrere Patronenhülsen. Verletzt wurde niemand. Am Vormittag des 13. November nahm die Polizei einen Verdächtigen fest; Name und Motiv sind nicht bekannt, die Ermittlungen laufen. Ob das Studio gezielt angegriffen wurde, ist nicht geklärt. Ein Sprecher erklärte, man sei erleichtert, dass niemand verletzt wurde, kümmere sich um das Team und arbeite eng mit den Behörden zusammen. inXile ist für die Wasteland-Reihe bekannt und arbeitet an Clockwork Revolution, einem für 2027 geplanten Xbox-Exklusivspiel. Auswirkungen auf das Spiel hat Xbox nicht angekündigt.",
+      "quelle": {
+        "name": "Insider Gaming (Tom Henderson)",
+        "url": "https://insider-gaming.com/inxile-building-shooting-no-injuries/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "inXile",
+        "Xbox",
+        "Clockwork Revolution",
+        "Tustin"
+      ],
+      "img_prompt": "Documentary photo: a modern low-rise office campus building in Southern California at golden hour, palm trees and a quiet parking lot, a police cruiser parked at a distance with no visible markings, warm sunlight with long cool shadows, natural rich colors, muted blue accent. No people in focus, no damage shown graphically, no text, no logos, no signage.",
+      "archiviert_am": "2026-11-22T07:25:19.808Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-15T11:01:52.672Z"
+      },
+      "id": "2026-11-15-inoffizielle-pc-ports-astro-bot-totk",
+      "datum": "2026-11-14T21:45:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PC-Port",
+        "Rekompilierung"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Inoffizielle native PC-Ports: Astro Bot läuft als erstes PS5-Exklusivspiel unter Windows, Zelda: Tears of the Kingdom sogar auf einer Geforce MX550",
+      "schlagzeile": "Astro Bot und Zelda auf dem PC: Fan-Ports ohne Emulator legen los",
+      "kurz": "Mit Astro Bot läuft erstmals ein PS5-exklusives Spiel als inoffizieller nativer PC-Port, inklusive DLSS und Frame Generation. Gleichzeitig zeigt ein Nutzer Zelda: Tears of the Kingdom per Rekompilierung auf einer Notebook-GPU mit nur 2 GB Speicher. Beide Projekte sind nicht von Sony oder Nintendo autorisiert.",
+      "zusammenfassung": "Statt Konsolenspiele zu emulieren, übersetzen Fan-Projekte sie zunehmend direkt in nativen PC-Code. Laut ComputerBase gibt es nun einen solchen Port von Astro Bot, dem Spiel des Jahres 2024, für Windows. Der Entwickler nutzte nach eigenen Angaben eine PS5-Kopie des Spiels; die Grafik wird über eine Komponente aus dem Projekt KytyPS5 nach Vulkan übersetzt. Ein Zusatz bindet Nvidia DLSS, Frame Generation und Reflex ein. Mit Ryzen 5 5500 und RTX 5060 erreicht der Port in 1440p im anspruchsvollen Level Sky Garden laut Entwickler nur 32 bis 34 fps, sonst meist 40 bis 50 fps, also weniger als die 60 fps der PS5. Mit Frame Generation sind es etwas über 60 fps, mit Multi Frame Generation bis zu 128 fps. Parallel zeigt ein Reddit-Nutzer laut PC Games Hardware Zelda: Tears of the Kingdom über das Projekt TotK Recomp auf einem Notebook mit Geforce MX550 und 2 GB Grafikspeicher. Er spricht von rund 30 fps mit Einbrüchen; die Auflösung nennt er nicht. Version 0.4.0 des Ports braucht laut Release Notes auf einer Radeon RX 9070 nur noch 3,4 statt 4,8 GB VRAM. Beide Projekte sind inoffiziell und nicht von Sony oder Nintendo freigegeben, wie lange sie verfügbar bleiben, ist offen. Laut ComputerBase hoffen viele schon auf ähnliche Ports von GTA 6, das am 19. November zunächst nur für Konsolen erscheint.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/astro-bot-erstes-ps5-exklusives-spiel-mit-inoffiziellem-pc-port.100330/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/The-Legend-of-Zelda-Tears-of-the-Kingdom-Spiel-67721/News/PC-Port-Recomp-2-GiB-VRAM-Geforce-MX550-Notebook-1560010/"
+        }
+      ],
+      "tags": [
+        "Astro Bot",
+        "Zelda",
+        "Tears of the Kingdom",
+        "PC-Port",
+        "Rekompilierung",
+        "DLSS"
+      ],
+      "img_prompt": "Documentary photo: a gaming laptop and a small desktop PC side by side on a wooden desk at a sunny window, a generic white game controller in the foreground, screens showing a soft out-of-focus colorful cartoon landscape, warm late-morning daylight, natural rich colors, muted olive accent from a desk plant, shallow depth of field. No readable screens, no game characters, no text, no logos.",
+      "archiviert_am": "2026-11-22T07:25:19.808Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
