@@ -2,10 +2,354 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-22T07:25:19.809Z",
+    "stand": "2026-11-22T15:37:56.090Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-22-outlook-ausfall-abschlussbericht",
+      "datum": "2026-11-22T06:24:01+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Microsoft 365",
+        "Outlook"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft-Abschlussbericht zum Outlook-Ausfall vom 12. November: Einige Mails an inaktive Privatpostfächer kamen nicht an, auch Defender-Schutzfunktionen waren gestört",
+      "schlagzeile": "Outlook-Ausfall: Microsoft gibt zu, dass manche Mails nie angekommen sind",
+      "kurz": "Microsoft hat den Abschlussbericht zum großen Ausfall von Outlook und Exchange Online am 12. November veröffentlicht. Bei Privatkunden mit länger inaktiven Postfächern sind manche Mails verfallen, die Absender bekamen Unzustellbarkeitsberichte. Zudem waren Schutzfunktionen von Defender for Office gestört.",
+      "zusammenfassung": "Laut Neowin war Auslöser ein Softwarefehler aus dem Juli 2026, der zusammen mit verringerter Serverkapazität und zusätzlichem Teams-Verkehr eine Kettenreaktion auslöste. Zeitweise reagierten mehr als 80 Prozent der Netzwerk-Gateways nicht, nach rund 12 Stunden liefen die Dienste wieder. Microsoft verlängerte das Zeitfenster für erneute Zustellversuche von 24 auf 48 Stunden. Bei Firmenkunden ging nach Microsofts Angaben keine Mail endgültig verloren. Bei Privatkunden verfielen dagegen verzögerte Mails an Postfächer, die länger als 30 Tage inaktiv waren. Wie viele Mails betroffen waren, sagt Microsoft nicht. Außerdem lief das automatische Entfernen bösartiger Mails nach der Zustellung verzögert, und Safe Links bot teils die Option, die Prüfung zu überspringen. Admins konnten Quarantäne und Sperrlisten zeitweise nicht verwalten, auch Purview-Funktionen waren verzögert. Bis Ende 2026 will Microsoft Teams-Ausweichverkehr auf betroffene Regionen begrenzen und Ausfallmeldungen beschleunigen. Bis zum ersten Quartal 2027 sollen die Gateways in getrennte Pools pro Dienst aufgeteilt werden. Die erste Kundenmeldung kam laut Bericht rund 20 Minuten nach Beginn der Störung.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Outlook",
+        "Exchange Online",
+        "Microsoft 365",
+        "Störung",
+        "Defender",
+        "Abschlussbericht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.965Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet modern office corner in the morning with an unbranded laptop on a desk showing a softly blurred email inbox layout with no readable text, a stack of paper envelopes and a few returned letters with blank labels beside it, a coffee cup, a server rack with small status lights softly out of focus through a glass wall behind, a muted terracotta envelope as accent, warm natural daylight, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-outlook-ausfall-abschlussbericht.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-phison-ssd-npu-weltraum",
+      "datum": "2026-11-22T02:23:59+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicher",
+        "Phison"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Phison zeigt auf der SC26 eine SSD mit eigener NPU für KI-Software und Weltraum-SSDs mit 488 TB für ein Rechenzentrum im Orbit",
+      "schlagzeile": "SSD mit eigenem KI-Chip: Phison lässt PyTorch direkt auf dem Laufwerk rechnen",
+      "kurz": "Phison hat auf der Supercomputing-Messe SC26 eine Enterprise-SSD mit eingebauter NPU und 64 GB eigenem Speicher gezeigt, auf der KI-Frameworks wie PyTorch und vLLM direkt laufen sollen. Dazu kommt die neue Reihe Pascari Space für Satelliten und Rechenzentren im Orbit. Beides richtet sich an Firmen, nicht an Heim-PCs.",
+      "zusammenfassung": "Laut TechPowerUp hat die NPU-SSD 64 GB Arbeitsspeicher mit 130 GB/s an Bord und unterstützt PyTorch, vLLM, OpenVINO und llama.cpp. Die Idee: Die SSD durchsucht und verarbeitet Daten selbst und schickt nur die relevanten Ergebnisse an den Server zurück. Phison verspricht dadurch je nach Aufgabe 10- bis 100-mal weniger Datenverkehr. Die Rechenleistung der NPU gibt Phison ungewöhnlicherweise in DMIPS statt in TOPS an. Controller, Schnittstelle, Bauform und Speichertyp sind noch nicht bekannt, es handelt sich um ein Konzept in Entwicklung. Ebenfalls gezeigt wurde ein Design, das schnellen pSLC- und günstigen QLC-Flash hinter einem 16-Kanal-Controller kombiniert und eigene Cache-Laufwerke überflüssig machen soll. Laut Pressemitteilung vom 17. November bringt Phison außerdem die Reihe Pascari Space für Raumfahrzeuge und Rechenzentren im All. Für den ersten Knoten StarVault-001 des Anbieters Lonestar Data Holdings, der im ersten Halbjahr 2027 starten soll, liefert Phison 488 TB Rohkapazität, nutzbar sind rund 370 TB. Preise nennt Phison für keines der Produkte. Für Gamer ändert sich vorerst nichts, die Technik zeigt aber, wohin sich Speicher in KI-Rechenzentren entwickelt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355089/phison-previews-an-ssd-that-runs-ai-frameworks-on-its-own-npu"
+      },
+      "weitere_links": [
+        {
+          "name": "Phison (Pressemitteilung Pascari Space)",
+          "url": "https://www.phison.com/phison-launches-purpose-built-storage-solutions-for-new-space-economy/"
+        },
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/phison-announces-488tb-of-ssd-storage-for-space-data-centers-pricing-expected-to-be-astronomical"
+        }
+      ],
+      "tags": [
+        "Phison",
+        "SSD",
+        "NPU",
+        "KI",
+        "SC26",
+        "Pascari Space"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:54.975Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of a bare unbranded enterprise U.2-style SSD with its metal cover removed, showing a green circuit board with several flash chips and one larger square processor chip, lying on an anti-static mat in a server room workshop, a rack server with open lid softly blurred behind, a muted teal anti-static bag as accent, warm natural late-morning light from a window, natural rich colors, shallow depth of field, documentary lab photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-phison-ssd-npu-weltraum.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-windows11-bluetooth-mikrofon-48khz",
+      "datum": "2026-11-22T01:33:24+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Audio"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11 Insider-Build: Kompatible LE-Audio-Headsets spielen auch bei aktivem Mikrofon Stereo mit 48 kHz statt in Telefonqualität",
+      "schlagzeile": "Schluss mit Telefon-Sound? Windows 11 testet besseres Bluetooth-Audio mit Mikro",
+      "kurz": "Wer am PC mit Bluetooth-Kopfhörern spielt und dabei das Mikrofon nutzt, hört oft nur noch dumpfen Telefon-Klang. Eine Windows-11-Testversion erlaubt kompatiblen Headsets nun Stereo mit 48 kHz bei aktivem Mikrofon. Voraussetzung sind aber neuere LE-Audio-Geräte und passende PCs.",
+      "zusammenfassung": "Windows Latest hat die Funktion in einer aktuellen Insider-Build gefunden, sie ist also noch ein Test. Bisher schaltet Windows bei aktivem Mikrofon vom Bluetooth-Profil A2DP auf das Freisprechprofil HFP um, das deutlich schlechter klingt. Das betrifft etwa Discord-Chats oder Sprachchats in Spielen, während Musik oder Spielsound läuft. In der Testversion gibt es in den Ausgabe-Einstellungen des Bluetooth-Geräts unter „Format bei aktivem Mikrofon“ die neue Option „2 Kanäle, 16 Bit, 48000 Hz“. Damit soll der Ton in voller Stereoqualität weiterlaufen. Nötig sind ein Headset mit Bluetooth LE Audio und 48-kHz-Wiedergabe sowie ein PC mit Super Wideband Stereo. Ob der PC LE Audio kann, zeigt der Schalter „LE Audio verwenden, wenn verfügbar“ in den Bluetooth-Einstellungen, eine Garantie für die neue Option ist das aber nicht. Ältere Headsets profitieren nicht. Ob Microsoft die Verbesserung später auf mehr Geräte ausweitet, ist offen. Windows Latest erwartet die Funktion für alle bis etwa März 2027, Microsoft hat dazu keinen Termin genannt.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/22/windows-11-will-stop-making-your-headphones-sound-like-a-phone-call-when-you-use-the-mic-after-years-of-complaints-but-only-on-newer-bluetooth-headsets/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Bluetooth",
+        "LE Audio",
+        "Headset",
+        "Insider",
+        "Discord"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.844Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A pair of unbranded over-ear wireless headphones with a small boom microphone resting on a wooden desk next to a laptop with a softly blurred screen and a mechanical keyboard, a steaming mug and a small potted plant nearby, a muted dusty teal headphone cushion as the accent color, warm natural morning sunlight from a side window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-windows11-bluetooth-mikrofon-48khz.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-isaac-ki-musik-entfernt",
+      "datum": "2026-11-22T00:42:05+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Binding of Isaac",
+        "KI"
+      ],
+      "kategorie": "Spiele",
+      "titel": "The Binding of Isaac: Nicalis entfernt nicht offengelegte KI-Musik aus Repentance+ nach Kritik des Schöpfers Edmund McMillen und Review-Bombing auf Steam",
+      "schlagzeile": "KI-Musik in Binding of Isaac: Schöpfer wusste nichts, Patch löscht die Songs",
+      "kurz": "Im neuen Update für The Binding of Isaac: Repentance+ steckte Musik, die mit dem KI-Tool Suno erzeugt wurde, ohne dass das angegeben war. Nach einer Welle negativer Steam-Bewertungen hat Nicalis die Dateien per Patch entfernt. Schöpfer Edmund McMillen sagt, er habe davon nichts gewusst.",
+      "zusammenfassung": "Das Update erschien laut IGN am 19. November, zusammen mit neuen Versionen für Switch 2, PS5 und Xbox Series X/S. Die betroffenen Stücke gehörten zu einem Daily Run mit GTA-Thema, passend zum Start von GTA 6. Ein Reddit-Nutzer fand einen Tag später Hinweise auf das KI-Tool Suno in den Metadaten mehrerer Tracks, inklusive Links zu Suno-Seiten. Valve verlangt von Entwicklern, KI-Nutzung auf der Steam-Seite offenzulegen, das war hier nicht geschehen. Danach waren nur noch rund 8 Prozent der aktuellen Steam-Bewertungen positiv. McMillen schrieb, er habe „keine Ahnung“ gehabt, wie die Musik in den Build kam, und kündigte die Entfernung an. Wenige Stunden später veröffentlichte Nicalis einen Patch, der die „generierten Musikdateien“ entfernt. Auf dem PC ist er live, für Xbox, Switch und PlayStation wurde er laut Nicalis eingereicht. Wann er dort erscheint, ist offen. Eine Erklärung, wie es dazu kam, hat Nicalis nicht gegeben. Die aktuellen Bewertungen auf Steam stehen weiter auf „Äußerst negativ“.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/the-binding-of-isaac-dev-removes-undisclosed-ai-generated-music-from-repentance-following-creator-response-review-bombing"
+      },
+      "weitere_links": [],
+      "tags": [
+        "The Binding of Isaac",
+        "Repentance+",
+        "Nicalis",
+        "KI-Musik",
+        "Steam",
+        "Review-Bombing"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.294Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a cramped indie game developer's home studio at dusk, a cluttered desk with a generic music keyboard, studio headphones and an open laptop showing a soft abstract audio waveform with no readable text, scattered hand-drawn sketch pages of original cartoonish monsters and a small handmade clay figurine of an original creature, a mug and crumpled papers, warm desk lamp light against cool blue window light, natural rich colors, cinematic close perspective. No text, no logos, no readable screens, no recognizable game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-isaac-ki-musik-entfernt.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-windows-antivirus-ausserhalb-kernel",
+      "datum": "2026-11-21T21:37:33+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Sicherheit"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows endpoint security platform allgemein verfügbar: Virenscanner können zentrale Schutzfunktionen außerhalb des Windows-Kernels ausführen",
+      "schlagzeile": "Lehre aus dem CrowdStrike-Chaos: Virenscanner dürfen raus aus dem Windows-Kernel",
+      "kurz": "Microsoft hat die Windows endpoint security platform für Windows 11 allgemein verfügbar gemacht. Sicherheitssoftware kann damit wichtige Schutzfunktionen im Benutzermodus statt im Kernel ausführen, Fehler sollen so seltener den ganzen PC lahmlegen. Bitdefender, CrowdStrike, ESET, Sophos und andere wollen die Schnittstellen nutzen.",
+      "zusammenfassung": "Angekündigt hat Microsoft das auf der Ignite am 17. November, Windows Latest hat die Details nun zusammengefasst. Auslöser war der 19. Juli 2024, als ein fehlerhaftes CrowdStrike-Update rund 8,5 Millionen Windows-Geräte mit Bluescreens lahmlegte. Die neue Plattform stellt Sicherheitsprogrammen Windows-Schnittstellen im Benutzermodus bereit, über die sie Ereignisse beobachten und blockieren können. In der ersten Version geht es um Dateisystem, Prozesse, Registry und den Object Manager. Verursacht ein Schutzprogramm oder eine Regel beim Start Probleme, soll Windows laut Microsoft eingebaute Wiederherstellungsmechanismen nutzen. Laut Microsoft Learn steckt die Plattform seit den Oktober-Updates in Windows 11 25H2 und 26H2. Nutzen dürfen sie zunächst nur Mitglieder des Microsoft Virus Initiative, die Programme müssen zudem speziell signiert sein. Bitdefender und Sophos planen erste Produkte für das vierte Quartal 2026, andere Hersteller teils erst für 2027. CrowdStrike sieht die Plattform als Ergänzung, ganz aus dem Kernel verschwindet Sicherheitssoftware also nicht. Auch Anti-Cheat-Programme mit Kernel-Treibern sind von der Neuerung nicht direkt betroffen.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/22/after-a-bad-security-update-blue-screened-millions-of-pcs-microsoft-now-lets-antivirus-run-outside-the-windows-kernel-and-windows-can-recover-if-one-breaks-startup/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft Windows IT Pro Blog",
+          "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/whats-next-windows-endpoint-security-platform-and-driver-quality/4572663"
+        },
+        {
+          "name": "Microsoft Learn (Windows endpoint security platform)",
+          "url": "https://learn.microsoft.com/en-us/windows/win32/wesp/windows-endpoint-security-platform-portal"
+        }
+      ],
+      "tags": [
+        "Windows 11",
+        "Windows endpoint security platform",
+        "Kernel",
+        "Antivirus",
+        "CrowdStrike",
+        "Bluescreen"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.715Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An office IT workbench with an open unbranded laptop whose screen shows a soft blurred plain blue glow with no readable content, next to a second laptop booting normally with a blurred desktop, a coffee mug, a notepad with illegible scribbles and a USB recovery stick, a muted terracotta notebook as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-windows-antivirus-ausserhalb-kernel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-gta3-ps2-exklusiv-deal",
+      "datum": "2026-11-21T20:53:49+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA",
+        "PlayStation"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Ehemalige Manager von Sony und Take-Two schildern, wie GTA 3 zum PS2-Exklusivtitel wurde: Geld, Rabatt pro Disc und anfangs zögerliche US-Abteilung",
+      "schlagzeile": "GTA 3 exklusiv auf PS2: Sony zahlte bar und gab Rabatt – die USA zögerten",
+      "kurz": "In einem Interview mit The Game Business erzählen frühere Manager, wie GTA 3 vor 25 Jahren zum PlayStation-2-Exklusivspiel wurde. Sony wollte damit die neue Xbox abwehren und zahlte Take-Two Geld plus einen Rabatt auf die Produktionskosten jeder Disc. Ausgerechnet Sonys US-Team soll anfangs gebremst haben.",
+      "zusammenfassung": "Christopher Dring von The Game Business sprach mit ehemaligen Managern von PlayStation und Take-Two, Insider Gaming fasst das Interview zusammen. Laut dem früheren Take-Two-Manager Kelly Sumner kam Sony mit dem Wunsch nach einem Exklusivtitel, um Microsoft abzuwehren. Take-Two habe neben einer „beträchtlichen“ Summe Geld vor allem einen Rabatt von 2,50 bis 3 US-Dollar pro produzierter Einheit bekommen. Das habe Take-Two „zig Millionen Dollar“ eingebracht. Sonys britisches Team unter Chris Deering habe das Spiel sofort verstanden, die US-Abteilung habe dagegen „die Füße hinterhergezogen“. Der frühere PlayStation-Manager Shuhei Yoshida sagt, GTA 3, Vice City und San Andreas hätten die ganze Branche geprägt. Studios wie Naughty Dog, Insomniac und Sucker Punch seien danach von Charakter-Action zu ernsteren, realistischeren Spielen wie Uncharted, Resistance und Infamous gewechselt. Die drei PS2-Teile erschienen später auch für die Xbox, ab GTA 4 kam die Reihe gleichzeitig für alle Plattformen. Konkrete Summen des Deals nennt das Interview nicht. Es handelt sich um Erinnerungen der Beteiligten, Dokumente dazu wurden nicht veröffentlicht.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/playstation-gta-exclusivity-deal-xbox/"
+      },
+      "weitere_links": [
+        {
+          "name": "The Game Business (Interview)",
+          "url": "https://www.thegamebusiness.com/p/how-playstation-became-the-home-of"
+        }
+      ],
+      "tags": [
+        "GTA 3",
+        "PlayStation 2",
+        "Sony",
+        "Take-Two",
+        "Xbox",
+        "Exklusivdeal"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.434Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: an early-2000s business meeting room seen from a low angle, two anonymous executives in suits from behind shaking hands across a table covered with contracts, a briefcase full of cash and a stack of blank unlabeled game disc cases, a bulky CRT television on a sideboard glowing with an abstract night-time city skyline, warm orange evening sunlight through blinds against cool blue shadows, natural rich colors, cinematic tension. No text, no logos, no readable documents, no recognizable people or game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-gta3-ps2-exklusiv-deal.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-windows7-msi-claw-8",
+      "datum": "2026-11-21T20:09:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Handheld",
+        "Windows 7",
+        "Intel"
+      ],
+      "kategorie": "Handhelds",
+      "titel": "Modder bringen Windows 7 auf dem Handheld MSI Claw 8 AI+ mit Intel Lunar Lake zum Starten, nachdem sie Fehler in MSIs ACPI-Firmware umgangen haben",
+      "schlagzeile": "Windows 7 auf dem MSI Claw 8 AI+: Modder trotzen MSIs Firmware-Fehlern",
+      "kurz": "Der Windows-Bastler Bob Pony hat Windows 7 auf dem Gaming-Handheld MSI Claw 8 AI+ mit Intels Lunar-Lake-Chip zum Laufen gebracht. Zuerst stürzte das System mit einem Bluescreen ab, schuld waren laut ihm Fehler in MSIs ACPI-Firmware. Ob Treiber, Steuerung und Spiele funktionieren, ist offen.",
+      "zusammenfassung": "VideoCardz berichtet über einen Post von Bob Pony vom 21. November. Das Claw 8 AI+ nutzt einen Core Ultra 7 258V mit 4 Performance- und 4 Effizienzkernen sowie die integrierte Grafik Arc 140V. MSI liefert das Gerät offiziell mit Windows 11 aus, Lunar Lake kam lange nach dem Support-Ende von Windows 7 auf den Markt. Laut Bob Pony brach Windows 7 zunächst mit dem Bluescreen 0xA5 ab, der auf ACPI-Probleme hinweist. Als Ursache nennt er ein leeres _CID-Feld und doppelte _UID-Werte bei zwei Geräten in MSIs Firmware. Ein zweiter Entwickler namens EAZY BLACK half, die Fehler zu umgehen, danach startete das System. Mehr als den Start zeigt die Demonstration bisher nicht. Ob Grafiktreiber, Controller-Tasten, WLAN oder Energiesparfunktionen unter Windows 7 laufen, hat Bob Pony nicht verraten. Er hatte zuvor auf das inoffizielle Projekt WDDM2Win7 verwiesen, das DirectX 12 und moderne Grafikkarten unter Windows 7 nachrüsten soll. Ob sich beides kombinieren lässt, ist offen. Für den Alltag ist das nichts: Windows 7 bekommt seit Jahren keine Sicherheitsupdates mehr.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/modder-gets-windows-7-running-on-msi-claw-8-ai-with-intel-lunar-lake"
+      },
+      "weitere_links": [],
+      "tags": [
+        "MSI Claw 8 AI+",
+        "Windows 7",
+        "Lunar Lake",
+        "Handheld",
+        "Mod",
+        "ACPI"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.144Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A generic unbranded handheld gaming PC with two thumbsticks lying on a cluttered wooden hobby desk, its screen showing a soft blurred bluish desktop with no readable content, a USB keyboard, a small USB stick and a screwdriver next to it, an old beige computer manual softly blurred in the background, a muted olive desk mat as accent, warm natural afternoon window light, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-windows7-msi-claw-8.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-neuralink-gta6",
+      "datum": "2026-11-21T19:43:23+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Barrierefreiheit"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Neuralink-Studienteilnehmer spielt GTA 6 per Gedankensteuerung: Video zeigt Fahren, Fliegen und Schießereien mit dem Hirnimplantat",
+      "schlagzeile": "GTA 6 nur mit Gedanken: Neuralink-Patient fährt, fliegt und kämpft in Leonida",
+      "kurz": "Neuralink hat ein Video veröffentlicht, in dem ein Teilnehmer seiner klinischen Studie GTA 6 mit dem Hirnimplantat spielt. Zu sehen sind Bootsfahrten, Flüge und Schießereien. Neuralink betont, dass die Geräte experimentell und nicht zugelassen sind.",
+      "zusammenfassung": "Laut IGN zeigt das rund zweiminütige Video, wie der Teilnehmer die Spielfigur Jason allein per Implantat durch Leonida steuert. Früher habe er mit einem Mundstab auf einem iPad gespielt, was Kiefer und Körper schmerzen ließ, erzählt er. Mit dem Chip sei die Bedienung eines Computers sofort möglich gewesen, er spricht von einem „Portal zur Welt“. Neuralink stellte klar, dass die Teilnehmer Teil einer sehr kleinen klinischen Studie sind. Die Geräte seien experimentell und weder von der US-Behörde FDA noch von anderen Behörden zugelassen. Die gezeigten Erfahrungen müssten nicht für alle Teilnehmer oder künftige Ergebnisse gelten. Wie genau die Steuerung technisch auf die Konsole übertragen wird, erklärt das Video laut IGN nicht. Schon 2024 hatte der erste Neuralink-Patient mit dem Implantat Civilization 6 und später Slay the Spire gespielt. Unabhängig geprüft sind die Aufnahmen nicht, es handelt sich um ein Werbevideo des Unternehmens.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/neuralink-participant-showcases-what-its-like-to-play-gta-6-with-his-mind"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Neuralink",
+        "Hirnimplantat",
+        "Barrierefreiheit",
+        "Rockstar"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T15:37:55.585Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original thematic illustration: a living room at golden hour seen from behind an anonymous person in a wheelchair facing a large TV, the screen showing an abstract blurred speedboat racing across turquoise water toward a palm-lined original coastal skyline with spray and motion blur, no controller in the person's hands, a few thin glowing abstract lines suggesting mental control drifting from the back of the head toward the screen, warm orange sunset light against cool teal shadows, natural rich colors, dynamic low camera angle. No text, no logos, no readable UI, no recognizable people or game characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-neuralink-gta6.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-21-entra-connect-health-datenleck",
       "datum": "2026-11-21T19:01:00+01:00",
