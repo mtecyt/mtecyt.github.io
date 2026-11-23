@@ -2,10 +2,488 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-23T07:22:11.348Z",
+    "stand": "2026-11-23T14:55:14.973Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-23-gta5-rdr2-steam-boom",
+      "datum": "2026-11-23T08:15:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Steam"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Seit dem Konsolenstart von GTA 6 steigen auf Steam die Spielerzahlen von GTA 5 Enhanced und Red Dead Redemption 2 deutlich, eine PC-Version von GTA 6 ist weiter nicht angekündigt",
+      "schlagzeile": "GTA 6 nur auf Konsole: PC-Spieler stürmen GTA 5 und Red Dead 2 auf Steam",
+      "kurz": "Seit GTA 6 am 19. November für Konsolen erschienen ist, spielen auf Steam deutlich mehr Leute GTA 5 und Red Dead Redemption 2. Laut PC Games stieg der Spitzenwert von GTA 5 Enhanced von rund 78.000 auf knapp 138.000 gleichzeitige Spieler. Eine PC-Version von GTA 6 ist weiter nicht angekündigt.",
+      "zusammenfassung": "PC Games hat die Steam-Spielerzahlen der Rockstar-Spiele vor und nach dem Start von GTA 6 verglichen. Am 14. November lag der Spitzenwert von GTA 5 Enhanced bei etwas über 78.000 gleichzeitigen Spielern, in den Tagen nach dem 19. November bei 137.993. Auch die ältere Legacy-Fassung von GTA 5 legte um rund 38 Prozent zu. Red Dead Redemption 2 stieg von rund 40.000 auf fast 70.000 gleichzeitige Spieler, ein Plus von etwa 75 Prozent. Damit schaffte es der Western kurzzeitig wieder in die Top 25 von Steam. Auch GTA 4 verzeichnet laut PC Games mehr Spieler. Warum die Zahlen steigen, ist nicht belegt. PC Games vermutet, dass PC-Spieler ohne GTA 6 zu den älteren Rockstar-Spielen greifen, das ist eine Deutung und kein Beleg. Rockstar hat eine PC-Fassung von GTA 6 bisher nicht angekündigt.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/GTA-6-Spiel-55239/News/Steam-Boom-fuer-GTA-5-und-Red-Dead-Redemption-2-1560790/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "GTA 5",
+        "Red Dead Redemption 2",
+        "Steam",
+        "Spielerzahlen",
+        "PC"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:13.378Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A cozy gaming corner at night: a desktop PC tower with warm amber case lighting under a wooden desk, a wide monitor showing a softly blurred sunset over an original fictional open-world city skyline with palm trees and a desert highway, a gamepad without markings and a half-full glass of iced tea on the desk, a muted olive jacket over the chair as accent, warm natural lamp light, natural rich colors, shallow depth of field. No readable text, no logos, no game UI, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-gta5-rdr2-steam-boom.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-windows-server-2028-ohne-32-bit",
+      "datum": "2026-11-23T02:42:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Windows Server"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows Server 2028 enthält das WoW64-Subsystem für 32-Bit-Programme nicht mehr standardmäßig, es lässt sich als Feature on Demand nachinstallieren, Windows 11 ist vorerst nicht betroffen",
+      "schlagzeile": "Aus für 32-Bit-Apps? Windows Server 2028 lässt sie standardmäßig weg",
+      "kurz": "Windows Server 2028 wird ohne das WoW64-Subsystem ausgeliefert, das 32-Bit-Programme auf 64-Bit-Windows laufen lässt. Wer es braucht, kann es nachinstallieren. Für Windows 11 hat Microsoft so einen Schritt bisher nicht angekündigt.",
+      "zusammenfassung": "Microsoft hat die Änderung laut Windows Latest auf der Ignite 2026 vorgestellt. Windows Server 2028 soll im Herbst 2027 zusammen mit Windows 11 27H2 erscheinen. WoW64 wird dort zu einem Feature on Demand, das Administratoren für alte 32-Bit-Geschäftsanwendungen wieder hinzufügen können. Microsoft begründet den Schritt mit Sicherheit, vor allem gegen 32-Bit-Schadsoftware. Zugleich will Microsoft Windows Server sicher voreingestellt ausliefern und die Sicherheitsrichtlinien ab Werk anwenden, zuerst bei Server Core. SMB1 und VBScript sollen entfernt werden, auch ein Aus für Legacy-BIOS wird geprüft. Als Hintergrund nennt Microsoft KI-Werkzeuge, die Sicherheitslücken in hohem Tempo finden, und sehr alte Komponenten, die sich ohne Neuschreiben nicht absichern lassen. Windows 11 behält WoW64 vorerst. Weil Server und Windows 11 denselben Code teilen, hält Windows Latest einen späteren ähnlichen Schritt für möglich, das ist aber nur eine Einschätzung. Viele Programme nutzen noch 32-Bit-Teile, laut Windows Latest etwa ein Steam-Dienst. Welche Programme auf dem eigenen PC 32-Bit sind, zeigt der Task-Manager in der Detailansicht unter Plattform.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/23/32-bit-apps-days-are-numbered-as-microsoft-strips-support-bit-by-bit-starting-with-windows-server-2028-but-windows-11-is-safe-for-now/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows Server 2028",
+        "WoW64",
+        "32 Bit",
+        "Windows 11",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.420Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet server room corner with a single tower server standing on the floor, its side panel open, next to an old beige 1990s desktop PC and a stack of old floppy disks and CD cases without labels on a shelf, contrast of old and new hardware, a muted terracotta folder as accent, warm natural daylight through a small window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-windows-server-2028-ohne-32-bit.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-activision-patent-voice-chat-npc",
+      "datum": "2026-11-23T01:47:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Activision",
+        "KI",
+        "Patent"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Patentantrag von Activision beschreibt, wie Reaktionen von Spielern im Sprachchat aufgezeichnet und genutzt werden, um computergesteuerte Figuren menschlich reagieren zu lassen",
+      "schlagzeile": "Activision-Patent: Sollen NPCs aus deinem Sprachchat lernen?",
+      "kurz": "Activision hat einen Patentantrag eingereicht, nach dem Spieler-Reaktionen aus dem Sprachchat ein neuronales Netz trainieren sollen. Computergesteuerte Figuren könnten dann wie echte Spieler jubeln oder fluchen. Ob Activision das je in einem Spiel einsetzt, ist offen.",
+      "zusammenfassung": "Der Antrag trägt den Titel „Methods and Systems for Applying Machine Learning to Generate Gameplay Audio“ und wurde am 12. November vom US-Patentamt veröffentlicht. Darauf aufmerksam gemacht hat die Seite Patentlyze, TechPowerUp berichtet. Das System erkennt wichtige Spielmomente wie einen Abschuss oder den eigenen Tod und nimmt den Sprachchat kurz davor und danach auf. Als Beispiel nennt die Beschreibung jeweils zehn Sekunden. Als mögliche Quellen nennt der Antrag separate Sprach-Apps wie Discord, Spiel und Chat werden über Zeitstempel abgeglichen. Mit diesen Paaren aus Moment und Reaktion soll ein neuronales Netz lernen, wie glaubwürdige Reaktionen klingen. Beleidigende Inhalte sollen vorher herausgefiltert werden, und ein Spielerprofil soll etwa die passende Sprache auswählen. Laut Patentlyze ist der Antrag die Fortsetzung eines Antrags vom Dezember 2023, auf den laut der Patentdatenbank Justia bereits im August 2026 ein Patent erteilt wurde. Wie Spieler zustimmen sollen, beschreibt der Antrag laut Patentlyze nicht. Ein Patent ist keine Produktankündigung, Activision hat keine Pläne für ein Spiel genannt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355099/activision-filing-describes-npcs-that-learn-how-to-react-from-your-voice-chat"
+      },
+      "weitere_links": [
+        {
+          "name": "Patentlyze",
+          "url": "https://patentlyze.com/patent/activision-game-characters-trained-voice-chat/"
+        },
+        {
+          "name": "Justia Patents (Activision)",
+          "url": "https://patents.justia.com/assignee/activision-publishing-inc"
+        }
+      ],
+      "tags": [
+        "Activision",
+        "Patent",
+        "KI",
+        "Sprachchat",
+        "NPC",
+        "Datenschutz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:13.992Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A gamer's desk at night seen from behind the shoulder (no face visible): an over-ear headset with a boom microphone hanging on a monitor corner, the monitor showing a softly blurred abstract audio waveform in warm orange and teal, a small desk microphone and a gamepad without markings in the foreground, a muted olive mug as accent, warm lamp light with cool monitor glow, natural rich colors, shallow depth of field. No readable text, no logos, no game UI, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-activision-patent-voice-chat-npc.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-gta6-gedenkstaette-entwickler",
+      "datum": "2026-11-23T00:23:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Rockstar"
+      ],
+      "kategorie": "Spiele",
+      "titel": "In GTA 6 erinnert eine Gedenkstätte an verstorbene Angehörige von Rockstar-Entwicklern, Spieler können den Ort besuchen",
+      "schlagzeile": "Rührend: GTA 6 versteckt eine Gedenkstätte für verstorbene Angehörige der Macher",
+      "kurz": "Eine Gedenkstätte in GTA 6 trägt die Namen verstorbener Angehöriger von Rockstar-Entwicklern. Zwei Entwickler haben das selbst öffentlich gemacht. Spieler können den Ort in Leonida besuchen.",
+      "zusammenfassung": "Ein Mitarbeiter aus der Qualitätssicherung von Rockstar schrieb auf Instagram, dass seine Mutter in der Gedenkstätte verewigt ist. Sie war acht Monate vor dem Start von GTA 6 gestorben. Laut seinem Beitrag hatte sie ihm als Kind Vice City gekauft, was ihn letztlich zu Rockstar geführt habe. Ein Produktionsdesigner teilte auf X, dass dort auch sein Vater und seine Tochter stehen, die er beide während der Entwicklung verloren hat. Der Ort heißt laut IGN Deep Roots Memorial Sanctuary und liegt nördlich von Hamlet. Auf einer Wand stehen weitere Namen. Ob alle Namen zu Angehörigen von Entwicklern gehören, ist unklar. Rockstar selbst hat sich dazu nicht geäußert. Wer den Ort besucht, findet ihn also nicht als Easter Egg, sondern als stille Erinnerung des Teams.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/gta-6-dev-honors-late-mother-with-in-game-memorial-that-players-can-visit"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Gedenkstätte",
+        "Entwickler",
+        "Leonida"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:13.687Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A quiet, original fictional memorial garden in a subtropical small town at golden hour: a low stone wall with blurred unreadable engraved lines, fresh flowers and candles at its base, Spanish moss hanging from old oak trees, soft dust in warm sunlight, a muted terracotta flower pot as accent, natural rich colors, calm cinematic composition, shallow depth of field. No readable text or names, no logos, no game UI, no faces, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-gta6-gedenkstaette-entwickler.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-linux-7-4-rc4",
+      "datum": "2026-11-23T00:13:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Linux 7.4-rc4 ist erschienen, Torvalds nennt den Testkandidaten riesig, an Bord sind auch die CPU-IDs für Intels Razor Lake und Coral Rapids",
+      "schlagzeile": "Linux 7.4-rc4 ist „riesig“ – und kennt schon Intels Razor Lake",
+      "kurz": "Linus Torvalds hat den vierten Testkandidaten für Linux 7.4 veröffentlicht. Er nennt ihn riesig, die Hälfte der Änderungen betrifft Treiber. Neu sind unter anderem die CPU-Kennungen für Intels kommende Razor-Lake- und Coral-Rapids-Prozessoren.",
+      "zusammenfassung": "Torvalds schreibt in seiner Ankündigung, rc4 sei riesig, was keine Überraschung sei. Rund die Hälfte der vielen kleinen Korrekturen betrifft Treiber, vor allem Grafik und Netzwerk, aber auch USB, NVMe und Sound. Der Rest verteilt sich auf Kernkomponenten, Speicherverwaltung, Dateisysteme und Architekturen. Laut Phoronix treiben weiterhin KI-erzeugte Fehlerberichte und Patches das Volumen in diesem Zyklus. Neu sind die Familien- und Modellkennungen für Intels Client-Prozessoren Razor Lake und die Server-CPUs Coral Rapids. Solche IDs sind eine Vorbereitung und sagen noch nichts über Erscheinungstermine aus. Außerdem entfernt der Kernel NVMe-Namespaces jetzt parallel, was Vorgänge beschleunigen soll. Die fertige Version Linux 7.4 wird laut Phoronix für Ende Dezember erwartet. Es handelt sich um eine Testversion, für den Alltag ist sie nicht gedacht.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Linux-7.4-rc4-Released"
+      },
+      "weitere_links": [
+        {
+          "name": "LWN.net",
+          "url": "https://lwn.net/Articles/1108900/"
+        }
+      ],
+      "tags": [
+        "Linux 7.4",
+        "Kernel",
+        "Torvalds",
+        "Razor Lake",
+        "Coral Rapids"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.710Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A developer's desk at dusk with a laptop showing a softly blurred terminal window of abstract colored lines, a small single-board computer and a USB stick lying beside it, a cup of tea and a paper notebook with an unreadable sketch, a muted dusty teal desk lamp as accent, warm natural late daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-linux-7-4-rc4.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-windows-wlan-treiber-user-mode",
+      "datum": "2026-11-22T23:15:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Treiber"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft will WLAN-Treiber 2027 aus dem Windows-Kernel in den Benutzermodus verlegen, damit ein fehlerhafter Treiber nicht mehr das ganze System abstürzen lässt",
+      "schlagzeile": "Kein Bluescreen mehr wegen WLAN? Microsoft holt Treiber 2027 aus dem Kernel",
+      "kurz": "WLAN-Treiber sollen unter Windows ab 2027 im Benutzermodus statt im Kernel laufen. Das hat ein Microsoft-Manager auf der Ignite 2026 bestätigt, berichtet Windows Latest. Stürzt ein solcher Treiber ab, soll Windows weiterlaufen.",
+      "zusammenfassung": "Heute laufen WLAN-Treiber im Kernel, ein Fehler kann daher den ganzen PC mit einem Bluescreen lahmlegen. Microsoft hatte deshalb im Mai eine Initiative für bessere Treiberqualität angekündigt. Auf der Ignite 2026 sagte Windows-Produktmanager Mehmet Kucukgoz laut Windows Latest, dass an WLAN gearbeitet werde und dies 2027 erscheinen solle. Grundlage ist das User-Mode Driver Framework, das es seit 2004 gibt und das heute schon etwa für Sensoren, Fingerabdruckleser, USB, Ethernet und Eingabegeräte genutzt wird. Neu ist DMA-Unterstützung im Benutzermodus, die laut Microsoft mehr Gerätetypen ohne Leistungsverlust erlauben soll. Nicht jeder Treiber kann umziehen, das räumt Microsoft selbst ein. Für Treiber, die im Kernel bleiben, arbeitet Microsoft an sichereren Compiler-Optionen, Treiber-Isolation und DMA-Remapping. Ein genaues Datum oder welche Windows-Version die Änderung bekommt, ist nicht bekannt. Ob WLAN-Treiber im Benutzermodus spürbar mehr Latenz haben, muss sich erst zeigen. Die Hersteller der WLAN-Chips müssen ihre Treiber dafür anpassen. Zuletzt hatte Microsoft schon Virenscannern den Weg aus dem Kernel geebnet.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/23/one-broken-wi-fi-driver-can-still-blue-screen-your-entire-windows-11-pc-and-microsoft-is-fixing-it-by-moving-wi-fi-drivers-out-of-windows-core-in-2027/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "WLAN",
+        "Treiber",
+        "Kernel",
+        "Bluescreen",
+        "UMDF"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.268Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An open laptop on a wooden desk with its screen softly blurred showing an abstract calm blue color field, a small unbranded Wi-Fi router with two antennas beside it, a removed M.2 wireless network card lying on a cloth next to a tiny screwdriver, a muted dusty teal mug as accent, warm natural morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-windows-wlan-treiber-user-mode.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-gta6-darts-koerpertypen-rockstar",
+      "datum": "2026-11-22T21:37:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Rockstar"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Rockstar erklärt in Interviews, warum Darts in GTA 6 fehlt, und dass für die vielen Körpertypen der Figuren ein eigenes Animationsteam nötig war",
+      "schlagzeile": "Keine Darts in GTA 6: Rockstar hatte nach eigener Aussage nicht genug Zeit",
+      "kurz": "Darts fehlt in GTA 6, weil Rockstar laut eigener Aussage nicht genug Zeit und Geld hatte, es gut genug zu machen. Das sagte Rockstar-North-Co-Studiochef Rob Nelson gegenüber VGC. In einem anderen Interview erklärt Rockstar, dass die vielen Körperformen der Figuren ein eigenes Team brauchten.",
+      "zusammenfassung": "Darts war in GTA 4, GTA 5 und GTA Online spielbar, Bowling in GTA 4. Rob Nelson nannte Darts gegenüber VGC eine umstrittene Entscheidung. Auch Rockstar habe kein unbegrenztes Geld und keine unbegrenzte Zeit, manchmal müsse man zugeben, etwas nicht auf das gewünschte Niveau zu bringen. Seit Red Dead Redemption 2 baue Rockstar Minispiele als Aktivitäten, die sich wie eine Erweiterung der Spielmechanik anfühlen sollen. Als Beispiele nennt Nelson Billard mit echter Physik, Gewichtheben und Basketball. Lieber lasse man etwas weg, als es nicht gut genug umzusetzen, so Nelson. In einem Interview mit IGN, über das PC Gamer berichtet, sprach Animationschef Mark Tennant über die vielen Körpertypen der Figuren. Damit Animationen zwischen unterschiedlich großen Figuren funktionieren, etwa beim Einsteigen in Fahrzeuge oder im Nahkampf, habe Rockstar neue Techniken entwickelt. Dafür sei ein eigenes Team aufgebaut worden, das eng mit den Art- und Rigging-Teams zusammenarbeitete. Ob Darts später nachgereicht wird, hat Rockstar nicht gesagt. Das VGC-Interview erschien bereits am 19. November, IGN griff es am 22. November auf.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/rockstar-explains-why-you-cant-play-darts-in-gta-6-we-dont-have-unlimited-time/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/rockstar-says-darts-were-cut-from-gta-6-because-it-didnt-have-unlimited-money-or-time-to-make-it-feel-proper"
+        },
+        {
+          "name": "PC Gamer (Körpertypen)",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-needed-a-dedicated-team-to-make-sure-all-its-different-body-types-could-share-animations-it-was-a-huge-team-effort/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Darts",
+        "Minispiele",
+        "Animation"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:13.550Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A dim, warm neighborhood bar interior with an empty wooden dartboard cabinet on the wall, closed and dusty, a pool table with scattered balls in the foreground under a warm hanging lamp, palm silhouettes visible through a window at golden hour, a muted dusty teal bar stool as accent, original fictional location, natural rich colors, cinematic shallow depth of field. No readable text, no logos, no game UI, no faces, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-gta6-darts-koerpertypen-rockstar.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-dota2-patch-7-42",
+      "datum": "2026-11-22T21:09:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Dota 2",
+        "Valve"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Valve veröffentlicht Dota-2-Patch 7.42 mit mehr Grund-Lebenspunkten, passiver Erfahrung und einem Gegenstand, der in allen Lanes Mega-Creeps beschwört",
+      "schlagzeile": "Dota 2 Patch 7.42: Neues Item schickt Mega-Creeps in alle Lanes",
+      "kurz": "Valve hat Patch 7.42 für Dota 2 veröffentlicht. Ein neuer Gegenstand vom Tormentor beschwört Mega-Creeps in allen eigenen Lanes. Mehrere Änderungen könnten laut PC Gamer Partien verkürzen.",
+      "zusammenfassung": "Patch 7.42 ist laut Valves Patchnotes seit dem 18. November verfügbar, PC Gamer hat die wichtigsten Änderungen eingeordnet. Der Tormentor lässt nun immer das Verbrauchsitem Greater Horn of Battle fallen. Es beschwört eine Welle von Mega-Creeps auf jeder eigenen Lane. Laut PC Gamer bemerken Spieler, dass die Werte nicht ganz zu echten Mega-Creeps passen. Die Grund-Lebenspunkte aller Helden steigen von 120 auf 200, dafür bringt jeder Punkt Stärke etwas weniger Leben. Helden sind damit früh im Spiel robuster, später aber etwas verwundbarer. Außerdem bekommen alle Helden nach dem Start passiv 50 Erfahrungspunkte pro Minute. Gleichzeitig steigt die nötige Erfahrung für Stufe 30. PC Gamer vergleicht das neue Item mit ähnlichen Zielen in League of Legends und Deadlock. Ob die Partien dadurch wirklich kürzer werden, muss sich erst zeigen.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/moba/new-dota-2-patch-tries-to-help-games-end-faster-adds-an-item-that-summons-super-creeps-in-every-lane-at-once/"
+      },
+      "weitere_links": [
+        {
+          "name": "Dota 2 (Patchnotes 7.42)",
+          "url": "https://www.dota2.com/patches/7.42"
+        }
+      ],
+      "tags": [
+        "Dota 2",
+        "Patch 7.42",
+        "Valve",
+        "MOBA"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.131Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original fantasy battle scene: a massive wave of armored stone-and-bronze golem soldiers charging down three forest paths toward a distant fortified tower, a horned war trumpet glowing faintly in the foreground on a mossy rock, dust and flying leaves, low close camera with strong diagonals, warm golden sunlight with cool blue forest shadows, natural rich colors, cinematic scale, non-graphic. Original designs, not resembling any known game characters or maps. No readable text, no logos, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-dota2-patch-7-42.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-tlou2-twelve-weeks-mod",
+      "datum": "2026-11-22T20:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "The Last of Us",
+        "Mods",
+        "PC"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Fan-Mod Twelve Weeks bringt einen kostenlosen 4-gegen-4-Mehrspielermodus im Stil von Factions zu The Last of Us Part II Remastered auf dem PC",
+      "schlagzeile": "The Last of Us Part II bekommt am PC Mehrspieler – per kostenloser Fan-Mod",
+      "kurz": "Die kostenlose Fan-Mod Twelve Weeks rüstet The Last of Us Part II Remastered auf dem PC mit Team-Mehrspieler nach. Gespielt wird 4 gegen 4 im Stil des Factions-Modus von 2013. Sony hatte vor rund zwei Monaten eine andere Mehrspieler-Mod vor dem Start gestoppt.",
+      "zusammenfassung": "Twelve Weeks ist laut den Machern ein inoffizielles Fanprojekt ohne Verbindung zu Sony oder Naughty Dog. Nötig ist eine eigene Steam-Version von The Last of Us Part II Remastered, die Mod enthält nach eigener Aussage keine Spieldateien. Zwei Teams aus WLF und Seraphiten treten in den Modi Supply Raid und Interrogation gegeneinander an. Dazu kommen Crafting, Nahkampf und ein Clan-System, bei dem jedes Match einen Tag von zwölf Wochen darstellt. Zum Start gibt es zwölf Karten aus der Kampagne, Karten aus Part I sollen später per Import aus dem eigenen Spiel folgen. Es gibt Server in Europa und an der US-Westküste, der Servercode liegt auf GitHub. Die Mod läuft unter Windows 10 und 11 sowie unter Linux und auf dem Steam Deck. Laut Wccftech räumen die Macher ein, beim Programmieren stark auf das KI-Werkzeug Claude Code gesetzt zu haben. In Entwicklung ist die Mod seit der zweiten Septemberhälfte. Sony hatte vor rund zwei Monaten die Mehrspieler-Mod des Modders Speclizer vor der Veröffentlichung stoppen lassen, der damit über Patreon Geld verdiente. Ob Sony auch gegen Twelve Weeks vorgeht, ist offen.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/the-last-of-us-part-ii-twelve-weeks-multiplayer-mod-pc/"
+      },
+      "weitere_links": [
+        {
+          "name": "Twelve Weeks (Projektseite)",
+          "url": "https://twelve-weeks.com/"
+        },
+        {
+          "name": "Nexus Mods",
+          "url": "https://www.nexusmods.com/thelastofuspart2/mods/966"
+        }
+      ],
+      "tags": [
+        "The Last of Us Part II",
+        "Mod",
+        "Mehrspieler",
+        "Factions",
+        "PC",
+        "Steam Deck"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:13.856Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original post-apocalyptic tactical action scene: two survivors in improvised worn gear advancing low behind an overturned rusty car in an overgrown ruined city street, one throwing a glass bottle with a small flame toward cover across the street, dust and debris in the air, vines on crumbling buildings, low close camera with strong diagonals, warm late-afternoon sun with cool green shadows, natural rich colors, cinematic, non-graphic. Original characters, not resembling any known game character. No readable text, no logos, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-tlou2-twelve-weeks-mod.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-gta6-pc-cpu-60fps-hochrechnung",
+      "datum": "2026-11-22T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GTA 6",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Hochrechnung von Hardware Unboxed: Für 60 fps in einer PC-Version von GTA 6 wäre rund die doppelte CPU-Leistung der PS5 nötig, selbst ein Ryzen 7 5800X3D könnte knapp scheitern",
+      "schlagzeile": "GTA 6 mit 60 fps am PC: Reicht dein Ryzen 7 5800X3D? Hochrechnung zweifelt",
+      "kurz": "Hardware Unboxed hat hochgerechnet, wie viel CPU-Leistung eine PC-Fassung von GTA 6 für 60 fps bräuchte. Weil das Spiel auf den Konsolen im CPU-Limit mit 30 fps läuft, wäre rund die doppelte Leistung der PS5-CPU nötig. Ein Ryzen 7 5800X3D käme rechnerisch nur auf rund 54 fps.",
+      "zusammenfassung": "GTA 6 läuft auf PS5, PS5 Pro und Xbox Series X|S mit 30 fps, laut Rockstar wegen der aufwendigen Simulation auf der Konsolen-CPU. Hardware Unboxed hat daraus auf X abgeleitet, was ein PC für 60 fps bräuchte, PCGH hat die Rechnung aufgeschlüsselt. Für doppelt so viele Bilder pro Sekunde wäre bei gleicher Last rund doppelt so viel CPU-Leistung nötig. Den Ryzen 7 5800X3D schätzt der Kanal auf etwa 80 Prozent schneller als die PS5-CPU, das ergäbe rechnerisch rund 54 fps. Nach dem Spiele-Index von 3DCenter kämen alle X3D-Modelle für AM5, einige Ryzen 9000 ohne 3D-Cache und die schnellsten Raptor-Lake- und Arrow-Lake-CPUs über die Hürde. Eine schnellere Grafikkarte hilft in einem CPU-Limit nicht. Die Prognose hat aber klare Grenzen: Sie beruht auf Messungen aus anderen Spielen. Sie gilt nur, wenn die Konsole wirklich durchgehend im CPU-Limit läuft, und eine PC-Version könnte Regler wie die Bevölkerungsdichte bieten. Der Benchmark-Spezialist CapFrameX sieht es auf X optimistischer und hält einen Ryzen 7 9800X3D für rund 2,5-mal so schnell wie die PS5-CPU. Eine PC-Version von GTA 6 hat Rockstar bisher nicht angekündigt. Vor einem CPU-Kauf lohnt es sich daher, echte Benchmarks abzuwarten.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/PC-60-Fps-CPU-Ryzen-7-5800X3D-Hardware-Unboxed-1560781/"
+      },
+      "weitere_links": [
+        {
+          "name": "CapFrameX auf X (Einschätzung)",
+          "url": "https://x.com/CapFrameX/status/2124618264060080524"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "CPU",
+        "Ryzen 7 5800X3D",
+        "Hardware Unboxed",
+        "60 fps",
+        "PC-Version"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:12.934Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A desktop PC motherboard with a bare unbranded CPU in its socket and a large tower air cooler lying beside it on a wooden workbench, thermal paste tube and a small screwdriver next to it, a gamepad without markings softly out of focus in the background, a muted terracotta notebook as accent, warm natural afternoon daylight from a window, natural rich colors, shallow depth of field, documentary product photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-gta6-pc-cpu-60fps-hochrechnung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-ki-server-preisaufschlaege",
+      "datum": "2026-11-22T19:10:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Speicher",
+        "Server",
+        "Preise"
+      ],
+      "kategorie": "Markt",
+      "titel": "Bericht der Financial Times: Dell, HPE, Lenovo und Supermicro verlangen bei KI-Servern nach Vertragsabschluss Aufschläge von 25 bis 45 Prozent, Grund sind gestiegene Speicherpreise",
+      "schlagzeile": "Bestellt, aber nicht bezahlt: KI-Server werden nachträglich bis zu 45 % teurer",
+      "kurz": "Große Serverhersteller sollen bei KI-Servern Monate nach Vertragsabschluss Aufschläge von 25 bis 45 Prozent verlangen. Das berichtet die Financial Times, ComputerBase fasst zusammen. Grund sind vor allem die stark gestiegenen Speicherpreise.",
+      "zusammenfassung": "Laut Financial Times verlangen Dell, HPE, Lenovo und Supermicro von Kunden teils erst kurz vor der Lieferung deutlich mehr Geld. Personen aus der Branche nennen Aufschläge von 25 bis 45 Prozent. Ein Branchenkenner beschreibt den aktuellen Standard als Vertrag mit einem Richtpreis, der bis zur Lieferung steigen könne. Speicher sei seit Anfang 2024 laut einer JPMorgan-Analyse um mehr als 400 Prozent teurer geworden. GPU-Server hätten um mindestens 20 bis 30 Prozent zugelegt, speicherlastige CPU-Server kosteten teils mindestens dreimal so viel. Betroffen sind auch Handelsfirmen wie Jane Street, Optiver und Hudson River Trading, die die Preise wegen ihres Bedarfs an Rechenleistung meist akzeptieren. Ein Beispiel ist ein laufender Rechtsstreit in Irland: Die Handelsfirma XTX Markets hatte mit Dell laut Gerichtsunterlagen einen Festpreis von 549 Millionen US-Dollar vereinbart. Dell soll danach weitere 62 bis 70 Millionen Dollar gefordert haben. Welche Vertragsklauseln solche Nachforderungen erlauben, ist unklar. Die Hersteller haben sich gegenüber der FT nicht geäußert. Für PC-Käufer zeigt der Bericht, wie stark der Speichermarkt derzeit von Rechenzentren getrieben wird.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/ki-server-hersteller-verlangen-nachtraeglich-bis-zu-45-prozent-mehr.100456/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "KI-Server",
+        "Speicherpreise",
+        "Dell",
+        "HPE",
+        "Lenovo",
+        "Supermicro"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:13.217Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A row of open rack servers in a bright, clean data center aisle, one server sled pulled out showing rows of unbranded memory modules and heatsinks, a technician's gloved hand resting on the rack edge (no face visible), cable bundles neatly tied, a muted olive equipment case on the floor as accent, warm natural daylight mixing with soft overhead light, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-ki-server-preisaufschlaege.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-22-gta6-jason-steve-mcqueen",
       "datum": "2026-11-22T17:11:00+01:00",
@@ -143,6 +621,92 @@
       }
     },
     {
+      "id": "2026-11-23-badbox-3-tv-boxen",
+      "datum": "2026-11-22T15:33:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "Android"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Sicherheitsfirma Human Security legt Werbebetrug Badbox 3.0 offen: Infizierte günstige Android-TV-Boxen erzeugten in der Spitze rund 40 Milliarden Werbeanfragen pro Tag und dienten als Proxy",
+      "schlagzeile": "Billige TV-Box als Werbe-Bot: Badbox 3.0 fälscht Milliarden Anzeigen",
+      "kurz": "Infizierte Billig-TV-Boxen haben heimlich Werbung abgespielt und Werbeplätze vorgetäuscht. Das zeigt ein Bericht der Sicherheitsfirma Human Security zu Badbox 3.0. In der Spitze kamen rund 40 Milliarden Werbeanfragen pro Tag zusammen.",
+      "zusammenfassung": "Human Security hat den Bericht am 18. November veröffentlicht, ComputerBase fasst ihn zusammen. Die Schadsoftware spielte Werbespots im Hintergrund ab, ohne dass sie auf dem Fernseher zu sehen waren. Für einen Teil der Anfragen gab sie sich als echte Streaming-App aus, die auf der Box gar nicht lief. Die Boxen dienten zudem als Zwischenstation für fremden Internetverkehr, dabei erschien die IP-Adresse des Besitzers. Betroffen sind Geräte mit dem offenen Android-Unterbau AOSP ohne Play-Protect-Zertifizierung. Die Forscher fanden auf Geräten des chinesischen Herstellers TXCZ eine ab Werk installierte Startoberfläche mit Systemrechten, auch eine Domain des Herstellers taucht im Bericht auf. Wie viele Geräte infiziert sind und wie hoch der Schaden ist, nennt der Bericht nicht. Einige Steuer-Domains wurden laut Human Security bereits Ende Oktober bei einer Aktion von Google und Partnern abgeschaltet. Wer eine sehr günstige No-Name-TV-Box nutzt, sollte prüfen, ob sie Play-Protect-zertifiziert ist. Badbox ist schon die dritte Welle dieser Masche, Google hatte 2025 gegen die Betreiber von Badbox 2.0 geklagt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/internet/badbox-3-0-infizierte-tv-boxen-erzeugen-milliarden-werbeanfragen.100450/"
+      },
+      "weitere_links": [
+        {
+          "name": "Human Security (Mitteilung)",
+          "url": "https://www.prnewswire.com/news-releases/human-disrupts-badbox-3-0--an-ad-fraud-operation-running-inside-cheap-consumer-tv-boxes-302943954.html"
+        }
+      ],
+      "tags": [
+        "Badbox",
+        "Android",
+        "TV-Box",
+        "Malware",
+        "Werbebetrug",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.841Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small cheap unbranded black TV streaming box with a blinking status light on a living-room TV cabinet, its tangled power and network cables behind it, a simple remote control without markings lying next to it, the television above dark and slightly out of focus, a muted terracotta vase as accent, warm natural evening light from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-badbox-3-tv-boxen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -186,47 +750,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
@@ -3748,45 +4271,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -3817,6 +4301,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
@@ -4618,6 +5141,53 @@
       "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Quiet empty strategy-game studio office in warm late-afternoon light: unoccupied desks with unmarked monitors showing only a softly blurred abstract map of generic terrain (no real game UI), packed cardboard boxes, a half-cleared corkboard with blank papers, an olive plant as muted accent, no logos, no text, no recognizable characters.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-firaxis-entlassungen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-valve-amdgpu-weniger-ruckler",
+      "datum": "2026-11-17T15:05:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Treiber",
+        "Radeon"
+      ],
+      "kategorie": "Linux",
+      "titel": "Valve-Entwicklerin legt überarbeitete AMDGPU-Kernel-Patches vor, die Ruckler in manchen Windows-Spielen unter Proton verringern sollen, indem Speicher-Mapping-Updates gebündelt werden",
+      "schlagzeile": "Weniger Ruckler unter Linux: Valve-Patches sollen Radeon-Spiele glätten",
+      "kurz": "Valve-Entwicklerin Natalie Vock hat neue Patches für den Linux-Grafiktreiber AMDGPU veröffentlicht. Sie sollen spürbare Ruckler in manchen Windows-Spielen unter Proton verringern. Die Patches sind noch in Prüfung, Messwerte gibt es keine.",
+      "zusammenfassung": "Viele neue Spiele nutzen sogenannte Sparse Bindings und binden Teile von Texturen oder anderen Grafikressourcen bei Bedarf ein oder aus. Laut Vock synchronisiert der Treiber diese Updates bisher mit anderer Grafikarbeit, bei viel Last stehen Grafik- und Rechen-Warteschlangen dann lange still. Zusätzlich braucht jede Änderung einen eigenen Systemaufruf, was viel CPU-Zeit kostet. Die zehn Patches führen eine neue Schnittstelle namens AMDGPU_GEM_VA2 ein, die viele Änderungen in einem Aufruf bündelt und gezielter synchronisiert. Laut Vock ergibt das eine deutliche Verringerung der Ruckler, Zahlen oder betroffene Spiele nennt sie nicht. Die erste Version gab es schon im Mai, die Bündelung kam mit der Fassung vom 17. November dazu, berichten Phoronix und VideoCardz. Damit Spieler profitieren, muss auch ein Treiber wie Mesa RADV die neue Schnittstelle nutzen. Ob die Patches schon in Linux 7.5 landen, ist offen. Die Meldung ist einige Tage alt, wir nehmen sie wegen ihrer Bedeutung für Linux-Gaming mit Radeon-Karten auf.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/AMDGPU-Sparse-Gaming-Valve"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/valve-posts-amdgpu-patches-to-reduce-stutter-in-some-proton-games"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "AMDGPU",
+        "Valve",
+        "Proton",
+        "Radeon",
+        "Ruckler",
+        "Treiber"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.571Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact living-room gaming PC with its side panel removed on a low wooden sideboard, an unbranded graphics card with two visible axial fans installed, a gamepad without markings lying in front, a television in the background with a softly blurred abstract landscape on screen, a muted olive cushion as accent, warm natural evening daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-valve-amdgpu-weniger-ruckler.webp",
         "ki_generiert": true
       }
     },
