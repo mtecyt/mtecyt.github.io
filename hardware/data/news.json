@@ -2,10 +2,612 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-23T18:36:29.797Z",
+    "stand": "2026-11-23T21:58:25.077Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-23-oledtextfix-farbsaeume",
+      "datum": "2026-11-23T17:50:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Monitor",
+        "OLED"
+      ],
+      "kategorie": "Software",
+      "titel": "Open-Source-Tool OLEDTextFix soll per GPU-Overlay Farbsäume an Schrift auf QD-OLED- und WOLED-Monitoren unter Windows verringern",
+      "schlagzeile": "Bunte Ränder an Schrift? Gratis-Tool soll OLED-Monitore entschärfen",
+      "kurz": "Das kostenlose Open-Source-Programm OLEDTextFix soll unter Windows die farbigen Säume an Buchstaben auf QD-OLED- und WOLED-Monitoren verringern. Es bearbeitet dazu das fertige Desktopbild auf der GPU und legt es als Overlay über den Bildschirm. heise hat es ausprobiert, auf WQHD-27-Zöllern hilft es sichtbar, kostet aber Strom und hat Haken.",
+      "zusammenfassung": "Ursache der Säume ist die Subpixelanordnung, denn Windows ClearType ist für LCDs mit nebeneinanderliegenden RGB-Streifen gebaut. Bei QD-OLED sitzt Grün dagegen meist über Rot und Blau, WOLED nutzt zusätzlich ein weißes Subpixel. OLEDTextFix greift das Bild über die Schnittstelle DXGI Desktop Duplication ab, verschiebt die Farbkanäle passend zu den Subpixeln und blendet das Ergebnis als klickdurchlässiges Overlay ein. Eingriffe in Treiber, Schriftrenderer oder Registry sind nicht nötig. Für QD-OLED gibt es fertige Profile, etwa für 27 Zoll mit WQHD und 32 Zoll mit 4K, dazu die Filter Sharp, Balanced und Smooth. Laut Entwickler sinken die Säume auf dunklem Hintergrund um knapp 60 bis gut 70 Prozent, auf hellem nur um etwa 17 bis 18 Prozent. Im heise-Test war der Effekt am 4K-Monitor kaum sichtbar, am WQHD-27-Zöller deutlicher, Säume an senkrechten Linien blieben aber teils. Bei Bewegung erscheinen die Säume kurz wieder, weil das Overlay etwa einen Frame verzögert. Startmenü, Taskleiste und Benachrichtigungen bleiben teilweise unkorrigiert. Der Stromverbrauch des Testsystems stieg im Leerlauf von rund 23 auf 25 bis 32 Watt, bei Mausbewegung auf 56 Watt. Das Tool läuft ab Windows 10 Version 2004, braucht eine DirectX-11-fähige GPU und ist nicht signiert, SmartScreen kann deshalb warnen. Der Entwickler nennt es experimentell, die WOLED-Profile sind noch nicht an echten Panels getestet, Strg+Alt+F schaltet den Effekt sofort ab.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Kostenloses-Windows-Tool-OLEDTextFix-soll-Textdarstellung-auf-OLEDs-verbessern-11534988.html"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/OLED-Display-Panel-Farbsaeume-GPU-Korrektur-Tool-1560863/"
+        }
+      ],
+      "tags": [
+        "OLED",
+        "QD-OLED",
+        "WOLED",
+        "ClearType",
+        "Windows",
+        "Open Source"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.821Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Extreme macro close-up of a dark OLED monitor surface showing tiny glowing red, green and blue subpixels in a slightly irregular non-stripe arrangement, slightly out of focus at the edges, the edge of the monitor bezel and a warm wooden desk visible in the soft background, a muted dusty teal coffee mug blurred behind, warm natural window light grazing the bezel, natural rich colors, documentary macro photo. No readable text, no letters, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-oledtextfix-farbsaeume.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-xbox-helix-multiplayer-gratis-leak",
+      "datum": "2026-11-23T17:19:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "Xbox",
+        "Project Helix"
+      ],
+      "kategorie": "Konsolen",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Bericht von Jez Corden (Windows Central) mit anonymen Quellen, zusammengefasst von Insider Gaming (Quellenliste: mittel-hoch). Corden gilt als gut vernetzt im Xbox-Umfeld, Microsoft hat nichts bestätigt; es geht um interne Überlegungen, nicht um eine Entscheidung."
+      },
+      "ursprungsquelle": "Windows Central (Jez Corden), via Insider Gaming",
+      "titel": "Bericht: Microsoft erwog für die nächste Xbox (Project Helix) ein Ende des kostenpflichtigen Online-Multiplayers – unter neuer Führung offenbar wieder offen",
+      "schlagzeile": "Leak: Sollte Online-Multiplayer auf der nächsten Xbox gratis werden?",
+      "kurz": "Laut Windows-Central-Redakteur Jez Corden hat Xbox für die nächste Konsole Project Helix ein Ende des kostenpflichtigen Online-Multiplayers geprüft. Das gehörte zu einem früheren Konzept, Helix als vollwertigen Gaming-PC zu bauen. Unter Xbox-Chefin Asha Sharma soll Helix eher eine klassische Konsole werden, die Bezahlschranke könnte damit bleiben.",
+      "zusammenfassung": "Insider Gaming fasst den Bericht von Windows Central zusammen, der sich auf Quellen beruft. Ursprünglich sollte Helix demnach im Kern ein vollwertiger Gaming-PC sein, auf dem zusätzlich alle bisherigen Xbox-Konsolenspiele laufen. Ähnlich wie bei den Xbox-Ally-Handhelds hätten Nutzer eigene Software installieren können, auch Steam. In diesem Modell wäre die Bezahlschranke für Online-Multiplayer weggefallen. Das war laut Bericht der Plan unter der alten Führung mit Phil Spencer und Sarah Bond. Seit Asha Sharma Xbox leitet, sollen sich die Gespräche verändert haben, Helix werde eher als klassische Konsole gesehen, die auch PC-Spiele abspielen kann. Das passt zu Microsofts eigener Aussage aus dem Jubiläumsmagazin, Helix sei eine Konsole, die auch PC-Spiele kann, und kein PC für Konsolenspiele. Damit könnte der kostenpflichtige Multiplayer, der in fast allen Game-Pass-Stufen steckt, bestehen bleiben. Er ist seit Xbox Live 2002 eine wichtige Einnahmequelle, und hohe Bauteilkosten machen zusätzliche Einnahmen wichtiger. Offiziell bestätigt ist davon nichts.",
+      "quelle": {
+        "name": "Insider Gaming",
+        "url": "https://insider-gaming.com/xbox-eliminating-paid-multiplayer/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Xbox",
+        "Project Helix",
+        "Multiplayer",
+        "Game Pass",
+        "Asha Sharma",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.419Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original cozy living room scene at dusk: an unbranded sleek dark game console standing next to a compact unbranded gaming PC under a TV stand, a generic dark gamepad without any markings resting on a wooden coffee table, the TV screen softly blurred showing an abstract multiplayer lobby made of colorful shapes with nothing readable, warm lamp light mixed with cool blue light from the screen, a muted terracotta cushion on the sofa, natural rich colors, shallow depth of field. No readable text, no logos, no faces, no recognizable game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-xbox-helix-multiplayer-gratis-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-lexar-expo-ull-39-prozent",
+      "datum": "2026-11-23T17:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "AMD",
+        "DDR5"
+      ],
+      "kategorie": "Arbeitsspeicher",
+      "titel": "Lexar wirbt mit bis zu 39 Prozent mehr Fps durch AMD EXPO ULL bei DDR5-6000 CL28 – PCGH hält den Wert für kaum haltbar",
+      "schlagzeile": "39 Prozent mehr Fps nur durch RAM-Profil? PCGH zweifelt an Lexars Werten",
+      "kurz": "Lexar verspricht für sein Kit ARES RGB 2nd Gen DDR5-6000 CL28 mit dem Profil EXPO ULL bis zu 38,86 Prozent mehr Fps. PCGH hält das für kaum möglich. Eigene Tests der Redaktion zeigten beim reinen Profilwechsel nur rund drei bis vier Prozent.",
+      "zusammenfassung": "Bemerkenswert ist der Vergleich: Lexar misst nicht gegen JEDEC-Speicher, sondern gegen das normale EXPO-Profil mit gleicher Datenrate und gleicher CAS-Latenz. EXPO ULL hinterlegt vor allem schärfere Subtimings, ohne Takt oder Primärtimings anzuheben. Getestet hat Lexar mit Ryzen 5 9600X, Asus TUF Gaming B850M-Plus WiFi 7 und GeForce RTX 5080 in Counter-Strike 2, Valorant und Delta Force. Je nach Spiel sollen die durchschnittlichen Fps um 1,25 bis 38,86 Prozent steigen, die 1%-Lows um 1,67 bis 22,13 Prozent, die Spitzenwerte stammen jeweils aus Delta Force. Auflösung, Grafikdetails, Testszenen, absolute Fps und die vollständigen Timings nennt Lexar nicht. PCGH kam im Juli mit Ryzen 5 9600X und RTX 5090 in zwölf Spielen auf rund drei bis vier Prozent Zuwachs im Index. Hardware Unboxed maß mit einem Ryzen 7 9700X in Baldur's Gate 3 bis zu 15 Prozent, Igor's Lab in Assetto Corsa Competizione 5,8 Prozent. Dass schärfere Subtimings Spieleleistung bringen, bestreitet PCGH nicht, nur die Größenordnung. Das Kit hat die EXPO-1.2-Zertifizierung bestanden, was für die Stabilität spricht, aber nichts über die Leistung aussagt. Wer aufrüsten will, sollte sich daher eher an unabhängigen Tests orientieren als an Herstellerangaben.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/RAM-Hardware-154108/News/EXPO-ULL-Benchmarks-Lexar-1560861/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Lexar",
+        "EXPO ULL",
+        "DDR5-6000",
+        "AMD",
+        "Ryzen",
+        "Benchmarks"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:23.984Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of two unbranded DDR5 memory modules with plain dark heat spreaders being seated into the memory slots of a dark motherboard inside an open PC case on a wooden workbench, only the edge of a hand pressing one module down with natural correct fingers, a small muted dusty teal screwdriver nearby, warm natural window light, natural rich colors, shallow depth of field, documentary review photo. No readable text, no logos, no RGB glow, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-lexar-expo-ull-39-prozent.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-gta6-hacker-auflagen-frei",
+      "datum": "2026-11-23T16:43:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Sicherheit"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA-6-Hacker von 2022 unter Auflagen frei: Gericht beschränkt seine Online-Aktivitäten fünf Jahre lang, Telegram und Discord sind tabu",
+      "schlagzeile": "GTA-6-Hacker kommt frei – mit fünf Jahren Online-Auflagen",
+      "kurz": "Der Brite, der 2022 Rockstar Games gehackt und frühe GTA-6-Videos veröffentlicht hatte, ist unter Auflagen freigelassen worden. Ein Gericht verhängte eine fünfjährige Anordnung, die seine Online-Aktivitäten einschränkt, inklusive Verbot von Telegram und Discord. Der Richter gab ihm laut BBC mit auf den Weg, das dürfe nicht noch einmal passieren.",
+      "zusammenfassung": "Der heute 21-Jährige hatte sich in der vergangenen Woche vor Gericht schuldig bekannt, Rockstar und weitere Firmen gehackt zu haben. Laut VGC, das sich auf die BBC beruft, erhielt er nun eine sogenannte Serious Crime Prevention Order, die seine Internetnutzung fünf Jahre lang beschränkt. Teil davon ist ein Verbot, Telegram und Discord zu nutzen. Laut IGN wurde er unter Auflagen entlassen, weil er einen Großteil seiner Strafe bereits verbüßt habe. Der Mann gehörte zur Hackergruppe Lapsus$, die auch Uber, Nvidia und den britischen Mobilfunker EE angriff. Wegen einer schweren Autismus-Diagnose war er zunächst in einer gesicherten Klinik untergebracht, später wurde er für verhandlungsfähig erklärt. Im September 2022 hatte er rund eine Stunde unfertiges GTA-6-Material veröffentlicht und damit unter anderem Protagonistin Lucia erstmals gezeigt. Der Richter nannte ihn laut BBC einen „sehr talentierten jungen Mann“. In Details zur bisherigen Haft und Unterbringung unterscheiden sich die Berichte.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/gta-6-hacker-who-leaked-footage-in-2022-has-been-released-on-licence-and-told-not-to-do-it-again/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Hacker",
+        "Lapsus$",
+        "Gericht",
+        "Leak 2022"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.559Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original atmospheric scene outside a classic British courthouse in soft late-afternoon light after rain: wide stone steps and tall columns, an original young adult man in a plain dark hoodie seen only from behind walking down the steps away from camera, his face not visible, a closed unbranded laptop bag over his shoulder, wet pavement reflecting warm streetlights, cool grey-blue sky with a warm golden break in the clouds, natural rich colors, cinematic low angle. No readable text, no logos, no signs, no recognizable people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-gta6-hacker-auflagen-frei.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-samsung-odyssey-g6-1100hz",
+      "datum": "2026-11-23T15:56:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Monitor",
+        "Samsung"
+      ],
+      "kategorie": "Monitore",
+      "titel": "Samsung Odyssey G6: 27-Zoll-Gaming-Monitor mit IPS-Panel soll 600 Hertz in WQHD und 1100 Hertz bei reduzierter Auflösung schaffen",
+      "schlagzeile": "Samsung Odyssey G6 mit 1100 Hertz – doch das IPS-Panel weckt Zweifel",
+      "kurz": "Samsungs neuer Odyssey G6 ist ein 27-Zöller mit WQHD-Auflösung und bis zu 600 Hertz. Im „Dual Mode“ soll er bei reduzierter Auflösung sogar 1100 Hertz erreichen. In den USA soll er ab Dezember für rund 900 US-Dollar erscheinen.",
+      "zusammenfassung": "Das Panel ist ein IPS-LCD mit 2560 × 1440 Pixeln, laut Samsung schaltet es in 1 Millisekunde von Grau zu Grau. Per „Dual Mode“ lässt sich schnell zwischen nativer Auflösung mit 600 Hertz und einer niedrigeren Auflösung mit 1100 Hertz wechseln. Welche Auflösung im 1100-Hertz-Modus genau gilt, geben die Berichte nicht einheitlich an. Gegen Unschärfe und Überschwinger setzt Samsung eine Technik namens „Odyssey Clear Motion“, wie sie arbeitet, ist noch offen. Der Monitor unterstützt HDR10+ Gaming, ist G-Sync-kompatibel und beherrscht FreeSync Premium. Anschlüsse sind einmal DisplayPort 2.1 und zweimal HDMI 2.1, der Fuß ist höhenverstellbar und lässt sich ins Hochformat drehen. heise ist skeptisch: Für 1100 Hertz müsste ein Pixel in rund 0,9 Millisekunden schalten, bei 600 Hertz in etwa 1,7 Millisekunden. Ein IPS-Panel mit mittleren Schaltzeiten unter einer Millisekunde hat die Redaktion bisher nicht gemessen. Erreichbar sei das wohl nur mit starkem Overdrive, der helle Säume an bewegten Kanten erzeugen kann. Bei den Schaltzeiten sind OLED-Monitore klar im Vorteil. Einen Euro-Preis nennt Samsung noch nicht, unabhängige Tests stehen aus.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Superflinker-Gaming-Monitor-Samsung-verspricht-1100-Hertz-11534912.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/samsung-launches-insane-odyssey-g6-monitor-with-1100hz-refresh-rate/"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "Odyssey G6",
+        "Monitor",
+        "1100 Hz",
+        "IPS",
+        "Gaming-Monitor"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:23.361Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A sleek unbranded 27-inch flat gaming monitor with thin bezels on a height-adjustable stand on a warm oak desk, its screen showing a softly blurred fast-moving abstract racing scene with motion streaks and nothing readable, a mouse with a muted terracotta mouse pad and a mechanical keyboard in front, warm late-morning window light from the side, natural rich colors, shallow depth of field, documentary review photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-samsung-odyssey-g6-1100hz.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-gta6-patch-01-002-002",
+      "datum": "2026-11-23T15:44:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Patch"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6 Update 01.002.002 behebt fehlerhafte Autosaves, festhängendes Wetter und nicht ausgelöste Story-Anrufe auf PS5 und Xbox Series X/S",
+      "schlagzeile": "Erster GTA-6-Patch: Rockstar repariert Autosave und Story-Blocker",
+      "kurz": "Rockstar hat für GTA 6 das Update 01.002.002 veröffentlicht. Es behebt unter anderem fehlerhaftes automatisches Speichern, Wetter, das lange nicht wechselt, und Telefonanrufe, die den Story-Fortschritt blockieren konnten. Der Download ist auf PS5 rund 604 MB, auf Xbox Series X/S etwa 1,6 GB groß.",
+      "zusammenfassung": "Es ist das erste Update nach dem Release am 19. November, die Patch Notes stehen laut Eurogamer auf Rockstars Website. Behoben sind demnach Wetter, das sich lange nicht änderte, fehlerhaftes automatisches Speichern und mehrere Telefonanrufe, die nicht ausgelöst wurden, darunter solche, die die Story vorantreiben oder Missionen freischalten. Außerdem konnten Spieler manchmal ihr Fahndungslevel nicht loswerden, die Hantelstange im Fitnessstudio nicht nutzen oder von Partnern keine Taschen zum Verkauf an Hehler erhalten. Vor allem der Autosave-Fehler hatte für Ärger gesorgt, mehrere Spieler und Streamer berichteten von verlorenem Fortschritt. Im bekanntesten Fall gingen laut Eurogamer rund zwölf Stunden auf der PS5 verloren. VGC rät trotz Patch, zur Sicherheit regelmäßig manuell zu speichern. Nicht angegangen hat Rockstar laut Eurogamer die von vielen kritisierte starke Vignettierung am Bildrand.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-received-a-new-patch-which-fixes-autosaving/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette"
+        },
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/gta-6-update-01-002-002-all-changes-download-size/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Patch",
+        "01.002.002",
+        "Autosave",
+        "PS5",
+        "Xbox Series X"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.123Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original cinematic scene at a sunny Florida-like coastal gas station at golden hour: an unbranded vintage convertible parked at the pump, an original adult driver seen from behind sitting on the hood checking an unbranded smartphone with a blank glowing screen, palm trees, a sudden change of weather as dark storm clouds roll in over the bright sky on one side, wet asphalt reflections, low camera angle, strong diagonal of the road, warm golden light against cool storm blue, natural rich colors. No readable text, no logos, no license plates, no recognizable characters, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-gta6-patch-01-002-002.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-dlss5-where-winds-meet-regler",
+      "datum": "2026-11-23T15:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "DLSS 5",
+        "Nvidia",
+        "Grafik"
+      ],
+      "kategorie": "Spiele & Technik",
+      "titel": "Where Winds Meet unterstützt DLSS 5 als drittes Spiel – erstmals mit drei frei einstellbaren Reglern für Nvidias Neural Rendering",
+      "schlagzeile": "DLSS 5 zum Selbsteinstellen: Where Winds Meet bringt erstmals Regler",
+      "kurz": "Das Free-to-Play-Spiel Where Winds Meet unterstützt seit dem 23. November Nvidias DLSS 5 auf GeForce-RTX-50-Karten. Als erstes Spiel bietet es neben Ein und Aus drei Regler von 0 bis 100. ComputerBase lobt die Wirkung, kritisiert aber die Standardwerte.",
+      "zusammenfassung": "Nach NBA 2K27 und Hogwarts Legacy ist Where Winds Meet das dritte Spiel mit offizieller DLSS-5-Unterstützung. Weil es kostenlos ist, kann jeder Besitzer einer GeForce RTX 50 das Neural Rendering ausprobieren. Das Entwicklerstudio nennt dafür den Game-Ready-Treiber 621.24, zu dieser Version gab es zuletzt Berichte über übermäßige SSD-Schreibzugriffe, für die Nvidia den Hotfix 621.35 nachgeschoben hat. Die drei Regler heißen Tone Intensity für Licht und Farben, Structure Intensity für Oberflächen und Schatten sowie Character Intensity für Haut, Gesichter und Hände. Ab Werk stehen sie auf 100, 100 und 40. ComputerBase sieht deutlich plastischere Beleuchtung, schärfere Texturen und weniger gummiartige Gesichter, stellenweise wirke das Bild aber überschärft. Größter Kritikpunkt ist, dass die Lichtstimmung mit den Standardwerten deutlich kühler wird und warme Farben teils verloren gehen. Die Redaktion empfiehlt 70 bis 80 für Tone und Structure sowie 40 bis 50 für Character. Wie in den anderen DLSS-5-Spielen zeigen Figuren in Bewegung teils einen hellen Rand, Nvidia ist das Problem laut ComputerBase bekannt. DLSS 5 kostet viel Leistung, dank hoher Grundleistung des Spiels bleibt eine RTX 5070 in WQHD laut Test aber spielbar.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/artikel/grafikkarten/dlss-5-where-winds-meet-test.100401/"
+      },
+      "weitere_links": [
+        {
+          "name": "Where Winds Meet (offizielle Ankündigung)",
+          "url": "https://www.wherewindsmeetgame.com/news/official/dlss5.html"
+        }
+      ],
+      "tags": [
+        "DLSS 5",
+        "Nvidia",
+        "Where Winds Meet",
+        "Neural Rendering",
+        "RTX 50",
+        "Grafik"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.277Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original cinematic wuxia-inspired scene: a misty ancient Chinese-style mountain town with curved tiled roofs and wooden walkways at golden hour, an original adult swordsman in plain flowing dark robes seen from behind mid-leap across rooftops with a sheathed sword, rain-washed stone streets reflecting warm lantern light below, distant misty peaks, low camera angle, strong diagonals, warm golden light against cool blue mist, natural rich colors. No readable text, no logos, no calligraphy, no recognizable characters, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-dlss5-where-winds-meet-regler.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-huang-wieder-nvidia-ceo",
+      "datum": "2026-11-23T14:58:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "Jensen Huang"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Nvidias Verwaltungsrat setzt Jensen Huang mit sofortiger Wirkung wieder als Präsident, CEO und Board-Mitglied ein – die Untersuchungen laufen weiter",
+      "schlagzeile": "Rolle rückwärts bei Nvidia: Jensen Huang ist wieder CEO",
+      "kurz": "Nvidias Verwaltungsrat hat Jensen Huang einstimmig und mit sofortiger Wirkung wieder zum Präsidenten, CEO und Board-Mitglied ernannt. Nach Rücksprache mit hochrangigen Vertretern der US-Regierung sieht das Gremium kein Risiko für die nationale Sicherheit. Die Aktie legte nach der Nachricht je nach Zeitpunkt um 25 bis 35 Prozent zu.",
+      "zusammenfassung": "Huang war Mitte November nach Enthüllungen über außereheliche Affären zurückgetreten, darunter eine Beziehung zur Megaspeed-Managerin Alice Huang, der Verbindungen zum chinesischen Geheimdienst nachgesagt werden. Laut Nvidias Mitteilung führte der Verwaltungsrat mehrere Gespräche mit ihm und war danach von seiner Offenheit und Führungsfähigkeit überzeugt. Board-Chef Harvey Jones nennt Huang die richtige Person, um Nvidia zu führen. Huang selbst sagt, er übernehme die Verantwortung „mit größter Demut“. Colette Kress, die übergangsweise CEO war, bleibt Finanzchefin. Abgeschlossen ist die Affäre damit nicht: Ein unabhängiger Ausschuss untersucht weiter die mutmaßliche Einflussnahme eines ausländischen Geheimdienstes, Huang will dabei voll kooperieren. Zusätzlich richtet Nvidia einen eigenen Ausschuss für nationale Sicherheit und Exportkontrolle ein und sucht einen Chief Compliance Officer. Laut ComputerBase muss sich Huang Anfang Dezember außerdem Fragen in mehreren Ausschüssen des US-Kongresses stellen. Erst am Vormittag hatte die New York Times berichtet, US-Geheimdienste hätten Hinweise auf längere Kontakte von Alice Huang zum chinesischen Ministerium für Staatssicherheit gesammelt. Die Börse reagierte trotzdem euphorisch, je nach Quelle und Zeitpunkt lag das Plus der zuvor stark gefallenen Aktie bei 25 bis 35 Prozent. Für GeForce-Kunden ändert sich kurzfristig nichts, die Rückkehr beendet aber vorerst die Unsicherheit an der Konzernspitze.",
+      "quelle": {
+        "name": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      },
+      "weitere_links": [
+        {
+          "name": "ComputerBase",
+          "url": "https://www.computerbase.de/news/wirtschaft/alles-auf-anfang-jensen-huang-ist-wieder-ceo-von-nvidia.100470/"
+        },
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Nvidia-setzt-Jensen-Huang-wieder-als-CEO-ein-11534936.html"
+        },
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/nvidia-board-reinstates-jensen-huang-as-president--ceo-and-explains-why/"
+        },
+        {
+          "name": "ComputerBase (NYT-Bericht zu Alice Huang)",
+          "url": "https://www.computerbase.de/news/wirtschaft/nvidia-skandal-us-ermittler-verfolgen-spur-bis-zu-chinas-geheimdienst.100460/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "CEO",
+        "Colette Kress",
+        "Megaspeed",
+        "Aktie"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:23.129Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty modern corporate boardroom in late afternoon: a long warm walnut conference table with leather chairs pushed back slightly, a few closed plain folders and a glass of water, a single unbranded graphics card with two visible axial fans resting on a folded cloth at the end of the table as a symbolic object, large windows with soft golden sunlight and a blurred city skyline, a muted olive green plant in the corner, natural rich colors, shallow depth of field. No people, no readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-huang-wieder-nvidia-ceo.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-rtx-60-erst-2028-leak",
+      "datum": "2026-11-23T14:45:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "AMD",
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "zuverlaessigkeit": {
+        "stufe": "niedrig-mittel",
+        "begruendung": "Angebliche EOL-Liste aus einem Video von Moore's Law Is Dead (Quellenliste: niedrig-mittel, gemischte Trefferbilanz) mit Verweis auf interne Quellen; PCGH und 3DCenter berichten darüber und leiten Release-Fenster ab, eine unabhängige Bestätigung gibt es nicht."
+      },
+      "ursprungsquelle": "Moore's Law Is Dead (YouTube-Video); Einordnung durch PCGH und 3DCenter",
+      "titel": "Leak von Moore's Law Is Dead: Angebliche Auslauftermine aktueller Grafikkarten deuten auf GeForce RTX 60 erst um den Jahreswechsel 2027/28 hin",
+      "schlagzeile": "Leak: Kommt die GeForce RTX 60 erst 2028?",
+      "kurz": "Der YouTuber Moore's Law Is Dead nennt angebliche Auslauftermine für aktuelle GeForce- und Radeon-Karten. Demnach sollen die meisten Modelle erst um den Jahreswechsel 2027/28 vom Markt gehen. PCGH leitet daraus einen möglichen Start der RTX 60 erst Ende 2027 oder Anfang 2028 ab, bestätigt ist nichts.",
+      "zusammenfassung": "Moore's Law Is Dead beruft sich in einem neuen Video auf interne Quellen und nennt konkrete End-of-Life-Termine. Auffällig ist, dass teure Modelle früher auslaufen sollen als günstige. Die RTX 5090 soll schon im Januar 2027 den EOL-Status erhalten, teure Varianten der RTX 5080 ebenfalls Anfang 2027. RTX 5080, RTX 5070 Ti und RTX 5070 sollen dagegen bis Anfang 2028 angeboten werden, die RTX 5060 sogar bis Ende 2028. Bei AMD sollen hochpreisige Varianten der RX 9070 XT bis Ende des ersten Quartals 2027 bleiben, die Basisversionen bis Anfang 2028. Weil Nvidia Generationswechsel bisher eher eng getaktet hat, wäre laut PCGH ein Start der RTX 60 zum Jahreswechsel 2027/28 oder Anfang 2028 denkbar. Ein RTX-50-Super-Refresh würde damit unwahrscheinlicher, ganz ausschließen will PCGH ihn aber nicht. Bei AMD sind die Termine weniger aussagekräftig, weil der Hersteller öfter mehrere Generationen parallel verkauft, erste RDNA-5-Karten 2027 bleiben möglich. Moore's Law Is Dead hat eine gemischte Trefferbilanz, die Liste ist nicht unabhängig bestätigt. Offizielle Angaben von Nvidia oder AMD gibt es nicht.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Leak-deutet-auf-lange-Wartezeit-Geforce-RTX-60-1560826/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Nvidia",
+        "RTX 60",
+        "RTX 5090",
+        "AMD",
+        "RDNA 5",
+        "EOL",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:23.667Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet hardware warehouse shelf with several plain unbranded graphics card boxes stacked unevenly, one bare graphics card with two visible axial fans lying in front on a wooden packing table next to a wall calendar with blank unreadable pages and a clipboard, a muted terracotta packing tape roll as accent, warm natural light through a high window, fine dust in the air, natural rich colors, shallow depth of field. No readable text, no numbers, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-rtx-60-erst-2028-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-microsoft-warnt-weitere-ausfaelle",
+      "datum": "2026-11-23T12:56:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Microsoft",
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Microsoft-Präsident Brad Smith erwartet in den kommenden Monaten weitere große IT-Ausfälle durch beschleunigtes Patchen gegen KI-gestützte Angriffe",
+      "schlagzeile": "Microsoft warnt: In den nächsten Monaten drohen weitere große IT-Ausfälle",
+      "kurz": "Microsoft-Präsident Brad Smith rechnet in den kommenden Monaten mit weiteren großen IT-Störungen. Grund sei, dass Firmen Sicherheitslücken wegen KI-gestützter Angriffe schneller schließen müssen und dabei weniger testen können. Updates sollten Nutzer trotzdem so schnell wie möglich installieren.",
+      "zusammenfassung": "Smith äußerte sich laut Neowin und Dr. Windows in der CBS-Sendung „Face the Nation“, zuerst berichtete Newsweek. Die gesamte Informationsinfrastruktur der Welt werde gerade quasi im laufenden Betrieb erneuert, sagte er sinngemäß. KI mache es deutlich einfacher, Fehler in Software zu finden und zu beheben, die gleichen Werkzeuge nutzten aber auch Angreifer. Deshalb patchen Unternehmen schneller als früher, was vor allem bei alten Systemen das Risiko erhöht, dass dabei etwas kaputtgeht. Wer so schnell patchen müsse, könne Änderungen nicht mehr so gründlich testen, so Smith. Trotzdem rät er, Sicherheitsupdates für Smartphones und PCs sofort einzuspielen. Ähnlich äußerten sich US-Finanzminister Scott Bessent und laut Dr. Windows auch US-Geheimdienstkoordinator Jay Clayton. Hintergrund ist eine Serie von Ausfällen, darunter die große Microsoft-Störung der vergangenen Tage sowie Probleme bei Gmail, Apples App Store, Banken, Airlines und dem PlayStation Network. Laut US-Regierung und Microsoft gibt es keine Hinweise auf einen Cyberangriff. Für PC-Nutzer heißt das, Updates zeitnah zu installieren und wichtige Daten regelmäßig zu sichern.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-issues-warning-for-more-tech-outages-in-the-next-few-months/"
+      },
+      "weitere_links": [
+        {
+          "name": "Dr. Windows",
+          "url": "https://www.drwindows.de/news/globale-stoerungen-microsoft-praesident-smith-rechnet-weiter-mit-massiven-ausfaellen"
+        }
+      ],
+      "tags": [
+        "Microsoft",
+        "Brad Smith",
+        "Ausfälle",
+        "Patches",
+        "KI",
+        "Sicherheitsupdates"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.950Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A dim server room aisle with rows of unbranded rack servers, one rack door open with a technician's laptop resting on a small cart showing a softly blurred screen with nothing readable, a few small amber status lights among calm green ones, a coiled muted terracotta network cable on the cart, warm light spilling in from an open door at the end of the aisle mixing with cool room light, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-microsoft-warnt-weitere-ausfaelle.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-vkd3d-2-2",
+      "datum": "2026-11-23T12:36:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "DirectX",
+        "Vulkan",
+        "Wine"
+      ],
+      "kategorie": "Grafik-APIs",
+      "titel": "VKD3D 2.2 veröffentlicht: Wines Direct3D-12-auf-Vulkan-Umsetzung unterstützt jetzt Shader Model bis 6.2",
+      "schlagzeile": "VKD3D 2.2: Wines DirectX-12-Übersetzer kann jetzt Shader Model 6.2",
+      "kurz": "Das Wine-Projekt hat VKD3D 2.2 veröffentlicht, seine Umsetzung von Direct3D 12 auf Vulkan. Die neue Version unterstützt Shader Model bis 6.2 und nutzt die Vulkan-Erweiterung für Shader Float Controls. VKD3D 2.2 soll in Wine 12.0 einfließen.",
+      "zusammenfassung": "VKD3D übersetzt Microsofts Direct3D-12-Schnittstellen auf Vulkan, damit moderne Windows-Spiele und -Programme unter Wine auf Linux laufen. Laut Phoronix bringt Version 2.2 Unterstützung bis Shader Model 6.2. Dazu kommen die Nutzung der Vulkan-Erweiterung für Shader Float Controls, Verbesserungen bei der Verarbeitung von HLSL-Shadern und am VKD3D-Compiler sowie diverse Fehlerkorrekturen. Der Download steht bei WineHQ bereit. Die Version erscheint kurz vor den Release-Candidates von Wine 12.0, die ab Dezember erwartet werden, die stabile Version soll Anfang 2027 folgen. Zur Einordnung: Steam Play und Proton nutzen für Direct3D 12 in der Regel den separaten Ableger VKD3D-Proton. Wer unter Linux über Steam spielt, merkt von VKD3D 2.2 daher nicht unbedingt direkt etwas. Profitieren dürften vor allem Nutzer von reinem Wine und darauf aufbauenden Werkzeugen.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/VKD3D-2.2-Released"
+      },
+      "weitere_links": [
+        {
+          "name": "WineHQ",
+          "url": "https://www.winehq.org/"
+        }
+      ],
+      "tags": [
+        "VKD3D",
+        "Wine",
+        "Direct3D 12",
+        "Vulkan",
+        "Linux",
+        "Shader Model"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:24.694Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A Linux gaming desk scene: an open laptop and a desktop monitor on a warm wooden desk, both screens softly blurred showing abstract colorful 3D shapes and unreadable code-like lines, an unbranded gamepad beside the keyboard, a small potted plant in a muted olive pot, warm late-morning window light, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-vkd3d-2-2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-samsung-speicher-bis-2029-verplant",
+      "datum": "2026-11-23T12:01:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "Samsung",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: Samsung hat einen Großteil seiner Speicherproduktion für 2027 bis 2029 bereits über langfristige Verträge vergeben",
+      "schlagzeile": "RAM-Krise ohne Ende? Samsung soll Speicher bis 2029 verplant haben",
+      "kurz": "Ein Großteil von Samsungs Speicher-Produktionskapazität für 2027 bis 2029 soll bereits über langfristige Verträge reserviert sein. Einige Kunden sollen sogar über Lieferungen bis 2031 verhandeln. Für sinkende RAM-Preise spricht das nicht.",
+      "zusammenfassung": "ComputerBase beruft sich auf aktuelle Berichte, eine offizielle Bestätigung der neuen Angaben durch Samsung gibt es nicht. Bekannt ist aus Samsungs Zahlen zum dritten Quartal 2026, dass der Konzern langfristige Lieferverträge mit zehn Großkunden abgeschlossen und die HBM-Mengen für 2027 komplett verkauft hat. Auch die Wafer-Kapazität für normales DRAM soll für 2027 weitgehend ausgeschöpft sein. Derzeit kann die Branche den Speicherbedarf laut Bericht nur zu 60 bis 70 Prozent decken. Bis 2030 will Samsung 60 bis 70 Prozent seiner mittel- und langfristigen Kapazität über mehrjährige Verträge vergeben, um Einnahmen planbarer zu machen. Kunden sichern sich dabei mit Vorauszahlungen und Preismechanismen gegen Schwankungen ab. Ein Treiber der Knappheit ist HBM für KI-Beschleuniger, das deutlich mehr Wafer-Fläche braucht als herkömmliches DRAM. Neue Fabriken bringen erst in einigen Jahren Entlastung. Bei NAND-Flash könnte es anders aussehen: TrendForce erwartet für das erste Quartal 2027 sinkende Preise, unter anderem wegen weniger Enterprise-SSD-Bestellungen chinesischer Cloud-Anbieter. Für PC-Bauer heißt das, dass Arbeitsspeicher teuer bleiben dürfte, bei SSDs gibt es eher Hoffnung.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/arbeitsspeicher/ram-krise-samsung-hat-speicherproduktion-bis-2029-weitgehend-verplant.100461/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Samsung",
+        "DRAM",
+        "HBM",
+        "RAM-Preise",
+        "Speicherkrise",
+        "NAND"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:23.827Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain dark heat spreaders lined up in an open anti-static tray on a warm wooden desk in a small office, next to a closed plain ring binder and a pen resting on a blank contract-style sheet of paper with unreadable faint lines, a muted olive green desk lamp, warm late-afternoon window light, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-samsung-speicher-bis-2029-verplant.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-23-bartlett-lake-msi-z690-z790",
+      "datum": "2026-11-23T11:59:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU",
+        "Mainboard"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Intels Bartlett-Lake-S-Prozessoren mit bis zu zwölf P-Kernen sollen laut Nutzertests auf MSI-Mainboards mit Z690- und Z790-Chipsatz ohne BIOS-Mod laufen",
+      "schlagzeile": "12 P-Kerne ohne Mod: Bartlett Lake soll auf MSI Z690/Z790 laufen",
+      "kurz": "Intels Bartlett-Lake-S-Chips mit bis zu zwölf Performance-Kernen und ohne E-Kerne waren eigentlich nicht für Gaming-Mainboards gedacht. Laut Nutzertests booten sie auf MSI-Platinen mit Z690- und Z790-Chipsatz mit aktuellem BIOS ohne Modifikation. Einzige bekannte Einschränkung ist ein gesperrter RAM-Takt.",
+      "zusammenfassung": "Bartlett Lake-S wird in Intel 7 gefertigt, nutzt den Sockel LGA1700 und setzt ausschließlich auf Raptor-Cove-P-Kerne. Intel bietet die Chips für den Embedded-Bereich an, für Consumer-Boards gab es bisher keine passende BIOS- und Microcode-Unterstützung. Zuerst hatte Uniko's Hardware den Core 9 273PE mit 12 P-Kernen und den Core 7 253PE mit 10 P-Kernen auf einem MSI Z790 MPOWER getestet, allerdings mit modifiziertem BIOS. Laut TechPowerUp hat der X-Nutzer LovK2X nun ein Qualifikationsmuster des Core 9 273PE ohne Änderungen auf einem MSI MEG Z690I betrieben. Berichten zufolge unterstützen alle MSI-Boards der Z690- und Z790-Serie die Chips mit dem neuesten BIOS, nur der Speichertakt ist gesperrt, alles andere lässt sich einstellen. Neowin schreibt, MSI habe die Unterstützung stillschweigend per BIOS-Update ergänzt. Eine offizielle Bestätigung von MSI oder Intel gibt es nicht. Getestet wurden bisher vor allem Qualifikationsmuster, reguläre Desktop-Modelle für den Handel sind die Chips nicht. Spannend ist das Konzept trotzdem: Ohne E-Kerne muss der Thread Director keine Threads auf unterschiedliche Kerntypen verteilen, was in Spielen Vorteile bringen könnte. Wie schnell die Chips im Vergleich zu Core i9-13900K und Core i9-14900K wirklich sind, müssen Tests erst zeigen.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355104/intel-bartlett-lake-s-cpus-reportedly-boot-natively-on-msi-z690-z790-motherboards"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/msi-z690--z790-bios-quietly-adds-native-support-for-intel-bartlett-lake-cpus/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Bartlett Lake",
+        "LGA1700",
+        "MSI",
+        "Z790",
+        "Z690",
+        "P-Kerne"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T21:58:23.525Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of a desktop CPU socket with a lever-style retention bracket on a dark unbranded motherboard lying on a wooden workbench, a bare processor with a plain metal heat spreader held next to it on a small anti-static tray, a tube of thermal paste and a screwdriver nearby, a muted dusty teal anti-static bag in the background, warm late-morning daylight, natural rich colors, fine dust, shallow depth of field. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-23-bartlett-lake-msi-z690-z790.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-23-gta5-rdr2-steam-boom",
       "datum": "2026-11-23T08:15:00+01:00",
@@ -666,6 +1268,47 @@
       }
     },
     {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -709,47 +1352,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
@@ -4271,45 +4873,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -4340,6 +4903,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
