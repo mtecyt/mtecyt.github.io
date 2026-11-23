@@ -2,10 +2,562 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-22T18:35:33.654Z",
+    "stand": "2026-11-23T07:22:11.347Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:19.718Z"
+      },
+      "id": "2026-11-16-subnautica-2-ea2-gruselbiome",
+      "datum": "2026-11-16T08:15:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PC-Spiele"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Subnautica 2: Entwicklervideo zeigt die neuen, besonders unheimlichen Unterwassergebiete von Early Access 2.0, das Update soll im Dezember 2026 erscheinen",
+      "schlagzeile": "Subnautica 2: Größtes Update bringt die bisher gruseligsten Tiefseegebiete",
+      "kurz": "Unknown Worlds zeigt in einem neuen Entwicklervideo die Gebiete von Early Access 2.0 für Subnautica 2. Nebel, Sichtlinien und Licht sollen sie besonders bedrohlich machen. Das Update soll im Dezember 2026 erscheinen, einen genauen Termin gibt es noch nicht.",
+      "zusammenfassung": "Early Access 2.0 ist das bisher größte Update für das Unterwasser-Survivalspiel, berichtet PC Games. Im neuen Video erklären die Entwickler, wie die Biome entstehen: Zuerst wird in einer Greybox festgelegt, wo Tiere leben und welche Bereiche geschützt sind. Danach sorgen Unterwassernebel, gezielte Sichtlinien und Lichteffekte für eine beklemmende Stimmung. Die Farben verraten, wo es sicher ist: Warme Töne stehen für sichere, kühle für gefährliche Bereiche. In versteckten Höhlen und Nischen warten Belohnungen wie neue Ressourcen, auffällige Felsen, Lichtquellen und Pflanzen weisen den Weg. Dazu kommt eine rätselhafte Seuche, die befallenen Teilen der Welt fast alle Farbe nimmt, bis sie geheilt sind. So soll die Welt ihre Geschichte selbst erzählen, ohne Tagebücher oder Zwischensequenzen. Außerdem zeigt das Video das neue FROG-Chassis für das Fahrzeug Tadpole. Early Access 2.0 ist für Dezember 2026 geplant.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Subnautica-2-Spiel-75276/News/Early-Access-20-Video-1560042/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Subnautica 2",
+        "Unknown Worlds",
+        "Early Access",
+        "Survival",
+        "Update"
+      ],
+      "img_prompt": "Dynamic original underwater survival-action illustration: an original-design diver in a sleek sci-fi diving suit with a small handheld scanner kicking hard away from a vast shadowy leviathan-like sea creature emerging from a dark trench, low close camera from below, strong diagonal motion, swirling silt and bubbles, warm golden light from glowing coral and the diver's lamp against deep cool blue darkness, a patch of drained grey coral at one side, rich natural colors, muted amber accent. Original creature and character designs only, no copies of known game creatures, no gore, no text, no logos, no UI.",
+      "archiviert_am": "2026-11-23T07:22:11.343Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:19.821Z"
+      },
+      "id": "2026-11-16-huang-comeback-ft",
+      "datum": "2026-11-16T08:10:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Bericht der Financial Times: Jensen Huang erwägt wenige Tage nach seinem Rücktritt eine Rückkehr als Nvidia-CEO, Investoren machen Druck, Washington ist dagegen",
+      "schlagzeile": "Comeback nach dem Rücktritt? Jensen Huang soll Rückkehr zu Nvidia erwägen",
+      "kurz": "Wenige Tage nach seinem Rücktritt soll Jensen Huang laut Financial Times über eine Rückkehr an die Nvidia-Spitze nachdenken. Investoren und Silicon-Valley-Größen machen Druck auf den Verwaltungsrat, US-Finanzminister Scott Bessent fordert dagegen einen neuen Chef von außen. Entschieden ist nichts.",
+      "zusammenfassung": "Jensen Huang war in der vergangenen Woche als Nvidia-Chef zurückgetreten, nachdem Berichte über mehrere Affären aufgekommen waren, unter anderem mit einer Managerin des Singapurer Nvidia-Kunden Megaspeed. Laut Financial Times, auf die sich ComputerBase und heise berufen, hat Huang mit Vertrauten bereits über eine mögliche Rückkehr gesprochen und unterstützt entsprechende Bemühungen. Eine Online-Initiative mit dem Motto „Holt Jensen zurück“ meldet inzwischen mehr als 170.000 Unterstützer, darunter nach eigenen Angaben über 8.200 Nvidia-Beschäftigte; unabhängig prüfen lassen sich diese Zahlen nicht. Zu den Initiatoren gehört Uber-Gründer Travis Kalanick, auch Elon Musk unterstützt die Kampagne. Die Großinvestoren Brad Gerstner (Altimeter Capital) und Gavin Baker (Atreides Management) fordern den Verwaltungsrat in einem offenen Brief auf, eine erneute Ernennung Huangs nicht auszuschließen. Gegenwind kommt aus Washington: US-Finanzminister Scott Bessent sprach sich am Sonntag dafür aus, den nächsten CEO außerhalb des Konzerns zu suchen. Zudem verlangt er laut Bericht binnen zehn Tagen Auskunft darüber, ob Nvidia die US-Exportregeln eingehalten hat. Der Bankenausschuss des US-Senats hat Huang und Handelsminister Howard Lutnick außerdem zu einer Anhörung geladen. Eine vom Verwaltungsrat beauftragte unabhängige Untersuchung läuft noch. Huang hält keine Aktienmehrheit und kann Beschlüsse des Gremiums nicht allein kippen. Bis zur Klärung führt Finanzchefin Colette Kress den Konzern kommissarisch, am Dienstag legt Nvidia Quartalszahlen vor.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/moegliches-comeback-von-mr-nvidia-ueber-170-000-unterstuetzer-draengen-auf-huangs-rueckkehr.100347/"
+      },
+      "weitere_links": [
+        {
+          "name": "heise online",
+          "url": "https://www.heise.de/news/Tage-nach-dem-Ruecktritt-Jensen-Huang-will-angeblich-wieder-Nvidia-CEO-werden-11525691.html"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/jensen-huang-reportedly-weighing-return-as-nvidia-ceo-with-allies"
+        },
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354866/report-jensen-huang-eyes-nvidia-comeback"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "CEO",
+        "Colette Kress",
+        "Megaspeed"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. An empty executive leather chair pushed back from a long wooden boardroom table in a glass-walled conference room, a dark leather jacket draped over the chair back, scattered unreadable papers and a closed laptop on the table, city skyline softly blurred through the windows, muted dusty-teal accent from a glass carafe. No people, no readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.344Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:19.917Z"
+      },
+      "id": "2026-11-16-phantasialand-chlor-microsoft-ausfall",
+      "datum": "2026-11-16T08:01:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Microsoft 365"
+      ],
+      "kategorie": "Software",
+      "titel": "Folgen des Microsoft-Cloud-Ausfalls: Alarm-Mails eines Pool-Systems im Phantasialand-Hotel kamen nicht an, nach Chlor-Überdosierung gab es 15 Verletzte",
+      "schlagzeile": "Alarm-Mail kam nie an: Microsoft-Ausfall führte zu 15 Verletzten",
+      "kurz": "Wegen des Microsoft-Cloud-Ausfalls am Donnerstag und Freitag erreichte eine Alarm-Mail im Hotel Ling Bao des Phantasialands in Brühl niemanden. Ein defektes Dosiersystem hatte zu viel Chlor in einen Pool gegeben. 15 Gäste klagten über Atemwegsbeschwerden, vier kamen ins Krankenhaus.",
+      "zusammenfassung": "Laut WDR, auf den sich heise beruft, schlug das Wartungs- und Sicherheitssystem der Saunalandschaft per E-Mail Alarm. Wegen des lang andauernden Ausfalls von Microsofts Cloud-Diensten kamen diese Mails aber nicht an. Das automatische Dosiersystem des Pools war defekt und gab deutlich zu viel Chlor ins Wasser. Am Freitagnachmittag trat dadurch im Schwimmbadbereich des zum Phantasialand gehörenden Hotels Chlorgas aus. Zunächst klagten 13 Gäste über Atemwegsbeschwerden, später stieg die Zahl auf 15. Vier Personen kamen ins Krankenhaus, eine musste mit mittelschweren Verletzungen zur Beobachtung bleiben. Die Feuerwehr Brühl war mit 40 Einsatzkräften rund zwei Stunden vor Ort, der Pool wurde gesperrt und das Wasser ausgetauscht; inzwischen ist er wieder offen. Der Microsoft-Ausfall dauerte von Donnerstagnachmittag bis mindestens Freitagmittag. Laut heise hatte er damit reale und gefährliche Folgen, zudem nutzen Kriminelle ihn seit Freitag für Phishing-Mails.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Microsoft-Cloud-Ausfall-fuehrte-zu-15-Verletzten-im-Phantasialand-11525711.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Microsoft 365",
+        "Cloud-Ausfall",
+        "Phantasialand",
+        "E-Mail",
+        "Störung"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. An empty indoor hotel spa pool hall cordoned off with red-and-white barrier tape, calm turquoise water, wooden loungers along the tiled edge, a technician's open toolbox and a water-testing kit standing next to a wall-mounted unbranded dosing pump unit with blank display, warm daylight from large windows, muted terracotta accent from towels. No people, no readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.344Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.014Z"
+      },
+      "id": "2026-11-16-playstation-controller-bezahlen-patent",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Sony-Patentanmeldung: PlayStation-Controller soll Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone und Karten lesen",
+      "schlagzeile": "Bezahlen per Controller? Sony-Patent macht PlayStation-Pad zum Kartenleser",
+      "kurz": "Sony hat einen PlayStation-Controller zum Patent angemeldet, der Zahlungsdaten per NFC, Bluetooth oder QR-Code von Smartphone oder Karte liest. So sollen Käufe auf der Konsole ohne lästiges Eintippen klappen. Angekündigt ist ein solches Produkt nicht.",
+      "zusammenfassung": "Die Anmeldung „Video Game Controller-Driven Information Transfer“ (US 2026/0273403 A1) stammt vom 17. März 2025, veröffentlicht hat sie das US-Patentamt am 17. September 2026, berichten Golem und Engadget. Fordert die Konsole eine Zahlung an, hält man ein Smartphone oder eine Karte an den Controller. Der erkennt das Gerät per NFC, Bluetooth oder Berührung, eine Variante liest per Bildsensor einen QR-Code vom Handy-Display. Licht, Ton oder Vibration bestätigen die Verbindung, danach prüft die Konsole die Daten bei einem Server. Genannt werden Kredit- und Bankkonten, Geschenkkarten sowie digitale und Krypto-Wallets; das Restguthaben einer Geschenkkarte soll direkt auf dem Bildschirm erscheinen. Neben Spielekäufen nennt Sony In-App-Käufe, Merchandise, Essenslieferungen und Guthaben für Turniere, Messen und Spielhallen. Auch Spielerprofile teilen, Multiplayer-Sitzungen beitreten oder Screenshots ans Handy schicken soll per Antippen gehen. Sony begründet die Idee damit, dass heutige Abläufe oft mehrere Geräte und Tastatureingaben erfordern. Eine Patentanmeldung schützt aber nur eine Idee, ob Sony sie je umsetzt, ist offen.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/patentanmeldung-playstation-controller-koennte-bald-als-kartenleser-dienen-2611-215238.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "PlayStation",
+        "Controller",
+        "Patent",
+        "NFC"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A hand holding a plain unbranded white-and-black modern game controller on a sofa while the other hand taps a blank unmarked contactless payment card against the controller's center touchpad, a television softly out of focus in the background, cozy living room in warm afternoon light, muted dusty-blue accent from a throw blanket. Natural hands with five fingers, no readable text or numbers on the card, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.345Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.113Z"
+      },
+      "id": "2026-11-16-intel-sammelklage",
+      "datum": "2026-11-16T07:50:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Intel"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Aktionäre reichen in San José Sammelklage gegen Intel, CEO Lip-Bu Tan und weitere Manager ein: Der Konzern soll den PC-Absatzeinbruch zu spät offengelegt haben",
+      "schlagzeile": "Kurssturz um 29 Prozent: Aktionäre verklagen Intel und CEO Lip-Bu Tan",
+      "kurz": "Intel-Aktionäre haben vor einem US-Bundesgericht in San José eine Sammelklage gegen den Konzern, CEO Lip-Bu Tan und weitere Führungskräfte eingereicht. Sie werfen Intel vor, den Einbruch der PC-Verkäufe zu spät offengelegt zu haben. Nach den Quartalszahlen am 29. Oktober war die Aktie um fast 29 Prozent abgestürzt.",
+      "zusammenfassung": "Eingereicht hat die Klage die Kanzlei Robbins Geller Rudman & Dowd, berichtet heise unter Berufung auf die BBC; auch Reuters berichtet darüber. Sie gilt für alle Aktionäre, die zwischen dem 23. Juli und dem 29. Oktober 2026 Intel-Aktien gekauft haben. Vorgeworfen werden „wesentlich falsche und/oder irreführende“ Aussagen zum Rückgang der PC-Verkäufe und zu den Folgen der Rechenzentrumsprojekte. Laut Wccftech richtet sich die Klage neben CEO Lip-Bu Tan auch gegen Finanzchef David Zinsner und verweist auf eine Kapitalerhöhung über 23 Milliarden Dollar im August. Am 29. Oktober hatte Intel eingeräumt, dass wegen der Speicherkrise noch weniger PCs verkauft wurden als erwartet, und Lieferprobleme bei Rechenzentrumschips gemeldet. Für das laufende Quartal erwartet der Konzern nur 15 bis 16 Milliarden Dollar Umsatz, Analysten hatten mit rund 17 Milliarden gerechnet. Die Aktie verlor daraufhin an einem Tag fast 29 Prozent. Intel hat die Klage bisher nicht kommentiert. Die Kläger fordern Schadenersatz in nicht genannter Höhe, über die Vorwürfe muss nun das Gericht entscheiden.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nach-heftigem-Kursrutsch-Sammelklage-gegen-Intel-wegen-irrefuehrender-Angaben-11525703.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/intel-ceo-lip-bu-tan-named-defendant-class-action-lawsuit-pc-sales-slowdown/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Sammelklage",
+        "Lip-Bu Tan",
+        "Aktie",
+        "Speicherkrise"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A wooden judge's gavel resting on a stack of unmarked document folders on a dark walnut courtroom desk, next to it a bare unbranded desktop CPU chip in a small clear plastic tray, brass desk lamp, warm window light, muted olive-green accent from a leather desk pad. No readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.345Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.202Z"
+      },
+      "id": "2026-11-16-razor-lake-12p-bllc",
+      "datum": "2026-11-16T02:13:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "Leak: Intel Razor Lake soll einen Gaming-Chip mit 12 P-Kernen, 4 LP-E-Kernen und großem bLLC-Cache ohne reguläre E-Kerne bekommen, gefertigt in Intel 18A-P",
+      "schlagzeile": "Leak: Intel soll Gaming-CPU mit 12 P-Kernen und Riesen-Cache planen",
+      "kurz": "Der Leaker Jaykihn berichtet von einem Razor-Lake-Desktopchip mit zwölf P-Kernen, vier Low-Power-Kernen und großem Cache (bLLC), aber ohne normale E-Kerne. Er wäre Intels Antwort auf AMDs X3D-Prozessoren. Razor Lake wird erst für 2028 erwartet, offiziell ist nichts davon.",
+      "zusammenfassung": "Laut TechPowerUp und VideoCardz hat der bekannte Intel-Leaker Jaykihn auf X eine Konfiguration namens „12+0+4“ für Razor Lake genannt. Gemeint sind zwölf P-Kerne, keine regulären E-Kerne und vier sparsame LP-E-Kerne, kombiniert mit Intels großem Last-Level-Cache (bLLC). Das bLLC-Konzept gilt als Intels Gegenstück zu AMDs X3D-Chips mit zusätzlichem Cache, die vor allem in Spielen stark sind. Der übertaktbare Chip soll ein zuvor gemunkeltes, gesperrtes 8+0+4-Modell mit bLLC ersetzen. Alle zwölf P-Kerne sollen auf einem eigenen Compute-Die sitzen, das laut Jaykihn in Intels 18A-P-Verfahren gefertigt wird, während die meisten Razor-Lake-Tiles angeblich bei TSMC entstehen. Außerdem soll ein 125-Watt-Modell mit 6+12+4 Kernen und bLLC von Nova Lake auf Razor Lake verschoben worden sein. Nova Lake-S hätte damit eine bLLC-Variante weniger als erwartet. Razor Lake-S wird für 2028 erwartet und soll denselben Sockel LGA 1954 wie Nova Lake-S nutzen. Intel hat Razor-Lake-Modellnummern zwar in einer ISA-Referenz gelistet, die Spezifikationen sind aber nicht bestätigt. Pläne so weit in der Zukunft können sich noch ändern.",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Jaykihn gilt als gut informierter Intel-Leaker, die Angaben sind aber nicht offiziell und betreffen ein Produkt für 2028. TechPowerUp und VideoCardz geben nur den Leak wieder."
+      },
+      "ursprungsquelle": "Jaykihn auf X",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354867/intel-razor-lake-gets-a-12-p-core-bllc-chip-with-no-e-cores-per-leak"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz auf X",
+          "url": "https://x.com/VideoCardz/status/2122050797189939388"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Razor Lake",
+        "bLLC",
+        "Nova Lake",
+        "18A-P",
+        "LGA 1954"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. Macro photo of an unbranded modern desktop processor with a plain brushed metal heat spreader lying on an anti-static mat on a wooden workbench, a few loose LGA socket protective covers and a pair of tweezers beside it, the underside contact pads hinted in a second chip standing on edge, muted terracotta accent from a small parts tray. No readable text, no logos, no brand markings, no engraved lettering.",
+      "archiviert_am": "2026-11-23T07:22:11.345Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.295Z"
+      },
+      "id": "2026-11-16-pokepark-fishing-rally-gefunden",
+      "datum": "2026-11-16T01:59:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Pokémon",
+        "Retro"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Verschollenes Pokémon-Spiel gefunden: Sammler entdeckt Testkassette mit PokéPark Fishing Rally DS von 2005, PSA Video Games bestätigt die Echtheit",
+      "schlagzeile": "Verschollenes Pokémon-Spiel nach 20 Jahren aufgetaucht – und spielbar",
+      "kurz": "Ein Sammler hat eine Testkassette mit PokéPark Fishing Rally DS gefunden, einem Angelspiel, das es 2005 nur in einem japanischen Freizeitpark gab. PSA Video Games hat die Echtheit bestätigt. Damit ist ein lange verschollenes Stück Pokémon-Geschichte erhalten.",
+      "zusammenfassung": "PokéPark Fishing Rally DS war 2005 nur wenige Monate im PokéPark in Nagoya erhältlich. Besucher luden das Angel-Minispiel per Download Play an Stationen im Park auf ihren Nintendo DS. Nach zwölf Stunden oder beim Ausschalten der Konsole löschte es sich wieder. Spieler fingen Pokémon und kämpften in Ranglisten um Preise. Nach der Schließung des Parks galt das Spiel als verschollen, weil es nur auf speziellen Testkassetten für das Personal lag. Eine im Juli bei eBay für 9.000 Dollar angebotene Kassette enthielt nur die Ranglisten-Software. Jetzt besitzt Sammler Daniel Quadri laut Polygon eine Kassette mit dem eigentlichen Spiel, PSA Video Games hat sie als echt bestätigt. Mit ihr kann er das Spiel wie damals per Download Play an andere DS-Konsolen schicken. Vorerst bleibt die Kassette zum Schutz in einer versiegelten Hülle.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/pokemon-pokepark-fishing-rally-ds-found/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Pokémon",
+        "Nintendo DS",
+        "Lost Media",
+        "PokéPark",
+        "Retro"
+      ],
+      "img_prompt": "Documentary photo of a retro game collector's desk in warm late-morning window light: a plain unbranded small grey handheld-console game cartridge sealed in a clear protective acrylic case lying on a wooden table, an old unbranded dual-screen handheld console opened beside it, a jeweller's loupe and white cotton gloves, a few colorful toy fishing lures blurred in the background, natural rich colors, muted coral accent, shallow depth of field. No readable text, no labels, no logos, no brand markings, no recognizable characters.",
+      "archiviert_am": "2026-11-23T07:22:11.346Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.389Z"
+      },
+      "id": "2026-11-16-wireview-pro-ii-garantie",
+      "datum": "2026-11-16T01:35:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "12V-2x6"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Thermal Grizzly veröffentlicht die Bedingungen der erweiterten GPU-Garantie für den WireView Pro II: 24 Monate Schutz bei Steckerschäden, aber nur mit aktiver Überwachung",
+      "schlagzeile": "Stecker geschmolzen? Thermal Grizzly erklärt, wann die GPU-Garantie greift",
+      "kurz": "Thermal Grizzly hat die Bedingungen für die erweiterte Grafikkarten-Garantie des WireView Pro II veröffentlicht. Sie deckt Schäden am 12VHPWR- bzw. 12V-2x6-Stecker und daraus folgende GPU-Schäden 24 Monate lang ab. Die Überwachung muss dafür aktiv bleiben, Shunt-Mods und Mining sind ausgeschlossen.",
+      "zusammenfassung": "Der WireView Pro II sitzt zwischen Netzteilkabel und Grafikkarte und misst den Strom auf jeder einzelnen 12-Volt-Leitung. Thermal Grizzly verspricht Käufern eine erweiterte Garantie für Schäden am Stromstecker, laut TechPowerUp hat der Hersteller die Bedingungen nun in einer FAQ erklärt. Weder das USB-Kabel noch der Y-Splitter zum Mainboard müssen angeschlossen sein; über den Splitter kann das Gerät den PC im Notfall abschalten, das wird aber nur empfohlen. Die Überwachung muss eingeschaltet bleiben: Grenzwerte für Strom, Temperatur oder Leistung darf man senken, aber nicht über die Standardwerte anheben. Verlängerungen zwischen WireView und Grafikkarte sind erlaubt, solange jede 12-Volt-Leitung getrennt bleibt; Adapter, die Leitungen intern zusammenführen, sind nicht abgedeckt. Ein 90-Grad-Stecker ist für sich kein Problem, auf der Netzteilseite gelten Kabel, die für das jeweilige Netzteilmodell freigegeben sind. Die Garantie läuft 24 Monate ab Kauf des WireView, auch über die Garantie der Grafikkarte hinaus, gilt aber nur für den Erstkäufer mit Kaufbeleg. Ausgeschlossen sind Shunt-Mods, XOC-BIOS mit erhöhtem Power-Target und kommerzielles Mining, ebenso Schäden ohne Bezug zum Stecker. Im Schadensfall versucht Thermal Grizzly zuerst eine Reparatur, sonst gibt es eine Karte mit vergleichbarer Leistung, nicht unbedingt derselben Marke. Wer Schmelzspuren entdeckt, soll den PC ausschalten, das Netzteil vom Strom trennen, den Stecker stecken lassen, Fotos machen und den Support kontaktieren.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/354864/thermal-grizzly-details-wireview-pro-ii-extended-gpu-warranty-conditions"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Thermal Grizzly",
+        "WireView Pro II",
+        "12V-2x6",
+        "12VHPWR",
+        "Garantie"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. Close-up of the power connector area of an unbranded high-end graphics card with two visible axial fans lying on a wooden workbench, a small plain black inline power-monitoring module with a tiny blank display plugged between a braided 16-pin power cable and the card, a multimeter and a flashlight nearby, muted dusty-teal accent from a silicone mat. No readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.346Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.485Z"
+      },
+      "id": "2026-11-16-windows11-remote-lock-intune",
+      "datum": "2026-11-16T01:04:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Windows 11 Insider Build 29708.1001 testet Remote Lock: IT kann verlorene Firmen-PCs über Intune sperren, ohne Daten zu löschen; nur die IT kann die Sperre aufheben",
+      "schlagzeile": "Laptop weg? Windows 11 testet Fernsperre, die nur die IT aufheben kann",
+      "kurz": "Microsoft testet in einer Insider-Vorschau die Funktion Remote Lock. IT-Abteilungen können damit verlorene oder gestohlene Firmen-PCs über Intune sperren, ohne Daten zu löschen. Passwort, PIN oder lokaler Admin helfen dann nicht mehr weiter.",
+      "zusammenfassung": "Windows Latest hat die Funktion in Build 29708.1001 im experimentellen Kanal „Future Platforms“ vom 13. November entdeckt. Bei einer Sperre meldet Windows alle Sitzungen ab, blendet die Anmeldeoptionen aus und zeigt einen Sperrbildschirm mit dem Hinweis, die Organisation habe das Gerät gesperrt. Laut Microsoft wird dabei nichts gelöscht, BitLocker bleibt aktiv und das Gerät bleibt in Intune verwaltet. Neustart oder Trennen vom Internet heben die Sperre nicht auf, entsperren kann nur die IT über Intune. Das Benutzerkonto selbst bleibt aktiv, bei gestohlenen Zugangsdaten muss die IT es separat in Entra ID sperren. Voraussetzung sind Windows Pro, Enterprise oder Education und ein per Entra ID oder MDM verwaltetes Gerät; eingerichtet wird das Ganze derzeit umständlich über ein benutzerdefiniertes Intune-Profil. Der Haken: Ein Gerät, das offline ist, erhält die Sperre erst bei der nächsten Verbindung. Zudem blockiert Remote Lock weder Wiederherstellungsumgebung, abgesicherten Modus noch das Booten vom USB-Stick, weshalb Microsoft BitLocker weiter für nötig hält. Noch im März 2025 hatte ein Microsoft-Mitarbeiter gesagt, eine Fernsperre für Windows sei nicht geplant. Als Insider-Test kann sich die Funktion bis zur Veröffentlichung noch ändern.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/16/your-windows-11-work-laptop-can-now-be-locked-remotely-and-no-password-pin-or-admin-account-can-get-you-back-in-only-it-can/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Insider",
+        "Remote Lock",
+        "Intune",
+        "BitLocker"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. An unbranded silver business laptop left alone on a café table near a window, its screen showing a plain blurred lock-screen image with a simple padlock-like abstract shape and no text, a forgotten scarf and an empty espresso cup beside it, warm late-morning daylight, muted olive-green accent from a chair cushion, shallow depth of field. No people, no readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.346Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.569Z"
+      },
+      "id": "2026-11-16-linux-7-4-rc3-zen5",
+      "datum": "2026-11-15T23:55:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Linux 7.4-rc3 veröffentlicht: TSA-Mitigation für AMD Zen 5, Stromspar-Funktionen für AMD-Grafik, Workarounds für ARM-Kerne und bessere Sensorunterstützung",
+      "schlagzeile": "Linux 7.4-rc3: Schutz für Zen-5-CPUs und Stromsparen für AMD-Grafik",
+      "kurz": "Linus Torvalds hat den dritten Release Candidate von Linux 7.4 veröffentlicht. Er bringt laut Neowin eine Schutzmaßnahme für AMDs Zen-5-Prozessoren und Stromspar-Funktionen für bestimmte AMD-Grafikchips. Die fertige Version wird nach sieben Release Candidates erwartet.",
+      "zusammenfassung": "Torvalds beschreibt die vergangene Woche als weitgehend normal, die meisten Änderungen betreffen Netzwerk- und Grafiktreiber und sind klein. Im Dateisystembereich fällt eine große, inhaltlich aber triviale Änderung an der Aufrufkonvention von iomap auf. Laut Neowin enthält rc3 eine als kritisch beschriebene Mitigation gegen die Mikroarchitektur-Schwachstelle TSA bei AMDs Zen-5-Prozessoren. Für AMD-Grafik mit der IP-Version 11.0.2 werden Stromspar-Funktionen wie Multi-Coarse Gate Clock und Fine-Grain Clock Gating aktiviert. Bei den ARM-Kernen Cortex-A715 und Cortex-A720 umgeht der Kernel fehlerhafte Leistungszähler, die falsche Messwerte und Kernel-Warnungen auslösen können. Für kommende Intel-Grafikplattformen gibt es Korrekturen bei der Bildschirmerkennung an USB-C-Anschlüssen. Außerdem liest der Kernel Spannungen, Lüfterdrehzahlen und Temperaturen von Mainboards mit NCT6775-Sensorchips zuverlässiger aus. Damit ist etwa die Hälfte des Entwicklungszyklus erreicht. Distributionen wie Arch und Fedora übernehmen neue Kernel meist erst nach dem ersten Punkt-Release.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/linux-74-rc3-lands-with-critical-zen-5-mitigations-and-power-saving-gpu-features/"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/Linux-7.4-rc3-Released"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "Linux 7.4",
+        "Kernel",
+        "AMD Zen 5",
+        "Linus Torvalds"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A small home-lab desk with an open unbranded mini-PC motherboard and CPU cooler, a laptop beside it showing a blurred unreadable terminal window with scrolling lines, a plush penguin toy softly out of focus on a shelf, warm late-morning light, muted dusty-teal accent from a cable. No readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.346Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.658Z"
+      },
+      "id": "2026-11-16-project-helix-konsole-pc-spiele",
+      "datum": "2026-11-15T23:18:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Xbox",
+        "Konsolen"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Xbox-Vizepräsident Jason Ronald: Project Helix ist eine Konsole, die auch PC-Spiele ausführt, kein PC für Konsolenspiele; Neural Rendering soll gegen hohe Bauteilkosten helfen",
+      "schlagzeile": "Project Helix: Nächste Xbox ist eine Konsole, die auch PC-Spiele kann",
+      "kurz": "Microsoft hat im Magazin zum 25. Xbox-Jubiläum neue Details zu Project Helix genannt. Laut Xbox-Vizepräsident Jason Ronald ist Helix eine Konsole, die auch Spiele vom PC ausführen kann, kein PC für Konsolenspiele. Gegen hohe Bauteilkosten setzt Microsoft unter anderem auf Neural Rendering.",
+      "zusammenfassung": "Zum 25. Geburtstag der Xbox hat Microsoft überraschend ein Jubiläumsmagazin veröffentlicht, IGN und Insider Gaming haben die Aussagen zu Project Helix zusammengefasst. „Helix ist als Konsole gedacht, die auch Spiele von deinem PC abspielen kann. Es ist kein PC, der auch Konsolenspiele abspielen kann“, sagt Jason Ronald, Vizepräsident für die nächste Generation. Spieler sollen ihre Bibliothek aus vier Xbox-Generationen samt Fortschritt mitnehmen können, die Grenzen zwischen Konsolen- und PC-Spielen sollen fallen. Für Power-User soll es trotzdem tiefere Einstellungen für Grafik und Leistung geben. Ronald nennt den ROG Xbox Ally als Vorläufer, dessen Konzepte und Rückmeldungen in Helix einfließen. Die Bewahrung alter Spiele sei zentral: Kompatibilität bestimme schon heute, wie die Plattform entworfen werde. Zur Bauteilkrise sagt Ronald, man müsse neue Technik erfinden, um Konsolen bezahlbar zu halten. Neural Rendering könne Bilder erzeugen, ohne mehr Rechenleistung oder Speicher zu benötigen. Einen Termin oder Preis nennt Microsoft nicht, laut IGN wird über einen Start frühestens Ende 2027 spekuliert. Wie die Geräte der Helix-Familie aussehen, ist weiter offen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/xbox-confirms-project-helix-is-a-console-capable-of-playing-games-from-your-pc"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming (Konsole zuerst)",
+          "url": "https://insider-gaming.com/xbox-project-helix-console-first-not-pc/"
+        },
+        {
+          "name": "Insider Gaming (Neural Rendering)",
+          "url": "https://insider-gaming.com/xbox-project-helix-neural-rendering/"
+        },
+        {
+          "name": "Insider Gaming (Spielebewahrung)",
+          "url": "https://insider-gaming.com/xbox-game-preservation-project-helix/"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "Project Helix",
+        "Jason Ronald",
+        "Neural Rendering",
+        "Konsole"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A sleek unbranded matte-black game console prototype standing next to a compact gaming PC tower on a warm wooden living-room media shelf, a wireless gamepad and a keyboard lying side by side in front, a large TV out of focus in the background, golden afternoon window light, muted dusty-teal accent from a cushion. No readable text, no logos, no brand markings, no recognizable real products.",
+      "archiviert_am": "2026-11-23T07:22:11.346Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.747Z"
+      },
+      "id": "2026-11-16-gta6-jason-lucia-kleinkriminelle",
+      "datum": "2026-11-15T20:41:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6: Jason und Lucia starten laut Rockstar-Interview mit The Guardian als Kleinkriminelle und müssen sich zu großen Coups hocharbeiten",
+      "schlagzeile": "GTA 6: Jason und Lucia fangen als kleine Gauner an – große Coups erst später",
+      "kurz": "In GTA 6 starten Jason und Lucia nicht als Profi-Räuber, sondern als Kleinkriminelle. Das berichtet The Guardian nach Gesprächen mit Rockstar. Lukrative Jobs wie Juwelierüberfälle sollen erst später möglich sein.",
+      "zusammenfassung": "Die britische Zeitung The Guardian hat mit Rob Nelson, Co-Studiochef von Rockstar North, und Publishing-Chefin Jennifer Kolbe gesprochen, IGN fasst den Bericht zusammen. Demnach können die beiden Hauptfiguren zu Beginn nur einfache Autos kurzschließen und simple Schlösser knacken. Juweliere in Vice City ausrauben oder mit Sportwagen durch Leonida fahren können sie erst, wenn sie sich hochgearbeitet haben. Nelson beschreibt Jason und Lucia als junges Paar, das „mit dem Rücken zur Wand“ steht. Überfälle von der Tankstelle bis zur Luxusboutique sollen leichter oder ertragreicher werden, wenn man sie vorbereitet, etwa Kameras ausschaltet, Überwachungsvideos stiehlt oder unauffällige Eingänge auskundschaftet. Wer die Vorbereitung auslässt, riskiert, dass ein Raub schnell im Chaos endet. Zum ersten Mal in der Serie soll es laut Guardian zudem Mechaniken geben, die Empathie fördern. Was das konkret bedeutet und wie lange der Aufstieg dauert, sagt Rockstar noch nicht. GTA 6 erscheint am 19. November für PS5 und Xbox Series X|S.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/gta-6s-jason-and-lucia-will-start-as-small-time-criminals-who-have-to-work-up-to-high-value-jobs"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Rockstar Games",
+        "Jason",
+        "Lucia",
+        "The Guardian"
+      ],
+      "img_prompt": "Dynamic original crime-action illustration at dusk in a sun-bleached subtropical coastal town: an original-design young woman and man in casual summer clothes sprinting away from a modest corner gas-station convenience store, one glancing back over the shoulder, a beat-up old compact car with an open door waiting at the curb, palm trees and pastel stucco walls, low close camera, strong diagonal motion, flying receipts-free paper bags and dust, warm golden sunset light against cool blue shadows, rich natural colors, muted coral-pink accent. Original characters only, no copies of known game characters, no weapons pointed at people, no text, no logos, no signs with lettering, no UI.",
+      "archiviert_am": "2026-11-23T07:22:11.347Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.845Z"
+      },
+      "id": "2026-11-16-xbox-boot-animationen-25",
+      "datum": "2026-11-15T20:05:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Xbox"
+      ],
+      "kategorie": "Konsolen-Update",
+      "titel": "Zum 25-jährigen Jubiläum: Xbox Series X|S und Xbox One bekommen die Startanimation der Original-Xbox und zwei Startanimationen der Xbox 360",
+      "schlagzeile": "Zum 25. Geburtstag: Xbox bringt die Original-Startanimation zurück",
+      "kurz": "Zum 25. Jubiläum der Xbox können Besitzer einer Xbox Series X|S und Xbox One wieder die Startanimation der ersten Xbox nutzen. Dazu kommen zwei Startanimationen der Xbox 360 aus den Jahren 2005 und 2010. Das Update wird laut Xbox im Laufe des Tages verteilt.",
+      "zusammenfassung": "Microsoft feierte am 15. November 25 Jahre Xbox und kündigte auf dem offiziellen Xbox-Account auf X drei neue alte Startanimationen an. Neben der Sci-Fi-Einleitung der Original-Xbox gibt es zwei Varianten der Xbox 360, eine vom Marktstart 2005 und eine aus dem Jahr 2010. Laut IGN sind es weitgehend unveränderte Übernahmen der damaligen Videos. Die Animationen kommen auf alle Konsolen der Xbox Series X|S und der Xbox One und werden schrittweise verteilt. Wer sie noch nicht sieht, muss etwas Geduld haben. Zum Jubiläum hat Microsoft außerdem ein Magazin mit Rückblick und Ausblick veröffentlicht, darin auch neue Details zur nächsten Generation Project Helix. Eine erste neue Startsequenz hatte Microsoft bereits früher in diesem Jahr ergänzt.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/xbox-reveals-original-and-360-boot-up-options-for-25th-anniversary"
+      },
+      "weitere_links": [
+        {
+          "name": "Xbox auf X",
+          "url": "https://x.com/XBOX/status/2122043347078672876"
+        }
+      ],
+      "tags": [
+        "Xbox",
+        "25 Jahre Xbox",
+        "Xbox 360",
+        "Startanimation",
+        "Nostalgie"
+      ],
+      "img_prompt": "Documentary photo of a cozy living room in warm evening lamp light: a person seen from behind sitting on a worn sofa holding an unbranded game controller, the TV screen in the background glowing with an abstract swirling green-and-white light pattern without any symbols, an old bulky unbranded black console from the early 2000s on the shelf beside a modern one, natural rich colors, muted moss-green accent, shallow depth of field. No readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.347Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:20.938Z"
+      },
+      "id": "2026-11-16-librem-5-v2-risc-v",
+      "datum": "2026-11-15T19:39:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Linux",
+        "RISC-V"
+      ],
+      "kategorie": "Smartphones",
+      "titel": "Purism startet Crowdfunding für das Linux-Smartphone Librem 5 v2 mit Achtkern-RISC-V-SoC SpacemiT K1, 8 GB RAM und 128 GB Speicher ab 1.599 US-Dollar",
+      "schlagzeile": "Linux-Handy Librem 5 v2 setzt auf RISC-V – für stolze 1.599 Dollar",
+      "kurz": "Purism sammelt Geld für die zweite Generation seines Linux-Smartphones Librem 5. Statt eines Arm-Chips steckt ein Achtkern-RISC-V-Prozessor von SpacemiT darin, dazu 8 GB RAM und 128 GB Speicher. Wer mitmacht, zahlt mindestens 1.599 Dollar und bekommt das Gerät nicht vor 2028.",
+      "zusammenfassung": "Der Librem 5 v2 nutzt den SpacemiT K1 mit acht RISC-V-Kernen und ersetzt damit den Vierkern-Arm-Chip von NXP aus dem ersten Modell. Purism verspricht mehr Leistung, längere Akkulaufzeit und weniger Abwärme. Der Arbeitsspeicher steigt von 3 auf 8 GB, der interne Speicher von 32 auf 128 GB. Gehäuse, 5,7-Zoll-IPS-Display mit 720 × 1440 Pixeln und der wechselbare 4.500-mAh-Akku bleiben gleich, damit Reparaturen und Upgrades zwischen den Generationen leichter fallen. Auch die Hardware-Schalter für Kamera, Modem und GPS, USB-C und die Kopfhörerbuchse bleiben erhalten. Neu sind ein verbessertes 4G-Modem, Dual-SIM und Hardware-Kodierung, mit der erstmals 13-Megapixel-Fotos und HD-Videos möglich sein sollen; ein 5G-Modul ist als Tauschmodul geplant. Als Betriebssystem läuft das Debian-basierte PureOS mit der Oberfläche Phosh. OMG! Ubuntu erinnert daran, dass die erste Generation unter Verzögerungen, Preiserhöhungen und schwankender Verarbeitung litt. Der Wechsel auf RISC-V bringt zudem viel Arbeit bei Grafiktreibern, Energieverwaltung und Browser-Leistung mit sich. Die Crowdfunding-Kampagne läuft bis Februar 2027.",
+      "quelle": {
+        "name": "OMG! Ubuntu",
+        "url": "https://www.omgubuntu.co.uk/2026/11/librem-5-risc-v-new-linux-phone"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Purism",
+        "Librem 5",
+        "RISC-V",
+        "Linux-Smartphone",
+        "PureOS"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. A thick unbranded black smartphone with a plain matte back lying face down on a wooden desk, its removable back cover and battery taken out beside it, three small hardware slide switches visible on the side, a tiny screwdriver and a microSD card nearby, a blurred laptop with a terminal window in the background, muted olive-green accent from a notebook cover. No readable text, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T07:22:11.347Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
