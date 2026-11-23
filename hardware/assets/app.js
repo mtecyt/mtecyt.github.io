@@ -558,6 +558,33 @@ I18N.ready.then(function () {
     var input = document.getElementById("archive-search");
     var cnt = document.getElementById("archive-count");
     var detail = makeModal(byId, { archived: true });
+    var hotCounts = {};
+    var FLAME_ICO = '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8.2 1.2c.3 1.8-.3 3-1.3 4.1C6 6.3 5.3 7.2 5.3 8.7c0 1.6 1.1 3 2.7 3 1.5 0 2.6-1.1 2.6-2.6 0-.6-.1-1.1-.4-1.7 1.1.7 1.8 1.8 1.8 3.2 0 2.3-1.9 4.1-4.2 4.1S3.6 12.9 3.6 10.6c0-2.5 1.3-4.1 2.7-5.5C7.4 3.9 8 3 8.2 1.2z"/></svg>';
+
+    function isHotPreview() {
+      return !!(document.querySelector(".proto-banner") && window.MTEC_HOT_ARCHIVE_PREVIEW && window.MTEC_HOT_ARCHIVE_PREVIEW.mock);
+    }
+    function voteCount(id) { return Math.max(0, +hotCounts[id] || 0); }
+    function orderWeek(items) {
+      var hot = [], rest = [];
+      items.forEach(function (x) { (voteCount(x.e.id) > 0 ? hot : rest).push(x); });
+      if (!hot.length) return items;
+      hot.sort(function (a, b) { return voteCount(b.e.id) - voteCount(a.e.id); });
+      return hot.concat(rest);
+    }
+    function archHotBadge(id) {
+      var n = voteCount(id);
+      if (!n) return "";
+      return '<span class="hot-badge arch-hot-badge" aria-label="' + esc(T("archive_hot_aria", { n: n })) + '">' +
+        '<span class="hot-vote-ico">' + FLAME_ICO + "</span>" +
+        esc(T("hot_badge", { n: n })) + "</span>";
+    }
+    function paintPreviewNote() {
+      var note = document.getElementById("archive-hot-preview-note");
+      if (!note) return;
+      if (isHotPreview()) { note.hidden = false; note.textContent = T("archive_hot_preview_note"); }
+      else { note.hidden = true; note.textContent = ""; }
+    }
 
     function draw() {
       var words = norm(query).split(/\s+/).filter(Boolean);
@@ -575,28 +602,91 @@ I18N.ready.then(function () {
         weekCounts[mk + "|" + wk] = (weekCounts[mk + "|" + wk] || 0) + 1;
         meta.push({ e: e, d: d, mk: mk, iso: iso, wk: wk });
       });
-      var h = "", lastMonth = null, lastWeek = null;
+      var monthOrder = [], monthMap = {};
       meta.forEach(function (x) {
-        if (x.mk !== lastMonth) {
-          if (lastMonth) h += "</div></section></section>";
-          var monthTitle = MONTH.format(x.d);
-          h += '<section class="arch-month" aria-label="' + esc(monthTitle) + '">';
-          h += "<h2>" + esc(monthTitle) + ' <span class="arch-h-count">' + esc(TN("count_all", monthCounts[x.mk])) + "</span></h2>";
-          lastMonth = x.mk;
-          lastWeek = null;
+        if (!monthMap[x.mk]) {
+          monthMap[x.mk] = { mk: x.mk, title: MONTH.format(x.d), weeks: [], weekMap: {} };
+          monthOrder.push(monthMap[x.mk]);
         }
-        if (x.wk !== lastWeek) {
-          if (lastWeek) h += "</div></section>";
-          var wtitle = weekLabel(x.iso, +x.mk.slice(0, 4));
-          var wn = weekCounts[x.mk + "|" + x.wk];
-          h += '<section class="arch-week" aria-label="' + esc(wtitle) + '">';
-          h += "<h3>" + esc(wtitle) + ' <span class="arch-h-count">' + esc(TN("count_all", wn)) + "</span></h3>";
-          h += '<div class="arch-grid">';
-          lastWeek = x.wk;
+        var m = monthMap[x.mk];
+        if (!m.weekMap[x.wk]) {
+          m.weekMap[x.wk] = { wk: x.wk, iso: x.iso, items: [] };
+          m.weeks.push(m.weekMap[x.wk]);
         }
-        h += '<button type="button" class="news-card arch-card"' + langAttr(x.e) + ' data-id="' + esc(x.e.id) + '" aria-haspopup="dialog">' + cardInner(x.e, false) + "</button>";
+        m.weekMap[x.wk].items.push(x);
       });
-      archBox.innerHTML = h + "</div></section></section>";
+      var h = "";
+      monthOrder.forEach(function (m) {
+        h += '<section class="arch-month" aria-label="' + esc(m.title) + '">';
+        h += "<h2>" + esc(m.title) + ' <span class="arch-h-count">' + esc(TN("count_all", monthCounts[m.mk])) + "</span></h2>";
+        m.weeks.forEach(function (w) {
+          var items = orderWeek(w.items);
+          var wtitle = weekLabel(w.iso, +m.mk.slice(0, 4));
+          h += '<section class="arch-week" aria-label="' + esc(wtitle) + '">';
+          h += "<h3>" + esc(wtitle) + ' <span class="arch-h-count">' + esc(TN("count_all", weekCounts[m.mk + "|" + w.wk])) + "</span></h3>";
+          h += '<div class="arch-grid">';
+          items.forEach(function (x) {
+            h += '<button type="button" class="news-card arch-card"' + langAttr(x.e) + ' data-id="' + esc(x.e.id) + '" aria-haspopup="dialog">' +
+              archHotBadge(x.e.id) + cardInner(x.e, false) + "</button>";
+          });
+          h += "</div></section>";
+        });
+        h += "</section>";
+      });
+      archBox.innerHTML = h;
+    }
+
+    function hotEndpoint() {
+      var cfg = window.MTEC_HOT_CONFIG || {};
+      return String(cfg.endpoint || "https://mtec-hot-news.mtec-hot.workers.dev").replace(/\/$/, "");
+    }
+    function fetchHotCounts(ids, done) {
+      ids = ids || [];
+      if (!ids.length) { done({}); return; }
+      var chunks = [];
+      for (var i = 0; i < ids.length; i += 500) chunks.push(ids.slice(i, i + 500));
+      Promise.all(chunks.map(function (chunk) {
+        return fetch(hotEndpoint() + "/votes?ids=" + encodeURIComponent(chunk.join(",")), {
+          method: "GET",
+          headers: { "Accept": "application/json" }
+        }).then(function (res) {
+          if (!res.ok) throw new Error("hot-votes HTTP " + res.status);
+          return res.json();
+        });
+      })).then(function (parts) {
+        var map = {};
+        parts.forEach(function (data) {
+          var c = (data && data.counts) || {};
+          Object.keys(c).forEach(function (id) { map[id] = Math.max(0, +c[id] || 0); });
+        });
+        done(map);
+      }).catch(function (err) {
+        console.warn("HotVotes archive:", err && err.message);
+        done({});
+      });
+    }
+    function startArchiveWithCounts(map) {
+      paintPreviewNote();
+      hotCounts = map || {};
+      draw();
+    }
+    function loadPreviewThenStart() {
+      // Live-Build ohne Prototyp-Banner: echte Zähler, nur lesen. Keine Beispieldaten, kein Hinweisbanner.
+      if (!document.querySelector(".proto-banner")) {
+        paintPreviewNote();
+        fetchHotCounts(list.map(function (e) { return e.id; }), startArchiveWithCounts);
+        return;
+      }
+      function useMock() {
+        var map = (window.MTEC_HOT_ARCHIVE_PREVIEW && window.MTEC_HOT_ARCHIVE_PREVIEW.mock && window.MTEC_HOT_ARCHIVE_PREVIEW.counts) || {};
+        startArchiveWithCounts(map);
+      }
+      if (window.MTEC_HOT_ARCHIVE_PREVIEW) { useMock(); return; }
+      var s = document.createElement("script");
+      s.src = "assets/archive-hot-preview.js";
+      s.onload = useMock;
+      s.onerror = useMock;
+      document.head.appendChild(s);
     }
 
     bindFilterChips(filt, function (wasReset) {
@@ -609,7 +699,7 @@ I18N.ready.then(function () {
       var c = ev.target.closest(".arch-card");
       if (c) detail.open(c.getAttribute("data-id"));
     });
-    draw();
+    loadPreviewThenStart();
     var hash = decodeURIComponent((location.hash || "").slice(1));
     if (hash && byId[hash]) detail.open(hash);
   }

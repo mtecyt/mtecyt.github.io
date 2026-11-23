@@ -164,7 +164,9 @@
   "hot_rank": "Rang {n}",
   "hot_badge": "Hot {n}",
   "archive_week": "Kalenderwoche {n}",
-  "archive_week_year": "Kalenderwoche {n} ({year})"
+  "archive_week_year": "Kalenderwoche {n} ({year})",
+  "archive_hot_preview_note": "Vorschau: Die Stimmenzahlen an den Einträgen sind Beispieldaten, nicht die echten Zähler vom Server. Im Archiv kann nicht abgestimmt werden.",
+  "archive_hot_aria": "Als Hot markiert, {n} Stimmen"
 }/*END_UI_DE*/;
 
   // ---- Sprache bestimmen: nur ?lang=… (Standard: Deutsch) ----
