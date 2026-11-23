@@ -520,6 +520,27 @@ I18N.ready.then(function () {
   function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
   var MONTH = new Intl.DateTimeFormat(LOC, { timeZone: "Europe/Vienna", month: "long", year: "numeric" });
   var MONTH_KEY = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Vienna", year: "numeric", month: "2-digit" });
+  var YMD = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Vienna", year: "numeric", month: "2-digit", day: "2-digit" });
+
+  // ISO-8601-Kalenderwoche zum Vienna-Datum (Woche beginnt montags, Woche 1 enthält den 4. Januar).
+  function isoWeek(d) {
+    var y = 0, m = 0, day = 0;
+    YMD.formatToParts(d).forEach(function (p) {
+      if (p.type === "year") y = +p.value;
+      else if (p.type === "month") m = +p.value;
+      else if (p.type === "day") day = +p.value;
+    });
+    var t = new Date(Date.UTC(y, m - 1, day));
+    t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
+    var yearStart = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+    var week = Math.ceil((((t - yearStart) / 864e5) + 1) / 7);
+    return { week: week, weekYear: t.getUTCFullYear() };
+  }
+  function weekLabel(iso, monthYear) {
+    return iso.weekYear !== monthYear
+      ? T("archive_week_year", { n: iso.week, year: iso.weekYear })
+      : T("archive_week", { n: iso.week });
+  }
 
   function renderArchive(arch, news, tr) {
     // Archiv = archive.json + Ticker-Einträge, die nach der 7-Tage-Regel nicht mehr im Ticker stehen
@@ -546,17 +567,36 @@ I18N.ready.then(function () {
       if (cnt) cnt.textContent = shown.length === list.length ? TN("archive_count", list.length) : T("count_some", { shown: shown.length, n: list.length });
       if (!list.length) { archBox.innerHTML = '<p class="empty">' + esc(T("archive_empty")) + "</p>"; return; }
       if (!shown.length) { archBox.innerHTML = emptyHtml(filt, query.trim() ? esc(T("empty_search_extra", { q: query.trim() })) : ""); return; }
-      var h = "", lastKey = null;
+      var monthCounts = {}, weekCounts = {}, meta = [];
       shown.forEach(function (e) {
-        var d = new Date(e.datum), key = MONTH_KEY.format(d);
-        if (key !== lastKey) {
-          if (lastKey) h += "</div></section>";
-          h += '<section class="arch-month" aria-label="' + esc(MONTH.format(d)) + '"><h2>' + esc(MONTH.format(d)) + '</h2><div class="arch-grid">';
-          lastKey = key;
-        }
-        h += '<button type="button" class="news-card arch-card"' + langAttr(e) + ' data-id="' + esc(e.id) + '" aria-haspopup="dialog">' + cardInner(e, false) + "</button>";
+        var d = new Date(e.datum), mk = MONTH_KEY.format(d), iso = isoWeek(d);
+        var wk = iso.weekYear + "-W" + String(iso.week).padStart(2, "0");
+        monthCounts[mk] = (monthCounts[mk] || 0) + 1;
+        weekCounts[mk + "|" + wk] = (weekCounts[mk + "|" + wk] || 0) + 1;
+        meta.push({ e: e, d: d, mk: mk, iso: iso, wk: wk });
       });
-      archBox.innerHTML = h + "</div></section>";
+      var h = "", lastMonth = null, lastWeek = null;
+      meta.forEach(function (x) {
+        if (x.mk !== lastMonth) {
+          if (lastMonth) h += "</div></section></section>";
+          var monthTitle = MONTH.format(x.d);
+          h += '<section class="arch-month" aria-label="' + esc(monthTitle) + '">';
+          h += "<h2>" + esc(monthTitle) + ' <span class="arch-h-count">' + esc(TN("count_all", monthCounts[x.mk])) + "</span></h2>";
+          lastMonth = x.mk;
+          lastWeek = null;
+        }
+        if (x.wk !== lastWeek) {
+          if (lastWeek) h += "</div></section>";
+          var wtitle = weekLabel(x.iso, +x.mk.slice(0, 4));
+          var wn = weekCounts[x.mk + "|" + x.wk];
+          h += '<section class="arch-week" aria-label="' + esc(wtitle) + '">';
+          h += "<h3>" + esc(wtitle) + ' <span class="arch-h-count">' + esc(TN("count_all", wn)) + "</span></h3>";
+          h += '<div class="arch-grid">';
+          lastWeek = x.wk;
+        }
+        h += '<button type="button" class="news-card arch-card"' + langAttr(x.e) + ' data-id="' + esc(x.e.id) + '" aria-haspopup="dialog">' + cardInner(x.e, false) + "</button>";
+      });
+      archBox.innerHTML = h + "</div></section></section>";
     }
 
     bindFilterChips(filt, function (wasReset) {

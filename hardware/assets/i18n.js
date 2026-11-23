@@ -162,7 +162,9 @@
   "hot_aria_unvote": "Stimme für „{title}“ zurücknehmen",
   "hot_aria_jump": "Zur Meldung: {title}",
   "hot_rank": "Rang {n}",
-  "hot_badge": "Hot {n}"
+  "hot_badge": "Hot {n}",
+  "archive_week": "Kalenderwoche {n}",
+  "archive_week_year": "Kalenderwoche {n} ({year})"
 }/*END_UI_DE*/;
 
   // ---- Sprache bestimmen: nur ?lang=… (Standard: Deutsch) ----
