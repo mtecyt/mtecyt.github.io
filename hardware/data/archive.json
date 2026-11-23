@@ -2,10 +2,46 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-23T07:22:11.347Z",
+    "stand": "2026-11-23T18:36:29.796Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-16T10:02:19.585Z"
+      },
+      "id": "2026-11-16-speicherpreise-ssd-dreifach",
+      "datum": "2026-11-16T08:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD"
+      ],
+      "kategorie": "Speicher",
+      "titel": "ComputerBase-Preischeck November: RAM im Schnitt 446 Prozent, SSDs 162 Prozent und Festplatten 151 Prozent teurer als Mitte September 2025",
+      "schlagzeile": "Speicherkrise: RAM kostet 446 Prozent mehr, manche SSD das Dreifache",
+      "kurz": "ComputerBase hat die Preise für RAM, SSDs und Festplatten erneut geprüft. Arbeitsspeicher liegt im Schnitt 446 Prozent über dem Stand von Mitte September 2025, SSDs 162 Prozent. Einzelne Speicherkits kosten mehr als das Sechsfache, einzelne SSDs das Dreifache.",
+      "zusammenfassung": "ComputerBase beobachtet seit Mitte September 2025 die Preise von jeweils zwölf damals besonders gefragten RAM-Kits, SSDs und Festplatten im Online-Handel. Im November erreichen die Preise laut der neuen Auswertung neue Höchstwerte. RAM kostet im Schnitt 446 Prozent mehr als zu Beginn der Messung, manche Kits liegen über 500 Prozent und kosten damit mehr als das Sechsfache. SSDs haben sich von plus 146 Prozent Mitte Oktober auf plus 162 Prozent verteuert, einzelne Modelle kosten das Dreifache. Festplatten liegen im Schnitt 151 Prozent über dem Ausgangswert und sind zuletzt nur leicht teurer geworden. Einige Speicherkits wurden zwar etwas günstiger, andere zogen dafür umso stärker an. Angebote kleiner eBay-Händler und von Amazon-Marketplace-Händlern fließen nicht ein, weil sie den Trend verfälschen könnten und für Käufer riskant sind. Hinter vielen dieser Angebote vermutet die Redaktion Händler, die sich in der Krise eingedeckt haben. Ein Ende ist nicht in Sicht: Laut ComputerBase soll AMD im November auch die Preise für Radeon-Grafikkarten erneut anheben.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/storage/speicherpreise-im-check-bei-ssds-muss-schon-fast-das-dreifache-bezahlt-werden.100345/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "SSD",
+        "HDD",
+        "Speicherkrise",
+        "Preise"
+      ],
+      "img_prompt": "Documentary photo, warm natural late-morning daylight, natural rich colors, shallow depth of field, 35mm f/2.8 look. Several unbranded M.2 NVMe SSD sticks and two plain desktop RAM modules with blank heat spreaders laid out on a wooden shop counter next to a small stack of coins and a crumpled blank paper receipt, a hand-held price tag gun lying beside them, muted terracotta accent from a cardboard box edge. No readable text or numbers, no logos, no brand markings.",
+      "archiviert_am": "2026-11-23T18:36:29.795Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
