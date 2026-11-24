@@ -2,10 +2,491 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-24T18:32:15.894Z",
+    "stand": "2026-11-24T19:46:27.489Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-24-rx-9060-xt-taktrekord-4837-mhz",
+      "datum": "2026-11-24T19:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "AMD",
+        "Übertakten"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "AMD-Manager Jack Huynh übertaktet mit Overclocker Bill Alverson eine Radeon RX 9060 XT per Flüssigstickstoff auf 4.837 MHz – neuer GPU-Taktrekord, aber noch nicht verifiziert",
+      "schlagzeile": "Fast 5 GHz: AMD-Chef treibt Radeon RX 9060 XT auf Rekordtakt",
+      "kurz": "AMDs Grafik- und PC-Spartenchef Jack Huynh hat zusammen mit Overclocker Bill Alverson eine Radeon RX 9060 XT mit Flüssigstickstoff auf 4.837 MHz gebracht. Das wäre der höchste je erreichte Grafikchip-Takt. Bis zur 5-GHz-Marke fehlen nur noch 163 MHz, offiziell verifiziert ist der Lauf aber noch nicht.",
+      "zusammenfassung": "Der Rekordversuch fand laut PCGH bereits am 15. November im neu eröffneten Micro Center in Austin vor Publikum statt, publik machte Huynh ihn erst am 24. November auf X. Laut dem Foto im OC World Record Museum von SkatterBencher zeigte GPU-Z dabei minus 49 Grad Celsius, 1,434 Volt Kernspannung und nur 62 Watt Board Power. Der Vorsprung auf die bisherige Bestmarke von 4.789 MHz aus dem Juni beträgt lediglich 48 MHz. Es ist bereits der dritte Taktrekord in diesem Jahr, jedes Mal mit einer RX 9060 XT und mit Alverson. Als verifiziert führt das Museum weder diesen Lauf noch die beiden Rekorde vom Juni, weil Quellenlink und GPU-Z-Validierung fehlen. Mit Alltags-Übertakten hat das nichts zu tun: AMD gibt für den RDNA-4-Chip bis zu 3.130 MHz Boost an, mit Luft oder Wasser sind laut PCGH meist 3,3 bis 3,5 GHz realistisch. Die 4-GHz-Marke hatte im Juli 2023 eine GeForce RTX 4090 als erste Grafikkarte geknackt. Seit Juni steht laut Museum wieder eine Radeon an der Spitze der Rekordliste. Wccftech berichtet zusätzlich, dass der frühere Rekordhalter Splave beim Termin in Austin anwesend war.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Radeon-RX-9060-XT-16GB-Grafikkarte-281275/News/GPU-Weltrekord-4-84-GHz-AMD-Jack-Huyn-1560980/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/amd-jack-huynh-breaks-gpu-world-record-by-pushing-radeon-rx-9060-xt-to-a-whopping-4-837-ghz/"
+        }
+      ],
+      "tags": [
+        "Radeon RX 9060 XT",
+        "Übertakten",
+        "LN2",
+        "Weltrekord",
+        "RDNA 4"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:25.328Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An extreme overclocking bench at a busy computer store event: a bare graphics card with two visible axial fans removed and a thick copper liquid-nitrogen pot mounted on the chip, white frost and a soft cloud of vapour around it, a gloved hand pouring from a steel thermos flask, insulating foam around the card, blurred onlookers in the background, warm indoor light with a small cold blue accent from the vapour, documentary photo.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-rx-9060-xt-taktrekord-4837-mhz.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-cdpr-q3-witcher4-sprung-wie-gta6",
+      "datum": "2026-11-24T19:13:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "The Witcher 4",
+        "CD Projekt",
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "CD Projekt Red erwartet zwischen The Witcher 3 und The Witcher 4 einen ähnlich großen Sprung wie zwischen GTA 5 und GTA 6; Quartalszahlen mit 208 Millionen Zloty Umsatz",
+      "schlagzeile": "CD Projekt: The Witcher 4 soll so groß springen wie GTA 6 gegenüber GTA 5",
+      "kurz": "Im Telefonat zu den Quartalszahlen hat CD-Projekt-Co-Chef Michał Nowakowski einen großen Vergleich gezogen: Zwischen The Witcher 3 und The Witcher 4 soll ein ähnlicher Sprung liegen wie zwischen GTA 5 und GTA 6. GTA 6 habe die Pläne und Budgets für The Witcher 4 und Cyberpunk 2 aber nicht verändert. Im dritten Quartal erzielte die Gruppe 208 Millionen Zloty Umsatz und 109 Millionen Zloty Gewinn.",
+      "zusammenfassung": "Laut Eurogamer sagte Nowakowski, man habe sich GTA 6 angesehen und die Unterschiede gesehen, wolle aber keinen ausführlichen Vergleich ziehen. The Witcher 4 werde nach elf Jahren in praktisch jeder Hinsicht deutlich besser aussehen und verbessert. Die Projekte seien nicht budget-, sondern ambitionsgetrieben, die Budgets aber nicht unbegrenzt. GTA 6 habe auf PlayStation und Xbox zu einem Rückgang von mindestens 25 Prozent bei den eigenen Spielern geführt, auf dem PC, wo GTA 6 noch fehlt, sehe man keinen Effekt. Langfristig erwartet das Studio laut Eurogamer keine wesentlichen Auswirkungen im vierten Quartal. Beim Marketing will CD Projekt Rockstars Vorgehen nicht kopieren, den Sprung in den Massenmarkt hält man aber für entscheidend. Laut offizieller Mitteilung kommt die Gruppe nach neun Monaten auf 643 Millionen Zloty Umsatz und 358 Millionen Zloty Gewinn, die Barreserven stiegen auf über 1,3 Milliarden Zloty. Allein im dritten Quartal flossen über 177 Millionen Zloty in die Entwicklung neuer Projekte. The Witcher 3: Wild Hunt Remastered erreichte zum Start bis zu 138.000 gleichzeitige Spieler auf Steam, Cyberpunk 2077 nach Edgerunners 2 über 187.000. Geplant sind die Erweiterung Songs of the Past für 2027 und The Witcher 4 für 2028. Der Vorstand plant eine Vorab-Dividende von 1,20 Zloty je Aktie, die noch von Prüfer und Aufsichtsrat abhängt.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6"
+      },
+      "weitere_links": [
+        {
+          "name": "CD PROJEKT RED",
+          "url": "https://www.cdprojekt.com/en/media/news/cd-projekt-red-wraps-up-the-third-quarter-of-2026/"
+        }
+      ],
+      "tags": [
+        "The Witcher 4",
+        "CD Projekt Red",
+        "Quartalszahlen",
+        "GTA 6",
+        "Cyberpunk 2"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:26.244Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A game studio workspace in the evening: several monitors on a long wooden desk showing softly blurred unreadable concept sketches of a misty medieval forest, a sketchbook with pencil drawings of armour and a sword, a mug and a desk lamp casting warm light, cool blue dusk visible through a large window, a small muted forest-green accent, documentary photo, no text, no logos, no recognisable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-cdpr-q3-witcher4-sprung-wie-gta6.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-geforce-621-40-whql-ssd-fix",
+      "datum": "2026-11-24T18:02:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Treiber",
+        "Nvidia",
+        "GPU"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Nvidia veröffentlicht GeForce 621.40 WHQL und übernimmt die Korrektur gegen übermäßige SSD-Schreibzugriffe auf nvlog.nvlgstg in den regulären Game-Ready-Treiber",
+      "schlagzeile": "GeForce 621.40 WHQL: Nvidia nimmt sich die SSD-Schreibflut erneut vor",
+      "kurz": "Nvidia hat den Game-Ready-Treiber GeForce 621.40 WHQL veröffentlicht. Wichtigste Änderung ist eine Korrektur gegen massenhafte Schreibzugriffe auf die Protokolldatei nvlog.nvlgstg, die SSDs unnötig belasten. Der Fehler sollte schon mit dem Hotfix 621.35 behoben sein, trat bei manchen Nutzern aber erneut auf.",
+      "zusammenfassung": "Laut PCGH steht der Treiber seit dem 24. November für Windows 10 und 11 (64 Bit) bereit, das Paket ist rund 1,04 GB groß und kommt über die Nvidia App oder die Nvidia-Website. In den Release Notes nennt Nvidia Warhammer 40.000: Dawn of War 4, Assetto Corsa Rally und Where Winds Meet. Die Spieleoptimierungen steckten laut PCGH aber schon im Treiber 621.24 vom 12. November, neu sind vor allem die Fehlerkorrekturen. Der SSD-Fehler läuft bei Nvidia unter der Nummer 7116722. Einigen Nutzerberichten zufolge kehrten die Schreibzugriffe nach dem Hotfix 621.35 nach mehreren Stunden zurück. Außerdem behebt Nvidia Probleme mit dem Optix-Denoiser in Chaos Vantage bei hohen Auflösungen und falsche Farben bei DJI-D-Log-Videos im H.265-Format in Windows Fotos und Media Player. Ob die Schreibflut mit 621.40 auf allen betroffenen Systemen verschwunden ist, bleibt laut PCGH abzuwarten. Wer vom Fehler betroffen war, sollte nach dem Update die Schreibwerte der SSD im Auge behalten.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Warhammer-40000-Dawn-of-War-4-Spiel-78930/News/Nvidia-Geforce-621-40-WHQL-Game-Ready-Treiber-Dawn-of-War-4-Download-1560967/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/355166/nvidia-geforce-621-40-whql-game-ready-drivers-released"
+        },
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/nvidia-driver-621-40-whql-fixes-excessive-ssd-writes/"
+        }
+      ],
+      "tags": [
+        "GeForce",
+        "Treiber",
+        "621.40",
+        "SSD",
+        "Bugfix"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:26.964Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A modern graphics card with two visible axial fans installed in an open desktop PC on a walnut desk, next to it an M.2 SSD lying on a small anti-static bag, a laptop in the background with a softly blurred screen showing nothing readable, warm late-afternoon window light, a small muted teal accent from a coffee mug, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-geforce-621-40-whql-ssd-fix.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-gta6-pc-port-leonida-discord-aus",
+      "datum": "2026-11-24T16:06:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Rockstar",
+        "Take-Two"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Nach GitHub-Seite nun auch Discord-Server des inoffiziellen GTA-6-PC-Ports Project Leonida offline, offenbar auf Betreiben von Rockstar und Take-Two; Projektleiter steigt aus",
+      "schlagzeile": "GTA 6 auf PC: Rockstar geht gegen Fan-Port vor, Leonida-Chef wirft hin",
+      "kurz": "Das Projekt Leonida, das die geleakte Xbox-Version von GTA 6 auf den PC bringen wollte, hat nach seiner GitHub-Seite auch seinen Discord-Server verloren. Laut Berichten geschah das auf Anfrage von Rockstar und Take-Two. Der Projektgründer hat angekündigt, auszusteigen, andere Gruppen arbeiten aber weiter.",
+      "zusammenfassung": "Laut VGC wird behauptet, dass der Discord-Server nach einer Anfrage von Rockstar und Take-Two gesperrt wurde, eine offizielle Stellungnahme der Firmen gibt es dazu nicht. Insider Gaming berichtet, der Gründer habe in sozialen Medien von einer zweijährigen Discord-Sperre gesprochen und erklärt, er sei 15 Jahre alt und wolle sich auf die Schule konzentrieren. Leonida sollte wie andere Rekompilierungsprojekte keine eigene Exe enthalten, sondern eine legale Kopie voraussetzen. Durch die vom Leaker Cyberleek veröffentlichte Entwicklerversion der Xbox-Fassung samt Exe hätten viele diese Hürde aber umgehen können. Laut PC Gamer haben sich die Leiter des Projekts zurückgezogen, andere wollen es fortführen. Mehrere Gruppen nutzen dabei KI-Chatbots wie Claude zum Programmieren, erste Videos zeigen laut VGC das Intro mit Grafikfehlern. VGC wertet die Takedowns als Zeichen, dass Take-Two solche Projekte aktiv beobachtet. Einen offiziellen PC-Termin für GTA 6 hat Rockstar weiterhin nicht genannt. Wer Leak-Dateien herunterlädt, riskiert Malware und rechtliche Folgen.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/unofficial-gta-6-pc-ports-are-already-getting-shut-down/"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/rockstar-shuts-down-discord-server-trying-to-port-gta-6-to-pc/"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "PC-Port",
+        "Leonida",
+        "Take-Two",
+        "Rekompilierung"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:26.397Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A dim teenager's bedroom desk at night: a gaming PC tower with a glass side panel, a monitor showing a softly blurred unreadable chat window, an open school exercise book and a pencil case pushed aside, an empty energy-drink can without branding, warm desk lamp light against cool blue moonlight from the window, documentary photo, no text, no logos, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-gta6-pc-port-leonida-discord-aus.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-windows-family-safety-mtp-bluetooth-aus",
+      "datum": "2026-11-24T15:24:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft kündigt das Aus für die Family-Safety-App unter Windows und für MTP über Bluetooth an; normale Bluetooth-Dateiübertragung bleibt erhalten",
+      "schlagzeile": "Windows 11: Microsoft streicht Family-Safety-App und MTP über Bluetooth",
+      "kurz": "Microsoft stuft zwei weitere Windows-Funktionen als veraltet ein: die Family-Safety-App für Windows und das Media Transfer Protocol über Bluetooth. Der Family-Safety-Dienst selbst bleibt erhalten. Wer Dateien klassisch per Bluetooth verschickt, ist nicht betroffen.",
+      "zusammenfassung": "Laut Neowin soll die Windows-App von Microsoft Family Safety Ende 2027 aus künftigen Windows-Versionen verschwinden, neue Installationen enthalten sie dann nicht mehr. Bis dahin läuft eine Übergangsphase, in der Microsoft auch den Eintrag im Microsoft Store auslaufen lässt. Eltern können Family Safety weiter über die Microsoft-Family-App für Smartphones oder das Webportal verwalten. Die zweite Streichung betrifft MTP über Bluetooth, mit dem Windows Inhalte auf Smartphones, Kameras oder Mediaplayern verwalten und Medienbibliotheken abgleichen kann. Microsoft empfiehlt stattdessen MTP über USB. Der Bluetooth-Dateiübertragungs-Assistent nutzt laut Neowin das Object Push Profile und funktioniert deshalb weiter. Betroffen sind nur Geräte, die für Dateiverwaltung oder Mediensynchronisierung auf MTP über Bluetooth angewiesen sind. Einen genauen Termin für das Entfernen von MTP über Bluetooth nennt der Bericht nicht.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-to-kill-a-legacy-bluetooth-feature-on-windows-11/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "Bluetooth",
+        "MTP",
+        "Family Safety",
+        "Deprecation"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:27.235Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a bright kitchen table with a softly blurred unreadable screen, a smartphone lying next to it and a small portable music player beside a coiled USB cable, a bowl of clementines in the background, warm morning daylight, a small muted sage-green accent from a notebook, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-windows-family-safety-mtp-bluetooth-aus.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-firefox-161",
+      "datum": "2026-11-24T15:10:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Browser"
+      ],
+      "kategorie": "Software",
+      "titel": "Mozilla veröffentlicht Firefox 161.0 mit besserem Chrome-Import, Ausnahmen für Firefox VPN, Tastenkürzel zum URL-Kopieren und Classic-Themes-Bereich",
+      "schlagzeile": "Firefox 161: Besserer Chrome-Umzug und VPN-Ausnahmen für einzelne Seiten",
+      "kurz": "Mozilla hat Firefox 161.0 für Windows, macOS und Linux veröffentlicht. Das eher kleine Update verbessert den Import von Daten aus Google Chrome und erlaubt, Firefox VPN für bestimmte Seiten abzuschalten. Dazu kommen ein Tastenkürzel zum Kopieren der aktuellen URL und neue Ordnung bei Themes und Tabgruppen.",
+      "zusammenfassung": "Laut Dr. Windows bekommt die Theme-Übersicht des Browsers einen eigenen Bereich für Classic Themes. Wer von Chrome umsteigt, soll Lesezeichen und andere Browserdaten nun zuverlässiger mitnehmen können. Firefox VPN lässt sich für einzelne Seiten deaktivieren, etwa wenn ein Dienst VPN-Verbindungen blockiert. Die URL des aktuellen Tabs kann man jetzt per Tastenkürzel kopieren. Tabgruppen tauchen zusätzlich im App-Menü auf und sind so leichter zu finden. Daneben gibt es Erweiterungen der Webplattform für Entwickler. Firefox 162 soll laut Dr. Windows am 8. Dezember 2026 als letztes Funktionsupdate des Jahres erscheinen.",
+      "quelle": {
+        "name": "Dr. Windows",
+        "url": "https://www.drwindows.de/news/firefox-mozilla-veroeffentlicht-version-161-0-fuer-windows-mac-und-linux"
+      },
+      "weitere_links": [
+        {
+          "name": "LWN.net",
+          "url": "https://lwn.net/Articles/1109478/"
+        }
+      ],
+      "tags": [
+        "Firefox",
+        "Mozilla",
+        "Browser",
+        "VPN"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:27.366Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a wooden desk by a window with an open web browser window shown softly out of focus and completely unreadable, a cup of tea with steam and a small potted plant next to it, warm golden afternoon light, a small muted orange accent from a knitted coaster, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-firefox-161.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-inno3d-rtx-5060-ti-single-slot-preis",
+      "datum": "2026-11-24T14:20:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia",
+        "Preise"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Inno3D GeForce RTX 5060 Ti PRO mit Single-Slot-Kühler taucht bei japanischem Händler für 169.400 Yen auf, umgerechnet rund 1.064 US-Dollar",
+      "schlagzeile": "Einzelslot-RTX-5060-Ti für über 1.000 Dollar: Inno3D-Karte im Handel",
+      "kurz": "Die nur rund 20 Millimeter dünne GeForce RTX 5060 Ti PRO von Inno3D ist erstmals im Handel aufgetaucht. Ein japanischer Shop verlangt 169.400 Yen, umgerechnet etwa 1.064 US-Dollar. Damit kostet die Einzelslot-Karte deutlich mehr als normale RTX-5060-Ti-Modelle.",
+      "zusammenfassung": "Inno3D hatte die Karte laut Wccftech schon vor knapp drei Monaten auf der eigenen Website gezeigt, ohne Preis oder Verfügbarkeit zu nennen. Entdeckt hat das Listing beim Elsa-Online-Shop der bekannte Hardware-Spürhund momomo_us. Der Kühler setzt auf eine Vapor Chamber und einen Radiallüfter, der die Wärme nach hinten aus dem Gehäuse bläst. Technisch entspricht die Karte einer normalen RTX 5060 Ti 16 GB mit 4.608 CUDA-Kernen, 16 GB GDDR7, 2.572 MHz Boost und 180 Watt, Strom kommt über einen 8-Pin-Anschluss. Derselbe Händler führt herkömmliche RTX-5060-Ti-Karten rund 20.000 Yen günstiger. Wegen der stark gestiegenen Speicherpreise liegt die RTX 5060 Ti 16 GB laut Wccftech ohnehin bei über 800 US-Dollar statt der ursprünglichen 429 US-Dollar. Inno3D zielt mit dem PRO-Modell auf Profis und kompakte Workstations, nicht auf typische Gaming-PCs. Ein Euro-Preis ist bisher nicht bekannt.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/inno3ds-single-slot-rtx-5060-ti-pro-hits-japanese-retailer-at-1064/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060"
+        }
+      ],
+      "tags": [
+        "RTX 5060 Ti",
+        "Inno3D",
+        "Single-Slot",
+        "Preise",
+        "Workstation"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:25.878Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A very slim single-slot graphics card with a small blower fan and a plain dark metal shroud lying on a light oak workbench next to a compact small-form-factor workstation case with its side panel removed, a screwdriver and a few screws beside it, warm natural window light, a small muted mustard-yellow accent from a cable tie, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-inno3d-rtx-5060-ti-single-slot-preis.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-red-dead-film-serie-rechte",
+      "datum": "2026-11-24T12:54:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Red Dead Redemption",
+        "Rockstar"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Bericht: Rockstar bietet Film- und Serienrechte an Red Dead Redemption an und verlangt mindestens rund 100 Millionen US-Dollar; GTA bleibt außen vor",
+      "schlagzeile": "Bericht: Rockstar will Red Dead Redemption als Film oder Serie verkaufen",
+      "kurz": "Rockstar Games sucht laut einem Bericht von The Ankler einen Käufer für die Film- und Serienrechte an Red Dead Redemption. Als Mindestpreis seien rund 100 Millionen US-Dollar im Gespräch. Für Grand Theft Auto plant Rockstar demnach keine Verfilmung.",
+      "zusammenfassung": "Eurogamer beruft sich auf den Branchendienst The Ankler, der wiederum mit Agenten gesprochen haben will. Bestätigt hat Rockstar den Bericht nicht. Zum Vergleich nennt der Bericht die 250 Millionen US-Dollar, die Amazon 2017 allein für die Serienrechte an Der Herr der Ringe bezahlte. Warum Rockstar bei Red Dead offen ist, bei GTA aber nicht, bleibt unklar. Spieleverfilmungen laufen derzeit gut, Beispiele sind die Fallout-Serie und HBOs The Last of Us. In Arbeit sind unter anderem Serien zu Tomb Raider, God of War und Far Cry sowie ein Call-of-Duty-Film für 2028. GTA 6 hat laut Eurogamer am ersten Tag 3,79 Milliarden US-Dollar Umsatz bei 32,5 Millionen verkauften Exemplaren gemacht.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta"
+      },
+      "weitere_links": [
+        {
+          "name": "Video Games Chronicle (VGC)",
+          "url": "https://www.videogameschronicle.com/news/rockstar-is-reportedly-interested-in-a-red-dead-redemption-film-or-tv-show/"
+        },
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/red-dead-redemption-developer-reportedly-open-to-selling-tv-rights/"
+        }
+      ],
+      "tags": [
+        "Red Dead Redemption",
+        "Rockstar",
+        "Verfilmung",
+        "Serie"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:26.543Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original cinematic western scene: a lone rider on a dusty horse at the edge of a wide prairie at golden hour, a weathered wooden ranch fence and distant red rock mesas, long warm shadows, dust kicked up by hooves, a small muted turquoise accent on the rider's neckerchief, low dynamic camera angle, film set feel, original anonymous character with face hidden under a hat brim, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-red-dead-film-serie-rechte.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-steam-markt-umbau-watchlist",
+      "datum": "2026-11-24T12:49:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam",
+        "Valve"
+      ],
+      "kategorie": "Spiele-Stores",
+      "titel": "Valve baut die Startseite des Steam-Community-Markts um: personalisierte Trend-Listen, Merkliste über mehrere Spiele und Preisänderung ohne Neueinstellen",
+      "schlagzeile": "Steam-Markt umgebaut: Merkliste und Preise ändern ohne Neueinstellen",
+      "kurz": "Valve hat die Startseite des Steam-Community-Markts neu aufgebaut. Statt einer allgemeinen Liste beliebter Gegenstände zeigt sie jetzt Trends aus den Spielen, die man selbst spielt. Neu sind außerdem eine Merkliste und das direkte Ändern von Verkaufspreisen.",
+      "zusammenfassung": "Laut PC Gamer hat Valve die Änderungen am Montag angekündigt, es ist bereits der zweite Umbau des Markts in diesem Jahr nach einer Beta im Mai. Die neue Startseite soll schneller laden. Der frühere Bereich Popular Items zeigte meist nur Counter-Strike-2-Kisten, die neuen Trending-Items-Listen richten sich nach den eigenen Spielen. In der Merkliste lassen sich einzelne Gegenstände, ganze Gegenstandsarten oder bestimmte Suchen über mehrere Spiele verfolgen. Eingestellte Angebote kann man jetzt im Preis ändern, ohne sie zurückzuziehen und neu einzustellen. Verkäufe aus der Steam-App fürs Smartphone lassen sich per Pop-up bestätigen. Zudem zeigt die Startseite den Fortschritt bei Abzeichen, und Suchergebnisse gibt es auch als Listenansicht.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/software/platforms/steam-revamps-its-marketplace-for-the-2nd-time-this-year/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Steam",
+        "Community-Markt",
+        "Valve",
+        "Counter-Strike 2"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:26.834Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A gaming desk in a cosy room with a monitor showing a softly blurred grid of colourful item tiles that are completely unreadable, a smartphone lying in front of the keyboard with a blurred screen, a gamepad and a small stack of collectible cards without any printing, warm lamp light, a small muted plum accent from a mouse pad, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-steam-markt-umbau-watchlist.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-gta6-deluxe-soundtrack-23-songs",
+      "datum": "2026-11-24T11:03:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Rockstar"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Rockstar veröffentlicht Deluxe-Edition des GTA-6-Soundtrack-Albums mit 23 zusätzlichen Titeln, unter anderem von HEALTH, Denzel Curry und Playboi Carti",
+      "schlagzeile": "GTA 6: Soundtrack-Album bekommt 23 Extra-Songs in der Deluxe-Edition",
+      "kurz": "Rockstar Games hat eine Deluxe-Edition des GTA-6-Soundtrack-Albums mit 23 zusätzlichen Titeln vorgestellt. Sie ist bei Streamingdiensten verfügbar. Mit dabei sind unter anderem HEALTH, Denzel Curry und Playboi Carti.",
+      "zusammenfassung": "Die vollständige Titelliste steht laut Eurogamer auf Rockstars offizieller Musik-Website. Einige der Künstler spielen auch im Spiel selbst eine Rolle: Das Duo Justice hat am Original-Soundtrack mitkomponiert, mehrere seiner Stücke laufen im Spiel. Sexyy Red und Denzel Curry sprechen in späteren Kapiteln Figuren. Auch Kodak Black und Freddie Gibbs tauchen auf. In den Radiosendern sind laut Eurogamer außerdem Stimmen von Keith Richards, Lana Del Rey und The Alchemist zu hören. An den Fernsehsendungen und Werbespots im Spiel haben unter anderem Zack Fox und Weird Al Yankovic mitgeschrieben.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-deluxe-edition-soundtrack-23-extra-tracks"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Soundtrack",
+        "Musik",
+        "Rockstar"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:26.689Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original sunny coastal city scene at golden hour: a convertible car without badges cruising along a palm-lined beach road, the car radio glowing warmly, a driver's arm resting on the door with sunglasses reflecting the sunset, pastel art-deco buildings blurred in the background, dynamic low camera angle with motion blur on the palms, a small muted coral accent, no text, no logos, no recognisable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-gta6-deluxe-soundtrack-23-songs.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-proton-11-0-3",
+      "datum": "2026-11-24T08:36:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Steam",
+        "Proton"
+      ],
+      "kategorie": "Linux",
+      "titel": "Valve veröffentlicht Proton 11.0-3 als neue stabile Version mit zahlreichen Spielkorrekturen und aktualisierten DXVK- und VKD3D-Proton-Zweigen",
+      "schlagzeile": "Proton 11.0-3: Valve macht weitere Windows-Spiele unter Linux spielbar",
+      "kurz": "Valve hat Proton 11.0-3 als neue stabile Version seiner Kompatibilitätsschicht für Windows-Spiele unter SteamOS und Linux veröffentlicht. Das Update bündelt viele Korrekturen, die bisher nur in Proton Experimental steckten. Einige Spiele sind neu oder wieder spielbar.",
+      "zusammenfassung": "Das Update erscheint laut GamingOnLinux automatisch als Aktualisierung für Proton 11 in den Steam-Downloads. Wieder spielbar sind unter anderem Lords of the Fallen, Lunacid und Command & Conquer: Red Alert Counterstrike und The Aftermath, Deus Ex: Mankind Divided soll mit AMD-Grafik wieder laufen. Crysis und Crysis Wars starten nun auch auf neueren AMD-Prozessoren mit CPUID-Faulting. Behoben sind außerdem Abstürze in RaceRoom Racing beim Beitritt zu Ranglisten-Rennen und in Terminator: Dark Fate - Defiance sowie Audioprobleme in mehreren älteren Spielen. Bei Far Cry New Dawn, The Binding of Isaac: Rebirth und Split/Second wurde die Controller-Unterstützung mit Steam Input verbessert, bei Dragon Age: Inquisition funktionieren Controller wieder. Der Launcher von Final Fantasy XIV läuft jetzt auch auf Valves Steam Frame. Unter der Haube wurden DXVK und VKD3D-Proton auf den neuesten Stand ihrer Proton-11-Zweige gebracht, dxvk-nvapi ebenfalls aktualisiert. Für 32-Bit-OpenXR gibt es erste, noch experimentelle Unterstützung. Proton 12 erwartet GamingOnLinux erst im kommenden Jahr nach dem Release von Wine 12.",
+      "quelle": {
+        "name": "GamingOnLinux",
+        "url": "https://www.gamingonlinux.com/2026/11/proton-11-0-3-is-out-now-bringing-lots-of-fixes-for-windows-games-on-steamos-linux/"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/Proton-11.0-3-Released"
+        }
+      ],
+      "tags": [
+        "Proton",
+        "Valve",
+        "SteamOS",
+        "Linux-Gaming",
+        "DXVK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:27.102Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A handheld gaming PC lying on a cosy wooden coffee table next to a compact white living-room gaming box and a wireless gamepad, the handheld screen softly blurred and unreadable, a knitted blanket and a warm table lamp in the background, warm evening light with a small muted terracotta accent from a mug, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-proton-11-0-3.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-24-rtx-lens-12v-2x6-pin-ueberwachung",
       "datum": "2026-11-24T07:33:00+01:00",
@@ -1768,6 +2249,47 @@
       }
     },
     {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -1811,47 +2333,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
@@ -5373,45 +5854,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -5442,6 +5884,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
