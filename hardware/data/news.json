@@ -2,10 +2,470 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-24T07:35:03.467Z",
+    "stand": "2026-11-24T09:10:10.513Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-24-rtx-lens-12v-2x6-pin-ueberwachung",
+      "datum": "2026-11-24T07:33:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia",
+        "12V-2x6"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Open-Source-Tool RTX Lens überwacht bei kompatiblen Grafikkarten, Messadaptern und Netzteilen den Strom jedes einzelnen 12V-2×6-Pins und kann Windows bei anhaltender Warnung herunterfahren",
+      "schlagzeile": "RTX Lens: Gratis-Tool überwacht jeden Strom-Pin der Grafikkarte",
+      "kurz": "Das kostenlose Open-Source-Tool RTX Lens führt Sensordaten von Grafikkarte, 12V-2×6-Stecker und Netzteil zusammen und zeigt den Strom pro Pin an. Bleibt eine selbst gesetzte Warnschwelle bestehen, kann es Windows kontrolliert herunterfahren. Die entscheidenden Werte liefert aber nur passende Hardware, normale GeForce-Karten reichen allein nicht.",
+      "zusammenfassung": "Ein Hintergrunddienst liest die Sensoren fortlaufend aus, protokolliert auf Wunsch Spiele- oder Benchmark-Sitzungen und reagiert auf frei einstellbare Grenzwerte. Hintergrund ist das Dauerproblem überlasteter 12V-2×6-Stecker: Die Gesamtleistung verrät nicht, wie sich der Strom auf die sechs 12-Volt-Leitungen verteilt. ComputerBase verweist auf die eigene GeForce RTX 5090, bei der zeitweise ein Pin komplett ausfiel, während andere an die 10-Ampere-Marke heranrückten. Pro-Pin-Werte gibt es nur mit passender Sensorik: direkt unterstützt werden Asus ROG Astral RTX 5080 und RTX 5090, der Messadapter Thermal Grizzly WireView Pro II sowie die Netzteile MSI MPG Ai1300TS und Ai1600TS. Mit Astral oder WireView lassen sich sogar beide Kabelenden vergleichen. Gewöhnliche GeForce-Karten liefern nur Takt, Temperatur, Lüfterdrehzahl und Auslastung. Die Notabschaltung fährt Windows herunter, kappt die Stromzufuhr aber nicht selbst. Zum Projekt gehören Begleit-Apps für Android und iOS (APK manuell, iPhone über AltStore) sowie ein Nur-Lese-Widget für Corsairs Xeneon Edge. RTX Lens läuft unter 64-Bit-Windows 11 und Windows 10 ab Build 17763 und steht unter der LGPL 3.0 auf GitHub. Es ersetzt keine sauber eingesteckten Kabel und ist ein Monitoring-Werkzeug, kein Schutzschalter.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/dauerbrenner-12v-2x6-gratis-tool-rtx-lens-ueberwacht-strom-pin-fuer-pin.100482/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "12V-2x6",
+        "RTX 5090",
+        "WireView",
+        "Open Source",
+        "Monitoring"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:08.613Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A modern graphics card lying on a warm honey-toned wooden desk, two visible axial fans, the 12-pin power connector visible with a thin small unbranded inline measuring adapter plugged between cable and card, a few sleeved cables neatly routed, a laptop in the background slightly out of focus with a blank softly blurred screen, a small dusty-teal cable tie bag beside it, warm window light, documentary photo.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-rtx-lens-12v-2x6-pin-ueberwachung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-megaspeed-us-handelsembargo",
+      "datum": "2026-11-24T05:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "Export",
+        "KI-Chips"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "USA setzen Megaspeed und weitere Firmen auf die Exportliste: komplettes Handelsembargo gegen sieben Unternehmen in Singapur, Thailand und Malaysia ab Mittwoch",
+      "schlagzeile": "Nvidia-Affäre: USA verhängen Handelsembargo gegen Megaspeed",
+      "kurz": "Die USA setzen sieben Unternehmen aus Singapur, Thailand und Malaysia auf die schwarze Liste der Exportregeln, sechs davon gehören zum Geflecht Megaspeed. Ab Mittwoch dürfen ihnen keine US-Güter oder Waren mit bestimmter US-Technik mehr geliefert werden. Megaspeed soll Nvidia-KI-Chips für Kunden in China organisiert haben.",
+      "zusammenfassung": "Laut heise greift ab Mittwoch ein komplettes US-Handelsembargo, nicht nur eine Beschränkung bestimmter Hardware. Betroffen sind sechs Megaspeed-Firmen und die Alibaba-Tochter Apex Enterprise Solutions, die Megaspeed jene Milliarden-Dollar-Beträge bereitgestellt haben soll, mit denen ab Juni 2024 KI-Prozessoren bei Nvidia gekauft wurden. Bereits unterwegs befindliche Ware darf noch zugestellt werden, vorhandene Güter dürfen die Firmen aber nicht weitergeben. Ausnahmen kann man beantragen, sie werden in der Regel abgelehnt. Der Vorwurf lautet, Megaspeed habe die Chips in Rechenzentren gehostet und als Rechenleistung insbesondere an Kunden in China vermietet und so das Exportverbot umgangen. Das US-Justizministerium prüft außerdem, ob Megaspeed auch den Schmuggel von KI-Chips nach China gefördert hat; Megaspeed nennt eine interne Untersuchung. Nvidia stoppte den Verkauf betroffener Chips an Megaspeed nach heise-Angaben im Juni 2025. Der Fall hängt mit der Affäre um Jensen Huang zusammen, der eine Beziehung zur früheren Megaspeed-Chefin Alice Huang eingeräumt hat, die laut US-Geheimdiensten für einen chinesischen Geheimdienst arbeiten soll, was Peking bestreitet. Alibaba hatte laut heise noch Gelegenheit zur Stellungnahme. Für Gaming-Grafikkarten hat das Embargo keine direkten Folgen, es geht um KI-Beschleuniger.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nvidia-Affaere-USA-verhaengen-Handelsverbot-ueber-Megaspeed-11535434.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Nvidia",
+        "Megaspeed",
+        "Exportkontrolle",
+        "Alibaba",
+        "KI-Chips"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:08.852Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Stacked unmarked cardboard shipping crates and a pallet jack in a quiet warehouse bay, one crate opened showing the edge of a large unbranded server accelerator board wrapped in antistatic foam, warm late-morning light from a high window, a dusty-teal strapping band on one crate, shallow depth of field, documentary photo.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-megaspeed-us-handelsembargo.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-mesa-nvk-raytracing-ttu",
+      "datum": "2026-11-24T02:52:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Vulkan",
+        "Nvidia"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Mesa NVK: Erste Unterstützung für Tree-Traversal-Unit-Befehle der RT-Kerne im Shader-Compiler NAK ist ein weiterer Schritt Richtung Vulkan-Raytracing",
+      "schlagzeile": "Mesa NVK: Open-Source-Nvidia-Treiber nähert sich Raytracing",
+      "kurz": "In Mesa 27.0-devel wurde die erste Unterstützung für Tree-Traversal-Unit-Befehle der Nvidia-RT-Kerne in den NAK-Shader-Compiler des Open-Source-Treibers NVK eingebracht. Das ist ein weiterer Schritt, damit NVK später Vulkan-Raytracing unterstützen kann. Fertig ist es noch nicht.",
+      "zusammenfassung": "Laut Phoronix wurde die Änderung am Sonntag in Mesa 27.0-devel eingebracht. Die TTU-Befehle steuern bei Nvidia-GPUs die RT-Kerne. Die Änderung betrifft Behandlung im NAK-Shader-Compiler und die Intrinsics der Zwischendarstellung NIR. Ziel ist, dass NVK die Vulkan-Erweiterungen VK_KHR_ray_query und VK_KHR_ray_tracing_pipeline unterstützen kann. Ein Termin steht nicht fest, Phoronix hofft nur, dass die Arbeiten 2027 abgeschlossen werden. Für Linux-Spieler mit Nvidia-Karte bleibt bis dahin der proprietäre Treiber die Wahl, wenn sie Raytracing brauchen.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/Mesa-NVK-TTU-Instructions"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Mesa",
+        "NVK",
+        "Vulkan",
+        "Raytracing",
+        "Nvidia"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:10.378Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A modern graphics card with two visible axial fans standing upright on a honey-toned wooden desk next to an open laptop showing a blurred dark terminal window with nothing readable, a small terracotta cup, warm natural window light, shallow depth of field, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-mesa-nvk-raytracing-ttu.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-ladybird-alpha-macos-linux",
+      "datum": "2026-11-24T02:26:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Browser",
+        "Linux",
+        "Ladybird"
+      ],
+      "kategorie": "Browser",
+      "titel": "Ladybird erreicht Alpha-Status: unabhängiger Browser mit eigener Engine für macOS und Linux, mit automatischen Updates im Rolling-Kanal",
+      "schlagzeile": "Ladybird ist in der Alpha: Browser mit komplett eigener Engine",
+      "kurz": "Der unabhängige Browser Ladybird ist als erste Alpha für macOS und Linux erschienen. Er läuft auf einer Engine, die von Grund auf neu gebaut wurde statt von Chromium, WebKit oder Gecko abzustammen. Manche Webseiten funktionieren noch nicht, Abstürze sind erwartbar, und zur Sicherheit gibt es ausdrücklich keine Zusagen.",
+      "zusammenfassung": "Laut Neowin und OMG! Ubuntu ist der Browser nach vier Jahren Entwicklung in der Alpha angekommen. Die Entwickler nennen ihn bescheiden, aber nutzbar. Fehlerhafte Seiten lassen sich direkt im Browser melden, bei Abstürzen kann man den Bericht lesen und entscheiden, ob er gesendet wird. Neu ist ein Rolling-Kanal mit automatischen Updates, bisher mussten Nutzer neue Versionen selbst aus dem Quellcode bauen. Für Webentwickler gibt es WebDriver-Unterstützung und das Firefox-DevTools-Protokoll. Die Entwickler rufen Sicherheitsforscher auf, den Browser anzugreifen, und machen zur heutigen Sicherheit keine Versprechen, er ist also noch nichts für sensible Alltagsnutzung. Eine Windows-Version nennt die Meldung nicht. Neowin erinnert daran, dass das Projekt öffentliche Pull Requests wegen schlechter KI-Nutzung geschlossen hat.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/ladybirds-first-alpha-brings-a-truly-independent-browser-to-macos-and-linux/"
+      },
+      "weitere_links": [
+        {
+          "name": "OMG! Ubuntu",
+          "url": "https://www.omgubuntu.co.uk/2026/11/ladybird-browser-enters-alpha"
+        }
+      ],
+      "tags": [
+        "Ladybird",
+        "Browser",
+        "Alpha",
+        "Linux",
+        "macOS"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.984Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a wooden desk running a softly blurred plain web browser window with nothing readable, a small ladybug-colored terracotta mug beside it, warm window light, plants and bookshelf out of focus, documentary photo, no text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-ladybird-alpha-macos-linux.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-teams-voice-phishing-erkennung",
+      "datum": "2026-11-24T01:06:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Microsoft Teams",
+        "Sicherheit",
+        "KI"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft Teams soll mit „Voice Phishing Detection“ externe Anrufe per KI auf Betrugsversuche prüfen; laut Roadmap ab Januar 2027",
+      "schlagzeile": "Teams soll per KI Betrugsanrufe erkennen – Datenschutz offen",
+      "kurz": "Laut Microsoft-365-Roadmap soll Teams mit „Voice Phishing Detection“ externe Einzelanrufe per KI auf Betrugsmaschen prüfen und warnen. Die Funktion ist für Januar 2027 auf Desktop, Android und iOS geplant. Offen ist, ob die Analyse lokal oder in der Cloud läuft und was gespeichert wird.",
+      "zusammenfassung": "Bisher gibt es in Teams eine Spam-Erkennung für verdächtige Anrufer. Die neue Funktion soll darüber hinaus das Gespräch selbst auswerten, etwa wenn sich jemand als IT-Admin ausgibt und Zugangsdaten verlangt. Neowin beruft sich auf einen Eintrag in der Microsoft-365-Roadmap und auf die Teams-Dokumentation zu Anruf-Richtlinien. Administratoren sollen einstellen können, wie Nutzer gewarnt werden, die Einstellung hat laut Microsoft aber noch keine Wirkung. Microsoft hat nicht erklärt, ob die Auswertung auf dem Gerät oder auf Servern stattfindet. Unklar sind auch Speicherung von Gesprächsdaten und das Zusammenspiel mit Ende-zu-Ende-verschlüsselten Anrufen. Neowin weist außerdem darauf hin, dass Angreifer ihre Methoden an die KI-Erkennung anpassen könnten. Es handelt sich bisher nur um einen Roadmap-Eintrag, Termin und Funktionsumfang können sich ändern.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/microsoft-teams-is-getting-ai-that-listens-to-your-calls-for-signs-of-scams/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Microsoft Teams",
+        "Vishing",
+        "KI",
+        "Roadmap",
+        "Datenschutz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:10.108Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A person's hands holding a smartphone with a softly blurred plain incoming-call screen over a wooden office desk next to a laptop, a dusty-teal notebook and a pen, warm window light, shallow depth of field, no faces, no readable text, no logos, documentary photo.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-teams-voice-phishing-erkennung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-gta6-exe-leak-leonida-pc-port",
+      "datum": "2026-11-24T00:45:00+01:00",
+      "label": "Leak",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "PC-Port",
+        "Leak"
+      ],
+      "kategorie": "Spiele",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Mehrere Fachmedien (PCGH, Golem, PC Gamer, GamesRadar) berichten übereinstimmend über die Veröffentlichung der Exe durch den Leaker Cyberleek und das Leonida-Projekt; Echtheit der Datei und Stand des Ports sind aber nicht unabhängig bestätigt, Rockstar hat sich laut PCGH nicht geäußert. Unbestätigt bleibt auch der Spielstart: Eine Behauptung, der Prolog laufe bereits, ist unbelegt."
+      },
+      "ursprungsquelle": "Leaker „Cyberleek“ (Veröffentlichung der Exe am 23.11.2026); Entwickler des KI-gestützten Projekts „Leonida“ über X und Discord",
+      "titel": "Leaker Cyberleek soll die ausführbare Datei der Xbox-Fassung von GTA 6 veröffentlicht haben; das KI-gestützte Portierungsprojekt Leonida kommt damit bis zu einem schwarzen Bildschirm und wurde danach offline genommen",
+      "schlagzeile": "Leak: GTA-6-Exe im Netz – PC-Port Leonida bootet nur bis Schwarz",
+      "kurz": "Der Leaker Cyberleek soll am 23. November auch die ausführbare Datei der Xbox-Fassung von GTA 6 veröffentlicht haben. Das Projekt Leonida wollte das Spiel damit per Neuübersetzung unter Windows starten, kam aber nur bis zu einem schwarzen Bildschirm und wurde danach samt Discord und GitHub offline genommen. Ein spielbarer PC-Port existiert damit nicht, Download-Angebote bergen Malware- und Rechtsrisiken.",
+      "zusammenfassung": "Laut PCGH war schon vorher ein rund 209 GiB großes Paket im Umlauf, dem zum Konsolenstart am 19. November die Exe fehlte. Cyberleek hatte die Freigabe zunächst an Marktkapitalisierungsziele für seinen Krypto-Token geknüpft, erreichte aber keines, und veröffentlichte die Datei trotzdem als passwortgeschütztes ZIP. Unter Windows lässt sich die Xbox-Exe nicht direkt starten, sie gilt als Material für Entwickler von Emulatoren und Rekompilierungsprojekten. Das Projekt Leonida will den x86-64-Code direkt auf PC-Prozessoren laufen lassen und die Systemumgebung der Xbox nachbauen: Shader wurden nach eigenen Angaben von RDNA 2 nach SPIR-V übersetzt, die Xbox-Direct3D-12-Befehle sollen auf Vulkan abgebildet werden. Mesh-Shader-Draws, Indirect Draws und Raytracing fehlen laut PCGH noch. Erste Startversuche endeten mit schwarzem Bild und abbrechendem Ton. Ein Hauptentwickler rechnete mit mindestens einer Woche Arbeit, bis das Spiel laufen könnte; dieser Zeitplan ist reine Selbsteinschätzung. Nach PCGH-Angaben wurde das komplette Projekt inzwischen offline genommen, ob Rockstar einen DMCA-Takedown eingereicht hat, ist unbekannt. Das Repository enthielt weder Spieldateien noch Schlüssel, brauchte aber laut README eine Kopie der Xbox-Version, die nach bisherigem Stand aus dem Leak stammt. Beteiligte Entwickler nutzten laut PCGH intensiv KI-Coding-Agenten. Wer Leak-Dateien herunterlädt, riskiert Malware und rechtliche Folgen; ein offizieller PC-Termin von Rockstar steht weiter aus. Wir verlinken bewusst keine Download-Quellen.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/PC-Port-Leonida-KI-Exe-Leak-Xbox-1560883/"
+      },
+      "weitere_links": [
+        {
+          "name": "Golem.de",
+          "url": "https://www.golem.de/news/xbox-leaker-veroeffentlicht-exe-datei-von-gta-6-2611-215558.html"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Leak",
+        "PC-Port",
+        "Leonida",
+        "Cyberleek",
+        "Xbox"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.286Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A dim home office at night, a gaming PC tower with a glass side panel and a large monitor showing only a completely black screen, a mechanical keyboard and a half-empty coffee mug in the foreground, one muted amber desk lamp mixing with cool blue room light, a few loose cables and a closed padlock-shaped paper clip chain on the desk, tense atmosphere, cinematic documentary-style scene, no readable text, no game UI, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-gta6-exe-leak-leonida-pc-port.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-call-of-duty-minus-42-prozent-gta6",
+      "datum": "2026-11-24T00:37:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Call of Duty",
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Alinea Analytics: Call-of-Duty-App verliert nach dem GTA-6-Start 42 Prozent der täglichen Spieler, von 7,6 auf 4,4 Millionen",
+      "schlagzeile": "GTA 6 drückt Call of Duty: Analysten sehen 42 % weniger Spieler",
+      "kurz": "Laut Alinea Analytics sank die Zahl der täglichen Spieler der Call-of-Duty-App nach dem GTA-6-Start um 42 Prozent, von 7,6 auf 4,4 Millionen. Auf der PS5 fiel der Rückgang mit 44 Prozent am stärksten aus. Es sind Schätzungen eines Analysehauses, offizielle Zahlen von Activision gibt es nicht.",
+      "zusammenfassung": "IGN berichtet über eine Auswertung von Alinea Analytics, die auch CharlieIntel auf X verbreitete. Die Call-of-Duty-App umfasst demnach Warzone, Black Ops 7 und Modern Warfare 4. Verglichen wurden die täglichen Spieler vor und nach dem Rekordwochenende von GTA 6. Wie die Daten erhoben wurden, nennt die Meldung nicht, es handelt sich um Schätzungen. IGN merkt an, dass sich die Zielgruppen vermutlich stark überschneiden. Activision-Marketingchef Tyler Bahl hatte im Herbst gesagt, GTA 6 werde der gesamten Branche eher Aufmerksamkeit bringen. Kurzfristig zeigt sich laut Alinea das Gegenteil, es kann sich aber wieder normalisieren. IGN spekuliert zudem, ein PC-Release Anfang 2027 und ein Online-Modus könnten Call of Duty erneut treffen, das ist nur Einordnung ohne offizielle Termine.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/call-of-dutys-player-count-dropped-by-over-40-following-gta-6s-release-according-to-analysts"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Call of Duty",
+        "GTA 6",
+        "Alinea Analytics",
+        "Spielerzahlen"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.571Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A soldier-less abstract action scene of a ruined urban street at dusk, a lone original modern tactical helmet and an empty worn backpack resting on sandbags in the foreground with dust in the air, deserted street in the background lit by warm low sun and cool blue shadows, strong diagonals, low camera, no people, no weapons detail, no logos, no text.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-call-of-duty-minus-42-prozent-gta6.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-gta6-39-millionen-ps5-spieler",
+      "datum": "2026-11-24T00:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "PlayStation"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Sony: Mehr als 39 Millionen Spieler auf PS5 in vier Tagen, Rekord bei gleichzeitigen Spielern für ein PlayStation-Spiel – im Schnitt 17,4 Stunden",
+      "schlagzeile": "GTA 6: Sony meldet 39 Millionen PS5-Spieler und neuen Rekord",
+      "kurz": "Sony meldet in einem PlayStation-Blogeintrag mehr als 39 Millionen einzelne Spieler von GTA 6 auf der PS5 seit dem Start. Damit sei es der größte Launch der PlayStation-Geschichte. Auch bei den gleichzeitigen Spielern stellte GTA 6 einen Rekord für ein PlayStation-Spiel auf.",
+      "zusammenfassung": "Die Zahlen nennt Sony-Content-Manager Tim Turi in einem Blogeintrag, PC Gamer, IGN und VGC berichten darüber. Mehr als 39 Millionen einzelne Spieler haben GTA 6 laut Sony seit dem Start am 19. November auf der PS5 gespielt. Im Schnitt kamen sie auf 17,4 Stunden in vier Tagen. Zusätzlich sagt Sony, GTA 6 habe die höchste Zahl gleichzeitiger Spieler aller PlayStation-Spiele erreicht und damit frühere Bestmarken bei Mehrspieler-, Free-to-play- und Einzelspieler-Titeln übertroffen. Die konkrete Zahl der gleichzeitigen Spieler nennt Sony nicht, eine Schätzung von PC Gamer von bis zu drei bis vier Millionen ist nur eine Hochrechnung. Es handelt sich um Herstellerangaben zu Spielern, nicht um verkaufte Exemplare, und sie gelten nur für die PS5; Zahlen für Xbox nennt die Meldung nicht. Rockstar liegt bei Verkäufen noch hinter GTA 5 mit über 230 Millionen Exemplaren, das Spiel erscheint zudem irgendwann für den PC.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/sony-gta-6-set-record-for-highest-number-of-concurrent-players-for-any-game-on-playstation-ever/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-was-biggest-launch-in-playstation-history"
+        },
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/40-million-gta-6-players-ps5/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "PS5",
+        "Sony",
+        "Rekord",
+        "Spielerzahlen"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.436Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A cozy living room late at night, a modern white game console and a wireless controller on a low wooden TV cabinet, a large TV showing a blurred bright sunset coastal city skyline without any readable details or UI, several energy drink cans and a warm lamp, warm orange and cool teal contrast, shot from a low angle with shallow depth of field, original scene, no logos, no text, no characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-gta6-39-millionen-ps5-spieler.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-azure-apim-luecke-zugangsdaten",
+      "datum": "2026-11-23T21:42:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Azure",
+        "Sicherheit",
+        "Microsoft"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Microsoft warnt: Sicherheitslücke in Azure API Management Classic wurde ausgenutzt, um gespeicherte API-Zugangsdaten zu stehlen – norwegische Behörden sehen Angriffe auf Energiefirmen",
+      "schlagzeile": "Azure-Lücke: Angreifer stahlen API-Zugangsdaten von Kunden",
+      "kurz": "Microsoft hat Kunden gewarnt, dass eine Lücke in den Classic-Stufen von Azure API Management ausgenutzt wurde, um gespeicherte Zugangsdaten abzugreifen. Die Lücke wurde laut Microsoft am Folgetag nach ihrer Entdeckung per Gegenmaßnahme geschlossen. Bereits abgegriffene Zugangsdaten werden dadurch nicht ungültig, Betroffene sollen sie erneuern.",
+      "zusammenfassung": "Laut BleepingComputer sind die Stufen Developer, Basic, Standard und Premium von APIM Classic betroffen, nicht aber die Stufe Consumption und alle APIM-v2-Stufen. Ein Unbefugter konnte demnach auf Verwaltungsfunktionen zugreifen, wenn Instanzen nicht nach den empfohlenen Sicherheitspraktiken konfiguriert waren. Zu den möglicherweise offengelegten Daten zählen Geheimnisse in Named Values, Client Secrets von Identitätsanbietern und OpenID-Connect-Anbietern, Abonnement-Schlüssel und Tokens für Management-APIs. Microsoft schloss den Zugriffsweg am 19. November und rotierte eigene Schlüssel, betont aber, dass dies Kundenzugangsdaten, die schon vorher abgeflossen sein könnten, nicht automatisch ungültig macht. Kunden sollen potenziell betroffene Zugangsdaten sofort erneuern, Logs prüfen und auf verdächtige Aktivitäten achten. Die norwegische Sicherheitsbehörde NSM bringt die Lücke mit Angriffen auf die Energiefirmen Equinor und Skagerak Energi in Verbindung und rät, die Laufzeitversionen der eigenen Instanzen zu prüfen. Microsoft erklärte, die Korrektur sei bei allen von Microsoft gehosteten Instanzen ohne Kundenaktion ausgerollt; warum NSM trotzdem zur Prüfung rät, blieb offen. Ein Admin schilderte auf Reddit, ein legacy API ohne Logs sei missbraucht worden, das konnte BleepingComputer nicht unabhängig bestätigen. Die Meldung folgt auf den Entra-Connect-Health-Vorfall, über den wir bereits berichtet haben.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Azure",
+        "API Management",
+        "Sicherheitslücke",
+        "Microsoft",
+        "Equinor"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.856Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet data center corridor with rows of unbranded rack servers, one rack door ajar, a technician's laptop with an unreadable blurred screen resting on a small cart, a coiled terracotta network cable, a few calm green and one amber status light, warm light from an open door mixing with cool room light, shallow depth of field, documentary photo, no text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-azure-apim-luecke-zugangsdaten.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-mesa-27-radeonsi-radeon-kernel-treiber",
+      "datum": "2026-11-23T20:11:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Mesa",
+        "AMD"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Mesa 27.0: RadeonSI deaktiviert die Unterstützung des alten Radeon-Kernel-Treibers standardmäßig – betroffen sind GCN-1.0- und GCN-1.1-Grafikkarten",
+      "schlagzeile": "Mesa 27.0: Alte Radeons müssen auf den AMDGPU-Kerneltreiber",
+      "kurz": "In Mesa 27.0 ist die Unterstützung des alten Radeon-Kernel-Treibers durch RadeonSI standardmäßig abgeschaltet. Betroffen sind frühe GCN-1.0- und GCN-1.1-Karten, die bis vor etwa einem Jahr noch standardmäßig diesen Treiber nutzten. Wer Mesa aktualisiert, sollte auf Linux 7.1 oder neuer mit AMDGPU wechseln.",
+      "zusammenfassung": "Laut Phoronix hat AMD-Entwickler Pierre-Eric Pelloux-Prayer die Änderung in Mesa 27.0-devel eingebracht. Der AMDGPU-Kerneltreiber hat für die alten Karten inzwischen Funktionsgleichheit erreicht. Wer GCN 1.2 oder neuer nutzt, ist nicht betroffen, ebenso wenig Karten vor GCN, die weiter den R600-Treiber verwenden. Für alle, die Mesa aktualisieren, aber einen sehr alten Kernel behalten, gibt es vorübergehend die Umgebungsvariable AMD_DEBUG=use_radeon. In Mesa 27.1 oder später kann diese Unterstützung ganz entfernt werden. Betroffen sind Radeon-HD-7000-Karten und einige Folgemodelle. Die Änderung ist bisher nur im Entwicklungszweig, die Veröffentlichung von Mesa 27.0 steht noch aus.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/RadeonSI-Radeon-Disable-Default"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Mesa",
+        "RadeonSI",
+        "AMDGPU",
+        "Linux",
+        "GCN"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:10.246Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An older AMD-style graphics card with two visible axial fans lying on an open desktop PC case beside a laptop showing a blurred terminal window with nothing readable, warm honey-toned wooden desk, a small olive-green screwdriver, warm window light, shallow depth of field, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-mesa-27-radeonsi-radeon-kernel-treiber.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-steam-awards-2026-nominierungen",
+      "datum": "2026-11-23T20:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam",
+        "Valve"
+      ],
+      "kategorie": "PC-Spiele",
+      "titel": "Valve startet die Nominierungen für die Steam Awards 2026 zum zehnten Jubiläum: neue Kategorien und eine Hall of Fame mit den zehn bisherigen Spielen des Jahres",
+      "schlagzeile": "Steam Awards 2026: Nominierungen offen, GTA 5 gegen Elden Ring",
+      "kurz": "Valve hat die Nominierungsphase der Steam Awards 2026 gestartet, sie läuft bis zum 30.11. Zum zehnten Jubiläum gibt es drei neue Kategorien und eine Hall of Fame, in der die zehn bisherigen Spiele des Jahres gegeneinander antreten. Die Abstimmung beginnt mit dem Winter Sale am 17.12.",
+      "zusammenfassung": "Neu sind die Kategorien „Just Five More Minutes“, „Defies Description“ und „This is My Job Now“. In der Hall of Fame stehen laut PC Gamer GTA 5 (2016), The Witcher 3 (2017), PUBG (2018), Sekiro (2019), Red Dead Redemption 2 (2020), Resident Evil Village (2021), Elden Ring (2022), Baldur's Gate 3 (2023), Black Myth: Wukong (2024) und Hollow Knight: Silksong (2025). Diese Kategorie ist auf die zehn Titel festgelegt. In allen anderen Kategorien darf man jedes Spiel nominieren, das 2026 erschien. Steam zeigt dabei eine Liste gespielter und beliebter Titel, man kann aber auch freie Eingaben machen. Wer nominiert, bekommt wie üblich Steam-Abzeichen. Die Nominierten werden zum Start des Winter Sales am 17. Dezember bekanntgegeben, dann beginnt die Abstimmung.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/games/2026-steam-awards-pit-the-goty-winners-of-the-past-10-years-against-each-other-in-an-all-out-battle-for-supremacy/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Steam",
+        "Steam Awards",
+        "Valve",
+        "Hall of Fame"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.711Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original golden trophy-like abstract sculpture made of stacked glass and brass shapes standing on a wooden shelf next to a gaming PC case, a small potted plant, warm afternoon light, in the background a blurred shelf with games boxes without any text, warm gold and cool teal contrast, shallow depth of field, no logos, no text.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-steam-awards-2026-nominierungen.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-23-oledtextfix-farbsaeume",
       "datum": "2026-11-23T17:50:00+01:00",
@@ -275,6 +735,46 @@
       "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original cinematic scene at a sunny Florida-like coastal gas station at golden hour: an unbranded vintage convertible parked at the pump, an original adult driver seen from behind sitting on the hood checking an unbranded smartphone with a blank glowing screen, palm trees, a sudden change of weather as dark storm clouds roll in over the bright sky on one side, wet asphalt reflections, low camera angle, strong diagonal of the road, warm golden light against cool storm blue, natural rich colors. No readable text, no logos, no license plates, no recognizable characters, no game UI.",
       "bild": {
         "datei": "assets/img/news/2026-11-23-gta6-patch-01-002-002.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-asus-8-gb-ram-einsteiger-pcs",
+      "datum": "2026-11-23T15:29:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Arbeitsspeicher",
+        "ASUS",
+        "RAM-Krise"
+      ],
+      "kategorie": "Arbeitsspeicher",
+      "titel": "ASUS-Co-CEO Hsu im Q3-Earnings-Call: Einsteiger-PCs könnten wegen steigender Speicherpreise wieder mit nur 8 GB RAM erscheinen",
+      "schlagzeile": "RAM-Krise: ASUS erwartet Rückkehr zu 8 GB bei Einsteiger-PCs",
+      "kurz": "ASUS-Co-CEO S.Y. Hsu sagt, dass Einsteiger- und Mittelklasse-PCs wegen der gestiegenen Speicherkosten wieder mit nur 8 statt 16 GB RAM ausgeliefert werden könnten. ASUS habe dazu mit Microsoft zusammengearbeitet, das Windows entsprechend angepasst habe.",
+      "zusammenfassung": "Die Aussage stammt aus dem Telefonat zu den Q3-2026-Zahlen von ASUS, TechPowerUp zitiert sie über StockAnalysis. Laut Hsu hatte ASUS 16 GB als Standard etabliert, um ein gutes Nutzererlebnis zu sichern. Wegen der steigenden Speicherkosten könne die Basis nun wieder auf 8 GB sinken. Auf dem neuen Betriebssystem habe Microsoft Anpassungen vorgenommen, sodass selbst 8 GB eine akzeptable Erfahrung liefern könnten. Konkrete Modelle, Preise oder einen Starttermin nennt die Meldung nicht, es ist eine Erwartung und keine Produktankündigung. TechPowerUp erinnert daran, dass Microsoft im Mai 2026 kurzzeitig 32 GB als Empfehlung auf seiner Webseite führte und den Hinweis später wieder entfernte. Für Käufer bedeutet das: Beim Kauf eines günstigen Fertig-PCs oder Notebooks lohnt der Blick auf die RAM-Menge, besonders wenn der Speicher aufgelötet ist. Die Meldung passt zu den jüngsten Berichten über langfristig verplante DRAM-Kapazitäten bei den großen Herstellern.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355133/asus-predicts-return-to-8-gb-of-ram-as-budget-pc-standard-soon"
+      },
+      "weitere_links": [],
+      "tags": [
+        "ASUS",
+        "RAM",
+        "8 GB",
+        "Windows",
+        "Speicherkrise"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T09:10:09.113Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Two DDR5 memory sticks, one with a small gap beside it, lying on an open budget laptop motherboard with soldered chips, on a warm honey-toned wooden table next to a small terracotta coaster, screwdriver and a few screws, unbranded blank heat spreaders, warm window light, shallow depth of field, documentary photo.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-asus-8-gb-ram-einsteiger-pcs.webp",
         "ki_generiert": true
       }
     },
@@ -1268,6 +1768,47 @@
       }
     },
     {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -1311,47 +1852,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
@@ -4873,45 +5373,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:05.129Z"
-      },
-      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "Nintendo",
-        "Controller"
-      ],
-      "kategorie": "Zubehör",
-      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
-      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
-      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
-      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
-      "quelle": {
-        "name": "Polygon",
-        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "8BitDo",
-        "GameCube",
-        "Controller",
-        "Switch 2",
-        "PC"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:04.847Z"
       },
       "id": "2026-11-18-nand-spotpreise-minus-20",
@@ -4942,6 +5403,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
         "ki_generiert": true
       }
     },
