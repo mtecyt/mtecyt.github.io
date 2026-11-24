@@ -2,7 +2,7 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-23T21:58:25.077Z",
+    "stand": "2026-11-24T07:35:03.467Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
@@ -1268,47 +1268,6 @@
       }
     },
     {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -1352,6 +1311,47 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
@@ -4873,45 +4873,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:04.847Z"
-      },
-      "id": "2026-11-18-nand-spotpreise-minus-20",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "SSD",
-        "Speicherpreise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
-      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
-      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
-      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "NAND",
-        "SSD",
-        "Speicherpreise",
-        "YMTC",
-        "TrendForce"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:05.129Z"
       },
       "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
@@ -4942,6 +4903,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.847Z"
+      },
+      "id": "2026-11-18-nand-spotpreise-minus-20",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
+      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
+      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
+      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "YMTC",
+        "TrendForce"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
         "ki_generiert": true
       }
     },
@@ -5835,44 +5835,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A game developer's desk in warm late-afternoon window light: a wide monitor showing a blurred, unreadable photorealistic mountain landscape scene, a second monitor with an out-of-focus node-graph editor, an unbranded graphics card with two visible axial fans standing upright next to the keyboard, a small handheld gaming PC with a dark blank screen beside it, a muted terracotta notebook as accent, natural rich colors, shallow depth of field. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-21-fsr-4-1-2-unreal-rx6000.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-18T20:03:09.830Z"
-      },
-      "id": "2026-11-16-gta6-hacker-schuldig",
-      "datum": "2026-11-16T19:51:00+01:00",
-      "label": "News",
-      "bereich": "games",
-      "themen": [
-        "GTA 6"
-      ],
-      "kategorie": "Sicherheit",
-      "titel": "Hacker hinter dem GTA-6-Leak von 2022 bekennt sich vor britischem Gericht schuldig; Angriffe auf Rockstar, Uber und EE/BT mit geschätzt 10 Mio. Pfund Schaden",
-      "schlagzeile": "GTA-6-Leak von 2022: Hacker bekennt sich schuldig",
-      "kurz": "Der heute 21-Jährige, der 2022 Rockstar Games gehackt und frühe GTA-6-Videos veröffentlicht hatte, hat sich vor einem Londoner Gericht schuldig bekannt. Ein Strafmaß steht noch aus.",
-      "zusammenfassung": "Am 16. November bekannte sich der Mann am Woolwich Crown Court im Südosten Londons schuldig, Rockstar Games und weitere Firmen gehackt zu haben, darunter Uber und EE/BT. Der geschätzte Schaden der Cyberangriffe liegt laut Bericht bei rund 10 Millionen Pfund. Zur Zeit des Rockstar-Hacks war er 16 bis 17 Jahre alt. Laut Eurogamer, das sich auf die BBC beruft, war er damals in einem Hotel unter Polizeischutz untergebracht und nutzte für den Angriff nur einen Amazon Fire Stick, den Hotelfernseher sowie Bluetooth-Tastatur und -Maus. Er drang demnach auch in Rockstars Slack-Kanäle ein und drohte, den Quellcode von GTA 6 zu veröffentlichen. Die Leaks von 2022 zeigten rund eine Stunde unfertiges Gameplay und machten Protagonistin Lucia erstmals öffentlich. Zuvor war er wegen einer schweren Autismus-Diagnose zunächst in eine Klinik eingewiesen worden, wurde inzwischen aber für verhandlungsfähig erklärt und kam Anfang des Jahres in ein reguläres Gefängnis. Das Strafmaß steht noch aus. Nicht zu verwechseln ist der Fall mit den Leaks von 2026, die einem anderen Akteur zugeschrieben werden. Rockstar hatte den Einbruch 2022 bestätigt und erklärt, die Entwicklung sei langfristig nicht beeinträchtigt.",
-      "quelle": {
-        "name": "Eurogamer",
-        "url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty"
-      },
-      "weitere_links": [],
-      "tags": [
-        "GTA 6",
-        "Rockstar",
-        "Hack",
-        "Leak",
-        "Gericht"
-      ],
-      "img_prompt": "Documentary-style editorial photograph of an anonymous budget hotel room at night: wall-mounted TV with blurred dark screen, small generic streaming stick, wireless keyboard and mouse on a bedspread, paper coffee cup, warm lamp and cool window light, olive cushion accent, no people, no text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-16-gta6-hacker-schuldig.webp",
         "ki_generiert": true
       }
     }

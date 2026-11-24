@@ -2,10 +2,45 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-23T18:36:29.796Z",
+    "stand": "2026-11-24T07:35:03.466Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.830Z"
+      },
+      "id": "2026-11-16-gta6-hacker-schuldig",
+      "datum": "2026-11-16T19:51:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Hacker hinter dem GTA-6-Leak von 2022 bekennt sich vor britischem Gericht schuldig; Angriffe auf Rockstar, Uber und EE/BT mit geschätzt 10 Mio. Pfund Schaden",
+      "schlagzeile": "GTA-6-Leak von 2022: Hacker bekennt sich schuldig",
+      "kurz": "Der heute 21-Jährige, der 2022 Rockstar Games gehackt und frühe GTA-6-Videos veröffentlicht hatte, hat sich vor einem Londoner Gericht schuldig bekannt. Ein Strafmaß steht noch aus.",
+      "zusammenfassung": "Am 16. November bekannte sich der Mann am Woolwich Crown Court im Südosten Londons schuldig, Rockstar Games und weitere Firmen gehackt zu haben, darunter Uber und EE/BT. Der geschätzte Schaden der Cyberangriffe liegt laut Bericht bei rund 10 Millionen Pfund. Zur Zeit des Rockstar-Hacks war er 16 bis 17 Jahre alt. Laut Eurogamer, das sich auf die BBC beruft, war er damals in einem Hotel unter Polizeischutz untergebracht und nutzte für den Angriff nur einen Amazon Fire Stick, den Hotelfernseher sowie Bluetooth-Tastatur und -Maus. Er drang demnach auch in Rockstars Slack-Kanäle ein und drohte, den Quellcode von GTA 6 zu veröffentlichen. Die Leaks von 2022 zeigten rund eine Stunde unfertiges Gameplay und machten Protagonistin Lucia erstmals öffentlich. Zuvor war er wegen einer schweren Autismus-Diagnose zunächst in eine Klinik eingewiesen worden, wurde inzwischen aber für verhandlungsfähig erklärt und kam Anfang des Jahres in ein reguläres Gefängnis. Das Strafmaß steht noch aus. Nicht zu verwechseln ist der Fall mit den Leaks von 2026, die einem anderen Akteur zugeschrieben werden. Rockstar hatte den Einbruch 2022 bestätigt und erklärt, die Entwicklung sei langfristig nicht beeinträchtigt.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "Hack",
+        "Leak",
+        "Gericht"
+      ],
+      "img_prompt": "Documentary-style editorial photograph of an anonymous budget hotel room at night: wall-mounted TV with blurred dark screen, small generic streaming stick, wireless keyboard and mouse on a bedspread, paper coffee cup, warm lamp and cool window light, olive cushion accent, no people, no text, no logos.",
+      "archiviert_am": "2026-11-24T07:35:03.466Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
