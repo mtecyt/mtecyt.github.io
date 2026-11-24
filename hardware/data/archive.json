@@ -2,10 +2,216 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-24T07:35:03.466Z",
+    "stand": "2026-11-24T18:32:15.893Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.578Z"
+      },
+      "id": "2026-11-17-game-awards-2026-nominierte",
+      "datum": "2026-11-17T19:16:01+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Events",
+      "titel": "The Game Awards 2026: GTA 6 in acht Kategorien nominiert; GOTY-Kandidaten 007 First Light, Control Resonant, GTA 6, Phantom Blade Zero, Resident Evil Requiem und Zelda: Ocarina of Time; Show am 10. Dezember",
+      "schlagzeile": "Game Awards 2026: GTA 6 räumt acht Nominierungen ab",
+      "kurz": "Die Nominierten für The Game Awards 2026 stehen fest. GTA 6 ist in acht Kategorien vertreten, darunter Spiel des Jahres. Die Gewinner werden am 10. Dezember in Los Angeles verkündet.",
+      "zusammenfassung": "Geoff Keighley hat am 17. November die Nominierten der Game Awards 2026 in allen Kategorien veröffentlicht. Grand Theft Auto 6 führt das Feld mit acht Nominierungen an, unter anderem für Spiel des Jahres, Game Direction, Erzählung, Art Direction, Musik und Audio. Um den Titel Spiel des Jahres kämpfen 007 First Light, Control Resonant, GTA 6, Phantom Blade Zero, Resident Evil Requiem und The Legend of Zelda: Ocarina of Time. Control Resonant und 007 First Light sind ebenfalls mehrfach nominiert. In der Kategorie Most Anticipated Game stehen unter anderem Fable, God of War Laufey und The Witcher 4. Bei Best Ongoing Game sind etwa Arc Raiders, Fortnite und The Witcher 3 dabei. Über die Gewinner entscheidet zu 90 % eine internationale Jury und zu 10 % das Fan-Voting, das bereits läuft. Die Kategorie Player's Voice wird komplett von Fans bestimmt. Die Show läuft am 10. Dezember aus dem Peacock Theater in Los Angeles und soll wie gewohnt auch neue Spiele-Ankündigungen bringen. Bemerkenswert: GTA 6 erscheint erst am 19. November und ist damit nur knapp für den diesjährigen Zeitraum qualifiziert. Eine vollständige Liste aller Kategorien bieten die verlinkten Quellen.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/grand-theft-auto-vi-dominates-the-game-awards-2026-with-eight-nominations/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN Deutschland",
+          "url": "https://de.ign.com/project-007/157337/die-nominierungen-fur-die-game-awards-2026-stehen-fest-gta-6-dominiert"
+        }
+      ],
+      "tags": [
+        "The Game Awards",
+        "GTA 6",
+        "GOTY",
+        "Control Resonant",
+        "007 First Light"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Wide cinematic view of an empty grand theatre stage prepared for a video game award show: red velvet seats, warm golden spotlights with cool-blue accents, six screens with blurred colorful abstract skies, a simple original faceted golden statuette on a pedestal, no people.",
+      "archiviert_am": "2026-11-24T18:32:15.885Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.136Z"
+      },
+      "id": "2026-11-17-doom-dark-ages-fsr41-vulkan",
+      "datum": "2026-11-17T18:11:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "FSR",
+        "Grafik"
+      ],
+      "kategorie": "Technik",
+      "titel": "Update 5 von Doom: The Dark Ages bringt als erstes Vulkan-Spiel offiziell AMD FSR 4.1 und Frame Generation 4; AMD aktualisiert zugleich das Unreal-Engine-Plugin",
+      "schlagzeile": "Doom: The Dark Ages bringt als erstes Vulkan-Spiel FSR 4.1 nativ",
+      "kurz": "Mit Update 5 unterstützt Doom: The Dark Ages als erstes Vulkan-Spiel offiziell AMDs FSR 4.1 und Frame Generation 4. Damit entfällt der bisher oft nötige Umweg über Drittanbieter-Werkzeuge. Parallel hat AMD das Unreal-Engine-Plugin auf Version 4.1.2 aktualisiert, dort bleibt es allerdings bei DirectX 12.",
+      "zusammenfassung": "Bestätigt hat das AMD-Manager Jack Huynh auf X, berichtet ComputerBase. Ende Oktober hatte AMD im FSR SDK 2.4.0 bereits eine Vulkan-Schnittstelle bereitgestellt, Spiele mussten sie aber erst einbauen. Das maschinelle Hochskalieren von FSR 4.1 läuft auf Radeon-Karten der Serien RX 9000, RX 7000 und RX 6000 sowie auf ausgewählten Ryzen-APUs. Für die KI-gestützte Frame Generation 4 sind mindestens Radeon-Karten der RX-9000-Serie nötig. id Software gibt außerdem an, Frame Generation lasse sich auf Intel-Grafik aktivieren, wenn Hardware und Treiber mitspielen; konkrete Modelle nennt das Studio nicht. Das Unreal-Plugin 4.1.2 überträgt die SDK-Neuerungen auf die Unreal Engine 5.3 bis 5.8, erweitert das Hochskalieren auf RX 6000 und bestimmte Ryzen-Prozessoren mit integrierter Grafik und bringt Verbesserungen beim Frame Pacing auf RX 9000. Die Vulkan-Funktion aus dem SDK steckt in diesem Plugin noch nicht. Update 5 ergänzt außerdem den Slaughter-Modus für die im Juli 2026 erschienene Story-Erweiterung Revelations, mit endlos steigenden Gegnerwellen. Für den Ticker ist vor allem der erste native FSR-4.1-Einsatz unter Vulkan relevant, nicht nur ein weiteres Spiele-Update.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/doom-the-dark-ages-update-5-bringt-amd-fsr-4-1-nativ-in-ein-vulkan-spiel.100371/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Doom",
+        "FSR 4.1",
+        "Vulkan",
+        "AMD",
+        "Unreal Engine"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Dynamic original medieval-fantasy melee in warm late-day light: an original armored warrior with a unique unbranded helmet charges through a ruined stone hall, dust and debris in the air, strong diagonal composition and low camera, rich natural colors, no recognizable game character or franchise armor, no logos, no text, no UI, not a screenshot.",
+      "archiviert_am": "2026-11-24T18:32:15.887Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.926Z"
+      },
+      "id": "2026-11-18-firaxis-entlassungen",
+      "datum": "2026-11-17T17:26:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Spieleindustrie"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Firaxis entlässt nach Bloomberg rund ein Drittel der Belegschaft, etwa 60 Personen; Studioleiterin Heather Hazen geht, 2K bestätigt den Umbau",
+      "schlagzeile": "Civilization-Studio Firaxis entlässt rund ein Drittel der Belegschaft",
+      "kurz": "Das Civilization- und XCOM-Studio Firaxis hat nach Angaben von Bloomberg rund 60 Menschen entlassen, etwa ein Drittel der Belegschaft. Studioleiterin Heather Hazen verlässt das Unternehmen, das bestätigt ein Sprecher von 2K. Über ein neues XCOM-Spiel mit Entwicklungsproblemen berichtet Bloomberg unter Berufung auf informierte Personen.",
+      "zusammenfassung": "Die Streichungen erfolgten am 17. November, also kurz vor dem Start von GTA 6 beim gemeinsamen Mutterkonzern Take-Two. 2K bestätigt den Umbau, nicht aber die Zahl der Betroffenen. In einer Stellungnahme heißt es, Firaxis konzentriere sich wieder auf seine Stärke, erstklassige Strategiespiele zu entwickeln, verkleinere das Studio und müsse sich von talentierten Kollegen verabschieden. Diese Entscheidungen fielen nie leicht, seien aber nötig. Zu Hazens Wechsel sagt 2K, sie übergebe die Leitung bewusst jetzt, damit eine neue Führung den nächsten Abschnitt von Beginn an verantworten könne. Bloomberg berichtet unter Berufung auf mit den Vorgängen vertraute Personen zudem, ein neues XCOM-Spiel habe unter Entwicklungsproblemen gelitten und im Sommer einen wichtigen Meilenstein verfehlt; die Arbeit gehe weiter, das Projekt könne sich durch die Kürzungen aber noch einmal ändern. Diese Punkte sind nicht offiziell bestätigt. Das zuletzt erschienene Spiel des Studios, Civilization VII, war im Februar 2025 gestartet und in der Spielerschaft umstritten. Firaxis hatte in den Vorjahren bereits Personal abgebaut. Die genaue künftige Studioleitung ist noch nicht benannt.",
+      "quelle": {
+        "name": "IGN Deutschland",
+        "url": "https://de.ign.com/sid-meiers-civilization-vii/157335/diese-entscheidungen-fallen-nie-leicht-civilization-entwickler-firaxis-entlasst-ein-drittel-seiner-b"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/gaming-industry/civilization-dev-firaxis-reportedly-lays-off-a-third-of-its-staff-studio-head-departs/"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/firaxis-layoffs-civilization-xcom-heather-hazen"
+        }
+      ],
+      "tags": [
+        "Firaxis",
+        "2K",
+        "Civilization",
+        "XCOM",
+        "Entlassungen"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Quiet empty strategy-game studio office in warm late-afternoon light: unoccupied desks with unmarked monitors showing only a softly blurred abstract map of generic terrain (no real game UI), packed cardboard boxes, a half-cleared corkboard with blank papers, an olive plant as muted accent, no logos, no text, no recognizable characters.",
+      "archiviert_am": "2026-11-24T18:32:15.891Z"
+    },
+    {
+      "id": "2026-11-23-valve-amdgpu-weniger-ruckler",
+      "datum": "2026-11-17T15:05:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "Treiber",
+        "Radeon"
+      ],
+      "kategorie": "Linux",
+      "titel": "Valve-Entwicklerin legt überarbeitete AMDGPU-Kernel-Patches vor, die Ruckler in manchen Windows-Spielen unter Proton verringern sollen, indem Speicher-Mapping-Updates gebündelt werden",
+      "schlagzeile": "Weniger Ruckler unter Linux: Valve-Patches sollen Radeon-Spiele glätten",
+      "kurz": "Valve-Entwicklerin Natalie Vock hat neue Patches für den Linux-Grafiktreiber AMDGPU veröffentlicht. Sie sollen spürbare Ruckler in manchen Windows-Spielen unter Proton verringern. Die Patches sind noch in Prüfung, Messwerte gibt es keine.",
+      "zusammenfassung": "Viele neue Spiele nutzen sogenannte Sparse Bindings und binden Teile von Texturen oder anderen Grafikressourcen bei Bedarf ein oder aus. Laut Vock synchronisiert der Treiber diese Updates bisher mit anderer Grafikarbeit, bei viel Last stehen Grafik- und Rechen-Warteschlangen dann lange still. Zusätzlich braucht jede Änderung einen eigenen Systemaufruf, was viel CPU-Zeit kostet. Die zehn Patches führen eine neue Schnittstelle namens AMDGPU_GEM_VA2 ein, die viele Änderungen in einem Aufruf bündelt und gezielter synchronisiert. Laut Vock ergibt das eine deutliche Verringerung der Ruckler, Zahlen oder betroffene Spiele nennt sie nicht. Die erste Version gab es schon im Mai, die Bündelung kam mit der Fassung vom 17. November dazu, berichten Phoronix und VideoCardz. Damit Spieler profitieren, muss auch ein Treiber wie Mesa RADV die neue Schnittstelle nutzen. Ob die Patches schon in Linux 7.5 landen, ist offen. Die Meldung ist einige Tage alt, wir nehmen sie wegen ihrer Bedeutung für Linux-Gaming mit Radeon-Karten auf.",
+      "quelle": {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/news/AMDGPU-Sparse-Gaming-Valve"
+      },
+      "weitere_links": [
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/valve-posts-amdgpu-patches-to-reduce-stutter-in-some-proton-games"
+        }
+      ],
+      "tags": [
+        "Linux",
+        "AMDGPU",
+        "Valve",
+        "Proton",
+        "Radeon",
+        "Ruckler",
+        "Treiber"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-23T14:55:14.571Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact living-room gaming PC with its side panel removed on a low wooden sideboard, an unbranded graphics card with two visible axial fans installed, a gamepad without markings lying in front, a television in the background with a softly blurred abstract landscape on screen, a muted olive cushion as accent, warm natural evening daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "archiviert_am": "2026-11-24T18:32:15.893Z"
+    },
+    {
+      "id": "2026-11-21-fsr-4-1-2-unreal-rx6000",
+      "datum": "2026-11-17T09:04:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "FSR",
+        "AMD",
+        "Unreal Engine"
+      ],
+      "kategorie": "Grafik-API",
+      "titel": "AMD bringt FSR Upscaling 4.1.2 als Unreal-Engine-5-Plugin und damit ML-Upscaling für Radeon RX 6000 und Ryzen-Handhelds",
+      "schlagzeile": "FSR 4.1 für Unreal Engine 5: ML-Upscaling jetzt auch für Radeon RX 6000",
+      "kurz": "AMD hat sein FSR-Plugin für Unreal Engine 5 auf Version 4.1.2 aktualisiert. Damit läuft das ML-basierte FSR-Upscaling erstmals auch auf Radeon RX 6000 und ausgewählten Ryzen-Prozessoren mit integrierter Grafik. Das Plugin unterstützt Unreal Engine 5.3 bis 5.8, vorerst nur mit DirectX 12.",
+      "zusammenfassung": "AMD hat das Update auf GPUOpen am 16. November veröffentlicht, VideoCardz berichtete am 17. November. Das Plugin basiert auf dem FSR-SDK 2.4 mit dem Codenamen Redstone. Für Radeon RX 6000 und Ryzen AI Max nutzt AMD das volle INT8-Modell, für schwächere integrierte Grafik in Notebooks und Handhelds ein optimiertes Modell mit weniger als halber Größe. Die Auswahl erfolgt automatisch je nach Hardware, auf nicht unterstützten Grafikkarten greift FSR 3 als Rückfallebene. Zum Paket gehören außerdem FSR Frame Generation 4.0.2 und eine neue Swapchain, die auf Radeon RX 9000 die Bildausgabe dem Treiber überlässt. Diese Funktion benötigt den Adrenalin-Treiber 26.10.1 oder neuer, FSR Frame Generation 4.0.2 setzt Windows 11 voraus. Auch das Anti-Lag-2-Plugin wurde auf Version 2.0.6 aktualisiert. Vulkan unterstützt das SDK bereits, das Unreal-Plugin aber noch nicht, einen Termin nennt AMD nicht. Weil das Plugin FSR über die FSR-Schnittstelle einbindet, können Spiele neuere FSR-Versionen später auch per Treiber-Update erhalten. Ob und wann einzelne Spiele das Update übernehmen, entscheiden die Entwickler.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/amd-releases-fsr-4-1-2-unreal-engine-5-plugin-with-radeon-rx-6000-and-ryzen-handheld-support"
+      },
+      "weitere_links": [
+        {
+          "name": "AMD GPUOpen",
+          "url": "https://gpuopen.com/learn/amd-fsr-ue-plugin-412/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "FSR 4",
+        "Unreal Engine 5",
+        "Radeon RX 6000",
+        "Upscaling"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-21T13:44:31.361Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A game developer's desk in warm late-afternoon window light: a wide monitor showing a blurred, unreadable photorealistic mountain landscape scene, a second monitor with an out-of-focus node-graph editor, an unbranded graphics card with two visible axial fans standing upright next to the keyboard, a small handheld gaming PC with a dark blank screen beside it, a muted terracotta notebook as accent, natural rich colors, shallow depth of field. No readable text, no logos, no faces.",
+      "archiviert_am": "2026-11-24T18:32:15.893Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
