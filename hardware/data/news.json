@@ -2,10 +2,749 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-25T10:54:27.842Z",
+    "stand": "2026-11-25T11:13:17.496Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-25-mario-kart-world-1-9-0",
+      "datum": "2026-11-25T11:23:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Nintendo"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Mario Kart World 1.9.0 bringt acht Remix-Strecken, zwei neue Knockout-Tour-Routen und automatische Wiederholungen",
+      "schlagzeile": "Mario Kart World 1.9.0: Acht Remix-Strecken und neue Knockout-Touren",
+      "kurz": "Nintendo hat das kostenlose Update 1.9.0 für Mario Kart World veröffentlicht. Es ergänzt acht abgewandelte Versionen bestehender Strecken, zwei neue Routen für die Knockout-Tour und speichert die letzten Rennen automatisch. Das bestätigt Nintendo selbst, berichtet unter anderem Video Games Chronicle.",
+      "zusammenfassung": "Die acht Kurse sind Remixes vorhandener Strecken, keine komplett neuen Schauplätze: Airship Fortress 2, Desert Hills 2, Salty Salty Speedway 2, DK Pass 2, Koopa Troopa Beach 2, Shy Guy Bazaar 2, Mario Bros. Circuit 2 und Wario Stadium 2. Sie stehen in VS-Rennen, Zeitfahren sowie im Online- und Wireless-Spiel zur Verfügung. Für die 24-Spieler-Knockout-Tour kommen Feather Rally von Mario Bros. Circuit nach Boo Cinema und Lucky Cat Rally von Great ? Block Ruins nach Sky-High Sundae hinzu. Wählbar sind sie, wenn man zuvor bereits eine andere Rally gefahren ist. Im Hauptmenü gibt es nun Wiederholungen: Die jüngsten Rennen und Kämpfe werden automatisch gespeichert, ältere fallen weg, sobald der Speicher voll ist. Abgebrochene Rennen und Wiederholungen aus Version 1.8.0 oder älter werden nicht übernommen. Dazu kommen kleinere Spielanpassungen und Fehlerbehebungen, etwa bei bestimmten Abkürzungen und Kamera-Perspektiven. Das Update ist laut Nintendo nötig, um die Internet-Funktionen zu nutzen, und alle Mitspieler brauchen dieselbe Version. Nintendo of Europe hat das Update am Mittwochvormittag auch auf X angekündigt. In den Google-Tagestrends in Deutschland tauchte „mario kart world“ am Mittwoch prominent auf.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/mario-kart-world-gets-a-new-free-update-adding-eight-new-tracks-and-other-features/"
+      },
+      "weitere_links": [
+        {
+          "name": "Nintendo UK (offiziell)",
+          "url": "https://www.nintendo.com/en-gb/News/2026/November/Mario-Kart-World-Ver-1-9-0-update-now-available--3250128.html"
+        },
+        {
+          "name": "X: Nintendo of Europe",
+          "url": "https://x.com/NintendoEurope/status/2125516286083891223"
+        }
+      ],
+      "tags": [
+        "Mario Kart World",
+        "Nintendo",
+        "Switch 2",
+        "Update"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.325Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. A dynamic low-angle view of original adult racers in colorful but unbranded open-wheel karts sliding around a sunlit tropical coastal circuit with palm trees, rocky cliffs and a turquoise sea, one kart kicking up dust on a tight downhill bend, warm late-afternoon light, rich natural colors, no recognizable Nintendo or Mario characters, no mushrooms, no turtle shells, no famous kart shapes, no logos, no text, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-mario-kart-world-1-9-0.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-gothic-3-classic-konsolen",
+      "datum": "2026-11-25T11:15:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Rollenspiele"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "THQ Nordic veröffentlicht Gothic 3 Classic für PS5 und Xbox Series; die Switch-2-Version rutscht auf Anfang 2027",
+      "schlagzeile": "Gothic 3 erstmals auf Konsolen: Classic-Version mit Fan-Patch",
+      "kurz": "Zwei Jahrzehnte nach dem holprigen PC-Start ist Gothic 3 erstmals auf Konsolen erschienen. THQ Nordic verkauft die Classic-Version seit dem 24. November für rund 30 Euro auf PS5 und Xbox Series X/S. Die technische Grundlage ist der Community Patch 1.75, die Switch-2-Fassung kommt erst Anfang 2027.",
+      "zusammenfassung": "Die Umsetzung folgt auf das Remake des ersten Gothic und die Portierungen von Gothic und Gothic 2 für PlayStation und Xbox. THQ Nordic verspricht eine an Controller angepasste Menüführung und eine flüssigere Darstellung, nennt aber keine konkreten Werte für Auflösung und Bildrate. Auf der PS5 sollen die Vibration und die adaptiven Trigger des DualSense unterstützt werden. Wer die Xbox-Version besitzt und ein passendes Game-Pass-Abo hat, kann das Spiel auch per Cloud Gaming streamen. Die Switch-2-Umsetzung war zunächst ebenfalls zum Start geplant und wurde auf Anfang 2027 verschoben. Ob Mitglieder des damaligen Fan-Patch-Teams an der Konsolenfassung mitgearbeitet haben, ist laut heise nicht bekannt. Das Original von Piranha Bytes erschien 2006 unfertig auf dem PC und wurde später vor allem durch die Community spielbar gemacht. Piranha Bytes selbst wurde 2024 im Zuge des Sparkurses von Embracer geschlossen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Gothic-3-Classic-Rollenspiel-kommt-mit-Fan-Patch-auf-PS5-und-Xbox-11537480.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Gothic 3",
+        "THQ Nordic",
+        "PS5",
+        "Xbox",
+        "Community Patch"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.580Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. An original medieval fantasy wanderer in worn leather and a weathered cloak stands on a sunlit grassy ridge looking toward a distant walled town and forested hills, a second figure with a simple unbranded sword walks a dirt path below, warm late-afternoon light, natural rich greens and golds, coherent anatomy, original clothing that does not copy any known game character, no logos, no text, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-gothic-3-classic-konsolen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-rtx-5090-preise-unter-8000",
+      "datum": "2026-11-25T10:42:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "ComputerBase: Mehr lagernde Custom-Modelle der GeForce RTX 5090, Einstiegspreis am Mittwochvormittag 7.499 Euro; RTX 5080 nähert sich 2.000 Euro",
+      "schlagzeile": "Mehr Ware, weniger Extrem: RTX 5090 im Handel unter 8.000 Euro",
+      "kurz": "Im deutschen Handel sind wieder mehr GeForce RTX 5090 ab Lager verfügbar, der günstigste Preis lag am Mittwochvormittag bei 7.499 Euro. Mitte Oktober lag der Einstieg noch knapp unter 8.000 Euro. Von einer echten Entspannung kann aber keine Rede sein: Die RTX 5080 nähert sich der 2.000-Euro-Marke.",
+      "zusammenfassung": "Im Oktober hatte Nvidia dementiert, die GeForce RTX 5090 einzustellen, und auf Beschränkungen in der Lieferkette verwiesen. Knapp sechs Wochen später sieht ComputerBase eine kleine Trendwende im Handel. Im Vergleich zu Mitte Oktober können wieder mehr Händler eine größere Auswahl an Custom-Designs direkt ab Lager liefern. Der Einstiegspreis lag am Mittwochvormittag bei 7.499 Euro, zuvor knapp unter 8.000 Euro. Für die meisten Käufer bleibt die Karte damit unerreichbar, die Lage hat sich hierzulande aber zumindest nicht weiter verschärft. An Nvidias Aussage, es gebe die RTX 5090 weiterhin, sei demzufolge etwas dran. Gleichzeitig nähert sich die zweitstärkste Blackwell-Spielerkarte, die GeForce RTX 5080, der 2.000-Euro-Marke; viele Modelle sind nicht mehr darunter zu bekommen. Das günstigste als lagernd gemeldete Modell kostete zum Zeitpunkt der Meldung 1.968 Euro, auf eBay ab 1.948 Euro. Für die GeForce RTX 5070 Ti lagen die Bestpreise bei 1.379 Euro. Die genannten Beträge sind eine Momentaufnahme vom Mittwochvormittag und können sich schnell ändern. ComputerBase betont ausdrücklich, echte Entspannung sehe anders aus.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/geforce-rtx-5090-mehr-ware-senkt-preise-im-handel-unter-8-000-euro.100509/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RTX 5090",
+        "RTX 5080",
+        "Preise",
+        "Nvidia"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:11.192Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several large unbranded graphics cards with two visible axial fans each standing on a wooden shop counter in warm morning light, one card lying flat in the foreground with PCIe gold contacts only along one long edge, plain unmarked cardboard boxes slightly out of focus in the background, a small muted terracotta accent from a ceramic mug, documentary photo, no text, no numbers, no logos, no price tags with writing.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-rtx-5090-preise-unter-8000.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-windows-november-ntlm-anmeldung",
+      "datum": "2026-11-25T10:02:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows",
+        "Sicherheit"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft bestätigt Anmeldeprobleme nach den November-Sicherheitsupdates: NTLM-Signatur-Änderungen gegen CVE-2026-118737 stören manche Drittanbieter",
+      "schlagzeile": "November-Updates: Microsoft bestätigt Anmeldeprobleme durch NTLM-Fix",
+      "kurz": "Nach den November-Sicherheitsupdates kann die Anmeldung an manchen Geräten und Programmen scheitern. Microsoft bestätigt Kompatibilitätsprobleme, die durch verschärfte NTLM-Signaturen entstehen. Betroffen sind unter anderem Anmeldeproxys, Single-Sign-on und Paketlösungen von Drittanbietern. Einen endgültigen Fix gibt es noch nicht.",
+      "zusammenfassung": "Die Updates schließen laut BleepingComputer unter anderem die als CVE-2026-118737 geführte Lücke in der Windows-RPC-Laufzeit. Microsoft beschreibt die Änderungen als erste Phase strengerer NTLM-Nachrichtensignaturen, die Relay-Angriffe erschweren sollen. Dieselbe Verschärfung kann aber dazu führen, dass Geräte oder Programme scheitern, die das NTLM-Protokoll nicht vollständig umsetzen. In einem aktualisierten Support-Dokument nennt Microsoft Anmeldeproxys, SSO-Lösungen und Anwendungspaketierung als betroffene Beispiele. Einen Patch für diese Kompatibilitätsprobleme gibt es noch nicht. Als vorübergehenden Ausweg nennt Microsoft eine Registrierungsoption, die unsigniertes NTLM wieder erlaubt; der Eintrag kann später entfallen. Empfohlen bleibt, auf Kerberos umzustellen oder ein Update des jeweiligen Herstellers abzuwarten. Unabhängig davon hat Microsoft weitere Nebenwirkungen der November-Updates bestätigt: Probleme bei der Windows-Aktivierung und Leistungseinbußen bei SQL Server. Außerdem untersucht das Unternehmen Berichte, wonach das Drucken komplex formatierter Dokumente nach den Updates fehlschlagen kann. Heimanwender merken von den NTLM-Änderungen oft nichts, in Firmennetzen mit älteren Proxys oder SSO-Lösungen können sie aber die Anmeldung blockieren.",
+      "quelle": {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
+      },
+      "weitere_links": [
+        {
+          "name": "Microsoft Support (KB5135557)",
+          "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/11/kb5135557-ntlm-signing-security-improvements"
+        }
+      ],
+      "tags": [
+        "Windows",
+        "November-Update",
+        "NTLM",
+        "Microsoft"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.709Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A business laptop open on a wooden office desk showing a softly blurred login screen with no readable text, an ethernet cable and a second blank-screen laptop in the background, a ceramic mug and a stack of papers, warm late-morning window light, a small muted dusty teal accent from a notebook, documentary photo, no text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-windows-november-ntlm-anmeldung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-huang-keine-nachfolgeregelung",
+      "datum": "2026-11-25T09:49:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "Erstes Mitarbeiter-Meeting nach der Rückkehr: Jensen Huang entschuldigt sich und lehnt eine Nachfolgeregelung bei Nvidia ab",
+      "schlagzeile": "Zurück als CEO: Huang lehnt eine Nachfolgeregelung bei Nvidia ab",
+      "kurz": "In seinem ersten Mitarbeiter-Meeting nach der Wiedereinsetzung als CEO hat sich Jensen Huang laut Medienberichten bei der Belegschaft entschuldigt. Zugleich erklärte er, Nvidia brauche keine klassische Nachfolgeregelung. Das berichtet Golem.de unter Berufung auf CNBC.",
+      "zusammenfassung": "Das Treffen fand am Dienstag statt, einen Tag nachdem der Verwaltungsrat Huang wieder zum Chef gemacht hatte. Nach Angaben von Personen im Raum, die CNBC und in der Folge Golem.de zitieren, sagte Huang, er habe die Mitarbeiter enttäuscht und wolle es beim zweiten Anlauf besser machen. „Ich habe euch alle verletzt“, soll er gesagt haben. Zur Nachfolge erklärte Huang demnach, Nvidia habe mehrere fähige Führungskräfte für unterschiedliche Bereiche und arbeite mit einem eigenen Geschäftsmodell. Eine klassische Nachfolgeregelung würde nur eine unnötige Hierarchie erzeugen. Eine Stellungnahme von Nvidia lag zum Zeitpunkt des CNBC-Berichts nicht vor. Die Schilderungen stammen von anonymen Teilnehmern, nicht von einer offiziellen Abschrift. Anleger hatten nach Huangs Rücktritt am 12. November über die künftige Führung spekuliert. Dass Huang an der Spitze bleibt und keinen designierten Nachfolger benennt, ändert an dieser Unsicherheit wenig.",
+      "quelle": {
+        "name": "Golem.de",
+        "url": "https://www.golem.de/news/nvidia-jensen-huang-lehnt-nachfolgeregelung-ab-2611-215628.html"
+      },
+      "weitere_links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "CEO",
+        "Nachfolge"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:11.806Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty modern company auditorium just after an all-hands meeting, rows of chairs slightly out of place, a simple wooden podium on a low stage in front of a large blank dark screen, warm overhead lights mixing with cool daylight from tall windows, no people and no faces, a small muted olive accent from a chair, documentary photo, no text, no logos, no names.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-huang-keine-nachfolgeregelung.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-infostealer-2-milliarden-zugangsdaten",
+      "datum": "2026-11-25T08:10:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Sicherheitsforscher Jeremiah Fowler findet ungeschützte Datenbank mit rund 2 Milliarden Zugangsdaten aus Infostealer-Quellen",
+      "schlagzeile": "2 Milliarden Zugangsdaten offen im Netz – samt Cookies und Sitzungen",
+      "kurz": "Der Sicherheitsforscher Jeremiah Fowler hat eine ungeschützte Datenbank mit rund 2 Milliarden Zugangsdatensätzen gefunden. Neben E-Mail-Adressen und Passwörtern enthielt sie auch Cookies, Sitzungstoken und Gerätedaten. Die Daten stammen offenbar zum Großteil von Infostealer-Schadsoftware.",
+      "zusammenfassung": "Die Datenbank war weder verschlüsselt noch mit einem Passwort geschützt, schreibt Fowler in seinem Bericht. Es ist nach seinen Worten die größte Sammlung von Zugangsdaten, die er je gefunden hat, und mehr als 13-mal so groß wie ein Fund von 149 Millionen Logins Anfang des Jahres. In 8.471 Ordnern lagen Zugangs- und Kontodaten im Klartext, teils nach Ländern sortiert, darunter Deutschland. Rund 400.000 Dokumente stammen wohl von Schadsoftware, die pro Opfer eigene Ordner mit Cookies, Browser-Passwörtern und Systemdaten anlegt. Wem die Datenbank gehörte, ist unklar. Fowler vermutet eine Sammlung aus kriminellen Quellen oder einen Datenhändler, schließt ein Forschungsprojekt aber nicht aus. Nach seiner Meldung sperrte der Hoster den Zugang erst einige Tage später. Die Zahl bedeutet nicht 2 Milliarden Opfer, denn ein infiziertes Gerät liefert oft Dutzende Konten, und es gibt Dubletten und alte Passwörter. Gefährlich sind vor allem Sitzungstoken, weil sie eine Anmeldung auch ohne Passwort ermöglichen können. Fowler rät zu Mehr-Faktor-Anmeldung, aktuellen Updates und Vorsicht bei Browser-Erweiterungen und Anhängen. Wer eine Infektion vermutet, sollte das Gerät vom Netz trennen, aktive Sitzungen beenden und Passwörter ändern, denn das bloße Löschen der Schadsoftware reicht nicht.",
+      "quelle": {
+        "name": "Neowin",
+        "url": "https://www.neowin.net/news/dataset-containing-2-billion-records-gets-exposed-online/"
+      },
+      "weitere_links": [
+        {
+          "name": "Bericht von Jeremiah Fowler (ExpressVPN)",
+          "url": "https://www.expressvpn.com/research/2billion-credentials-exposed"
+        }
+      ],
+      "tags": [
+        "Datenleck",
+        "Infostealer",
+        "Passwörter",
+        "Sitzungstoken",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:13.084Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A laptop on a dark wooden desk at night with its screen showing a softly blurred wall of unreadable grey text lines, a small open padlock lying next to the keyboard, a smartphone face down, warm desk lamp light against cool blue screen glow, a small muted plum accent from a notebook, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-infostealer-2-milliarden-zugangsdaten.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-gta6-pc-port-3007-repos-prolog",
+      "datum": "2026-11-25T07:44:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "PC"
+      ],
+      "kategorie": "PC-Spiele",
+      "titel": "Take-Two lässt Leonida samt 3.007 GitHub-Repositories per DMCA sperren; inoffizieller Port ZETTROX läuft auf dem PC bis durch den Prolog",
+      "schlagzeile": "GTA 6 auf PC: Take-Two sperrt 3.007 Repos, Fan-Port schafft den Prolog",
+      "kurz": "Nach einem DMCA-Antrag von Take-Two hat GitHub das Rekompilierungsprojekt Leonida und das gesamte Netzwerk aus 3.007 Repositories gesperrt. Die inoffiziellen PC-Ports auf Basis des geleakten Xbox-Builds laufen trotzdem weiter. Der öffentliche Build ZETTROX schafft laut PCGH schon den Prolog, allerdings mit nur 1 bis 3 fps.",
+      "zusammenfassung": "Laut dem von GitHub veröffentlichten DMCA-Antrag richtete sich Take-Two gegen das Leonida-Repository und mehr als 2.900 Forks, berichtet heise. Take-Two sieht darin ein abgeleitetes Werk, das gegen Rockstars Nutzungsbedingungen verstößt, die Dekompilieren und Reverse Engineering verbieten. Dass Leonida selbst keine Spieldateien enthielt, nennt Take-Two im Antrag „bewusst irreführend“, denn legal gekaufte Xbox-Spiele bleiben verschlüsselt. Grundlage aller Projekte ist der am 20. November geleakte Xbox-Build, die ausführbare Datei folgte am 23. November. Nach PCGH-Angaben führt der Tracker PortWatch VI inzwischen sechs Builds als „spielbar“, Grundlage sind Entwicklerangaben und Livestreams, keine unabhängigen Tests. Spitzenreiter ZETTROX ist seit Mittwoch, 2:12 Uhr, öffentlich und soll den Prolog von der Gefängniszelle bis zur Bootsjagd schaffen. Getestet wurde auf einer GeForce RTX 3050, in der Spielwelt sind aber nur 1 bis 3 fps drin, Schatten bleiben schwarz und die Raytracing-Beleuchtung fehlt. Laut Projekt braucht es eine CPU mit AVX2 und eine Grafikkarte mit Shader Model 6.6 und Mesh-Shadern, bei Nvidia reicht schon eine GeForce RTX 2000. Rechtlich ist das heikel, denn alle Projekte setzen eine entpackte Kopie des geleakten Builds voraus. Eine offizielle PC-Version hat Rockstar nicht angekündigt, GamesBeat berichtet unter Berufung auf anonyme Quellen von einem Start im ersten Quartal 2027.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/GTA-6-Take-Two-laesst-inoffiziellen-PC-Port-von-GitHub-entfernen-11537065.html"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/PC-Port-Prolog-spielbar-ZETTROX-Leonida-DMCA-1561000/"
+        },
+        {
+          "name": "VideoCardz",
+          "url": "https://videocardz.com/newz/take-two-takes-down-over-3000-gta-vi-pc-repositories-but-it-may-be-too-late-unofficial-builds-already-render-textures-and-ray-traced-lighting"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "PC-Port",
+        "Take-Two",
+        "DMCA",
+        "GitHub",
+        "Leonida",
+        "ZETTROX"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:11.931Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. A dim bedroom desk at night with a gaming PC tower with a side window and two visible axial fans on the GPU, a monitor showing a softly blurred dark scene of a sunny coastal city with blocky glitch artefacts, a second monitor with unreadable blurred lines of code, an energy drink can without labels and a mechanical keyboard, warm desk lamp against cool monitor light, a small muted orange accent, no text, no logos, no game UI, no recognisable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-gta6-pc-port-3007-repos-prolog.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-trendforce-dram-2027-abflachen",
+      "datum": "2026-11-25T07:29:00+01:00",
+      "datum_hinweis": "Uhrzeit geschätzt, TrendForce nennt nur das Datum 25.11.2026",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD"
+      ],
+      "kategorie": "Speicher",
+      "titel": "TrendForce senkt Umsatzprognosen für 2027: DRAM bleibt knapp, Preisanstiege sollen abflachen, NAND-Preise fallen",
+      "schlagzeile": "RAM bleibt 2027 knapp – doch TrendForce erwartet flachere Preisanstiege",
+      "kurz": "Der Marktforscher TrendForce hat seine Umsatzprognosen für Arbeitsspeicher und Flash-Speicher 2027 gesenkt. Grund sind gekürzte Bestellungen chinesischer Cloud-Anbieter. DRAM soll 2027 zwar knapp bleiben, die vierteljährlichen Anstiege der Vertragspreise sollen aber kleiner werden und sich in der zweiten Jahreshälfte einpendeln.",
+      "zusammenfassung": "Laut der Pressemitteilung vom 25. November haben chinesische Cloud-Anbieter ihre Speicherbestellungen für 2027 reduziert. Bei NAND-Flash, dem Speicher in SSDs, erwartet TrendForce deshalb einen Abwärtszyklus bei den Preisen, weil das Angebot gleichzeitig deutlich wächst. Die Umsatzprognose für NAND 2027 sinkt auf rund 419,3 Milliarden US-Dollar, das wären immer noch 29 Prozent mehr als im Vorjahr. Bei DRAM haben einige chinesische Anbieter ihren Bedarf an Server-Arbeitsspeicher außerhalb langfristiger Verträge gekürzt, nordamerikanische Cloud-Firmen haben die frei gewordenen Mengen laut TrendForce aber schnell übernommen. Der Markt für Arbeitsspeicher bleibt deshalb 2027 unterversorgt. Die Vertragspreise sollen aber von Quartal zu Quartal weniger stark steigen und könnten sich in der zweiten Jahreshälfte einpendeln. Die DRAM-Umsatzprognose sinkt auf 1,15 Billionen US-Dollar, ein Plus von 69 Prozent. Für PCs und Smartphones sind günstige Lagerbestände laut TrendForce aufgebraucht, Geräte könnten 2027 teurer werden. Hersteller dürften deshalb weniger Speicher verbauen, um Kosten zu sparen. Für Aufrüster heißt das: SSDs könnten 2027 günstiger werden, bei RAM ist eher ein langsameres Steigen als ein Preisrutsch in Sicht. Es handelt sich um eine Marktprognose, Ladenpreise folgen den Vertragspreisen nur mit Verzögerung.",
+      "quelle": {
+        "name": "TrendForce (Pressemitteilung)",
+        "url": "https://www.trendforce.com/presscenter/news/20261125-13321.html"
+      },
+      "weitere_links": [
+        {
+          "name": "X: jukan05 (Hinweis)",
+          "url": "https://x.com/jukan05/status/2125441333703881132"
+        }
+      ],
+      "tags": [
+        "RAM",
+        "DRAM",
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "TrendForce"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:11.323Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of a hand holding a single DDR5 memory module with blank black heat spreader above an open PC case on a wooden workbench, a second module and a plain anti-static bag lying next to an M.2 SSD without labels, warm morning window light, small muted terracotta accent from a coffee mug, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-trendforce-dram-2027-abflachen.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-ubuntu-ki-launcher",
+      "datum": "2026-11-25T05:37:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "Canonical nennt Details zum geplanten KI-gestützten Ubuntu-Launcher: lokal, opt-in, Text- und Spracheingabe; Testversion ab Januar",
+      "schlagzeile": "Ubuntu plant KI-Starter statt App-Raster – lokal und nur auf Wunsch",
+      "kurz": "Canonical will das App-Raster von Ubuntu durch einen neuen Starter ersetzen, der Apps öffnet, Dateien findet und bei Bedarf KI-Funktionen bietet. Die KI soll lokal laufen und nur auf ausdrücklichen Wunsch aktiv werden. Im Januar will Canonical eine erste installierbare Version zum Testen bereitstellen.",
+      "zusammenfassung": "Die Details stammen aus einem Beitrag des Canonical-Entwicklers Didier Roche im Ubuntu-Forum, berichtet omgubuntu.co.uk. Der Launcher soll ein gemeinsamer Einstiegspunkt werden: klassisch zum Starten von Programmen und Suchen von Dateien, auf Wunsch aber auch für Aufgaben per Texteingabe. Auch Spracheingabe ist geplant. Als unverhandelbare Grundsätze nennt Canonical Einwilligung, Datenschutz, Sicherheit und lokale Verarbeitung. KI-Funktionen sollen nur ausgelöst werden, wenn man sie ausdrücklich anfordert, wer sie nicht will, nutzt den Starter wie ein normales App-Menü. Ein Prototyp mit simulierten Aufgaben war schon im Oktober im Snap Store aufgetaucht, echte Funktionen gab es dort noch nicht. Mehr zur Architektur und eine Testversion zum Ausprobieren will Canonical im Januar zeigen. Das Feedback der Nutzer soll die weitere Richtung bestimmen. Ob und wann der Launcher in einer stabilen Ubuntu-Version Standard wird, ist offen.",
+      "quelle": {
+        "name": "OMG! Ubuntu",
+        "url": "https://www.omgubuntu.co.uk/2026/11/ubuntu-ai-launcher-details"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Ubuntu",
+        "Canonical",
+        "KI",
+        "Launcher",
+        "Linux",
+        "Datenschutz"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:13.470Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A person's hands typing on a laptop keyboard at a café table, the laptop screen showing a softly blurred minimal dark search bar overlay above a blurred desktop that is completely unreadable, a small microphone headset next to the laptop, warm afternoon light, a small muted dusty teal accent from a cup, documentary photo, no text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-ubuntu-ki-launcher.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-rtx-5090-gb202-woelbung-reparatur",
+      "datum": "2026-11-25T05:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Nvidia"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "igor'sLAB: Gewölbter GB202-Chip einer RTX 5090 zerstört Wärmeleitpads – vierte Reparatur mit Graphen-Pad",
+      "schlagzeile": "Gewölbter GB202: igor'sLAB repariert eine RTX 5090 zum vierten Mal",
+      "kurz": "igor'sLAB hat eine Gigabyte Aorus GeForce RTX 5090 Master zum vierten Mal repariert, weil die Hotspot-Temperatur immer wieder stieg. Gemessen wurde eine deutliche Wölbung des GB202-Chips von bis zu 71,76 Mikrometern. Mit einem Graphen-Pad blieb der Hotspot im ersten Belastungstest bei etwa 82 bis 83 Grad.",
+      "zusammenfassung": "Bei zwei früheren Reparaturen mit Phasenwechsel-Pads (PTM) kehrten die Hotspot-Probleme der Karte jeweils nach einigen Monaten zurück. Beim Öffnen fand Igor Wallossek ungleichmäßig verteilte PTM-Reste und eine nach außen gewölbte Chipoberfläche. Zwischen Mitte und Rand des Chips maß er 42,70 Mikrometer Überhöhung, insgesamt 71,76 Mikrometer Höhenunterschied auf rund 714 Quadratmillimetern. Als Erklärung nennt er eine thermomechanisch instabile Kontaktzone, die das Pad mit der Zeit zerstört, bezeichnet das aber selbst als plausibel und nicht abschließend bewiesen. Für den vierten Versuch setzte er ein 0,3 Millimeter dickes Graphen-Pad auf die GPU und Wärmeleitputty auf Speicher und Teile der Spannungsversorgung. Im rund 17-minütigen Belastungslauf mit etwa 600 Watt Platinenleistung blieben die Temperaturen stabil. Der Hotspot lag am Ende bei etwa 82 bis 83 Grad, der Treiber zeigte 71 bis 72 Grad, der GDDR7-Speicher im Mittel 67 Grad. Ob die Reparatur auf Dauer hält, ist offen, es ist ein erster Funktionstest und kein Langzeitnachweis. Es handelt sich zudem um eine einzelne Karte, auf alle RTX 5090 lässt sich das nicht übertragen. Für Gebrauchtkäufer zeigt der Fall aber, dass steigende Hotspot-Werte bei High-End-Karten ein Warnzeichen sein können.",
+      "quelle": {
+        "name": "igor'sLAB",
+        "url": "https://www.igorslab.de/geforce-rtx-5090-gerettet-extrem-gewoelbter-gb202-chip-zerstoert-sogar-ptm-pads/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RTX 5090",
+        "GB202",
+        "Hotspot",
+        "Wärmeleitpad",
+        "Reparatur",
+        "Gebraucht"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:11.462Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A large graphics card with two visible axial fans lying upside down on a repair mat, its cooler removed and set beside it, the bare GPU die and memory chips visible on the green circuit board, PCIe gold contacts only along one long edge, a small spatula and a grey thermal pad sheet next to it, a technician's hand with tweezers at the edge of the frame, warm daylight, small muted olive accent from a tool handle, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-rtx-5090-gb202-woelbung-reparatur.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-windows11-weniger-ram-ignite",
+      "datum": "2026-11-24T23:55:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Ignite 2026: Microsoft hat den Speicherbedarf von Microsoft 365, Defender, OneDrive und Purview um zusammen über 860 MB gesenkt",
+      "schlagzeile": "Windows 11 spart RAM: Microsoft-Dienste brauchen bis zu 860 MB weniger",
+      "kurz": "Microsoft hat auf der Ignite 2026 erklärt, dass eigene Apps und Hintergrunddienste unter Windows 11 deutlich weniger Arbeitsspeicher belegen als früher. Microsoft 365 braucht 360 MB weniger, Defender, OneDrive und Purview zusammen über ein halbes Gigabyte weniger. Als Grund nennt Microsoft ausdrücklich die stark gestiegenen Speicherpreise.",
+      "zusammenfassung": "Windows Latest hat die Aussagen in einer Ignite-Session entdeckt. Ian LeGrow, der ein Team für den Windows-Kern leitet, sagte dort, die Speicherpreise seien durch die Decke gegangen und mehr RAM mache Geräte spürbar teurer. Seit Januar habe man deshalb vor allem an Geräten mit 8 und 16 GB gearbeitet. Windows lädt laut LeGrow weniger unnötige Komponenten und lässt Bausteine mit ähnlichen Frameworks Speicher teilen. Die Office-Suite benötigt nun 360 MB weniger, die Hintergrunddienste Defender, Purview und OneDrive zusammen über 500 MB weniger. Einzelwerte pro Dienst nannte Microsoft nicht. In einem Microsoft-Test mit simuliertem Teams-Anruf, 20 Edge-Tabs und großen Office-Dateien war der Oktober-Build auf einem 8-GB-Gerät rund 21 Prozent schneller als der Januar-Build. Windows Latest hat selbst gemessen: Ein altes 8-GB-Notebook belegte nach einem Neustart unter Windows 11 26H2 nur noch 3,3 statt 5 GB. Das sind Herstellerangaben und Einzelmessungen, wie viel im eigenen Alltag ankommt, hängt von Software und Ausstattung ab. Die Verbesserungen sollen laut Microsoft auch Geräten mit mehr RAM zugutekommen.",
+      "quelle": {
+        "name": "Windows Latest",
+        "url": "https://www.windowslatest.com/2026/11/25/microsoft-admits-nearly-900mb-of-your-windows-11-pcs-ram-was-being-quietly-eaten-by-its-own-apps-like-defender-onedrive-and-microsoft-365-and-its-freed-it-up/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows 11",
+        "RAM",
+        "Arbeitsspeicher",
+        "Microsoft 365",
+        "Defender",
+        "OneDrive",
+        "Ignite"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.958Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An older silver laptop open on a kitchen table in warm morning light, its screen showing softly blurred unreadable bar graphs, a single small RAM stick lying next to it, a cup of tea and a notebook, a small muted olive accent from a plant pot, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-windows11-weniger-ram-ignite.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-gta6-digital-foundry-xbox-vor-ps5",
+      "datum": "2026-11-24T22:51:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Xbox",
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "Digital Foundry: GTA 6 hält auf Xbox Series X die 30 fps stabiler als auf der Standard-PS5",
+      "schlagzeile": "GTA 6 läuft auf Xbox Series X runder als auf PS5 – sagt Digital Foundry",
+      "kurz": "Laut einer Analyse von Digital Foundry hält GTA 6 die 30 Bilder pro Sekunde auf der Xbox Series X zuverlässiger als auf der normalen PS5. Beide Konsolen nutzen weitgehend dieselben Grafikeinstellungen und Auflösungen. Die beste Konsolenfassung bietet laut der Analyse die PS5 Pro.",
+      "zusammenfassung": "Digital Foundry hat die Standard-PS5 direkt mit der Xbox Series X verglichen, berichtet VGC. Optisch liegen beide Versionen nahezu gleichauf, wichtige Grafikeinstellungen sind identisch. Im normalen Spiel erreichen beide 30 fps oder fallen nur knapp darunter, das Spiel bewegt sich laut den Testern aber auf Messers Schneide. Die PS5 verliert in schwierigen Szenen wie schnellen Fahrten häufiger Bilder als die Series X. Digital Foundry erklärt das damit, dass die Optik angeglichen ist und die Series X mit dieser Detailstufe besser zurechtkommt. In manchen Abschnitten gibt es zudem leichte Auflösungsvorteile für die Xbox. Die Unterschiede werden als gering beschrieben, auch die Series X ist nicht frei von Einbrüchen. Pikant ist der Befund, weil Rockstar dank eines Marketingvertrags mit Sony die PS5 als beste Plattform für GTA 6 beworben hat, vor allem wegen der DualSense-Funktionen. Am besten schneidet laut Digital Foundry die PS5 Pro ab, mit Bildqualität nahe 4K und raytracing-Schatten. Eine PC-Version hat Rockstar weiterhin nicht angekündigt.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/gta-6-has-more-framerate-drops-on-ps5-than-xbox-series-x-according-to-analysis/"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/gta-6-runs-better-xbox-series-x/"
+        },
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/analysis-reveals-gta-6-runs-better-on-xbox-series-x-than-on-playstation-5/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Digital Foundry",
+        "Xbox Series X",
+        "PS5",
+        "PS5 Pro",
+        "Performance"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.058Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Two unbranded game consoles standing side by side under a large TV in a cosy living room at dusk, the TV showing a softly blurred sunny coastal city street with palm trees and a speeding sports car, two gamepads without logos lying on a low wooden table, warm lamp light against cool blue window light, slight motion blur on the screen, a small muted coral accent from a cushion, no text, no logos, no game UI.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-gta6-digital-foundry-xbox-vor-ps5.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-pop-os-26-04-lts",
+      "datum": "2026-11-24T22:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux"
+      ],
+      "kategorie": "Linux",
+      "titel": "System76 veröffentlicht Pop!_OS 26.04 LTS auf Basis von Ubuntu 26.04 LTS mit COSMIC 1.12, Linux 7.2 und Mesa 26.2",
+      "schlagzeile": "Pop!_OS 26.04 LTS ist da: COSMIC-Desktop bringt VRR und Fernzugriff",
+      "kurz": "System76 hat Pop!_OS 26.04 LTS veröffentlicht. Die Linux-Distribution basiert auf Ubuntu 26.04 LTS und bringt den in Rust geschriebenen Desktop COSMIC in Version 1.12 mit. Neu sind unter anderem Remote Desktop, VRR und ein besseres Vollbild-Gaming.",
+      "zusammenfassung": "Bisher gab es die neue Version laut 9to5Linux nur vorinstalliert auf Rechnern von System76, jetzt steht sie für alle zum Download bereit. Unter der Haube arbeiten der Linux-Kernel 7.2 und der Grafikstack Mesa 26.2. Es gibt ISO-Abbilder für Intel- und AMD-Systeme, für Nvidia-Systeme und für ARM64. Für Spieler interessant sind verbesserte Vollbild-Spiele, ein besserer Steam-Big-Picture-Modus, Unterstützung für variable Bildwiederholraten (VRR) und das Wayland-Protokoll Pointer Constraints. Dazu kommen Lautstärkeregelung pro App, Unterstützung für Grafiktabletts und eine Bildschirmtastatur, die sich auch per Gamepad bedienen lässt. Neue Apps sind ein Bildbetrachter, ein Systemmonitor und das USB-Werkzeug Popsicle. Mit „Theme Constellations“ lassen sich Hintergrund, Akzentfarben, Symbole und Schriften als Paket wechseln. Ein direktes Upgrade von Pop!_OS 24.04 LTS soll erst im Dezember freigeschaltet werden. Bis dahin ist für die neue Version eine Neuinstallation nötig.",
+      "quelle": {
+        "name": "9to5Linux",
+        "url": "https://9to5linux.com/pop_os-26-04-lts-is-now-available-for-download-based-on-ubuntu-26-04-lts"
+      },
+      "weitere_links": [
+        {
+          "name": "Phoronix",
+          "url": "https://www.phoronix.com/news/Pop-OS-26.04-Released"
+        },
+        {
+          "name": "OMG! Ubuntu",
+          "url": "https://www.omgubuntu.co.uk/2026/11/pop_os-26-04-lts-released"
+        }
+      ],
+      "tags": [
+        "Pop!_OS",
+        "Linux",
+        "COSMIC",
+        "System76",
+        "Ubuntu 26.04",
+        "Gaming"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:13.340Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact desktop PC and a monitor on a light wooden desk in a sunny home office, the monitor showing a softly blurred colourful desktop wallpaper of mountains with tiled windows that are unreadable, a gamepad and a USB stick next to the keyboard, warm daylight, a small muted orange accent from a mug, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-pop-os-26-04-lts.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-amd-inception-hackergruppe",
+      "datum": "2026-11-24T22:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "AMD"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Hackergruppe Inception behauptet Datendiebstahl bei AMD; ReversingLabs sieht Nintendo, Activision Blizzard, Riot und Twitch als mögliche Ziele",
+      "schlagzeile": "Hackergruppe will AMD-Daten haben – auch Nintendo im Visier?",
+      "kurz": "Eine Gruppe namens Inception behauptet, interne Daten von AMD erbeutet zu haben. Sicherheitsforscher von ReversingLabs haben weitere Domains der Kampagne gefunden, die auf Nintendo, Activision Blizzard, Riot Games und Twitch zielen könnten. Bestätigt ist der Datendiebstahl bei AMD bisher nicht.",
+      "zusammenfassung": "Laut PCGH trat Inception am 17. November erstmals auf und listete auf einer Leak-Seite im Darknet fünf US-Unternehmen, darunter AMD und PepsiCo. Bis zum 21. November kamen AutoZone und Lucid Motors dazu. ReversingLabs hat am 23. November eine Untersuchung veröffentlicht und mehrere Dutzend weitere Domains mit der Kampagne in Verbindung gebracht. Die Angreifer setzen demnach auf Vishing, also Betrugsanrufe: Mitarbeiter sollen am Telefon dazu gebracht werden, Zugangsdaten auf gefälschten Anmeldeseiten einzugeben und Anfragen zur Mehr-Faktor-Anmeldung zu bestätigen. Ziel sind Single-Sign-on-Konten, über die Angreifer Zugriff auf viele interne Dienste bekommen könnten. Okta verfolgt seit März eine Gruppe namens O-UNC-053, die zuvor mit ShinyHunters in Verbindung gebracht wurde, und vermutet, dass sie sich einer neuen Gruppe angeschlossen hat oder unter neuem Namen auftritt. Ob sie hinter Inception steckt, ist offen. Hinweise auf betroffene Kundendaten, manipulierte Radeon-Treiber oder eine Gefahr für Ryzen-Nutzer gibt es laut PCGH nicht. Eine Stellungnahme von AMD steht aus. Dass Firmen auf der Liste möglicher Ziele stehen, heißt nicht, dass sie tatsächlich erfolgreich angegriffen wurden.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/AMD-Hackerangriff-Inception-Nintendo-Blizzard-1560973/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "Hacker",
+        "Inception",
+        "Vishing",
+        "Nintendo",
+        "Activision Blizzard",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:13.204Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A smartphone lying face up on an office desk next to a laptop, the phone screen showing a blurred incoming call without readable text, the laptop showing a softly blurred generic login page, a corporate badge without any printing and a coffee cup, warm late-afternoon window light, a small muted terracotta accent, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-amd-inception-hackergruppe.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-lords-of-the-fallen-2-april-2027",
+      "datum": "2026-11-24T21:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Lords of the Fallen 2"
+      ],
+      "kategorie": "Spiele",
+      "titel": "CI Games verschiebt Lords of the Fallen 2 auf April 2027, genaues Datum folgt im Dezember",
+      "schlagzeile": "Lords of the Fallen 2 verschoben: Neuer Termin im April 2027",
+      "kurz": "Lords of the Fallen 2 erscheint erst im April 2027. Das hat CI-Games-Chef Marek Tyminski auf X mitgeteilt. Den genauen Termin will das Studio im Dezember nennen.",
+      "zusammenfassung": "Es ist nicht die erste Verschiebung des Soulslike-Nachfolgers, berichtet Eurogamer. Im Juni hatte CI Games den Start bereits ins erste Quartal 2027 verlegt, um dem dichten Weihnachtsgeschäft auszuweichen. Davor war noch ein Release 2026 geplant. Im Mai endete zudem der Exklusivvertrag mit Epic, das Spiel kommt am PC daher über Steam und den Epic Games Store. Weitere Plattformen sind PS5, Xbox Series X/S und Nintendo Switch 2. Im Oktober hat sich CI Games laut Börsenmitteilung einen Kredit über 28,6 Millionen Euro gesichert, um die Produktion abzuschließen. Der Kredit läuft bis 31. August 2027 und soll aus den Verkäufen zurückgezahlt werden, CI Games veröffentlicht das Spiel selbst. Einen Grund für die neue Verschiebung nannte Tyminski in seinem kurzen Post nicht.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Lords of the Fallen 2",
+        "CI Games",
+        "Verschiebung",
+        "Soulslike"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.456Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original armoured knight in battered dark plate armour charging up crumbling stone stairs of a gothic ruin, sword raised, seen from a low dynamic angle, a hulking original shadowy beast silhouette in the misty background, sparks and dust in the air, warm torchlight against cold blue moonlit fog, coherent anatomy and plausible armour, a small muted crimson accent from a torn tabard, no text, no logos, no recognisable characters.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-lords-of-the-fallen-2-april-2027.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-microsoft-code-red-m365",
+      "datum": "2026-11-24T21:03:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Microsoft 365"
+      ],
+      "kategorie": "Software",
+      "titel": "Microsoft ruft nach dem großen Microsoft-365-Ausfall intern „Code Red“ aus – Störungen sollen künftig binnen einer Stunde behoben sein",
+      "schlagzeile": "„Code Red“ bei Microsoft: Nach dem 365-Ausfall gilt höchste Alarmstufe",
+      "kurz": "Microsoft hat intern die höchste Alarmstufe „Code Red“ ausgerufen. Auslöser ist der weltweite Ausfall von Microsoft 365 Mitte November, bei dem das Management die eigene Reaktion als zu langsam bewertet. Künftig sollen Störungen in höchstens einer Stunde behoben sein.",
+      "zusammenfassung": "heise beruft sich auf interne Rundschreiben, die der Nachrichtenagentur Reuters vorliegen. Als Ursache des Ausfalls nennt Microsoft dort kein Sicherheitsproblem, sondern ein im Juli eingespieltes Windows-Update, das zusammen mit einem Netzwerk-Upgrade Skalierungsprobleme ausgelöst habe. Die Behebung dauerte demnach so lange, weil Diagnosedaten über mehrere Systeme verstreut waren. Während der Störung tauschten Techniker in elf Teams-Chats mehr als 11.000 Nachrichten aus, um Hypothesen zu besprechen. Künftig sollen KI-Agenten die verstreuten Daten zusammenführen. Zusätzlich verlangt das Management neue Pläne zum gezielten Abwerfen von Last und zur Abschottung geografischer Regionen. Auch bei dringenden Sicherheitslücken will Microsoft von der Entdeckung bis zum installierten Patch auf allen Systemen nur noch eine Stunde brauchen. Bei einem anderen dringenden Problem dauerte es laut Reuters bisher fünf bis sechs Tage, bis ein Update alle Systeme erreicht hatte. Der zuständige Manager Jason Henderson räumt laut Reuters ein, dass man noch nicht so weit sei. Parallel streicht Microsoft zahlreiche Stellen.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Nach-365-Ausfall-Hoechste-Alarmstufe-bei-Microsoft-11536918.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Neowin",
+          "url": "https://www.neowin.net/news/global-microsoft-outage-forces-internal-code-red-response-at-redmond/"
+        }
+      ],
+      "tags": [
+        "Microsoft 365",
+        "Ausfall",
+        "Outlook",
+        "Teams",
+        "Cloud",
+        "Code Red"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.830Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A dim network operations room at night: several engineers seen from behind at desks, faces not visible, large wall monitors showing softly blurred unreadable graphs in red and amber, coffee cups and laptops on the desks, warm desk lamps against cool screen light, a small muted teal accent from a chair, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-microsoft-code-red-m365.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-witcher4-sony-marketing-deal",
+      "datum": "2026-11-24T19:38:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "The Witcher 4",
+        "PlayStation",
+        "CD Projekt"
+      ],
+      "kategorie": "Spiele",
+      "titel": "CD Projekt Red schließt Partnerschaft mit Sony: Marketing für The Witcher 4, Spiele in PlayStation Plus; Cyberpunk 2 hat 199 Entwickler",
+      "schlagzeile": "The Witcher 4: Sony sichert sich Marketing-Deal – wie schon bei GTA 6",
+      "kurz": "CD Projekt Red hat neue Partnerschaftsverträge mit Sony Interactive Entertainment unterschrieben. Sie betreffen die Präsenz der Spiele auf PlayStation und in PlayStation Plus sowie die gemeinsame Marketingkampagne für The Witcher 4. Details zum Umfang nannte das Studio nicht.",
+      "zusammenfassung": "Bekannt wurde der Deal im Rahmen der Quartalszahlen. Finanzchef Piotr Nielubowicz sagte laut VGC, man habe die Verträge am selben Tag unterzeichnet, sie sollen das Geschäft in diesem und den folgenden Jahren stützen. Einen ähnlichen Marketingvertrag hatte Sony bereits für GTA 6, mit dem die PS5 als beste Plattform beworben wurde. Wie die Kampagne für The Witcher 4 konkret aussieht, ist offen. VGC erwartet, dass das Spiel eher in PlayStation-Shows als bei Xbox auftaucht und Funktionen wie der DualSense-Controller betont werden, das ist aber eine Einschätzung und keine Ankündigung. Die Aussage betrifft Marketing und PlayStation-Präsenz, dass The Witcher 4 nur auf PlayStation erscheint, sagt sie nicht. Das Spiel soll weiterhin 2028 erscheinen. Im selben Bericht nannte CD Projekt neue Zahlen zu den Teams: An Cyberpunk 2 arbeiten aktuell 199 Entwickler, bis Ende 2027 sollen es rund 320 werden. The Witcher 4 hat laut VGC 513 Entwickler, insgesamt beschäftigt das Studio 1.051 Entwickler. Einen Termin für den Übergang von Cyberpunk 2 in die volle Produktion gibt es laut Investor-Relations-Chefin Karolina Gnaś noch nicht.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/cdpr-has-entered-a-marketing-agreement-with-sony-for-the-witcher-4/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/playstation-secures-marketing-agreement-for-the-witcher-4"
+        },
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/the-witcher-4-partnership-between-sony-and-cd-projekt-red-announced/"
+        },
+        {
+          "name": "VGC (Cyberpunk 2)",
+          "url": "https://www.videogameschronicle.com/news/cyberpunk-2s-development-team-has-grown-with-plans-to-get-even-bigger-next-year/"
+        }
+      ],
+      "tags": [
+        "The Witcher 4",
+        "CD Projekt Red",
+        "Sony",
+        "PlayStation",
+        "PlayStation Plus",
+        "Cyberpunk 2"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:12.200Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original lone monster hunter in worn leather armour with a plain steel sword on his back, seen from a low angle as he steps through a misty autumn forest at dawn toward a ruined stone watchtower, warm golden light breaking through cool blue fog, falling leaves in motion, an original design without any recognisable character features or medallions, a small muted crimson accent from a cloth band, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-witcher4-sony-marketing-deal.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-24-rx-9060-xt-taktrekord-4837-mhz",
       "datum": "2026-11-24T19:15:00+01:00",
@@ -48,6 +787,56 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An extreme overclocking bench at a busy computer store event: a bare graphics card with two visible axial fans removed and a thick copper liquid-nitrogen pot mounted on the chip, white frost and a soft cloud of vapour around it, a gloved hand pouring from a steel thermos flask, insulating foam around the card, blurred onlookers in the background, warm indoor light with a small cold blue accent from the vapour, documentary photo.",
       "bild": {
         "datei": "assets/img/news/2026-11-24-rx-9060-xt-taktrekord-4837-mhz.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-intel-desktop-event-berlin-leak",
+      "datum": "2026-11-24T19:15:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "zuverlaessigkeit": {
+        "stufe": "mittel-hoch",
+        "begruendung": "Exklusivbericht von VideoCardz (Quellenliste: hoch als Nachrichtenquelle) unter Berufung auf andere von Intel angefragte Medien; keine Zweitquelle, keine Bestätigung durch Intel. Termin, Dauer und Zweck des Events sind unbestätigt, der Bezug zu Nova Lake ist eine Einschätzung von VideoCardz."
+      },
+      "ursprungsquelle": "VideoCardz (Exklusivbericht)",
+      "titel": "VideoCardz: Intel fragt Presse angeblich für viertägiges „Next-gen desktop event“ Ende Februar in Berlin an – Nova Lake weiter zur CES 2027 erwartet",
+      "schlagzeile": "Leak: Plant Intel Ende Februar ein Desktop-Event in Berlin?",
+      "kurz": "Laut VideoCardz fragt Intel bei Medien die Verfügbarkeit für ein viertägiges Desktop-Event Ende Februar in Berlin an. Ob es der Hauptstart der nächsten Desktop-Generation ist, ist unklar. Nova Lake soll weiterhin zur CES 2027 im Januar vorgestellt werden, bestätigt ist das Event nicht.",
+      "zusammenfassung": "VideoCardz beruft sich auf andere Medien, die von Intel kontaktiert wurden. Geplant sei ein viertägiges „Next-gen desktop event“ Ende Februar in Berlin. Ob es sich um die zentrale Startveranstaltung oder um eines von mehreren regionalen Events handelt, weiß VideoCardz nicht. Nach Einschätzung der Seite soll Nova Lake weiter zur CES 2027 im Januar debütieren. Das Berliner Event könnte dann mit dem Marktstart oder dem Ende der Testsperre zusammenfallen, das ist aber eine Vermutung. Im Oktober hatte Intel bestätigt, dass Nova Lake als erstes Client-Produkt im Fertigungsverfahren Intel 18A-P entsteht. Intel-Chef Lip-Bu Tan sprach von einer Entwicklung vor dem Zeitplan und versprach mehr Details zur CES. Ein früherer VideoCardz-Bericht nannte für die 28-Kern-Desktopmodelle ein Zeitfenster von Ende Januar bis März, das Flaggschiff mit 52 Kernen soll später folgen. Für die neue Plattform LGA 1954 bereiten Boardhersteller bereits Mainboards vor. Intel hat das Event nicht offiziell angekündigt.",
+      "quelle": {
+        "name": "VideoCardz",
+        "url": "https://videocardz.com/newz/exclusive-intel-plans-next-gen-desktop-event-for-late-february"
+      },
+      "weitere_links": [
+        {
+          "name": "X: VideoCardz",
+          "url": "https://x.com/VideoCardz/status/2125292260606517408"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "Core Ultra 4000",
+        "LGA 1954",
+        "CES 2027",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:11.655Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty modern conference hall being prepared for a tech press event: rows of chairs, a stage with a large blank dark screen, a table in the foreground with a desktop CPU in a clear plastic tray next to a closed laptop and a lanyard without any printing, tall windows with a grey winter city view, warm stage lights mixing with cool daylight, small muted teal accent from a chair, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-intel-desktop-event-berlin-leak.webp",
         "ki_generiert": true
       }
     },
@@ -2249,47 +3038,6 @@
       }
     },
     {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -2333,6 +3081,47 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
@@ -5854,45 +6643,6 @@
       "freigabe": {
         "status": "freigegeben",
         "von": "M-TEC",
-        "am": "2026-11-19T11:16:04.847Z"
-      },
-      "id": "2026-11-18-nand-spotpreise-minus-20",
-      "datum": "2026-11-18T20:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "SSD",
-        "Speicherpreise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
-      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
-      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
-      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
-      "quelle": {
-        "name": "Wccftech",
-        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "NAND",
-        "SSD",
-        "Speicherpreise",
-        "YMTC",
-        "TrendForce"
-      ],
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "ki_unterstuetzt": true,
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
         "am": "2026-11-19T11:16:05.129Z"
       },
       "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
@@ -5923,6 +6673,45 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
       "bild": {
         "datei": "assets/img/news/2026-11-18-8bitdo-gamecube-controller-switch2.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.847Z"
+      },
+      "id": "2026-11-18-nand-spotpreise-minus-20",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
+      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
+      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
+      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "YMTC",
+        "TrendForce"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-18-nand-spotpreise-minus-20.webp",
         "ki_generiert": true
       }
     },
