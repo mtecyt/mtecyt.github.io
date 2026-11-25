@@ -2,10 +2,584 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-25T10:54:27.838Z",
+    "stand": "2026-11-25T20:38:23.960Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.940Z"
+      },
+      "id": "2026-11-18-nginx-zehn-luecken",
+      "datum": "2026-11-18T21:36:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheitslücke",
+        "Linux"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Sicherheitsupdates für nginx Open Source und nginx Plus schließen zehn Lücken, fünf davon mit CVSS 9.2; Angreifer könnten teils Code ausführen",
+      "schlagzeile": "Webserver nginx: Zehn Lücken, fünf davon kritisch – sofort updaten",
+      "kurz": "Für den verbreiteten Webserver nginx sind Sicherheitsupdates erschienen, die zehn Lücken schließen. Fünf davon haben die Schwere 9.2 nach CVSS 4.0, einige ermöglichen womöglich das Ausführen von Schadcode. Admins sollten sofort aktualisieren.",
+      "zusammenfassung": "Die Updates betreffen sowohl nginx Open Source als auch die kommerzielle Version nginx Plus, berichtet heise. Manche der Fehler stecken seit Jahren im Code, zwei sogar seit 2007. Vier der zehn Lücken sind sogenannte Use-after-free-Fehler, bei denen bereits freigegebener Speicher weiterverwendet wird. Das kann es Angreifern erlauben, eigenen Code auf fremden Servern auszuführen. In Verbindung mit anderen bekannten Lücken sollen sich so Root-Rechte erlangen lassen, weshalb auch von „nginx2root“ die Rede ist. Die übrigen Fehler reichen von Pufferüberläufen und Speicherkorruption über Endlosschleifen bis zur Umgehung der Server-Name-Indication-Prüfung. Registriert sind sie unter zehn CVE-Nummern, darunter CVE-2026-113425 und CVE-2026-125283. Für Spieler zu Hause ist nginx selten direkt relevant, viele Websites, Spielserver-Panels und Heimserver-Setups setzen aber darauf. Wer nginx selbst betreibt, sollte die Pakete seiner Distribution oder direkt von nginx aktualisieren.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Webserver-nginx-Update-schliesst-schwere-Luecken-11530216.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "nginx",
+        "Sicherheitslücke",
+        "Webserver",
+        "Linux",
+        "CVE"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small server rack in a tidy home office corner, a few unbranded 1U servers with softly glowing green status LEDs, neatly bundled network cables, warm late-afternoon sunlight from a nearby window, muted terracotta accent from a cable tie. No readable text, no logos, no people.",
+      "archiviert_am": "2026-11-25T20:38:23.949Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.591Z"
+      },
+      "id": "2026-11-18-nvidia-treiber-ssd-schreiblast",
+      "datum": "2026-11-18T21:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Nvidia",
+        "Treiber",
+        "SSD"
+      ],
+      "kategorie": "Treiber",
+      "titel": "Nutzer berichten, dass aktuelle GeForce-Treiber über NVDisplay.Container.exe im Leerlauf bis zu 30 GB pro Stunde auf die SSD schreiben; AMD weitet seinen SSD-Fix mit Adrenalin 26.11.2 auf RX 5000 und RX 6000 aus",
+      "schlagzeile": "Nach AMD jetzt Nvidia: GeForce-Treiber soll SSDs mit Daten fluten",
+      "kurz": "Nach dem Radeon-Treiber soll nun auch der GeForce-Treiber im Leerlauf ungewöhnlich viel auf die Systemplatte schreiben, in Einzelfällen bis zu 30 GB pro Stunde. Genannt werden die Versionen 621.14 und 621.24. Nvidia hat sich noch nicht geäußert, als Zwischenlösung hilft laut Nutzern die Rückkehr zu 621.01.",
+      "zusammenfassung": "Verantwortlich ist laut Nutzerberichten der Prozess NVDisplay.Container.exe, der zum Dienst „NVIDIA Display Container LS“ gehört. Er schreibt eine Protokolldatei namens nvlog.nvlgstg im Ordner ProgramData/NVIDIA Corporation immer wieder neu, statt sie nur zu ergänzen, berichten ComputerBase und TechPowerUp. Deshalb hängt das Schreibvolumen von der Dateigröße ab und fällt nicht bei allen gleich aus. In einem Vergleich schrieb der Prozess mit Treiber 621.01 im Leerlauf in fünf Minuten weniger als 2 MB, mit 621.14 rund 515 MB; mit 621.24 sollen sogar 30 GB pro Stunde gemessen worden sein. Andere Nutzer sehen mit denselben Treibern kaum Aktivität, das Problem tritt also nicht überall auf. Prüfen lässt es sich im Windows-Ressourcenmonitor auf dem Datenträger-Reiter. Den Dienst zu stoppen und die Datei zu löschen, hilft nur bis zum nächsten Neustart des Dienstes, ein dauerhaft deaktivierter Dienst kann Nvidia-Systemsteuerung und Nvidia App stören. Nvidia führt das Verhalten nicht in den bekannten Problemen und hat sich bisher nicht geäußert. AMD hat parallel mit Adrenalin 26.11.2 den Fix für sein eigenes SSD-Schreibproblem auf Radeon RX 5000 und RX 6000 unter Windows 10 ausgeweitet, berichtet Neowin. Der neue AMD-Treiber bringt zudem Unterstützung für Phantom Blade Zero und behebt unter anderem ein Speicherleck.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/grafikkarten/ssd-dauerlast-nvidia-treiber-schreibt-bis-zu-30-gb-pro-stunde-auf-die-ssd.100397/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354996/latest-nvidia-drivers-might-cause-excessive-ssd-writing"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Nvidia-Treiber-SSD-Schreiblast-Geforce-621-24-NVDisplay-Container-1560468/"
+        },
+        {
+          "name": "Neowin (AMD Adrenalin 26.11.2)",
+          "url": "https://www.neowin.net/news/amd-adrenalin-26112-extends-ssd-write-bug-fix-to-rx-5000-and-6000-gpus/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "GeForce",
+        "Treiber",
+        "SSD",
+        "AMD",
+        "Adrenalin"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of an open desktop PC on a warm wooden workbench: an unbranded M.2 NVMe SSD on the motherboard below a large unbranded graphics card with two visible axial fans, a tiny activity LED glowing softly amber, a blurred monitor with an unreadable graph in the background, late-morning window light, muted dusty-teal accent from a cable sleeve. No readable text, no logos.",
+      "archiviert_am": "2026-11-25T20:38:23.951Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.129Z"
+      },
+      "id": "2026-11-18-8bitdo-gamecube-controller-switch2",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nintendo",
+        "Controller"
+      ],
+      "kategorie": "Zubehör",
+      "titel": "8BitDo stellt den GC Bluetooth Gamepad vor, einen kabellosen Controller im GameCube-Stil für Switch, Switch 2 und Windows-PC für 49,99 US-Dollar",
+      "schlagzeile": "GameCube-Feeling für Switch 2 und PC: 8BitDo bringt kabellosen GC-Controller",
+      "kurz": "Zubehörhersteller 8BitDo hat einen kabellosen Controller im Stil des GameCube-Pads vorgestellt. Er funktioniert mit Switch, Switch 2 und Windows-PCs und kostet 49,99 US-Dollar. Die Auslieferung soll am 10. Dezember 2026 beginnen.",
+      "zusammenfassung": "Der GC Bluetooth Gamepad übernimmt laut Hersteller das klassische GameCube-Design samt Tastenlayout, auch in der bekannten Lila-Orange-Farbgebung. Verbinden lässt er sich per Bluetooth 5.0, über einen 2,4-GHz-Funkadapter oder per USB-C-Kabel. Auf der ersten Switch und der Switch 2 funktionieren alle drei Wege, am PC nur Kabel und 2,4-GHz-Adapter. Nintendo hat bereits einen eigenen kabellosen GameCube-Controller für die Switch 2 im Angebot, der laut Polygon aber ab Werk nicht mit der ersten Switch oder Windows zusammenarbeitet. Die 8BitDo-Variante ist zudem 20 Dollar günstiger als Nintendos Modell. Interessant ist das Pad vor allem für Nintendo Switch Online mit GameCube-Klassikern, für Smash-Bros.-Spieler und für Emulation am PC. Ob es sich so anfühlt wie das Original, lässt sich erst nach Tests sagen. Ein Euro-Preis wurde in der Quelle nicht genannt.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/nintendo-switch-2-wireless-game-cube-controller-8bitdo/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "8BitDo",
+        "GameCube",
+        "Controller",
+        "Switch 2",
+        "PC"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An unbranded retro-style wireless gamepad with a chunky grip, large round main button and small yellow-ish analog stick, in deep violet plastic, lying on a warm wooden coffee table next to a small handheld console with a dark blank screen, late-afternoon window light, muted terracotta accent from a cushion. No logos, no readable text, no brand markings.",
+      "archiviert_am": "2026-11-25T20:38:23.952Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.847Z"
+      },
+      "id": "2026-11-18-nand-spotpreise-minus-20",
+      "datum": "2026-11-18T20:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "SSD",
+        "Speicherpreise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Bericht: NAND-Spotpreise für Endkunden-Speicher fallen innerhalb eines Monats um rund 20 Prozent; Bank of America erwartet im ersten Quartal 2027 weitere 5 bis 10 Prozent Rückgang bei Vertragspreisen",
+      "schlagzeile": "Lichtblick in der Speicherkrise: NAND-Preise fallen um rund 20 Prozent",
+      "kurz": "Die Spotpreise für NAND-Flash, aus dem SSDs gebaut werden, sind laut einem koreanischen Wirtschaftsbericht innerhalb eines Monats um rund 20 Prozent gefallen. Bank of America rechnet im ersten Quartal 2027 mit weiteren 5 bis 10 Prozent weniger bei den Vertragspreisen für Endkunden-NAND. Im Laden kommt das erst mit Verzögerung an.",
+      "zusammenfassung": "Die Zahlen stammen aus der Seoul Economic Daily, Wccftech hat sie aufgegriffen. Demnach fielen 512-Gbit-NAND-Wafer gegenüber dem Vorquartal um 32 Prozent, 1-Tbit-Produkte um 19 Prozent. Als Gründe nennt der Bericht die schwache Nachfrage von Endkunden, die bei sehr hohen Preisen Käufe verschieben, und Hersteller, die Speicherausstattungen ihrer Geräte verkleinern. Dazu kommt Konkurrenz durch den chinesischen Hersteller YMTC, der im zweiten Quartal rund 14 Prozent des NAND-Umsatzes erzielt haben soll. Bank of America erwartet laut dem Bericht, dass die Vertragspreise für Endkunden-NAND im ersten Quartal 2027 um weitere 5 bis 10 Prozent sinken. Wichtig: Spot- und Vertragspreise wirken sich erst nach Wochen oder Monaten auf die Ladenpreise von SSDs aus, weil Lagerbestände dazwischenliegen. Für Server-SSDs gilt das Gegenteil, dort erwartet TrendForce im vierten Quartal steigende Vertragspreise von 15 bis 20 Prozent. Arbeitsspeicher (DRAM) ist von der Meldung nicht erfasst; dort gibt es bislang kein vergleichbares Signal. Zum Vergleich: Vor wenigen Tagen hieß es noch, manche SSDs kosteten das Dreifache des Vorjahrespreises.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/consumer-nand-prices-decline-by-20/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "NAND",
+        "SSD",
+        "Speicherpreise",
+        "YMTC",
+        "TrendForce"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A few bare unbranded M.2 NVMe SSD sticks and a small stack of loose NAND flash chips on a warm honey-toned wooden desk next to a paper notepad with blank columns and a pencil, gold contacts on one short edge only, late-morning window light, muted terracotta accent from a ceramic mug. No readable text, no logos.",
+      "archiviert_am": "2026-11-25T20:38:23.953Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.482Z"
+      },
+      "id": "2026-11-18-devolver-gta6-loeschen-volvy",
+      "datum": "2026-11-18T20:08:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Indie"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Devolver Digital verlost Steam-Keys für Volvy's Adventure: Reslimed an Spieler, die per Video zeigen, wie sie ihren GTA-6-Vorab-Download löschen",
+      "schlagzeile": "GTA 6 löschen, Indie-Spiel gewinnen: Devolver stichelt zum Release",
+      "kurz": "Publisher Devolver Digital bringt am selben Tag wie GTA 6 sein Jump-'n'-Run Volvy's Adventure: Reslimed heraus. Wer ein Video teilt, in dem er den GTA-6-Vorab-Download löscht, kann einen Steam-Key gewinnen. Das Spiel erscheint allerdings nur für PC.",
+      "zusammenfassung": "Die Aktion läuft auf X: Nutzer sollen Devolvers Beitrag mit einem Video vom Löschen des GTA-6-Downloads und dem Hashtag #MakeRoomForVolvy teilen, berichtet Eurogamer. Der Vorab-Download von GTA 6 ist laut Eurogamer 212 GB groß. Die Pointe: Volvy's Adventure erscheint nur auf Steam, Platz auf PS5 oder Xbox schafft also nichts. Devolver weist selbst darauf hin, dass ausschließlich Steam-Keys verlost werden. Dazu gibt es einen Parodie-Trailer, der den GTA-6-Launch-Trailer nach Angaben von PC Gamer Einstellung für Einstellung nachstellt. Entwickelt wird das Spiel von doinksoft, bekannt für Gunbrella und Gato Roboto. Volvy war lange ein Running Gag in Devolvers Showcases und ist nun Hauptfigur eines eigenen Spiels. Devolver hatte schon 2025 angekündigt, am GTA-6-Starttag ein Spiel zu veröffentlichen, und den Plan mit jeder Verschiebung mitgezogen. Teilnahmebedingungen sollte man vor dem Mitmachen direkt bei Devolver prüfen.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/devolvers-not-just-launching-a-game-on-the-same-day-as-gta-6-its-using-a-shot-by-shot-remake-of-the-gta-6-launch-trailer-too/"
+        }
+      ],
+      "tags": [
+        "Devolver Digital",
+        "Volvy's Adventure",
+        "GTA 6",
+        "Indie",
+        "Steam"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Playful original scene: a small round cartoonish original critter mascot with an oversized gloved hand, mid-leap over a gap between colorful platforms in a sunny side-scrolling style fantasy landscape rendered as a stylized diorama photo, dynamic low angle, warm sunlight, cool blue sky, motion dust. Not resembling any existing mascot. No logos, no text, no game UI.",
+      "archiviert_am": "2026-11-25T20:38:23.953Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:04.978Z"
+      },
+      "id": "2026-11-18-nvidia-exportkontroll-ausschuss",
+      "datum": "2026-11-18T20:01:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Nvidia richtet im Verwaltungsrat einen ständigen Ausschuss für nationale Sicherheit, Exportkontrollen und globale Handelsrisiken ein",
+      "schlagzeile": "Nach Megaspeed-Affäre: Nvidia schafft eigenen Exportkontroll-Ausschuss",
+      "kurz": "Nvidia hat im Verwaltungsrat einen ständigen Ausschuss für nationale Sicherheit und Exportkontrollen gegründet. Er soll Richtlinien und Compliance-Programme rund um Handelsrisiken auf höchster Ebene überwachen. Einen konkreten Auslöser nennt Nvidia nicht.",
+      "zusammenfassung": "Das neue Gremium heißt National Security and Export Control Oversight Committee. Den Vorsitz übernimmt Verwaltungsratsmitglied Suzanne Nora Johnson, dazu kommen Stephen C. Neal und John O. Dabiri. Der Ausschuss soll mindestens einmal pro Quartal tagen, auch in nicht öffentlichen Sitzungen. Die bestehenden Abteilungen für nationale Sicherheit und Handels-Compliance berichten künftig direkt an das Gremium und an Interims-CEO Colette Kress. Externe Fachleute aus Recht, Sicherheitspolitik und internationalem Handel sollen unterstützen. Die Ankündigung fällt in die Zeit nach dem Rücktritt von Jensen Huang und den Ermittlungen gegen das Rechenzentrumsunternehmen Megaspeed, das Nvidia-Chips nach China weitergeleitet haben soll; Megaspeed bestreitet das. Ob diese Vorgänge den Ausschuss ausgelöst haben, ist nicht bestätigt, eine Reuters-Anfrage dazu ließ Nvidia laut ComputerBase unbeantwortet. Neue Produktbeschränkungen oder Änderungen an Exportverfahren wurden nicht angekündigt. Verwaltungsratschef Harvey Jones sprach von einer besonderen Verantwortung als führender Anbieter von Rechentechnik.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/wirtschaft/neuer-ausschuss-gebildet-nvidia-will-exportkontrollen-kuenftig-selbst-ueberwachen.100383/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Nvidia",
+        "Exportkontrollen",
+        "Megaspeed",
+        "Colette Kress",
+        "Harvey Jones"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty wood-panelled meeting room with a long oak table, closed unmarked leather folders and a few blank document stacks, a single closed laptop, warm late-morning sunlight through tall windows, muted olive accent from a desk plant. No people, no readable text, no logos, no flags.",
+      "archiviert_am": "2026-11-25T20:38:23.957Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-19T11:16:05.366Z"
+      },
+      "id": "2026-11-18-gta6-cheats-erst-nach-story",
+      "datum": "2026-11-18T19:42:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6 schaltet Cheats erst nach dem Ende der Hauptgeschichte frei; aktive Cheats sperren Speichern sowie Trophäen und Erfolge",
+      "schlagzeile": "GTA 6: Cheats gibt es erst nach der Story – und dann ohne Speichern",
+      "kurz": "In GTA 6 lassen sich Cheats erst nutzen, wenn die Hauptgeschichte abgeschlossen ist, berichten Eurogamer und GameStar. Jeder Cheat muss zusätzlich über eine Aufgabe freigeschaltet werden. Solange ein Cheat aktiv ist, kann man nicht speichern, Trophäen und Erfolge sind gesperrt.",
+      "zusammenfassung": "Eurogamer hat das nach eigenen Angaben mit Spielständen an verschiedenen Punkten der Story geprüft. Erst nach dem Abspann erscheint im Fortschrittsmenü der Karte ein zuvor versteckter Reiter für Cheats. Dort sind die Cheats nach Kategorien sortiert, laut GameStar insgesamt 61 in fünf Kategorien, jeweils mit Beschreibung und der nötigen Aufgabe zum Freischalten, etwa 100 Workouts für eine Panzerung. Eingegeben werden sie wie in GTA 5 über das Handy, mit gedrückten Schultertasten und Steuerkreuz-Kombinationen. Beim Aktivieren warnt das Spiel, dass in dieser Sitzung nicht gespeichert werden kann und Trophäen sowie Erfolge deaktiviert sind. Anders als in GTA 5 gibt es laut Eurogamer wieder einen Geld-Cheat, was die Sperre bis zum Story-Ende erklären dürfte, weil Geld in der Handlung eine Rolle spielt. Das ist eine Abkehr von früheren Teilen und auch von Red Dead Redemption 2, wo etwa die Hälfte der Cheats von Beginn an verfügbar war. Eine offizielle Erklärung von Rockstar zu dieser Entscheidung liegt in den genutzten Quellen nicht vor. Laut GameStar zählen passende Aufgaben, die man schon während der Story erledigt, bereits für das Freischalten mit.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story"
+      },
+      "weitere_links": [
+        {
+          "name": "GameStar",
+          "url": "https://www.gamestar.de/artikel/gta-6-alle-cheats-im-spiel-und-wie-ihr-sie-ueberhaupt-freischaltet,3463278.html"
+        },
+        {
+          "name": "GamePro",
+          "url": "https://www.gamepro.de/artikel/gta-6-cheats,3462979.html"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Cheats",
+        "Rockstar Games"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Original adult character in a sleeveless shirt sprinting across a sunlit rooftop in a fictional tropical city, a stack of loose banknotes fluttering out of a duffel bag behind them, low dramatic angle with strong diagonals, palm trees and hazy skyline behind, warm golden light, cool teal shadows, motion and dust. No logos, no text, no recognizable game characters, no game UI.",
+      "archiviert_am": "2026-11-25T20:38:23.957Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.710Z"
+      },
+      "id": "2026-11-18-gta6-streaming-rekord",
+      "datum": "2026-11-18T18:52:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Streaming",
+      "titel": "GTA 6 bricht Streaming-Rekorde: laut Streams Charts 3,29 Mio. gleichzeitige Twitch-Zuschauer und rund 7,9 Mio. über alle Plattformen vor dem weltweiten Start",
+      "schlagzeile": "GTA 6 bricht schon vor dem Start den Streaming-Weltrekord",
+      "kurz": "Noch bevor GTA 6 in den meisten Ländern spielbar ist, hat es den Rekord für Livestream-Zuschauer gebrochen. Laut Streams Charts schauten zeitgleich fast 7,9 Millionen Menschen auf Twitch, YouTube, Kick und anderen Plattformen zu, davon 3,29 Millionen allein auf Twitch.",
+      "zusammenfassung": "GTA 6 startet regional gestaffelt, in Neuseeland war es bereits am 18. November spielbar, später auch in Singapur und Hongkong. Nach vorläufigen Daten des Analysedienstes Streams Charts erreichte das Spiel laut Polygon in der Spitze 7.886.402 gleichzeitige Zuschauer über alle Plattformen. Twitch lag mit 3,29 Millionen vorne, gefolgt von YouTube mit 3,19 Millionen und Kick mit 1,48 Millionen. Damit ist GTA 6 nach diesen Daten auch die meistgesehene Spielekategorie der Twitch-Geschichte, vor League of Legends mit 3,11 Millionen und Fortnite mit 3,04 Millionen. Den bisherigen Plattform-übergreifenden Rekord für einen Spielestart hielt laut Streams Charts die geschlossene Beta von Valorant aus dem Jahr 2020 mit 1,74 Millionen Zuschauern; damals gab es allerdings Beta-Zugänge fürs Zuschauen. Eurogamer hatte am frühen Nachmittag noch 6,38 Millionen Zuschauer gemeldet, die Zahl stieg also im Tagesverlauf weiter. Weil weitere Regionen erst noch freigeschaltet werden, könnten die Werte noch steigen. Es handelt sich um vorläufige Messwerte eines Drittanbieters, nicht um offizielle Zahlen von Twitch oder Rockstar. Der offizielle Start auf PS5 und Xbox Series ist am 19. November.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-streaming-record-twitch-viewers-reviews/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Twitch",
+        "Streaming",
+        "Rekord",
+        "Rockstar"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Cozy home streaming room at dusk behind an empty gaming chair: microphone on boom arm, controller, monitors with a blurred sunny coastal city street with palm trees, side monitor with abstract colorful chat-like blocks, warm lamp and cool window light, terracotta plant pot, no people.",
+      "archiviert_am": "2026-11-25T20:38:23.957Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T20:03:09.427Z"
+      },
+      "id": "2026-11-18-jedec-ddr6-vorschau",
+      "datum": "2026-11-18T18:33:48+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM"
+      ],
+      "kategorie": "Arbeitsspeicher",
+      "titel": "JEDEC zeigt erste DDR6-Eckdaten: Start bei 12,8 GT/s, 96 Bit breiter Datenbus, 74-mm-Module, Formfaktoren RDIMM, UDIMM und CAMM möglich",
+      "schlagzeile": "DDR6 nimmt Form an: 50 % mehr Bandbreite und viel kürzere Module",
+      "kurz": "Das Normungsgremium JEDEC hat erstmals offiziell Eckdaten zum kommenden Arbeitsspeicher DDR6 vorgestellt. RDIMMs sollen bei 12,8 GT/s starten, der Datenbus wächst von 64 auf 96 Bit, und die Bandbreite soll zum Start um mehr als 50 % steigen. Es handelt sich ausdrücklich um Entwicklungspläne, nicht um einen fertigen Standard.",
+      "zusammenfassung": "Die JEDEC Solid State Technology Association hat am 18. November eine Vorschau auf den DDR6-Standard veröffentlicht, der im Komitee JC-42 entwickelt wird. Laut JEDEC soll DDR6 bei RDIMMs mit 12,8 GT/s starten, nach 9,2 GT/s bei DDR5; die Roadmap reicht bis 14,4 GT/s und darüber hinaus. Der Datenbus wird von 64 auf 96 DQ verbreitert, also um 50 %. Zusammen mit den höheren Datenraten soll das zum Start mehr als 50 % zusätzliche Bandbreite bringen. JEDEC betont selbst, dass dieses Bandbreitenziel nicht gleichbedeutend mit entsprechend mehr Leistung in Anwendungen ist. Neu ist eine Pseudo-Channel-Architektur, außerdem verdoppelt sich die Zahl der Bänke. DRAM-Chips sollen bis zu 128 Gbit Dichte erreichen. Auffällig für PC-Bastler: Die Module werden mit 74 mm deutlich kürzer als DDR5-Riegel mit 133 mm. Als mögliche Formfaktoren nennt JEDEC RDIMM, UDIMM und CAMM, also nicht nur CAMM. Dazu kommen flexible ECC-Varianten und eine bessere Effizienz durch VSS-terminierte Ein- und Ausgänge sowie Stromsparmodi für Rechenzentren. Der Fokus liegt klar auf Servern und KI-Rechenzentren. Alle Angaben können sich laut JEDEC im weiteren Standardisierungsprozess noch ändern. Einen Termin für den fertigen Standard oder erste Produkte nennt die Pressemitteilung nicht.",
+      "quelle": {
+        "name": "JEDEC (Pressemitteilung)",
+        "url": "https://www.jedec.org/news/pressreleases/jedec%C2%AE-previews-next-generation-ddr6-dram-higher-performance-greater-capacity"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354995/jedec-previews-next-generation-ddr6-dram"
+        }
+      ],
+      "tags": [
+        "DDR6",
+        "JEDEC",
+        "RAM",
+        "CAMM",
+        "Arbeitsspeicher"
+      ],
+      "img_prompt": "Close-up of compact unbranded engineering-sample memory modules on a warm wooden lab workbench, gold edge contacts along one long edge only, tweezers and a blurred probe, dusty teal accent; documentary hardware photo style (stil).",
+      "archiviert_am": "2026-11-25T20:38:23.958Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.037Z"
+      },
+      "id": "2026-11-18-rockstar-gewerkschaft-abstimmung",
+      "datum": "2026-11-18T16:56:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Spieleindustrie"
+      ],
+      "kategorie": "Unternehmen",
+      "titel": "Rund 1.600 Rockstar-Beschäftigte im Vereinigten Königreich stimmen über die Anerkennung einer Gewerkschaft ab, die Auszählung endet am 26. November",
+      "schlagzeile": "1.600 Rockstar-Beschäftigte stimmen über eine Gewerkschaft ab",
+      "kurz": "Während GTA 6 startet, stimmen mehr als 1.600 Rockstar-Beschäftigte im Vereinigten Königreich über die Anerkennung einer Gewerkschaft ab. Die Frist endet am 26. November. Entschieden ist damit noch nichts; bei einem Ja wäre es nach PC Gamer die größte Spiele-Gewerkschaft des Landes.",
+      "zusammenfassung": "PC Gamer und Polygon berichten über die Abstimmung, die mit dem Test- und Starttag von GTA 6 zusammenfällt. In einem Gastbeitrag für The Guardian schreibt der Rockstar-Animationsprogrammierer und Gewerkschaftsvertreter Nestor Uriarte, hinter den Rekordzahlen stünden Tausende Menschen, die einen fairen Anteil am Erfolg sehen sollten. Mit einer anerkannten Vertretung wolle man Löhne, Arbeitsbedingungen und Boni besser absichern und auch den Einsatz von KI in der Entwicklung verhandeln. Uriarte nennt anhaltende Sorgen zu Mehrarbeit, zu einem möglichen Gender-Pay-Gap und zu unklaren Bonusregeln; zugleich betont er, die Initiative komme von Beschäftigten im Studio, nicht von außen. Ob die Mehrheit zustimmt, steht erst nach dem 26. November fest. Parallel läuft in Glasgow ein Tribunal zu Vorwürfen, Rockstar habe gewerkschaftlich aktive Mitarbeiter benachteiligt oder entlassen; über diesen Streit ist gerichtlich noch nicht abschließend entschieden. Uriarte verweist außerdem auf die Entlassungen bei Firaxis im gleichen Konzernumfeld. Eine Stellungnahme von Rockstar zur laufenden Abstimmung liegt in den vorliegenden Berichten nicht vor.",
+      "quelle": {
+        "name": "PC Gamer",
+        "url": "https://www.pcgamer.com/gaming-industry/we-need-to-come-together-on-the-eve-of-gta-6-1-600-rockstar-workers-are-voting-on-unionization/"
+      },
+      "weitere_links": [
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-devs-union-vote-recognition/"
+        }
+      ],
+      "tags": [
+        "Rockstar Games",
+        "Gewerkschaft",
+        "GTA 6",
+        "Vereinigtes Königreich"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Warm late-afternoon union-hall table scene: a stack of unmarked paper ballots and a simple wooden box on a scuffed table, several empty chairs, a window with golden light, a dusty-teal enamel pitcher as accent, no readable text, no logos, no faces close enough to identify, no game characters.",
+      "archiviert_am": "2026-11-25T20:38:23.959Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.821Z"
+      },
+      "id": "2026-11-18-gta6-technik-fsr4-series-s",
+      "datum": "2026-11-18T15:43:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6",
+        "Grafik"
+      ],
+      "kategorie": "Technik",
+      "titel": "Rockstar bestätigt Technik von GTA 6: 1440p mit Upscaling auf 4K bei PS5, PS5 Pro und Series X, 720p mit FSR 4 auf 1080p bei der Series S, Ziel sind 30 Bilder pro Sekunde",
+      "schlagzeile": "GTA 6: 1440p auf PS5 und Series X, Series S startet mit FSR 4 bei 720p",
+      "kurz": "Rockstar hat gegenüber Wccftech die Technik von GTA 6 auf den Konsolen bestätigt. PlayStation 5, PS5 Pro und Xbox Series X rechnen intern in 1440p und skalieren auf 4K hoch, die Series S startet bei 720p und nutzt als erstes Spiel auf der Konsole AMD FSR 4 für 1080p. Ziel sind 30 Bilder pro Sekunde, konstant hält das laut Analysen nur die PS5 Pro.",
+      "zusammenfassung": "Die Angaben stammen von Rockstar und wurden von ComputerBase und Tom's Hardware aufgegriffen. Auf PS5 und Series X kommt demnach eine hauseigene TAA-Lösung zum Zuge, auf der PS5 Pro Sonys PSSR, auf der Series S FSR 4. Anschließend wird auf allen Plattformen eine 4K-Benutzeroberfläche darübergelegt. Raytracing-gestützte globale Beleuchtung ist auch auf der Series S vorgesehen, die Umsetzung wird an die jeweilige Hardware angepasst. Raytraced-Schatten nennt ComputerBase nur für die PS5 Pro. Das Bildziel von 30 fps erreicht die günstigere Xbox und die normale PS5 laut Tabelle nicht immer konstant, die PS5 Pro soll die Marke halten. Gegenüber Kotaku sagte Technikchef Marc Chambers laut VGC, die „Basispräsentation“ auf der PS5 Pro umfasse Reflexionen und globale Beleuchtung per Raytracing sowie die höhere Schärfe durch PSSR. Der Prozessor der PS5 Pro sei etwas besser als in der normalen PS5, aber nicht stark genug, um die komplexe Simulation mit höherer Bildrate laufen zu lassen. Eine Absenkung der Grafik zugunsten von 60 fps klingt in dieser Aussage nicht nach einem geplanten Weg. Die oft dunkleren Bildränder bezeichnet Rockstar als künstlerische Entscheidung, abschalten lässt sich die Vignettierung derzeit nicht; einen Fehler, der sie zeitweise zu stark machte, hat das Studio nach eigenen Angaben behoben. Eine PC-Version mit eigenen Grafikstufen bleibt ohne Termin. Die Aussagen bestätigen frühere Berichte, wonach GTA 6 auch auf der PS5 Pro bei 30 fps bleibt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/gaming/gta-6-erstes-spiel-mit-amd-fsr-4-auf-der-xbox-series-s.100389/"
+      },
+      "weitere_links": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/video-games/console-gaming/gta-vi-runs-at-1440p-on-ps5-and-xbox-series-x-but-just-720p-with-upscaling-on-series-s-rockstar-details-upscaling-technologies-for-launch"
+        },
+        {
+          "name": "Video Games Chronicle",
+          "url": "https://www.videogameschronicle.com/news/rockstar-says-ps5-pro-cant-handle-gta-6-at-60-fps/"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "FSR 4",
+        "Xbox Series S",
+        "PS5 Pro",
+        "PSSR"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Warm late-afternoon living-room scene: a large unmarked television seen from behind a couch, the screen showing an original out-of-focus sunlit coastal city street (not a known game view), two plain unbranded game controllers on a wooden table, a terracotta mug as accent, natural window light, no logos, no text, no UI, not a real screenshot.",
+      "archiviert_am": "2026-11-25T20:38:23.959Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.602Z"
+      },
+      "id": "2026-11-18-am5-agesa-vcore-14-ryzen-8000",
+      "datum": "2026-11-18T14:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Mainboards",
+      "titel": "AGESA 1.3.0.1f Patch A begrenzt bei ausgewählten Ryzen-8000-Prozessoren die Kernspannung auf 1,4 Volt; MSI und Asus verteilen bereits passende BIOS-Versionen",
+      "schlagzeile": "Neues AM5-BIOS: Vcore bei manchen Ryzen-8000-CPUs auf 1,4 Volt begrenzt",
+      "kurz": "Ein neues AGESA-Update begrenzt bei ausgewählten Ryzen-8000-Prozessoren die Kernspannung auf höchstens 1,4 Volt. MSI nennt die Änderung in den Release Notes, sagt aber nicht, welche Modelle betroffen sind. Asus verteilt bereits Beta-BIOS-Versionen und warnt davor, alte Profile zu übernehmen.",
+      "zusammenfassung": "Die Firmware trägt die Bezeichnung AGESA 1.3.0.1f Patch A, berichtet PCGH. In den MSI-Release-Notes steht wörtlich, die maximale Vcore werde für ausgewählte CPUs der Ryzen-8000-Serie auf 1,4 Volt begrenzt. Welche Modelle das sind und ob die Vorgabe von AMD stammt, ist offen. Die Regelung betrifft die Versorgung der Rechenkerne und ist von der bereits bekannten SoC-Spannungsgrenze von 1,3 Volt zu unterscheiden. Unklar bleibt auch, ob nur manuell gesetzte Werte oder zusätzlich die automatische Regelung und Precision Boost Overdrive eingeschränkt werden. Auswirkungen auf die Alltagsleistung sind nicht belegt, fürs manuelle Übertakten kann die Grenze spürbar werden. Zusätzlich führt das Update eine neue POST-Anzeige für das DDR5-Speichertraining ein: Auf dem zweistelligen Display läuft während der Initialisierung eine Zahlenfolge von 00 bis 09 im Sekundentakt, danach beginnt sie von vorn. Das ist keine Prozentanzeige, soll aber helfen zu erkennen, ob das Board noch trainiert oder hängt. Asus bietet die Firmware bereits als Beta für ausgewählte Boards der Serien X870, X870E und X670E an und warnt ausdrücklich davor, gespeicherte UEFI-Profile älterer AGESA-Versionen zu importieren. Wer ein stabil laufendes System hat, muss wegen der POST-Anzeige nicht auf eine Beta wechseln.",
+      "quelle": {
+        "name": "PC Games Hardware",
+        "url": "https://www.pcgameshardware.de/Ryzen-7-8700G-CPU-280151/News/BIOS-Update-Spannung-Reduktion-1560422/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "AM5",
+        "AGESA",
+        "Ryzen 8000",
+        "BIOS"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An open unbranded AM5-style motherboard on a wooden workbench, a bare unmarked CPU in a small plastic tray beside it, a simple screwdriver and a terracotta cable comb as muted accent, warm late-morning window light, shallow depth of field, no readable text, no logos, no brand markings, no faces.",
+      "archiviert_am": "2026-11-25T20:38:23.959Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.713Z"
+      },
+      "id": "2026-11-18-gta6-tests-metacritic-99",
+      "datum": "2026-11-18T13:17:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA-6-Tests sind erschienen: Metacritic liegt derzeit bei 99 Punkten, der Verkaufsstart für PlayStation 5 und Xbox Series X|S ist der 19. November 2026, ein PC-Termin fehlt weiter",
+      "schlagzeile": "GTA 6 startet: Tests feiern das Spiel, Metacritic liegt derzeit bei 99",
+      "kurz": "Die Tests zu Grand Theft Auto 6 sind da, bei Metacritic steht das Spiel derzeit bei 99 Punkten und damit gleichauf mit Zelda: Ocarina of Time. Offizieller Start auf PlayStation 5 und Xbox Series X|S ist der 19. November 2026, in Neuseeland ist es bereits spielbar. Ein Termin für die PC-Version hat Rockstar weiter nicht genannt.",
+      "zusammenfassung": "Viele große Fachmedien vergeben Höchstwertungen, berichtet unter anderem Polygon. OpenCritic liegt derzeit bei 98 Punkten. Die Werte können sich noch ändern, je mehr Tests dazukommen. Gelobt werden vor allem die Dichte der Spielwelt Leonida, die Beziehung zwischen Jason und Lucia und der Detailgrad; vereinzelt gibt es Kritik an einem langsamen Einstieg, an umständlicher Bedienung oder an ungelenktem Kampf. Rockstar-Präsident Sam Houser hat aus Anlass des Starts eine seltene Erklärung abgegeben, die IGN vorliegt: Das Studio wolle die Erwartungen übertreffen und zeigen, wozu Spiele fähig seien, und blicke auf „viele weitere Jahre“ gemeinsamer Erlebnisse. Was genau damit gemeint ist, etwa ein Online-Modus, sagt Rockstar nicht. In manchen Zeitzonen, etwa in Neuseeland, können Spieler das Spiel bereits starten, in Europa typischerweise in der Nacht zum 19. November. Berichte über Vorverkaufserlöse von mehr als 1,5 Milliarden US-Dollar stammen von Marktbeobachtern, nicht von einer offiziellen Rockstar-Mitteilung. Die PC-Fassung bleibt ohne Termin, ein Cloud-Streaming über Xbox wird als Zwischenlösung genannt. Wer Wertungen und Verkaufszahlen zitiert, sollte den Stand vom 18. November 2026 im Blick behalten, beides kann sich schnell ändern. PlayStation hat den Start offiziell auf Donnerstag, den 19. November, datiert. Der Support weist darauf hin, dass vor dem Spielen ein PS5-Systemupdate nötig ist.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-review-roundup/"
+      },
+      "weitere_links": [
+        {
+          "name": "IGN (Sam Houser)",
+          "url": "https://www.ign.com/articles/rockstar-president-sam-houser-issues-rare-statement-to-celebrate-gta-6-launch"
+        },
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/Test-Review-Metascore-Bewertungen-1560408/"
+        },
+        {
+          "name": "PC Games (Test)",
+          "url": "https://www.pcgames.de/GTA-6-Spiel-55239/Tests/Review-Rockstar-Wertung-Lucia-Jason-1560203/"
+        },
+        {
+          "name": "PlayStation",
+          "url": "https://x.com/PlayStation/status/2123084055071908103"
+        },
+        {
+          "name": "PlayStation Support",
+          "url": "https://x.com/PS_Support_US/status/2122863683881619685"
+        }
+      ],
+      "tags": [
+        "GTA 6",
+        "Rockstar Games",
+        "Metacritic",
+        "PlayStation 5",
+        "Xbox"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Strong focal subject and news-card readability. Original adult characters only if needed, coherent anatomy and hands. No recognizable protected characters, logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Cinematic late-afternoon scene on a sun-bleached coastal city boulevard: an original generic sports car parked at a cracked curb, palm shadows on warm asphalt, pastel motel facades without signs, a distant unbranded television store window softly reflecting the street, golden natural light, rich colors, no recognizable game characters, no logos, no text, no copied map or UI, not a screenshot.",
+      "archiviert_am": "2026-11-25T20:38:23.960Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-20T18:28:42.371Z"
+      },
+      "id": "2026-11-20-wow-forever-15-jahre-rekord",
+      "datum": "2026-11-18T13:00:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "World of Warcraft"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Blizzard: World of Warcraft Forever hat mehr wöchentlich aktive Spieler als WoW in den vergangenen 15 Jahren, nach zwei Wochen wurden über 15 Millionen Charaktere erstellt",
+      "schlagzeile": "WoW Forever: So viele Spieler pro Woche wie seit 15 Jahren nicht mehr",
+      "kurz": "Zwei Wochen nach dem Start meldet Blizzard für World of Warcraft Forever einen Rekord: So viele Menschen pro Woche wie jetzt haben WoW seit 15 Jahren nicht mehr gespielt. Dazu kommen über 15,16 Millionen erstellte Charaktere. Eine konkrete Spielerzahl nennt Blizzard aber nicht.",
+      "zusammenfassung": "Den Rekord verkündete Holly Longdale, Vizepräsidentin und Executive Producer von World of Warcraft, am 18. November auf X. Laut PC Games und GamesRadar+ lag WoW zuletzt Anfang der 2010er-Jahre, zur Zeit von Cataclysm, auf diesem Niveau; damals meldete Blizzard rund 12 Millionen Abonnenten. Eine Infografik zeigt Zahlen als Momentaufnahme vom 18. November: 15.160.147 erstellte Charaktere, rund 1,48 Milliarden abgeschlossene Quests und fast 9,8 Milliarden besiegte Gegner. Dazu kommen über 140.000 Gilden, mehr als 71 Millionen Gruppen und fast 29 Millionen genutzte Camping-Gegenstände aus dem neuen Camping-System. Gestorben sind die Spielfiguren knapp 197 Millionen Mal, davon rund 29 Millionen Mal im Kampf gegen andere Spieler. Tödlichster Dungeon-Boss ist Erzmagier Arugal aus der Burg Schattenfang. Wichtig: Charaktere sind keine Spieler, viele legen mehrere Figuren an. WoW Forever ist am 4. November gestartet und knüpft an die frühe Welt von Azeroth an, ergänzt um neue Gebiete und Dungeons. Die ersten neuen Schlachtzüge sollen laut Blizzard am 9. Dezember folgen.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/World-of-Warcraft-Spiel-42971/News/WoW-Forever-Rekorde-Statistiken-1560372/"
+      },
+      "weitere_links": [
+        {
+          "name": "GamesRadar+",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-has-more-people-playing-weekly-than-blizzard-has-seen-in-15-years-lead-says-as-the-new-mmo-reaches-15-million-players/"
+        }
+      ],
+      "tags": [
+        "World of Warcraft",
+        "WoW Forever",
+        "Blizzard",
+        "MMO",
+        "Spielerzahlen"
+      ],
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. Original fantasy illustration: a lively group of original adult adventurers (a human ranger, a dwarf-like warrior in sturdy plate armor, a robed mage) resting around a crackling campfire with bedrolls and a small tent at the edge of a sunlit ancient forest, distant ruined stone tower on a hill, one adventurer standing alert with drawn sword at the treeline as dusk falls, low camera with strong diagonals, warm firelight against cool blue evening sky, natural rich colors. Original designs only, no recognizable game characters, races or armor sets, no text, no logos, no UI.",
+      "archiviert_am": "2026-11-25T20:38:23.960Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
