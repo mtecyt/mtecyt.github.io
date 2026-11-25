@@ -2,10 +2,511 @@
   "_info": {
     "beschreibung": "Freigegebene bzw. zur Freigabe vorbereitete Einträge für den M-TEC News- & Leak-Ticker. Zusammenfassungen sind KI-gestützt (Grok Bot) in eigenen Worten verfasst.",
     "modus": "live",
-    "stand": "2026-11-25T20:38:23.961Z",
+    "stand": "2026-11-25T20:59:52.324Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "id": "2026-11-25-gta6-softlock-kapitel-3",
+      "datum": "2026-11-25T19:32:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "GTA 6"
+      ],
+      "kategorie": "Spiele",
+      "titel": "GTA 6: Spieler melden Softlock in Kapitel 3, Wechsel von Lucia zu Jason bleibt gesperrt, Patch 01.002.002 hilft nicht",
+      "schlagzeile": "GTA 6: Softlock in Kapitel 3 stoppt die Story – das hilft vielleicht",
+      "kurz": "Mehrere GTA-6-Spieler hängen in Kapitel 3 fest, weil sich der Wechsel von Lucia zu Jason nicht mehr auswählen lässt. Laut Polygon tritt der Fehler nach der Mission „Missing Persons“ auf und blockiert die Story. Der Patch 01.002.002 hat das Problem offenbar nicht behoben.",
+      "zusammenfassung": "Ein Video des X-Nutzers SirGrotti zeigt, dass die Option zum Figurenwechsel dauerhaft ausgegraut ist. Weil der nächste Story-Abschnitt Jason braucht, geht es dann nicht weiter. Auf der Fan-Seite GTA6Bugs ist dieser Softlock laut Polygon der meistgesehene Eintrag. Als Lösung nennt Polygon, einen manuellen Spielstand von vor der Fahrt zum Lagerhaus in Port Gellhorn zu laden. Dann soll man mit Jason die Mission „Dealer's Choice“ spielen, bis der Wechsel wieder frei ist, und in einem neuen Slot speichern. Andere Spieler berichten von Erfolg mit einer weiteren Lucia- oder Duo-Mission oder einem Anruf bei Dunk. Diese Tipps funktionieren aber nicht bei allen. Rockstar hat sich laut Bericht noch nicht zu dem Fehler geäußert. Wer gerade in Kapitel 3 ist, sollte vorsorglich regelmäßig manuell in getrennten Slots speichern.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/gta-6-soft-lock-bug-chapter-3-game-breaking/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "GTA 6",
+        "Bug",
+        "Softlock",
+        "Rockstar"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.573Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A late-night living room scene: a generic black game controller dropped on a coffee table next to a half-empty energy drink can without labels, a large TV in the background showing a frozen, out-of-focus sunny coastal city scene with palm trees, warm lamp light against cool TV glow, small olive accent from a cushion, documentary photo, no text, no logos, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-gta6-softlock-kapitel-3.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-ea-fc-27-motson-ki-stimme",
+      "datum": "2026-11-25T18:59:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "EA Sports FC",
+        "KI"
+      ],
+      "kategorie": "Spiele",
+      "titel": "EA Sports FC 27 holt den verstorbenen Kommentator John Motson per generativer KI zurück, Update am 26. November",
+      "schlagzeile": "EA Sports FC 27 holt verstorbenen Kommentator per KI zurück",
+      "kurz": "EA lässt in EA Sports FC 27 die Stimme des 2023 verstorbenen Fußballkommentators John Motson wieder auftreten. Dafür kombiniert EA alte Aufnahmen mit generativer KI, die Familie hat zugestimmt. Das Update soll am 26. November erscheinen.",
+      "zusammenfassung": "John Motson war von FIFA 96 bis FIFA 2005 die erste echte Kommentatorenstimme der Reihe. Laut Eurogamer und BBC nutzt EA bestehende Aufnahmen und ergänzt sie mit KI, weil es keine Aufnahmen zu neueren Spielern gibt. Senior Game Design Director Mat Prior sagte der BBC, ohne volle Zustimmung der Familie hätte man das Projekt nicht umgesetzt. EA habe die Familie für die Rechte an Stimme und Abbild bezahlt. Motsons Sohn Fred sagte, es bedeute ihm viel, die Stimme seines Vaters wieder im Spiel zu hören. Kritik kommt von der Initiative Save Our Voices Now. Ihr Gründer meint, KI-Klone sollten ohne ausdrückliche Zustimmung der betroffenen Person nicht erlaubt sein, auch nicht nach dem Tod. Generative KI ist in der Spielebranche ohnehin umstritten. In Japan hat eine Schauspielergewerkschaft kürzlich Regeln gegen das Nachbilden verstorbener Stimmen ohne Zustimmung vorgeschlagen. Das Motson-Update betrifft den englischen Kommentar.",
+      "quelle": {
+        "name": "Eurogamer",
+        "url": "https://www.eurogamer.net/ea-sports-fc27-dead-commentator-ai"
+      },
+      "weitere_links": [
+        {
+          "name": "Insider Gaming",
+          "url": "https://insider-gaming.com/ea-uses-ai-to-add-john-motson-back-in-ea-sports-fc-27/"
+        }
+      ],
+      "tags": [
+        "EA Sports FC 27",
+        "John Motson",
+        "KI",
+        "Kommentar"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.287Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty commentator booth high above a floodlit football stadium at dusk: a vintage ribbon microphone and a modern headset resting on a wooden desk next to blank notes, the pitch blurred far below, warm golden booth light against the cool blue evening sky, small terracotta accent from a scarf over the chair, documentary photo, no text, no logos, no people.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-ea-fc-27-motson-ki-stimme.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-silksong-sea-of-sorrow-cherry-time",
+      "datum": "2026-11-25T18:58:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Hollow Knight"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Team Cherry kündigt Showcase „Cherry Time“ für 27. November an, mit Update zum Silksong-DLC Sea of Sorrow",
+      "schlagzeile": "Silksong-DLC: Team Cherry kündigt für Freitag ein Update an",
+      "kurz": "Team Cherry zeigt am Freitag, 27. November, eine Präsentation namens „Cherry Time“. Versprochen werden mehrere Ankündigungen und ein Update zum kostenlosen Silksong-DLC Sea of Sorrow. Was genau kommt, sagt das Studio nicht.",
+      "zusammenfassung": "Angekündigt hat Team Cherry die Show auf X mit den Worten, es gebe „eine Menge spannender Ankündigungen“ und ein Update zu Sea of Sorrow. Für den DLC gilt bisher ein Zeitfenster im Jahr 2026. Laut VGC spekulieren Fans von einem Überraschungsstart bis zu einer Verschiebung ins Jahr 2027. Möglich wäre auch ein Termin im Dezember. Sea of Sorrow soll für alle Besitzer von Hollow Knight: Silksong kostenlos erscheinen und neue Gebiete und Bosse bringen. Silksong selbst kam im September 2025 auf den Markt. Ob Team Cherry auch ein neues Spiel zeigt, ist offen. Die genaue Uhrzeit nennt VGC nicht, die Premiere soll auf YouTube laufen.",
+      "quelle": {
+        "name": "Video Games Chronicle (VGC)",
+        "url": "https://www.videogameschronicle.com/news/team-cherry-will-share-an-update-on-silksongs-dlc-on-november-27/"
+      },
+      "weitere_links": [
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/hollow-knight-silksong-dlc-livestream-sea-of-sorrows-update"
+        }
+      ],
+      "tags": [
+        "Hollow Knight: Silksong",
+        "Sea of Sorrow",
+        "Team Cherry",
+        "DLC"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.428Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original small masked insect-like wanderer with a thin needle sword standing on a wet rock at the edge of a vast underground sea cave, glowing pale-teal bioluminescent coral, warm lantern light from a distant shipwreck, dramatic low camera angle, painterly cinematic illustration, original design not resembling any known game character, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-silksong-sea-of-sorrow-cherry-time.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-diablo-4-season-16-inhalte-bleiben",
+      "datum": "2026-11-25T18:29:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Diablo 4"
+      ],
+      "kategorie": "Spiele",
+      "titel": "Diablo 4: Season 16 startet am 1. Dezember, beliebte Inhalte aus Season 15 wie Alt-Tristram und Deckard Cain bleiben dauerhaft",
+      "schlagzeile": "Diablo 4 bricht mit der Regel: Beliebte Season-Inhalte bleiben dauerhaft",
+      "kurz": "Blizzard behält in Diablo 4 erstmals viele Inhalte einer Saison dauerhaft im Spiel. Aus der Jubiläumssaison 15 bleiben unter anderem Alt-Tristram und Deckard Cain. Season 16 „Tyrael's Gambit“ startet am 1. Dezember.",
+      "zusammenfassung": "Normalerweise verschwinden saisonale Inhalte in Diablo 4 am Ende einer Season. Die Saison 15 zum 30. Jubiläum der Reihe mit vielen Anspielungen auf Diablo 2 kam laut Polygon aber so gut an, dass Blizzard Teile davon behält. Dazu gehören die Nachbildung von Alt-Tristram und Deckard Cain, dessen Bücher über ein Podest in der Stadt erreichbar sind. Der Kampf gegen die Großen Übel lässt sich künftig als normaler Lair-Boss beschwören. Die Capstone-Dungeons der Saison wandern auf Qual 10 und höher. Die Waking-Nightmares-Dungeons bleiben über spezielle Schlüssel erreichbar. Auch einige Legacy-Unikate wie Annihilus und der Hellfire-Torch-Charm bleiben im Spiel. Season 16 setzt die Geschichte um den Todeskult Úllo Sar fort und bringt neue Gegenstände und Kämpfe. Blizzard betont, Diablo 4 weiter zu unterstützen, obwohl Diablo 5 angekündigt ist.",
+      "quelle": {
+        "name": "Polygon",
+        "url": "https://www.polygon.com/diablo-4-season-16-changes-season-15-content/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Diablo 4",
+        "Season 16",
+        "Blizzard"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.708Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Original thematic AI editorial gaming illustration, never a copy of a known character, costume silhouette, game map or UI. Match the actual news topic, genre, era and culture. For action-game stories, create compelling dynamic scenes, not boring passive portraits: close low camera, strong diagonals, urgent movement, cover, dust/debris, coherent non-graphic combat and cinematic scale when relevant. For medieval combat topics use original knights or appropriate units in action; for Roman topics a period-plausible Roman legion or appropriate soldiers; for other ancient cultures use their own appropriate units, never default to Romans. Do not force battles into noncombat stories such as building, economy or platform news. Approved energy/composition reference only: /workspace/news-img-raw/rechte-beispiele/ki-original-shooter-action-v2.jpg; do not copy a franchise design. Preserve Variante A: warm natural light, natural rich colors, readable warm/cool contrast, no garish neon, no drab or washed-out palette. Polished illustrative art may be cinematic/fantastical, not constrained to documentary hardware photography. Strong focal subject and news-card readability. Original adult characters, coherent anatomy, hands, weapons, armor and equipment. No recognizable protected characters (including 2B, Ratchet or Ghost), logos, text, watermarks, copied maps, trademarks or game UI. 16:9 landscape. Label KI-generiertes Bild and clearly identify as thematic AI illustration, not a real screenshot, actual game character, new reveal or confirmed leaked design. No legal guarantees. An original dark-fantasy village at dusk with a crumbling stone chapel and a ruined well, an elderly original scholar figure in a hooded robe holding a heavy old book by warm torchlight, an original armored adventurer with a sword arriving down a muddy path, ominous red sky glow on the horizon, low dramatic camera angle, painterly cinematic illustration, original designs, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-diablo-4-season-16-inhalte-bleiben.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-xnulinux-macos-kernel-modul",
+      "datum": "2026-11-25T18:14:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Linux",
+        "macOS"
+      ],
+      "kategorie": "Software",
+      "titel": "xnulinux: Open-Source-Projekt lädt den macOS-Kernel XNU als Modul in Linux, macOS-Prozesse laufen neben Linux-Anwendungen",
+      "schlagzeile": "macOS als Linux-Modul: xnulinux startet Apples Kernel ohne Hypervisor",
+      "kurz": "Das Open-Source-Projekt xnulinux lädt den macOS-Kernel als Modul in einen normalen Linux-Kernel. So laufen macOS-Programme direkt neben Linux-Anwendungen, ohne Hypervisor dazwischen. Laut heise ist das bisher nur ein Experiment.",
+      "zusammenfassung": "Die Entwickler bauen XNU, den Kernel von Darwin, aus Apples veröffentlichtem Quellcode. Das Ergebnis wird als Modul in einen unveränderten ARM64-Linux-Kernel geladen. In Tests mit einem Ubuntu-Kernel dauerte es laut Projektseite 31 bis 48 Sekunden bis zum Desktop von macOS 27. Getestet ist das Projekt vor allem auf Macs mit Apple Silicon, auf denen Linux in einer virtuellen Maschine läuft. Nötig sind außerdem Xcode und eine eigene macOS-Installation. Grafikbeschleunigung gibt es mit einem virtio-gpu-Gerät, sonst rendert die CPU. Für den Betrieb haben die Entwickler Schutzfunktionen von macOS wie AMFI gepatcht und SIP gelockert. TweakTown berichtet zudem von einer Demo auf Nvidias Mini-PC DGX Spark, dort allerdings nur mit CPU-Rendering. Apples Lizenz erlaubt macOS nur auf Apple-Hardware. Für den produktiven Einsatz ist xnulinux laut heise nichts.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/xnulinux-macOS-Kernel-als-Modul-in-Linux-11538082.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Linux",
+        "macOS",
+        "XNU",
+        "Open Source"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:52.178Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A developer's desk at dusk: two unbranded laptops side by side, both screens showing blurred unreadable terminal windows in warm and cool tones, a small single-board computer with a ribbon cable between them, a mechanical keyboard, warm desk lamp light against blue evening window light, small olive accent from a plant pot, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-xnulinux-macos-kernel-modul.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-tsmc-texas-fab-22-milliarden",
+      "datum": "2026-11-25T18:05:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "TSMC",
+        "Chipfertigung"
+      ],
+      "kategorie": "Wirtschaft",
+      "titel": "Steuerantrag zeigt: TSMC prüft Chipfabrik für 22,6 Milliarden US-Dollar bei College Station in Texas, Bau von 2027 bis 2032",
+      "schlagzeile": "22,6 Milliarden Dollar: TSMC prüft eine zweite große US-Fabrik in Texas",
+      "kurz": "TSMC prüft einen neuen Fertigungsstandort in Texas, rund 120 Kilometer nordwestlich von Houston. Das geht aus einem öffentlichen Antrag auf Steuervergünstigungen hervor, über den heise berichtet. Die Fabrik soll 22,6 Milliarden US-Dollar kosten und Chips in N2 und neueren Verfahren fertigen.",
+      "zusammenfassung": "Der Antrag läuft über das texanische Förderprogramm JETI und beschreibt einen „TSMC Texas Advanced Semiconductor Manufacturing Campus“ nahe College Station. Der Bau soll laut heise von 2027 bis 2032 dauern. Wccftech nennt aus den Unterlagen rund 2.100 geplante Arbeitsplätze. Produziert werden sollen Chips mit 2-Nanometer-Technik und Nachfolgern, als Beispiel nennt TSMC KI-Beschleuniger. Das Gelände liegt nur rund 30 Kilometer von der geplanten „Terafab“ von Elon Musks Unternehmen entfernt. Aus dem Antrag geht auch hervor, dass TSMC andere US-Standorte prüft, vor allem in Arizona. Steuervorteile seien ein wichtiger Faktor, ebenso Bauland, Strom, Wasser und Arbeitskräfte. TSMC betreibt bereits eine Fabrik in Arizona und baut dort weitere. Eine endgültige Standortentscheidung ist damit noch nicht gefallen. Für Spieler ändert sich kurzfristig nichts, die Fabrik würde frühestens Anfang der 2030er-Jahre produzieren.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/TSMC-erwaegt-sehr-grosse-Chipfabrik-in-Texas-nahe-Musks-Terafab-11538050.html"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/tsmc-plans-22-6-billion-chip-fab-with-2nm-tech-in-brazos-county-texas-with-construction-from-2027-to-2031-and-2099-jobs-filings-show/"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "Texas",
+        "N2",
+        "Chipfertigung"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:50.857Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A wide flat grassy construction site at the edge of a small Texas town under a big warm late-afternoon sky, surveying stakes with small olive-green flags, a parked unmarked white pickup truck, a rolled-up blank site plan on its hood, distant power lines, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-tsmc-texas-fab-22-milliarden.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-apex-anr-digital-foundry-test",
+      "datum": "2026-11-25T17:45:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "Upscaling"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "Digital Foundry testet Apex Neural Rendering: Open-Source-Frame-Generation hält mit DLSS teils mit, zeigt aber Ghosting und UI-Fehler",
+      "schlagzeile": "DLSS-Konkurrent im Test: Apex-Frame-Generation hält teils mit Nvidia mit",
+      "kurz": "Digital Foundry hat die Open-Source-Technik Apex Neural Rendering gegen Nvidias DLSS-Frame-Generation getestet. In manchen Spielen ist ANR gleich schnell oder schneller, bei höheren Multiplikatoren liegt Nvidia vorn. Spannend ist, dass ANR Multi-Frame-Generation auch auf älteren AMD- und Intel-Karten möglich macht.",
+      "zusammenfassung": "Getestet wurde laut Wccftech auf einem System mit Ryzen 7 9800X3D und RTX 5070 Ti. In Spider-Man Remastered in 4K mit zweifacher Frame-Generation erreichte ANR 130,5 fps, DLSS kam auf 124,9 fps. In Cyberpunk 2077 mit Pathtracing und dreifacher Generierung war DLSS rund 10 Prozent schneller, in Crimson Desert mit vierfacher Generierung lag ANR nur 3,6 Prozent zurück. Bei der Bildqualität zeigte ANR mehr Ghosting, Probleme mit UI-Elementen und erkannte Kameraschnitte schlechter. In The Last of Us Part II fielen die Zwischenbild-Artefakte dagegen teils weniger auf als bei DLSS. Weil ANR über normale Compute-Shader läuft, funktioniert es auch auf Karten ohne KI-Einheiten. Auf einer Arc B580 und einer Radeon RX 6700 erreichte Cyberpunk 2077 mit dreifacher Generierung 186 und 149 fps, allerdings bei 67 und 82 ms Latenz. Die Radeon zeigte zudem ungleichmäßige Frametimes. Neu ist ein Werkzeug von Apex Compute, das die Rohdaten für Upscaler und Frame-Generation aufzeichnet und so exakt gleiche Bildvergleiche erlaubt. Für das Vergleichsmaterial fiel laut Bericht rund 1 TB an Daten an. ANR ist eine Beta, die nach bisherigen Berichten im Wesentlichen von einer Einzelperson entwickelt wird. Super Resolution und Ray Reconstruction von Apex sind noch in Arbeit.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/apex-neural-rendering-gives-nvidia-dlss-a-run-for-its-money-in-digital-foundrys-testing-introduces-game-changing-comparison-tool/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Apex Neural Rendering",
+        "Frame Generation",
+        "DLSS",
+        "Digital Foundry"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.000Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A reviewer's test bench on a wooden desk: an open-frame PC with a generic graphics card with two visible axial fans, a monitor showing an out-of-focus colorful game landscape, a second monitor with blurred graphs, a notepad with unreadable scribbles, warm late-morning window light, small terracotta accent from a coffee mug, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-apex-anr-digital-foundry-test.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-ps-plus-dezember-2026",
+      "datum": "2026-11-25T17:30:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "PlayStation"
+      ],
+      "kategorie": "Konsolen",
+      "titel": "PS Plus im Dezember 2026: Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2 und Amnesia: The Bunker",
+      "schlagzeile": "PS Plus im Dezember: Tony Hawk, Dragon Ball und Grusel im Bunker",
+      "kurz": "Sony hat die monatlichen PS-Plus-Spiele für Dezember bestätigt. Abonnenten bekommen Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2 und Amnesia: The Bunker. Die Spiele stehen ab dem ersten Dezember bis zum vierten Januar bereit.",
+      "zusammenfassung": "Sony hat die Auswahl im PlayStation Blog und auf X bekanntgegeben. Tony Hawk's Pro Skater 3+4 ist die Neuauflage der beiden Skateboard-Klassiker. Dragon Ball Xenoverse 2 ist ein Action-Rollenspiel mit Kämpfen im Anime-Stil, das bereits 2016 erschienen ist. Amnesia: The Bunker ist ein Horrorspiel von Frictional Games, das im Ersten Weltkrieg spielt. Die Titel lassen sich laut IGN von Dienstag, 1. Dezember, bis Montag, 4. Januar, zur Bibliothek hinzufügen. Wer die November-Spiele noch nicht geholt hat, hat dafür bis Montag, 30. November, Zeit. Im November waren das Dead Island 2, Tomb Raider IV–VI Remastered und Monster Train 2. Wie immer gilt, dass man ein aktives Abo braucht, um die Spiele zu spielen.",
+      "quelle": {
+        "name": "IGN",
+        "url": "https://www.ign.com/articles/sony-confirms-playstation-plus-monthly-games-for-december-2026"
+      },
+      "weitere_links": [
+        {
+          "name": "X: PlayStation",
+          "url": "https://x.com/PlayStation/status/2125628221672558910"
+        },
+        {
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026"
+        }
+      ],
+      "tags": [
+        "PS Plus",
+        "PlayStation",
+        "Tony Hawk",
+        "Dragon Ball",
+        "Amnesia"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.145Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A cozy living room in the evening: a generic white game controller without any markings lying on a sofa cushion next to a small wrapped gift and a skateboard leaning against the couch, a TV in the background showing an out-of-focus warm abstract scene, warm lamp light mixed with cool window light, small olive accent from a blanket, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-ps-plus-dezember-2026.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-adobe-chrome-erweiterung-ssd-schreiblast",
+      "datum": "2026-11-25T16:52:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Browser",
+        "SSD"
+      ],
+      "kategorie": "Software",
+      "titel": "Nutzerbericht: Adobe-Acrobat-Erweiterung für Chrome soll im Leerlauf rund 300 GB Schreiblast in drei Tagen verursacht haben",
+      "schlagzeile": "Schreibt Adobes Chrome-Erweiterung deine SSD voll? Nutzer misst 300 GB",
+      "kurz": "Ein Windows-11-Nutzer hat bei Chrome rund 300 GB Schreibaktivität in drei Tagen gemessen und sie auf die Adobe-Acrobat-Erweiterung zurückgeführt. Nach dem Entfernen sank die Schreiblast im Leerlauf um über 80 Prozent. Es handelt sich um einen Einzelbericht, Adobe hat sich nicht geäußert.",
+      "zusammenfassung": "Der Nutzer berichtete auf Reddit, dass sein fast untätiger PC ungewöhnlich viel schrieb, obwohl der Chrome-Cache nur 3,5 GB groß war. Ursache war laut seiner Analyse ein Service Worker von Adobe, der immer wieder rund 1 GB Cache-Daten neu anlegte. Das soll auch nachts bei geschlossenen Chrome-Fenstern passiert sein. Nach Entfernen der Erweiterung und Löschen der Daten sank die Schreiblast laut Bericht von rund 730 auf 135 MB in fünf Minuten. Wccftech weist darauf hin, dass der genutzte Windows-Zähler auch Netzwerk-Übertragungen mitzählt. Die 300 GB sind deshalb kein sicherer Wert für tatsächliche SSD-Schreibvorgänge. Schon im Mai gab es im Adobe-Forum Berichte, dass die Erweiterung auf Firmen-PCs massenhaft Logdateien erzeugte. Die Erweiterung hat laut Chrome Web Store sehr viele Nutzer. Wer prüfen will, kann unter Windows mit dem Ressourcenmonitor (resmon) im Reiter Datenträger die Schreibaktivität je Prozess ansehen. In Chrome zeigt die Seite chrome://serviceworker-internals die registrierten Service Worker. Zuletzt hatten auch Grafiktreiber von AMD und Nvidia mit übermäßigen Schreibvorgängen Schlagzeilen gemacht.",
+      "quelle": {
+        "name": "Wccftech",
+        "url": "https://wccftech.com/your-chrome-extensions-could-be-silently-wearing-out-your-ssd-adobe-acrobat-extension-implicated-in-over-300gb-of-write-activity-in-just-three-days/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Chrome",
+        "Adobe Acrobat",
+        "SSD",
+        "Schreiblast"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:52.027Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A close-up of an open laptop on a wooden desk next to a bare M.2 SSD module lying on an anti-static bag, the laptop screen showing blurred unreadable graphs, a pen and a sticky note without writing, warm late-morning daylight, small terracotta accent from a mug, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-adobe-chrome-erweiterung-ssd-schreiblast.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-nvidia-rtx50-lieferung-minus-30-leak",
+      "datum": "2026-11-25T13:44:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Nvidia",
+        "GPU"
+      ],
+      "kategorie": "Grafikkarten",
+      "zuverlaessigkeit": {
+        "stufe": "mittel",
+        "begruendung": "Ursprung ist das chinesische Händlerforum Board Channels (via VideoCardz), dazu ein Bericht der taiwanischen Commercial Times über Lieferzeiten. TechPowerUp und PCGH berichten, Nvidia hat nichts bestätigt. Die Kürzung bezieht sich laut Bericht zunächst auf China."
+      },
+      "ursprungsquelle": "Board Channels (via VideoCardz); Commercial Times",
+      "titel": "Berichte: Nvidia soll Boardpartnern 20 bis 30 Prozent weniger Gaming-GPUs liefern, RTX 60 könnte sich wegen KI-Boom und Speicherknappheit verschieben",
+      "schlagzeile": "Leak: Kürzt Nvidia die RTX-50-Lieferungen um bis zu 30 Prozent?",
+      "kurz": "Nvidia soll seinen Boardpartnern für die Monate November bis Januar 20 bis 30 Prozent weniger Gaming-GPUs zuteilen. Das berichtet das chinesische Händlerforum Board Channels, aufgegriffen von VideoCardz, TechPowerUp und PCGH. Eine taiwanische Wirtschaftszeitung bringt zudem eine mögliche Verschiebung der RTX-60-Serie ins Spiel, bestätigt ist nichts.",
+      "zusammenfassung": "Laut Board Channels hat Nvidia die Kartenhersteller bereits über die Kürzung informiert. Der Bericht betrifft ausdrücklich zunächst China, TechPowerUp hält eine Ausweitung auf andere Regionen aber für möglich. Die Commercial Times aus Taiwan schreibt unter Berufung auf Auftragsfertiger von stark gestiegenen Lieferzeiten bei KI-Hardware. Neue Bestellungen des B300 sollen 26 bis 40 Wochen dauern, beim GB300 seien es 14 bis 26 Wochen. Freie Wafer bei TSMC sollen deshalb eher in Rechenzentrumschips fließen als in Geforce-Karten. Hinzu kommt die Speicherknappheit, weil Hersteller ihre Produktion auf Server-DRAM verlagern und weniger GDDR7 übrig bleibt. Die RTX-60-Serie sollte laut Commercial Times Ende 2027 in Massenproduktion gehen, dieser Zeitplan könnte sich nun nach hinten schieben. Das passt zu älteren Gerüchten über einen Start erst 2028. Schon im Januar soll Nvidia die Zuteilung an Partner um 15 bis 20 Prozent gekürzt haben. Für Käufer würde das noch weniger RTX-50-Karten und eher steigende Preise bedeuten. Nvidia hat weder die Kürzung noch eine Verschiebung bestätigt.",
+      "quelle": {
+        "name": "TechPowerUp",
+        "url": "https://www.techpowerup.com/355196/nvidia-cuts-rtx-50-series-supply-as-rtx-60-series-faces-possible-delay-per-reports"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/Grafikkarten-Grafikkarte-97980/News/Haelt-Nvidia-RTX-GPUs-absichtlich-zurueck-1561038/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "RTX 50",
+        "RTX 60",
+        "GDDR7",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:50.576Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A small graphics card distribution warehouse: a metal shelf with only a few remaining plain unbranded boxed graphics cards and many empty gaps, one unboxed generic graphics card with two visible axial fans lying on a cardboard box in the foreground, a clipboard with blank paper, warm afternoon light through a high window, muted terracotta accent from a packing tape roll, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-nvidia-rtx50-lieferung-minus-30-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-core-ultra-4000-specs-leak",
+      "datum": "2026-11-25T13:36:00+01:00",
+      "label": "Leak",
+      "bereich": "hardware",
+      "themen": [
+        "Intel",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "zuverlaessigkeit": {
+        "stufe": "mittel-hoch",
+        "begruendung": "VideoCardz beruft sich auf ein Intel-Dokument zu Qualification Samples (C1-Stepping); TechPowerUp, PCGH und ComputerBase greifen es auf. Finale Taktraten können sich noch ändern, Intel hat nichts bestätigt."
+      },
+      "ursprungsquelle": "VideoCardz (Intel-Dokument)",
+      "titel": "Intel Core Ultra 4000 (Nova Lake-S): Geleaktes Dokument nennt sieben Desktop-CPUs mit bis zu 28 Kernen, 144 MB L3-Cache und 5,5 GHz",
+      "schlagzeile": "Leak: Core Ultra 4000 mit 144 MB Cache, aber nur 5,5 GHz?",
+      "kurz": "Ein von VideoCardz veröffentlichtes Intel-Dokument soll sieben Nova-Lake-Desktop-CPUs zeigen. Spitzenmodell wäre der Core Ultra 9 4970K BFC mit 28 Kernen, 144 MB L3-Cache und höchstens 5,5 GHz. Die Daten stammen von Qualification Samples und sind nicht bestätigt.",
+      "zusammenfassung": "Laut der Tabelle bestehen die großen Modelle aus 8 Performance-, 16 Effizienz- und 4 Low-Power-Kernen. Der Zusatz BFC steht für die Varianten mit großem L3-Cache von bis zu 144 MB, die Modelle ohne BFC kommen auf 30 bis 36 MB. Darunter folgen der Core Ultra 9 4950K mit 5,4 GHz, zwei Core Ultra 7 mit 24 Kernen und 5,2 GHz sowie zwei Core Ultra 5 mit 22 Kernen und 5,1 GHz. Ein Sonderfall ist der Core Ultra 9 4900 BFC mit 22 Kernen und nur 65 Watt, alle anderen Modelle haben 125 Watt Basisleistung. Alle Chips sollen DDR5-8000 unterstützen. ComputerBase merkt an, dass 5,5 GHz weniger wäre als die 5,7 GHz der aktuellen Core-Ultra-200K-Generation. Weil bei den Testmustern Turbo 2.0 und 3.0 gleich hoch liegen, könnte das finale Modell noch etwas zulegen, das ist aber Spekulation. Die Chips sollen bereits im C1-Stepping vorliegen, also größere Überarbeitungen hinter sich haben. Passend dazu soll Intel Ende Februar ein Desktop-Event in Berlin planen, ComputerBase hält einen Marktstart Mitte bis Ende März für realistisch. Die Varianten mit bis zu 52 Kernen sind in dieser Liste nicht enthalten. Intel hat weder Daten noch Termine bestätigt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/prozessoren/intel-core-ultra-4000-bfc-geruechte-melden-start-mit-nur-max-5-5-ghz-im-februar-2027.100515/"
+      },
+      "weitere_links": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/355195/intel-core-ultra-4000-nova-lake-s-preliminary-specs-leaked"
+        },
+        {
+          "name": "PC Games Hardware (PCGH)",
+          "url": "https://www.pcgameshardware.de/Intel-Core-Ultra-Architektur-280887/News/4000-Leak-neue-CPUs-geleakt-Spezifikationen-1561049/"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "Core Ultra 4000",
+        "LGA 1954",
+        "Leak"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:50.715Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Close-up of an engineer's workbench: a generic modern desktop processor with a blank metal heatspreader resting in an anti-static tray, next to an empty CPU socket on an unbranded motherboard section, tweezers and a thermal paste syringe nearby, warm late-morning window light, small dusty teal accent from a desk mat, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-core-ultra-4000-specs-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-25-steam-wero-zahlung",
+      "datum": "2026-11-25T12:02:00+01:00",
+      "label": "News",
+      "bereich": "games",
+      "themen": [
+        "Steam"
+      ],
+      "kategorie": "Spiele-Stores",
+      "titel": "Steam bietet in Deutschland den europäischen Bezahldienst Wero an, Sparkassen-Kunden bekommen zudem One-Click-Zahlungen",
+      "schlagzeile": "Steam nimmt jetzt Wero: Europäischer Bezahldienst im Shop aufgetaucht",
+      "kurz": "Der europäische Bezahldienst Wero taucht in Deutschland bei Steam als Zahlungsmethode auf. Das berichten Dr. Windows und Caschys Blog. Für Sparkassen-Kunden kommen außerdem neue Funktionen wie One-Click-Zahlungen.",
+      "zusammenfassung": "Wero ist der gemeinsame Bezahldienst europäischer Banken und soll eine Alternative zu PayPal und Kreditkarten sein. Laut Dr. Windows ist Wero bei Steam zumindest in Deutschland bereits als Bezahlmethode wählbar. Ob es auch in Österreich oder anderen Ländern angeboten wird, geht aus den Berichten nicht hervor. Seit September lassen sich mit Wero auch wiederkehrende Zahlungen wie Abos abwickeln. Seit Anfang November gibt es einen Käuferschutz. Neu sind One-Click-Zahlungen, bei denen man die Zahlungsdaten nur einmal beim Händler hinterlegt. Sparkassen-Kunden sollen Wero bald auch über die reguläre Wero-App nutzen können. Eine offizielle Ankündigung von Valve liegt uns nicht vor.",
+      "quelle": {
+        "name": "Dr. Windows",
+        "url": "https://www.drwindows.de/news/wero-neuerungen-fuer-sparkassen-kunden-steam-nun-auch-mit-dabei"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Steam",
+        "Wero",
+        "Bezahlen",
+        "Valve"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T20:59:51.846Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A desk at home in the evening: a laptop with an out-of-focus game store page in warm colors, a smartphone lying next to it with a blank glowing payment confirmation screen, a generic game controller and a cup of tea, warm lamp light, small dusty teal accent from a notebook, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-steam-wero-zahlung.webp",
+        "ki_generiert": true
+      }
+    },
     {
       "id": "2026-11-25-mario-kart-world-1-9-0",
       "datum": "2026-11-25T11:23:00+01:00",
@@ -522,6 +1023,47 @@
       }
     },
     {
+      "id": "2026-11-25-amd-inception-hackergruppe",
+      "datum": "2026-11-24T22:00:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Sicherheit",
+        "AMD"
+      ],
+      "kategorie": "Sicherheit",
+      "titel": "Hackergruppe Inception behauptet Datendiebstahl bei AMD; ReversingLabs sieht Nintendo, Activision Blizzard, Riot und Twitch als mögliche Ziele",
+      "schlagzeile": "Hackergruppe will AMD-Daten haben – auch Nintendo im Visier?",
+      "kurz": "Eine Gruppe namens Inception behauptet, interne Daten von AMD erbeutet zu haben. Sicherheitsforscher von ReversingLabs haben weitere Domains der Kampagne gefunden, die auf Nintendo, Activision Blizzard, Riot Games und Twitch zielen könnten. Bestätigt ist der Datendiebstahl bei AMD bisher nicht.",
+      "zusammenfassung": "Laut PCGH trat Inception am 17. November erstmals auf und listete auf einer Leak-Seite im Darknet fünf US-Unternehmen, darunter AMD und PepsiCo. Bis zum 21. November kamen AutoZone und Lucid Motors dazu. ReversingLabs hat am 23. November eine Untersuchung veröffentlicht und mehrere Dutzend weitere Domains mit der Kampagne in Verbindung gebracht. Die Angreifer setzen demnach auf Vishing, also Betrugsanrufe: Mitarbeiter sollen am Telefon dazu gebracht werden, Zugangsdaten auf gefälschten Anmeldeseiten einzugeben und Anfragen zur Mehr-Faktor-Anmeldung zu bestätigen. Ziel sind Single-Sign-on-Konten, über die Angreifer Zugriff auf viele interne Dienste bekommen könnten. Okta verfolgt seit März eine Gruppe namens O-UNC-053, die zuvor mit ShinyHunters in Verbindung gebracht wurde, und vermutet, dass sie sich einer neuen Gruppe angeschlossen hat oder unter neuem Namen auftritt. Ob sie hinter Inception steckt, ist offen. Hinweise auf betroffene Kundendaten, manipulierte Radeon-Treiber oder eine Gefahr für Ryzen-Nutzer gibt es laut PCGH nicht. Eine Stellungnahme von AMD steht aus. Dass Firmen auf der Liste möglicher Ziele stehen, heißt nicht, dass sie tatsächlich erfolgreich angegriffen wurden.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/AMD-Hackerangriff-Inception-Nintendo-Blizzard-1560973/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "AMD",
+        "Hacker",
+        "Inception",
+        "Vishing",
+        "Nintendo",
+        "Activision Blizzard",
+        "Sicherheit"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-25T11:13:13.204Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A smartphone lying face up on an office desk next to a laptop, the phone screen showing a blurred incoming call without readable text, the laptop showing a softly blurred generic login page, a corporate badge without any printing and a coffee cup, warm late-afternoon window light, a small muted terracotta accent, documentary photo, no text, no logos.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-25-amd-inception-hackergruppe.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-25-pop-os-26-04-lts",
       "datum": "2026-11-24T22:00:00+01:00",
       "label": "News",
@@ -566,47 +1108,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A compact desktop PC and a monitor on a light wooden desk in a sunny home office, the monitor showing a softly blurred colourful desktop wallpaper of mountains with tiled windows that are unreadable, a gamepad and a USB stick next to the keyboard, warm daylight, a small muted orange accent from a mug, documentary photo, no text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-25-pop-os-26-04-lts.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-25-amd-inception-hackergruppe",
-      "datum": "2026-11-24T22:00:00+01:00",
-      "label": "News",
-      "bereich": "software",
-      "themen": [
-        "Sicherheit",
-        "AMD"
-      ],
-      "kategorie": "Sicherheit",
-      "titel": "Hackergruppe Inception behauptet Datendiebstahl bei AMD; ReversingLabs sieht Nintendo, Activision Blizzard, Riot und Twitch als mögliche Ziele",
-      "schlagzeile": "Hackergruppe will AMD-Daten haben – auch Nintendo im Visier?",
-      "kurz": "Eine Gruppe namens Inception behauptet, interne Daten von AMD erbeutet zu haben. Sicherheitsforscher von ReversingLabs haben weitere Domains der Kampagne gefunden, die auf Nintendo, Activision Blizzard, Riot Games und Twitch zielen könnten. Bestätigt ist der Datendiebstahl bei AMD bisher nicht.",
-      "zusammenfassung": "Laut PCGH trat Inception am 17. November erstmals auf und listete auf einer Leak-Seite im Darknet fünf US-Unternehmen, darunter AMD und PepsiCo. Bis zum 21. November kamen AutoZone und Lucid Motors dazu. ReversingLabs hat am 23. November eine Untersuchung veröffentlicht und mehrere Dutzend weitere Domains mit der Kampagne in Verbindung gebracht. Die Angreifer setzen demnach auf Vishing, also Betrugsanrufe: Mitarbeiter sollen am Telefon dazu gebracht werden, Zugangsdaten auf gefälschten Anmeldeseiten einzugeben und Anfragen zur Mehr-Faktor-Anmeldung zu bestätigen. Ziel sind Single-Sign-on-Konten, über die Angreifer Zugriff auf viele interne Dienste bekommen könnten. Okta verfolgt seit März eine Gruppe namens O-UNC-053, die zuvor mit ShinyHunters in Verbindung gebracht wurde, und vermutet, dass sie sich einer neuen Gruppe angeschlossen hat oder unter neuem Namen auftritt. Ob sie hinter Inception steckt, ist offen. Hinweise auf betroffene Kundendaten, manipulierte Radeon-Treiber oder eine Gefahr für Ryzen-Nutzer gibt es laut PCGH nicht. Eine Stellungnahme von AMD steht aus. Dass Firmen auf der Liste möglicher Ziele stehen, heißt nicht, dass sie tatsächlich erfolgreich angegriffen wurden.",
-      "quelle": {
-        "name": "PC Games Hardware (PCGH)",
-        "url": "https://www.pcgameshardware.de/Sicherheit-Thema-229955/News/AMD-Hackerangriff-Inception-Nintendo-Blizzard-1560973/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "AMD",
-        "Hacker",
-        "Inception",
-        "Vishing",
-        "Nintendo",
-        "Activision Blizzard",
-        "Sicherheit"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-25T11:13:13.204Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A smartphone lying face up on an office desk next to a laptop, the phone screen showing a blurred incoming call without readable text, the laptop showing a softly blurred generic login page, a corporate badge without any printing and a coffee cup, warm late-afternoon window light, a small muted terracotta accent, documentary photo, no text, no logos.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-25-amd-inception-hackergruppe.webp",
         "ki_generiert": true
       }
     },
@@ -746,51 +1247,6 @@
       }
     },
     {
-      "id": "2026-11-24-rx-9060-xt-taktrekord-4837-mhz",
-      "datum": "2026-11-24T19:15:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "GPU",
-        "AMD",
-        "Übertakten"
-      ],
-      "kategorie": "Grafikkarten",
-      "titel": "AMD-Manager Jack Huynh übertaktet mit Overclocker Bill Alverson eine Radeon RX 9060 XT per Flüssigstickstoff auf 4.837 MHz – neuer GPU-Taktrekord, aber noch nicht verifiziert",
-      "schlagzeile": "Fast 5 GHz: AMD-Chef treibt Radeon RX 9060 XT auf Rekordtakt",
-      "kurz": "AMDs Grafik- und PC-Spartenchef Jack Huynh hat zusammen mit Overclocker Bill Alverson eine Radeon RX 9060 XT mit Flüssigstickstoff auf 4.837 MHz gebracht. Das wäre der höchste je erreichte Grafikchip-Takt. Bis zur 5-GHz-Marke fehlen nur noch 163 MHz, offiziell verifiziert ist der Lauf aber noch nicht.",
-      "zusammenfassung": "Der Rekordversuch fand laut PCGH bereits am 15. November im neu eröffneten Micro Center in Austin vor Publikum statt, publik machte Huynh ihn erst am 24. November auf X. Laut dem Foto im OC World Record Museum von SkatterBencher zeigte GPU-Z dabei minus 49 Grad Celsius, 1,434 Volt Kernspannung und nur 62 Watt Board Power. Der Vorsprung auf die bisherige Bestmarke von 4.789 MHz aus dem Juni beträgt lediglich 48 MHz. Es ist bereits der dritte Taktrekord in diesem Jahr, jedes Mal mit einer RX 9060 XT und mit Alverson. Als verifiziert führt das Museum weder diesen Lauf noch die beiden Rekorde vom Juni, weil Quellenlink und GPU-Z-Validierung fehlen. Mit Alltags-Übertakten hat das nichts zu tun: AMD gibt für den RDNA-4-Chip bis zu 3.130 MHz Boost an, mit Luft oder Wasser sind laut PCGH meist 3,3 bis 3,5 GHz realistisch. Die 4-GHz-Marke hatte im Juli 2023 eine GeForce RTX 4090 als erste Grafikkarte geknackt. Seit Juni steht laut Museum wieder eine Radeon an der Spitze der Rekordliste. Wccftech berichtet zusätzlich, dass der frühere Rekordhalter Splave beim Termin in Austin anwesend war.",
-      "quelle": {
-        "name": "PC Games Hardware (PCGH)",
-        "url": "https://www.pcgameshardware.de/Radeon-RX-9060-XT-16GB-Grafikkarte-281275/News/GPU-Weltrekord-4-84-GHz-AMD-Jack-Huyn-1560980/"
-      },
-      "weitere_links": [
-        {
-          "name": "Wccftech",
-          "url": "https://wccftech.com/amd-jack-huynh-breaks-gpu-world-record-by-pushing-radeon-rx-9060-xt-to-a-whopping-4-837-ghz/"
-        }
-      ],
-      "tags": [
-        "Radeon RX 9060 XT",
-        "Übertakten",
-        "LN2",
-        "Weltrekord",
-        "RDNA 4"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-24T19:46:25.328Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An extreme overclocking bench at a busy computer store event: a bare graphics card with two visible axial fans removed and a thick copper liquid-nitrogen pot mounted on the chip, white frost and a soft cloud of vapour around it, a gloved hand pouring from a steel thermos flask, insulating foam around the card, blurred onlookers in the background, warm indoor light with a small cold blue accent from the vapour, documentary photo.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-24-rx-9060-xt-taktrekord-4837-mhz.webp",
-        "ki_generiert": true
-      }
-    },
-    {
       "id": "2026-11-25-intel-desktop-event-berlin-leak",
       "datum": "2026-11-24T19:15:00+01:00",
       "label": "Leak",
@@ -837,6 +1293,51 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An empty modern conference hall being prepared for a tech press event: rows of chairs, a stage with a large blank dark screen, a table in the foreground with a desktop CPU in a clear plastic tray next to a closed laptop and a lanyard without any printing, tall windows with a grey winter city view, warm stage lights mixing with cool daylight, small muted teal accent from a chair, documentary photo, no text, no logos.",
       "bild": {
         "datei": "assets/img/news/2026-11-25-intel-desktop-event-berlin-leak.webp",
+        "ki_generiert": true
+      }
+    },
+    {
+      "id": "2026-11-24-rx-9060-xt-taktrekord-4837-mhz",
+      "datum": "2026-11-24T19:15:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "GPU",
+        "AMD",
+        "Übertakten"
+      ],
+      "kategorie": "Grafikkarten",
+      "titel": "AMD-Manager Jack Huynh übertaktet mit Overclocker Bill Alverson eine Radeon RX 9060 XT per Flüssigstickstoff auf 4.837 MHz – neuer GPU-Taktrekord, aber noch nicht verifiziert",
+      "schlagzeile": "Fast 5 GHz: AMD-Chef treibt Radeon RX 9060 XT auf Rekordtakt",
+      "kurz": "AMDs Grafik- und PC-Spartenchef Jack Huynh hat zusammen mit Overclocker Bill Alverson eine Radeon RX 9060 XT mit Flüssigstickstoff auf 4.837 MHz gebracht. Das wäre der höchste je erreichte Grafikchip-Takt. Bis zur 5-GHz-Marke fehlen nur noch 163 MHz, offiziell verifiziert ist der Lauf aber noch nicht.",
+      "zusammenfassung": "Der Rekordversuch fand laut PCGH bereits am 15. November im neu eröffneten Micro Center in Austin vor Publikum statt, publik machte Huynh ihn erst am 24. November auf X. Laut dem Foto im OC World Record Museum von SkatterBencher zeigte GPU-Z dabei minus 49 Grad Celsius, 1,434 Volt Kernspannung und nur 62 Watt Board Power. Der Vorsprung auf die bisherige Bestmarke von 4.789 MHz aus dem Juni beträgt lediglich 48 MHz. Es ist bereits der dritte Taktrekord in diesem Jahr, jedes Mal mit einer RX 9060 XT und mit Alverson. Als verifiziert führt das Museum weder diesen Lauf noch die beiden Rekorde vom Juni, weil Quellenlink und GPU-Z-Validierung fehlen. Mit Alltags-Übertakten hat das nichts zu tun: AMD gibt für den RDNA-4-Chip bis zu 3.130 MHz Boost an, mit Luft oder Wasser sind laut PCGH meist 3,3 bis 3,5 GHz realistisch. Die 4-GHz-Marke hatte im Juli 2023 eine GeForce RTX 4090 als erste Grafikkarte geknackt. Seit Juni steht laut Museum wieder eine Radeon an der Spitze der Rekordliste. Wccftech berichtet zusätzlich, dass der frühere Rekordhalter Splave beim Termin in Austin anwesend war.",
+      "quelle": {
+        "name": "PC Games Hardware (PCGH)",
+        "url": "https://www.pcgameshardware.de/Radeon-RX-9060-XT-16GB-Grafikkarte-281275/News/GPU-Weltrekord-4-84-GHz-AMD-Jack-Huyn-1560980/"
+      },
+      "weitere_links": [
+        {
+          "name": "Wccftech",
+          "url": "https://wccftech.com/amd-jack-huynh-breaks-gpu-world-record-by-pushing-radeon-rx-9060-xt-to-a-whopping-4-837-ghz/"
+        }
+      ],
+      "tags": [
+        "Radeon RX 9060 XT",
+        "Übertakten",
+        "LN2",
+        "Weltrekord",
+        "RDNA 4"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-24T19:46:25.328Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An extreme overclocking bench at a busy computer store event: a bare graphics card with two visible axial fans removed and a thick copper liquid-nitrogen pot mounted on the chip, white frost and a soft cloud of vapour around it, a gloved hand pouring from a steel thermos flask, insulating foam around the card, blurred onlookers in the background, warm indoor light with a small cold blue accent from the vapour, documentary photo.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-24-rx-9060-xt-taktrekord-4837-mhz.webp",
         "ki_generiert": true
       }
     },
@@ -3038,6 +3539,47 @@
       }
     },
     {
+      "id": "2026-11-22-ram-preise-2027-prognose",
+      "datum": "2026-11-22T14:30:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "RAM",
+        "SSD",
+        "Preise"
+      ],
+      "kategorie": "Speicher",
+      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
+      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
+      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
+      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
+      "quelle": {
+        "name": "PC Games",
+        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
+      },
+      "weitere_links": [],
+      "tags": [
+        "RAM",
+        "DDR5",
+        "SSD",
+        "Speicherpreise",
+        "Prognose",
+        "BNK"
+      ],
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-22T21:44:58.552Z"
+      },
+      "ki_unterstuetzt": true,
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
+      "bild": {
+        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
+        "ki_generiert": true
+      }
+    },
+    {
       "id": "2026-11-22-tsmc-lieferstopp-16nm-regel",
       "datum": "2026-11-22T14:30:00+01:00",
       "label": "News",
@@ -3081,47 +3623,6 @@
       "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A quiet semiconductor logistics room: several sealed unbranded wafer shipping boxes and plain cardboard cartons stacked on a steel trolley next to a closed roll-up door, a clipboard with blank paper resting on top, a single silicon wafer in a clear carrier reflecting soft light, a muted terracotta strap as accent, warm natural late-afternoon light through a high window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
       "bild": {
         "datei": "assets/img/news/2026-11-22-tsmc-lieferstopp-16nm-regel.webp",
-        "ki_generiert": true
-      }
-    },
-    {
-      "id": "2026-11-22-ram-preise-2027-prognose",
-      "datum": "2026-11-22T14:30:00+01:00",
-      "label": "News",
-      "bereich": "hardware",
-      "themen": [
-        "RAM",
-        "SSD",
-        "Preise"
-      ],
-      "kategorie": "Speicher",
-      "titel": "Analyse des koreanischen Finanzhauses BNK: Volle Lager bei Händlern und Herstellern könnten RAM-Preise ab Mitte 2027 deutlich drücken",
-      "schlagzeile": "Hoffnung für Aufrüster: Analysten erwarten ab Mitte 2027 fallende RAM-Preise",
-      "kurz": "Das südkoreanische Finanzhaus BNK Investment & Securities rechnet ab Mitte 2027 mit deutlich sinkenden Preisen für Speicherchips. Grund sollen überfüllte Lager bei Händlern und Herstellern sein, die aus Angst vor Engpässen vorgesorgt haben. Es handelt sich um eine Prognose, nicht um gesunkene Ladenpreise.",
-      "zusammenfassung": "Laut PC Games geht BNK-Analyst Lee Min-hee davon aus, dass die Nachfrage der Endkunden ihren Höhepunkt bereits überschritten hat. Für dieses Jahr erwartet er, dass die DRAM-Nachfrage gemessen an der Speichermenge um 24 Prozent wächst, die ausgelieferte Menge aber um 38 Prozent. Das wäre laut der Analyse der stärkste Zuwachs seit 2016. Weil viele Firmen für 2027 noch knappere Lieferungen erwarten, sollen sich bei Händlern und Abnehmern überschüssige Bestände angesammelt haben. Bis zum dritten Quartal 2027 rechnet BNK damit, dass diese Vorräte abgebaut werden, was weniger neue Bestellungen und Druck auf die Preise bedeutet. Profitieren könnten vor allem DDR5-Kits und SSDs. Eine Analyse der Bank of America sieht zudem bereits um 20 Prozent gefallene NAND-Preise im kurzfristigen Handel. Solche Rückgänge kommen aber nicht sofort bei den Laufwerken im Laden an. PC- und Smartphone-Hersteller hatten wegen der hohen Speicherkosten zuletzt Geräte mit weniger Speicher ausgestattet oder Preise erhöht. Für Speicherhersteller wie SK Hynix würden fallende Preise geringere Margen bedeuten. Prognosen von Analysten sind unsicher, kurzfristig bleiben RAM und SSDs teuer.",
-      "quelle": {
-        "name": "PC Games",
-        "url": "https://www.pcgames.de/Hardware-Thema-130320/News/RAM-2027-Prognose-Deutet-Auf-Preisfall-1560773/"
-      },
-      "weitere_links": [],
-      "tags": [
-        "RAM",
-        "DDR5",
-        "SSD",
-        "Speicherpreise",
-        "Prognose",
-        "BNK"
-      ],
-      "approved": true,
-      "freigabe": {
-        "status": "freigegeben",
-        "von": "M-TEC",
-        "am": "2026-11-22T21:44:58.552Z"
-      },
-      "ki_unterstuetzt": true,
-      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. Several unbranded DDR5 memory modules with plain heat spreaders and a bare M.2 SSD lying on a wooden workbench next to an open desktop PC case with an empty memory slot visible on the motherboard, a small stack of plain cardboard boxes in the background, a muted dusty teal anti-static bag as accent, warm natural late-morning daylight from a window, natural rich colors, shallow depth of field, documentary photo. No readable text, no logos, no faces.",
-      "bild": {
-        "datei": "assets/img/news/2026-11-22-ram-preise-2027-prognose.webp",
         "ki_generiert": true
       }
     },
