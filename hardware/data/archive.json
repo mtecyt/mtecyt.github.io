@@ -2,10 +2,86 @@
   "_info": {
     "beschreibung": "News & Leaks-Archiv: Einträge, die älter als 7 Tage sind. Bilder werden beim Archivieren gelöscht (Text bleibt).",
     "regel": "älter als 7x24 h ab 'datum'; der Ticker behält mindestens die 4 neuesten Einträge",
-    "stand": "2026-11-25T07:24:38.808Z",
+    "stand": "2026-11-25T10:54:27.838Z",
     "zeitzone": "Europe/Vienna"
   },
   "eintraege": [
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:27.443Z"
+      },
+      "id": "2026-11-18-windows-server-2028-vorschau",
+      "datum": "2026-11-18T11:01:00+01:00",
+      "label": "News",
+      "bereich": "software",
+      "themen": [
+        "Windows"
+      ],
+      "kategorie": "Windows",
+      "titel": "Microsoft veröffentlicht eine öffentliche Vorschau von Windows Server 2028 mit härterer Standardabsicherung, lokalem KI-Betrieb und neuer Speichertechnik, nennt aber noch keinen Termin für die fertige Version",
+      "schlagzeile": "Windows Server 2028 ist als öffentliche Vorschau da – ohne Fertigtermin",
+      "kurz": "Microsoft hat eine öffentliche Vorschau von Windows Server 2028 freigegeben. Sie zielt auf eine härtere Standardabsicherung, lokalen KI-Betrieb und schnelleren Speicher, etwa mit nativem NVMe. Einen Termin für die fertige Version nennt der Konzern nicht.",
+      "zusammenfassung": "Das schreibt Microsoft im Blog der Windows-Server-Techcommunity, berichtet heise. Interessierte können sich außerdem für das Technology Adoption Program bewerben. Damit ist zugleich klar, dass Microsoft weiter ein Serverbetriebssystem für den Einsatz im eigenen Rechenzentrum anbietet und nicht nur Cloud-Dienste. Zur Sicherheit soll eine standardmäßig gehärtete Server-Core-Konfiguration gehören, dazu eine neue Security-Baseline, Trusted Launch für Generation-2-VMs und der Beginn der Unterstützung für vertrauliche virtuelle Maschinen auf passender Hardware vor Ort. Geplant sind außerdem automatische Zertifikate und Vorbereitungen für Post-Quanten-Kryptografie. Mehr Tempo versprechen ein standardmäßig aktiver nativer NVMe-Stapel, NVMe über TCP und RDMA sowie die Möglichkeit, von ReFS-Laufwerken zu starten. Die Serververwaltung soll als Vorschau in Microsoft Intune einziehen, der Virtualisierungsmodus des Windows Admin Center ist allgemein verfügbar. Im Bereich KI spricht Microsoft von „hybrider Intelligenz“: Inferenz soll näher an den Daten oder unter eigener Kontrolle laufen können, unter anderem mit Foundry Local, Windows ML, vLLM und llama.cpp. Als Hardware-Vorschau nennt Microsoft AMDs Instinct-Karte MI350P für das erste Halbjahr 2027. Microsoft eXecution Containers sollen lokale Inferenz zusätzlich isolieren. Bleibt es beim üblichen Rhythmus, könnte die fertige Version in etwa einem Jahr erscheinen; verbindlich ist das nicht. Die Vorschau läuft über das Windows-Insider-Programm für Server.",
+      "quelle": {
+        "name": "heise online",
+        "url": "https://www.heise.de/news/Windows-Server-2028-Oeffentliche-Vorschau-verfuegbar-11528845.html"
+      },
+      "weitere_links": [],
+      "tags": [
+        "Windows Server 2028",
+        "Microsoft",
+        "NVMe",
+        "Intune",
+        "KI"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. A clean on-premises server rack in a small business closet, warm daylight from a high window, unbranded servers with soft status lights, a blank-screen KVM monitor on a folding tray, an olive cloth on the tray as accent, no readable text, no logos, no brand markings, no people.",
+      "archiviert_am": "2026-11-25T10:54:27.837Z"
+    },
+    {
+      "ki_unterstuetzt": true,
+      "approved": true,
+      "freigabe": {
+        "status": "freigegeben",
+        "von": "M-TEC",
+        "am": "2026-11-18T18:03:26.478Z"
+      },
+      "id": "2026-11-18-amd-ces-2027-zen6-teaser",
+      "datum": "2026-11-18T11:00:00+01:00",
+      "label": "News",
+      "bereich": "hardware",
+      "themen": [
+        "AMD",
+        "CPU"
+      ],
+      "kategorie": "Prozessoren",
+      "titel": "AMD kündigt einen Auftritt zur CES 2027 am 5. Januar in Las Vegas an; ein Teaser zeigt ein sehr dünnes Notebook, offizielle Chipdetails fehlen noch",
+      "schlagzeile": "AMD macht CES-2027-Auftritt fest – Zen 6 für Notebooks wird erwartet",
+      "kurz": "AMD hat einen Auftritt zur CES 2027 in Las Vegas fest zugesagt. Der Termin ist der 5. Januar 2027 um 10 Uhr Ortszeit, 19 Uhr mitteleuropäischer Zeit. Ein Teaser zeigt ein sehr dünnes, leicht aufgeklapptes Notebook; welche Chips AMD genau vorstellt, ist noch nicht bestätigt.",
+      "zusammenfassung": "Den Termin nannte AMD-Manager Jack Huynh am 17. November auf X, berichtet ComputerBase; auch PCGH greift die Ankündigung auf. Huynh schreibt von einer „nächsten Ära des Rechnens“ und will auf der CES in der Mandalay Bay einen Ausblick zeigen. Das beigefügte Bild deutet auf besonders flache Notebooks hin. In den vergangenen Jahren hat AMD zur CES typischerweise neue Mobilprozessoren vorgestellt, ein Verkaufsstart folgt oft erst Monate später. ComputerBase verknüpft den Teaser mit den bereits bekannten Codenamen Medusa Point für kommende Notebook-Chips und mit inoffiziellen Sample-Listungen der vergangenen Wochen, etwa zu 10-, 8- und 6-Kern-Varianten. Diese Konfigurationen und Takte sind nicht von AMD bestätigt. Ebenso unbestätigt ist, ob zur CES auch Desktop-Ableger mit Zen 6 gezeigt werden; PCGH wirft diese Frage auf, eine offizielle Antwort gibt es nicht. Auch Berichte über zusätzliche sehr sparsame Kerne unterhalb von Zen 6 und Zen 6c bleiben vorerst Spekulation. Bis zum 5. Januar sind also vor allem der Termin und der Notebook-Teaser belastbar, technische Daten erst, wenn AMD sie selbst nennt.",
+      "quelle": {
+        "name": "ComputerBase",
+        "url": "https://www.computerbase.de/news/prozessoren/medusa-point-und-co-amd-teasert-neue-notebook-chips-fuer-ces-2027-an.100382/"
+      },
+      "weitere_links": [
+        {
+          "name": "PC Games Hardware",
+          "url": "https://www.pcgameshardware.de/AMD-Zen-Architektur-261795/News/Zen-6-Desktop-Prozessoren-CES-2027-1560410/"
+        }
+      ],
+      "tags": [
+        "AMD",
+        "CES 2027",
+        "Zen 6",
+        "Medusa Point",
+        "Notebook"
+      ],
+      "img_prompt": "Documentary hardware photograph, as shot by a tech journalist for a hardware review: real camera look (full-frame mirrorless camera, 35mm or 50mm lens at f/2.8, natural shallow depth of field), warm natural daylight from a window (late-morning sun, gently golden), natural rich colors with healthy saturation, warm honey-toned wood and paper, one small muted accent color in the scene (dusty teal, terracotta or olive object), colors like a well-exposed photo straight from a good camera, not desaturated, not washed out, not grey, realistic materials with fine dust, fingerprints, small scratches and slight wear, ordinary real-world surroundings slightly out of focus, calm uncluttered composition with the subject slightly off-center, mild lens vignetting and subtle sensor noise, not retouched. No neon, no glow effects, no glossy CGI or 3D-render look, no floating objects, no impossible or nonsensical details, no visible text, letters, numbers, logos, brand names or readable labels anywhere (all stickers and screens blank or unreadably out of focus), no people's faces. 16:9 landscape. An ultra-thin unbranded silver laptop standing slightly open on a light oak desk beside a window, blank dark screen with no logos, a closed notebook and a terracotta ceramic cup as muted accent, warm late-morning daylight, shallow depth of field, no people, no readable text, no brand markings.",
+      "archiviert_am": "2026-11-25T10:54:27.838Z"
+    },
     {
       "ki_unterstuetzt": true,
       "approved": true,
